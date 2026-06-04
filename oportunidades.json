@@ -1,12 +1,14 @@
 {
-  "generado": "2026-06-04T04:55:58Z",
-  "total": 12,
+  "generado": "2026-06-04T05:06:34Z",
+  "total": 11,
   "palabras_clave": [
     "impresion 3d",
-    "filamento",
     "prototipo",
     "plastico",
-    "fabricacion"
+    "fabricacion",
+    "anatomico",
+    "fantomas",
+    "galvano"
   ],
   "regiones": [
     13
@@ -102,28 +104,6 @@
       "total_ofertas": 0,
       "productos": [],
       "url_detalle_api": "/v2/compra-agil/1057498-1499-COT26"
-    },
-    {
-      "codigo": "564162-436-COT26",
-      "nombre": "Reactivos, puntas azules, papel aluminio y filamento",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "UNIVERSIDAD DE SANTIAGO DE CHILE",
-      "rut_organismo": "60.911.000-7",
-      "unidad_compra": "VICERRECTORIA DE INVESTIGACION Y DESARROLLO",
-      "region": 13,
-      "region_nombre": "Metropolitana",
-      "monto_clp": 2133670,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-06-02 10:27",
-      "fecha_cierre": "2026-06-04 10:48",
-      "fecha_ultimo_cambio": "2026-06-03T10:45:01.540Z",
-      "palabras_clave_match": [
-        "filamento"
-      ],
-      "total_ofertas": 5,
-      "productos": [],
-      "url_detalle_api": "/v2/compra-agil/564162-436-COT26"
     },
     {
       "codigo": "1718-589-COT26",
