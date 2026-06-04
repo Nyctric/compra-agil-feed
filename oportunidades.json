@@ -1,5 +1,5 @@
 {
-  "generado": "2026-06-04T05:09:09Z",
+  "generado": "2026-06-04T05:11:25Z",
   "total": 56,
   "palabras_clave": [
     "impresion 3d",
@@ -7,8 +7,8 @@
     "prototipo",
     "plastico",
     "fabricacion",
-    "anatomico",
-    "modelo"
+    "modelo",
+    "anatomico"
   ],
   "regiones": [
     13
@@ -102,18 +102,8 @@
         "impresion 3d"
       ],
       "total_ofertas": 0,
-      "productos": [
-        {
-          "nombre": "Construcción de obras civiles",
-          "descripcion": "- Provisión e instalación de 95 metros lineales aproximados de cerco malla acmafor 3d.\n- Dos portones de dos hojas c/u, malla acmafor 3 metros c/u.\n- Limpieza y desmalezado por donde va el cierre.\n- Limpieza, retiro de basura, vegetación y restos de materiales.\n- Ver fotos adjuntas.\n- Importante leer las especificaciones de la compra ágil adjunta.",
-          "cantidad": 1,
-          "unidad": "000"
-        }
-      ],
-      "url_detalle_api": "/v2/compra-agil/5518-47-COT26",
-      "descripcion": "- Provisión e instalación de 95  metros lineales aproximados de cerco malla acmafor 3d.\n- Dos portones de dos hojas c/u, malla acmafor 3 metros c/u.\n- Limpieza y desmalezado por donde va el cierre.\n- Limpieza, retiro de basura, vegetación y restos de materiales.\n- Ver fotos adjuntas.\n- Importante leer las especificaciones de la compra ágil adjunta.",
-      "direccion_entrega": "Paul Harris 9037, comuna de Las Condes.",
-      "plazo_entrega_dias": 5
+      "productos": [],
+      "url_detalle_api": "/v2/compra-agil/5518-47-COT26"
     },
     {
       "codigo": "1285526-26-COT26",
@@ -178,18 +168,8 @@
         "impresion 3d"
       ],
       "total_ofertas": 0,
-      "productos": [
-        {
-          "nombre": "Objetos de cristal",
-          "descripcion": "20 Figuras de cristal con imagen en 3D para el Senado. ver archivo adjunto.",
-          "cantidad": 20,
-          "unidad": "EA"
-        }
-      ],
-      "url_detalle_api": "/v2/compra-agil/4803-97-COT26",
-      "descripcion": "20 Figuras de cristal con imagen en 3D para el Senado. ver archivo adjunto.",
-      "direccion_entrega": "Morandé 441Stgo centro",
-      "plazo_entrega_dias": 20
+      "productos": [],
+      "url_detalle_api": "/v2/compra-agil/4803-97-COT26"
     },
     {
       "codigo": "1057498-1499-COT26",
@@ -210,30 +190,8 @@
         "plastico"
       ],
       "total_ofertas": 0,
-      "productos": [
-        {
-          "nombre": "Puntas de pipeta de referencia",
-          "descripcion": "PUNTA AMARILLA\nDESECHABLE CON\nCORONA (REF:18-\n1800217)\n27284",
-          "cantidad": 3000,
-          "unidad": "EA"
-        },
-        {
-          "nombre": "Puntas de pipeta de referencia",
-          "descripcion": "PIPETA PASTEUR\nGRADUADA CON\nBULBO DE 3 ML\n75815",
-          "cantidad": 1000,
-          "unidad": "EA"
-        },
-        {
-          "nombre": "Puntas de pipeta de referencia",
-          "descripcion": "TUBO DE PLASTICO\n16X100 (CENTRIFUGA)\n74639",
-          "cantidad": 1000,
-          "unidad": "EA"
-        }
-      ],
-      "url_detalle_api": "/v2/compra-agil/1057498-1499-COT26",
-      "descripcion": "PUNTA AMARILLA\nPIPETA PASTEUR\nTUBO DE PLASTICO CENTRIFUGA\n\nPROVEEDORES QUE CUENTEN CON PAUTA DE EVALUACION AL DIA EN HOSPITAL EL PINO, DE LO CONTRARIO ENVIAR MUESTRAS A EVALUAR.",
-      "direccion_entrega": "AV PADRE HURTADO 13560",
-      "plazo_entrega_dias": 1
+      "productos": [],
+      "url_detalle_api": "/v2/compra-agil/1057498-1499-COT26"
     },
     {
       "codigo": "564162-436-COT26",
@@ -254,18 +212,8 @@
         "filamento"
       ],
       "total_ofertas": 5,
-      "productos": [
-        {
-          "nombre": "Reactivos o soluciones químicos",
-          "descripcion": "Compra de reactivos, puntas azules, papel aluminio y filamento de Tungsteno según especificaciones técnicas detalladas en el anexo adjunto.",
-          "cantidad": 1,
-          "unidad": "EA"
-        }
-      ],
-      "url_detalle_api": "/v2/compra-agil/564162-436-COT26",
-      "descripcion": "La Universidad de Santiago de Chile requiere la compra de reactivos, puntas azules, papel aluminio y filamento de \nTungsteno según especificaciones técnicas detalladas en el anexo adjunto. Favor revisar anexo adjunto en su punto 6 sobre antecedentes que la cotización formal (formato libre) a adjuntar debe llevar.",
-      "direccion_entrega": "USACH, Laboratorio de Biotecnología de alimentos (Departamento de Ingeniería Química y Bioprocesos) Av. Libertador  Bernardo O'Higgins 3363",
-      "plazo_entrega_dias": 1
+      "productos": [],
+      "url_detalle_api": "/v2/compra-agil/564162-436-COT26"
     },
     {
       "codigo": "564162-443-COT26",
@@ -418,18 +366,8 @@
         "impresion 3d"
       ],
       "total_ofertas": 1,
-      "productos": [
-        {
-          "nombre": "Pinturas",
-          "descripcion": "CUADRO INSTITUCIONAL, COMPUESTO POR UNA IMPRESION FOTOGRAFICA PREMIUM Y MARCO DE CALIDAD DE 110X60CM.",
-          "cantidad": 1,
-          "unidad": "EA"
-        }
-      ],
-      "url_detalle_api": "/v2/compra-agil/1718-589-COT26",
-      "descripcion": "COMPRA DE CUADRO INSTITUCIONAL, COMPUESTO POR UNA IMPRESION FOTOGRAFICA PREMIUM Y MARCO DE CALIDAD 110X60CM. LA FOTOGRAFIA SERA ENVIADA AL PROVEEDOR ADJUDICADO.",
-      "direccion_entrega": "AVENIDA OSSA 1771",
-      "plazo_entrega_dias": 1
+      "productos": [],
+      "url_detalle_api": "/v2/compra-agil/1718-589-COT26"
     },
     {
       "codigo": "1057472-239-COT26",
@@ -451,18 +389,8 @@
         "modelo"
       ],
       "total_ofertas": 0,
-      "productos": [
-        {
-          "nombre": "Servicio de mantenimiento de equipo de fabricación",
-          "descripcion": "SE REQUIERE SERVICIO DE MANTENIMIENTO CORRECTIVO PARA GENERADOR DE RAYOS X DENTAL ORTOPANTOMOGRAFO MARCA PLANMECA MODELO PROMAX 3D SERIE NTPV7218872. SE REQUIERE EVALUACIÓN / REPARACIÓN EN CABLEADO O COMPONENTE INTERNO: MENSAJES E332, E343, E286 Y E270. ADJUNTAR COTIZACIÓN.",
-          "cantidad": 1,
-          "unidad": "EA"
-        }
-      ],
-      "url_detalle_api": "/v2/compra-agil/1057472-239-COT26",
-      "descripcion": "SE REQUIERE SERVICIO DE MANTENIMIENTO CORRECTIVO PARA GENERADOR DE RAYOS X DENTAL ORTOPANTOMOGRAFO MARCA PLANMECA MODELO PROMAX 3D SERIE NTPV7218872. SE REQUIERE EVALUACIÓN / REPARACIÓN EN CABLEADO O COMPONENTE INTERNO: MENSAJES E332, E343, E286 Y E270. ADJUNTAR COTIZACIÓN.",
-      "direccion_entrega": "CAMINO A RINCONADA 1201",
-      "plazo_entrega_dias": 15
+      "productos": [],
+      "url_detalle_api": "/v2/compra-agil/1057472-239-COT26"
     },
     {
       "codigo": "5655-25-COT26",
@@ -747,18 +675,8 @@
         "plastico"
       ],
       "total_ofertas": 0,
-      "productos": [
-        {
-          "nombre": "Baúles",
-          "descripcion": "3 BAUL PLASTICO DE 245 LITROS con ruedas.VER ANEXO CON DETALLE DEL INSUMO \n1.-sera admisible,al agregar cotización formal con la detalle del (los) servicio(s) y/o producto(s). \n2.- En caso contrario, su oferta NO SERÁ considerada \n3.- Esta deberá, AJUSTARSE A LAS EXIGENCIAS TÉCNICAS solicitadas.\n4.- Se exige dar cumplimiento al Plazo de Entrega ofertado,\n5.- Tramo de plazo Entrega ofertado, se considerará el de mayor valor.\n6.-   Se recomienda subir imagen del producto ofertado, si procede, como",
-          "cantidad": 3,
-          "unidad": "EA"
-        }
-      ],
-      "url_detalle_api": "/v2/compra-agil/2393-776-COT26",
-      "descripcion": "3 BAUL PLASTICO DE 245 LITROS con ruedas.VER ANEXO CON DETALLE DEL INSUMO SOLICITADO.\n1.-su oferta sea admisible, proponente deberá agregar cotización formal con la descripción del (los) servicio(s) y/o producto(s) de este proceso de compra ágil. \n2.- En caso contrario, su oferta NO SERÁ considerada \n3.- Esta deberá, AJUSTARSE A LAS EXIGENCIAS TÉCNICAS solicitadas.\n4.- Se exige dar cumplimiento al Plazo de Entrega ofertado,\n5.- Tramo de plazo Entrega ofertado, se considerará el de mayor valor",
-      "direccion_entrega": "Av Presidente salvador Allende G. 2029 , Edificio consistorial",
-      "plazo_entrega_dias": 1
+      "productos": [],
+      "url_detalle_api": "/v2/compra-agil/2393-776-COT26"
     },
     {
       "codigo": "3326-319-COT26",
@@ -1063,18 +981,8 @@
         "impresion 3d"
       ],
       "total_ofertas": 0,
-      "productos": [
-        {
-          "nombre": "Servicios de impresión industrial Offset",
-          "descripcion": "Se requiere adquirir el servicio de impresión y empaste de 4 copias de publicaciones conmemorativas (de Patricio Bryan Mekis Spikin, Luz María Bulnes Aldunate y Fidel Edgardo Espinoza Sandoval), para su entrega en evento parlamentario de reconocimiento del Congreso Nacional.\nFAVOR REVISAR REQUERIMIENTO TECNICO",
-          "cantidad": 4,
-          "unidad": "EA"
-        }
-      ],
-      "url_detalle_api": "/v2/compra-agil/2020-101-COT26",
-      "descripcion": "Se requiere adquirir el servicio de impresión y empaste de 4 copias de publicaciones conmemorativas (de Patricio Bryan Mekis Spikin, Luz María Bulnes Aldunate y Fidel Edgardo Espinoza Sandoval), para su entrega en evento parlamentario de reconocimiento del Congreso Nacional.",
-      "direccion_entrega": "HUERFANOS 1117, 2° PISO OFICINA 221",
-      "plazo_entrega_dias": 5
+      "productos": [],
+      "url_detalle_api": "/v2/compra-agil/2020-101-COT26"
     },
     {
       "codigo": "5523-23-COT26",
