@@ -33,18 +33,20 @@ BASE_URL = "https://api2.mercadopublico.cl"
 TICKET = os.environ.get("MP_TICKET", "").strip()
 
 # Palabras clave. q es UN solo string por llamada, así que se hace una búsqueda por término.
-PALABRAS_CLAVE = [
-    "hormigon",
-    "acero",
-    "madera",
-    "fierro",
-    "andamios",
-    "cemento",
-    "arena",
-    "grava",
-    "tuberia",
-    "valvulas",
-]
+# Lee palabras clave desde keywords.json si existe (editable desde la app).
+# Si no existe, usa la lista por defecto aquí abajo.
+_kw_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), "keywords.json")
+if os.path.exists(_kw_file):
+    with open(_kw_file, encoding="utf-8") as _f:
+        PALABRAS_CLAVE = json.load(_f).get("palabras_clave", [])
+else:
+    PALABRAS_CLAVE = [
+        "impresion 3d",
+        "filamento",
+        "prototipo",
+        "plastico",
+        "fabricacion",
+    ]
 
 # Regiones (1–16). 13 = Metropolitana. Lista vacía = todas las regiones.
 REGIONES = [13]
