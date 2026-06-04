@@ -1,5 +1,5 @@
 {
-  "generado": "2026-06-04T05:07:58Z",
+  "generado": "2026-06-04T05:09:09Z",
   "total": 56,
   "palabras_clave": [
     "impresion 3d",
@@ -7,9 +7,8 @@
     "prototipo",
     "plastico",
     "fabricacion",
-    "modelo",
     "anatomico",
-    "galardon"
+    "modelo"
   ],
   "regiones": [
     13
@@ -211,8 +210,30 @@
         "plastico"
       ],
       "total_ofertas": 0,
-      "productos": [],
-      "url_detalle_api": "/v2/compra-agil/1057498-1499-COT26"
+      "productos": [
+        {
+          "nombre": "Puntas de pipeta de referencia",
+          "descripcion": "PUNTA AMARILLA\nDESECHABLE CON\nCORONA (REF:18-\n1800217)\n27284",
+          "cantidad": 3000,
+          "unidad": "EA"
+        },
+        {
+          "nombre": "Puntas de pipeta de referencia",
+          "descripcion": "PIPETA PASTEUR\nGRADUADA CON\nBULBO DE 3 ML\n75815",
+          "cantidad": 1000,
+          "unidad": "EA"
+        },
+        {
+          "nombre": "Puntas de pipeta de referencia",
+          "descripcion": "TUBO DE PLASTICO\n16X100 (CENTRIFUGA)\n74639",
+          "cantidad": 1000,
+          "unidad": "EA"
+        }
+      ],
+      "url_detalle_api": "/v2/compra-agil/1057498-1499-COT26",
+      "descripcion": "PUNTA AMARILLA\nPIPETA PASTEUR\nTUBO DE PLASTICO CENTRIFUGA\n\nPROVEEDORES QUE CUENTEN CON PAUTA DE EVALUACION AL DIA EN HOSPITAL EL PINO, DE LO CONTRARIO ENVIAR MUESTRAS A EVALUAR.",
+      "direccion_entrega": "AV PADRE HURTADO 13560",
+      "plazo_entrega_dias": 1
     },
     {
       "codigo": "564162-436-COT26",
@@ -726,8 +747,18 @@
         "plastico"
       ],
       "total_ofertas": 0,
-      "productos": [],
-      "url_detalle_api": "/v2/compra-agil/2393-776-COT26"
+      "productos": [
+        {
+          "nombre": "Baúles",
+          "descripcion": "3 BAUL PLASTICO DE 245 LITROS con ruedas.VER ANEXO CON DETALLE DEL INSUMO \n1.-sera admisible,al agregar cotización formal con la detalle del (los) servicio(s) y/o producto(s). \n2.- En caso contrario, su oferta NO SERÁ considerada \n3.- Esta deberá, AJUSTARSE A LAS EXIGENCIAS TÉCNICAS solicitadas.\n4.- Se exige dar cumplimiento al Plazo de Entrega ofertado,\n5.- Tramo de plazo Entrega ofertado, se considerará el de mayor valor.\n6.-   Se recomienda subir imagen del producto ofertado, si procede, como",
+          "cantidad": 3,
+          "unidad": "EA"
+        }
+      ],
+      "url_detalle_api": "/v2/compra-agil/2393-776-COT26",
+      "descripcion": "3 BAUL PLASTICO DE 245 LITROS con ruedas.VER ANEXO CON DETALLE DEL INSUMO SOLICITADO.\n1.-su oferta sea admisible, proponente deberá agregar cotización formal con la descripción del (los) servicio(s) y/o producto(s) de este proceso de compra ágil. \n2.- En caso contrario, su oferta NO SERÁ considerada \n3.- Esta deberá, AJUSTARSE A LAS EXIGENCIAS TÉCNICAS solicitadas.\n4.- Se exige dar cumplimiento al Plazo de Entrega ofertado,\n5.- Tramo de plazo Entrega ofertado, se considerará el de mayor valor",
+      "direccion_entrega": "Av Presidente salvador Allende G. 2029 , Edificio consistorial",
+      "plazo_entrega_dias": 1
     },
     {
       "codigo": "3326-319-COT26",
