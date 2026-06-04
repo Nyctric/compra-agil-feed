@@ -41,3 +41,5 @@ jobs:
             git commit -m "Actualiza oportunidades Compra Ágil ($(date -u +%Y-%m-%dT%H:%MZ))"
             git push
           fi
+
+# trigger
