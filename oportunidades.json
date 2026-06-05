@@ -1,6 +1,6 @@
 {
-  "generado": "2026-06-05T18:53:23Z",
-  "total": 15,
+  "generado": "2026-06-05T21:14:25Z",
+  "total": 47,
   "palabras_clave": [
     "impresion 3d",
     "filamento",
@@ -20,92 +20,114 @@
   ],
   "items": [
     {
-      "codigo": "2020-101-COT26",
-      "nombre": "SERVICIO DE IMPRESION Y EMPASTE DE 4 PUBLICACIÓNES ",
+      "codigo": "885-370-COT26",
+      "nombre": "La Contraloría General de la República requiere contratar el servicio de mantención preventiva de 10.000 kilómetros para un vehículo institucional marca Toyota.",
       "estado": "publicada",
       "estado_glosa": "Publicada",
-      "organismo": "Biblioteca del Congreso Nacional",
-      "rut_organismo": "60.203.000-8",
-      "unidad_compra": "Biblioteca del Congreso Nacional",
+      "organismo": "CONTRALORIA GENERAL DE LA REPUBLICA",
+      "rut_organismo": "60.400.000-9",
+      "unidad_compra": "Contraloría General de la República",
       "region": 13,
       "region_nombre": "Metropolitana",
-      "monto_clp": 1500000,
+      "monto_clp": 500000,
       "moneda": "CLP",
-      "fecha_publicacion": "2026-06-03 12:20",
-      "fecha_cierre": "2026-06-05 15:00",
-      "fecha_ultimo_cambio": "2026-06-03T12:25:01.427Z",
+      "fecha_publicacion": "2026-05-06 16:04",
+      "fecha_cierre": "2026-05-13 09:30",
+      "fecha_ultimo_cambio": "2026-05-11T09:55:01.023Z",
       "palabras_clave_match": [
-        "impresion 3d"
+        "modelo"
       ],
-      "total_ofertas": 0,
+      "total_ofertas": 1,
       "productos": [],
-      "url_detalle_api": "/v2/compra-agil/2020-101-COT26"
+      "url_detalle_api": "/v2/compra-agil/885-370-COT26"
     },
     {
-      "codigo": "552975-183-COT26",
-      "nombre": "SERVICIO DE IMPRESION DE INSUMOS CLINICOS",
+      "codigo": "3326-322-COT26",
+      "nombre": "SERVICIO DE MANTENIMIENTO PREVENTIVO PARA EL VEHÍCULO FISCAL AC-2423, MARCA MITSUBISHI, MODELO ECLIPSE CROSS, AÑO 2026, DE CARGO DEL DEPARTAMENTO DE TRANSPORTES (L.3)",
       "estado": "publicada",
       "estado_glosa": "Publicada",
-      "organismo": "CORP DE DESARROLLO SOCIAL DE PROVIDENCIA",
-      "rut_organismo": "69.070.301-7",
-      "unidad_compra": "CDSP",
+      "organismo": "DIRECCION DE LOGISTICA DE CARABINEROS",
+      "rut_organismo": "61.938.500-4",
+      "unidad_compra": "Depto.Transportes L.3",
       "region": 13,
       "region_nombre": "Metropolitana",
-      "monto_clp": 5252600,
+      "monto_clp": 250000,
       "moneda": "CLP",
-      "fecha_publicacion": "2026-06-04 15:24",
-      "fecha_cierre": "2026-06-05 15:30",
-      "fecha_ultimo_cambio": "2026-06-04T15:25:00.950Z",
+      "fecha_publicacion": "2026-06-03 13:06",
+      "fecha_cierre": "2026-06-05 17:53",
+      "fecha_ultimo_cambio": "2026-06-04T15:35:01.233Z",
       "palabras_clave_match": [
-        "impresion 3d"
+        "modelo"
       ],
       "total_ofertas": 0,
       "productos": [],
-      "url_detalle_api": "/v2/compra-agil/552975-183-COT26"
+      "url_detalle_api": "/v2/compra-agil/3326-322-COT26"
     },
     {
-      "codigo": "539819-283-COT26",
-      "nombre": "IMPRESION DE AFICHES PEQUEÑOS 35 X 55 CM CEAC M.V.",
+      "codigo": "3326-314-COT26",
+      "nombre": "SERVICIO DE MANTENIMIENTO CORRECTIVO PARA EL VEHÍCULO FISCAL VL-515, MARCA FORD, MODELO EXPLORER XLT 4X4 3.5, AÑO 2018, DE CARGO DEL DPTO. DE DROGAS (O.S.7) ",
       "estado": "publicada",
       "estado_glosa": "Publicada",
-      "organismo": "UNIVERSIDAD DE CHILE",
-      "rut_organismo": "60.910.000-1",
-      "unidad_compra": "UCHILE CEAC",
+      "organismo": "DIRECCION DE LOGISTICA DE CARABINEROS",
+      "rut_organismo": "61.938.500-4",
+      "unidad_compra": "Depto.Transportes L.3",
       "region": 13,
       "region_nombre": "Metropolitana",
-      "monto_clp": 75000,
+      "monto_clp": 1000000,
       "moneda": "CLP",
-      "fecha_publicacion": "2026-06-04 15:39",
-      "fecha_cierre": "2026-06-05 16:00",
-      "fecha_ultimo_cambio": "2026-06-04T15:40:00.603Z",
+      "fecha_publicacion": "2026-06-01 11:26",
+      "fecha_cierre": "2026-06-05 19:33",
+      "fecha_ultimo_cambio": "2026-06-03T15:35:00.797Z",
       "palabras_clave_match": [
-        "impresion 3d"
+        "modelo"
       ],
       "total_ofertas": 0,
       "productos": [],
-      "url_detalle_api": "/v2/compra-agil/539819-283-COT26"
+      "url_detalle_api": "/v2/compra-agil/3326-314-COT26"
     },
     {
-      "codigo": "2273-411-COT26",
-      "nombre": "SERVICIOS DE IMPRESION, EXP 9633 MEMORANDUM N° 14906 ear.",
+      "codigo": "2069-1605-COT26",
+      "nombre": "LSO PUNTAS PARA ASPIRADOR ULTRASONICO(COMPATIBLE CON MODELO CUSA )",
       "estado": "publicada",
       "estado_glosa": "Publicada",
-      "organismo": "I MUNICIPALIDAD DE LA PINTANA",
-      "rut_organismo": "69.253.800-5",
-      "unidad_compra": "DEPARTAMENTO ADQUISICIONES MUNICIPAL",
+      "organismo": "SERVICIO DE SALUD METROPOLITANO SUR HOSP",
+      "rut_organismo": "61.608.101-2",
+      "unidad_compra": "HOSPITAL BARROS LUCO TRUDEAU",
       "region": 13,
       "region_nombre": "Metropolitana",
-      "monto_clp": 572000,
+      "monto_clp": 6550000,
       "moneda": "CLP",
-      "fecha_publicacion": "2026-06-04 13:31",
-      "fecha_cierre": "2026-06-05 16:30",
-      "fecha_ultimo_cambio": "2026-06-04T13:35:00.940Z",
+      "fecha_publicacion": "2026-06-02 12:28",
+      "fecha_cierre": "2026-06-05 21:04",
+      "fecha_ultimo_cambio": "2026-06-04T19:05:00.653Z",
       "palabras_clave_match": [
-        "impresion 3d"
+        "modelo"
       ],
-      "total_ofertas": 0,
+      "total_ofertas": 1,
       "productos": [],
-      "url_detalle_api": "/v2/compra-agil/2273-411-COT26"
+      "url_detalle_api": "/v2/compra-agil/2069-1605-COT26"
+    },
+    {
+      "codigo": "2069-1603-COT26",
+      "nombre": " LSO SET DE TUBOS Y MANGUERAS PARA ASPIRADOR ULTRASONICO (COMPATIBLE CON MODELO CUSA)",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "SERVICIO DE SALUD METROPOLITANO SUR HOSP",
+      "rut_organismo": "61.608.101-2",
+      "unidad_compra": "HOSPITAL BARROS LUCO TRUDEAU",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 6550000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-02 12:21",
+      "fecha_cierre": "2026-06-05 21:08",
+      "fecha_ultimo_cambio": "2026-06-04T19:05:00.653Z",
+      "palabras_clave_match": [
+        "modelo"
+      ],
+      "total_ofertas": 1,
+      "productos": [],
+      "url_detalle_api": "/v2/compra-agil/2069-1603-COT26"
     },
     {
       "codigo": "1057473-88-COT26",
@@ -128,6 +150,50 @@
       "total_ofertas": 11,
       "productos": [],
       "url_detalle_api": "/v2/compra-agil/1057473-88-COT26"
+    },
+    {
+      "codigo": "1641-3281-COT26",
+      "nombre": "03-002-347-089\tVALVULA AHMED MODELO FP7 (presentar ficha técnica, no se acepta cotización a $ 1 y tampoco ficha comercial de la empresa)",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "SERVICIO DE SALUD OCCIDENTE HOSPITAL SAN JUAN DE DIOS",
+      "rut_organismo": "61.608.204-3",
+      "unidad_compra": "SERVICIO DE SALUD OCCIDENTE HOSPITAL SAN JUAN DE D",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 7100000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-05 09:26",
+      "fecha_cierre": "2026-06-06 09:30",
+      "fecha_ultimo_cambio": "2026-06-05T09:30:00.940Z",
+      "palabras_clave_match": [
+        "modelo"
+      ],
+      "total_ofertas": 0,
+      "productos": [],
+      "url_detalle_api": "/v2/compra-agil/1641-3281-COT26"
+    },
+    {
+      "codigo": "948355-287-COT26",
+      "nombre": " CIRCUITOS DESECHABLES PARA VENTILADOR MECANICO MODELO EVITA DRAGER.HOSDIP CM3084",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "FONDO HOSPITAL DE LA DIRECCION DE PREVISION DE CARABINEROS DE CHILE",
+      "rut_organismo": "61.513.003-6",
+      "unidad_compra": "Unidad de Compra Insumos Médicos",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 400000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-03 12:41",
+      "fecha_cierre": "2026-06-06 12:41",
+      "fecha_ultimo_cambio": "2026-06-05T12:35:00.953Z",
+      "palabras_clave_match": [
+        "modelo"
+      ],
+      "total_ofertas": 2,
+      "productos": [],
+      "url_detalle_api": "/v2/compra-agil/948355-287-COT26"
     },
     {
       "codigo": "1641-3304-COT26",
@@ -174,6 +240,50 @@
       "url_detalle_api": "/v2/compra-agil/757-213-COT26"
     },
     {
+      "codigo": "1057499-147-COT26",
+      "nombre": "Servicio de calibración de termómetro infrarrojo Modelo CM8380CT  para Depto. Abastecimiento por un periodo de 36 meses.",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "SERVICIO DE SALUD SUR UNIDAD HOSPITALARI",
+      "rut_organismo": "61.608.108-K",
+      "unidad_compra": "Bienes y Servicios",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 300000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-05-28 16:06",
+      "fecha_cierre": "2026-06-07 02:53",
+      "fecha_ultimo_cambio": "2026-06-02T09:35:00.900Z",
+      "palabras_clave_match": [
+        "modelo"
+      ],
+      "total_ofertas": 0,
+      "productos": [],
+      "url_detalle_api": "/v2/compra-agil/1057499-147-COT26"
+    },
+    {
+      "codigo": "1057490-124-COT26",
+      "nombre": "Repuesto monitor multiparámetro marca Dräger",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "Instituto Nacional de Neurocirugía",
+      "rut_organismo": "61.608.407-0",
+      "unidad_compra": "Bienes y Servicios",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 700000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-05-29 11:13",
+      "fecha_cierre": "2026-06-07 18:02",
+      "fecha_ultimo_cambio": "2026-06-03T11:20:01.247Z",
+      "palabras_clave_match": [
+        "modelo"
+      ],
+      "total_ofertas": 1,
+      "productos": [],
+      "url_detalle_api": "/v2/compra-agil/1057490-124-COT26"
+    },
+    {
       "codigo": "777304-2110-COT26",
       "nombre": "MOF000170 IMPRESION DE FORMULARIO",
       "estado": "publicada",
@@ -192,18 +302,74 @@
         "impresion 3d"
       ],
       "total_ofertas": 0,
-      "productos": [
-        {
-          "nombre": "Impresión de papelería o formularios comerciales",
-          "descripcion": "Hojas de Evaluación y Registro Anestésico Gramaje: 220 gr Tamaño: Carta 21,59 cm x 27,94 cm 1 hojas impresa por ambos lados (hoja 1: Evaluación Preanestésica, Hoja 2: Registro Anestésico Intraoperatorio) Ajustar al área de impresión.SE SOLICITA MEDIDA EXACTA ADJUNTA FORMATO DE FICHA POR INTERNO UNA VEZ QUE SE ADJUDIQUE OC, SE SOLICITA PRESENTAR UNA MUESTRA ANTES DE IMPRESION. CONTACTO CARLA FERRADA CARLA.FERRADA@HOSPITALLAFLORIDA.CL",
-          "cantidad": 8000,
-          "unidad": "EA"
-        }
+      "productos": [],
+      "url_detalle_api": "/v2/compra-agil/777304-2110-COT26"
+    },
+    {
+      "codigo": "2111-789-COT26",
+      "nombre": "Mantención Correctiva de Equipo RX Portátil Marca GE Modelo Optima Xr240 Amx",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "HOSPITAL DE URGENCIA ASISTENCIA PUBLICA DR ALEJANDRO DEL RIO",
+      "rut_organismo": "61.608.602-2",
+      "unidad_compra": "Hospital de Urgencia Asistencia Pública",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 2000000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-05 08:49",
+      "fecha_cierre": "2026-06-08 09:00",
+      "fecha_ultimo_cambio": "2026-06-05T08:50:00.287Z",
+      "palabras_clave_match": [
+        "modelo"
       ],
-      "url_detalle_api": "/v2/compra-agil/777304-2110-COT26",
-      "descripcion": "Favor adjuntar ficha técnica, imagen referencial y cotización formal para mejor evaluación del producto, agregar contacto telefónico y correo electrónico. IMPORTANTE: No se adjudicará ofertas sin cotización, ADJUNTAR fichas técnicas de producto ofertado. CUMPLIR CON FECHA DE ENTREGA , DESPACHO INMEDIATO Y/O PARCELADO SEGUN LO REQUIERA BODEGA. ",
-      "direccion_entrega": "FROILAN ROA 6542",
-      "plazo_entrega_dias": 1
+      "total_ofertas": 0,
+      "productos": [],
+      "url_detalle_api": "/v2/compra-agil/2111-789-COT26"
+    },
+    {
+      "codigo": "1718-606-COT26",
+      "nombre": "SALUD/05 COMPUTADORES ALL IN ONE Y 01 NOTEBOOK CON PROCESADOR INTEL 15 /SIC 20020/DESAM",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "I MUNICIPALIDAD DE SAN RAMON",
+      "rut_organismo": "69.253.900-1",
+      "unidad_compra": "Departamento de Adquisiciones San Ramon",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 4460000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-03 13:45",
+      "fecha_cierre": "2026-06-08 09:00",
+      "fecha_ultimo_cambio": "2026-06-03T13:50:01.043Z",
+      "palabras_clave_match": [
+        "modelo"
+      ],
+      "total_ofertas": 0,
+      "productos": [],
+      "url_detalle_api": "/v2/compra-agil/1718-606-COT26"
+    },
+    {
+      "codigo": "5523-25-COT26",
+      "nombre": "ADQUISICION FILTROS DE REEMPLAZO PARA PURIFICADORES DE AIRE MARCA MOUVAIR MODELO ZEN – HEPA H13 (GRADO MEDICO)",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "UNIVERSIDAD DE CHILE",
+      "rut_organismo": "60.910.000-1",
+      "unidad_compra": "FCFM- NIC Chile",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 600000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-04 17:34",
+      "fecha_cierre": "2026-06-08 09:30",
+      "fecha_ultimo_cambio": "2026-06-04T17:35:00.313Z",
+      "palabras_clave_match": [
+        "modelo"
+      ],
+      "total_ofertas": 0,
+      "productos": [],
+      "url_detalle_api": "/v2/compra-agil/5523-25-COT26"
     },
     {
       "codigo": "2793-464-COT26",
@@ -224,18 +390,8 @@
         "impresion 3d"
       ],
       "total_ofertas": 0,
-      "productos": [
-        {
-          "nombre": "Impresión digital",
-          "descripcion": "DETALLE DEL SERVICIO REQUERIDO SE ESPECIFICA EN ANEXO TECNICO. \t",
-          "cantidad": 1,
-          "unidad": "EA"
-        }
-      ],
-      "url_detalle_api": "/v2/compra-agil/2793-464-COT26",
-      "descripcion": "Adquisicion de servicio de impresion para el programa Cultura para el Desarrollo\n\nNOTA: para efectuar la evaluación de las ofertas, cada proveedor debe adjuntar cotización formal y detallada de los productos requeridos, con número telefónico, correo electrónico y persona de contacto.",
-      "direccion_entrega": "Avenida Recoleta 6178",
-      "plazo_entrega_dias": 3
+      "productos": [],
+      "url_detalle_api": "/v2/compra-agil/2793-464-COT26"
     },
     {
       "codigo": "5178-3007-COT26",
@@ -282,6 +438,182 @@
       "url_detalle_api": "/v2/compra-agil/2793-462-COT26"
     },
     {
+      "codigo": "876-47-COT26",
+      "nombre": "SC 3244 SEGURO RESPONSABILIDAD CIVIL DE DRON",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "SECRETARIA GENERAL DE GOBIERNO",
+      "rut_organismo": "60.101.000-3",
+      "unidad_compra": "Ministerio Secretaría General de Gobierno",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 406954,
+      "moneda": "CLF",
+      "fecha_publicacion": "2026-06-05 13:04",
+      "fecha_cierre": "2026-06-08 10:00",
+      "fecha_ultimo_cambio": "2026-06-05T13:05:00.957Z",
+      "palabras_clave_match": [
+        "modelo"
+      ],
+      "total_ofertas": 0,
+      "productos": [],
+      "url_detalle_api": "/v2/compra-agil/876-47-COT26"
+    },
+    {
+      "codigo": "1549-2374-COT26",
+      "nombre": "PAC/ SE REQUIERE PIEZA ISO PARA VENTILADOR MECANICO MARCA DRAGER MODELO VN500",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "SERVICIO DE SALUD METROPOLITANA NORTE HOSPITAL SAN JOSE",
+      "rut_organismo": "61.608.002-4",
+      "unidad_compra": "Hospital San  José",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 7150000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-04 12:38",
+      "fecha_cierre": "2026-06-08 10:00",
+      "fecha_ultimo_cambio": "2026-06-05T15:20:00.687Z",
+      "palabras_clave_match": [
+        "modelo"
+      ],
+      "total_ofertas": 1,
+      "productos": [],
+      "url_detalle_api": "/v2/compra-agil/1549-2374-COT26"
+    },
+    {
+      "codigo": "923842-32-COT26",
+      "nombre": "RM.5153 Compra de videoportero",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "Universidad de Chile",
+      "rut_organismo": "60.910.000-1",
+      "unidad_compra": "FCFM Centro de Energia",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 300000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-04 10:14",
+      "fecha_cierre": "2026-06-08 10:00",
+      "fecha_ultimo_cambio": "2026-06-04T10:15:00.677Z",
+      "palabras_clave_match": [
+        "modelo"
+      ],
+      "total_ofertas": 0,
+      "productos": [],
+      "url_detalle_api": "/v2/compra-agil/923842-32-COT26"
+    },
+    {
+      "codigo": "1057489-222-COT26",
+      "nombre": "“Mantenimiento Correctivo para Equipo (1) Nasofibroscopio Marca: OLYMPUS, Modelo: ENF-GP-C, Serie: 2309233, perteneciente a la Unidad de Otorrinolaringología del Hospital del Salvador",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "SERVICIO DE SALUD ORIENTE HOSPITAL DEL SALVADOR",
+      "rut_organismo": "61.608.406-2",
+      "unidad_compra": "Bienes y Servicios",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 6900000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-04 09:43",
+      "fecha_cierre": "2026-06-08 10:00",
+      "fecha_ultimo_cambio": "2026-06-04T09:45:00.933Z",
+      "palabras_clave_match": [
+        "modelo"
+      ],
+      "total_ofertas": 0,
+      "productos": [],
+      "url_detalle_api": "/v2/compra-agil/1057489-222-COT26"
+    },
+    {
+      "codigo": "813-398-COT26",
+      "nombre": "Mantención correctiva para Gabinete de Bioseguridad TAG:10768",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "INSTITUTO DE SALUD PUBLICA DE CHILE",
+      "rut_organismo": "61.605.000-1",
+      "unidad_compra": "Cotizaciones - ISP",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 7140000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-03 16:32",
+      "fecha_cierre": "2026-06-08 10:00",
+      "fecha_ultimo_cambio": "2026-06-03T16:35:00.730Z",
+      "palabras_clave_match": [
+        "modelo"
+      ],
+      "total_ofertas": 0,
+      "productos": [],
+      "url_detalle_api": "/v2/compra-agil/813-398-COT26"
+    },
+    {
+      "codigo": "5769-77-COT26",
+      "nombre": "WD 3934: SERVICIO DE IMPRESIÓN DE FOTOS PARA TALLER OTOÑO 2026\t\t\t\t\t\t",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "UNIVERSIDAD DE CHILE",
+      "rut_organismo": "60.910.000-1",
+      "unidad_compra": "FEN Gabinete Escuela de Economía y Administración",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 90000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-04 12:46",
+      "fecha_cierre": "2026-06-08 11:00",
+      "fecha_ultimo_cambio": "2026-06-04T12:50:01.530Z",
+      "palabras_clave_match": [
+        "modelo"
+      ],
+      "total_ofertas": 0,
+      "productos": [],
+      "url_detalle_api": "/v2/compra-agil/5769-77-COT26"
+    },
+    {
+      "codigo": "4201-246-COT26",
+      "nombre": "LICENCIAS DE CONDUCIR",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "I MUNICIPALIDAD DE CURACAVI",
+      "rut_organismo": "69.073.900-3",
+      "unidad_compra": "DIAFI",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 3000000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-05-29 11:53",
+      "fecha_cierre": "2026-06-08 11:00",
+      "fecha_ultimo_cambio": "2026-06-03T11:35:01.317Z",
+      "palabras_clave_match": [
+        "modelo"
+      ],
+      "total_ofertas": 1,
+      "productos": [],
+      "url_detalle_api": "/v2/compra-agil/4201-246-COT26"
+    },
+    {
+      "codigo": "2981-208-COT26",
+      "nombre": "TABLET TIPO IPAD",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "POLICIA DE INVESTIGACIONES DE CHILE",
+      "rut_organismo": "60.506.000-5",
+      "unidad_compra": "DEPARTAMENTO ADMINISTRATIVO",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 4744174,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-05 11:49",
+      "fecha_cierre": "2026-06-08 12:00",
+      "fecha_ultimo_cambio": "2026-06-05T11:50:01.383Z",
+      "palabras_clave_match": [
+        "modelo"
+      ],
+      "total_ofertas": 0,
+      "productos": [],
+      "url_detalle_api": "/v2/compra-agil/2981-208-COT26"
+    },
+    {
       "codigo": "5178-3117-COT26",
       "nombre": "SERVICIO DE IMPRESION/SP1053157/CM",
       "estado": "publicada",
@@ -300,18 +632,30 @@
         "impresion 3d"
       ],
       "total_ofertas": 0,
-      "productos": [
-        {
-          "nombre": "Impresión de papelería o formularios comerciales",
-          "descripcion": "IMPRESION DE DIPLOMA\nTAMANO EXTENDIDO 38.3 CMS X 27.4 CMS , TAMANO CERRADO 0 CMS X CMS, SUSTRATO CON PAPEL SEGURIDAD 130 GRS E . IMPRESION 4 , 0 , CMYK TERMINACION CORTE RECTO ( CARACTERISTICAS OBLIGATORIAS PARA SER EVALUADO)",
-          "cantidad": 50,
-          "unidad": "EA"
-        }
+      "productos": [],
+      "url_detalle_api": "/v2/compra-agil/5178-3117-COT26"
+    },
+    {
+      "codigo": "2792-442-COT26",
+      "nombre": "REPARACION DE CAMPIMETRO MARCA HAAG-STREIT MODELO OCTOPUS E INSTALACION DE LICENCIA",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "Iluste Municipalidad de Huechuraba",
+      "rut_organismo": "69.255.400-0",
+      "unidad_compra": "Departamento de Salud Municipal",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 2500000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-05 12:35",
+      "fecha_cierre": "2026-06-08 13:00",
+      "fecha_ultimo_cambio": "2026-06-05T12:40:00.923Z",
+      "palabras_clave_match": [
+        "modelo"
       ],
-      "url_detalle_api": "/v2/compra-agil/5178-3117-COT26",
-      "descripcion": "PARA PARTICIPAR DEBE ADJUNTAR OBLIGATORIO EN ARCHIVO PDF O WORD COTIZACIÓN FORMAL INDICANDO PLAZO DE ENTREGA, DETALLE DEL PRODUCTO O SERVICIO OFERTADO COMPLETO,SE EVALUARA EL COMPORTAMIENTO DE CUMPLIMIENTO ANTERIORES DE LOS PROVEEDORES QUE OFERTEN, LOS CRITERIOS DE EVALUACION SERAN 50% CUMPLIMIENTO TECNICO Y 50% PRECIO.\n",
-      "direccion_entrega": "AVDA. INDEPENDENCIA 1027 - Campus: NORTE",
-      "plazo_entrega_dias": 5
+      "total_ofertas": 0,
+      "productos": [],
+      "url_detalle_api": "/v2/compra-agil/2792-442-COT26"
     },
     {
       "codigo": "2793-468-COT26",
@@ -364,18 +708,140 @@
         "impresion 3d"
       ],
       "total_ofertas": 0,
-      "productos": [
-        {
-          "nombre": "Software de arquitectura del sistema y análisis de requisitos",
-          "descripcion": "E1 O2 RT9. La Dirección General del Crédito Prendario (DICREP) requiere adquirir dos tipos de software: una licencia de modelado de información de construcción (BIM) y dos licencias de software de diseño gráfico y modelado tridimensional (3D), destinados a la creación de modelos digitales precisos de edificios y estructuras. VER ADJUNTO",
-          "cantidad": 2,
-          "unidad": "EA"
-        }
+      "productos": [],
+      "url_detalle_api": "/v2/compra-agil/1561-27-COT26"
+    },
+    {
+      "codigo": "4642-121-COT26",
+      "nombre": "Contratación Del Servicio De Reparación de Dos Dermatomo, Marca Aesculap, Modelo Acculan 3ti, Serie Ga670/601, Del Servicio De Soporte Quirurgico Del Hospital De Carabineros",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "FONDO PARA HOSPITALES DE CARABINEROS DE CHILE",
+      "rut_organismo": "60.514.000-9",
+      "unidad_compra": "Fondos Hospitales",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 4885929,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-04 14:51",
+      "fecha_cierre": "2026-06-08 15:00",
+      "fecha_ultimo_cambio": "2026-06-04T14:55:00.990Z",
+      "palabras_clave_match": [
+        "modelo"
       ],
-      "url_detalle_api": "/v2/compra-agil/1561-27-COT26",
-      "descripcion": "E1 O2 RT9 La Dirección General del Crédito Prendario (DICREP) requiere adquirir dos tipos de software: una licencia de modelado de información de construcción (BIM) y dos licencias de software de diseño gráfico y modelado tridimensional (3D), destinados a la creación de modelos digitales precisos de edificios y estructuras. VER ADJUNTO",
-      "direccion_entrega": "San Antonio 427, Santiago",
-      "plazo_entrega_dias": 3
+      "total_ofertas": 0,
+      "productos": [],
+      "url_detalle_api": "/v2/compra-agil/4642-121-COT26"
+    },
+    {
+      "codigo": "3326-327-COT26",
+      "nombre": "ADQUISICIÓN DE SERVICIO DE MANTENIMIENTO PREVENTIVO PARA EL VEHÍCULO FISCAL AC-2393, MARCA MG, MODELO 5 1.5 CVT, AÑO 2024, DE CARGO DEL DPTO. DE GESTIÓN DE COMPRA.",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "DIRECCION DE LOGISTICA DE CARABINEROS",
+      "rut_organismo": "61.938.500-4",
+      "unidad_compra": "Depto.Transportes L.3",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 400000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-05 12:43",
+      "fecha_cierre": "2026-06-08 15:30",
+      "fecha_ultimo_cambio": "2026-06-05T12:45:00.260Z",
+      "palabras_clave_match": [
+        "modelo"
+      ],
+      "total_ofertas": 0,
+      "productos": [],
+      "url_detalle_api": "/v2/compra-agil/3326-327-COT26"
+    },
+    {
+      "codigo": "3326-316-COT26",
+      "nombre": "SERVICIO DE MANTENIMIENTO CORRECTIVO PARA EL VEHÍCULO FISCAL RP-5274, MARCA DODGE, MODELO CHARGER POLICE RWD, AÑO 2019, DE CARGO DE LA TENENCIA DE CARRETERAS MELIPILLA.",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "DIRECCION DE LOGISTICA DE CARABINEROS",
+      "rut_organismo": "61.938.500-4",
+      "unidad_compra": "Depto.Transportes L.3",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 5000002,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-01 12:36",
+      "fecha_cierre": "2026-06-08 15:30",
+      "fecha_ultimo_cambio": "2026-06-05T10:30:00.747Z",
+      "palabras_clave_match": [
+        "modelo"
+      ],
+      "total_ofertas": 7,
+      "productos": [],
+      "url_detalle_api": "/v2/compra-agil/3326-316-COT26"
+    },
+    {
+      "codigo": "3378-857-COT26",
+      "nombre": "SERV. DE CALIBRACIÓN DE BATERIAS PARA MONITORES DE TRANSPORTE DEL HMS",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "EJERCITO DE CHILE HOSPITAL MILITAR DE SANTIAGO",
+      "rut_organismo": "61.101.030-3",
+      "unidad_compra": "Hospital Militar de Santiago- HMS",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 908144,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-04 11:54",
+      "fecha_cierre": "2026-06-08 16:00",
+      "fecha_ultimo_cambio": "2026-06-04T11:55:00.420Z",
+      "palabras_clave_match": [
+        "modelo"
+      ],
+      "total_ofertas": 0,
+      "productos": [],
+      "url_detalle_api": "/v2/compra-agil/3378-857-COT26"
+    },
+    {
+      "codigo": "611669-48-COT26",
+      "nombre": "Calibración Flujómetro Tetracal, modelo BGI TetraCal Volumetric air Flow calibrator",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "Superintendencia del Medio Ambiente",
+      "rut_organismo": "61.979.950-k",
+      "unidad_compra": "Superintendencia del Medio Ambiente -Nivel Central",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 5125303,
+      "moneda": "USD",
+      "fecha_publicacion": "2026-06-02 16:30",
+      "fecha_cierre": "2026-06-08 16:00",
+      "fecha_ultimo_cambio": "2026-06-02T16:35:00.473Z",
+      "palabras_clave_match": [
+        "modelo"
+      ],
+      "total_ofertas": 0,
+      "productos": [],
+      "url_detalle_api": "/v2/compra-agil/611669-48-COT26"
+    },
+    {
+      "codigo": "5598-26-COT26",
+      "nombre": "1 unidad de Lavadora de impresiones + 1 unidad de Post Curado de impresiones  - LAB ROBÓTICA - ULISES CAMPODONICO ",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "UNIVERSIDAD DE CHILE",
+      "rut_organismo": "60.910.000-1",
+      "unidad_compra": "FCFM Departamento de Ingeniería Mecánica",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 4000000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-05-27 15:49",
+      "fecha_cierre": "2026-06-08 17:33",
+      "fecha_ultimo_cambio": "2026-06-02T18:25:00.593Z",
+      "palabras_clave_match": [
+        "modelo"
+      ],
+      "total_ofertas": 2,
+      "productos": [],
+      "url_detalle_api": "/v2/compra-agil/5598-26-COT26"
     },
     {
       "codigo": "4841-25-COT26",
@@ -396,18 +862,206 @@
         "impresion 3d"
       ],
       "total_ofertas": 0,
-      "productos": [
-        {
-          "nombre": "Capacitación a empleados",
-          "descripcion": "El Centro Nacional de Conservación y Restauración (CNCR) requiere la adquisición del curso “Introducción a la impresión 3D”, para 2 (dos) personas funcionarias del CNCR relacionadas con las intervenciones de conservación y restauración de bienes patrimoniales, con el objetivo de adquirir competencias necesarias para conocer y aplicar la impresión 3D al patrimonio, entregar conceptos básicos del modelado 3D, y entregar habilidades prácticas en manejo de impresoras 3D, según TDR adjunto.",
-          "cantidad": 1,
-          "unidad": "EA"
-        }
+      "productos": [],
+      "url_detalle_api": "/v2/compra-agil/4841-25-COT26"
+    },
+    {
+      "codigo": "600-15-COT26",
+      "nombre": "MANTENCIO VEHICULO FISCAL SUZUKI",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "Tesorería Regional Metropolitana",
+      "rut_organismo": "60.805.008-6",
+      "unidad_compra": "Tesorería Regional Metropolitana",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 400000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-05 09:44",
+      "fecha_cierre": "2026-06-09 09:00",
+      "fecha_ultimo_cambio": "2026-06-05T09:45:01.247Z",
+      "palabras_clave_match": [
+        "modelo"
       ],
-      "url_detalle_api": "/v2/compra-agil/4841-25-COT26",
-      "descripcion": "El Centro Nacional de Conservación y Restauración (CNCR) requiere la adquisición del curso “Introducción a la impresión 3D”, para 2 (dos) personas funcionarias del CNCR relacionadas con las intervenciones de conservación y restauración de bienes patrimoniales, con el objetivo de adquirir competencias necesarias para conocer y aplicar la impresión 3D al patrimonio, entregar conceptos básicos del modelado 3D, y entregar habilidades prácticas en manejo de impresoras 3D.",
-      "direccion_entrega": "RECOLETA 683",
-      "plazo_entrega_dias": 10
+      "total_ofertas": 0,
+      "productos": [],
+      "url_detalle_api": "/v2/compra-agil/600-15-COT26"
+    },
+    {
+      "codigo": "2460-493-COT26",
+      "nombre": "Adquisición de diversos materiales para talleres en las sedes del  Sistema de Bibliotecas de Providencia ",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "I MUNICIPALIDAD DE PROVIDENCIA",
+      "rut_organismo": "69.070.300-9",
+      "unidad_compra": "Dirección de Administración y Finanzas",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 2500000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-01 11:02",
+      "fecha_cierre": "2026-06-09 10:00",
+      "fecha_ultimo_cambio": "2026-06-04T13:50:01.090Z",
+      "palabras_clave_match": [
+        "modelo"
+      ],
+      "total_ofertas": 9,
+      "productos": [],
+      "url_detalle_api": "/v2/compra-agil/2460-493-COT26"
+    },
+    {
+      "codigo": "519302-44-COT26",
+      "nombre": "ADQUISICIÓN DE LICENCIAS CLAUDE TEAMS/STANDARD",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "INSTITUTO NACIONAL DE PROPIEDAD INDUSTRIAL",
+      "rut_organismo": "65.999.669-3",
+      "unidad_compra": "Servicios Generales",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 1386149,
+      "moneda": "USD",
+      "fecha_publicacion": "2026-06-04 11:42",
+      "fecha_cierre": "2026-06-09 11:00",
+      "fecha_ultimo_cambio": "2026-06-04T11:45:00.523Z",
+      "palabras_clave_match": [
+        "modelo"
+      ],
+      "total_ofertas": 0,
+      "productos": [],
+      "url_detalle_api": "/v2/compra-agil/519302-44-COT26"
+    },
+    {
+      "codigo": "2153-317-COT26",
+      "nombre": "COFFE Y BANQUETERÍA PROGRAMA MODELO DE ATENCION INTEGRAL",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "Hospital Sanatorio San José de Maipo",
+      "rut_organismo": "61.608.503-4",
+      "unidad_compra": "Hospital Sanatorio San José de Maipo",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 3050000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-05 15:46",
+      "fecha_cierre": "2026-06-09 12:00",
+      "fecha_ultimo_cambio": "2026-06-05T15:50:01.063Z",
+      "palabras_clave_match": [
+        "modelo"
+      ],
+      "total_ofertas": 0,
+      "productos": [],
+      "url_detalle_api": "/v2/compra-agil/2153-317-COT26"
+    },
+    {
+      "codigo": "885-450-COT26",
+      "nombre": "Servicio de mantenciones preventivas  de la maquina impresora laser Ricoh modelo PRO C7110 con 5° COLOR,  para la Contraloría General de la República.",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "CONTRALORIA GENERAL DE LA REPUBLICA",
+      "rut_organismo": "60.400.000-9",
+      "unidad_compra": "Contraloría General de la República",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 3400000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-02 10:34",
+      "fecha_cierre": "2026-06-09 12:00",
+      "fecha_ultimo_cambio": "2026-06-02T10:35:01.090Z",
+      "palabras_clave_match": [
+        "modelo"
+      ],
+      "total_ofertas": 0,
+      "productos": [],
+      "url_detalle_api": "/v2/compra-agil/885-450-COT26"
+    },
+    {
+      "codigo": "519302-38-COT26",
+      "nombre": "SERVICIO DE MANTENCIÓN PREVENTIVA DE EQUIPOS DE CLIMATIZACIÓN DE PRECISIÓN INROW UBICADOS EN EL DATA CENTER DE INAPI",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "INSTITUTO NACIONAL DE PROPIEDAD INDUSTRIAL",
+      "rut_organismo": "65.999.669-3",
+      "unidad_compra": "Servicios Generales",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 5000000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-05-20 12:26",
+      "fecha_cierre": "2026-06-09 12:41",
+      "fecha_ultimo_cambio": "2026-06-03T10:10:00.217Z",
+      "palabras_clave_match": [
+        "modelo"
+      ],
+      "total_ofertas": 3,
+      "productos": [],
+      "url_detalle_api": "/v2/compra-agil/519302-38-COT26"
+    },
+    {
+      "codigo": "2460-546-COT26",
+      "nombre": "Dispensador de agua potable (fría y caliente) con bidón oculto para DIDECO. SBC N° 714.-",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "I MUNICIPALIDAD DE PROVIDENCIA",
+      "rut_organismo": "69.070.300-9",
+      "unidad_compra": "Dirección de Administración y Finanzas",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 200000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-05 13:28",
+      "fecha_cierre": "2026-06-10 09:00",
+      "fecha_ultimo_cambio": "2026-06-05T13:30:00.440Z",
+      "palabras_clave_match": [
+        "modelo"
+      ],
+      "total_ofertas": 0,
+      "productos": [],
+      "url_detalle_api": "/v2/compra-agil/2460-546-COT26"
+    },
+    {
+      "codigo": "1186229-63-COT26",
+      "nombre": "Servicio de Mantención de Impresoras ",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "SERVICIO DE REGISTRO CIVIL E IDENTIFICACION",
+      "rut_organismo": "61.002.000-3",
+      "unidad_compra": "Unidad de Compras Nivel Central",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 885000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-05 17:08",
+      "fecha_cierre": "2026-06-11 12:00",
+      "fecha_ultimo_cambio": "2026-06-05T17:10:00.617Z",
+      "palabras_clave_match": [
+        "modelo"
+      ],
+      "total_ofertas": 0,
+      "productos": [],
+      "url_detalle_api": "/v2/compra-agil/1186229-63-COT26"
+    },
+    {
+      "codigo": "1515304-109-COT26",
+      "nombre": "SERVICIO OVERHAUL DE MAGNETOS DE AVIÓN CESSNA 182, O.S.4 NCU 254082085",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "Carabineros de Chile",
+      "rut_organismo": "65.260.551-6",
+      "unidad_compra": "Sec Compras Zona Frontera y Servicios Especiales",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 4000000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-05 11:59",
+      "fecha_cierre": "2026-06-12 11:00",
+      "fecha_ultimo_cambio": "2026-06-05T12:00:02.187Z",
+      "palabras_clave_match": [
+        "modelo"
+      ],
+      "total_ofertas": 0,
+      "productos": [],
+      "url_detalle_api": "/v2/compra-agil/1515304-109-COT26"
     }
   ]
 }
