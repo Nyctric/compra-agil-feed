@@ -1,6 +1,6 @@
 {
-  "generado": "2026-06-05T16:24:03Z",
-  "total": 13,
+  "generado": "2026-06-05T18:53:23Z",
+  "total": 15,
   "palabras_clave": [
     "impresion 3d",
     "filamento",
@@ -19,50 +19,6 @@
     "publicada"
   ],
   "items": [
-    {
-      "codigo": "2789-191-COT26",
-      "nombre": "FILAMENTOS - LICEO BARBARA KAST R.",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "I MUNICIPALIDAD DE PAINE",
-      "rut_organismo": "69.072.600-9",
-      "unidad_compra": "DEPARTAMENTO DE EDUCACION MUNICIPAL",
-      "region": 13,
-      "region_nombre": "Metropolitana",
-      "monto_clp": 773500,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-06-04 11:25",
-      "fecha_cierre": "2026-06-05 12:30",
-      "fecha_ultimo_cambio": "2026-06-04T11:30:01.133Z",
-      "palabras_clave_match": [
-        "impresion 3d"
-      ],
-      "total_ofertas": 0,
-      "productos": [],
-      "url_detalle_api": "/v2/compra-agil/2789-191-COT26"
-    },
-    {
-      "codigo": "1431841-562-COT26",
-      "nombre": "SMN 45311-AADQUISICION DE 10 ROLLO TURNO y 40 CAJAS ARCHIVO STANDAR KRAFT- 1ER JUZGADO POLICIA LOCAL.",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "MUNICIPALIDAD DE RECOLETA",
-      "rut_organismo": "69.254.800-0",
-      "unidad_compra": "DIRECCION  DE COMPRAS PUBLICAS",
-      "region": 13,
-      "region_nombre": "Metropolitana",
-      "monto_clp": 95000,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-06-04 11:33",
-      "fecha_cierre": "2026-06-05 13:00",
-      "fecha_ultimo_cambio": "2026-06-04T11:35:00.533Z",
-      "palabras_clave_match": [
-        "impresion 3d"
-      ],
-      "total_ofertas": 0,
-      "productos": [],
-      "url_detalle_api": "/v2/compra-agil/1431841-562-COT26"
-    },
     {
       "codigo": "2020-101-COT26",
       "nombre": "SERVICIO DE IMPRESION Y EMPASTE DE 4 PUBLICACIÓNES ",
@@ -126,18 +82,8 @@
         "impresion 3d"
       ],
       "total_ofertas": 0,
-      "productos": [
-        {
-          "nombre": "Impresión digital",
-          "descripcion": "SE REQUIERE CONTRATAR EL SERVICIO DE IMPRESIÓN DE 32 AFICHES CON INFORMACIÓN INSTITUCIONAL DEL CENTRO DE EXTENSIÓN ARTÍSTICA Y CULTURAL DE LA UNIVERSIDAD DE CHILE SEGUN ESPECIFICACIONES TÉCNICAS ADJUNTAS.",
-          "cantidad": 32,
-          "unidad": "EA"
-        }
-      ],
-      "url_detalle_api": "/v2/compra-agil/539819-283-COT26",
-      "descripcion": "SE REQUIERE CONTRATAR EL SERVICIO DE IMPRESIÓN DE 32 AFICHES CON INFORMACIÓN INSTITUCIONAL DEL CENTRO DE EXTENSIÓN ARTÍSTICA Y CULTURAL DE LA UNIVERSIDAD DE CHILE SEGUN ESPECIFICACIONES TÉCNICAS ADJUNTAS.",
-      "direccion_entrega": "ARTURO BUHRLE 50",
-      "plazo_entrega_dias": 1
+      "productos": [],
+      "url_detalle_api": "/v2/compra-agil/539819-283-COT26"
     },
     {
       "codigo": "2273-411-COT26",
@@ -160,6 +106,50 @@
       "total_ofertas": 0,
       "productos": [],
       "url_detalle_api": "/v2/compra-agil/2273-411-COT26"
+    },
+    {
+      "codigo": "1057473-88-COT26",
+      "nombre": "CAJAS ORGANIZADORAS TRANSPARENTES DE 28 Y 61 LITROS MAS BALDES PLASTICO DE 8 LITROS",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "SAMU",
+      "rut_organismo": "61.999.030-7",
+      "unidad_compra": "Bienes y Servicios",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 300000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-02 16:13",
+      "fecha_cierre": "2026-06-06 01:27",
+      "fecha_ultimo_cambio": "2026-06-04T09:35:00.323Z",
+      "palabras_clave_match": [
+        "plastico"
+      ],
+      "total_ofertas": 11,
+      "productos": [],
+      "url_detalle_api": "/v2/compra-agil/1057473-88-COT26"
+    },
+    {
+      "codigo": "1641-3304-COT26",
+      "nombre": " 03-002-225-128 PARCHE SUTURA ESTERIL 12 MM X 10 CM FILAMENTO REFORZADO 03-002-225-129 PARCHE SUTURA ESTERIL 25 MM X 12.5 CM FILAMENTO REFORZADO 03-002-225-130 PARCHE SUTURA ESTERIL 6 MM X 10 CM FILAM",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "SERVICIO DE SALUD OCCIDENTE HOSPITAL SAN JUAN DE DIOS",
+      "rut_organismo": "61.608.204-3",
+      "unidad_compra": "SERVICIO DE SALUD OCCIDENTE HOSPITAL SAN JUAN DE D",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 730000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-05 14:39",
+      "fecha_cierre": "2026-06-06 14:40",
+      "fecha_ultimo_cambio": "2026-06-05T14:40:00.507Z",
+      "palabras_clave_match": [
+        "filamento"
+      ],
+      "total_ofertas": 0,
+      "productos": [],
+      "url_detalle_api": "/v2/compra-agil/1641-3304-COT26"
     },
     {
       "codigo": "757-213-COT26",
@@ -270,6 +260,28 @@
       "url_detalle_api": "/v2/compra-agil/5178-3007-COT26"
     },
     {
+      "codigo": "2793-462-COT26",
+      "nombre": "ARTICULOS DE PLASTICO ESCUELA FORMACION ARTISTICA",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "Iluste Municipalidad de Huechuraba",
+      "rut_organismo": "69.255.400-0",
+      "unidad_compra": "Municipalidad de Huechuraba",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 500000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-04 17:13",
+      "fecha_cierre": "2026-06-08 10:00",
+      "fecha_ultimo_cambio": "2026-06-04T17:15:00.927Z",
+      "palabras_clave_match": [
+        "plastico"
+      ],
+      "total_ofertas": 0,
+      "productos": [],
+      "url_detalle_api": "/v2/compra-agil/2793-462-COT26"
+    },
+    {
       "codigo": "5178-3117-COT26",
       "nombre": "SERVICIO DE IMPRESION/SP1053157/CM",
       "estado": "publicada",
@@ -300,6 +312,38 @@
       "descripcion": "PARA PARTICIPAR DEBE ADJUNTAR OBLIGATORIO EN ARCHIVO PDF O WORD COTIZACIÓN FORMAL INDICANDO PLAZO DE ENTREGA, DETALLE DEL PRODUCTO O SERVICIO OFERTADO COMPLETO,SE EVALUARA EL COMPORTAMIENTO DE CUMPLIMIENTO ANTERIORES DE LOS PROVEEDORES QUE OFERTEN, LOS CRITERIOS DE EVALUACION SERAN 50% CUMPLIMIENTO TECNICO Y 50% PRECIO.\n",
       "direccion_entrega": "AVDA. INDEPENDENCIA 1027 - Campus: NORTE",
       "plazo_entrega_dias": 5
+    },
+    {
+      "codigo": "2793-468-COT26",
+      "nombre": "IMPRESIONES IDENTIDAD Y PATRIMONIO",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "Iluste Municipalidad de Huechuraba",
+      "rut_organismo": "69.255.400-0",
+      "unidad_compra": "Municipalidad de Huechuraba",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 500000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-05 13:54",
+      "fecha_cierre": "2026-06-08 15:00",
+      "fecha_ultimo_cambio": "2026-06-05T13:55:00.610Z",
+      "palabras_clave_match": [
+        "impresion 3d"
+      ],
+      "total_ofertas": 0,
+      "productos": [
+        {
+          "nombre": "Impresión digital",
+          "descripcion": "DETALLE DEL SERVICIO REQUERIDO SE ESPECIFICA EN ANEXO TECNICO. ",
+          "cantidad": 1,
+          "unidad": "EA"
+        }
+      ],
+      "url_detalle_api": "/v2/compra-agil/2793-468-COT26",
+      "descripcion": "Adquisicion de servicio de impresion para talleres y actividades de Identidad y Patrimonio\n\nNOTA: para efectuar la evaluación de las ofertas, cada proveedor debe adjuntar cotización formal y detallada de los productos requeridos, con número telefónico, correo electrónico y persona de contacto.",
+      "direccion_entrega": "Avenida Recoleta 6178",
+      "plazo_entrega_dias": 3
     },
     {
       "codigo": "1561-27-COT26",
