@@ -1,6 +1,6 @@
 {
-  "generado": "2026-06-04T19:11:07Z",
-  "total": 10,
+  "generado": "2026-06-05T16:24:03Z",
+  "total": 13,
   "palabras_clave": [
     "impresion 3d",
     "filamento",
@@ -20,94 +20,6 @@
   ],
   "items": [
     {
-      "codigo": "2393-776-COT26",
-      "nombre": "BAUL PLASTICO DE 245 LITROS con ruedas, Sol.N°958 Seg.Ciudadana",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "I MUNICIPALIDAD PEDRO AGUIRRE CERDA",
-      "rut_organismo": "69.254.900-7",
-      "unidad_compra": "DEPARTAMENTO DE ADQUISICIONES",
-      "region": 13,
-      "region_nombre": "Metropolitana",
-      "monto_clp": 300000,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-06-03 14:27",
-      "fecha_cierre": "2026-06-04 16:00",
-      "fecha_ultimo_cambio": "2026-06-03T14:30:00.570Z",
-      "palabras_clave_match": [
-        "plastico"
-      ],
-      "total_ofertas": 0,
-      "productos": [],
-      "url_detalle_api": "/v2/compra-agil/2393-776-COT26"
-    },
-    {
-      "codigo": "4704-238-COT26",
-      "nombre": "IMPRESORA - PROGRAMA ESPACIOS AMIGABLES PARA ADOLESCENTES / FORM. 192",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "I MUNICIPALIDAD DE EL MONTE",
-      "rut_organismo": "69.073.000-6",
-      "unidad_compra": "SALUD",
-      "region": 13,
-      "region_nombre": "Metropolitana",
-      "monto_clp": 200000,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-06-03 15:36",
-      "fecha_cierre": "2026-06-05 08:00",
-      "fecha_ultimo_cambio": "2026-06-03T15:40:01.520Z",
-      "palabras_clave_match": [
-        "impresion 3d"
-      ],
-      "total_ofertas": 0,
-      "productos": [],
-      "url_detalle_api": "/v2/compra-agil/4704-238-COT26"
-    },
-    {
-      "codigo": "1641-3154-COT26",
-      "nombre": " amv/ BRAZALETE",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "SERVICIO DE SALUD OCCIDENTE HOSPITAL SAN JUAN DE DIOS",
-      "rut_organismo": "61.608.204-3",
-      "unidad_compra": "SERVICIO DE SALUD OCCIDENTE HOSPITAL SAN JUAN DE D",
-      "region": 13,
-      "region_nombre": "Metropolitana",
-      "monto_clp": 4000000,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-06-02 11:36",
-      "fecha_cierre": "2026-06-05 09:07",
-      "fecha_ultimo_cambio": "2026-06-04T08:55:00.413Z",
-      "palabras_clave_match": [
-        "impresion 3d"
-      ],
-      "total_ofertas": 6,
-      "productos": [],
-      "url_detalle_api": "/v2/compra-agil/1641-3154-COT26"
-    },
-    {
-      "codigo": "2374-71-COT26",
-      "nombre": "SERVICIO DE SUMINISTRO DE IMPRESIONES EN 3D",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "Cementerio General",
-      "rut_organismo": "61.608.001-6",
-      "unidad_compra": "ADQUISICIONES CEMENTERIO",
-      "region": 13,
-      "region_nombre": "Metropolitana",
-      "monto_clp": 6800000,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-06-03 15:41",
-      "fecha_cierre": "2026-06-05 10:00",
-      "fecha_ultimo_cambio": "2026-06-03T15:45:01.453Z",
-      "palabras_clave_match": [
-        "impresion 3d"
-      ],
-      "total_ofertas": 0,
-      "productos": [],
-      "url_detalle_api": "/v2/compra-agil/2374-71-COT26"
-    },
-    {
       "codigo": "2789-191-COT26",
       "nombre": "FILAMENTOS - LICEO BARBARA KAST R.",
       "estado": "publicada",
@@ -126,18 +38,8 @@
         "impresion 3d"
       ],
       "total_ofertas": 0,
-      "productos": [
-        {
-          "nombre": "Kits para impresoras",
-          "descripcion": "FILAMENTOS, SEGUN ESPECIFICACIONES TECNICAS ADJUNTAS",
-          "cantidad": 1,
-          "unidad": "PACK"
-        }
-      ],
-      "url_detalle_api": "/v2/compra-agil/2789-191-COT26",
-      "descripcion": "SE REQUIERE LA ADQUISICION DE FILAMENTOS PARA IMPRESORA 3D DEL LICEO BARBARA KAST R., COMUNA DE PAINE. S/SOLICITUD DE COMPRA N°277/12.05.2026.",
-      "direccion_entrega": "AVDA. 18 DE SEPTIEMBRE N°235-INTERIOR",
-      "plazo_entrega_dias": 1
+      "productos": [],
+      "url_detalle_api": "/v2/compra-agil/2789-191-COT26"
     },
     {
       "codigo": "1431841-562-COT26",
@@ -158,24 +60,8 @@
         "impresion 3d"
       ],
       "total_ofertas": 0,
-      "productos": [
-        {
-          "nombre": "Tickets o rollos de tickets",
-          "descripcion": " 10 ROLLO TURNO PAPEL BLANCO CON IMPRESION EN TINTA DE COLOR Y FOLIO EN TINTA ROJA.",
-          "cantidad": 10,
-          "unidad": "RO"
-        },
-        {
-          "nombre": "Cajas de archivo o accesorios",
-          "descripcion": "40 CAJAS ARCHIVO STANDAR KRAFT.",
-          "cantidad": 40,
-          "unidad": "BX"
-        }
-      ],
-      "url_detalle_api": "/v2/compra-agil/1431841-562-COT26",
-      "descripcion": "10 ROLLO TURNO PAPEL BLANCO CON IMPRESION EN TINTA DE COLOR Y FOLIO EN TINTA ROJA y 40 CAJAS ARCHIVO STANDAR KRAFT.",
-      "direccion_entrega": "AVDA. RECOLETA 2774 ",
-      "plazo_entrega_dias": 2
+      "productos": [],
+      "url_detalle_api": "/v2/compra-agil/1431841-562-COT26"
     },
     {
       "codigo": "2020-101-COT26",
@@ -200,6 +86,60 @@
       "url_detalle_api": "/v2/compra-agil/2020-101-COT26"
     },
     {
+      "codigo": "552975-183-COT26",
+      "nombre": "SERVICIO DE IMPRESION DE INSUMOS CLINICOS",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "CORP DE DESARROLLO SOCIAL DE PROVIDENCIA",
+      "rut_organismo": "69.070.301-7",
+      "unidad_compra": "CDSP",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 5252600,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-04 15:24",
+      "fecha_cierre": "2026-06-05 15:30",
+      "fecha_ultimo_cambio": "2026-06-04T15:25:00.950Z",
+      "palabras_clave_match": [
+        "impresion 3d"
+      ],
+      "total_ofertas": 0,
+      "productos": [],
+      "url_detalle_api": "/v2/compra-agil/552975-183-COT26"
+    },
+    {
+      "codigo": "539819-283-COT26",
+      "nombre": "IMPRESION DE AFICHES PEQUEÑOS 35 X 55 CM CEAC M.V.",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "UNIVERSIDAD DE CHILE",
+      "rut_organismo": "60.910.000-1",
+      "unidad_compra": "UCHILE CEAC",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 75000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-04 15:39",
+      "fecha_cierre": "2026-06-05 16:00",
+      "fecha_ultimo_cambio": "2026-06-04T15:40:00.603Z",
+      "palabras_clave_match": [
+        "impresion 3d"
+      ],
+      "total_ofertas": 0,
+      "productos": [
+        {
+          "nombre": "Impresión digital",
+          "descripcion": "SE REQUIERE CONTRATAR EL SERVICIO DE IMPRESIÓN DE 32 AFICHES CON INFORMACIÓN INSTITUCIONAL DEL CENTRO DE EXTENSIÓN ARTÍSTICA Y CULTURAL DE LA UNIVERSIDAD DE CHILE SEGUN ESPECIFICACIONES TÉCNICAS ADJUNTAS.",
+          "cantidad": 32,
+          "unidad": "EA"
+        }
+      ],
+      "url_detalle_api": "/v2/compra-agil/539819-283-COT26",
+      "descripcion": "SE REQUIERE CONTRATAR EL SERVICIO DE IMPRESIÓN DE 32 AFICHES CON INFORMACIÓN INSTITUCIONAL DEL CENTRO DE EXTENSIÓN ARTÍSTICA Y CULTURAL DE LA UNIVERSIDAD DE CHILE SEGUN ESPECIFICACIONES TÉCNICAS ADJUNTAS.",
+      "direccion_entrega": "ARTURO BUHRLE 50",
+      "plazo_entrega_dias": 1
+    },
+    {
       "codigo": "2273-411-COT26",
       "nombre": "SERVICIOS DE IMPRESION, EXP 9633 MEMORANDUM N° 14906 ear.",
       "estado": "publicada",
@@ -218,58 +158,8 @@
         "impresion 3d"
       ],
       "total_ofertas": 0,
-      "productos": [
-        {
-          "nombre": "Folletos y catálogos publicitarios, servicios de publicidad y distribución",
-          "descripcion": "CARNET DE VACUNACIÓN TIRO Y RETIRO, TAMAÑO CARTA,  IMPRESIÓN A COLOR EN OPALINA LISA BLANCA, 220 GR. \n",
-          "cantidad": 1000,
-          "unidad": "EA"
-        },
-        {
-          "nombre": "Folletos y catálogos publicitarios, servicios de publicidad y distribución",
-          "descripcion": "TALONARIO RECETAS TIRO, TAMAÑO MEDIA CARTA 100 UNIDADES BLANCO Y NEGRO. PAPEL BOND 24 DE 80 GR.\n",
-          "cantidad": 30,
-          "unidad": "EA"
-        },
-        {
-          "nombre": "Folletos y catálogos publicitarios, servicios de publicidad y distribución",
-          "descripcion": "TALONARIO RECETAS TIRO Y RETIRO, TAMAÑO MEDIA CARTA, 100 UNIDADES BLANCO Y NEGRO. PAPEL BOND 24 DE 80 GR.\n",
-          "cantidad": 30,
-          "unidad": "EA"
-        },
-        {
-          "nombre": "Folletos y catálogos publicitarios, servicios de publicidad y distribución",
-          "descripcion": "VOLANTES, TAMAÑO MEDIA CARTA, BLANCO Y NEGRO, PAPEL COUCHE 170 GR,  detalle de lo requerido en anexos adjuntos. \n",
-          "cantidad": 2500,
-          "unidad": "EA"
-        }
-      ],
-      "url_detalle_api": "/v2/compra-agil/2273-411-COT26",
-      "descripcion": "LOS PROVEEDORES PARTICIPANTES DEBERÁN SUBIR SUS OFERTAS EN EL FORMULARIO DE COTIZACIÓN ESTABLECIDO EN LA PLATAFORMA DE MERCADO PÚBLICO. EN CASO DE ADJUNTAR UN ANEXO CON EL DETALLE DE LA COTIZACIÓN, ÉSTE DEBE COINCIDIR CON LA COTIZACIÓN ELECTRÓNICA DE MERCADO PÚBLICO. DE EXISTIR INCONSISTENCIA ENTRE EL FORMATO ELECTRÓNICO Y EL FORMATO ADJUNTO, LA COTIZACIÓN NO SERÁ CONSIDERADA EN LA EVALUACIÓN DE LAS OFERTAS. ver más en anexo adjunto.",
-      "direccion_entrega": "LOS TILOS N° 037 REFERENCIA PARADERO 47 SANTA ROSA.",
-      "plazo_entrega_dias": 5
-    },
-    {
-      "codigo": "1057473-88-COT26",
-      "nombre": "CAJAS ORGANIZADORAS TRANSPARENTES DE 28 Y 61 LITROS MAS BALDES PLASTICO DE 8 LITROS",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "SAMU",
-      "rut_organismo": "61.999.030-7",
-      "unidad_compra": "Bienes y Servicios",
-      "region": 13,
-      "region_nombre": "Metropolitana",
-      "monto_clp": 300000,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-06-02 16:13",
-      "fecha_cierre": "2026-06-06 01:27",
-      "fecha_ultimo_cambio": "2026-06-04T09:35:00.323Z",
-      "palabras_clave_match": [
-        "plastico"
-      ],
-      "total_ofertas": 11,
       "productos": [],
-      "url_detalle_api": "/v2/compra-agil/1057473-88-COT26"
+      "url_detalle_api": "/v2/compra-agil/2273-411-COT26"
     },
     {
       "codigo": "757-213-COT26",
@@ -292,6 +182,188 @@
       "total_ofertas": 0,
       "productos": [],
       "url_detalle_api": "/v2/compra-agil/757-213-COT26"
+    },
+    {
+      "codigo": "777304-2110-COT26",
+      "nombre": "MOF000170 IMPRESION DE FORMULARIO",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "HOSPITAL CLINICO METROPOLITANO DE LA FLORIDA DOCTORA ELOISA DIAZ",
+      "rut_organismo": "65.075.485-9",
+      "unidad_compra": "UNIDAD DE COMPRA INSUMOS  Y OTROS",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 500000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-05 09:33",
+      "fecha_cierre": "2026-06-08 09:00",
+      "fecha_ultimo_cambio": "2026-06-05T09:35:01.010Z",
+      "palabras_clave_match": [
+        "impresion 3d"
+      ],
+      "total_ofertas": 0,
+      "productos": [
+        {
+          "nombre": "Impresión de papelería o formularios comerciales",
+          "descripcion": "Hojas de Evaluación y Registro Anestésico Gramaje: 220 gr Tamaño: Carta 21,59 cm x 27,94 cm 1 hojas impresa por ambos lados (hoja 1: Evaluación Preanestésica, Hoja 2: Registro Anestésico Intraoperatorio) Ajustar al área de impresión.SE SOLICITA MEDIDA EXACTA ADJUNTA FORMATO DE FICHA POR INTERNO UNA VEZ QUE SE ADJUDIQUE OC, SE SOLICITA PRESENTAR UNA MUESTRA ANTES DE IMPRESION. CONTACTO CARLA FERRADA CARLA.FERRADA@HOSPITALLAFLORIDA.CL",
+          "cantidad": 8000,
+          "unidad": "EA"
+        }
+      ],
+      "url_detalle_api": "/v2/compra-agil/777304-2110-COT26",
+      "descripcion": "Favor adjuntar ficha técnica, imagen referencial y cotización formal para mejor evaluación del producto, agregar contacto telefónico y correo electrónico. IMPORTANTE: No se adjudicará ofertas sin cotización, ADJUNTAR fichas técnicas de producto ofertado. CUMPLIR CON FECHA DE ENTREGA , DESPACHO INMEDIATO Y/O PARCELADO SEGUN LO REQUIERA BODEGA. ",
+      "direccion_entrega": "FROILAN ROA 6542",
+      "plazo_entrega_dias": 1
+    },
+    {
+      "codigo": "2793-464-COT26",
+      "nombre": "SERV IMPRESION CULTURA PARA EL DESARROLLO",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "Iluste Municipalidad de Huechuraba",
+      "rut_organismo": "69.255.400-0",
+      "unidad_compra": "Municipalidad de Huechuraba",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 500000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-04 17:41",
+      "fecha_cierre": "2026-06-08 10:00",
+      "fecha_ultimo_cambio": "2026-06-04T17:45:00.990Z",
+      "palabras_clave_match": [
+        "impresion 3d"
+      ],
+      "total_ofertas": 0,
+      "productos": [
+        {
+          "nombre": "Impresión digital",
+          "descripcion": "DETALLE DEL SERVICIO REQUERIDO SE ESPECIFICA EN ANEXO TECNICO. \t",
+          "cantidad": 1,
+          "unidad": "EA"
+        }
+      ],
+      "url_detalle_api": "/v2/compra-agil/2793-464-COT26",
+      "descripcion": "Adquisicion de servicio de impresion para el programa Cultura para el Desarrollo\n\nNOTA: para efectuar la evaluación de las ofertas, cada proveedor debe adjuntar cotización formal y detallada de los productos requeridos, con número telefónico, correo electrónico y persona de contacto.",
+      "direccion_entrega": "Avenida Recoleta 6178",
+      "plazo_entrega_dias": 3
+    },
+    {
+      "codigo": "5178-3007-COT26",
+      "nombre": "KIT DE IMPRESION DE ETIQUETAS PARA LAMINAS CITOLOGICAS/SP 1048788/JL",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "UNIVERSIDAD DE CHILE",
+      "rut_organismo": "60.910.000-1",
+      "unidad_compra": "UCHILE  Facultad Medicina (5178)",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 6664000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-01 10:22",
+      "fecha_cierre": "2026-06-08 10:00",
+      "fecha_ultimo_cambio": "2026-06-04T15:10:01.193Z",
+      "palabras_clave_match": [
+        "impresion 3d"
+      ],
+      "total_ofertas": 1,
+      "productos": [],
+      "url_detalle_api": "/v2/compra-agil/5178-3007-COT26"
+    },
+    {
+      "codigo": "5178-3117-COT26",
+      "nombre": "SERVICIO DE IMPRESION/SP1053157/CM",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "UNIVERSIDAD DE CHILE",
+      "rut_organismo": "60.910.000-1",
+      "unidad_compra": "UCHILE  Facultad Medicina (5178)",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 375000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-05 11:40",
+      "fecha_cierre": "2026-06-08 12:30",
+      "fecha_ultimo_cambio": "2026-06-05T11:45:01.097Z",
+      "palabras_clave_match": [
+        "impresion 3d"
+      ],
+      "total_ofertas": 0,
+      "productos": [
+        {
+          "nombre": "Impresión de papelería o formularios comerciales",
+          "descripcion": "IMPRESION DE DIPLOMA\nTAMANO EXTENDIDO 38.3 CMS X 27.4 CMS , TAMANO CERRADO 0 CMS X CMS, SUSTRATO CON PAPEL SEGURIDAD 130 GRS E . IMPRESION 4 , 0 , CMYK TERMINACION CORTE RECTO ( CARACTERISTICAS OBLIGATORIAS PARA SER EVALUADO)",
+          "cantidad": 50,
+          "unidad": "EA"
+        }
+      ],
+      "url_detalle_api": "/v2/compra-agil/5178-3117-COT26",
+      "descripcion": "PARA PARTICIPAR DEBE ADJUNTAR OBLIGATORIO EN ARCHIVO PDF O WORD COTIZACIÓN FORMAL INDICANDO PLAZO DE ENTREGA, DETALLE DEL PRODUCTO O SERVICIO OFERTADO COMPLETO,SE EVALUARA EL COMPORTAMIENTO DE CUMPLIMIENTO ANTERIORES DE LOS PROVEEDORES QUE OFERTEN, LOS CRITERIOS DE EVALUACION SERAN 50% CUMPLIMIENTO TECNICO Y 50% PRECIO.\n",
+      "direccion_entrega": "AVDA. INDEPENDENCIA 1027 - Campus: NORTE",
+      "plazo_entrega_dias": 5
+    },
+    {
+      "codigo": "1561-27-COT26",
+      "nombre": "Software de diseño gráfico y modelado en tres dimensiones (3D) y Software de modelado de información de construcción",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "DIRECCION GENERAL DEL CREDITO PRENDARIO",
+      "rut_organismo": "61.504.000-2",
+      "unidad_compra": "Dirección General",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 4474950,
+      "moneda": "USD",
+      "fecha_publicacion": "2026-06-05 11:34",
+      "fecha_cierre": "2026-06-08 15:00",
+      "fecha_ultimo_cambio": "2026-06-05T11:35:00.900Z",
+      "palabras_clave_match": [
+        "impresion 3d"
+      ],
+      "total_ofertas": 0,
+      "productos": [
+        {
+          "nombre": "Software de arquitectura del sistema y análisis de requisitos",
+          "descripcion": "E1 O2 RT9. La Dirección General del Crédito Prendario (DICREP) requiere adquirir dos tipos de software: una licencia de modelado de información de construcción (BIM) y dos licencias de software de diseño gráfico y modelado tridimensional (3D), destinados a la creación de modelos digitales precisos de edificios y estructuras. VER ADJUNTO",
+          "cantidad": 2,
+          "unidad": "EA"
+        }
+      ],
+      "url_detalle_api": "/v2/compra-agil/1561-27-COT26",
+      "descripcion": "E1 O2 RT9 La Dirección General del Crédito Prendario (DICREP) requiere adquirir dos tipos de software: una licencia de modelado de información de construcción (BIM) y dos licencias de software de diseño gráfico y modelado tridimensional (3D), destinados a la creación de modelos digitales precisos de edificios y estructuras. VER ADJUNTO",
+      "direccion_entrega": "San Antonio 427, Santiago",
+      "plazo_entrega_dias": 3
+    },
+    {
+      "codigo": "4841-25-COT26",
+      "nombre": "Adquisición Curso Introducción a la Impresión 3D para el CNCR",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "SERVICIO NACIONAL DEL PATRIMONIO CULTURAL",
+      "rut_organismo": "60.905.000-4",
+      "unidad_compra": "CENTRO NACIONAL DE CONSERVACIÓN Y RESTAURACIÓN",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 840000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-05 08:53",
+      "fecha_cierre": "2026-06-09 08:30",
+      "fecha_ultimo_cambio": "2026-06-05T08:55:00.350Z",
+      "palabras_clave_match": [
+        "impresion 3d"
+      ],
+      "total_ofertas": 0,
+      "productos": [
+        {
+          "nombre": "Capacitación a empleados",
+          "descripcion": "El Centro Nacional de Conservación y Restauración (CNCR) requiere la adquisición del curso “Introducción a la impresión 3D”, para 2 (dos) personas funcionarias del CNCR relacionadas con las intervenciones de conservación y restauración de bienes patrimoniales, con el objetivo de adquirir competencias necesarias para conocer y aplicar la impresión 3D al patrimonio, entregar conceptos básicos del modelado 3D, y entregar habilidades prácticas en manejo de impresoras 3D, según TDR adjunto.",
+          "cantidad": 1,
+          "unidad": "EA"
+        }
+      ],
+      "url_detalle_api": "/v2/compra-agil/4841-25-COT26",
+      "descripcion": "El Centro Nacional de Conservación y Restauración (CNCR) requiere la adquisición del curso “Introducción a la impresión 3D”, para 2 (dos) personas funcionarias del CNCR relacionadas con las intervenciones de conservación y restauración de bienes patrimoniales, con el objetivo de adquirir competencias necesarias para conocer y aplicar la impresión 3D al patrimonio, entregar conceptos básicos del modelado 3D, y entregar habilidades prácticas en manejo de impresoras 3D.",
+      "direccion_entrega": "RECOLETA 683",
+      "plazo_entrega_dias": 10
     }
   ]
 }
