@@ -251,14 +251,19 @@ def main():
     print(f"Buscando Compra Ágil — {len(PALABRAS_CLAVE)} palabras, "
           f"regiones={REGIONES or 'todas'}, estados={ESTADOS}")
 
-    por_codigo = {}          # codigo -> registro normalizado
-    matches = {}             # codigo -> set de palabras clave que lo encontraron
+    por_codigo = {}   # codigo -> item crudo
+    matches = {}      # codigo -> set de palabras clave
 
+    # Fase 1: recolectar todos los códigos únicos (solo listing, sin detalle)
+    cuota_agotada = False
     for kw in PALABRAS_CLAVE:
+        if cuota_agotada:
+            break
         try:
             items = buscar_por_palabra(kw)
         except CuotaAgotada as e:
-            print(f"DETENIDO: {e}", file=sys.stderr)
+            print(f"DETENIDO en búsqueda: {e}", file=sys.stderr)
+            cuota_agotada = True
             break
         print(f"  · '{kw}': {len(items)} resultados")
         for it in items:
@@ -267,24 +272,25 @@ def main():
                 continue
             matches.setdefault(cod, set()).add(kw)
             if cod not in por_codigo:
-                por_codigo[cod] = it  # guardamos el item crudo; normalizamos al final
+                por_codigo[cod] = it
 
-    # Normalizar + (opcional) detalle
+    # Fase 2: normalizar + detalle UNO A UNO
+    # Si la cuota se acaba, los que ya se procesaron quedan completos.
     registros = []
-    for cod, it in por_codigo.items():
+    total = len(por_codigo)
+    print(f"Procesando {total} procesos únicos (detalle uno a uno)…")
+    for i, (cod, it) in enumerate(por_codigo.items(), 1):
         reg = normalizar(it, matches.get(cod, set()))
-        registros.append(reg)
-
-    if FETCH_DETALLE:
-        print(f"Trayendo detalle de {len(registros)} procesos únicos…")
-        for i, reg in enumerate(registros, 1):
+        if FETCH_DETALLE:
             try:
                 enriquecer_con_detalle(reg)
             except CuotaAgotada as e:
-                print(f"DETENIDO en detalle: {e}", file=sys.stderr)
+                print(f"DETENIDO en detalle #{i}/{total}: {e}", file=sys.stderr)
+                registros.append(reg)  # guarda este con datos parciales
                 break
-            if i % 25 == 0:
-                print(f"  · {i}/{len(registros)}")
+        registros.append(reg)
+        if i % 10 == 0:
+            print(f"  · {i}/{total} procesados")
 
     registros.sort(key=_fecha_orden)
 
@@ -292,16 +298,4 @@ def main():
         "generado": dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "total": len(registros),
         "palabras_clave": PALABRAS_CLAVE,
-        "regiones": REGIONES,
-        "estados": ESTADOS,
-        "items": registros,
-    }
-
-    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-        json.dump(salida, f, ensure_ascii=False, indent=2)
-
-    print(f"OK: {len(registros)} oportunidades → {OUTPUT_FILE}")
-
-
-if __name__ == "__main__":
-    main()
+        "regiones": RE
