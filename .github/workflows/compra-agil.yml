@@ -1,10 +1,10 @@
 name: Compra Agil — recolector
 
-# Corre varias veces al día (UTC). Chile ≈ UTC-4 / -3.
-# 11,14,17,20 UTC ≈ 07:00–17:00 hora de Chile. Ajusta a gusto.
+# Corre una vez al día a las 10:00 hora Chile (UTC-4 verano / UTC-3 invierno).
+# 14:00 UTC = 10:00 Chile verano. En invierno serían las 11:00.
 on:
   schedule:
-    - cron: "0 11,14,17,20 * * *"
+    - cron: "0 14 * * *"
   workflow_dispatch: {}   # permite ejecutarlo a mano desde la pestaña Actions
 
 permissions:

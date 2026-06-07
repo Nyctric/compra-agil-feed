@@ -219,6 +219,24 @@ def enriquecer_con_detalle(registro):
     registro["direccion_entrega"] = entrega.get("direccion_entrega")
     registro["plazo_entrega_dias"] = entrega.get("plazo_entrega_dias")
 
+    # Adjuntos — la API puede usar distintos nombres de campo
+    adjuntos = []
+    for campo in ("adjuntos", "archivos", "documentos", "anexos", "files", "attachments"):
+        raw = det.get(campo) or []
+        for a in raw:
+            if isinstance(a, dict):
+                adjuntos.append({
+                    "nombre": a.get("nombre") or a.get("name") or a.get("filename") or "Archivo",
+                    "url": a.get("url") or a.get("link") or a.get("href") or "",
+                    "tipo": a.get("tipo") or a.get("type") or a.get("extension") or "",
+                    "tamano": a.get("tamano") or a.get("size") or "",
+                })
+    registro["adjuntos"] = adjuntos
+    # Log campos disponibles en el detalle (solo primera vez, para debug)
+    if not hasattr(enriquecer_con_detalle, "_logged"):
+        enriquecer_con_detalle._logged = True
+        print(f"  [DEBUG] Campos en detalle: {sorted(det.keys())}", file=sys.stderr)
+
 
 def _fecha_orden(reg):
     """Clave de orden: cierre más próximo primero; sin cierre al final."""
