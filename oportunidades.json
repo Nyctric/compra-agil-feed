@@ -1,6 +1,6 @@
 {
-  "generado": "2026-06-08T03:20:12Z",
-  "total": 8,
+  "generado": "2026-06-08T03:51:02Z",
+  "total": 6,
   "palabras_clave": [
     "impresion 3d",
     "filamento",
@@ -69,95 +69,12 @@
         "impresion 3d"
       ],
       "total_ofertas": 0,
-      "productos": [
-        {
-          "nombre": "Impresión digital",
-          "descripcion": "DETALLE DEL SERVICIO REQUERIDO SE ESPECIFICA EN ANEXO TECNICO. \t",
-          "cantidad": 1,
-          "unidad": "EA"
-        }
-      ],
-      "adjuntos": [
-        {
-          "nombre": "REQUERIMIENTO IMPRESIONES CULTURA PARA EL DESARROLLO.pdf",
-          "url": "",
-          "tipo": ""
-        }
-      ],
-      "descripcion": "Adquisicion de servicio de impresion para el programa Cultura para el Desarrollo\n\nNOTA: para efectuar la evaluación de las ofertas, cada proveedor debe adjuntar cotización formal y detallada de los productos requeridos, con número telefónico, correo electrónico y persona de contacto.",
-      "direccion_entrega": "Avenida Recoleta 6178",
-      "plazo_entrega_dias": 3,
-      "url_detalle_api": "/v2/compra-agil/2793-464-COT26"
-    },
-    {
-      "codigo": "5178-3007-COT26",
-      "nombre": "KIT DE IMPRESION DE ETIQUETAS PARA LAMINAS CITOLOGICAS/SP 1048788/JL",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "UNIVERSIDAD DE CHILE",
-      "rut_organismo": "60.910.000-1",
-      "unidad_compra": "UCHILE  Facultad Medicina (5178)",
-      "region": 13,
-      "region_nombre": "Metropolitana",
-      "monto_clp": 6664000,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-06-01 10:22",
-      "fecha_cierre": "2026-06-08 10:00",
-      "fecha_ultimo_cambio": "2026-06-04T15:10:01.193Z",
-      "palabras_clave_match": [
-        "impresion 3d"
-      ],
-      "total_ofertas": 1,
-      "productos": [
-        {
-          "nombre": "Etiquetas para portaobjetos o especímenes",
-          "descripcion": "KIT DE IMPRESION DE ETIQUETAS PARA LAMINAS CITOLOGICAS.\nESTACION DE IMPRESION DE ETIQUETAS PARA PORTAOBJETOS. DEBE INCLUIR IMPRESORA, PC ALL IN ONE, KIT DE ETIQUETAS INICIAL CON UN MINIMO DE 3.000 UNIDADES. LOS OFERENTES DEBERAN ENTREGAR ETIQUETAS PARA COMPROBAR RESISTENCIA A PROCESOS QUIMICOS. SE ADJUNTA INFORME Y REQUERIMIENTOS TECNICOS.CON VISITA A TERRENO PARA EL DÍA 02/06 A LAS 10:30HR EN CARLOS SCHACHTEBECK 299 PISO 3. INTERIOR PARQUE QUINTA NORMAL,CONTACTO:NICOLE ASPE/\t+562297070708",
-          "cantidad": 1,
-          "unidad": "EA"
-        }
-      ],
-      "adjuntos": [
-        {
-          "nombre": "Informe_Impresora_de_Etiquetas_abril_2026 (4).pdf",
-          "url": "",
-          "tipo": ""
-        },
-        {
-          "nombre": "ESPECIFICACIONES_T__CNICAS.pdf",
-          "url": "",
-          "tipo": ""
-        }
-      ],
-      "descripcion": "SE REQUIERE DE KIT DE IMPRESION DE ETIQUETAS PARA LAMINAS CITOLOGICAS.CON VISITA A TERRENO PARA EL DÍA 02/06 A LAS 10:30HR EN CARLOS SCHACHTEBECK 299 PISO 3. INTERIOR PARQUE QUINTA NORMAL,CONTACTO:NICOLE ASPE/\t+562297070708(SE ADJUNTA INFORME Y REQUERIMIENTOS TECNICOS). PARA PARTICIPAR ASISTIR A VISITA,ADJUNTAR COTIZACION FORMAL+PLAZO DE ENTREGA.",
-      "direccion_entrega": "CARLOS SCHACHTEBECK 299 PISO 3. INTERIOR PARQUE QUINTA NORMAL - Campus: OCCIDENTE",
-      "plazo_entrega_dias": 15,
-      "url_detalle_api": "/v2/compra-agil/5178-3007-COT26"
-    },
-    {
-      "codigo": "2793-462-COT26",
-      "nombre": "ARTICULOS DE PLASTICO ESCUELA FORMACION ARTISTICA",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "Iluste Municipalidad de Huechuraba",
-      "rut_organismo": "69.255.400-0",
-      "unidad_compra": "Municipalidad de Huechuraba",
-      "region": 13,
-      "region_nombre": "Metropolitana",
-      "monto_clp": 500000,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-06-04 17:13",
-      "fecha_cierre": "2026-06-08 10:00",
-      "fecha_ultimo_cambio": "2026-06-04T17:15:00.927Z",
-      "palabras_clave_match": [
-        "plastico"
-      ],
-      "total_ofertas": 0,
       "productos": [],
       "adjuntos": [],
       "descripcion": null,
       "direccion_entrega": null,
       "plazo_entrega_dias": null,
-      "url_detalle_api": "/v2/compra-agil/2793-462-COT26"
+      "url_detalle_api": "/v2/compra-agil/2793-464-COT26"
     },
     {
       "codigo": "5178-3117-COT26",
@@ -221,8 +138,9 @@
       ],
       "adjuntos": [
         {
+          "id": 1562003,
           "nombre": "REQUERIMIENTO IMPRESIONES IDENTIDAD Y PATRIMONIO.pdf",
-          "url": "",
+          "url": "https://compra-agil.mercadopublico.cl/documentos/1562003",
           "tipo": ""
         }
       ],
@@ -260,8 +178,9 @@
       ],
       "adjuntos": [
         {
+          "id": 1560868,
           "nombre": "Compra ágil ID 1561-27-COT26.pdf",
-          "url": "",
+          "url": "https://compra-agil.mercadopublico.cl/documentos/1560868",
           "tipo": ""
         }
       ],
@@ -299,8 +218,9 @@
       ],
       "adjuntos": [
         {
+          "id": 1559556,
           "nombre": "20260428_CompraAgil_Impresion3D_corregida_kcs_v2.pdf",
-          "url": "",
+          "url": "https://compra-agil.mercadopublico.cl/documentos/1559556",
           "tipo": ""
         }
       ],
