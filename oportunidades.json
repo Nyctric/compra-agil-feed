@@ -1,6 +1,6 @@
 {
-  "generado": "2026-06-08T03:51:02Z",
-  "total": 6,
+  "generado": "2026-06-08T17:24:26Z",
+  "total": 5,
   "palabras_clave": [
     "impresion 3d",
     "filamento",
@@ -17,98 +17,6 @@
     "publicada"
   ],
   "items": [
-    {
-      "codigo": "777304-2110-COT26",
-      "nombre": "MOF000170 IMPRESION DE FORMULARIO",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "HOSPITAL CLINICO METROPOLITANO DE LA FLORIDA DOCTORA ELOISA DIAZ",
-      "rut_organismo": "65.075.485-9",
-      "unidad_compra": "UNIDAD DE COMPRA INSUMOS  Y OTROS",
-      "region": 13,
-      "region_nombre": "Metropolitana",
-      "monto_clp": 500000,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-06-05 09:33",
-      "fecha_cierre": "2026-06-08 09:00",
-      "fecha_ultimo_cambio": "2026-06-05T09:35:01.010Z",
-      "palabras_clave_match": [
-        "impresion 3d"
-      ],
-      "total_ofertas": 0,
-      "productos": [
-        {
-          "nombre": "Impresión de papelería o formularios comerciales",
-          "descripcion": "Hojas de Evaluación y Registro Anestésico Gramaje: 220 gr Tamaño: Carta 21,59 cm x 27,94 cm 1 hojas impresa por ambos lados (hoja 1: Evaluación Preanestésica, Hoja 2: Registro Anestésico Intraoperatorio) Ajustar al área de impresión.SE SOLICITA MEDIDA EXACTA ADJUNTA FORMATO DE FICHA POR INTERNO UNA VEZ QUE SE ADJUDIQUE OC, SE SOLICITA PRESENTAR UNA MUESTRA ANTES DE IMPRESION. CONTACTO CARLA FERRADA CARLA.FERRADA@HOSPITALLAFLORIDA.CL",
-          "cantidad": 8000,
-          "unidad": "EA"
-        }
-      ],
-      "adjuntos": [],
-      "descripcion": "Favor adjuntar ficha técnica, imagen referencial y cotización formal para mejor evaluación del producto, agregar contacto telefónico y correo electrónico. IMPORTANTE: No se adjudicará ofertas sin cotización, ADJUNTAR fichas técnicas de producto ofertado. CUMPLIR CON FECHA DE ENTREGA , DESPACHO INMEDIATO Y/O PARCELADO SEGUN LO REQUIERA BODEGA. ",
-      "direccion_entrega": "FROILAN ROA 6542",
-      "plazo_entrega_dias": 1,
-      "url_detalle_api": "/v2/compra-agil/777304-2110-COT26"
-    },
-    {
-      "codigo": "2793-464-COT26",
-      "nombre": "SERV IMPRESION CULTURA PARA EL DESARROLLO",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "Iluste Municipalidad de Huechuraba",
-      "rut_organismo": "69.255.400-0",
-      "unidad_compra": "Municipalidad de Huechuraba",
-      "region": 13,
-      "region_nombre": "Metropolitana",
-      "monto_clp": 500000,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-06-04 17:41",
-      "fecha_cierre": "2026-06-08 10:00",
-      "fecha_ultimo_cambio": "2026-06-04T17:45:00.990Z",
-      "palabras_clave_match": [
-        "impresion 3d"
-      ],
-      "total_ofertas": 0,
-      "productos": [],
-      "adjuntos": [],
-      "descripcion": null,
-      "direccion_entrega": null,
-      "plazo_entrega_dias": null,
-      "url_detalle_api": "/v2/compra-agil/2793-464-COT26"
-    },
-    {
-      "codigo": "5178-3117-COT26",
-      "nombre": "SERVICIO DE IMPRESION/SP1053157/CM",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "UNIVERSIDAD DE CHILE",
-      "rut_organismo": "60.910.000-1",
-      "unidad_compra": "UCHILE  Facultad Medicina (5178)",
-      "region": 13,
-      "region_nombre": "Metropolitana",
-      "monto_clp": 375000,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-06-05 11:40",
-      "fecha_cierre": "2026-06-08 12:30",
-      "fecha_ultimo_cambio": "2026-06-05T11:45:01.097Z",
-      "palabras_clave_match": [
-        "impresion 3d"
-      ],
-      "total_ofertas": 0,
-      "productos": [
-        {
-          "nombre": "Impresión de papelería o formularios comerciales",
-          "descripcion": "IMPRESION DE DIPLOMA\nTAMANO EXTENDIDO 38.3 CMS X 27.4 CMS , TAMANO CERRADO 0 CMS X CMS, SUSTRATO CON PAPEL SEGURIDAD 130 GRS E . IMPRESION 4 , 0 , CMYK TERMINACION CORTE RECTO ( CARACTERISTICAS OBLIGATORIAS PARA SER EVALUADO)",
-          "cantidad": 50,
-          "unidad": "EA"
-        }
-      ],
-      "adjuntos": [],
-      "descripcion": "PARA PARTICIPAR DEBE ADJUNTAR OBLIGATORIO EN ARCHIVO PDF O WORD COTIZACIÓN FORMAL INDICANDO PLAZO DE ENTREGA, DETALLE DEL PRODUCTO O SERVICIO OFERTADO COMPLETO,SE EVALUARA EL COMPORTAMIENTO DE CUMPLIMIENTO ANTERIORES DE LOS PROVEEDORES QUE OFERTEN, LOS CRITERIOS DE EVALUACION SERAN 50% CUMPLIMIENTO TECNICO Y 50% PRECIO.\n",
-      "direccion_entrega": "AVDA. INDEPENDENCIA 1027 - Campus: NORTE",
-      "plazo_entrega_dias": 5,
-      "url_detalle_api": "/v2/compra-agil/5178-3117-COT26"
-    },
     {
       "codigo": "2793-468-COT26",
       "nombre": "IMPRESIONES IDENTIDAD Y PATRIMONIO",
@@ -228,6 +136,71 @@
       "direccion_entrega": "RECOLETA 683",
       "plazo_entrega_dias": 10,
       "url_detalle_api": "/v2/compra-agil/4841-25-COT26"
+    },
+    {
+      "codigo": "5627-149-COT26",
+      "nombre": "COMPRA DE INSUMOS 114122",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "UNIVERSIDAD DE CHILE",
+      "rut_organismo": "60.910.000-1",
+      "unidad_compra": "FAC.CS.SOCIALES Facultad de Ciencias Sociales",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 350000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-08 10:26",
+      "fecha_cierre": "2026-06-09 14:00",
+      "fecha_ultimo_cambio": "2026-06-08T10:30:00.577Z",
+      "palabras_clave_match": [
+        "impresion 3d"
+      ],
+      "total_ofertas": 0,
+      "productos": [
+        {
+          "nombre": "Afiches del alfabeto",
+          "descripcion": "- 100 AFICHES DIGITAL 2 TEMAS 50 DE CADA UNO FORMATO 220X330 MM PAPEL COUCHE OPACO DE 300 GRM IMPRESION 4/0 COLORES",
+          "cantidad": 100,
+          "unidad": "EA"
+        },
+        {
+          "nombre": "Volantes",
+          "descripcion": "-500 TRIPTICOS IMPRESION DIGITAL 5 TEMAS FORMATO 210X297 PAPEL COUCHE DE 130 GRM 4/4 COLORES, CORTE RECTO , PILSADO, DOBLADO, FAJOS Y PAQUETES.",
+          "cantidad": 500,
+          "unidad": "EA"
+        }
+      ],
+      "adjuntos": [],
+      "descripcion": "SE REQUIERE COMPRA:\n\n-500 TRIPTICOS IMPRESION DIGITAL 5 TEMAS FORMATO 210X297 PAPEL COUCHE DE 130 GRM 4/4 COLORES, CORTE RECTO , PILSADO, DOBLADO, FAJOS Y PAQUETES.\n\n- 100 AFICHES DIGITAL 2 TEMAS 50 DE CADA UNO FORMATO 220X330 MM PAPEL COUCHE OPACO DE 300 GRM IMPRESION 4/0 COLORES\n\nPROVEEDOR DEBE AJDUNTAR COTIZACION, CONTACTO PARA COORDINAR ENTREGA.",
+      "direccion_entrega": "IGNACIO CARRERA PINTO 1045",
+      "plazo_entrega_dias": 5,
+      "url_detalle_api": "/v2/compra-agil/5627-149-COT26"
+    },
+    {
+      "codigo": "2793-464-COT26",
+      "nombre": "SERV IMPRESION CULTURA PARA EL DESARROLLO",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "Iluste Municipalidad de Huechuraba",
+      "rut_organismo": "69.255.400-0",
+      "unidad_compra": "Municipalidad de Huechuraba",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 500000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-04 17:41",
+      "fecha_cierre": "2026-06-12 05:03",
+      "fecha_ultimo_cambio": "2026-06-08T12:50:00.283Z",
+      "palabras_clave_match": [
+        "impresion 3d"
+      ],
+      "total_ofertas": 2,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "url_detalle_api": "/v2/compra-agil/2793-464-COT26"
     }
   ]
 }
