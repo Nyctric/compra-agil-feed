@@ -66,7 +66,8 @@ def _get(path, params=None):
             raise CuotaAgotada(f"Cuota diaria agotada (429). Retry-After={espera}.")
         if resp.status_code in (401, 403):
             raise SystemExit(f"ERROR {resp.status_code}: ticket inválido.")
-        if resp.status_code == 404:
+        if resp.status_code in (400, 404):
+            print(f'  · {resp.status_code} para {path} — saltando', file=sys.stderr)
             return None
         if resp.status_code >= 500:
             intento += 1
@@ -193,6 +194,9 @@ def main():
     matches = {}
 
     for kw in PALABRAS_CLAVE:
+        if len(kw.strip()) < 3:
+            print(f'  · keyword muy corta, saltando: {repr(kw)}')
+            continue
         try:
             items = buscar_por_palabra(kw)
         except CuotaAgotada as e:
