@@ -298,4 +298,16 @@ def main():
         "generado": dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "total": len(registros),
         "palabras_clave": PALABRAS_CLAVE,
-        "regiones": RE
+        "regiones": REGIONES,
+        "estados": ESTADOS,
+        "items": registros,
+    }
+
+    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+        json.dump(salida, f, ensure_ascii=False, indent=2)
+
+    print(f"OK: {len(registros)} oportunidades → {OUTPUT_FILE}")
+
+
+if __name__ == "__main__":
+    main()
