@@ -1,6 +1,6 @@
 {
-  "generado": "2026-06-08T17:24:26Z",
-  "total": 5,
+  "generado": "2026-06-09T16:33:28Z",
+  "total": 8,
   "palabras_clave": [
     "impresion 3d",
     "filamento",
@@ -17,126 +17,6 @@
     "publicada"
   ],
   "items": [
-    {
-      "codigo": "2793-468-COT26",
-      "nombre": "IMPRESIONES IDENTIDAD Y PATRIMONIO",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "Iluste Municipalidad de Huechuraba",
-      "rut_organismo": "69.255.400-0",
-      "unidad_compra": "Municipalidad de Huechuraba",
-      "region": 13,
-      "region_nombre": "Metropolitana",
-      "monto_clp": 500000,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-06-05 13:54",
-      "fecha_cierre": "2026-06-08 15:00",
-      "fecha_ultimo_cambio": "2026-06-05T13:55:00.610Z",
-      "palabras_clave_match": [
-        "impresion 3d"
-      ],
-      "total_ofertas": 0,
-      "productos": [
-        {
-          "nombre": "Impresión digital",
-          "descripcion": "DETALLE DEL SERVICIO REQUERIDO SE ESPECIFICA EN ANEXO TECNICO. ",
-          "cantidad": 1,
-          "unidad": "EA"
-        }
-      ],
-      "adjuntos": [
-        {
-          "id": 1562003,
-          "nombre": "REQUERIMIENTO IMPRESIONES IDENTIDAD Y PATRIMONIO.pdf",
-          "url": "https://compra-agil.mercadopublico.cl/documentos/1562003",
-          "tipo": ""
-        }
-      ],
-      "descripcion": "Adquisicion de servicio de impresion para talleres y actividades de Identidad y Patrimonio\n\nNOTA: para efectuar la evaluación de las ofertas, cada proveedor debe adjuntar cotización formal y detallada de los productos requeridos, con número telefónico, correo electrónico y persona de contacto.",
-      "direccion_entrega": "Avenida Recoleta 6178",
-      "plazo_entrega_dias": 3,
-      "url_detalle_api": "/v2/compra-agil/2793-468-COT26"
-    },
-    {
-      "codigo": "1561-27-COT26",
-      "nombre": "Software de diseño gráfico y modelado en tres dimensiones (3D) y Software de modelado de información de construcción",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "DIRECCION GENERAL DEL CREDITO PRENDARIO",
-      "rut_organismo": "61.504.000-2",
-      "unidad_compra": "Dirección General",
-      "region": 13,
-      "region_nombre": "Metropolitana",
-      "monto_clp": 4474950,
-      "moneda": "USD",
-      "fecha_publicacion": "2026-06-05 11:34",
-      "fecha_cierre": "2026-06-08 15:00",
-      "fecha_ultimo_cambio": "2026-06-05T11:35:00.900Z",
-      "palabras_clave_match": [
-        "impresion 3d"
-      ],
-      "total_ofertas": 0,
-      "productos": [
-        {
-          "nombre": "Software de arquitectura del sistema y análisis de requisitos",
-          "descripcion": "E1 O2 RT9. La Dirección General del Crédito Prendario (DICREP) requiere adquirir dos tipos de software: una licencia de modelado de información de construcción (BIM) y dos licencias de software de diseño gráfico y modelado tridimensional (3D), destinados a la creación de modelos digitales precisos de edificios y estructuras. VER ADJUNTO",
-          "cantidad": 2,
-          "unidad": "EA"
-        }
-      ],
-      "adjuntos": [
-        {
-          "id": 1560868,
-          "nombre": "Compra ágil ID 1561-27-COT26.pdf",
-          "url": "https://compra-agil.mercadopublico.cl/documentos/1560868",
-          "tipo": ""
-        }
-      ],
-      "descripcion": "E1 O2 RT9 La Dirección General del Crédito Prendario (DICREP) requiere adquirir dos tipos de software: una licencia de modelado de información de construcción (BIM) y dos licencias de software de diseño gráfico y modelado tridimensional (3D), destinados a la creación de modelos digitales precisos de edificios y estructuras. VER ADJUNTO",
-      "direccion_entrega": "San Antonio 427, Santiago",
-      "plazo_entrega_dias": 3,
-      "url_detalle_api": "/v2/compra-agil/1561-27-COT26"
-    },
-    {
-      "codigo": "4841-25-COT26",
-      "nombre": "Adquisición Curso Introducción a la Impresión 3D para el CNCR",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "SERVICIO NACIONAL DEL PATRIMONIO CULTURAL",
-      "rut_organismo": "60.905.000-4",
-      "unidad_compra": "CENTRO NACIONAL DE CONSERVACIÓN Y RESTAURACIÓN",
-      "region": 13,
-      "region_nombre": "Metropolitana",
-      "monto_clp": 840000,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-06-05 08:53",
-      "fecha_cierre": "2026-06-09 08:30",
-      "fecha_ultimo_cambio": "2026-06-05T08:55:00.350Z",
-      "palabras_clave_match": [
-        "impresion 3d"
-      ],
-      "total_ofertas": 0,
-      "productos": [
-        {
-          "nombre": "Capacitación a empleados",
-          "descripcion": "El Centro Nacional de Conservación y Restauración (CNCR) requiere la adquisición del curso “Introducción a la impresión 3D”, para 2 (dos) personas funcionarias del CNCR relacionadas con las intervenciones de conservación y restauración de bienes patrimoniales, con el objetivo de adquirir competencias necesarias para conocer y aplicar la impresión 3D al patrimonio, entregar conceptos básicos del modelado 3D, y entregar habilidades prácticas en manejo de impresoras 3D, según TDR adjunto.",
-          "cantidad": 1,
-          "unidad": "EA"
-        }
-      ],
-      "adjuntos": [
-        {
-          "id": 1559556,
-          "nombre": "20260428_CompraAgil_Impresion3D_corregida_kcs_v2.pdf",
-          "url": "https://compra-agil.mercadopublico.cl/documentos/1559556",
-          "tipo": ""
-        }
-      ],
-      "descripcion": "El Centro Nacional de Conservación y Restauración (CNCR) requiere la adquisición del curso “Introducción a la impresión 3D”, para 2 (dos) personas funcionarias del CNCR relacionadas con las intervenciones de conservación y restauración de bienes patrimoniales, con el objetivo de adquirir competencias necesarias para conocer y aplicar la impresión 3D al patrimonio, entregar conceptos básicos del modelado 3D, y entregar habilidades prácticas en manejo de impresoras 3D.",
-      "direccion_entrega": "RECOLETA 683",
-      "plazo_entrega_dias": 10,
-      "url_detalle_api": "/v2/compra-agil/4841-25-COT26"
-    },
     {
       "codigo": "5627-149-COT26",
       "nombre": "COMPRA DE INSUMOS 114122",
@@ -175,6 +55,251 @@
       "direccion_entrega": "IGNACIO CARRERA PINTO 1045",
       "plazo_entrega_dias": 5,
       "url_detalle_api": "/v2/compra-agil/5627-149-COT26"
+    },
+    {
+      "codigo": "2432-402-COT26",
+      "nombre": "SOL 332 / DIDECO / SUMINISTRO DE IMPRESION / DANIELA GOMEZ",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "I MUNICIPALIDAD ESTACION CENTRAL",
+      "rut_organismo": "69.254.300-9",
+      "unidad_compra": "IMUNI_ESTCENTRAL ADQUISICIONES",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 7058001,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-08 16:24",
+      "fecha_cierre": "2026-06-10 09:00",
+      "fecha_ultimo_cambio": "2026-06-08T16:25:01.030Z",
+      "palabras_clave_match": [
+        "impresion 3d"
+      ],
+      "total_ofertas": 0,
+      "productos": [
+        {
+          "nombre": "Agencias de marketing de ventas, incluidas las impresiones",
+          "descripcion": "SUMINISTRO DE IMPRESION SEGUNA ARCHIVO ADJUNTO",
+          "cantidad": 1,
+          "unidad": "EA"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": 1567910,
+          "nombre": "Compra ágil - Términos administrativos de referencia 2025 (3).pdf",
+          "url": "https://compra-agil.mercadopublico.cl/documentos/1567910",
+          "tipo": ""
+        },
+        {
+          "id": 1567911,
+          "nombre": "Anexo editable.docx",
+          "url": "https://compra-agil.mercadopublico.cl/documentos/1567911",
+          "tipo": ""
+        },
+        {
+          "id": 1567912,
+          "nombre": "SUMINISTRO DE IMPRESION.pdf",
+          "url": "https://compra-agil.mercadopublico.cl/documentos/1567912",
+          "tipo": ""
+        }
+      ],
+      "descripcion": "SUMINISTRO DE IMPRESION",
+      "direccion_entrega": "ALAMEDA 3920",
+      "plazo_entrega_dias": 1,
+      "url_detalle_api": "/v2/compra-agil/2432-402-COT26"
+    },
+    {
+      "codigo": "1238111-59-COT26",
+      "nombre": "IMPRESION MEMORIA CORPORATIVA - 20 COPIAS",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "CORPORACION CULTURAL DE LA REINA",
+      "rut_organismo": "70.978.700-4",
+      "unidad_compra": "Administración y finanzas",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 300000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-09 10:19",
+      "fecha_cierre": "2026-06-10 10:30",
+      "fecha_ultimo_cambio": "2026-06-09T10:20:00.730Z",
+      "palabras_clave_match": [
+        "impresion 3d"
+      ],
+      "total_ofertas": 0,
+      "productos": [
+        {
+          "nombre": "Impresión digital",
+          "descripcion": "Se requiere con urgencia impresión de 20 copias de Memoria Corporativa con las siguientes características:\n\nMedidas: 21 cm x 14.8 cm (A5) (formato horizontal)- Interior es a color en estucado mate de 100g/m2 (doble cara) - 87 páginas- Tapa rígida flexible: cartulina gráfica 300g/m2 con plastificado.\n\nSe adjuntan imágenes de referencia\n\nLos diseños serán enviados una vez seleccionado al proveedor",
+          "cantidad": 20,
+          "unidad": "EA"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": 1569726,
+          "nombre": "Memoria_referencia_año_2024.pdf",
+          "url": "https://compra-agil.mercadopublico.cl/documentos/1569726",
+          "tipo": ""
+        }
+      ],
+      "descripcion": "20 copias de Memoria Corporativa con las siguientes características:\n\nMedidas: 21 cm x 14.8 cm (A5) (formato horizontal)- Interior es a color en estucado mate de 100g/m2 (doble cara) - 87 páginas- Tapa rígida flexible: cartulina gráfica 300g/m2 con plastificado.  ",
+      "direccion_entrega": "SANTA RITA 1153",
+      "plazo_entrega_dias": 5,
+      "url_detalle_api": "/v2/compra-agil/1238111-59-COT26"
+    },
+    {
+      "codigo": "598-120-COT26",
+      "nombre": " ADQUISICION DE 5 MURALES DE ACRILICO IMPRESION “DERECHOS Y DEBERES DE LOS PACIENTES” PARA EL SERVICIO MEDICO Y ODONTOLOGICO DIPRECA.",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "DIRECCION PREVISION DE CARABINEROS DE CHILE",
+      "rut_organismo": "61.513.000-1",
+      "unidad_compra": "Unidad de Abastecimiento DIPRECA",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 515000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-09 10:12",
+      "fecha_cierre": "2026-06-10 12:00",
+      "fecha_ultimo_cambio": "2026-06-09T10:15:00.973Z",
+      "palabras_clave_match": [
+        "impresion 3d"
+      ],
+      "total_ofertas": 0,
+      "productos": [
+        {
+          "nombre": "Letreros publicitarios",
+          "descripcion": "5 Murales de acrílico “Derechos y Deberes Servicio Médico y Odontológico DIPRECA. SEGÚN ESPECIFICACIONES TÉCNICAS ADJUNTAS.",
+          "cantidad": 5,
+          "unidad": "EA"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": 1569663,
+          "nombre": "CONFECCION-Y-ADQUISICION-DE-5-MURALES-DE-ACRILICO-IMPRESION-DEBER.pdf",
+          "url": "https://compra-agil.mercadopublico.cl/documentos/1569663",
+          "tipo": ""
+        }
+      ],
+      "descripcion": "Adquisición Mural de “Derechos y Deberes de los pacientes”  impresión Con 6 pernos distanciadores, acrílico 5.5mm, con grafica interior.(Fácil de instalar) para  el Servicio Médico y Odontológico",
+      "direccion_entrega": "AV 21 de Mayo N° 592 — Oficina 401",
+      "plazo_entrega_dias": 5,
+      "url_detalle_api": "/v2/compra-agil/598-120-COT26"
+    },
+    {
+      "codigo": "5756-304-COT26",
+      "nombre": "Servicios de impresion libro - Sol 8900",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "UNIVERSIDAD DE CHILE",
+      "rut_organismo": "60.910.000-1",
+      "unidad_compra": "FAC. ARQUITECTURA Dirección Econ. y Admin.",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 7150000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-08 16:07",
+      "fecha_cierre": "2026-06-10 16:00",
+      "fecha_ultimo_cambio": "2026-06-08T16:10:00.410Z",
+      "palabras_clave_match": [
+        "impresion 3d"
+      ],
+      "total_ofertas": 0,
+      "productos": [
+        {
+          "nombre": "Impresión de publicaciones",
+          "descripcion": "Se solicita servicio de impresión y despacho de 1.000 ejemplares de libro. DETALLE Y ESPECIFICACIONES TÉCNICAS REQUERIDAS EN ARCHIVO ADJUNTO. Debe ceñirse estrictamente a lo estipulado en archivo adjunto, de lo contrario será declarado inadmisible.",
+          "cantidad": 1000,
+          "unidad": "EA"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": 1567733,
+          "nombre": "Especificaciones Técnicas- TdR Servicio de Impresión.docx",
+          "url": "https://compra-agil.mercadopublico.cl/documentos/1567733",
+          "tipo": ""
+        }
+      ],
+      "descripcion": "Se solicita servicio de impresión y despacho de 1.000 ejemplares de libro según archivo adjunto. Debe adjuntar cotización formal y ficha técnica con detalle específico de lo ofertado.",
+      "direccion_entrega": "Diagonal Paraguay 257",
+      "plazo_entrega_dias": 7,
+      "url_detalle_api": "/v2/compra-agil/5756-304-COT26"
+    },
+    {
+      "codigo": "3269-26-COT26",
+      "nombre": "S.A. 34 MANTENCIÓN Y ACTUALIZACIÓN SOFTWARE AUTOCAD CIVIL 3D SINGLE- USER, POR UN AÑO",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "SERVICIO AEROFOTOGRAMETRICO DEL GENERAL JUAN SOLER MANFREDINI",
+      "rut_organismo": "61.103.018-5",
+      "unidad_compra": "Servicio Aerofotogramétrico",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 4800000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-09 10:24",
+      "fecha_cierre": "2026-06-11 10:00",
+      "fecha_ultimo_cambio": "2026-06-09T10:25:00.560Z",
+      "palabras_clave_match": [
+        "impresion 3d"
+      ],
+      "total_ofertas": 0,
+      "productos": [
+        {
+          "nombre": "Software de gestión de licencias",
+          "descripcion": "Renovación de suscripción para dos licencias correspondientes al software AutoCAD Civil 3D (AUTOCAD CIVIL 3D 1 YEAR SINGLE USER RENEWAL).\nInstalación y configuración de productos asociados (en caso de requerir), en dependencias del \"SAF\", ubicadas en Av. Diego Barros Ortiz N° 2300, comuna de Pudahuel.",
+          "cantidad": 2,
+          "unidad": "EA"
+        }
+      ],
+      "adjuntos": [],
+      "descripcion": "Se requiere renovar la suscripción para dos licencias correspondientes al software Autocad Civil 3D, por un período de un 12 meses continuos, sin renovaciones parciales o mensuales. Se adjuntan especificaciones técnicas.\nEL IMCUMPLIMIENTO EN QUE INCURRA EL PROVEEDOR A LO SOLICITADO EN LA ORDEN DE COMPRA SERÁ INFORMADO A LA DIRECCIÓN DE COMPRAS PÚBLICAS CON EL PROPÓSITO DE DEJAR CONSTANCIA EN LA FICHA DEL PROVEEDOR, COMO ASIMISMO AFECTE SU PARTICIPACIÓN EN FUTUROS PROCESOS DE ADQUISICIONES.",
+      "direccion_entrega": "Av. Diego Barros Ortiz 2300, Pudahuel",
+      "plazo_entrega_dias": 3,
+      "url_detalle_api": "/v2/compra-agil/3269-26-COT26"
+    },
+    {
+      "codigo": "1561-27-COT26",
+      "nombre": "Software de diseño gráfico y modelado en tres dimensiones (3D) y Software de modelado de información de construcción",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "DIRECCION GENERAL DEL CREDITO PRENDARIO",
+      "rut_organismo": "61.504.000-2",
+      "unidad_compra": "Dirección General",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 4474950,
+      "moneda": "USD",
+      "fecha_publicacion": "2026-06-05 11:34",
+      "fecha_cierre": "2026-06-11 18:25",
+      "fecha_ultimo_cambio": "2026-06-08T15:05:01.293Z",
+      "palabras_clave_match": [
+        "impresion 3d"
+      ],
+      "total_ofertas": 0,
+      "productos": [
+        {
+          "nombre": "Software de arquitectura del sistema y análisis de requisitos",
+          "descripcion": "E1 O2 RT9. La Dirección General del Crédito Prendario (DICREP) requiere adquirir dos tipos de software: una licencia de modelado de información de construcción (BIM) y dos licencias de software de diseño gráfico y modelado tridimensional (3D), destinados a la creación de modelos digitales precisos de edificios y estructuras. VER ADJUNTO",
+          "cantidad": 2,
+          "unidad": "EA"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": 1560868,
+          "nombre": "Compra ágil ID 1561-27-COT26.pdf",
+          "url": "https://compra-agil.mercadopublico.cl/documentos/1560868",
+          "tipo": ""
+        }
+      ],
+      "descripcion": "E1 O2 RT9 La Dirección General del Crédito Prendario (DICREP) requiere adquirir dos tipos de software: una licencia de modelado de información de construcción (BIM) y dos licencias de software de diseño gráfico y modelado tridimensional (3D), destinados a la creación de modelos digitales precisos de edificios y estructuras. VER ADJUNTO",
+      "direccion_entrega": "San Antonio 427, Santiago",
+      "plazo_entrega_dias": 3,
+      "url_detalle_api": "/v2/compra-agil/1561-27-COT26"
     },
     {
       "codigo": "2793-464-COT26",
