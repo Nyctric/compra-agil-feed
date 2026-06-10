@@ -1,6 +1,6 @@
 {
-  "generado": "2026-06-09T16:33:28Z",
-  "total": 8,
+  "generado": "2026-06-10T04:24:00Z",
+  "total": 9,
   "palabras_clave": [
     "impresion 3d",
     "filamento",
@@ -17,45 +17,6 @@
     "publicada"
   ],
   "items": [
-    {
-      "codigo": "5627-149-COT26",
-      "nombre": "COMPRA DE INSUMOS 114122",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "UNIVERSIDAD DE CHILE",
-      "rut_organismo": "60.910.000-1",
-      "unidad_compra": "FAC.CS.SOCIALES Facultad de Ciencias Sociales",
-      "region": 13,
-      "region_nombre": "Metropolitana",
-      "monto_clp": 350000,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-06-08 10:26",
-      "fecha_cierre": "2026-06-09 14:00",
-      "fecha_ultimo_cambio": "2026-06-08T10:30:00.577Z",
-      "palabras_clave_match": [
-        "impresion 3d"
-      ],
-      "total_ofertas": 0,
-      "productos": [
-        {
-          "nombre": "Afiches del alfabeto",
-          "descripcion": "- 100 AFICHES DIGITAL 2 TEMAS 50 DE CADA UNO FORMATO 220X330 MM PAPEL COUCHE OPACO DE 300 GRM IMPRESION 4/0 COLORES",
-          "cantidad": 100,
-          "unidad": "EA"
-        },
-        {
-          "nombre": "Volantes",
-          "descripcion": "-500 TRIPTICOS IMPRESION DIGITAL 5 TEMAS FORMATO 210X297 PAPEL COUCHE DE 130 GRM 4/4 COLORES, CORTE RECTO , PILSADO, DOBLADO, FAJOS Y PAQUETES.",
-          "cantidad": 500,
-          "unidad": "EA"
-        }
-      ],
-      "adjuntos": [],
-      "descripcion": "SE REQUIERE COMPRA:\n\n-500 TRIPTICOS IMPRESION DIGITAL 5 TEMAS FORMATO 210X297 PAPEL COUCHE DE 130 GRM 4/4 COLORES, CORTE RECTO , PILSADO, DOBLADO, FAJOS Y PAQUETES.\n\n- 100 AFICHES DIGITAL 2 TEMAS 50 DE CADA UNO FORMATO 220X330 MM PAPEL COUCHE OPACO DE 300 GRM IMPRESION 4/0 COLORES\n\nPROVEEDOR DEBE AJDUNTAR COTIZACION, CONTACTO PARA COORDINAR ENTREGA.",
-      "direccion_entrega": "IGNACIO CARRERA PINTO 1045",
-      "plazo_entrega_dias": 5,
-      "url_detalle_api": "/v2/compra-agil/5627-149-COT26"
-    },
     {
       "codigo": "2432-402-COT26",
       "nombre": "SOL 332 / DIDECO / SUMINISTRO DE IMPRESION / DANIELA GOMEZ",
@@ -85,27 +46,28 @@
       ],
       "adjuntos": [
         {
-          "id": 1567910,
-          "nombre": "Compra ágil - Términos administrativos de referencia 2025 (3).pdf",
-          "url": "https://compra-agil.mercadopublico.cl/documentos/1567910",
-          "tipo": ""
-        },
-        {
-          "id": 1567911,
-          "nombre": "Anexo editable.docx",
-          "url": "https://compra-agil.mercadopublico.cl/documentos/1567911",
-          "tipo": ""
-        },
-        {
-          "id": 1567912,
+          "id": "F710A25A-638B-4DE2-9C18-4B0DD4031827",
           "nombre": "SUMINISTRO DE IMPRESION.pdf",
-          "url": "https://compra-agil.mercadopublico.cl/documentos/1567912",
-          "tipo": ""
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/2432-402-COT26/SUMINISTRO%20DE%20IMPRESION.pdf",
+          "tipo": "pdf"
+        },
+        {
+          "id": "A739DDC7-37E6-46AB-9761-E7F1B1C5EF56",
+          "nombre": "Compra ágil - Términos administrativos de referencia 2025 (3).pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/2432-402-COT26/Compra%20%C3%A1gil%20-%20T%C3%A9rminos%20administrativos%20de%20referencia%202025%20%283%29.pdf",
+          "tipo": "pdf"
+        },
+        {
+          "id": "E667CB86-120F-46E9-96AB-B852BA42A2AC",
+          "nombre": "Anexo editable.docx",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/2432-402-COT26/Anexo%20editable.docx",
+          "tipo": "docx"
         }
       ],
       "descripcion": "SUMINISTRO DE IMPRESION",
       "direccion_entrega": "ALAMEDA 3920",
       "plazo_entrega_dias": 1,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=2432-402-COT26",
       "url_detalle_api": "/v2/compra-agil/2432-402-COT26"
     },
     {
@@ -137,15 +99,16 @@
       ],
       "adjuntos": [
         {
-          "id": 1569726,
+          "id": "FAD21CDD-EF57-43D5-9C0B-7F5A0A202043",
           "nombre": "Memoria_referencia_año_2024.pdf",
-          "url": "https://compra-agil.mercadopublico.cl/documentos/1569726",
-          "tipo": ""
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1238111-59-COT26/Memoria_referencia_a%C3%B1o_2024.pdf",
+          "tipo": "pdf"
         }
       ],
       "descripcion": "20 copias de Memoria Corporativa con las siguientes características:\n\nMedidas: 21 cm x 14.8 cm (A5) (formato horizontal)- Interior es a color en estucado mate de 100g/m2 (doble cara) - 87 páginas- Tapa rígida flexible: cartulina gráfica 300g/m2 con plastificado.  ",
       "direccion_entrega": "SANTA RITA 1153",
       "plazo_entrega_dias": 5,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1238111-59-COT26",
       "url_detalle_api": "/v2/compra-agil/1238111-59-COT26"
     },
     {
@@ -177,16 +140,58 @@
       ],
       "adjuntos": [
         {
-          "id": 1569663,
+          "id": "CD7EA5C6-FC2D-4648-A3DE-2EBC3FE71D67",
           "nombre": "CONFECCION-Y-ADQUISICION-DE-5-MURALES-DE-ACRILICO-IMPRESION-DEBER.pdf",
-          "url": "https://compra-agil.mercadopublico.cl/documentos/1569663",
-          "tipo": ""
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/598-120-COT26/CONFECCION-Y-ADQUISICION-DE-5-MURALES-DE-ACRILICO-IMPRESION-DEBER.pdf",
+          "tipo": "pdf"
         }
       ],
       "descripcion": "Adquisición Mural de “Derechos y Deberes de los pacientes”  impresión Con 6 pernos distanciadores, acrílico 5.5mm, con grafica interior.(Fácil de instalar) para  el Servicio Médico y Odontológico",
       "direccion_entrega": "AV 21 de Mayo N° 592 — Oficina 401",
       "plazo_entrega_dias": 5,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=598-120-COT26",
       "url_detalle_api": "/v2/compra-agil/598-120-COT26"
+    },
+    {
+      "codigo": "4100-116-COT26",
+      "nombre": "SERVICIO IMPRESION PARA DEPTO. RELINCAR",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "Dirección General de Carabineros de Chile",
+      "rut_organismo": "60.505.000-K",
+      "unidad_compra": "Depto.Relaciones Públicas",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 1000000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-09 15:50",
+      "fecha_cierre": "2026-06-10 16:00",
+      "fecha_ultimo_cambio": "2026-06-09T15:55:00.700Z",
+      "palabras_clave_match": [
+        "impresion 3d"
+      ],
+      "total_ofertas": 0,
+      "productos": [
+        {
+          "nombre": "Impresión de envoltorios, etiquetas, sellos o bolsas",
+          "descripcion": "SERVICIO IMPRESION PARA DEPTO. RELINCAR, conforme detalle adjunto",
+          "cantidad": 1,
+          "unidad": "EA"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "B17753D0-A30D-45C2-828B-4A655D101171",
+          "nombre": "COND. COMPRA SERVICIO IMPRESION FIEP RELINCAR.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/4100-116-COT26/COND.%20COMPRA%20SERVICIO%20IMPRESION%20FIEP%20RELINCAR.pdf",
+          "tipo": "pdf"
+        }
+      ],
+      "descripcion": "SERVICIO IMPRESION PARA EL DEPARTAMENTO RELACIONES INTERNACIONALES, CONFORME A REQUERIMIENTOS TECNICOS Y CONDICIONES DE COMPRA QUE SE ADJUNTAN.",
+      "direccion_entrega": "PASEO BULNES NRO. 80, PISO 6, OFICINA 63",
+      "plazo_entrega_dias": 5,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=4100-116-COT26",
+      "url_detalle_api": "/v2/compra-agil/4100-116-COT26"
     },
     {
       "codigo": "5756-304-COT26",
@@ -207,26 +212,54 @@
         "impresion 3d"
       ],
       "total_ofertas": 0,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=5756-304-COT26",
+      "url_detalle_api": "/v2/compra-agil/5756-304-COT26"
+    },
+    {
+      "codigo": "3760-417-COT26",
+      "nombre": "FORMULARIO N° 167/// DIMAO ZOONOSIS//IMPRESORA 3D///EL PROVEEDOR DEBE ENVIAR OBLIGATORIAMENTE LAS CARACTERÍSTICAS E IMÁGENES  DEL PRODUCTO OFERTADO/// EL MONTO INDICADO ES CON IVA INCLUIDO",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "I MUNICIPALIDAD DE EL MONTE",
+      "rut_organismo": "69.073.000-6",
+      "unidad_compra": "IM De El Monte - Adquisiciones",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 235000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-09 16:46",
+      "fecha_cierre": "2026-06-11 10:00",
+      "fecha_ultimo_cambio": "2026-06-09T16:50:00.447Z",
+      "palabras_clave_match": [
+        "impresion 3d"
+      ],
+      "total_ofertas": 0,
       "productos": [
         {
-          "nombre": "Impresión de publicaciones",
-          "descripcion": "Se solicita servicio de impresión y despacho de 1.000 ejemplares de libro. DETALLE Y ESPECIFICACIONES TÉCNICAS REQUERIDAS EN ARCHIVO ADJUNTO. Debe ceñirse estrictamente a lo estipulado en archivo adjunto, de lo contrario será declarado inadmisible.",
-          "cantidad": 1000,
+          "nombre": "Impresoras multifunción o multifuncionales",
+          "descripcion": "1 IMPRESORA 3D TIPO ENDER-3 V3 KE  (IMAGEN DE REFERENCIA EN ADJUNTO)",
+          "cantidad": 1,
           "unidad": "EA"
         }
       ],
       "adjuntos": [
         {
-          "id": 1567733,
-          "nombre": "Especificaciones Técnicas- TdR Servicio de Impresión.docx",
-          "url": "https://compra-agil.mercadopublico.cl/documentos/1567733",
-          "tipo": ""
+          "id": "5ADDA9D0-5BB6-4465-95B2-9A832811C64F",
+          "nombre": "TERMINOS DE REFERENCIA DE ESTA COTIZACIÓN.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/3760-417-COT26/TERMINOS%20DE%20REFERENCIA%20DE%20ESTA%20COTIZACI%C3%93N.pdf",
+          "tipo": "pdf"
         }
       ],
-      "descripcion": "Se solicita servicio de impresión y despacho de 1.000 ejemplares de libro según archivo adjunto. Debe adjuntar cotización formal y ficha técnica con detalle específico de lo ofertado.",
-      "direccion_entrega": "Diagonal Paraguay 257",
-      "plazo_entrega_dias": 7,
-      "url_detalle_api": "/v2/compra-agil/5756-304-COT26"
+      "descripcion": "FORMULARIO N° 167/// DIMAO ZOONOSIS//IMPRESORA 3D///EL PROVEEDOR DEBE ENVIAR OBLIGATORIAMENTE LAS CARACTERÍSTICAS E IMÁGENES  DEL PRODUCTO OFERTADO/// EL MONTO INDICADO ES CON IVA INCLUIDO",
+      "direccion_entrega": "LOS LIBERTADORES 277 EL MONTE///  BODEGA MUNICIPAL,  ENTRE CARABINEROS Y TEATRO MUNICIPAL PORTÓN NEGRO, DESDE  LAS 09:00  A 13:00 Y DE 15:00 A 17:00, Y LOS VIERNES DESDE LAS 09:00 A 13:00 HORAS. ",
+      "plazo_entrega_dias": 2,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=3760-417-COT26",
+      "url_detalle_api": "/v2/compra-agil/3760-417-COT26"
     },
     {
       "codigo": "3269-26-COT26",
@@ -255,77 +288,119 @@
           "unidad": "EA"
         }
       ],
-      "adjuntos": [],
+      "adjuntos": [
+        {
+          "id": "39D3E243-4FA9-48D4-AA18-27022521931B",
+          "nombre": "ESPECIFICACIONES TÉCNICAS.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/3269-26-COT26/ESPECIFICACIONES%20T%C3%89CNICAS.pdf",
+          "tipo": "pdf"
+        }
+      ],
       "descripcion": "Se requiere renovar la suscripción para dos licencias correspondientes al software Autocad Civil 3D, por un período de un 12 meses continuos, sin renovaciones parciales o mensuales. Se adjuntan especificaciones técnicas.\nEL IMCUMPLIMIENTO EN QUE INCURRA EL PROVEEDOR A LO SOLICITADO EN LA ORDEN DE COMPRA SERÁ INFORMADO A LA DIRECCIÓN DE COMPRAS PÚBLICAS CON EL PROPÓSITO DE DEJAR CONSTANCIA EN LA FICHA DEL PROVEEDOR, COMO ASIMISMO AFECTE SU PARTICIPACIÓN EN FUTUROS PROCESOS DE ADQUISICIONES.",
       "direccion_entrega": "Av. Diego Barros Ortiz 2300, Pudahuel",
       "plazo_entrega_dias": 3,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=3269-26-COT26",
       "url_detalle_api": "/v2/compra-agil/3269-26-COT26"
     },
     {
-      "codigo": "1561-27-COT26",
-      "nombre": "Software de diseño gráfico y modelado en tres dimensiones (3D) y Software de modelado de información de construcción",
+      "codigo": "2273-437-COT26",
+      "nombre": "EX.   8644  SERVICIO IMPRESION TRIPTICOS.  MEMORANDUM 15364  SGL.",
       "estado": "publicada",
       "estado_glosa": "Publicada",
-      "organismo": "DIRECCION GENERAL DEL CREDITO PRENDARIO",
-      "rut_organismo": "61.504.000-2",
-      "unidad_compra": "Dirección General",
+      "organismo": "I MUNICIPALIDAD DE LA PINTANA",
+      "rut_organismo": "69.253.800-5",
+      "unidad_compra": "DEPARTAMENTO ADQUISICIONES MUNICIPAL",
       "region": 13,
       "region_nombre": "Metropolitana",
-      "monto_clp": 4474950,
-      "moneda": "USD",
-      "fecha_publicacion": "2026-06-05 11:34",
-      "fecha_cierre": "2026-06-11 18:25",
-      "fecha_ultimo_cambio": "2026-06-08T15:05:01.293Z",
+      "monto_clp": 500000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-09 17:32",
+      "fecha_cierre": "2026-06-11 17:00",
+      "fecha_ultimo_cambio": "2026-06-09T17:35:00.950Z",
       "palabras_clave_match": [
         "impresion 3d"
       ],
       "total_ofertas": 0,
       "productos": [
         {
-          "nombre": "Software de arquitectura del sistema y análisis de requisitos",
-          "descripcion": "E1 O2 RT9. La Dirección General del Crédito Prendario (DICREP) requiere adquirir dos tipos de software: una licencia de modelado de información de construcción (BIM) y dos licencias de software de diseño gráfico y modelado tridimensional (3D), destinados a la creación de modelos digitales precisos de edificios y estructuras. VER ADJUNTO",
-          "cantidad": 2,
+          "nombre": "Impresión de publicaciones",
+          "descripcion": "tríptico informativo para el Programa Defensoría Comunal, tamaño oficio, papel couche 246 grs. impreso a 4/4 colores. \n\nVER ANEXOS QUE SE ADJUNTAN",
+          "cantidad": 500,
+          "unidad": "EA"
+        },
+        {
+          "nombre": "Impresión de publicaciones",
+          "descripcion": "tríptico informativo para el Programa Defensoría Comunal, tamaño oficio, papel couche 246 grs. impreso a 4/4 colores. \n\nVER ANEXOS QUE SE ADJUNTAN",
+          "cantidad": 500,
           "unidad": "EA"
         }
       ],
       "adjuntos": [
         {
-          "id": 1560868,
-          "nombre": "Compra ágil ID 1561-27-COT26.pdf",
-          "url": "https://compra-agil.mercadopublico.cl/documentos/1560868",
-          "tipo": ""
+          "id": "6BE0C67F-00D0-41A7-B807-6E054CC31C48",
+          "nombre": "TRIPTICO-COMPLETO 1.docx",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/2273-437-COT26/TRIPTICO-COMPLETO%201.docx",
+          "tipo": "docx"
+        },
+        {
+          "id": "31538B30-0020-4BA0-90D4-31C1B1AAC9BE",
+          "nombre": "Triptico-2.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/2273-437-COT26/Triptico-2.pdf",
+          "tipo": "pdf"
+        },
+        {
+          "id": "23513EBF-4182-4E01-A52F-0643A8952A48",
+          "nombre": "REQUERIMIENTOS COMPRA AGIL.docx",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/2273-437-COT26/REQUERIMIENTOS%20COMPRA%20AGIL.docx",
+          "tipo": "docx"
         }
       ],
-      "descripcion": "E1 O2 RT9 La Dirección General del Crédito Prendario (DICREP) requiere adquirir dos tipos de software: una licencia de modelado de información de construcción (BIM) y dos licencias de software de diseño gráfico y modelado tridimensional (3D), destinados a la creación de modelos digitales precisos de edificios y estructuras. VER ADJUNTO",
-      "direccion_entrega": "San Antonio 427, Santiago",
-      "plazo_entrega_dias": 3,
-      "url_detalle_api": "/v2/compra-agil/1561-27-COT26"
+      "descripcion": "SERVICIO IMPRESION TRIPTICOS.\nSOLICITADO POR JUAN IGNACIO OLAVE ZULOAGA\nDIRECTOR\nDIRECCIÓN SEGURIDAD HUMANA ",
+      "direccion_entrega": "LOS TILOS 037 VILLA LA PINTANA PARADERO 47 SANTA ROSA",
+      "plazo_entrega_dias": 1,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=2273-437-COT26",
+      "url_detalle_api": "/v2/compra-agil/2273-437-COT26"
     },
     {
-      "codigo": "2793-464-COT26",
-      "nombre": "SERV IMPRESION CULTURA PARA EL DESARROLLO",
+      "codigo": "1067476-29-COT26",
+      "nombre": "Creación de material educativo interactivo para la divulgación territorial del cambio climático en comunidades asociadas a los patrimonios culturales inmateriales",
       "estado": "publicada",
       "estado_glosa": "Publicada",
-      "organismo": "Iluste Municipalidad de Huechuraba",
-      "rut_organismo": "69.255.400-0",
-      "unidad_compra": "Municipalidad de Huechuraba",
+      "organismo": "SERVICIO NACIONAL DEL PATRIMONIO CULTURAL",
+      "rut_organismo": "60.905.000-4",
+      "unidad_compra": "SUBDIRECCIÓN NACIONAL DE PATRIMONIO INMATERIAL",
       "region": 13,
       "region_nombre": "Metropolitana",
-      "monto_clp": 500000,
+      "monto_clp": 2500000,
       "moneda": "CLP",
-      "fecha_publicacion": "2026-06-04 17:41",
-      "fecha_cierre": "2026-06-12 05:03",
-      "fecha_ultimo_cambio": "2026-06-08T12:50:00.283Z",
+      "fecha_publicacion": "2026-06-09 17:13",
+      "fecha_cierre": "2026-06-14 22:00",
+      "fecha_ultimo_cambio": "2026-06-09T17:15:01.043Z",
       "palabras_clave_match": [
         "impresion 3d"
       ],
-      "total_ofertas": 2,
-      "productos": [],
-      "adjuntos": [],
-      "descripcion": null,
-      "direccion_entrega": null,
-      "plazo_entrega_dias": null,
-      "url_detalle_api": "/v2/compra-agil/2793-464-COT26"
+      "total_ofertas": 0,
+      "productos": [
+        {
+          "nombre": "Impresión digital",
+          "descripcion": "Se solicita el diseño de una maqueta 3D para utilizar en la realización de talleres de Gestión del Riesgo de Desastres en Patrimonio Cultural Inmaterial, la que, a través de piezas móviles y modulares, permita representar diversos territorios de Chile, así también como distintos efectos y riesgos asociados al cambio climático. A través del material lúdico se busca facilitar el aprendizaje, esta maqueta articulable facilitará acciones de educación que permitan visibilizar y tomar conciencia de lo",
+          "cantidad": 1,
+          "unidad": "EA"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "34D6B625-C0D7-4467-9163-ED87F695236E",
+          "nombre": "Anexo 2 Formato Solicitud  068 Compra ágil_Revcch.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1067476-29-COT26/Anexo%202%20Formato%20Solicitud%20068%20Compra%20%C3%A1gil_Revcch.pdf",
+          "tipo": "pdf"
+        }
+      ],
+      "descripcion": "Se solicita el diseño de una maqueta 3D para utilizar en la realización de talleres de Gestión del Riesgo de Desastres en Patrimonio Cultural Inmaterial, la que, a través de piezas móviles y modulares, permita representar diversos territorios de Chile, así también como distintos efectos y riesgos asociados al cambio climático. A través del material lúdico se busca facilitar el aprendizaje, esta maqueta articulable facilitará acciones de educación que permitan visibilizar y tomar conciencia de lo",
+      "direccion_entrega": "Huerfanos 770",
+      "plazo_entrega_dias": 10,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1067476-29-COT26",
+      "url_detalle_api": "/v2/compra-agil/1067476-29-COT26"
     }
   ]
 }
