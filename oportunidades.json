@@ -1,6 +1,6 @@
 {
-  "generado": "2026-06-10T04:54:06Z",
-  "total": 7,
+  "generado": "2026-06-10T17:22:40Z",
+  "total": 9,
   "palabras_clave": [
     "anatomico",
     "3d",
@@ -35,7 +35,7 @@
       "palabras_clave_match": [
         "pines"
       ],
-      "total_ofertas": 16,
+      "total_ofertas": 19,
       "productos": [
         {
           "nombre": "Personalización de regalos o productos promocionales",
@@ -59,6 +59,40 @@
       "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1506612-1-COT26"
     },
     {
+      "codigo": "5610-335-COT26",
+      "nombre": "KIT DE MAQUILLAJE PARA RESINA PARA IMPRESION DENTAL 3D",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "UNIVERSIDAD DE CHILE",
+      "rut_organismo": "60.910.000-1",
+      "unidad_compra": "UCHILE Facultad de Odontologia",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 300000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-10 08:55",
+      "fecha_cierre": "2026-06-11 09:20",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "3d"
+      ],
+      "total_ofertas": 3,
+      "productos": [
+        {
+          "nombre": "Resinas para revestimiento temporáneo de la base de la dentadura",
+          "descripcion": "Set Maquillaje para resinas 3D MakeUp\n\n8 Jeringas de 2,5 ml c/u\nColores: Terracota - Honey - Vanilla - Purple - Acqua - Lunar - Intense A - Intense B.\n1 Botella Glaze Prizma de 4 ml\n25 Puntas dispensadoras\nPresentación\nPor kit",
+          "cantidad": 1,
+          "unidad": "KIT"
+        }
+      ],
+      "adjuntos": [],
+      "descripcion": "PARA PODER POSTULAR SE TIENE QUE ADJUNTRA LOS SIGUIENTES DATOS: SUBIR COTIZACION FORMAL, INDICAR PLAZOS DE ENTREGA, SI CUENTA CON EL DESPACHO INCLUIDO, PLAZO DE ENTREGA UNA VEZ ENVIADA LA OC A PROVEEDOR, ADJUNTAR ESPECIFICACIONES TECNICAS DEL PRODUCTO O SERVICIO, MARCA E IMAGEN PARA EL VBº POR PARTE DE LOS REQUIRENTE",
+      "direccion_entrega": "OLIVOS 943",
+      "plazo_entrega_dias": 2,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=5610-335-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=5610-335-COT26"
+    },
+    {
       "codigo": "3760-417-COT26",
       "nombre": "FORMULARIO N° 167/// DIMAO ZOONOSIS//IMPRESORA 3D///EL PROVEEDOR DEBE ENVIAR OBLIGATORIAMENTE LAS CARACTERÍSTICAS E IMÁGENES  DEL PRODUCTO OFERTADO/// EL MONTO INDICADO ES CON IVA INCLUIDO",
       "estado": "publicada",
@@ -76,7 +110,7 @@
       "palabras_clave_match": [
         "3d"
       ],
-      "total_ofertas": 0,
+      "total_ofertas": 1,
       "productos": [
         {
           "nombre": "Impresoras multifunción o multifuncionales",
@@ -117,7 +151,7 @@
       "palabras_clave_match": [
         "3d"
       ],
-      "total_ofertas": 2,
+      "total_ofertas": 3,
       "productos": [
         {
           "nombre": "Software de gestión de licencias",
@@ -182,6 +216,53 @@
       "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1057472-251-COT26"
     },
     {
+      "codigo": "5485-425-COT26",
+      "nombre": "Adquisición de Impresora 3D",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "UNIVERSIDAD DE CHILE",
+      "rut_organismo": "60.910.000-1",
+      "unidad_compra": "FAC.CS.AGRONOMICAS Dirección Económ. y Adm",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 1999999,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-10 09:28",
+      "fecha_cierre": "2026-06-11 11:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "3d"
+      ],
+      "total_ofertas": 6,
+      "productos": [
+        {
+          "nombre": "Impresoras multifunción o multifuncionales",
+          "descripcion": "Impresora 3D, se adjunta archivo anexo con características solicitadas, favor revisar para cotizar.",
+          "cantidad": 1,
+          "unidad": "EA"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "EEE3069A-4EE3-467B-B055-701A976977E1",
+          "nombre": "Anexo Fua 13785.docx",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/5485-425-COT26/Anexo%20Fua%2013785.docx",
+          "tipo": "docx"
+        },
+        {
+          "id": "DE8276C9-3D64-4CC2-A31F-6CD049101945",
+          "nombre": "Anexo Fua.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/5485-425-COT26/Anexo%20Fua.pdf",
+          "tipo": "pdf"
+        }
+      ],
+      "descripcion": "Adquisición de Impresora 3D, se adjunta archivo anexo con las características técnicas solicitadas, favor revisar para cotizar.",
+      "direccion_entrega": "Av. Santa Rosa 11315,  Laboratorio Tecnologías y Gestión Hídrica",
+      "plazo_entrega_dias": 2,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=5485-425-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=5485-425-COT26"
+    },
+    {
       "codigo": "1561-27-COT26",
       "nombre": "Software de diseño gráfico y modelado en tres dimensiones (3D) y Software de modelado de información de construcción",
       "estado": "publicada",
@@ -240,7 +321,7 @@
       "palabras_clave_match": [
         "pins"
       ],
-      "total_ofertas": 1,
+      "total_ofertas": 3,
       "productos": [
         {
           "nombre": "Galvanos",
@@ -282,7 +363,7 @@
         "3d",
         "maqueta"
       ],
-      "total_ofertas": 1,
+      "total_ofertas": 2,
       "productos": [
         {
           "nombre": "Impresión digital",
