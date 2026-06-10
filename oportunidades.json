@@ -1,6 +1,6 @@
 {
-  "generado": "2026-06-10T04:31:19Z",
-  "total": 3,
+  "generado": "2026-06-10T04:34:52Z",
+  "total": 2,
   "palabras_clave": [
     "anatomico",
     "3d",
@@ -36,25 +36,11 @@
         "pines"
       ],
       "total_ofertas": 0,
-      "productos": [
-        {
-          "nombre": "Personalización de regalos o productos promocionales",
-          "descripcion": "Pines Estampados (Piochas) Institucionales. Pin Estampado Importado. Troquel externo, esmaltado sobre metal, broche americano con mariposa, metal dorado o plata. Esmaltados hasta 5 colores, esmaltado con pinturas no tóxica. Entrega en bolsa de plástico individual. Tamaño: hasta 2.9 cm. Se solicita revisar documentación adjunta y anexar cotización. Considerar VB° previa entrega del producto.",
-          "cantidad": 2500,
-          "unidad": "EA"
-        }
-      ],
-      "adjuntos": [
-        {
-          "id": "C8AFCBDE-84E8-47D1-8F97-7891BB6A71EB",
-          "nombre": "3. FORMULARIO COMPRA ÁGIL PIOCHAS.pdf",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1506612-1-COT26/3.%20FORMULARIO%20COMPRA%20%C3%81GIL%20PIOCHAS.pdf",
-          "tipo": "pdf"
-        }
-      ],
-      "descripcion": "Se solicitan cotizaciones para la Adquisición de Piochas (Pines) para Ceremonia de Investidura de Prácticas, segundo semestre 2026 de la UMCE. Se adjunta documento con el listado de productos, cantidades y especificaciones técnicas. Los valores deben incluir despacho. Plazo de despacho: 30 días hábiles. Se solicita considerar VB° del producto y anexar cotización.",
-      "direccion_entrega": "Avenida José Pedro Alessandri 636, Bodega",
-      "plazo_entrega_dias": 30,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
       "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1506612-1-COT26",
       "url_detalle_api": "/v2/compra-agil/1506612-1-COT26"
     },
@@ -98,33 +84,6 @@
       "plazo_entrega_dias": 7,
       "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1057472-251-COT26",
       "url_detalle_api": "/v2/compra-agil/1057472-251-COT26"
-    },
-    {
-      "codigo": "744835-357-COT26",
-      "nombre": "PENDÓN ROLLER - PINS PERSONALIZADO - LIBRETAS ECOLÓGICAS - GALVANOS DE CRISTAL ( DIRCC. SEGURIDAD -  Programa Somos Barrio) ",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "I MUNICIPALIDAD DE LO ESPEJO",
-      "rut_organismo": "69.255.100-1",
-      "unidad_compra": "Departamento de Adquisiciones",
-      "region": 13,
-      "region_nombre": "Metropolitana",
-      "monto_clp": 1696000,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-06-09 10:43",
-      "fecha_cierre": "2026-06-12 10:45",
-      "fecha_ultimo_cambio": "2026-06-09T10:45:00.847Z",
-      "palabras_clave_match": [
-        "pins"
-      ],
-      "total_ofertas": 0,
-      "productos": [],
-      "adjuntos": [],
-      "descripcion": null,
-      "direccion_entrega": null,
-      "plazo_entrega_dias": null,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=744835-357-COT26",
-      "url_detalle_api": "/v2/compra-agil/744835-357-COT26"
     }
   ]
 }
