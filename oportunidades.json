@@ -1,6 +1,6 @@
 {
-  "generado": "2026-06-10T04:34:52Z",
-  "total": 2,
+  "generado": "2026-06-10T04:46:03Z",
+  "total": 7,
   "palabras_clave": [
     "anatomico",
     "3d",
@@ -31,18 +31,114 @@
       "moneda": "CLP",
       "fecha_publicacion": "2026-06-08 17:31",
       "fecha_cierre": "2026-06-10 15:00",
-      "fecha_ultimo_cambio": "2026-06-08T17:35:00.463Z",
+      "fecha_ultimo_cambio": null,
       "palabras_clave_match": [
         "pines"
       ],
-      "total_ofertas": 0,
-      "productos": [],
-      "adjuntos": [],
-      "descripcion": null,
-      "direccion_entrega": null,
-      "plazo_entrega_dias": null,
+      "total_ofertas": 16,
+      "productos": [
+        {
+          "nombre": "Personalización de regalos o productos promocionales",
+          "descripcion": "Pines Estampados (Piochas) Institucionales. Pin Estampado Importado. Troquel externo, esmaltado sobre metal, broche americano con mariposa, metal dorado o plata. Esmaltados hasta 5 colores, esmaltado con pinturas no tóxica. Entrega en bolsa de plástico individual. Tamaño: hasta 2.9 cm. Se solicita revisar documentación adjunta y anexar cotización. Considerar VB° previa entrega del producto.",
+          "cantidad": 2500,
+          "unidad": "EA"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "C8AFCBDE-84E8-47D1-8F97-7891BB6A71EB",
+          "nombre": "3. FORMULARIO COMPRA ÁGIL PIOCHAS.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1506612-1-COT26/3.%20FORMULARIO%20COMPRA%20%C3%81GIL%20PIOCHAS.pdf",
+          "tipo": "pdf"
+        }
+      ],
+      "descripcion": "Se solicitan cotizaciones para la Adquisición de Piochas (Pines) para Ceremonia de Investidura de Prácticas, segundo semestre 2026 de la UMCE. Se adjunta documento con el listado de productos, cantidades y especificaciones técnicas. Los valores deben incluir despacho. Plazo de despacho: 30 días hábiles. Se solicita considerar VB° del producto y anexar cotización.",
+      "direccion_entrega": "Avenida José Pedro Alessandri 636, Bodega",
+      "plazo_entrega_dias": 30,
       "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1506612-1-COT26",
-      "url_detalle_api": "/v2/compra-agil/1506612-1-COT26"
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1506612-1-COT26"
+    },
+    {
+      "codigo": "3760-417-COT26",
+      "nombre": "FORMULARIO N° 167/// DIMAO ZOONOSIS//IMPRESORA 3D///EL PROVEEDOR DEBE ENVIAR OBLIGATORIAMENTE LAS CARACTERÍSTICAS E IMÁGENES  DEL PRODUCTO OFERTADO/// EL MONTO INDICADO ES CON IVA INCLUIDO",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "I MUNICIPALIDAD DE EL MONTE",
+      "rut_organismo": "69.073.000-6",
+      "unidad_compra": "IM De El Monte - Adquisiciones",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 235000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-09 16:46",
+      "fecha_cierre": "2026-06-11 10:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "3d"
+      ],
+      "total_ofertas": 0,
+      "productos": [
+        {
+          "nombre": "Impresoras multifunción o multifuncionales",
+          "descripcion": "1 IMPRESORA 3D TIPO ENDER-3 V3 KE  (IMAGEN DE REFERENCIA EN ADJUNTO)",
+          "cantidad": 1,
+          "unidad": "EA"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "5ADDA9D0-5BB6-4465-95B2-9A832811C64F",
+          "nombre": "TERMINOS DE REFERENCIA DE ESTA COTIZACIÓN.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/3760-417-COT26/TERMINOS%20DE%20REFERENCIA%20DE%20ESTA%20COTIZACI%C3%93N.pdf",
+          "tipo": "pdf"
+        }
+      ],
+      "descripcion": "FORMULARIO N° 167/// DIMAO ZOONOSIS//IMPRESORA 3D///EL PROVEEDOR DEBE ENVIAR OBLIGATORIAMENTE LAS CARACTERÍSTICAS E IMÁGENES  DEL PRODUCTO OFERTADO/// EL MONTO INDICADO ES CON IVA INCLUIDO",
+      "direccion_entrega": "LOS LIBERTADORES 277 EL MONTE///  BODEGA MUNICIPAL,  ENTRE CARABINEROS Y TEATRO MUNICIPAL PORTÓN NEGRO, DESDE  LAS 09:00  A 13:00 Y DE 15:00 A 17:00, Y LOS VIERNES DESDE LAS 09:00 A 13:00 HORAS. ",
+      "plazo_entrega_dias": 2,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=3760-417-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=3760-417-COT26"
+    },
+    {
+      "codigo": "3269-26-COT26",
+      "nombre": "S.A. 34 MANTENCIÓN Y ACTUALIZACIÓN SOFTWARE AUTOCAD CIVIL 3D SINGLE- USER, POR UN AÑO",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "SERVICIO AEROFOTOGRAMETRICO DEL GENERAL JUAN SOLER MANFREDINI",
+      "rut_organismo": "61.103.018-5",
+      "unidad_compra": "Servicio Aerofotogramétrico",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 4800000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-09 10:24",
+      "fecha_cierre": "2026-06-11 10:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "3d"
+      ],
+      "total_ofertas": 2,
+      "productos": [
+        {
+          "nombre": "Software de gestión de licencias",
+          "descripcion": "Renovación de suscripción para dos licencias correspondientes al software AutoCAD Civil 3D (AUTOCAD CIVIL 3D 1 YEAR SINGLE USER RENEWAL).\nInstalación y configuración de productos asociados (en caso de requerir), en dependencias del \"SAF\", ubicadas en Av. Diego Barros Ortiz N° 2300, comuna de Pudahuel.",
+          "cantidad": 2,
+          "unidad": "EA"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "39D3E243-4FA9-48D4-AA18-27022521931B",
+          "nombre": "ESPECIFICACIONES TÉCNICAS.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/3269-26-COT26/ESPECIFICACIONES%20T%C3%89CNICAS.pdf",
+          "tipo": "pdf"
+        }
+      ],
+      "descripcion": "Se requiere renovar la suscripción para dos licencias correspondientes al software Autocad Civil 3D, por un período de un 12 meses continuos, sin renovaciones parciales o mensuales. Se adjuntan especificaciones técnicas.\nEL IMCUMPLIMIENTO EN QUE INCURRA EL PROVEEDOR A LO SOLICITADO EN LA ORDEN DE COMPRA SERÁ INFORMADO A LA DIRECCIÓN DE COMPRAS PÚBLICAS CON EL PROPÓSITO DE DEJAR CONSTANCIA EN LA FICHA DEL PROVEEDOR, COMO ASIMISMO AFECTE SU PARTICIPACIÓN EN FUTUROS PROCESOS DE ADQUISICIONES.",
+      "direccion_entrega": "Av. Diego Barros Ortiz 2300, Pudahuel",
+      "plazo_entrega_dias": 3,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=3269-26-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=3269-26-COT26"
     },
     {
       "codigo": "1057472-251-COT26",
@@ -58,7 +154,7 @@
       "moneda": "CLP",
       "fecha_publicacion": "2026-06-09 12:43",
       "fecha_cierre": "2026-06-11 10:00",
-      "fecha_ultimo_cambio": "2026-06-09T12:45:01.030Z",
+      "fecha_ultimo_cambio": null,
       "palabras_clave_match": [
         "pines"
       ],
@@ -83,7 +179,131 @@
       "direccion_entrega": "CAMINO A RINCONADA 1201",
       "plazo_entrega_dias": 7,
       "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1057472-251-COT26",
-      "url_detalle_api": "/v2/compra-agil/1057472-251-COT26"
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1057472-251-COT26"
+    },
+    {
+      "codigo": "1561-27-COT26",
+      "nombre": "Software de diseño gráfico y modelado en tres dimensiones (3D) y Software de modelado de información de construcción",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "DIRECCION GENERAL DEL CREDITO PRENDARIO",
+      "rut_organismo": "61.504.000-2",
+      "unidad_compra": "Dirección General",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 4474950,
+      "moneda": "USD",
+      "fecha_publicacion": "2026-06-05 11:34",
+      "fecha_cierre": "2026-06-11 18:25",
+      "fecha_ultimo_cambio": "2026-06-05T00:00:00Z",
+      "palabras_clave_match": [
+        "3d"
+      ],
+      "total_ofertas": 0,
+      "productos": [
+        {
+          "nombre": "Software de arquitectura del sistema y análisis de requisitos",
+          "descripcion": "E1 O2 RT9. La Dirección General del Crédito Prendario (DICREP) requiere adquirir dos tipos de software: una licencia de modelado de información de construcción (BIM) y dos licencias de software de diseño gráfico y modelado tridimensional (3D), destinados a la creación de modelos digitales precisos de edificios y estructuras. VER ADJUNTO",
+          "cantidad": 2,
+          "unidad": "EA"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "E4525FF9-7476-44E7-8B22-9AAD2247B89C",
+          "nombre": "Compra ágil ID 1561-27-COT26.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1561-27-COT26/Compra%20%C3%A1gil%20ID%201561-27-COT26.pdf",
+          "tipo": "pdf"
+        }
+      ],
+      "descripcion": "E1 O2 RT9 La Dirección General del Crédito Prendario (DICREP) requiere adquirir dos tipos de software: una licencia de modelado de información de construcción (BIM) y dos licencias de software de diseño gráfico y modelado tridimensional (3D), destinados a la creación de modelos digitales precisos de edificios y estructuras. VER ADJUNTO",
+      "direccion_entrega": "San Antonio 427, Santiago",
+      "plazo_entrega_dias": 3,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1561-27-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1561-27-COT26"
+    },
+    {
+      "codigo": "744835-357-COT26",
+      "nombre": "PENDÓN ROLLER - PINS PERSONALIZADO - LIBRETAS ECOLÓGICAS - GALVANOS DE CRISTAL ( DIRCC. SEGURIDAD -  Programa Somos Barrio)",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "I MUNICIPALIDAD DE LO ESPEJO",
+      "rut_organismo": "69.255.100-1",
+      "unidad_compra": "Departamento de Adquisiciones",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 1696000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-09 10:43",
+      "fecha_cierre": "2026-06-12 10:45",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "pins"
+      ],
+      "total_ofertas": 1,
+      "productos": [
+        {
+          "nombre": "Galvanos",
+          "descripcion": "* Revisar Solicitud N° 1500/23/2026, anexada.\n* Revisar y cumplir con el detalle del documento adjunto\n* Revisar y acatar con los antecedentes del requerimiento \n",
+          "cantidad": 1,
+          "unidad": "000"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "1C58C4C2-10FB-4942-BCB7-F6E7AA3BA292",
+          "nombre": "Sol. Nº 1500-23-2026.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/744835-357-COT26/Sol.%20N%C2%BA%201500-23-2026.pdf",
+          "tipo": "pdf"
+        }
+      ],
+      "descripcion": "* Revisar Solicitud de Materiales N° 1500/23/2026 anexada, donde indica las cantidades y características de lo requerido\n* Subir cotización detallada al Portal Mercado Público en formato Word o Excell\n* NO se considerarán los oferentes que no coticen la totalidad de los productos\n* El oferente NO podrá sobrepasar presupuesto disponible\n* De preferencia se seleccionará al oferente que cumpla con el detalle de los productos solicitados o en su defecto que se aproxime\n* Se permite re adjudicar \n",
+      "direccion_entrega": "Avda. Cardenal Raúl Silva Henríquez # 8321 Lo Espejo ",
+      "plazo_entrega_dias": 5,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=744835-357-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=744835-357-COT26"
+    },
+    {
+      "codigo": "1067476-29-COT26",
+      "nombre": "Creación de material educativo interactivo para la divulgación territorial del cambio climático en comunidades asociadas a los patrimonios culturales inmateriales",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "SERVICIO NACIONAL DEL PATRIMONIO CULTURAL",
+      "rut_organismo": "60.905.000-4",
+      "unidad_compra": "SUBDIRECCIÓN NACIONAL DE PATRIMONIO INMATERIAL",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 2500000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-09 17:13",
+      "fecha_cierre": "2026-06-14 22:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "3d",
+        "maqueta"
+      ],
+      "total_ofertas": 1,
+      "productos": [
+        {
+          "nombre": "Impresión digital",
+          "descripcion": "Se solicita el diseño de una maqueta 3D para utilizar en la realización de talleres de Gestión del Riesgo de Desastres en Patrimonio Cultural Inmaterial, la que, a través de piezas móviles y modulares, permita representar diversos territorios de Chile, así también como distintos efectos y riesgos asociados al cambio climático. A través del material lúdico se busca facilitar el aprendizaje, esta maqueta articulable facilitará acciones de educación que permitan visibilizar y tomar conciencia de lo",
+          "cantidad": 1,
+          "unidad": "EA"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "34D6B625-C0D7-4467-9163-ED87F695236E",
+          "nombre": "Anexo 2 Formato Solicitud  068 Compra ágil_Revcch.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1067476-29-COT26/Anexo%202%20Formato%20Solicitud%20068%20Compra%20%C3%A1gil_Revcch.pdf",
+          "tipo": "pdf"
+        }
+      ],
+      "descripcion": "Se solicita el diseño de una maqueta 3D para utilizar en la realización de talleres de Gestión del Riesgo de Desastres en Patrimonio Cultural Inmaterial, la que, a través de piezas móviles y modulares, permita representar diversos territorios de Chile, así también como distintos efectos y riesgos asociados al cambio climático. A través del material lúdico se busca facilitar el aprendizaje, esta maqueta articulable facilitará acciones de educación que permitan visibilizar y tomar conciencia de lo",
+      "direccion_entrega": "Huerfanos 770",
+      "plazo_entrega_dias": 10,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1067476-29-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1067476-29-COT26"
     }
   ]
 }
