@@ -1,6 +1,6 @@
 {
-  "generado": "2026-06-10T04:29:04Z",
-  "total": 4,
+  "generado": "2026-06-10T04:31:19Z",
+  "total": 3,
   "palabras_clave": [
     "anatomico",
     "3d",
@@ -118,68 +118,13 @@
         "pins"
       ],
       "total_ofertas": 0,
-      "productos": [
-        {
-          "nombre": "Galvanos",
-          "descripcion": "* Revisar Solicitud N° 1500/23/2026, anexada.\n* Revisar y cumplir con el detalle del documento adjunto\n* Revisar y acatar con los antecedentes del requerimiento \n",
-          "cantidad": 1,
-          "unidad": "000"
-        }
-      ],
-      "adjuntos": [
-        {
-          "id": "1C58C4C2-10FB-4942-BCB7-F6E7AA3BA292",
-          "nombre": "Sol. Nº 1500-23-2026.pdf",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/744835-357-COT26/Sol.%20N%C2%BA%201500-23-2026.pdf",
-          "tipo": "pdf"
-        }
-      ],
-      "descripcion": "* Revisar Solicitud de Materiales N° 1500/23/2026 anexada, donde indica las cantidades y características de lo requerido\n* Subir cotización detallada al Portal Mercado Público en formato Word o Excell\n* NO se considerarán los oferentes que no coticen la totalidad de los productos\n* El oferente NO podrá sobrepasar presupuesto disponible\n* De preferencia se seleccionará al oferente que cumpla con el detalle de los productos solicitados o en su defecto que se aproxime\n* Se permite re adjudicar \n",
-      "direccion_entrega": "Avda. Cardenal Raúl Silva Henríquez # 8321 Lo Espejo ",
-      "plazo_entrega_dias": 5,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
       "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=744835-357-COT26",
       "url_detalle_api": "/v2/compra-agil/744835-357-COT26"
-    },
-    {
-      "codigo": "1067476-29-COT26",
-      "nombre": "Creación de material educativo interactivo para la divulgación territorial del cambio climático en comunidades asociadas a los patrimonios culturales inmateriales",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "SERVICIO NACIONAL DEL PATRIMONIO CULTURAL",
-      "rut_organismo": "60.905.000-4",
-      "unidad_compra": "SUBDIRECCIÓN NACIONAL DE PATRIMONIO INMATERIAL",
-      "region": 13,
-      "region_nombre": "Metropolitana",
-      "monto_clp": 2500000,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-06-09 17:13",
-      "fecha_cierre": "2026-06-14 22:00",
-      "fecha_ultimo_cambio": "2026-06-09T17:15:01.043Z",
-      "palabras_clave_match": [
-        "maqueta"
-      ],
-      "total_ofertas": 0,
-      "productos": [
-        {
-          "nombre": "Impresión digital",
-          "descripcion": "Se solicita el diseño de una maqueta 3D para utilizar en la realización de talleres de Gestión del Riesgo de Desastres en Patrimonio Cultural Inmaterial, la que, a través de piezas móviles y modulares, permita representar diversos territorios de Chile, así también como distintos efectos y riesgos asociados al cambio climático. A través del material lúdico se busca facilitar el aprendizaje, esta maqueta articulable facilitará acciones de educación que permitan visibilizar y tomar conciencia de lo",
-          "cantidad": 1,
-          "unidad": "EA"
-        }
-      ],
-      "adjuntos": [
-        {
-          "id": "34D6B625-C0D7-4467-9163-ED87F695236E",
-          "nombre": "Anexo 2 Formato Solicitud  068 Compra ágil_Revcch.pdf",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1067476-29-COT26/Anexo%202%20Formato%20Solicitud%20068%20Compra%20%C3%A1gil_Revcch.pdf",
-          "tipo": "pdf"
-        }
-      ],
-      "descripcion": "Se solicita el diseño de una maqueta 3D para utilizar en la realización de talleres de Gestión del Riesgo de Desastres en Patrimonio Cultural Inmaterial, la que, a través de piezas móviles y modulares, permita representar diversos territorios de Chile, así también como distintos efectos y riesgos asociados al cambio climático. A través del material lúdico se busca facilitar el aprendizaje, esta maqueta articulable facilitará acciones de educación que permitan visibilizar y tomar conciencia de lo",
-      "direccion_entrega": "Huerfanos 770",
-      "plazo_entrega_dias": 10,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1067476-29-COT26",
-      "url_detalle_api": "/v2/compra-agil/1067476-29-COT26"
     }
   ]
 }
