@@ -2,22 +2,31 @@
 # -*- coding: utf-8 -*-
 """Recolector Compra Ágil — Green Wolf SPA.
 
-Además de las oportunidades, descarga los archivos adjuntos de cada proceso
-(usando el servicio público de adjuntos del buscador de Mercado Público) y los
-guarda en el repo bajo adjuntos/{codigo}/, de modo que la app pueda enlazarlos
-directamente vía raw.githubusercontent.com.
+Usa la API pública del buscador de Mercado Público
+(api.buscador.mercadopublico.cl), la misma que usa el sitio web oficial.
+Ventaja: no requiere ticket (MP_TICKET) ni tiene cuota diaria.
+
+Además descarga los archivos adjuntos de cada proceso (servicio público de
+adjuntos) y los guarda en el repo bajo adjuntos/{codigo}/, de modo que la app
+pueda enlazarlos directamente vía raw.githubusercontent.com.
+
+Nota: son APIs del frontend oficial (no documentadas). Si algún día rotan las
+claves públicas (BUSCADOR_API_KEY / ADJ_USER_KEY), se obtienen de nuevo
+inspeccionando el JS de buscador.mercadopublico.cl.
 """
 
 import os, re, sys, json, time, shutil, datetime as dt
 from urllib.parse import quote
 import requests
 
-BASE_URL = "https://api2.mercadopublico.cl"
-TICKET = os.environ.get("MP_TICKET", "").strip()
+# API pública del buscador (la misma del sitio buscador.mercadopublico.cl)
+BUSCADOR_BASE = "https://api.buscador.mercadopublico.cl"
+BUSCADOR_API_KEY = "e93089e4-437c-4723-b343-4fa20045e3bc"  # clave pública del frontend
 
-# Servicio público de adjuntos (el mismo que usa buscador.mercadopublico.cl)
+# Servicio público de adjuntos (el mismo del buscador)
 ADJ_BASE = "https://adjunto.mercadopublico.cl/adjunto-compra-agil/v1/adjuntos-compra-agil"
-ADJ_USER_KEY = "41186b85826e80d1a0d445a6ce67d1a3"  # clave pública del frontend del buscador
+ADJ_USER_KEY = "41186b85826e80d1a0d445a6ce67d1a3"  # clave pública del frontend
+
 GH_REPO = os.environ.get("GITHUB_REPOSITORY", "Nyctric/compra-agil-feed")
 GH_BRANCH = os.environ.get("GITHUB_REF_NAME", "master") or "master"
 RAW_BASE = f"https://raw.githubusercontent.com/{GH_REPO}/{GH_BRANCH}"
@@ -37,6 +46,11 @@ FETCH_DETALLE = True
 OUTPUT_FILE = os.environ.get("OUTPUT_FILE", "oportunidades.json")
 PAUSA_SEG = 0.35
 MAX_REINTENTOS = 3
+MAX_PAGINAS = 20  # tope de seguridad por palabra clave
+
+ESTADO_GLOSA = {2: "Publicada", 3: "Cerrada", 5: "Cancelada", 6: "Desierta"}
+ESTADO_CODIGO = {2: "publicada", 3: "cerrada", 5: "cancelada", 6: "desierta"}
+ESTADO_PARAM = {"publicada": 2, "cerrada": 3, "cancelada": 5, "desierta": 6}
 
 REGION_NOMBRES = {
     1:"Tarapacá",2:"Antofagasta",3:"Atacama",4:"Coquimbo",5:"Valparaíso",
@@ -45,82 +59,76 @@ REGION_NOMBRES = {
     15:"Arica y Parinacota",16:"Ñuble",
 }
 
-class CuotaAgotada(Exception):
-    pass
 
-def _headers():
-    return {"ticket": TICKET, "Accept": "application/json"}
-
-def _get(path, params=None):
-    url = f"{BASE_URL}{path}"
-    intento = 0
+def _get_buscador(params=None, intento=0):
+    """GET a la API del buscador con reintentos."""
+    url = f"{BUSCADOR_BASE}/compra-agil"
     while True:
         try:
-            resp = requests.get(url, headers=_headers(), params=params, timeout=60)
+            resp = requests.get(url, headers={"x-api-key": BUSCADOR_API_KEY, "Accept": "application/json"},
+                                params=params, timeout=60)
         except (requests.exceptions.Timeout, requests.exceptions.ConnectionError) as e:
             intento += 1
             if intento > MAX_REINTENTOS:
-                print(f"  · Error de red en {path}: {e}", file=sys.stderr)
+                print(f"  · Error de red: {e}", file=sys.stderr)
                 return None
-            print(f"  · Error de red, reintento {intento}...", file=sys.stderr)
             time.sleep(5 * intento)
             continue
-
-        if resp.status_code == 429:
-            raise CuotaAgotada(f"Cuota diaria agotada (429). Retry-After={resp.headers.get('Retry-After')}.")
-        if resp.status_code in (400, 404):
-            print(f"  · {resp.status_code} para {path} — saltando", file=sys.stderr)
-            return None
-        if resp.status_code in (401, 403):
-            raise SystemExit(f"ERROR {resp.status_code}: ticket inválido.")
-        if resp.status_code >= 500:
+        if resp.status_code in (429,) or resp.status_code >= 500:
             intento += 1
             if intento > MAX_REINTENTOS:
-                resp.raise_for_status()
+                print(f"  · HTTP {resp.status_code} persistente — saltando", file=sys.stderr)
+                return None
             time.sleep(2 ** intento)
             continue
-        resp.raise_for_status()
-        data = resp.json()
+        if resp.status_code != 200:
+            print(f"  · HTTP {resp.status_code} — saltando", file=sys.stderr)
+            return None
+        try:
+            data = resp.json()
+        except ValueError:
+            return None
         if data.get("success") != "OK":
             return None
         return data.get("payload")
 
+
 def buscar_por_palabra(keyword):
+    """Busca procesos por palabra clave usando el buscador público."""
     items, pagina = [], 1
-    region_param = ",".join(str(r) for r in REGIONES) if REGIONES else None
-    estado_param = ",".join(ESTADOS) if ESTADOS else None
-    while True:
-        params = {"q": keyword, "tamano_pagina": 50, "numero_pagina": pagina, "ordenar_por": "FechaPublicacion"}
-        if region_param: params["region"] = region_param
-        if estado_param: params["estado"] = estado_param
-        payload = _get("/v2/compra-agil", params=params)
+    estado_id = ESTADO_PARAM.get((ESTADOS[0] if ESTADOS else "publicada"), 2)
+    while pagina <= MAX_PAGINAS:
+        params = {"keywords": keyword, "status": estado_id, "order_by": "recent", "page_number": pagina}
+        if REGIONES and len(REGIONES) == 1:
+            params["region"] = REGIONES[0]
+        payload = _get_buscador(params)
         time.sleep(PAUSA_SEG)
         if not payload:
             break
-        items.extend(payload.get("items", []))
-        pag = payload.get("paginacion", {}) or {}
-        if pagina >= (pag.get("total_paginas", 1) or 1):
+        items.extend(payload.get("resultados") or [])
+        if pagina >= (payload.get("pageCount") or 1):
             break
         pagina += 1
     return items
 
-def traer_detalle(codigo):
-    payload = _get(f"/v2/compra-agil/{quote(codigo)}")
+
+def traer_ficha(codigo):
+    payload = _get_buscador({"action": "ficha", "code": codigo})
     time.sleep(PAUSA_SEG)
     return payload
+
 
 # ---------- Adjuntos ----------
 
 def _safe_filename(nombre):
-    """Sanitiza el nombre de archivo conservando la extensión."""
     nombre = (nombre or "archivo").strip()
     nombre = nombre.replace("\\", "_").replace("/", "_")
     nombre = re.sub(r'[<>:"|?*\x00-\x1f]', "_", nombre)
     nombre = re.sub(r"\s+", " ", nombre).strip()
     return nombre[:150] or "archivo"
 
+
 def listar_adjuntos_publico(codigo):
-    """Lista los adjuntos (con GUID) usando el servicio público del buscador."""
     try:
         r = requests.get(f"{ADJ_BASE}/listar/{quote(codigo)}",
                          headers={"user_key": ADJ_USER_KEY}, timeout=30)
@@ -134,8 +142,8 @@ def listar_adjuntos_publico(codigo):
         print(f"  · listar adjuntos {codigo}: {e}", file=sys.stderr)
         return []
 
+
 def descargar_adjunto(guid, destino):
-    """Descarga un adjunto por GUID. Devuelve True si quedó guardado."""
     try:
         with requests.get(f"{ADJ_BASE}/descargar/{guid}",
                           headers={"user_key": ADJ_USER_KEY},
@@ -163,10 +171,9 @@ def descargar_adjunto(guid, destino):
             except OSError: pass
         return False
 
+
 def procesar_adjuntos(registro):
-    """Descarga los adjuntos del proceso al repo y deja URLs raw que funcionan."""
     codigo = registro["codigo"]
-    registro["ficha_publica"] = f"https://buscador.mercadopublico.cl/ficha?code={quote(codigo)}"
     files = listar_adjuntos_publico(codigo)
     time.sleep(PAUSA_SEG)
     adjuntos = []
@@ -177,7 +184,6 @@ def procesar_adjuntos(registro):
             guid = f.get("id") or ""
             nombre = _safe_filename(f.get("nombreArchivo"))
             destino = os.path.join(carpeta, nombre)
-            url = ""
             if guid and (os.path.exists(destino) or descargar_adjunto(guid, destino)):
                 url = f"{RAW_BASE}/{ADJ_DIR}/{quote(codigo)}/{quote(nombre)}"
             else:
@@ -188,8 +194,8 @@ def procesar_adjuntos(registro):
             time.sleep(PAUSA_SEG)
     registro["adjuntos"] = adjuntos
 
+
 def limpiar_adjuntos_viejos(codigos_vigentes):
-    """Elimina carpetas de adjuntos de procesos que ya no están en el feed."""
     if not os.path.isdir(ADJ_DIR):
         return
     for d in os.listdir(ADJ_DIR):
@@ -198,64 +204,73 @@ def limpiar_adjuntos_viejos(codigos_vigentes):
             shutil.rmtree(ruta, ignore_errors=True)
             print(f"  · limpieza: adjuntos/{d} eliminado")
 
-# ---------- Normalización ----------
+
+# ---------- Normalización (mismo esquema de feed que antes) ----------
 
 def normalizar(item, palabras_match):
-    estado = item.get("estado", {}) or {}
-    fechas = item.get("fechas", {}) or {}
-    montos = item.get("montos", {}) or {}
-    inst = item.get("institucion", {}) or {}
-    region = inst.get("region")
+    codigo = item.get("codigo") or ""
+    id_estado = item.get("id_estado")
+    region = REGIONES[0] if len(REGIONES) == 1 else None
     return {
-        "codigo": item.get("codigo"),
-        "nombre": item.get("nombre"),
-        "estado": estado.get("codigo"),
-        "estado_glosa": estado.get("glosa"),
-        "organismo": inst.get("organismo_comprador"),
-        "rut_organismo": inst.get("rut"),
-        "unidad_compra": inst.get("unidad_compra"),
+        "codigo": codigo,
+        "nombre": (item.get("nombre") or "").strip(),
+        "estado": ESTADO_CODIGO.get(id_estado, str(item.get("estado") or "").lower()),
+        "estado_glosa": ESTADO_GLOSA.get(id_estado, item.get("estado")),
+        "organismo": item.get("organismo"),
+        "rut_organismo": None,          # se completa con la ficha
+        "unidad_compra": item.get("unidad"),
         "region": region,
-        "region_nombre": REGION_NOMBRES.get(region) or inst.get("nombre_region"),
-        "monto_clp": montos.get("monto_disponible_clp") or montos.get("monto_disponible"),
-        "moneda": montos.get("moneda") or "CLP",
-        "fecha_publicacion": fechas.get("fecha_publicacion"),
-        "fecha_cierre": fechas.get("fecha_cierre"),
-        "fecha_ultimo_cambio": fechas.get("fecha_ultimo_cambio"),
+        "region_nombre": REGION_NOMBRES.get(region),
+        "monto_clp": item.get("monto_disponible_CLP") or item.get("monto_disponible"),
+        "moneda": item.get("moneda") or "CLP",
+        "fecha_publicacion": item.get("fecha_publicacion"),
+        "fecha_cierre": item.get("fecha_cierre"),
+        "fecha_ultimo_cambio": item.get("fecha_cambio"),
         "palabras_clave_match": sorted(palabras_match),
-        "total_ofertas": (item.get("resumen", {}) or {}).get("total_ofertas_recibidas"),
+        "total_ofertas": None,          # se completa con la ficha
         "productos": [], "adjuntos": [], "descripcion": None,
         "direccion_entrega": None, "plazo_entrega_dias": None,
-        "ficha_publica": f"https://buscador.mercadopublico.cl/ficha?code={quote(item.get('codigo') or '')}",
-        "url_detalle_api": (item.get("links", {}) or {}).get("detalle") or f"/v2/compra-agil/{item.get('codigo')}",
+        "ficha_publica": f"https://buscador.mercadopublico.cl/ficha?code={quote(codigo)}",
+        "url_detalle_api": f"{BUSCADOR_BASE}/compra-agil?action=ficha&code={quote(codigo)}",
     }
 
+
 def enriquecer_con_detalle(registro):
-    det = traer_detalle(registro["codigo"])
+    det = traer_ficha(registro["codigo"])
     if det:
-        registro["productos"] = [{"nombre": p.get("nombre"), "descripcion": p.get("descripcion"), "cantidad": p.get("cantidad"), "unidad": p.get("unidad_medida")} for p in (det.get("productos_solicitados") or [])]
+        registro["productos"] = [
+            {"nombre": p.get("nombre"), "descripcion": p.get("descripcion"),
+             "cantidad": p.get("cantidad"), "unidad": p.get("unidad_medida")}
+            for p in (det.get("productos_solicitados") or [])
+        ]
         if det.get("descripcion"):
             registro["descripcion"] = det["descripcion"]
-        entrega = det.get("entrega", {}) or {}
-        registro["direccion_entrega"] = entrega.get("direccion_entrega")
-        registro["plazo_entrega_dias"] = entrega.get("plazo_entrega_dias")
-    # Adjuntos: vía servicio público (GUIDs + descarga real al repo)
+        registro["direccion_entrega"] = det.get("direccion_entrega")
+        registro["plazo_entrega_dias"] = det.get("plazo_entrega")
+        if det.get("total_ofertas_recibidas") is not None:
+            registro["total_ofertas"] = det.get("total_ofertas_recibidas")
+        if det.get("presupuesto_estimado") and not registro.get("monto_clp"):
+            registro["monto_clp"] = det.get("presupuesto_estimado")
+        inst = det.get("informacion_institucion") or {}
+        if inst.get("organismo_comprador"):
+            registro["organismo"] = inst["organismo_comprador"]
+        registro["rut_organismo"] = inst.get("rut_organismo_comprador")
+        if inst.get("division"):
+            registro["unidad_compra"] = inst["division"]
+    # Adjuntos: servicio público (GUIDs + descarga real al repo)
     procesar_adjuntos(registro)
+
 
 def _fecha_orden(reg):
     fc = reg.get("fecha_cierre")
     return (fc is None, fc or "")
 
+
 def main():
-    if not TICKET:
-        raise SystemExit("ERROR: falta MP_TICKET.")
-    print(f"Buscando Compra Ágil — {len(PALABRAS_CLAVE)} palabras, regiones={REGIONES}, estados={ESTADOS}")
+    print(f"Buscando Compra Ágil (buscador público) — {len(PALABRAS_CLAVE)} palabras, regiones={REGIONES}, estados={ESTADOS}")
     por_codigo, matches = {}, {}
     for kw in PALABRAS_CLAVE:
-        try:
-            items = buscar_por_palabra(kw)
-        except CuotaAgotada as e:
-            print(f"DETENIDO en búsqueda: {e}", file=sys.stderr)
-            break
+        items = buscar_por_palabra(kw)
         print(f"  · '{kw}': {len(items)} resultados")
         for it in items:
             cod = it.get("codigo")
@@ -265,16 +280,11 @@ def main():
                 por_codigo[cod] = it
     registros = []
     total = len(por_codigo)
-    print(f"Procesando {total} procesos únicos (detalle uno a uno)…")
+    print(f"Procesando {total} procesos únicos (ficha una a una)…")
     for i, (cod, it) in enumerate(por_codigo.items(), 1):
         reg = normalizar(it, matches.get(cod, set()))
         if FETCH_DETALLE:
-            try:
-                enriquecer_con_detalle(reg)
-            except CuotaAgotada as e:
-                print(f"DETENIDO en detalle #{i}/{total}: {e}", file=sys.stderr)
-                registros.append(reg)
-                break
+            enriquecer_con_detalle(reg)
         registros.append(reg)
         if i % 10 == 0:
             print(f"  · {i}/{total} procesados")
@@ -292,6 +302,7 @@ def main():
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(salida, f, ensure_ascii=False, indent=2)
     print(f"OK: {len(registros)} oportunidades ({n_adj} adjuntos) → {OUTPUT_FILE}")
+
 
 if __name__ == "__main__":
     main()
