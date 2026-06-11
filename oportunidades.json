@@ -1,6 +1,6 @@
 {
-  "generado": "2026-06-10T17:22:40Z",
-  "total": 9,
+  "generado": "2026-06-11T17:38:10Z",
+  "total": 7,
   "palabras_clave": [
     "anatomico",
     "3d",
@@ -18,176 +18,19 @@
   ],
   "items": [
     {
-      "codigo": "1506612-1-COT26",
-      "nombre": "Adquisición de Piochas (Pines) para Ceremonia de Investidura de Prácticas, segundo semestre 2026",
+      "codigo": "1002772-1663-COT26",
+      "nombre": "CABLE INTERFACE PRESION INVASIVA 12 PINES",
       "estado": "publicada",
       "estado_glosa": "Publicada",
-      "organismo": "UNIVERSIDAD METROPOLITANA DE CIENCIAS DE LA EDUCAC",
-      "rut_organismo": "60.910.047-8",
-      "unidad_compra": "DIRECCION DE PRACTICA",
+      "organismo": "SERVICIO SALUD OCCIDENTE HOSPITAL DR FELIX BULNES CERDA",
+      "rut_organismo": "61.608.205-1",
+      "unidad_compra": "INSUMOS CLINICOS",
       "region": 13,
       "region_nombre": "Metropolitana",
-      "monto_clp": 4000000,
+      "monto_clp": 780000,
       "moneda": "CLP",
-      "fecha_publicacion": "2026-06-08 17:31",
-      "fecha_cierre": "2026-06-10 15:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [
-        "pines"
-      ],
-      "total_ofertas": 19,
-      "productos": [
-        {
-          "nombre": "Personalización de regalos o productos promocionales",
-          "descripcion": "Pines Estampados (Piochas) Institucionales. Pin Estampado Importado. Troquel externo, esmaltado sobre metal, broche americano con mariposa, metal dorado o plata. Esmaltados hasta 5 colores, esmaltado con pinturas no tóxica. Entrega en bolsa de plástico individual. Tamaño: hasta 2.9 cm. Se solicita revisar documentación adjunta y anexar cotización. Considerar VB° previa entrega del producto.",
-          "cantidad": 2500,
-          "unidad": "EA"
-        }
-      ],
-      "adjuntos": [
-        {
-          "id": "C8AFCBDE-84E8-47D1-8F97-7891BB6A71EB",
-          "nombre": "3. FORMULARIO COMPRA ÁGIL PIOCHAS.pdf",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1506612-1-COT26/3.%20FORMULARIO%20COMPRA%20%C3%81GIL%20PIOCHAS.pdf",
-          "tipo": "pdf"
-        }
-      ],
-      "descripcion": "Se solicitan cotizaciones para la Adquisición de Piochas (Pines) para Ceremonia de Investidura de Prácticas, segundo semestre 2026 de la UMCE. Se adjunta documento con el listado de productos, cantidades y especificaciones técnicas. Los valores deben incluir despacho. Plazo de despacho: 30 días hábiles. Se solicita considerar VB° del producto y anexar cotización.",
-      "direccion_entrega": "Avenida José Pedro Alessandri 636, Bodega",
-      "plazo_entrega_dias": 30,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1506612-1-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1506612-1-COT26"
-    },
-    {
-      "codigo": "5610-335-COT26",
-      "nombre": "KIT DE MAQUILLAJE PARA RESINA PARA IMPRESION DENTAL 3D",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "UNIVERSIDAD DE CHILE",
-      "rut_organismo": "60.910.000-1",
-      "unidad_compra": "UCHILE Facultad de Odontologia",
-      "region": 13,
-      "region_nombre": "Metropolitana",
-      "monto_clp": 300000,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-06-10 08:55",
-      "fecha_cierre": "2026-06-11 09:20",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [
-        "3d"
-      ],
-      "total_ofertas": 3,
-      "productos": [
-        {
-          "nombre": "Resinas para revestimiento temporáneo de la base de la dentadura",
-          "descripcion": "Set Maquillaje para resinas 3D MakeUp\n\n8 Jeringas de 2,5 ml c/u\nColores: Terracota - Honey - Vanilla - Purple - Acqua - Lunar - Intense A - Intense B.\n1 Botella Glaze Prizma de 4 ml\n25 Puntas dispensadoras\nPresentación\nPor kit",
-          "cantidad": 1,
-          "unidad": "KIT"
-        }
-      ],
-      "adjuntos": [],
-      "descripcion": "PARA PODER POSTULAR SE TIENE QUE ADJUNTRA LOS SIGUIENTES DATOS: SUBIR COTIZACION FORMAL, INDICAR PLAZOS DE ENTREGA, SI CUENTA CON EL DESPACHO INCLUIDO, PLAZO DE ENTREGA UNA VEZ ENVIADA LA OC A PROVEEDOR, ADJUNTAR ESPECIFICACIONES TECNICAS DEL PRODUCTO O SERVICIO, MARCA E IMAGEN PARA EL VBº POR PARTE DE LOS REQUIRENTE",
-      "direccion_entrega": "OLIVOS 943",
-      "plazo_entrega_dias": 2,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=5610-335-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=5610-335-COT26"
-    },
-    {
-      "codigo": "3760-417-COT26",
-      "nombre": "FORMULARIO N° 167/// DIMAO ZOONOSIS//IMPRESORA 3D///EL PROVEEDOR DEBE ENVIAR OBLIGATORIAMENTE LAS CARACTERÍSTICAS E IMÁGENES  DEL PRODUCTO OFERTADO/// EL MONTO INDICADO ES CON IVA INCLUIDO",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "I MUNICIPALIDAD DE EL MONTE",
-      "rut_organismo": "69.073.000-6",
-      "unidad_compra": "IM De El Monte - Adquisiciones",
-      "region": 13,
-      "region_nombre": "Metropolitana",
-      "monto_clp": 235000,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-06-09 16:46",
-      "fecha_cierre": "2026-06-11 10:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [
-        "3d"
-      ],
-      "total_ofertas": 1,
-      "productos": [
-        {
-          "nombre": "Impresoras multifunción o multifuncionales",
-          "descripcion": "1 IMPRESORA 3D TIPO ENDER-3 V3 KE  (IMAGEN DE REFERENCIA EN ADJUNTO)",
-          "cantidad": 1,
-          "unidad": "EA"
-        }
-      ],
-      "adjuntos": [
-        {
-          "id": "5ADDA9D0-5BB6-4465-95B2-9A832811C64F",
-          "nombre": "TERMINOS DE REFERENCIA DE ESTA COTIZACIÓN.pdf",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/3760-417-COT26/TERMINOS%20DE%20REFERENCIA%20DE%20ESTA%20COTIZACI%C3%93N.pdf",
-          "tipo": "pdf"
-        }
-      ],
-      "descripcion": "FORMULARIO N° 167/// DIMAO ZOONOSIS//IMPRESORA 3D///EL PROVEEDOR DEBE ENVIAR OBLIGATORIAMENTE LAS CARACTERÍSTICAS E IMÁGENES  DEL PRODUCTO OFERTADO/// EL MONTO INDICADO ES CON IVA INCLUIDO",
-      "direccion_entrega": "LOS LIBERTADORES 277 EL MONTE///  BODEGA MUNICIPAL,  ENTRE CARABINEROS Y TEATRO MUNICIPAL PORTÓN NEGRO, DESDE  LAS 09:00  A 13:00 Y DE 15:00 A 17:00, Y LOS VIERNES DESDE LAS 09:00 A 13:00 HORAS. ",
-      "plazo_entrega_dias": 2,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=3760-417-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=3760-417-COT26"
-    },
-    {
-      "codigo": "3269-26-COT26",
-      "nombre": "S.A. 34 MANTENCIÓN Y ACTUALIZACIÓN SOFTWARE AUTOCAD CIVIL 3D SINGLE- USER, POR UN AÑO",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "SERVICIO AEROFOTOGRAMETRICO DEL GENERAL JUAN SOLER MANFREDINI",
-      "rut_organismo": "61.103.018-5",
-      "unidad_compra": "Servicio Aerofotogramétrico",
-      "region": 13,
-      "region_nombre": "Metropolitana",
-      "monto_clp": 4800000,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-06-09 10:24",
-      "fecha_cierre": "2026-06-11 10:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [
-        "3d"
-      ],
-      "total_ofertas": 3,
-      "productos": [
-        {
-          "nombre": "Software de gestión de licencias",
-          "descripcion": "Renovación de suscripción para dos licencias correspondientes al software AutoCAD Civil 3D (AUTOCAD CIVIL 3D 1 YEAR SINGLE USER RENEWAL).\nInstalación y configuración de productos asociados (en caso de requerir), en dependencias del \"SAF\", ubicadas en Av. Diego Barros Ortiz N° 2300, comuna de Pudahuel.",
-          "cantidad": 2,
-          "unidad": "EA"
-        }
-      ],
-      "adjuntos": [
-        {
-          "id": "39D3E243-4FA9-48D4-AA18-27022521931B",
-          "nombre": "ESPECIFICACIONES TÉCNICAS.pdf",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/3269-26-COT26/ESPECIFICACIONES%20T%C3%89CNICAS.pdf",
-          "tipo": "pdf"
-        }
-      ],
-      "descripcion": "Se requiere renovar la suscripción para dos licencias correspondientes al software Autocad Civil 3D, por un período de un 12 meses continuos, sin renovaciones parciales o mensuales. Se adjuntan especificaciones técnicas.\nEL IMCUMPLIMIENTO EN QUE INCURRA EL PROVEEDOR A LO SOLICITADO EN LA ORDEN DE COMPRA SERÁ INFORMADO A LA DIRECCIÓN DE COMPRAS PÚBLICAS CON EL PROPÓSITO DE DEJAR CONSTANCIA EN LA FICHA DEL PROVEEDOR, COMO ASIMISMO AFECTE SU PARTICIPACIÓN EN FUTUROS PROCESOS DE ADQUISICIONES.",
-      "direccion_entrega": "Av. Diego Barros Ortiz 2300, Pudahuel",
-      "plazo_entrega_dias": 3,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=3269-26-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=3269-26-COT26"
-    },
-    {
-      "codigo": "1057472-251-COT26",
-      "nombre": "CABLE PACIENTE MONITOR DE APNEA",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "HOSPITAL CLINICO METROPOLITANO EL CARMEN DOCTOR LUIS VALENTIN FERRADA",
-      "rut_organismo": "61.980.320-5",
-      "unidad_compra": "Bienes y Servicios",
-      "region": 13,
-      "region_nombre": "Metropolitana",
-      "monto_clp": 300000,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-06-09 12:43",
-      "fecha_cierre": "2026-06-11 10:00",
+      "fecha_publicacion": "2026-06-10 16:02",
+      "fecha_cierre": "2026-06-11 16:30",
       "fecha_ultimo_cambio": null,
       "palabras_clave_match": [
         "pines"
@@ -195,72 +38,25 @@
       "total_ofertas": 0,
       "productos": [
         {
-          "nombre": "Adaptadores, cables o electrodos de electrocardiografía (ECG)",
-          "descripcion": "Se requiere 02 Cable de paciente compatible con Monitor de apnea marca Getemed modelo Vitaguard VG2100. Cable troncal de ECG. Conector de color verde, 8 pines de conexión. Se adjunta imagen referencial. Enviar ficha técnica y cotización por separado. Se solicitará muestra de ser necesario.",
-          "cantidad": 2,
+          "nombre": "Cable de sintonización de dirección con energía",
+          "descripcion": "1000806 CABLE INTERFACE PRESION INVASIVA 12 PINES\n ",
+          "cantidad": 10,
           "unidad": "EA"
         }
       ],
       "adjuntos": [
         {
-          "id": "9E66D061-EFD1-4D05-A5D1-245761E17044",
-          "nombre": "Cable pcte. Monitor Apnea.jpg",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1057472-251-COT26/Cable%20pcte.%20Monitor%20Apnea.jpg",
-          "tipo": "jpg"
-        }
-      ],
-      "descripcion": "Se requiere 02 Cable de paciente compatible con Monitor de apnea marca Getemed modelo Vitaguard VG2100. Cable troncal de ECG. Conector de color verde, 8 pines de conexión. Enviar ficha técnica y cotización por separado. Se solicitará muestra de ser necesario.",
-      "direccion_entrega": "CAMINO A RINCONADA 1201",
-      "plazo_entrega_dias": 7,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1057472-251-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1057472-251-COT26"
-    },
-    {
-      "codigo": "5485-425-COT26",
-      "nombre": "Adquisición de Impresora 3D",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "UNIVERSIDAD DE CHILE",
-      "rut_organismo": "60.910.000-1",
-      "unidad_compra": "FAC.CS.AGRONOMICAS Dirección Económ. y Adm",
-      "region": 13,
-      "region_nombre": "Metropolitana",
-      "monto_clp": 1999999,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-06-10 09:28",
-      "fecha_cierre": "2026-06-11 11:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [
-        "3d"
-      ],
-      "total_ofertas": 6,
-      "productos": [
-        {
-          "nombre": "Impresoras multifunción o multifuncionales",
-          "descripcion": "Impresora 3D, se adjunta archivo anexo con características solicitadas, favor revisar para cotizar.",
-          "cantidad": 1,
-          "unidad": "EA"
-        }
-      ],
-      "adjuntos": [
-        {
-          "id": "EEE3069A-4EE3-467B-B055-701A976977E1",
-          "nombre": "Anexo Fua 13785.docx",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/5485-425-COT26/Anexo%20Fua%2013785.docx",
-          "tipo": "docx"
-        },
-        {
-          "id": "DE8276C9-3D64-4CC2-A31F-6CD049101945",
-          "nombre": "Anexo Fua.pdf",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/5485-425-COT26/Anexo%20Fua.pdf",
+          "id": "88553F7A-289C-44F0-AE3A-4E17A0D8CD73",
+          "nombre": "NORMA TECNICA N 247 DECRETO EXENTO N 33 SRA 2025 - NORMA-TECNICA-.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1002772-1663-COT26/NORMA%20TECNICA%20N%20247%20DECRETO%20EXENTO%20N%2033%20SRA%202025%20-%20NORMA-TECNICA-.pdf",
           "tipo": "pdf"
         }
       ],
-      "descripcion": "Adquisición de Impresora 3D, se adjunta archivo anexo con las características técnicas solicitadas, favor revisar para cotizar.",
-      "direccion_entrega": "Av. Santa Rosa 11315,  Laboratorio Tecnologías y Gestión Hídrica",
+      "descripcion": "se requiere cotización para CABLE INTERFACE PRESION INVASIVA 12 PINES    \n**Adjuntar ficha técnica e imagen del producto**\n“Todo proveedor de dispositivos médicos debe dar cumplimiento a la Norma N°226.\ny a norma técnica 247. (Normas de trazabilidad de dispositivos médicos)\nAdemás, es deseable que los productos posean codificación según GS1.”\nDespachos parcializados según requerimientos de bodega.\n",
+      "direccion_entrega": "mapocho 7432",
       "plazo_entrega_dias": 2,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=5485-425-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=5485-425-COT26"
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1002772-1663-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1002772-1663-COT26"
     },
     {
       "codigo": "1561-27-COT26",
@@ -280,7 +76,7 @@
       "palabras_clave_match": [
         "3d"
       ],
-      "total_ofertas": 0,
+      "total_ofertas": 2,
       "productos": [
         {
           "nombre": "Software de arquitectura del sistema y análisis de requisitos",
@@ -321,7 +117,7 @@
       "palabras_clave_match": [
         "pins"
       ],
-      "total_ofertas": 3,
+      "total_ofertas": 4,
       "productos": [
         {
           "nombre": "Galvanos",
@@ -345,6 +141,94 @@
       "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=744835-357-COT26"
     },
     {
+      "codigo": "1736-306-COT26",
+      "nombre": "PINES PERSONALIZADOS",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "I MUNICIPALIDAD DE LA COMUNA DE EL BOSQUE",
+      "rut_organismo": "69.255.300-4",
+      "unidad_compra": "I MUNICIPALIDAD DE LA COMUNA DE EL BOSQUE",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 1350000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-11 11:44",
+      "fecha_cierre": "2026-06-12 12:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "pines"
+      ],
+      "total_ofertas": 3,
+      "productos": [
+        {
+          "nombre": "Regalos publicitarios",
+          "descripcion": "PINS VARIEDADES GENÉRICO\n300 PINES METÁLICOS\nPERSONALIZADOS, A COLOR, ESMALTADOS, TROQUELADOS.\nTERMINACIÓN DORADA.\nTAMAÑO DE 30 MM DE DIÁMETRO, 1,5 MM DE ESPESOR.\nBROCHE MARIPOSA METÁLICO.\nSE ADJUNTA DISEÑO.\n",
+          "cantidad": 300,
+          "unidad": "EA"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "C4F08C3D-3B68-4900-A84C-18591EEC92F4",
+          "nombre": "FUSC N°315 SALUD.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1736-306-COT26/FUSC%20N%C2%B0315%20SALUD.pdf",
+          "tipo": "pdf"
+        },
+        {
+          "id": "12A7FDF2-E072-4EBD-B02B-0FA050FDEC22",
+          "nombre": "DISEÑO.png",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1736-306-COT26/DISE%C3%91O.png",
+          "tipo": "png"
+        }
+      ],
+      "descripcion": "SE REQUIERE LA ADQUISICION DE PINES PERSONALIZADOS PARA SER ENTREGADOS COMO RECONOCIMIENTO A LOS COLABORADORES QUE DESEMPEÑAN LABORES DE TUTORIA CLINICA EN LA RED DE SALUD.PROVEEDOR DEBERÁ ADJUNTAR COTIZACIÓN FORMAL DE LOS PRODUCTOS, DE LO CONTRARIO SU OFERTA SERA DESESTIMADA.INDICAR FECHA Y GARANTÍA DE LOS PRODUCTOS. LA OFERTA QUE SUPERE EL PRESUPUESTO INFORMADO NO SERA EVALUADA.LA ADJUDICACIÓN SERA POR LA TOTALIDAD DE LOS PRODUCTOS.",
+      "direccion_entrega": "A CONVENIR ",
+      "plazo_entrega_dias": 3,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1736-306-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1736-306-COT26"
+    },
+    {
+      "codigo": "1057472-251-COT26",
+      "nombre": "CABLE PACIENTE MONITOR DE APNEA",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "HOSPITAL CLINICO METROPOLITANO EL CARMEN DOCTOR LUIS VALENTIN FERRADA",
+      "rut_organismo": "61.980.320-5",
+      "unidad_compra": "Bienes y Servicios",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 300000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-09 12:43",
+      "fecha_cierre": "2026-06-13 07:16",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "pines"
+      ],
+      "total_ofertas": 0,
+      "productos": [
+        {
+          "nombre": "Adaptadores, cables o electrodos de electrocardiografía (ECG)",
+          "descripcion": "Se requiere 02 Cable de paciente compatible con Monitor de apnea marca Getemed modelo Vitaguard VG2100. Cable troncal de ECG. Conector de color verde, 8 pines de conexión. Se adjunta imagen referencial. Enviar ficha técnica y cotización por separado. Se solicitará muestra de ser necesario.",
+          "cantidad": 2,
+          "unidad": "EA"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "9E66D061-EFD1-4D05-A5D1-245761E17044",
+          "nombre": "Cable pcte. Monitor Apnea.jpg",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1057472-251-COT26/Cable%20pcte.%20Monitor%20Apnea.jpg",
+          "tipo": "jpg"
+        }
+      ],
+      "descripcion": "Se requiere 02 Cable de paciente compatible con Monitor de apnea marca Getemed modelo Vitaguard VG2100. Cable troncal de ECG. Conector de color verde, 8 pines de conexión. Enviar ficha técnica y cotización por separado. Se solicitará muestra de ser necesario.",
+      "direccion_entrega": "CAMINO A RINCONADA 1201",
+      "plazo_entrega_dias": 7,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1057472-251-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1057472-251-COT26"
+    },
+    {
       "codigo": "1067476-29-COT26",
       "nombre": "Creación de material educativo interactivo para la divulgación territorial del cambio climático en comunidades asociadas a los patrimonios culturales inmateriales",
       "estado": "publicada",
@@ -363,7 +247,7 @@
         "3d",
         "maqueta"
       ],
-      "total_ofertas": 2,
+      "total_ofertas": 4,
       "productos": [
         {
           "nombre": "Impresión digital",
@@ -385,6 +269,47 @@
       "plazo_entrega_dias": 10,
       "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1067476-29-COT26",
       "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1067476-29-COT26"
+    },
+    {
+      "codigo": "2789-199-COT26",
+      "nombre": "FILAMENTOS E IMPRESORA 3D - LICEO BARBARA KAST R.",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "I MUNICIPALIDAD DE PAINE",
+      "rut_organismo": "69.072.600-9",
+      "unidad_compra": "DEPARTAMENTO DE EDUCACION MUNICIPAL",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 1005550,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-11 09:48",
+      "fecha_cierre": "2026-06-15 10:30",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "3d"
+      ],
+      "total_ofertas": 1,
+      "productos": [
+        {
+          "nombre": "Kits para impresoras",
+          "descripcion": "FILAMENTOS E IMPRESORA 3D, SEGUN ESPECIFICACIONES TECNICAS ADJUNTAS",
+          "cantidad": 1,
+          "unidad": "PACK"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "1C9331D4-0DDD-475D-A2E7-B8D1458CE6C9",
+          "nombre": "29dfba_260512_28_Filamento.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/2789-199-COT26/29dfba_260512_28_Filamento.pdf",
+          "tipo": "pdf"
+        }
+      ],
+      "descripcion": "SE REQUIERE LA ADQUISICION DE FILAMENTOS PARA IMPRESORA E IMPRESORA 3D PARA EL LICEO BARBARA KAST R., COMUNA DE PAINE. S/SOLICITUD DE COMPRA N°277/12.05.2026.\n\n",
+      "direccion_entrega": "AVDA. 18 DE SEPTIEMBRE N°235-INTERIOR, COMUNA DE PAINE",
+      "plazo_entrega_dias": 1,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=2789-199-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=2789-199-COT26"
     }
   ]
 }
