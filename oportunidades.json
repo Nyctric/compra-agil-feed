@@ -1,6 +1,6 @@
 {
-  "generado": "2026-06-11T17:38:10Z",
-  "total": 7,
+  "generado": "2026-06-12T16:45:51Z",
+  "total": 5,
   "palabras_clave": [
     "anatomico",
     "3d",
@@ -17,176 +17,6 @@
     "publicada"
   ],
   "items": [
-    {
-      "codigo": "1002772-1663-COT26",
-      "nombre": "CABLE INTERFACE PRESION INVASIVA 12 PINES",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "SERVICIO SALUD OCCIDENTE HOSPITAL DR FELIX BULNES CERDA",
-      "rut_organismo": "61.608.205-1",
-      "unidad_compra": "INSUMOS CLINICOS",
-      "region": 13,
-      "region_nombre": "Metropolitana",
-      "monto_clp": 780000,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-06-10 16:02",
-      "fecha_cierre": "2026-06-11 16:30",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [
-        "pines"
-      ],
-      "total_ofertas": 0,
-      "productos": [
-        {
-          "nombre": "Cable de sintonización de dirección con energía",
-          "descripcion": "1000806 CABLE INTERFACE PRESION INVASIVA 12 PINES\n ",
-          "cantidad": 10,
-          "unidad": "EA"
-        }
-      ],
-      "adjuntos": [
-        {
-          "id": "88553F7A-289C-44F0-AE3A-4E17A0D8CD73",
-          "nombre": "NORMA TECNICA N 247 DECRETO EXENTO N 33 SRA 2025 - NORMA-TECNICA-.pdf",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1002772-1663-COT26/NORMA%20TECNICA%20N%20247%20DECRETO%20EXENTO%20N%2033%20SRA%202025%20-%20NORMA-TECNICA-.pdf",
-          "tipo": "pdf"
-        }
-      ],
-      "descripcion": "se requiere cotización para CABLE INTERFACE PRESION INVASIVA 12 PINES    \n**Adjuntar ficha técnica e imagen del producto**\n“Todo proveedor de dispositivos médicos debe dar cumplimiento a la Norma N°226.\ny a norma técnica 247. (Normas de trazabilidad de dispositivos médicos)\nAdemás, es deseable que los productos posean codificación según GS1.”\nDespachos parcializados según requerimientos de bodega.\n",
-      "direccion_entrega": "mapocho 7432",
-      "plazo_entrega_dias": 2,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1002772-1663-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1002772-1663-COT26"
-    },
-    {
-      "codigo": "1561-27-COT26",
-      "nombre": "Software de diseño gráfico y modelado en tres dimensiones (3D) y Software de modelado de información de construcción",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "DIRECCION GENERAL DEL CREDITO PRENDARIO",
-      "rut_organismo": "61.504.000-2",
-      "unidad_compra": "Dirección General",
-      "region": 13,
-      "region_nombre": "Metropolitana",
-      "monto_clp": 4474950,
-      "moneda": "USD",
-      "fecha_publicacion": "2026-06-05 11:34",
-      "fecha_cierre": "2026-06-11 18:25",
-      "fecha_ultimo_cambio": "2026-06-05T00:00:00Z",
-      "palabras_clave_match": [
-        "3d"
-      ],
-      "total_ofertas": 2,
-      "productos": [
-        {
-          "nombre": "Software de arquitectura del sistema y análisis de requisitos",
-          "descripcion": "E1 O2 RT9. La Dirección General del Crédito Prendario (DICREP) requiere adquirir dos tipos de software: una licencia de modelado de información de construcción (BIM) y dos licencias de software de diseño gráfico y modelado tridimensional (3D), destinados a la creación de modelos digitales precisos de edificios y estructuras. VER ADJUNTO",
-          "cantidad": 2,
-          "unidad": "EA"
-        }
-      ],
-      "adjuntos": [
-        {
-          "id": "E4525FF9-7476-44E7-8B22-9AAD2247B89C",
-          "nombre": "Compra ágil ID 1561-27-COT26.pdf",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1561-27-COT26/Compra%20%C3%A1gil%20ID%201561-27-COT26.pdf",
-          "tipo": "pdf"
-        }
-      ],
-      "descripcion": "E1 O2 RT9 La Dirección General del Crédito Prendario (DICREP) requiere adquirir dos tipos de software: una licencia de modelado de información de construcción (BIM) y dos licencias de software de diseño gráfico y modelado tridimensional (3D), destinados a la creación de modelos digitales precisos de edificios y estructuras. VER ADJUNTO",
-      "direccion_entrega": "San Antonio 427, Santiago",
-      "plazo_entrega_dias": 3,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1561-27-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1561-27-COT26"
-    },
-    {
-      "codigo": "744835-357-COT26",
-      "nombre": "PENDÓN ROLLER - PINS PERSONALIZADO - LIBRETAS ECOLÓGICAS - GALVANOS DE CRISTAL ( DIRCC. SEGURIDAD -  Programa Somos Barrio)",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "I MUNICIPALIDAD DE LO ESPEJO",
-      "rut_organismo": "69.255.100-1",
-      "unidad_compra": "Departamento de Adquisiciones",
-      "region": 13,
-      "region_nombre": "Metropolitana",
-      "monto_clp": 1696000,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-06-09 10:43",
-      "fecha_cierre": "2026-06-12 10:45",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [
-        "pins"
-      ],
-      "total_ofertas": 4,
-      "productos": [
-        {
-          "nombre": "Galvanos",
-          "descripcion": "* Revisar Solicitud N° 1500/23/2026, anexada.\n* Revisar y cumplir con el detalle del documento adjunto\n* Revisar y acatar con los antecedentes del requerimiento \n",
-          "cantidad": 1,
-          "unidad": "000"
-        }
-      ],
-      "adjuntos": [
-        {
-          "id": "1C58C4C2-10FB-4942-BCB7-F6E7AA3BA292",
-          "nombre": "Sol. Nº 1500-23-2026.pdf",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/744835-357-COT26/Sol.%20N%C2%BA%201500-23-2026.pdf",
-          "tipo": "pdf"
-        }
-      ],
-      "descripcion": "* Revisar Solicitud de Materiales N° 1500/23/2026 anexada, donde indica las cantidades y características de lo requerido\n* Subir cotización detallada al Portal Mercado Público en formato Word o Excell\n* NO se considerarán los oferentes que no coticen la totalidad de los productos\n* El oferente NO podrá sobrepasar presupuesto disponible\n* De preferencia se seleccionará al oferente que cumpla con el detalle de los productos solicitados o en su defecto que se aproxime\n* Se permite re adjudicar \n",
-      "direccion_entrega": "Avda. Cardenal Raúl Silva Henríquez # 8321 Lo Espejo ",
-      "plazo_entrega_dias": 5,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=744835-357-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=744835-357-COT26"
-    },
-    {
-      "codigo": "1736-306-COT26",
-      "nombre": "PINES PERSONALIZADOS",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "I MUNICIPALIDAD DE LA COMUNA DE EL BOSQUE",
-      "rut_organismo": "69.255.300-4",
-      "unidad_compra": "I MUNICIPALIDAD DE LA COMUNA DE EL BOSQUE",
-      "region": 13,
-      "region_nombre": "Metropolitana",
-      "monto_clp": 1350000,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-06-11 11:44",
-      "fecha_cierre": "2026-06-12 12:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [
-        "pines"
-      ],
-      "total_ofertas": 3,
-      "productos": [
-        {
-          "nombre": "Regalos publicitarios",
-          "descripcion": "PINS VARIEDADES GENÉRICO\n300 PINES METÁLICOS\nPERSONALIZADOS, A COLOR, ESMALTADOS, TROQUELADOS.\nTERMINACIÓN DORADA.\nTAMAÑO DE 30 MM DE DIÁMETRO, 1,5 MM DE ESPESOR.\nBROCHE MARIPOSA METÁLICO.\nSE ADJUNTA DISEÑO.\n",
-          "cantidad": 300,
-          "unidad": "EA"
-        }
-      ],
-      "adjuntos": [
-        {
-          "id": "C4F08C3D-3B68-4900-A84C-18591EEC92F4",
-          "nombre": "FUSC N°315 SALUD.pdf",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1736-306-COT26/FUSC%20N%C2%B0315%20SALUD.pdf",
-          "tipo": "pdf"
-        },
-        {
-          "id": "12A7FDF2-E072-4EBD-B02B-0FA050FDEC22",
-          "nombre": "DISEÑO.png",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1736-306-COT26/DISE%C3%91O.png",
-          "tipo": "png"
-        }
-      ],
-      "descripcion": "SE REQUIERE LA ADQUISICION DE PINES PERSONALIZADOS PARA SER ENTREGADOS COMO RECONOCIMIENTO A LOS COLABORADORES QUE DESEMPEÑAN LABORES DE TUTORIA CLINICA EN LA RED DE SALUD.PROVEEDOR DEBERÁ ADJUNTAR COTIZACIÓN FORMAL DE LOS PRODUCTOS, DE LO CONTRARIO SU OFERTA SERA DESESTIMADA.INDICAR FECHA Y GARANTÍA DE LOS PRODUCTOS. LA OFERTA QUE SUPERE EL PRESUPUESTO INFORMADO NO SERA EVALUADA.LA ADJUDICACIÓN SERA POR LA TOTALIDAD DE LOS PRODUCTOS.",
-      "direccion_entrega": "A CONVENIR ",
-      "plazo_entrega_dias": 3,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1736-306-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1736-306-COT26"
-    },
     {
       "codigo": "1057472-251-COT26",
       "nombre": "CABLE PACIENTE MONITOR DE APNEA",
@@ -271,6 +101,47 @@
       "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1067476-29-COT26"
     },
     {
+      "codigo": "2792-453-COT26",
+      "nombre": "PINS",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "Iluste Municipalidad de Huechuraba",
+      "rut_organismo": "69.255.400-0",
+      "unidad_compra": "Departamento de Salud Municipal",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 302000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-12 10:04",
+      "fecha_cierre": "2026-06-15 09:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "pins"
+      ],
+      "total_ofertas": 7,
+      "productos": [
+        {
+          "nombre": "Regalos publicitarios",
+          "descripcion": "Se requiere la adquisición de Pins base metálica redonda de 27mm, con logo impreso full color (adjunto imagen referencial) cubierto con resina, sujeción broche americano",
+          "cantidad": 150,
+          "unidad": "EA"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "B5810DEC-6FCC-481C-A4B6-FC4FFBE59252",
+          "nombre": "pins.docx",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/2792-453-COT26/pins.docx",
+          "tipo": "docx"
+        }
+      ],
+      "descripcion": "Se requiere la adquisición de Pins base metalica redonda de 27mm, con logo impreso full color (adjunto imagen referencial) cubierto con resina, sujeción broche americano",
+      "direccion_entrega": "Av recoleta 5696, bodega de salud",
+      "plazo_entrega_dias": 5,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=2792-453-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=2792-453-COT26"
+    },
+    {
       "codigo": "2789-199-COT26",
       "nombre": "FILAMENTOS E IMPRESORA 3D - LICEO BARBARA KAST R.",
       "estado": "publicada",
@@ -310,6 +181,47 @@
       "plazo_entrega_dias": 1,
       "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=2789-199-COT26",
       "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=2789-199-COT26"
+    },
+    {
+      "codigo": "3269-26-COT26",
+      "nombre": "S.A. 34 MANTENCIÓN Y ACTUALIZACIÓN SOFTWARE AUTOCAD CIVIL 3D SINGLE- USER, POR UN AÑO",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "SERVICIO AEROFOTOGRAMETRICO DEL GENERAL JUAN SOLER MANFREDINI",
+      "rut_organismo": "61.103.018-5",
+      "unidad_compra": "Servicio Aerofotogramétrico",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 4800000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-09 10:24",
+      "fecha_cierre": "2026-06-15 12:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "3d"
+      ],
+      "total_ofertas": 0,
+      "productos": [
+        {
+          "nombre": "Software de gestión de licencias",
+          "descripcion": "Renovación de suscripción para dos licencias correspondientes al software AutoCAD Civil 3D (AUTOCAD CIVIL 3D 1 YEAR SINGLE USER RENEWAL).\nInstalación y configuración de productos asociados (en caso de requerir), en dependencias del \"SAF\", ubicadas en Av. Diego Barros Ortiz N° 2300, comuna de Pudahuel.",
+          "cantidad": 2,
+          "unidad": "EA"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "39D3E243-4FA9-48D4-AA18-27022521931B",
+          "nombre": "ESPECIFICACIONES TÉCNICAS.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/3269-26-COT26/ESPECIFICACIONES%20T%C3%89CNICAS.pdf",
+          "tipo": "pdf"
+        }
+      ],
+      "descripcion": "Se requiere renovar la suscripción para dos licencias correspondientes al software Autocad Civil 3D, por un período de un 12 meses continuos, sin renovaciones parciales o mensuales. Se adjuntan especificaciones técnicas.\nEL IMCUMPLIMIENTO EN QUE INCURRA EL PROVEEDOR A LO SOLICITADO EN LA ORDEN DE COMPRA SERÁ INFORMADO A LA DIRECCIÓN DE COMPRAS PÚBLICAS CON EL PROPÓSITO DE DEJAR CONSTANCIA EN LA FICHA DEL PROVEEDOR, COMO ASIMISMO AFECTE SU PARTICIPACIÓN EN FUTUROS PROCESOS DE ADQUISICIONES.",
+      "direccion_entrega": "Av. Diego Barros Ortiz 2300, Pudahuel",
+      "plazo_entrega_dias": 3,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=3269-26-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=3269-26-COT26"
     }
   ]
 }
