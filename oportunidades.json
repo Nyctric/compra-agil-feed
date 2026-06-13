@@ -1,6 +1,6 @@
 {
-  "generado": "2026-06-12T16:45:51Z",
-  "total": 5,
+  "generado": "2026-06-13T15:43:47Z",
+  "total": 6,
   "palabras_clave": [
     "anatomico",
     "3d",
@@ -17,47 +17,6 @@
     "publicada"
   ],
   "items": [
-    {
-      "codigo": "1057472-251-COT26",
-      "nombre": "CABLE PACIENTE MONITOR DE APNEA",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "HOSPITAL CLINICO METROPOLITANO EL CARMEN DOCTOR LUIS VALENTIN FERRADA",
-      "rut_organismo": "61.980.320-5",
-      "unidad_compra": "Bienes y Servicios",
-      "region": 13,
-      "region_nombre": "Metropolitana",
-      "monto_clp": 300000,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-06-09 12:43",
-      "fecha_cierre": "2026-06-13 07:16",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [
-        "pines"
-      ],
-      "total_ofertas": 0,
-      "productos": [
-        {
-          "nombre": "Adaptadores, cables o electrodos de electrocardiografía (ECG)",
-          "descripcion": "Se requiere 02 Cable de paciente compatible con Monitor de apnea marca Getemed modelo Vitaguard VG2100. Cable troncal de ECG. Conector de color verde, 8 pines de conexión. Se adjunta imagen referencial. Enviar ficha técnica y cotización por separado. Se solicitará muestra de ser necesario.",
-          "cantidad": 2,
-          "unidad": "EA"
-        }
-      ],
-      "adjuntos": [
-        {
-          "id": "9E66D061-EFD1-4D05-A5D1-245761E17044",
-          "nombre": "Cable pcte. Monitor Apnea.jpg",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1057472-251-COT26/Cable%20pcte.%20Monitor%20Apnea.jpg",
-          "tipo": "jpg"
-        }
-      ],
-      "descripcion": "Se requiere 02 Cable de paciente compatible con Monitor de apnea marca Getemed modelo Vitaguard VG2100. Cable troncal de ECG. Conector de color verde, 8 pines de conexión. Enviar ficha técnica y cotización por separado. Se solicitará muestra de ser necesario.",
-      "direccion_entrega": "CAMINO A RINCONADA 1201",
-      "plazo_entrega_dias": 7,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1057472-251-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1057472-251-COT26"
-    },
     {
       "codigo": "1067476-29-COT26",
       "nombre": "Creación de material educativo interactivo para la divulgación territorial del cambio climático en comunidades asociadas a los patrimonios culturales inmateriales",
@@ -101,6 +60,53 @@
       "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1067476-29-COT26"
     },
     {
+      "codigo": "3877-284-COT26",
+      "nombre": "ADQUISICIÓN DE GALVANO PARA CEREMONIA DE RECONOCIMIENTO",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "I MUNICIPALIDAD DE LAMPA",
+      "rut_organismo": "69.071.400-0",
+      "unidad_compra": "Adquisiciones",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 80000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-12 17:22",
+      "fecha_cierre": "2026-06-15 08:30",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "galvano"
+      ],
+      "total_ofertas": 0,
+      "productos": [
+        {
+          "nombre": "Galvanos",
+          "descripcion": "GALVANO, MEDIDAS 15X15 CM , MATERIAL MADERA, ACABADOS GRABADO LÁSER, LOS TRAZOS ALREDEDOR DEL CONTENIDO MAS EL AVE DEL GALVANO CON ACABADO DORADO, SEGUN DISEÑO ADJUNTO.",
+          "cantidad": 1,
+          "unidad": "EA"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "2618FA75-D45A-4F12-871D-92534E2B5B9C",
+          "nombre": "DISEÑO GALVANO.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/3877-284-COT26/DISE%C3%91O%20GALVANO.pdf",
+          "tipo": "pdf"
+        },
+        {
+          "id": "0C2A83ED-965B-4E3B-A805-C94A4BF8902F",
+          "nombre": "Muestra 2.png",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/3877-284-COT26/Muestra%202.png",
+          "tipo": "png"
+        }
+      ],
+      "descripcion": "ADQUISICIÓN DE GALVANO PARA CEREMONIA DE RECONOCIMIENTO DE PDI A REALIZARSE EL 19/06/2026, SOLICITADO POR LA DIRECCIÓN DE SEGURIDAD PÚBLICA.\nPROVEEDORES DEBEN ADJUNTAR COTIZACIÓN FORMAL CON ESPECIFICACIONES TÉCNICAS DEL PRODUCTO OFERTADO.",
+      "direccion_entrega": "ARTURO PRAT N°1138 BODEGA MUNICIPAL",
+      "plazo_entrega_dias": 2,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=3877-284-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=3877-284-COT26"
+    },
+    {
       "codigo": "2792-453-COT26",
       "nombre": "PINS",
       "estado": "publicada",
@@ -118,7 +124,7 @@
       "palabras_clave_match": [
         "pins"
       ],
-      "total_ofertas": 7,
+      "total_ofertas": 9,
       "productos": [
         {
           "nombre": "Regalos publicitarios",
@@ -140,6 +146,53 @@
       "plazo_entrega_dias": 5,
       "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=2792-453-COT26",
       "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=2792-453-COT26"
+    },
+    {
+      "codigo": "867990-283-COT26",
+      "nombre": "Adquisición de Impresora 3D y Máquina Curado y Lavado",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "UNIVERSIDAD DE SANTIAGO DE CHILE",
+      "rut_organismo": "60.911.000-7",
+      "unidad_compra": "DEPARTAMENTO DE COORDINACIÓN INSTITUCIONAL - DCI",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 892500,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-12 13:21",
+      "fecha_cierre": "2026-06-15 10:30",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "3d"
+      ],
+      "total_ofertas": 5,
+      "productos": [
+        {
+          "nombre": "Impresoras de láser",
+          "descripcion": "IMPRESORA 3D.  *Especificaciones técnicas en archivo adjunto*",
+          "cantidad": 2,
+          "unidad": "EA"
+        },
+        {
+          "nombre": "Impresoras de láser",
+          "descripcion": "Máquina Curado y Lavado Mercury Plus V3, O EQUIVALENTE.  *Especificaciones técnicas en archivo adjunto*",
+          "cantidad": 1,
+          "unidad": "EA"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "03C1A4DE-9C1F-4F97-BD27-94ADF8F9D936",
+          "nombre": "ESPECIFICACIONES TÉCNICAS.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/867990-283-COT26/ESPECIFICACIONES%20T%C3%89CNICAS.pdf",
+          "tipo": "pdf"
+        }
+      ],
+      "descripcion": "El proveedor deberá adjuntar cotización formal y ficha técnica del producto o servicio, de lo contrario su oferta quedará inadmisible (requisito excluyente). En las cotizaciones deben ofertar con todas las especificaciones solicitadas y ajustarse al presupuesto disponible y en el plazo de entrega máximo. Además, aquel que resulte seleccionado deberá cumplir con la entrega de los productos en los plazos indicados. - Las cotizaciones deberán tener vigencia mínima de 30 días.",
+      "direccion_entrega": "Av. El Belloto Nro. 3548",
+      "plazo_entrega_dias": 5,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=867990-283-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=867990-283-COT26"
     },
     {
       "codigo": "2789-199-COT26",
