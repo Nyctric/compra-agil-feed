@@ -1,6 +1,6 @@
 {
-  "generado": "2026-06-14T15:49:44Z",
-  "total": 6,
+  "generado": "2026-06-15T18:28:44Z",
+  "total": 5,
   "palabras_clave": [
     "anatomico",
     "3d",
@@ -18,50 +18,8 @@
   ],
   "items": [
     {
-      "codigo": "1067476-29-COT26",
-      "nombre": "Creación de material educativo interactivo para la divulgación territorial del cambio climático en comunidades asociadas a los patrimonios culturales inmateriales",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "SERVICIO NACIONAL DEL PATRIMONIO CULTURAL",
-      "rut_organismo": "60.905.000-4",
-      "unidad_compra": "SUBDIRECCIÓN NACIONAL DE PATRIMONIO INMATERIAL",
-      "region": 13,
-      "region_nombre": "Metropolitana",
-      "monto_clp": 2500000,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-06-09 17:13",
-      "fecha_cierre": "2026-06-14 22:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [
-        "3d",
-        "maqueta"
-      ],
-      "total_ofertas": 4,
-      "productos": [
-        {
-          "nombre": "Impresión digital",
-          "descripcion": "Se solicita el diseño de una maqueta 3D para utilizar en la realización de talleres de Gestión del Riesgo de Desastres en Patrimonio Cultural Inmaterial, la que, a través de piezas móviles y modulares, permita representar diversos territorios de Chile, así también como distintos efectos y riesgos asociados al cambio climático. A través del material lúdico se busca facilitar el aprendizaje, esta maqueta articulable facilitará acciones de educación que permitan visibilizar y tomar conciencia de lo",
-          "cantidad": 1,
-          "unidad": "EA"
-        }
-      ],
-      "adjuntos": [
-        {
-          "id": "34D6B625-C0D7-4467-9163-ED87F695236E",
-          "nombre": "Anexo 2 Formato Solicitud  068 Compra ágil_Revcch.pdf",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1067476-29-COT26/Anexo%202%20Formato%20Solicitud%20068%20Compra%20%C3%A1gil_Revcch.pdf",
-          "tipo": "pdf"
-        }
-      ],
-      "descripcion": "Se solicita el diseño de una maqueta 3D para utilizar en la realización de talleres de Gestión del Riesgo de Desastres en Patrimonio Cultural Inmaterial, la que, a través de piezas móviles y modulares, permita representar diversos territorios de Chile, así también como distintos efectos y riesgos asociados al cambio climático. A través del material lúdico se busca facilitar el aprendizaje, esta maqueta articulable facilitará acciones de educación que permitan visibilizar y tomar conciencia de lo",
-      "direccion_entrega": "Huerfanos 770",
-      "plazo_entrega_dias": 10,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1067476-29-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1067476-29-COT26"
-    },
-    {
-      "codigo": "3877-284-COT26",
-      "nombre": "ADQUISICIÓN DE GALVANO PARA CEREMONIA DE RECONOCIMIENTO",
+      "codigo": "3877-285-COT26",
+      "nombre": "ADQUISICIÓN DE GALVANO PARA RECONOCIMIENTO EN MADERA GRABADA",
       "estado": "publicada",
       "estado_glosa": "Publicada",
       "organismo": "I MUNICIPALIDAD DE LAMPA",
@@ -71,8 +29,8 @@
       "region_nombre": "Metropolitana",
       "monto_clp": 80000,
       "moneda": "CLP",
-      "fecha_publicacion": "2026-06-12 17:22",
-      "fecha_cierre": "2026-06-15 08:30",
+      "fecha_publicacion": "2026-06-15 09:30",
+      "fecha_cierre": "2026-06-16 09:35",
       "fecha_ultimo_cambio": null,
       "palabras_clave_match": [
         "galvano"
@@ -81,133 +39,86 @@
       "productos": [
         {
           "nombre": "Galvanos",
-          "descripcion": "GALVANO, MEDIDAS 15X15 CM , MATERIAL MADERA, ACABADOS GRABADO LÁSER, LOS TRAZOS ALREDEDOR DEL CONTENIDO MAS EL AVE DEL GALVANO CON ACABADO DORADO, SEGUN DISEÑO ADJUNTO.",
+          "descripcion": "ADQUISICIÓN DE UN GALVANO SEGUN LAS SIGUIENTES ESPECIFICACIONES: MEDIDAS 15X15X6 CM, MATERIAL MADERA, ACABADOS GRABADO LASER, TRAZOS ALREDEDOR DEL CONTENIDO MAS AVE DEL GALVANO CON ACABADO DORADO, SEGUN DETALLE QUE SE ADJUNTA.",
           "cantidad": 1,
           "unidad": "EA"
         }
       ],
       "adjuntos": [
         {
-          "id": "2618FA75-D45A-4F12-871D-92534E2B5B9C",
+          "id": "1303E374-8E90-416D-B524-50D7A194B945",
           "nombre": "DISEÑO GALVANO.pdf",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/3877-284-COT26/DISE%C3%91O%20GALVANO.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/3877-285-COT26/DISE%C3%91O%20GALVANO.pdf",
           "tipo": "pdf"
         },
         {
-          "id": "0C2A83ED-965B-4E3B-A805-C94A4BF8902F",
+          "id": "62C3FA8E-00BA-4A69-B03C-7190A7C5F862",
           "nombre": "Muestra 2.png",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/3877-284-COT26/Muestra%202.png",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/3877-285-COT26/Muestra%202.png",
           "tipo": "png"
         }
       ],
-      "descripcion": "ADQUISICIÓN DE GALVANO PARA CEREMONIA DE RECONOCIMIENTO DE PDI A REALIZARSE EL 19/06/2026, SOLICITADO POR LA DIRECCIÓN DE SEGURIDAD PÚBLICA.\nPROVEEDORES DEBEN ADJUNTAR COTIZACIÓN FORMAL CON ESPECIFICACIONES TÉCNICAS DEL PRODUCTO OFERTADO.",
+      "descripcion": "ADQUISICIÓN DE GALVANO PARA RECONOCIMIENTO EN MADERA GRABADA, SOLICITADO POR LA DIRECCIÓN DE SEGURIDAD PUBLICA.\nPROVEEDORES DEBEN ADJUNTAR COTIZACION FORMAL CON ESPECIFICACIONES TÉCNICAS DEL PRODUCTO OFERTADO.",
       "direccion_entrega": "ARTURO PRAT N°1138 BODEGA MUNICIPAL",
       "plazo_entrega_dias": 2,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=3877-284-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=3877-284-COT26"
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=3877-285-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=3877-285-COT26"
     },
     {
-      "codigo": "2792-453-COT26",
-      "nombre": "PINS",
+      "codigo": "1057472-263-COT26",
+      "nombre": "CABLE PACIENTE MONITOR DE APNEA",
       "estado": "publicada",
       "estado_glosa": "Publicada",
-      "organismo": "Iluste Municipalidad de Huechuraba",
-      "rut_organismo": "69.255.400-0",
-      "unidad_compra": "Departamento de Salud Municipal",
+      "organismo": "HOSPITAL CLINICO METROPOLITANO EL CARMEN DOCTOR LUIS VALENTIN FERRADA",
+      "rut_organismo": "61.980.320-5",
+      "unidad_compra": "Bienes y Servicios",
       "region": 13,
       "region_nombre": "Metropolitana",
-      "monto_clp": 302000,
+      "monto_clp": 500000,
       "moneda": "CLP",
-      "fecha_publicacion": "2026-06-12 10:04",
-      "fecha_cierre": "2026-06-15 09:00",
+      "fecha_publicacion": "2026-06-15 09:13",
+      "fecha_cierre": "2026-06-16 12:00",
       "fecha_ultimo_cambio": null,
       "palabras_clave_match": [
-        "pins"
+        "pines"
       ],
-      "total_ofertas": 9,
+      "total_ofertas": 2,
       "productos": [
         {
-          "nombre": "Regalos publicitarios",
-          "descripcion": "Se requiere la adquisición de Pins base metálica redonda de 27mm, con logo impreso full color (adjunto imagen referencial) cubierto con resina, sujeción broche americano",
-          "cantidad": 150,
+          "nombre": "Adaptadores, cables o electrodos de electrocardiografía (ECG)",
+          "descripcion": "Se requiere la adquisición de 02 Cable de paciente compatible con Monitor de apnea marca Getemed modelo Vitaguard VG2100. Cable troncal de ECG. Conector de color verde, 8 pines de conexión.Se adjunta imagen referencial. Enviar ficha técnica y cotización por separado. Se solicitará muestra de ser necesario.",
+          "cantidad": 2,
           "unidad": "EA"
         }
       ],
       "adjuntos": [
         {
-          "id": "B5810DEC-6FCC-481C-A4B6-FC4FFBE59252",
-          "nombre": "pins.docx",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/2792-453-COT26/pins.docx",
-          "tipo": "docx"
+          "id": "999B8E03-770E-476A-9B16-760F7FAA900A",
+          "nombre": "Cable pcte. Monitor Apnea.jpg",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1057472-263-COT26/Cable%20pcte.%20Monitor%20Apnea.jpg",
+          "tipo": "jpg"
         }
       ],
-      "descripcion": "Se requiere la adquisición de Pins base metalica redonda de 27mm, con logo impreso full color (adjunto imagen referencial) cubierto con resina, sujeción broche americano",
-      "direccion_entrega": "Av recoleta 5696, bodega de salud",
-      "plazo_entrega_dias": 5,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=2792-453-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=2792-453-COT26"
+      "descripcion": "Se requiere la adquisición de 02 Cable de paciente compatible con Monitor de apnea marca Getemed modelo Vitaguard VG2100. Cable troncal de ECG. Conector de color verde, 8 pines de conexión. Enviar ficha técnica y cotización por separado. Se solicitará muestra de ser necesario.",
+      "direccion_entrega": "CAMINO A RINCONADA 1201",
+      "plazo_entrega_dias": 15,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1057472-263-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1057472-263-COT26"
     },
     {
-      "codigo": "867990-283-COT26",
-      "nombre": "Adquisición de Impresora 3D y Máquina Curado y Lavado",
+      "codigo": "5067-1453-COT26",
+      "nombre": "Adquisición de filamentos para impresora 3D",
       "estado": "publicada",
       "estado_glosa": "Publicada",
       "organismo": "UNIVERSIDAD DE SANTIAGO DE CHILE",
       "rut_organismo": "60.911.000-7",
-      "unidad_compra": "DEPARTAMENTO DE COORDINACIÓN INSTITUCIONAL - DCI",
+      "unidad_compra": "Universidad de Santiago de Chile",
       "region": 13,
       "region_nombre": "Metropolitana",
-      "monto_clp": 892500,
+      "monto_clp": 472000,
       "moneda": "CLP",
-      "fecha_publicacion": "2026-06-12 13:21",
-      "fecha_cierre": "2026-06-15 10:30",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [
-        "3d"
-      ],
-      "total_ofertas": 6,
-      "productos": [
-        {
-          "nombre": "Impresoras de láser",
-          "descripcion": "IMPRESORA 3D.  *Especificaciones técnicas en archivo adjunto*",
-          "cantidad": 2,
-          "unidad": "EA"
-        },
-        {
-          "nombre": "Impresoras de láser",
-          "descripcion": "Máquina Curado y Lavado Mercury Plus V3, O EQUIVALENTE.  *Especificaciones técnicas en archivo adjunto*",
-          "cantidad": 1,
-          "unidad": "EA"
-        }
-      ],
-      "adjuntos": [
-        {
-          "id": "03C1A4DE-9C1F-4F97-BD27-94ADF8F9D936",
-          "nombre": "ESPECIFICACIONES TÉCNICAS.pdf",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/867990-283-COT26/ESPECIFICACIONES%20T%C3%89CNICAS.pdf",
-          "tipo": "pdf"
-        }
-      ],
-      "descripcion": "El proveedor deberá adjuntar cotización formal y ficha técnica del producto o servicio, de lo contrario su oferta quedará inadmisible (requisito excluyente). En las cotizaciones deben ofertar con todas las especificaciones solicitadas y ajustarse al presupuesto disponible y en el plazo de entrega máximo. Además, aquel que resulte seleccionado deberá cumplir con la entrega de los productos en los plazos indicados. - Las cotizaciones deberán tener vigencia mínima de 30 días.",
-      "direccion_entrega": "Av. El Belloto Nro. 3548",
-      "plazo_entrega_dias": 5,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=867990-283-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=867990-283-COT26"
-    },
-    {
-      "codigo": "2789-199-COT26",
-      "nombre": "FILAMENTOS E IMPRESORA 3D - LICEO BARBARA KAST R.",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "I MUNICIPALIDAD DE PAINE",
-      "rut_organismo": "69.072.600-9",
-      "unidad_compra": "DEPARTAMENTO DE EDUCACION MUNICIPAL",
-      "region": 13,
-      "region_nombre": "Metropolitana",
-      "monto_clp": 1005550,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-06-11 09:48",
-      "fecha_cierre": "2026-06-15 10:30",
+      "fecha_publicacion": "2026-06-15 12:16",
+      "fecha_cierre": "2026-06-16 12:30",
       "fecha_ultimo_cambio": null,
       "palabras_clave_match": [
         "3d"
@@ -215,66 +126,112 @@
       "total_ofertas": 1,
       "productos": [
         {
-          "nombre": "Kits para impresoras",
-          "descripcion": "FILAMENTOS E IMPRESORA 3D, SEGUN ESPECIFICACIONES TECNICAS ADJUNTAS",
-          "cantidad": 1,
-          "unidad": "PACK"
+          "nombre": "Resina de poliestireno",
+          "descripcion": "FILAMENTO PLA 1 KILO ORO (DORADO) MARCA CREALITY o equivalente técnico\n",
+          "cantidad": 2,
+          "unidad": "RO"
+        },
+        {
+          "nombre": "Resina de poliestireno",
+          "descripcion": "FILAMENTO PLA 1 KILO MARMOL MARCA CREALITY o equivalente técnico\n",
+          "cantidad": 2,
+          "unidad": "RO"
+        },
+        {
+          "nombre": "Resina de poliestireno",
+          "descripcion": "FILAMENTO PLA 1 KILO MADERA MARCA CREALITY o equivalente técnico",
+          "cantidad": 2,
+          "unidad": "RO"
         }
       ],
       "adjuntos": [
         {
-          "id": "1C9331D4-0DDD-475D-A2E7-B8D1458CE6C9",
-          "nombre": "29dfba_260512_28_Filamento.pdf",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/2789-199-COT26/29dfba_260512_28_Filamento.pdf",
-          "tipo": "pdf"
+          "id": "60BE0791-630B-4BCD-A0DF-AAE9AF8DC95A",
+          "nombre": "A N E X O DATOS BANCARIOS.docx",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/5067-1453-COT26/A%20N%20E%20X%20O%20DATOS%20BANCARIOS.docx",
+          "tipo": "docx"
         }
       ],
-      "descripcion": "SE REQUIERE LA ADQUISICION DE FILAMENTOS PARA IMPRESORA E IMPRESORA 3D PARA EL LICEO BARBARA KAST R., COMUNA DE PAINE. S/SOLICITUD DE COMPRA N°277/12.05.2026.\n\n",
-      "direccion_entrega": "AVDA. 18 DE SEPTIEMBRE N°235-INTERIOR, COMUNA DE PAINE",
-      "plazo_entrega_dias": 1,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=2789-199-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=2789-199-COT26"
+      "descripcion": "El proveedor deberá adjuntar cotización formal y ficha técnica del producto o servicio de lo contrario su oferta quedará inadmisible (requisito excluyente). En las cotizaciones deben ofertar con todas las especificaciones solicitadas y ajustarse al presupuesto disponible y en el plazo de entrega máximo. Además, aquel que resulte seleccionado deberá cumplir con la entrega de los productos en los plazos indicados. - Las cotizaciones deberán tener vigencia mínima de 30 días.\n",
+      "direccion_entrega": "Obispo umaña 050",
+      "plazo_entrega_dias": 5,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=5067-1453-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=5067-1453-COT26"
     },
     {
-      "codigo": "3269-26-COT26",
-      "nombre": "S.A. 34 MANTENCIÓN Y ACTUALIZACIÓN SOFTWARE AUTOCAD CIVIL 3D SINGLE- USER, POR UN AÑO",
+      "codigo": "5521-48-COT26",
+      "nombre": "7 Galvanos.",
       "estado": "publicada",
       "estado_glosa": "Publicada",
-      "organismo": "SERVICIO AEROFOTOGRAMETRICO DEL GENERAL JUAN SOLER MANFREDINI",
-      "rut_organismo": "61.103.018-5",
-      "unidad_compra": "Servicio Aerofotogramétrico",
+      "organismo": "UNIVERSIDAD DE CHILE",
+      "rut_organismo": "60.910.000-1",
+      "unidad_compra": "FCFM Departamento de Ingeniería en Minas",
       "region": 13,
       "region_nombre": "Metropolitana",
-      "monto_clp": 4800000,
+      "monto_clp": 260000,
       "moneda": "CLP",
-      "fecha_publicacion": "2026-06-09 10:24",
-      "fecha_cierre": "2026-06-15 12:00",
+      "fecha_publicacion": "2026-06-15 13:03",
+      "fecha_cierre": "2026-06-16 15:00",
       "fecha_ultimo_cambio": null,
       "palabras_clave_match": [
-        "3d"
+        "galvano"
+      ],
+      "total_ofertas": 2,
+      "productos": [
+        {
+          "nombre": "Galvanos",
+          "descripcion": "Galvanos confeccionados en madera nativa, con botón en cada esquina, una base u placa de cobre, grabación en láser. Medidas: 31x23x18. Se deberá entregar en caja para galvano color negra, cada uno.\nEl plazo de entrega no podrá ser superior a 7 días.",
+          "cantidad": 7,
+          "unidad": "EA"
+        }
+      ],
+      "adjuntos": [],
+      "descripcion": "Para ceremonia de graduación necesitamos entregar a los mejores graduados Galvanos confeccionados en madera nativa, con botón en cada esquina, una base u placa de cobre, grabación en láser. Medidas: 31x23x18. Se deberá entregar en caja para galvano color negra, cada uno.\nEl plazo de entrega no podrá ser superior a 7 días.",
+      "direccion_entrega": "Tupper 2069",
+      "plazo_entrega_dias": 7,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=5521-48-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=5521-48-COT26"
+    },
+    {
+      "codigo": "1101892-97-COT26",
+      "nombre": "proyecto hidráulico.",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "INSTITUTO DE INVESTIGACIONES AGROPECUARIAS",
+      "rut_organismo": "61.312.000-9",
+      "unidad_compra": "LA PLATINA",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 950000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-15 10:35",
+      "fecha_cierre": "2026-06-17 09:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "maqueta"
       ],
       "total_ofertas": 0,
       "productos": [
         {
-          "nombre": "Software de gestión de licencias",
-          "descripcion": "Renovación de suscripción para dos licencias correspondientes al software AutoCAD Civil 3D (AUTOCAD CIVIL 3D 1 YEAR SINGLE USER RENEWAL).\nInstalación y configuración de productos asociados (en caso de requerir), en dependencias del \"SAF\", ubicadas en Av. Diego Barros Ortiz N° 2300, comuna de Pudahuel.",
-          "cantidad": 2,
+          "nombre": "Servicios de asesoría de riego",
+          "descripcion": "se requiere diseño, maqueta, Base topográfica, o bosquejo para un proyecto hidráulico, según descripción adjunta. para coordinación de visitas al fono (+56-2) 2 577 9210 ",
+          "cantidad": 1,
           "unidad": "EA"
         }
       ],
       "adjuntos": [
         {
-          "id": "39D3E243-4FA9-48D4-AA18-27022521931B",
-          "nombre": "ESPECIFICACIONES TÉCNICAS.pdf",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/3269-26-COT26/ESPECIFICACIONES%20T%C3%89CNICAS.pdf",
-          "tipo": "pdf"
+          "id": "6ED8C0DE-5F9B-4ACD-BCC2-9DB121B4693B",
+          "nombre": "Requerimos obras hidráulicas para conducir el agua desde el canal.docx",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1101892-97-COT26/Requerimos%20obras%20hidr%C3%A1ulicas%20para%20conducir%20el%20agua%20desde%20el%20canal.docx",
+          "tipo": "docx"
         }
       ],
-      "descripcion": "Se requiere renovar la suscripción para dos licencias correspondientes al software Autocad Civil 3D, por un período de un 12 meses continuos, sin renovaciones parciales o mensuales. Se adjuntan especificaciones técnicas.\nEL IMCUMPLIMIENTO EN QUE INCURRA EL PROVEEDOR A LO SOLICITADO EN LA ORDEN DE COMPRA SERÁ INFORMADO A LA DIRECCIÓN DE COMPRAS PÚBLICAS CON EL PROPÓSITO DE DEJAR CONSTANCIA EN LA FICHA DEL PROVEEDOR, COMO ASIMISMO AFECTE SU PARTICIPACIÓN EN FUTUROS PROCESOS DE ADQUISICIONES.",
-      "direccion_entrega": "Av. Diego Barros Ortiz 2300, Pudahuel",
+      "descripcion": "se requiere diseño, maqueta, Base topográfica, o bosquejo para un proyecto hidráulico, según descripción adjunta. para coordinación de visitas al fono (+56-2) 2 577 9210 ",
+      "direccion_entrega": "Avda Santa Rosa 11610 La Pintana",
       "plazo_entrega_dias": 3,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=3269-26-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=3269-26-COT26"
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1101892-97-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1101892-97-COT26"
     }
   ]
 }
