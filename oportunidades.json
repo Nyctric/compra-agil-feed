@@ -1,6 +1,6 @@
 {
-  "generado": "2026-06-16T18:28:28Z",
-  "total": 6,
+  "generado": "2026-06-17T16:57:24Z",
+  "total": 7,
   "palabras_clave": [
     "anatomico",
     "3d",
@@ -17,209 +17,6 @@
     "publicada"
   ],
   "items": [
-    {
-      "codigo": "5521-48-COT26",
-      "nombre": "7 Galvanos.",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "UNIVERSIDAD DE CHILE",
-      "rut_organismo": "60.910.000-1",
-      "unidad_compra": "FCFM Departamento de Ingeniería en Minas",
-      "region": 13,
-      "region_nombre": "Metropolitana",
-      "monto_clp": 260000,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-06-15 13:03",
-      "fecha_cierre": "2026-06-16 15:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [
-        "galvano"
-      ],
-      "total_ofertas": 2,
-      "productos": [
-        {
-          "nombre": "Galvanos",
-          "descripcion": "Galvanos confeccionados en madera nativa, con botón en cada esquina, una base u placa de cobre, grabación en láser. Medidas: 31x23x18. Se deberá entregar en caja para galvano color negra, cada uno.\nEl plazo de entrega no podrá ser superior a 7 días.",
-          "cantidad": 7,
-          "unidad": "EA"
-        }
-      ],
-      "adjuntos": [],
-      "descripcion": "Para ceremonia de graduación necesitamos entregar a los mejores graduados Galvanos confeccionados en madera nativa, con botón en cada esquina, una base u placa de cobre, grabación en láser. Medidas: 31x23x18. Se deberá entregar en caja para galvano color negra, cada uno.\nEl plazo de entrega no podrá ser superior a 7 días.",
-      "direccion_entrega": "Tupper 2069",
-      "plazo_entrega_dias": 7,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=5521-48-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=5521-48-COT26"
-    },
-    {
-      "codigo": "5178-3274-COT26",
-      "nombre": "PINS METALICOS PERSONALIZADOS/SP 1055303/JL",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "UNIVERSIDAD DE CHILE",
-      "rut_organismo": "60.910.000-1",
-      "unidad_compra": "UCHILE  Facultad Medicina (5178)",
-      "region": 13,
-      "region_nombre": "Metropolitana",
-      "monto_clp": 330000,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-06-15 15:25",
-      "fecha_cierre": "2026-06-16 16:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [
-        "pins"
-      ],
-      "total_ofertas": 2,
-      "productos": [
-        {
-          "nombre": "Medallas",
-          "descripcion": "SE REQUIERE DE FABRICACION DE 100 PINS METALICOS PERSONALIZADOS DE 3 CM, COLOR DEL METAL SEGUN DISENO, TECNICA SOFT ENAMEL RELIEVE, DETALLES Y CORTE CNC, GROSOR ACORDE AL DISENO, QUE INCLUYA CONFECCION DE MOLDE Y ENVOLTURA INDIVIDUAL",
-          "cantidad": 100,
-          "unidad": "EA"
-        }
-      ],
-      "adjuntos": [
-        {
-          "id": "0AD185DC-3B8F-4412-92BE-A6E62E410F7B",
-          "nombre": "LOGO_v7_sin fondo.png",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/5178-3274-COT26/LOGO_v7_sin%20fondo.png",
-          "tipo": "png"
-        }
-      ],
-      "descripcion": "SE REQUIERE DE FABRICACION DE 100 PINS METALICOS PERSONALIZADOS DE 3 CM, COLOR DEL METAL SEGUN DISENO, TECNICA SOFT ENAMEL RELIEVE, DETALLES Y CORTE CNC, GROSOR ACORDE AL DISENO, QUE INCLUYA CONFECCION DE MOLDE Y ENVOLTURA INDIVIDUAL.PARA PARTICIPAR ADJUNTAR COTIZACIÓN FORMAL+PLAZO DE ENTREGA.CRITERIOS DE EVALUACIÓN SERÁN 50 % CUMPLIMIENTO TECNICO Y 50 % PRECIO.",
-      "direccion_entrega": "AV. INDEPENDENCIA 1027",
-      "plazo_entrega_dias": 5,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=5178-3274-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=5178-3274-COT26"
-    },
-    {
-      "codigo": "1230869-76-COT26",
-      "nombre": "ADQUISICIÓN DE FIGURAS RÍTMICAS",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "Corporación Cultural de La Florida",
-      "rut_organismo": "65.235.450-5",
-      "unidad_compra": "Corporación Cultural de La Florida",
-      "region": 13,
-      "region_nombre": "Metropolitana",
-      "monto_clp": 476000,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-06-15 16:41",
-      "fecha_cierre": "2026-06-16 16:45",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [
-        "3d"
-      ],
-      "total_ofertas": 2,
-      "productos": [
-        {
-          "nombre": "Cajas de música o mecanismos",
-          "descripcion": "145 UNIDADES DE FIGURAS RITMICAS EN 3D:\n•10 redondas (10cm)\n•10 blancas (10 cm)\n•10 negras (10 cm)\n•10 doble corchea (10 cm)\n•10 cuartinas (10 cm)\n•10 galopas (10 cm)\n•10 saltillos (10 cm)\n•10 tresillos (10 cm)\n•10 galopa inversa (10 cm)\n•10 corcheas solas (10 cm)\n•5 silencios de blanca (10 cm)\n•5 silencios de negra (10 cm)\n•5 silencios de corchea (10 cm)\n•20 barras de compás (20 cm)\n•2 4/4 (10 cm)\n•2 2/4 (10 cm)\n•2 3/4 (10 cm)\n•2 2/2 (10 cm)\n•2 6/8 (10 cm)",
-          "cantidad": 145,
-          "unidad": "EA"
-        }
-      ],
-      "adjuntos": [
-        {
-          "id": "E64C9859-9F98-437C-B8EA-636BA38A5B23",
-          "nombre": "ANEXO 1.docx",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1230869-76-COT26/ANEXO%201.docx",
-          "tipo": "docx"
-        },
-        {
-          "id": "8E3902C4-12AE-4380-AD47-41AF30CE2DFB",
-          "nombre": "TDR FIGURAS RITMICAS.pdf",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1230869-76-COT26/TDR%20FIGURAS%20RITMICAS.pdf",
-          "tipo": "pdf"
-        }
-      ],
-      "descripcion": "Se requiere adquirir 145 figuras rítmicas en 3D de diferentes colores en las proporciones que se detallan a continuación. Estas figuras deben tener medidas de 10 a 20 cm de largo, según la figura, siguiendo la imagen de referencia en donde las figuras mas pequeñas miden 10 cm y la más grande miden 20 cm ADJUNTAR COTIZACIÓN DETALLADA.",
-      "direccion_entrega": " Serafín Zamora 6792",
-      "plazo_entrega_dias": 2,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1230869-76-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1230869-76-COT26"
-    },
-    {
-      "codigo": "867990-290-COT26",
-      "nombre": "Adquisición de Impresora 3D y Máquina Curado y Lavado",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "UNIVERSIDAD DE SANTIAGO DE CHILE",
-      "rut_organismo": "60.911.000-7",
-      "unidad_compra": "DEPARTAMENTO DE COORDINACIÓN INSTITUCIONAL - DCI",
-      "region": 13,
-      "region_nombre": "Metropolitana",
-      "monto_clp": 892500,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-06-15 16:44",
-      "fecha_cierre": "2026-06-16 17:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [
-        "3d"
-      ],
-      "total_ofertas": 3,
-      "productos": [
-        {
-          "nombre": "Impresoras de láser",
-          "descripcion": "IMPRESORA 3D. *Especificaciones técnicas en archivo adjunto*\n\n",
-          "cantidad": 2,
-          "unidad": "EA"
-        },
-        {
-          "nombre": "Impresoras de láser",
-          "descripcion": "Máquina Curado y Lavado Mercury Plus V3, O EQUIVALENTE. *Especificaciones técnicas en archivo adjunto*\n\n",
-          "cantidad": 1,
-          "unidad": "EA"
-        }
-      ],
-      "adjuntos": [],
-      "descripcion": "El proveedor deberá adjuntar cotización formal y ficha técnica del producto o servicio, de lo contrario su oferta quedará inadmisible (requisito excluyente). En las cotizaciones deben ofertar con todas las especificaciones solicitadas y ajustarse al presupuesto disponible y en el plazo de entrega máximo. Además, aquel que resulte seleccionado deberá cumplir con la entrega de los productos en los plazos indicados. - Las cotizaciones deberán tener vigencia mínima de 30 días.\n\n",
-      "direccion_entrega": "Av. El Belloto Nro. 3548",
-      "plazo_entrega_dias": 3,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=867990-290-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=867990-290-COT26"
-    },
-    {
-      "codigo": "1101892-97-COT26",
-      "nombre": "proyecto hidráulico.",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "INSTITUTO DE INVESTIGACIONES AGROPECUARIAS",
-      "rut_organismo": "61.312.000-9",
-      "unidad_compra": "LA PLATINA",
-      "region": 13,
-      "region_nombre": "Metropolitana",
-      "monto_clp": 950000,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-06-15 10:35",
-      "fecha_cierre": "2026-06-17 09:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [
-        "maqueta"
-      ],
-      "total_ofertas": 1,
-      "productos": [
-        {
-          "nombre": "Servicios de asesoría de riego",
-          "descripcion": "se requiere diseño, maqueta, Base topográfica, o bosquejo para un proyecto hidráulico, según descripción adjunta. para coordinación de visitas al fono (+56-2) 2 577 9210 ",
-          "cantidad": 1,
-          "unidad": "EA"
-        }
-      ],
-      "adjuntos": [
-        {
-          "id": "6ED8C0DE-5F9B-4ACD-BCC2-9DB121B4693B",
-          "nombre": "Requerimos obras hidráulicas para conducir el agua desde el canal.docx",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1101892-97-COT26/Requerimos%20obras%20hidr%C3%A1ulicas%20para%20conducir%20el%20agua%20desde%20el%20canal.docx",
-          "tipo": "docx"
-        }
-      ],
-      "descripcion": "se requiere diseño, maqueta, Base topográfica, o bosquejo para un proyecto hidráulico, según descripción adjunta. para coordinación de visitas al fono (+56-2) 2 577 9210 ",
-      "direccion_entrega": "Avda Santa Rosa 11610 La Pintana",
-      "plazo_entrega_dias": 3,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1101892-97-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1101892-97-COT26"
-    },
     {
       "codigo": "2201-255-COT26",
       "nombre": "Adquirir 2 mesones de trabajo para disponer equipos del proyecto de impresión de cavidades con tecnología 3D, para prótesis de extremidad inferior, Taller Ortopédico del INRPAC",
@@ -238,7 +35,7 @@
       "palabras_clave_match": [
         "3d"
       ],
-      "total_ofertas": 0,
+      "total_ofertas": 8,
       "productos": [
         {
           "nombre": "Muebles modulares de oficina ejecutiva",
@@ -272,6 +69,237 @@
       "plazo_entrega_dias": 1,
       "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=2201-255-COT26",
       "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=2201-255-COT26"
+    },
+    {
+      "codigo": "5521-48-COT26",
+      "nombre": "7 Galvanos.",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "UNIVERSIDAD DE CHILE",
+      "rut_organismo": "60.910.000-1",
+      "unidad_compra": "FCFM Departamento de Ingeniería en Minas",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 260000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-15 13:03",
+      "fecha_cierre": "2026-06-17 15:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "galvano"
+      ],
+      "total_ofertas": 5,
+      "productos": [
+        {
+          "nombre": "Galvanos",
+          "descripcion": "Galvanos confeccionados en madera nativa, con botón en cada esquina, una base u placa de cobre, grabación en láser. Medidas: 31x23x18. Se deberá entregar en caja para galvano color negra, cada uno.\nEl plazo de entrega no podrá ser superior a 7 días.",
+          "cantidad": 7,
+          "unidad": "EA"
+        }
+      ],
+      "adjuntos": [],
+      "descripcion": "Para ceremonia de graduación necesitamos entregar a los mejores graduados Galvanos confeccionados en madera nativa, con botón en cada esquina, una base u placa de cobre, grabación en láser. Medidas: 31x23x18. Se deberá entregar en caja para galvano color negra, cada uno.\nEl plazo de entrega no podrá ser superior a 7 días.",
+      "direccion_entrega": "Tupper 2069",
+      "plazo_entrega_dias": 7,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=5521-48-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=5521-48-COT26"
+    },
+    {
+      "codigo": "1057503-1709-COT26",
+      "nombre": "PAÑAL DESECHABLE ADULTO TIPO ANATOMICO TALLA G (INCONTINENCIA FUERTE)",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "HOSPITAL PADRE ALBERTO HURTADO",
+      "rut_organismo": "61.958.500-3",
+      "unidad_compra": "Bienes y Servicios",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 3000000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-16 18:26",
+      "fecha_cierre": "2026-06-17 18:30",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "anatomico"
+      ],
+      "total_ofertas": 28,
+      "productos": [
+        {
+          "nombre": "Pañales para adultos",
+          "descripcion": "20031002 PAÑAL DESECHABLE ADULTO TIPO ANATOMICO TALLA G(INCONTINENCIA FUERTE) TIPO COTIDIAN  INSUMO DEBE ESTAR PREVIAMENTE EVALUADO\n",
+          "cantidad": 6048,
+          "unidad": "EA"
+        }
+      ],
+      "adjuntos": [],
+      "descripcion": "SE ADJUDICARA EL O LOS INSUMOS QUE ESTÉN PREVIAMENTE EVALUADOS Y ACEPTADOS POR LA UNIDAD CLÍNICA RESPECTIVA, AL PROVEEDOR QUE PRESENTE EL TOTAL DE LAS OFERTAS MAS ECONÓMICAS Y/O CUMPLA CON LO SOLICITADO, INDICAR MARCA, FECHA ENTREGA, FICHAS TECNICAS, CONTAR C/SERVICIO POST VENTA, Y RESPONDER ANTE CUALQUIER EVENTUALIDAD CON EL PRODUCTO Y NO REGISTRAR DESPACHOS PENDIENTES DE NO CUMPLIR SE RECHAZARA LA OFERTA, INDICAR FONO, CORREO Y NOMBRE DEL CONTACTO\n",
+      "direccion_entrega": "ESPERANZA 2150",
+      "plazo_entrega_dias": 1,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1057503-1709-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1057503-1709-COT26"
+    },
+    {
+      "codigo": "2792-458-COT26",
+      "nombre": "PINS",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "Iluste Municipalidad de Huechuraba",
+      "rut_organismo": "69.255.400-0",
+      "unidad_compra": "Departamento de Salud Municipal",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 320000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-17 10:39",
+      "fecha_cierre": "2026-06-18 10:42",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "pins"
+      ],
+      "total_ofertas": 2,
+      "productos": [
+        {
+          "nombre": "Regalos publicitarios",
+          "descripcion": "Se requiere la adquisición de Pins base metálica redonda de 25mm - 27mm o 30mm aprox, con logo impreso full color (adjunto imagen referencial) cubierto con resina, sujeción broche americano\n\n",
+          "cantidad": 150,
+          "unidad": "EA"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "BC9B7AB0-2425-46F2-8192-966335401508",
+          "nombre": "pins.docx",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/2792-458-COT26/pins.docx",
+          "tipo": "docx"
+        }
+      ],
+      "descripcion": "PINS -  Se requiere la adquisición de Pins base metálica redonda de 25MM - 27MM O 30MM APROX, con logo impreso full color (adjunto imagen referencial) cubierto con resina, sujeción broche americano\n\n",
+      "direccion_entrega": "AV RECOLETA 5696, BODEGA DE SALUD",
+      "plazo_entrega_dias": 3,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=2792-458-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=2792-458-COT26"
+    },
+    {
+      "codigo": "867990-294-COT26",
+      "nombre": "Adquisición de Impresora 3D y Máquina Curado y Lavado",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "UNIVERSIDAD DE SANTIAGO DE CHILE",
+      "rut_organismo": "60.911.000-7",
+      "unidad_compra": "DEPARTAMENTO DE COORDINACIÓN INSTITUCIONAL - DCI",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 892500,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-17 11:17",
+      "fecha_cierre": "2026-06-18 12:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "3d"
+      ],
+      "total_ofertas": 1,
+      "productos": [
+        {
+          "nombre": "Impresoras de láser",
+          "descripcion": "IMPRESORA 3D. *Especificaciones técnicas en archivo adjunto*",
+          "cantidad": 2,
+          "unidad": "EA"
+        },
+        {
+          "nombre": "Impresoras de láser",
+          "descripcion": "Máquina Curado y Lavado Mercury Plus V3, O EQUIVALENTE. ",
+          "cantidad": 1,
+          "unidad": "EA"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "30E42080-F718-4CAE-8724-C1E3656CE551",
+          "nombre": "ESPECIFICACIONES TÉCNICAS.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/867990-294-COT26/ESPECIFICACIONES%20T%C3%89CNICAS.pdf",
+          "tipo": "pdf"
+        }
+      ],
+      "descripcion": "El proveedor deberá adjuntar cotización formal y ficha técnica del producto o servicio, de lo contrario su oferta quedará inadmisible (requisito excluyente). En las cotizaciones deben ofertar con todas las especificaciones solicitadas y ajustarse al presupuesto disponible y en el plazo de entrega máximo. Además, aquel que resulte seleccionado deberá cumplir con la entrega de los productos en los plazos indicados. - Las cotizaciones deberán tener vigencia mínima de 30 días.\n\n",
+      "direccion_entrega": " Av. El Belloto Nro. 3548,",
+      "plazo_entrega_dias": 3,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=867990-294-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=867990-294-COT26"
+    },
+    {
+      "codigo": "1101892-97-COT26",
+      "nombre": "proyecto hidráulico.",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "INSTITUTO DE INVESTIGACIONES AGROPECUARIAS",
+      "rut_organismo": "61.312.000-9",
+      "unidad_compra": "LA PLATINA",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 950000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-15 10:35",
+      "fecha_cierre": "2026-06-19 07:55",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "maqueta"
+      ],
+      "total_ofertas": 0,
+      "productos": [
+        {
+          "nombre": "Servicios de asesoría de riego",
+          "descripcion": "se requiere diseño, maqueta, Base topográfica, o bosquejo para un proyecto hidráulico, según descripción adjunta. para coordinación de visitas al fono (+56-2) 2 577 9210 ",
+          "cantidad": 1,
+          "unidad": "EA"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "6ED8C0DE-5F9B-4ACD-BCC2-9DB121B4693B",
+          "nombre": "Requerimos obras hidráulicas para conducir el agua desde el canal.docx",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1101892-97-COT26/Requerimos%20obras%20hidr%C3%A1ulicas%20para%20conducir%20el%20agua%20desde%20el%20canal.docx",
+          "tipo": "docx"
+        }
+      ],
+      "descripcion": "se requiere diseño, maqueta, Base topográfica, o bosquejo para un proyecto hidráulico, según descripción adjunta. para coordinación de visitas al fono (+56-2) 2 577 9210 ",
+      "direccion_entrega": "Avda Santa Rosa 11610 La Pintana",
+      "plazo_entrega_dias": 3,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1101892-97-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1101892-97-COT26"
+    },
+    {
+      "codigo": "359-199-COT26",
+      "nombre": "Filamento PLA FibraCarbón HYPER",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "Instituto Nacional del Cancer",
+      "rut_organismo": "61.608.404-6",
+      "unidad_compra": "Inst Nacional del Cancer Adquisiciones",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 300000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-17 12:08",
+      "fecha_cierre": "2026-06-19 13:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "3d"
+      ],
+      "total_ofertas": 0,
+      "productos": [
+        {
+          "nombre": "Termoplástico",
+          "descripcion": "\nFilamento PLA FibraCarbón HYPER (CGU:0205696)",
+          "cantidad": 8,
+          "unidad": "EA"
+        }
+      ],
+      "adjuntos": [],
+      "descripcion": "\nFilamento PLA FibraCarbón HYPER.Color negro.Alta resistencia adherencia capas. Acabado mate. Textura capa mínima. Velocidad impresión hasta 300 mm/s.Temperatura de impresión: 190-230°C.Temperatura Cama Impresión: 25?~60?.Velocidad impresión: 30-600mm/s.Ventilación: 100%.Diámetro: 1.75±0.03mm. Peso: 1kg. Fuerza de tensión (X-Y): 52.991 Mpa. Módulo tensión (X-Y): 1146.064. Elongación: 6.304%.Resistencia a la flexión: 92.381 Mpa. Módulo de flexión: 2490.178 Mpa. Compatible Impresora 3D K1 CREALITY",
+      "direccion_entrega": "profesor zañartu 1010",
+      "plazo_entrega_dias": 2,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=359-199-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=359-199-COT26"
     }
   ]
 }
