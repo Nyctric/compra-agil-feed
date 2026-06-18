@@ -1,6 +1,6 @@
 {
-  "generado": "2026-06-17T16:57:24Z",
-  "total": 7,
+  "generado": "2026-06-18T16:58:12Z",
+  "total": 3,
   "palabras_clave": [
     "anatomico",
     "3d",
@@ -17,215 +17,6 @@
     "publicada"
   ],
   "items": [
-    {
-      "codigo": "2201-255-COT26",
-      "nombre": "Adquirir 2 mesones de trabajo para disponer equipos del proyecto de impresión de cavidades con tecnología 3D, para prótesis de extremidad inferior, Taller Ortopédico del INRPAC",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "INSTITUTO NACIONAL DE REHABILITACION PEDRO AGUIRRE CERDA",
-      "rut_organismo": "61.602.117-6",
-      "unidad_compra": "Instituto Nac. de Rehabilitación Pedro Aguirre C.",
-      "region": 13,
-      "region_nombre": "Metropolitana",
-      "monto_clp": 700000,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-06-16 11:36",
-      "fecha_cierre": "2026-06-17 14:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [
-        "3d"
-      ],
-      "total_ofertas": 8,
-      "productos": [
-        {
-          "nombre": "Muebles modulares de oficina ejecutiva",
-          "descripcion": "2 escritorios / mesones con las siguientes especificaciones técnicas: Símil modelo LAGKAPTEN/Alex de Ikea.\n\nMateriales:\n-Tablero escritorio\nTablero de fibras, Pintura acrílica impresa con relieve, Borde de plástico, \n-Cajonera\nTablero de partículas, Pintura acrílica, Borde de plástico\n-Pata\nAcero, Revestimiento de poliéster en polvo\n-Pie:\nPlástico de polipropileno.\n\nMedidas: \nLargo: 200 cm\nAncho: 60 cm\nAlto: 73 cm\n\nImagen Referencial (Ikea)\n \n",
-          "cantidad": 2,
-          "unidad": "EA"
-        }
-      ],
-      "adjuntos": [
-        {
-          "id": "23CDA7BA-01DC-429E-ABE1-BAF84DD478F3",
-          "nombre": "FORMULARIO DATOS DE LA EMPRESA OFERENTE.docx",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/2201-255-COT26/FORMULARIO%20DATOS%20DE%20LA%20EMPRESA%20OFERENTE.docx",
-          "tipo": "docx"
-        },
-        {
-          "id": "29A17225-FEC0-4611-9E2F-F6DE54B2C621",
-          "nombre": "TR MESONES DE TRABAJO TAOR 2026.pdf",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/2201-255-COT26/TR%20MESONES%20DE%20TRABAJO%20TAOR%202026.pdf",
-          "tipo": "pdf"
-        },
-        {
-          "id": "BE153CED-08F5-4C43-B2C4-2BAAE6B80990",
-          "nombre": "N°177.pdf",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/2201-255-COT26/N%C2%B0177.pdf",
-          "tipo": "pdf"
-        }
-      ],
-      "descripcion": "Se requiere la compra de estos dos mesones para implementar adecuadamente el área de trabajo para desarrollar las actividades de impresión y capacitación contempladas en el proyecto piloto de impresión de cavidades 3D.\nSE ADJUNTAN LOS TERMINOS DE REFERENCIA REVISAR",
-      "direccion_entrega": "Avenida José Arrieta 5969",
-      "plazo_entrega_dias": 1,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=2201-255-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=2201-255-COT26"
-    },
-    {
-      "codigo": "5521-48-COT26",
-      "nombre": "7 Galvanos.",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "UNIVERSIDAD DE CHILE",
-      "rut_organismo": "60.910.000-1",
-      "unidad_compra": "FCFM Departamento de Ingeniería en Minas",
-      "region": 13,
-      "region_nombre": "Metropolitana",
-      "monto_clp": 260000,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-06-15 13:03",
-      "fecha_cierre": "2026-06-17 15:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [
-        "galvano"
-      ],
-      "total_ofertas": 5,
-      "productos": [
-        {
-          "nombre": "Galvanos",
-          "descripcion": "Galvanos confeccionados en madera nativa, con botón en cada esquina, una base u placa de cobre, grabación en láser. Medidas: 31x23x18. Se deberá entregar en caja para galvano color negra, cada uno.\nEl plazo de entrega no podrá ser superior a 7 días.",
-          "cantidad": 7,
-          "unidad": "EA"
-        }
-      ],
-      "adjuntos": [],
-      "descripcion": "Para ceremonia de graduación necesitamos entregar a los mejores graduados Galvanos confeccionados en madera nativa, con botón en cada esquina, una base u placa de cobre, grabación en láser. Medidas: 31x23x18. Se deberá entregar en caja para galvano color negra, cada uno.\nEl plazo de entrega no podrá ser superior a 7 días.",
-      "direccion_entrega": "Tupper 2069",
-      "plazo_entrega_dias": 7,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=5521-48-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=5521-48-COT26"
-    },
-    {
-      "codigo": "1057503-1709-COT26",
-      "nombre": "PAÑAL DESECHABLE ADULTO TIPO ANATOMICO TALLA G (INCONTINENCIA FUERTE)",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "HOSPITAL PADRE ALBERTO HURTADO",
-      "rut_organismo": "61.958.500-3",
-      "unidad_compra": "Bienes y Servicios",
-      "region": 13,
-      "region_nombre": "Metropolitana",
-      "monto_clp": 3000000,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-06-16 18:26",
-      "fecha_cierre": "2026-06-17 18:30",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [
-        "anatomico"
-      ],
-      "total_ofertas": 28,
-      "productos": [
-        {
-          "nombre": "Pañales para adultos",
-          "descripcion": "20031002 PAÑAL DESECHABLE ADULTO TIPO ANATOMICO TALLA G(INCONTINENCIA FUERTE) TIPO COTIDIAN  INSUMO DEBE ESTAR PREVIAMENTE EVALUADO\n",
-          "cantidad": 6048,
-          "unidad": "EA"
-        }
-      ],
-      "adjuntos": [],
-      "descripcion": "SE ADJUDICARA EL O LOS INSUMOS QUE ESTÉN PREVIAMENTE EVALUADOS Y ACEPTADOS POR LA UNIDAD CLÍNICA RESPECTIVA, AL PROVEEDOR QUE PRESENTE EL TOTAL DE LAS OFERTAS MAS ECONÓMICAS Y/O CUMPLA CON LO SOLICITADO, INDICAR MARCA, FECHA ENTREGA, FICHAS TECNICAS, CONTAR C/SERVICIO POST VENTA, Y RESPONDER ANTE CUALQUIER EVENTUALIDAD CON EL PRODUCTO Y NO REGISTRAR DESPACHOS PENDIENTES DE NO CUMPLIR SE RECHAZARA LA OFERTA, INDICAR FONO, CORREO Y NOMBRE DEL CONTACTO\n",
-      "direccion_entrega": "ESPERANZA 2150",
-      "plazo_entrega_dias": 1,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1057503-1709-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1057503-1709-COT26"
-    },
-    {
-      "codigo": "2792-458-COT26",
-      "nombre": "PINS",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "Iluste Municipalidad de Huechuraba",
-      "rut_organismo": "69.255.400-0",
-      "unidad_compra": "Departamento de Salud Municipal",
-      "region": 13,
-      "region_nombre": "Metropolitana",
-      "monto_clp": 320000,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-06-17 10:39",
-      "fecha_cierre": "2026-06-18 10:42",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [
-        "pins"
-      ],
-      "total_ofertas": 2,
-      "productos": [
-        {
-          "nombre": "Regalos publicitarios",
-          "descripcion": "Se requiere la adquisición de Pins base metálica redonda de 25mm - 27mm o 30mm aprox, con logo impreso full color (adjunto imagen referencial) cubierto con resina, sujeción broche americano\n\n",
-          "cantidad": 150,
-          "unidad": "EA"
-        }
-      ],
-      "adjuntos": [
-        {
-          "id": "BC9B7AB0-2425-46F2-8192-966335401508",
-          "nombre": "pins.docx",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/2792-458-COT26/pins.docx",
-          "tipo": "docx"
-        }
-      ],
-      "descripcion": "PINS -  Se requiere la adquisición de Pins base metálica redonda de 25MM - 27MM O 30MM APROX, con logo impreso full color (adjunto imagen referencial) cubierto con resina, sujeción broche americano\n\n",
-      "direccion_entrega": "AV RECOLETA 5696, BODEGA DE SALUD",
-      "plazo_entrega_dias": 3,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=2792-458-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=2792-458-COT26"
-    },
-    {
-      "codigo": "867990-294-COT26",
-      "nombre": "Adquisición de Impresora 3D y Máquina Curado y Lavado",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "UNIVERSIDAD DE SANTIAGO DE CHILE",
-      "rut_organismo": "60.911.000-7",
-      "unidad_compra": "DEPARTAMENTO DE COORDINACIÓN INSTITUCIONAL - DCI",
-      "region": 13,
-      "region_nombre": "Metropolitana",
-      "monto_clp": 892500,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-06-17 11:17",
-      "fecha_cierre": "2026-06-18 12:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [
-        "3d"
-      ],
-      "total_ofertas": 1,
-      "productos": [
-        {
-          "nombre": "Impresoras de láser",
-          "descripcion": "IMPRESORA 3D. *Especificaciones técnicas en archivo adjunto*",
-          "cantidad": 2,
-          "unidad": "EA"
-        },
-        {
-          "nombre": "Impresoras de láser",
-          "descripcion": "Máquina Curado y Lavado Mercury Plus V3, O EQUIVALENTE. ",
-          "cantidad": 1,
-          "unidad": "EA"
-        }
-      ],
-      "adjuntos": [
-        {
-          "id": "30E42080-F718-4CAE-8724-C1E3656CE551",
-          "nombre": "ESPECIFICACIONES TÉCNICAS.pdf",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/867990-294-COT26/ESPECIFICACIONES%20T%C3%89CNICAS.pdf",
-          "tipo": "pdf"
-        }
-      ],
-      "descripcion": "El proveedor deberá adjuntar cotización formal y ficha técnica del producto o servicio, de lo contrario su oferta quedará inadmisible (requisito excluyente). En las cotizaciones deben ofertar con todas las especificaciones solicitadas y ajustarse al presupuesto disponible y en el plazo de entrega máximo. Además, aquel que resulte seleccionado deberá cumplir con la entrega de los productos en los plazos indicados. - Las cotizaciones deberán tener vigencia mínima de 30 días.\n\n",
-      "direccion_entrega": " Av. El Belloto Nro. 3548,",
-      "plazo_entrega_dias": 3,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=867990-294-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=867990-294-COT26"
-    },
     {
       "codigo": "1101892-97-COT26",
       "nombre": "proyecto hidráulico.",
@@ -300,6 +91,47 @@
       "plazo_entrega_dias": 2,
       "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=359-199-COT26",
       "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=359-199-COT26"
+    },
+    {
+      "codigo": "3269-33-COT26",
+      "nombre": "S.A. 34 MANTENCIÓN Y ACTUALIZACIÓN SOFTWARE AUTOCAD CIVIL 3D SINGLE- USER, POR UN AÑO",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "SERVICIO AEROFOTOGRAMETRICO DEL GENERAL JUAN SOLER MANFREDINI",
+      "rut_organismo": "61.103.018-5",
+      "unidad_compra": "Servicio Aerofotogramétrico",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 4745813,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-18 10:01",
+      "fecha_cierre": "2026-06-22 09:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "3d"
+      ],
+      "total_ofertas": 0,
+      "productos": [
+        {
+          "nombre": "Software de gestión de licencias",
+          "descripcion": "Renovación de suscripción para dos licencias correspondientes al software AutoCAD Civil 3D (AUTOCAD CIVIL 3D 1 YEAR SINGLE USER RENEWAL). Instalación y configuración de productos asociados (en caso de requerir), en dependencias del \"SAF\", ubicadas en Av. Diego Barros Ortiz N° 2300, comuna de Pudahuel.",
+          "cantidad": 2,
+          "unidad": "EA"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "F2205214-9FC4-4C0E-886B-F791A57946C5",
+          "nombre": "ESPECIFICACIONES TÉCNICAS.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/3269-33-COT26/ESPECIFICACIONES%20T%C3%89CNICAS.pdf",
+          "tipo": "pdf"
+        }
+      ],
+      "descripcion": "Se requiere renovar la suscripción para dos licencias correspondientes al software Autocad Civil 3D, por un período de 12 meses continuos, sin renovaciones parciales o mensuales. Se adjuntan especificaciones técnicas. EL INCUMPLIMIENTO EN QUE INCURRA EL PROVEEDOR A LO SOLICITADO EN LA ORDEN DE COMPRA SERÁ INFORMADO A LA DIRECCIÓN DE COMPRAS PÚBLICAS CON EL PROPÓSITO DE DEJAR CONSTANCIA EN LA FICHA DEL PROVEEDOR, COMO ASIMISMO AFECTE SU PARTICIPACIÓN EN FUTUROS PROCESOS DE ADQUISICIONES.",
+      "direccion_entrega": "Av. Diego Barros Ortiz 2300 comuna de Pudahuel (Servicio Aerofotogramétrico, al interior de la IIda Brigada de la FACH)",
+      "plazo_entrega_dias": 3,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=3269-33-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=3269-33-COT26"
     }
   ]
 }
