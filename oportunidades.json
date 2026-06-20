@@ -1,5 +1,5 @@
 {
-  "generado": "2026-06-19T16:33:34Z",
+  "generado": "2026-06-20T15:46:40Z",
   "total": 5,
   "palabras_clave": [
     "anatomico",
@@ -18,111 +18,6 @@
   ],
   "items": [
     {
-      "codigo": "359-199-COT26",
-      "nombre": "Filamento PLA FibraCarbón HYPER",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "Instituto Nacional del Cancer",
-      "rut_organismo": "61.608.404-6",
-      "unidad_compra": "Inst Nacional del Cancer Adquisiciones",
-      "region": 13,
-      "region_nombre": "Metropolitana",
-      "monto_clp": 300000,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-06-17 12:08",
-      "fecha_cierre": "2026-06-19 13:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [
-        "3d"
-      ],
-      "total_ofertas": 1,
-      "productos": [
-        {
-          "nombre": "Termoplástico",
-          "descripcion": "\nFilamento PLA FibraCarbón HYPER (CGU:0205696)",
-          "cantidad": 8,
-          "unidad": "EA"
-        }
-      ],
-      "adjuntos": [],
-      "descripcion": "\nFilamento PLA FibraCarbón HYPER.Color negro.Alta resistencia adherencia capas. Acabado mate. Textura capa mínima. Velocidad impresión hasta 300 mm/s.Temperatura de impresión: 190-230°C.Temperatura Cama Impresión: 25?~60?.Velocidad impresión: 30-600mm/s.Ventilación: 100%.Diámetro: 1.75±0.03mm. Peso: 1kg. Fuerza de tensión (X-Y): 52.991 Mpa. Módulo tensión (X-Y): 1146.064. Elongación: 6.304%.Resistencia a la flexión: 92.381 Mpa. Módulo de flexión: 2490.178 Mpa. Compatible Impresora 3D K1 CREALITY",
-      "direccion_entrega": "profesor zañartu 1010",
-      "plazo_entrega_dias": 2,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=359-199-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=359-199-COT26"
-    },
-    {
-      "codigo": "2735-740-COT26",
-      "nombre": "ADQUISICIÓN DE PINES DE METALICOS CON DISEÑO",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "I MUNICIPALIDAD LO BARNECHEA",
-      "rut_organismo": "69.255.200-8",
-      "unidad_compra": "Municipalidad de lo Barnechea - Adquisiciones - Consistorial",
-      "region": 13,
-      "region_nombre": "Metropolitana",
-      "monto_clp": 2200000,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-06-18 17:56",
-      "fecha_cierre": "2026-06-19 18:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [
-        "pines"
-      ],
-      "total_ofertas": 9,
-      "productos": [
-        {
-          "nombre": "Distintivos de premio",
-          "descripcion": "Pin troquelado de metal dorado con 1 y 1.5 mm de espesor. Forma y diseños entre 2 a 3 cm de diámetro. Debe considerar sujeción con broche americano y entregado en bolsa plástica o estuche protector. (Diseño de Integridad).\n",
-          "cantidad": 20,
-          "unidad": "EA"
-        },
-        {
-          "nombre": "Distintivos de premio",
-          "descripcion": "Pin troquelado de metal plateado con 1 y 1.5 mm de espesor. Debe considerar sujeción con broche americano y entregado en bolsa plástica o estuche protector. (Diseño de Integridad).\n",
-          "cantidad": 180,
-          "unidad": "EA"
-        },
-        {
-          "nombre": "Distintivos de premio",
-          "descripcion": "Pin troquelado de metal dorado con 1 y 1.5 mm de espesor. Forma y diseños entre 2 a 3 cm de diámetro. Debe considerar sujeción con broche americano y entregado en bolsa plástica o estuche protector. (Diseño de Mejora Continua).\n",
-          "cantidad": 100,
-          "unidad": "EA"
-        },
-        {
-          "nombre": "Distintivos de premio",
-          "descripcion": "Pin troquelado de metal plateado con 1 y 1.5 mm de espesor. Debe considerar sujeción con broche americano y entregado en bolsa plástica o estuche protector. (Diseño de Mejora Continua).\n",
-          "cantidad": 100,
-          "unidad": "EA"
-        }
-      ],
-      "adjuntos": [
-        {
-          "id": "BB7E31B3-483B-43BB-AC67-892DF8B163BF",
-          "nombre": "EETT PARA ADQUISICIÓN DE PINES_OK.docx",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/2735-740-COT26/EETT%20PARA%20ADQUISICI%C3%93N%20DE%20PINES_OK.docx",
-          "tipo": "docx"
-        },
-        {
-          "id": "634DBAD3-F274-4642-AF52-55B102FC63E3",
-          "nombre": "Cláusula de desempate Compra Ágil.pdf",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/2735-740-COT26/Cl%C3%A1usula%20de%20desempate%20Compra%20%C3%81gil.pdf",
-          "tipo": "pdf"
-        },
-        {
-          "id": "007F2FD2-7982-4D8C-9853-232847CD4822",
-          "nombre": "Flyer Canal de Denuncias.pdf",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/2735-740-COT26/Flyer%20Canal%20de%20Denuncias.pdf",
-          "tipo": "pdf"
-        }
-      ],
-      "descripcion": "La Municipalidad de Lo Barnechea, requiere adquirir pines metálicos personalizados de colores con diseño exclusivo, los cuales serán entregados en las actividades relacionadas con la difusión, sensibilización y reconocimiento de las secciones de Integridad y Mejora Continua.\n\n",
-      "direccion_entrega": "Avenida El Rodeo 12.777, Lo Barnechea",
-      "plazo_entrega_dias": 5,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=2735-740-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=2735-740-COT26"
-    },
-    {
       "codigo": "3269-33-COT26",
       "nombre": "S.A. 34 MANTENCIÓN Y ACTUALIZACIÓN SOFTWARE AUTOCAD CIVIL 3D SINGLE- USER, POR UN AÑO",
       "estado": "publicada",
@@ -140,7 +35,7 @@
       "palabras_clave_match": [
         "3d"
       ],
-      "total_ofertas": 0,
+      "total_ofertas": 1,
       "productos": [
         {
           "nombre": "Software de gestión de licencias",
@@ -242,6 +137,106 @@
       "plazo_entrega_dias": 3,
       "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=5603-91-COT26",
       "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=5603-91-COT26"
+    },
+    {
+      "codigo": "2460-598-COT26",
+      "nombre": "Adquisición de Sobres Institucionales para reponer stock en Bodega de Abastecimiento. SBC N°308.-",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "I MUNICIPALIDAD DE PROVIDENCIA",
+      "rut_organismo": "69.070.300-9",
+      "unidad_compra": "Dirección de Administración y Finanzas",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 1470000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-19 15:42",
+      "fecha_cierre": "2026-06-23 16:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "maqueta"
+      ],
+      "total_ofertas": 1,
+      "productos": [
+        {
+          "nombre": "Sobres especiales",
+          "descripcion": "Sobres impresos de distintos tamaño, según especificaciones en Formulario N°1 \"Carta Oferta\". Se adjuntan diseños.",
+          "cantidad": 1,
+          "unidad": "GL"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "88F5040C-0D61-47B3-86D1-462C8FF988B5",
+          "nombre": "Formulario N°1 Carta Oferta.xls",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/2460-598-COT26/Formulario%20N%C2%B01%20Carta%20Oferta.xls",
+          "tipo": "xls"
+        },
+        {
+          "id": "1C8FF91F-9AC1-43A2-BB50-6EB3662BB3A1",
+          "nombre": "Condiciones administrativas Sobres Institucionales.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/2460-598-COT26/Condiciones%20administrativas%20Sobres%20Institucionales.pdf",
+          "tipo": "pdf"
+        },
+        {
+          "id": "996254AF-F108-4164-A8B3-5BF441F244F2",
+          "nombre": "Colores Escudo 2025.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/2460-598-COT26/Colores%20Escudo%202025.pdf",
+          "tipo": "pdf"
+        },
+        {
+          "id": "FECA32A0-3538-41FD-A20E-0C3221B547AC",
+          "nombre": "Diseños Graficos.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/2460-598-COT26/Dise%C3%B1os%20Graficos.pdf",
+          "tipo": "pdf"
+        }
+      ],
+      "descripcion": "Solo se evaluarán ofertas que consideren la totalidad de productos. El oferente deberá llenar el Formulario N°1 Carta Oferta o adjuntar cotización propia con todas las características técnicas ofertadas. El adjudicatario deberá presentar maqueta para V°B°. El valor ofertado debe incluir el despacho del producto y armado si corresponde. Los productos se recepcionarán con Guía de Despacho. El proveedor podrá facturar una vez que la Orden de Compra se encuentre en estado \"Recepción Conforme\".",
+      "direccion_entrega": "Marchant Pereira 880",
+      "plazo_entrega_dias": 10,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=2460-598-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=2460-598-COT26"
+    },
+    {
+      "codigo": "5679-7-COT26",
+      "nombre": "IMPRESORA 3D BAMBU LAB A1 CON AMS LITE – MULTICOLOR O EQUIVALENTE",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "UNIVERSIDAD DE CHILE",
+      "rut_organismo": "60.910.000-1",
+      "unidad_compra": "FCFM Departamento de Física",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 600000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-19 16:25",
+      "fecha_cierre": "2026-06-24 15:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "3d"
+      ],
+      "total_ofertas": 3,
+      "productos": [
+        {
+          "nombre": "Impresoras de imágenes digitales",
+          "descripcion": "Impresora 3D Bambu Lab A1 junto al AMS LITE para impresión multimaterial",
+          "cantidad": 1,
+          "unidad": "EA"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "E055BEF3-8433-492D-9FDB-AF2D53391CA7",
+          "nombre": "REQUERIMIENTOS TÉCNICOS IMPRESORA 3D LAB A1 COMBO.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/5679-7-COT26/REQUERIMIENTOS%20T%C3%89CNICOS%20IMPRESORA%203D%20LAB%20A1%20COMBO.pdf",
+          "tipo": "pdf"
+        }
+      ],
+      "descripcion": "Se cotiza Impresora 3D Bambu Lab A1 o equivalente junto al AMS LITE para impresión multimaterial. Se evaluaran solo aquellas oferta que incluyan en archivo PDF la ficha técnica del producto ofertado. Por favor, ver anexo con requisitos técnicos.",
+      "direccion_entrega": "Avda. Beauchef 851 Santiago (Of. Partes - AT: Departamento de Física - Jaime Fabio)",
+      "plazo_entrega_dias": 25,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=5679-7-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=5679-7-COT26"
     }
   ]
 }
