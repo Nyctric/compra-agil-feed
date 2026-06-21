@@ -1,6 +1,6 @@
 {
-  "generado": "2026-06-20T15:46:40Z",
-  "total": 5,
+  "generado": "2026-06-21T15:53:53Z",
+  "total": 6,
   "palabras_clave": [
     "anatomico",
     "3d",
@@ -139,6 +139,40 @@
       "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=5603-91-COT26"
     },
     {
+      "codigo": "1549-2597-COT26",
+      "nombre": "340-10041 PINZA BIPOLAR LAPAROSCOPICA CON CABLE",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "SERVICIO DE SALUD METROPOLITANA NORTE HOSPITAL SAN JOSE",
+      "rut_organismo": "61.608.002-4",
+      "unidad_compra": "Hospital San  José",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 6000000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-20 14:46",
+      "fecha_cierre": "2026-06-23 10:30",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "pines"
+      ],
+      "total_ofertas": 14,
+      "productos": [
+        {
+          "nombre": "Pinzas quirúrgicas",
+          "descripcion": "340-10041 PINZA BIPOLAR LAPAROSCOPICA CON CABLE",
+          "cantidad": 5,
+          "unidad": "EA"
+        }
+      ],
+      "adjuntos": [],
+      "descripcion": "ADQUISICION DE PINZAS LAPAROSCOPICAS BIPOLARES\nADJUNTAR FICHA TECNICA/EVALUADO POR EL HSJ\n340-10041 PINZA BIPOLAR LAPAROSCOPICA CON CABLE\t\nPINZA BIPOLAR DE APROX. DE 1 CM FINA Y CORTA\nMARYLAND LAPAROSCOPICA CON VASTAGO APROX DE 30 CM, 3 PIEZAS DESARMABLES, DESEABLE CON SISTEMA GIRATORIO. \nMATERIAL DE GRADO MEDCO AUTOCLAVE, OBLIGATORIO. \nCABLE DE ALTA FRECUENCIA BIPOLAR CON CONEXION CUADRADA A PINZA Y 2 PINES A SISTEMA DE MONITOR.\nMATERIAL GRADO MEDICO AUTOCLAVE, OBLIGATORIO",
+      "direccion_entrega": "SAN JOSE 1030",
+      "plazo_entrega_dias": 1,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1549-2597-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1549-2597-COT26"
+    },
+    {
       "codigo": "2460-598-COT26",
       "nombre": "Adquisición de Sobres Institucionales para reponer stock en Bodega de Abastecimiento. SBC N°308.-",
       "estado": "publicada",
@@ -215,7 +249,7 @@
       "palabras_clave_match": [
         "3d"
       ],
-      "total_ofertas": 3,
+      "total_ofertas": 5,
       "productos": [
         {
           "nombre": "Impresoras de imágenes digitales",
