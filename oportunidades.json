@@ -1,6 +1,6 @@
 {
-  "generado": "2026-06-21T15:53:53Z",
-  "total": 6,
+  "generado": "2026-06-22T18:13:29Z",
+  "total": 8,
   "palabras_clave": [
     "anatomico",
     "3d",
@@ -17,47 +17,6 @@
     "publicada"
   ],
   "items": [
-    {
-      "codigo": "3269-33-COT26",
-      "nombre": "S.A. 34 MANTENCIÓN Y ACTUALIZACIÓN SOFTWARE AUTOCAD CIVIL 3D SINGLE- USER, POR UN AÑO",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "SERVICIO AEROFOTOGRAMETRICO DEL GENERAL JUAN SOLER MANFREDINI",
-      "rut_organismo": "61.103.018-5",
-      "unidad_compra": "Servicio Aerofotogramétrico",
-      "region": 13,
-      "region_nombre": "Metropolitana",
-      "monto_clp": 4745813,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-06-18 10:01",
-      "fecha_cierre": "2026-06-22 09:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [
-        "3d"
-      ],
-      "total_ofertas": 1,
-      "productos": [
-        {
-          "nombre": "Software de gestión de licencias",
-          "descripcion": "Renovación de suscripción para dos licencias correspondientes al software AutoCAD Civil 3D (AUTOCAD CIVIL 3D 1 YEAR SINGLE USER RENEWAL). Instalación y configuración de productos asociados (en caso de requerir), en dependencias del \"SAF\", ubicadas en Av. Diego Barros Ortiz N° 2300, comuna de Pudahuel.",
-          "cantidad": 2,
-          "unidad": "EA"
-        }
-      ],
-      "adjuntos": [
-        {
-          "id": "F2205214-9FC4-4C0E-886B-F791A57946C5",
-          "nombre": "ESPECIFICACIONES TÉCNICAS.pdf",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/3269-33-COT26/ESPECIFICACIONES%20T%C3%89CNICAS.pdf",
-          "tipo": "pdf"
-        }
-      ],
-      "descripcion": "Se requiere renovar la suscripción para dos licencias correspondientes al software Autocad Civil 3D, por un período de 12 meses continuos, sin renovaciones parciales o mensuales. Se adjuntan especificaciones técnicas. EL INCUMPLIMIENTO EN QUE INCURRA EL PROVEEDOR A LO SOLICITADO EN LA ORDEN DE COMPRA SERÁ INFORMADO A LA DIRECCIÓN DE COMPRAS PÚBLICAS CON EL PROPÓSITO DE DEJAR CONSTANCIA EN LA FICHA DEL PROVEEDOR, COMO ASIMISMO AFECTE SU PARTICIPACIÓN EN FUTUROS PROCESOS DE ADQUISICIONES.",
-      "direccion_entrega": "Av. Diego Barros Ortiz 2300 comuna de Pudahuel (Servicio Aerofotogramétrico, al interior de la IIda Brigada de la FACH)",
-      "plazo_entrega_dias": 3,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=3269-33-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=3269-33-COT26"
-    },
     {
       "codigo": "5603-92-COT26",
       "nombre": "(Dirvex) Filamentos para impresión 3D - URacing",
@@ -76,7 +35,7 @@
       "palabras_clave_match": [
         "3d"
       ],
-      "total_ofertas": 1,
+      "total_ofertas": 3,
       "productos": [
         {
           "nombre": "Kits para impresoras",
@@ -116,7 +75,7 @@
       "palabras_clave_match": [
         "pines"
       ],
-      "total_ofertas": 1,
+      "total_ofertas": 2,
       "productos": [
         {
           "nombre": "Microcontroladores",
@@ -156,7 +115,7 @@
       "palabras_clave_match": [
         "pines"
       ],
-      "total_ofertas": 14,
+      "total_ofertas": 17,
       "productos": [
         {
           "nombre": "Pinzas quirúrgicas",
@@ -190,7 +149,7 @@
       "palabras_clave_match": [
         "maqueta"
       ],
-      "total_ofertas": 1,
+      "total_ofertas": 2,
       "productos": [
         {
           "nombre": "Sobres especiales",
@@ -232,6 +191,94 @@
       "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=2460-598-COT26"
     },
     {
+      "codigo": "813-436-COT26",
+      "nombre": "Adquisición de Planchas Acrílicas para Elaboración de Fantomas",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "INSTITUTO DE SALUD PUBLICA DE CHILE",
+      "rut_organismo": "61.605.000-1",
+      "unidad_compra": "Cotizaciones - ISP",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 3000000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-22 12:43",
+      "fecha_cierre": "2026-06-23 18:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "fantomas"
+      ],
+      "total_ofertas": 0,
+      "productos": [
+        {
+          "nombre": "Espejos o paneles acrílicos transparentes",
+          "descripcion": "2 planchas acrílicas 120x240cm, 20mm de espesor para dimensión de 30 piezas (24x30 cm) y cantos pulidos, color transparente.",
+          "cantidad": 2,
+          "unidad": "EA"
+        },
+        {
+          "nombre": "Espejos o paneles acrílicos transparentes",
+          "descripcion": "1 plancha acrílica 120x240cm, 5mm de espesor para dimensión de 30 piezas (24x30 cm) y cantos pulidos, color transparente.",
+          "cantidad": 1,
+          "unidad": "EA"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "C6477B8A-449D-4F69-8B8C-B007D78E913D",
+          "nombre": "FORMULARIO EETT.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/813-436-COT26/FORMULARIO%20EETT.pdf",
+          "tipo": "pdf"
+        }
+      ],
+      "descripcion": "Adquisición de Planchas Acrílicas para la de elaboración de maniquíes para el Programa Evaluación de la Calidad de Mamografía (PECM), para el Subdepartamento Vigilancia del Departamento ANDIM. \n\nSe debe cumplir con todo lo especificado en formulario adjunto.  \n\nAdjuntar cotización que incluya plazo de entrega, ficha técnica de los productos y documentos que acrediten cumplimiento de criterios de evaluación.",
+      "direccion_entrega": "Avenida Marathon 1000",
+      "plazo_entrega_dias": 5,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=813-436-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=813-436-COT26"
+    },
+    {
+      "codigo": "2793-537-COT26",
+      "nombre": "IMPRESORA 3D",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "Iluste Municipalidad de Huechuraba",
+      "rut_organismo": "69.255.400-0",
+      "unidad_compra": "Municipalidad de Huechuraba",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 500000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-22 08:54",
+      "fecha_cierre": "2026-06-24 09:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "3d"
+      ],
+      "total_ofertas": 3,
+      "productos": [
+        {
+          "nombre": "Impresoras de láser",
+          "descripcion": "Ender-3 V3 SE Creality | Tamaño Imp 220x220x250mm | Impresora 3D |",
+          "cantidad": 2,
+          "unidad": "EA"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "116FFEF4-844B-40EA-9034-EFF6EB1262D3",
+          "nombre": "CRP INCLUSION IMPRESORA 3D.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/2793-537-COT26/CRP%20INCLUSION%20IMPRESORA%203D.pdf",
+          "tipo": "pdf"
+        }
+      ],
+      "descripcion": "LA MUNICIPALIDAD DE HUECHURABA REQUIERE LA ADQUISICIÓN DE Impresora 3D Ender-3 V3 SE Creality | Tamaño Imp 220x220x250 mm.",
+      "direccion_entrega": "AVENIDA RECOLETA 5905, HUECHURABA.",
+      "plazo_entrega_dias": 3,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=2793-537-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=2793-537-COT26"
+    },
+    {
       "codigo": "5679-7-COT26",
       "nombre": "IMPRESORA 3D BAMBU LAB A1 CON AMS LITE – MULTICOLOR O EQUIVALENTE",
       "estado": "publicada",
@@ -249,7 +296,7 @@
       "palabras_clave_match": [
         "3d"
       ],
-      "total_ofertas": 5,
+      "total_ofertas": 8,
       "productos": [
         {
           "nombre": "Impresoras de imágenes digitales",
@@ -271,6 +318,40 @@
       "plazo_entrega_dias": 25,
       "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=5679-7-COT26",
       "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=5679-7-COT26"
+    },
+    {
+      "codigo": "559322-174-COT26",
+      "nombre": "Filamentos para Impresora 3D",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "UNIVERSIDAD DE CHILE",
+      "rut_organismo": "60.910.000-1",
+      "unidad_compra": "FCFM Centro AMTC",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 400000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-22 13:35",
+      "fecha_cierre": "2026-06-25 10:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "3d"
+      ],
+      "total_ofertas": 1,
+      "productos": [
+        {
+          "nombre": "Cabezales de impresora",
+          "descripcion": "- 5 kilos Filamento 1.75 mm de diámetro, PETG Negro. \n- 5 kilos Filamento 1.75 mm de diámetro, PETG Blanco. \n- 2 kilos Filamento 1.75 mm de diámetro, PETG Azul. \n- 2 kilos Filamento 1.75 mm de diámetro, PETG Rojo. \n- 5 kilos Filamento 1.75 mm de diámetro, PETG Gris. \n- 2 kilos Filamento 1.75 mm de diámetro, TPU Negro. \n- 2 kilos Filamento 1.75 mm de diámetro, HIPS blanco.\t",
+          "cantidad": 23,
+          "unidad": "KGM"
+        }
+      ],
+      "adjuntos": [],
+      "descripcion": "Se requiere la compra de filamentos para la impresora 3D.\n(Financia CC2956).\n\n- 5 kilos Filamento 1.75 mm de diámetro, PETG Negro. \n- 5 kilos Filamento 1.75 mm de diámetro, PETG Blanco. \n- 2 kilos Filamento 1.75 mm de diámetro, PETG Azul. \n- 2 kilos Filamento 1.75 mm de diámetro, PETG Rojo. \n- 5 kilos Filamento 1.75 mm de diámetro, PETG Gris. \n- 2 kilos Filamento 1.75 mm de diámetro, TPU Negro. \n- 2 kilos Filamento 1.75 mm de diámetro, HIPS blanco.\t",
+      "direccion_entrega": "Avenida Tupper 2007, Edificio Interior AMTC, Piso 4, Oficina 402",
+      "plazo_entrega_dias": 3,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=559322-174-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=559322-174-COT26"
     }
   ]
 }
