@@ -1,6 +1,6 @@
 {
-  "generado": "2026-06-22T18:13:29Z",
-  "total": 8,
+  "generado": "2026-06-23T16:28:48Z",
+  "total": 6,
   "palabras_clave": [
     "anatomico",
     "3d",
@@ -17,120 +17,6 @@
     "publicada"
   ],
   "items": [
-    {
-      "codigo": "5603-92-COT26",
-      "nombre": "(Dirvex) Filamentos para impresión 3D - URacing",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "UNIVERSIDAD DE CHILE",
-      "rut_organismo": "60.910.000-1",
-      "unidad_compra": "FCFM Servicio Facultad",
-      "region": 13,
-      "region_nombre": "Metropolitana",
-      "monto_clp": 87980,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-06-18 17:32",
-      "fecha_cierre": "2026-06-22 15:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [
-        "3d"
-      ],
-      "total_ofertas": 3,
-      "productos": [
-        {
-          "nombre": "Kits para impresoras",
-          "descripcion": "Kit de 4 filamentos de 1 kg cada uno. El material debe ser PETG. Color de preferencia: Negro. Marcas de preferencias: Creality, Esun, Elegoo. Pueden ser filamentos de 1 kg comprados por separado, lo relevante es que sean PETG y alrededor de 4 kg.",
-          "cantidad": 1,
-          "unidad": "KIT"
-        },
-        {
-          "nombre": "Kits para impresoras",
-          "descripcion": "Filamento PA-CF FIBRA DE CARBÓN + NYLON marca ESUN 1 kg (aproximadamente 350 metros) COLOR FIBRA DE CARBON + NYLON",
-          "cantidad": 1,
-          "unidad": "RO"
-        }
-      ],
-      "adjuntos": [],
-      "descripcion": "Se requiere:\nFilamento PETG (4kg): Kit de 4 filamentos de 1 kg cada uno. El material debe ser PETG. Color de preferencia: Negro. Marcas de preferencias: Creality, Esun, Elegoo. Pueden ser filamentos de 1 kg comprados por separado, lo relevante es que sean PETG y alrededor de 4 kg.\n\nFilamento Nylon + Fibra de Carbono: Filamento PA-CF FIBRA DE CARBÓN + NYLON marca ESUN 1 kg (aproximadamente 350 metros) COLOR FIBRA DE CARBON + NYLON\nEs requisito que el proveedor suba en su oferta cotización propia",
-      "direccion_entrega": "Beauchef 850, Torre Jeam, Piso 3, Oficina de RR.II.",
-      "plazo_entrega_dias": 3,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=5603-92-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=5603-92-COT26"
-    },
-    {
-      "codigo": "5603-91-COT26",
-      "nombre": "(Dirvex) Componentes electrónicos - URacing",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "UNIVERSIDAD DE CHILE",
-      "rut_organismo": "60.910.000-1",
-      "unidad_compra": "FCFM Servicio Facultad",
-      "region": 13,
-      "region_nombre": "Metropolitana",
-      "monto_clp": 26000,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-06-18 17:15",
-      "fecha_cierre": "2026-06-22 15:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [
-        "pines"
-      ],
-      "total_ofertas": 2,
-      "productos": [
-        {
-          "nombre": "Microcontroladores",
-          "descripcion": "Microcontrolador tipo Arduino Mega 2560. Voltaje de operación 5V, posee pines digitales y analógicos. Idealmente que sea \"tipo\" Arduino Mega 2560 (no orginal).",
-          "cantidad": 1,
-          "unidad": "EA"
-        },
-        {
-          "nombre": "Convertidores rotativos eléctricos",
-          "descripcion": "Convertidor de voltaje bidireccional. Este debe realizar la conversión entre 3.3V y 5V. Al menos debe tener 8 entradas bidireccionales",
-          "cantidad": 1,
-          "unidad": "EA"
-        }
-      ],
-      "adjuntos": [],
-      "descripcion": "Se requieren: \n\n- Arduino Mega 2560: Microcontrolador tipo Arduino Mega 2560. Voltaje de operación 5V, pines digitales y analógicos. Tipo \"Arduino Mega 2560\" (no original).\n\n- Convertidor de 3,3V a 5,5V bidireccional: Convertidor de Voltaje bidireccional. Este debe realizar la conversión entre\n3.3V y 5V. Al menos debe tener 8 entradas bidireccionales.",
-      "direccion_entrega": "Beauchef 850, Torre Jeam, Piso 3, Oficina de RR.II.",
-      "plazo_entrega_dias": 3,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=5603-91-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=5603-91-COT26"
-    },
-    {
-      "codigo": "1549-2597-COT26",
-      "nombre": "340-10041 PINZA BIPOLAR LAPAROSCOPICA CON CABLE",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "SERVICIO DE SALUD METROPOLITANA NORTE HOSPITAL SAN JOSE",
-      "rut_organismo": "61.608.002-4",
-      "unidad_compra": "Hospital San  José",
-      "region": 13,
-      "region_nombre": "Metropolitana",
-      "monto_clp": 6000000,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-06-20 14:46",
-      "fecha_cierre": "2026-06-23 10:30",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [
-        "pines"
-      ],
-      "total_ofertas": 17,
-      "productos": [
-        {
-          "nombre": "Pinzas quirúrgicas",
-          "descripcion": "340-10041 PINZA BIPOLAR LAPAROSCOPICA CON CABLE",
-          "cantidad": 5,
-          "unidad": "EA"
-        }
-      ],
-      "adjuntos": [],
-      "descripcion": "ADQUISICION DE PINZAS LAPAROSCOPICAS BIPOLARES\nADJUNTAR FICHA TECNICA/EVALUADO POR EL HSJ\n340-10041 PINZA BIPOLAR LAPAROSCOPICA CON CABLE\t\nPINZA BIPOLAR DE APROX. DE 1 CM FINA Y CORTA\nMARYLAND LAPAROSCOPICA CON VASTAGO APROX DE 30 CM, 3 PIEZAS DESARMABLES, DESEABLE CON SISTEMA GIRATORIO. \nMATERIAL DE GRADO MEDCO AUTOCLAVE, OBLIGATORIO. \nCABLE DE ALTA FRECUENCIA BIPOLAR CON CONEXION CUADRADA A PINZA Y 2 PINES A SISTEMA DE MONITOR.\nMATERIAL GRADO MEDICO AUTOCLAVE, OBLIGATORIO",
-      "direccion_entrega": "SAN JOSE 1030",
-      "plazo_entrega_dias": 1,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1549-2597-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1549-2597-COT26"
-    },
     {
       "codigo": "2460-598-COT26",
       "nombre": "Adquisición de Sobres Institucionales para reponer stock en Bodega de Abastecimiento. SBC N°308.-",
@@ -149,7 +35,7 @@
       "palabras_clave_match": [
         "maqueta"
       ],
-      "total_ofertas": 2,
+      "total_ofertas": 5,
       "productos": [
         {
           "nombre": "Sobres especiales",
@@ -255,7 +141,7 @@
       "palabras_clave_match": [
         "3d"
       ],
-      "total_ofertas": 3,
+      "total_ofertas": 10,
       "productos": [
         {
           "nombre": "Impresoras de láser",
@@ -296,7 +182,7 @@
       "palabras_clave_match": [
         "3d"
       ],
-      "total_ofertas": 8,
+      "total_ofertas": 10,
       "productos": [
         {
           "nombre": "Impresoras de imágenes digitales",
@@ -337,7 +223,7 @@
       "palabras_clave_match": [
         "3d"
       ],
-      "total_ofertas": 1,
+      "total_ofertas": 4,
       "productos": [
         {
           "nombre": "Cabezales de impresora",
@@ -352,6 +238,47 @@
       "plazo_entrega_dias": 3,
       "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=559322-174-COT26",
       "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=559322-174-COT26"
+    },
+    {
+      "codigo": "3269-33-COT26",
+      "nombre": "S.A. 34 MANTENCIÓN Y ACTUALIZACIÓN SOFTWARE AUTOCAD CIVIL 3D SINGLE- USER, POR UN AÑO",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "SERVICIO AEROFOTOGRAMETRICO DEL GENERAL JUAN SOLER MANFREDINI",
+      "rut_organismo": "61.103.018-5",
+      "unidad_compra": "Servicio Aerofotogramétrico",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 4745813,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-18 10:01",
+      "fecha_cierre": "2026-06-29 09:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "3d"
+      ],
+      "total_ofertas": 1,
+      "productos": [
+        {
+          "nombre": "Software de gestión de licencias",
+          "descripcion": "Renovación de suscripción para dos licencias correspondientes al software AutoCAD Civil 3D (AUTOCAD CIVIL 3D 1 YEAR SINGLE USER RENEWAL). Instalación y configuración de productos asociados (en caso de requerir), en dependencias del \"SAF\", ubicadas en Av. Diego Barros Ortiz N° 2300, comuna de Pudahuel.",
+          "cantidad": 2,
+          "unidad": "EA"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "F2205214-9FC4-4C0E-886B-F791A57946C5",
+          "nombre": "ESPECIFICACIONES TÉCNICAS.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/3269-33-COT26/ESPECIFICACIONES%20T%C3%89CNICAS.pdf",
+          "tipo": "pdf"
+        }
+      ],
+      "descripcion": "Se requiere renovar la suscripción para dos licencias correspondientes al software Autocad Civil 3D, por un período de 12 meses continuos, sin renovaciones parciales o mensuales. Se adjuntan especificaciones técnicas. EL INCUMPLIMIENTO EN QUE INCURRA EL PROVEEDOR A LO SOLICITADO EN LA ORDEN DE COMPRA SERÁ INFORMADO A LA DIRECCIÓN DE COMPRAS PÚBLICAS CON EL PROPÓSITO DE DEJAR CONSTANCIA EN LA FICHA DEL PROVEEDOR, COMO ASIMISMO AFECTE SU PARTICIPACIÓN EN FUTUROS PROCESOS DE ADQUISICIONES.",
+      "direccion_entrega": "Av. Diego Barros Ortiz 2300 comuna de Pudahuel (Servicio Aerofotogramétrico, al interior de la IIda Brigada de la FACH)",
+      "plazo_entrega_dias": 3,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=3269-33-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=3269-33-COT26"
     }
   ]
 }
