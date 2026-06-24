@@ -1,5 +1,5 @@
 {
-  "generado": "2026-06-23T16:28:48Z",
+  "generado": "2026-06-24T16:24:15Z",
   "total": 6,
   "palabras_clave": [
     "anatomico",
@@ -18,153 +18,6 @@
   ],
   "items": [
     {
-      "codigo": "2460-598-COT26",
-      "nombre": "Adquisición de Sobres Institucionales para reponer stock en Bodega de Abastecimiento. SBC N°308.-",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "I MUNICIPALIDAD DE PROVIDENCIA",
-      "rut_organismo": "69.070.300-9",
-      "unidad_compra": "Dirección de Administración y Finanzas",
-      "region": 13,
-      "region_nombre": "Metropolitana",
-      "monto_clp": 1470000,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-06-19 15:42",
-      "fecha_cierre": "2026-06-23 16:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [
-        "maqueta"
-      ],
-      "total_ofertas": 5,
-      "productos": [
-        {
-          "nombre": "Sobres especiales",
-          "descripcion": "Sobres impresos de distintos tamaño, según especificaciones en Formulario N°1 \"Carta Oferta\". Se adjuntan diseños.",
-          "cantidad": 1,
-          "unidad": "GL"
-        }
-      ],
-      "adjuntos": [
-        {
-          "id": "88F5040C-0D61-47B3-86D1-462C8FF988B5",
-          "nombre": "Formulario N°1 Carta Oferta.xls",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/2460-598-COT26/Formulario%20N%C2%B01%20Carta%20Oferta.xls",
-          "tipo": "xls"
-        },
-        {
-          "id": "1C8FF91F-9AC1-43A2-BB50-6EB3662BB3A1",
-          "nombre": "Condiciones administrativas Sobres Institucionales.pdf",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/2460-598-COT26/Condiciones%20administrativas%20Sobres%20Institucionales.pdf",
-          "tipo": "pdf"
-        },
-        {
-          "id": "996254AF-F108-4164-A8B3-5BF441F244F2",
-          "nombre": "Colores Escudo 2025.pdf",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/2460-598-COT26/Colores%20Escudo%202025.pdf",
-          "tipo": "pdf"
-        },
-        {
-          "id": "FECA32A0-3538-41FD-A20E-0C3221B547AC",
-          "nombre": "Diseños Graficos.pdf",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/2460-598-COT26/Dise%C3%B1os%20Graficos.pdf",
-          "tipo": "pdf"
-        }
-      ],
-      "descripcion": "Solo se evaluarán ofertas que consideren la totalidad de productos. El oferente deberá llenar el Formulario N°1 Carta Oferta o adjuntar cotización propia con todas las características técnicas ofertadas. El adjudicatario deberá presentar maqueta para V°B°. El valor ofertado debe incluir el despacho del producto y armado si corresponde. Los productos se recepcionarán con Guía de Despacho. El proveedor podrá facturar una vez que la Orden de Compra se encuentre en estado \"Recepción Conforme\".",
-      "direccion_entrega": "Marchant Pereira 880",
-      "plazo_entrega_dias": 10,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=2460-598-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=2460-598-COT26"
-    },
-    {
-      "codigo": "813-436-COT26",
-      "nombre": "Adquisición de Planchas Acrílicas para Elaboración de Fantomas",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "INSTITUTO DE SALUD PUBLICA DE CHILE",
-      "rut_organismo": "61.605.000-1",
-      "unidad_compra": "Cotizaciones - ISP",
-      "region": 13,
-      "region_nombre": "Metropolitana",
-      "monto_clp": 3000000,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-06-22 12:43",
-      "fecha_cierre": "2026-06-23 18:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [
-        "fantomas"
-      ],
-      "total_ofertas": 0,
-      "productos": [
-        {
-          "nombre": "Espejos o paneles acrílicos transparentes",
-          "descripcion": "2 planchas acrílicas 120x240cm, 20mm de espesor para dimensión de 30 piezas (24x30 cm) y cantos pulidos, color transparente.",
-          "cantidad": 2,
-          "unidad": "EA"
-        },
-        {
-          "nombre": "Espejos o paneles acrílicos transparentes",
-          "descripcion": "1 plancha acrílica 120x240cm, 5mm de espesor para dimensión de 30 piezas (24x30 cm) y cantos pulidos, color transparente.",
-          "cantidad": 1,
-          "unidad": "EA"
-        }
-      ],
-      "adjuntos": [
-        {
-          "id": "C6477B8A-449D-4F69-8B8C-B007D78E913D",
-          "nombre": "FORMULARIO EETT.pdf",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/813-436-COT26/FORMULARIO%20EETT.pdf",
-          "tipo": "pdf"
-        }
-      ],
-      "descripcion": "Adquisición de Planchas Acrílicas para la de elaboración de maniquíes para el Programa Evaluación de la Calidad de Mamografía (PECM), para el Subdepartamento Vigilancia del Departamento ANDIM. \n\nSe debe cumplir con todo lo especificado en formulario adjunto.  \n\nAdjuntar cotización que incluya plazo de entrega, ficha técnica de los productos y documentos que acrediten cumplimiento de criterios de evaluación.",
-      "direccion_entrega": "Avenida Marathon 1000",
-      "plazo_entrega_dias": 5,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=813-436-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=813-436-COT26"
-    },
-    {
-      "codigo": "2793-537-COT26",
-      "nombre": "IMPRESORA 3D",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "Iluste Municipalidad de Huechuraba",
-      "rut_organismo": "69.255.400-0",
-      "unidad_compra": "Municipalidad de Huechuraba",
-      "region": 13,
-      "region_nombre": "Metropolitana",
-      "monto_clp": 500000,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-06-22 08:54",
-      "fecha_cierre": "2026-06-24 09:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [
-        "3d"
-      ],
-      "total_ofertas": 10,
-      "productos": [
-        {
-          "nombre": "Impresoras de láser",
-          "descripcion": "Ender-3 V3 SE Creality | Tamaño Imp 220x220x250mm | Impresora 3D |",
-          "cantidad": 2,
-          "unidad": "EA"
-        }
-      ],
-      "adjuntos": [
-        {
-          "id": "116FFEF4-844B-40EA-9034-EFF6EB1262D3",
-          "nombre": "CRP INCLUSION IMPRESORA 3D.pdf",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/2793-537-COT26/CRP%20INCLUSION%20IMPRESORA%203D.pdf",
-          "tipo": "pdf"
-        }
-      ],
-      "descripcion": "LA MUNICIPALIDAD DE HUECHURABA REQUIERE LA ADQUISICIÓN DE Impresora 3D Ender-3 V3 SE Creality | Tamaño Imp 220x220x250 mm.",
-      "direccion_entrega": "AVENIDA RECOLETA 5905, HUECHURABA.",
-      "plazo_entrega_dias": 3,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=2793-537-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=2793-537-COT26"
-    },
-    {
       "codigo": "5679-7-COT26",
       "nombre": "IMPRESORA 3D BAMBU LAB A1 CON AMS LITE – MULTICOLOR O EQUIVALENTE",
       "estado": "publicada",
@@ -182,7 +35,7 @@
       "palabras_clave_match": [
         "3d"
       ],
-      "total_ofertas": 10,
+      "total_ofertas": 11,
       "productos": [
         {
           "nombre": "Impresoras de imágenes digitales",
@@ -206,6 +59,53 @@
       "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=5679-7-COT26"
     },
     {
+      "codigo": "1020-67-COT26",
+      "nombre": "ADQUISICION DE PINES INSTITUCIONALES PARA LA SUBSECRETARIA DE OBRAS PUBLICAS",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
+      "rut_organismo": "61.202.000-0",
+      "unidad_compra": "MOP Subsecretaría ",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 600000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-23 16:10",
+      "fecha_cierre": "2026-06-25 09:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "pines"
+      ],
+      "total_ofertas": 5,
+      "productos": [
+        {
+          "nombre": "Folletos y catálogos publicitarios, servicios de publicidad y distribución",
+          "descripcion": "PINES INSTITUCIONALES DE SOLAPA CON DISEÑO \"BANDERA CHILENA\" (Muestra previa obligatoria para aprobación de la contraparte técnica).",
+          "cantidad": 100,
+          "unidad": "EA"
+        },
+        {
+          "nombre": "Folletos y catálogos publicitarios, servicios de publicidad y distribución",
+          "descripcion": "PINES INSTITUCIONALES DISEÑO \"HORMIGON\", MATERIAL METALICO ESMALTADO A COLOR, SISTEMA DE FIJACION PARA SOLAPA, ALTURA 3CM ( Muestra previa obligatoria para aprobación de contraparte técnica) Diseño será proporcionado por la institución.",
+          "cantidad": 200,
+          "unidad": "EA"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "D58D542B-5C7B-4997-83BD-CC57B55406A9",
+          "nombre": "ET. ADQUISICIÓN DE PINES INSTITUCIONALES_Katherinne Daisy San.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1020-67-COT26/ET.%20ADQUISICI%C3%93N%20DE%20PINES%20INSTITUCIONALES_Katherinne%20Daisy%20San.pdf",
+          "tipo": "pdf"
+        }
+      ],
+      "descripcion": "ADQUISICION DE PINES DE SOLAPA, DISEÑO BANDERA Y HORMIGON PARA LA SUBSECRETARIA DE OBRAS PUBLICAS.\nSE ADJUNTAN ESPECIFICACIONES TECNICAS.",
+      "direccion_entrega": "MORANDE N°71, ENTRE PISO",
+      "plazo_entrega_dias": 10,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1020-67-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1020-67-COT26"
+    },
+    {
       "codigo": "559322-174-COT26",
       "nombre": "Filamentos para Impresora 3D",
       "estado": "publicada",
@@ -223,7 +123,7 @@
       "palabras_clave_match": [
         "3d"
       ],
-      "total_ofertas": 4,
+      "total_ofertas": 5,
       "productos": [
         {
           "nombre": "Cabezales de impresora",
@@ -238,6 +138,88 @@
       "plazo_entrega_dias": 3,
       "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=559322-174-COT26",
       "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=559322-174-COT26"
+    },
+    {
+      "codigo": "717503-92-COT26",
+      "nombre": "PINS INSTITUCIONAL ACHM",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "ASOCIACION CHILENA DE MUNICIPALIDADES",
+      "rut_organismo": "69.265.990-2",
+      "unidad_compra": "Asociación Chilena de Municipalidades",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 3000000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-24 11:27",
+      "fecha_cierre": "2026-06-25 13:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "pins"
+      ],
+      "total_ofertas": 1,
+      "productos": [
+        {
+          "nombre": "Impresión de envoltorios, etiquetas, sellos o bolsas",
+          "descripcion": "DETALLE ENREQUERIMIENTO 81-26",
+          "cantidad": 1000,
+          "unidad": "EA"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "F960E4E9-42E0-47B7-8E6A-FB9104C38881",
+          "nombre": "REQUERIMIENTO 81-26.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/717503-92-COT26/REQUERIMIENTO%2081-26.pdf",
+          "tipo": "pdf"
+        }
+      ],
+      "descripcion": "DETALLES EN REQUERIMIENTO 81-26",
+      "direccion_entrega": "Profesora Amanda Labarca 124, piso 6 ",
+      "plazo_entrega_dias": 2,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=717503-92-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=717503-92-COT26"
+    },
+    {
+      "codigo": "4841-38-COT26",
+      "nombre": "Adquisición Curso Introducción a la Impresión 3D para el CNCR",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "SERVICIO NACIONAL DEL PATRIMONIO CULTURAL",
+      "rut_organismo": "60.905.000-4",
+      "unidad_compra": "CENTRO NACIONAL DE CONSERVACIÓN Y RESTAURACIÓN",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 840000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-23 14:53",
+      "fecha_cierre": "2026-06-26 08:30",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "3d"
+      ],
+      "total_ofertas": 1,
+      "productos": [
+        {
+          "nombre": "Capacitación a empleados",
+          "descripcion": "Adquisición Curso Introducción a la Impresión 3D, según TDR adjunto.",
+          "cantidad": 1,
+          "unidad": "EA"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "F211AFEA-14E2-48C1-A043-354A53EDCA5C",
+          "nombre": "CompraAgil_Impresion3D_v2_revcpf_kcs.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/4841-38-COT26/CompraAgil_Impresion3D_v2_revcpf_kcs.pdf",
+          "tipo": "pdf"
+        }
+      ],
+      "descripcion": "El Centro Nacional de Conservación y Restauración (CNCR) requiere la adquisición del curso en “Introducción a la impresión 3D”, para 2 (dos) personas funcionarias del CNCR relacionadas con las\nintervenciones de conservación y restauración de bienes patrimoniales, con el objetivo de adquirir competencias necesarias para conocer y aplicar la impresión 3D al patrimonio, entregar conceptos básicos del modelado 3D, y entregar habilidades prácticas en manejo de impresoras 3D.\n",
+      "direccion_entrega": "RECOLETA 683",
+      "plazo_entrega_dias": 10,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=4841-38-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=4841-38-COT26"
     },
     {
       "codigo": "3269-33-COT26",
