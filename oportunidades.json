@@ -1,6 +1,6 @@
 {
-  "generado": "2026-06-24T16:24:15Z",
-  "total": 6,
+  "generado": "2026-06-25T16:27:16Z",
+  "total": 5,
   "palabras_clave": [
     "anatomico",
     "3d",
@@ -17,128 +17,6 @@
     "publicada"
   ],
   "items": [
-    {
-      "codigo": "5679-7-COT26",
-      "nombre": "IMPRESORA 3D BAMBU LAB A1 CON AMS LITE – MULTICOLOR O EQUIVALENTE",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "UNIVERSIDAD DE CHILE",
-      "rut_organismo": "60.910.000-1",
-      "unidad_compra": "FCFM Departamento de Física",
-      "region": 13,
-      "region_nombre": "Metropolitana",
-      "monto_clp": 600000,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-06-19 16:25",
-      "fecha_cierre": "2026-06-24 15:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [
-        "3d"
-      ],
-      "total_ofertas": 11,
-      "productos": [
-        {
-          "nombre": "Impresoras de imágenes digitales",
-          "descripcion": "Impresora 3D Bambu Lab A1 junto al AMS LITE para impresión multimaterial",
-          "cantidad": 1,
-          "unidad": "EA"
-        }
-      ],
-      "adjuntos": [
-        {
-          "id": "E055BEF3-8433-492D-9FDB-AF2D53391CA7",
-          "nombre": "REQUERIMIENTOS TÉCNICOS IMPRESORA 3D LAB A1 COMBO.pdf",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/5679-7-COT26/REQUERIMIENTOS%20T%C3%89CNICOS%20IMPRESORA%203D%20LAB%20A1%20COMBO.pdf",
-          "tipo": "pdf"
-        }
-      ],
-      "descripcion": "Se cotiza Impresora 3D Bambu Lab A1 o equivalente junto al AMS LITE para impresión multimaterial. Se evaluaran solo aquellas oferta que incluyan en archivo PDF la ficha técnica del producto ofertado. Por favor, ver anexo con requisitos técnicos.",
-      "direccion_entrega": "Avda. Beauchef 851 Santiago (Of. Partes - AT: Departamento de Física - Jaime Fabio)",
-      "plazo_entrega_dias": 25,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=5679-7-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=5679-7-COT26"
-    },
-    {
-      "codigo": "1020-67-COT26",
-      "nombre": "ADQUISICION DE PINES INSTITUCIONALES PARA LA SUBSECRETARIA DE OBRAS PUBLICAS",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
-      "rut_organismo": "61.202.000-0",
-      "unidad_compra": "MOP Subsecretaría ",
-      "region": 13,
-      "region_nombre": "Metropolitana",
-      "monto_clp": 600000,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-06-23 16:10",
-      "fecha_cierre": "2026-06-25 09:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [
-        "pines"
-      ],
-      "total_ofertas": 5,
-      "productos": [
-        {
-          "nombre": "Folletos y catálogos publicitarios, servicios de publicidad y distribución",
-          "descripcion": "PINES INSTITUCIONALES DE SOLAPA CON DISEÑO \"BANDERA CHILENA\" (Muestra previa obligatoria para aprobación de la contraparte técnica).",
-          "cantidad": 100,
-          "unidad": "EA"
-        },
-        {
-          "nombre": "Folletos y catálogos publicitarios, servicios de publicidad y distribución",
-          "descripcion": "PINES INSTITUCIONALES DISEÑO \"HORMIGON\", MATERIAL METALICO ESMALTADO A COLOR, SISTEMA DE FIJACION PARA SOLAPA, ALTURA 3CM ( Muestra previa obligatoria para aprobación de contraparte técnica) Diseño será proporcionado por la institución.",
-          "cantidad": 200,
-          "unidad": "EA"
-        }
-      ],
-      "adjuntos": [
-        {
-          "id": "D58D542B-5C7B-4997-83BD-CC57B55406A9",
-          "nombre": "ET. ADQUISICIÓN DE PINES INSTITUCIONALES_Katherinne Daisy San.pdf",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1020-67-COT26/ET.%20ADQUISICI%C3%93N%20DE%20PINES%20INSTITUCIONALES_Katherinne%20Daisy%20San.pdf",
-          "tipo": "pdf"
-        }
-      ],
-      "descripcion": "ADQUISICION DE PINES DE SOLAPA, DISEÑO BANDERA Y HORMIGON PARA LA SUBSECRETARIA DE OBRAS PUBLICAS.\nSE ADJUNTAN ESPECIFICACIONES TECNICAS.",
-      "direccion_entrega": "MORANDE N°71, ENTRE PISO",
-      "plazo_entrega_dias": 10,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1020-67-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1020-67-COT26"
-    },
-    {
-      "codigo": "559322-174-COT26",
-      "nombre": "Filamentos para Impresora 3D",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "UNIVERSIDAD DE CHILE",
-      "rut_organismo": "60.910.000-1",
-      "unidad_compra": "FCFM Centro AMTC",
-      "region": 13,
-      "region_nombre": "Metropolitana",
-      "monto_clp": 400000,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-06-22 13:35",
-      "fecha_cierre": "2026-06-25 10:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [
-        "3d"
-      ],
-      "total_ofertas": 5,
-      "productos": [
-        {
-          "nombre": "Cabezales de impresora",
-          "descripcion": "- 5 kilos Filamento 1.75 mm de diámetro, PETG Negro. \n- 5 kilos Filamento 1.75 mm de diámetro, PETG Blanco. \n- 2 kilos Filamento 1.75 mm de diámetro, PETG Azul. \n- 2 kilos Filamento 1.75 mm de diámetro, PETG Rojo. \n- 5 kilos Filamento 1.75 mm de diámetro, PETG Gris. \n- 2 kilos Filamento 1.75 mm de diámetro, TPU Negro. \n- 2 kilos Filamento 1.75 mm de diámetro, HIPS blanco.\t",
-          "cantidad": 23,
-          "unidad": "KGM"
-        }
-      ],
-      "adjuntos": [],
-      "descripcion": "Se requiere la compra de filamentos para la impresora 3D.\n(Financia CC2956).\n\n- 5 kilos Filamento 1.75 mm de diámetro, PETG Negro. \n- 5 kilos Filamento 1.75 mm de diámetro, PETG Blanco. \n- 2 kilos Filamento 1.75 mm de diámetro, PETG Azul. \n- 2 kilos Filamento 1.75 mm de diámetro, PETG Rojo. \n- 5 kilos Filamento 1.75 mm de diámetro, PETG Gris. \n- 2 kilos Filamento 1.75 mm de diámetro, TPU Negro. \n- 2 kilos Filamento 1.75 mm de diámetro, HIPS blanco.\t",
-      "direccion_entrega": "Avenida Tupper 2007, Edificio Interior AMTC, Piso 4, Oficina 402",
-      "plazo_entrega_dias": 3,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=559322-174-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=559322-174-COT26"
-    },
     {
       "codigo": "717503-92-COT26",
       "nombre": "PINS INSTITUCIONAL ACHM",
@@ -157,7 +35,7 @@
       "palabras_clave_match": [
         "pins"
       ],
-      "total_ofertas": 1,
+      "total_ofertas": 11,
       "productos": [
         {
           "nombre": "Impresión de envoltorios, etiquetas, sellos o bolsas",
@@ -179,6 +57,47 @@
       "plazo_entrega_dias": 2,
       "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=717503-92-COT26",
       "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=717503-92-COT26"
+    },
+    {
+      "codigo": "5756-348-COT26",
+      "nombre": "Filamento para Impresión 3D FDM - Acabado Mate",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "UNIVERSIDAD DE CHILE",
+      "rut_organismo": "60.910.000-1",
+      "unidad_compra": "FAC. ARQUITECTURA Dirección Econ. y Admin.",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 180000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-24 17:17",
+      "fecha_cierre": "2026-06-25 17:30",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "3d"
+      ],
+      "total_ofertas": 2,
+      "productos": [
+        {
+          "nombre": "Cinta de tinta para impresora",
+          "descripcion": "Filamento para Impresión 3D FDM - Acabado Mate, según archivo adjunto\n\nAdjuntar cotización formal y ficha técnica",
+          "cantidad": 8,
+          "unidad": "EA"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "B2AA50B7-0F9E-4F3B-AA60-76500C850BA3",
+          "nombre": "Ficha Técnica Oficial - Filamento PLA Matte V2.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/5756-348-COT26/Ficha%20T%C3%A9cnica%20Oficial%20-%20Filamento%20PLA%20Matte%20V2.pdf",
+          "tipo": "pdf"
+        }
+      ],
+      "descripcion": "Se requiere Filamento para Impresión 3D FDM - Acabado Mate, según archivo adjunto\n\nAdjuntar cotización formal y ficha técnica",
+      "direccion_entrega": "Diagonal Paraguay 257",
+      "plazo_entrega_dias": 5,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=5756-348-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=5756-348-COT26"
     },
     {
       "codigo": "4841-38-COT26",
@@ -220,6 +139,47 @@
       "plazo_entrega_dias": 10,
       "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=4841-38-COT26",
       "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=4841-38-COT26"
+    },
+    {
+      "codigo": "5178-3274-COT26",
+      "nombre": "PINS METALICOS PERSONALIZADOS/SP 1055303/JL",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "UNIVERSIDAD DE CHILE",
+      "rut_organismo": "60.910.000-1",
+      "unidad_compra": "UCHILE  Facultad Medicina (5178)",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 330000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-15 15:25",
+      "fecha_cierre": "2026-06-26 12:28",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "pins"
+      ],
+      "total_ofertas": 0,
+      "productos": [
+        {
+          "nombre": "Medallas",
+          "descripcion": "SE REQUIERE DE FABRICACION DE 100 PINS METALICOS PERSONALIZADOS DE 3 CM, COLOR DEL METAL SEGUN DISENO, TECNICA SOFT ENAMEL RELIEVE, DETALLES Y CORTE CNC, GROSOR ACORDE AL DISENO, QUE INCLUYA CONFECCION DE MOLDE Y ENVOLTURA INDIVIDUAL",
+          "cantidad": 100,
+          "unidad": "EA"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "0AD185DC-3B8F-4412-92BE-A6E62E410F7B",
+          "nombre": "LOGO_v7_sin fondo.png",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/5178-3274-COT26/LOGO_v7_sin%20fondo.png",
+          "tipo": "png"
+        }
+      ],
+      "descripcion": "SE REQUIERE DE FABRICACION DE 100 PINS METALICOS PERSONALIZADOS DE 3 CM, COLOR DEL METAL SEGUN DISENO, TECNICA SOFT ENAMEL RELIEVE, DETALLES Y CORTE CNC, GROSOR ACORDE AL DISENO, QUE INCLUYA CONFECCION DE MOLDE Y ENVOLTURA INDIVIDUAL.PARA PARTICIPAR ADJUNTAR COTIZACIÓN FORMAL+PLAZO DE ENTREGA.CRITERIOS DE EVALUACIÓN SERÁN 50 % CUMPLIMIENTO TECNICO Y 50 % PRECIO.",
+      "direccion_entrega": "AV. INDEPENDENCIA 1027",
+      "plazo_entrega_dias": 5,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=5178-3274-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=5178-3274-COT26"
     },
     {
       "codigo": "3269-33-COT26",
