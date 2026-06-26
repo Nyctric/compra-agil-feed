@@ -1,6 +1,6 @@
 {
-  "generado": "2026-06-25T16:27:16Z",
-  "total": 5,
+  "generado": "2026-06-26T05:15:38Z",
+  "total": 50,
   "palabras_clave": [
     "anatomico",
     "3d",
@@ -8,7 +8,11 @@
     "pines",
     "pins",
     "maqueta",
-    "galvano"
+    "galvano",
+    "modelo",
+    "pin",
+    "galardon",
+    "llavero"
   ],
   "regiones": [
     13
@@ -18,45 +22,139 @@
   ],
   "items": [
     {
-      "codigo": "717503-92-COT26",
-      "nombre": "PINS INSTITUCIONAL ACHM",
+      "codigo": "885-370-COT26",
+      "nombre": "La Contraloría General de la República requiere contratar el servicio de mantención preventiva de 10.000 kilómetros para un vehículo institucional marca Toyota.",
       "estado": "publicada",
       "estado_glosa": "Publicada",
-      "organismo": "ASOCIACION CHILENA DE MUNICIPALIDADES",
-      "rut_organismo": "69.265.990-2",
-      "unidad_compra": "Asociación Chilena de Municipalidades",
+      "organismo": "CONTRALORIA GENERAL DE LA REPUBLICA",
+      "rut_organismo": "60.400.000-9",
+      "unidad_compra": "Contraloría General de la República",
       "region": 13,
       "region_nombre": "Metropolitana",
-      "monto_clp": 3000000,
+      "monto_clp": 500000,
       "moneda": "CLP",
-      "fecha_publicacion": "2026-06-24 11:27",
-      "fecha_cierre": "2026-06-25 13:00",
+      "fecha_publicacion": "2026-05-06 16:04",
+      "fecha_cierre": "2026-05-13 09:30",
       "fecha_ultimo_cambio": null,
       "palabras_clave_match": [
-        "pins"
+        "modelo"
       ],
-      "total_ofertas": 11,
+      "total_ofertas": 0,
       "productos": [
         {
-          "nombre": "Impresión de envoltorios, etiquetas, sellos o bolsas",
-          "descripcion": "DETALLE ENREQUERIMIENTO 81-26",
-          "cantidad": 1000,
+          "nombre": "Kit de mantenimiento de vehículo de soporte en tierra",
+          "descripcion": "la Contraloría General de la Republica requiere el servicio de  mantención preventiva de los 10.000 kilómetros, al vehículo institucional marca Toyota, modelo 4Runner, año 2025, deberá realizarse conforme a la pauta de mantención establecida por el fabricante Toyota para dicho kilometraje. favor ajustarse a términos de referencia y completar anexo administrativo",
+          "cantidad": 1,
+          "unidad": "000"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "D0808078-F615-4897-9965-44369D86AF33",
+          "nombre": "Téminos de Referencia.docx",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/885-370-COT26/T%C3%A9minos%20de%20Referencia.docx",
+          "tipo": "docx"
+        },
+        {
+          "id": "1D0914CB-D856-49BA-98A2-791B745134D3",
+          "nombre": "Anexo administrativo para compras ágiles 4.docx",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/885-370-COT26/Anexo%20administrativo%20para%20compras%20%C3%A1giles%204.docx",
+          "tipo": "docx"
+        },
+        {
+          "id": "7516B207-F24C-40F1-9B91-CF571B268421",
+          "nombre": "Código de ética y conducta CGR 4 1.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/885-370-COT26/C%C3%B3digo%20de%20%C3%A9tica%20y%20conducta%20CGR%204%201.pdf",
+          "tipo": "pdf"
+        }
+      ],
+      "descripcion": "la Contraloría General de la Republica requiere el servicio de  mantención preventiva de los 10.000 kilómetros, al vehículo institucional marca Toyota, modelo 4Runner, año 2025, deberá realizarse conforme a la pauta de mantención establecida por el fabricante Toyota para dicho kilometraje. favor ajustarse a términos de referencia y completar anexo administrativo.",
+      "direccion_entrega": "Teatinos 56",
+      "plazo_entrega_dias": 3,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=885-370-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=885-370-COT26"
+    },
+    {
+      "codigo": "4841-38-COT26",
+      "nombre": "Adquisición Curso Introducción a la Impresión 3D para el CNCR",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "SERVICIO NACIONAL DEL PATRIMONIO CULTURAL",
+      "rut_organismo": "60.905.000-4",
+      "unidad_compra": "CENTRO NACIONAL DE CONSERVACIÓN Y RESTAURACIÓN",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 840000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-23 14:53",
+      "fecha_cierre": "2026-06-26 08:30",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "3d"
+      ],
+      "total_ofertas": 3,
+      "productos": [
+        {
+          "nombre": "Capacitación a empleados",
+          "descripcion": "Adquisición Curso Introducción a la Impresión 3D, según TDR adjunto.",
+          "cantidad": 1,
           "unidad": "EA"
         }
       ],
       "adjuntos": [
         {
-          "id": "F960E4E9-42E0-47B7-8E6A-FB9104C38881",
-          "nombre": "REQUERIMIENTO 81-26.pdf",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/717503-92-COT26/REQUERIMIENTO%2081-26.pdf",
+          "id": "F211AFEA-14E2-48C1-A043-354A53EDCA5C",
+          "nombre": "CompraAgil_Impresion3D_v2_revcpf_kcs.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/4841-38-COT26/CompraAgil_Impresion3D_v2_revcpf_kcs.pdf",
           "tipo": "pdf"
         }
       ],
-      "descripcion": "DETALLES EN REQUERIMIENTO 81-26",
-      "direccion_entrega": "Profesora Amanda Labarca 124, piso 6 ",
-      "plazo_entrega_dias": 2,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=717503-92-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=717503-92-COT26"
+      "descripcion": "El Centro Nacional de Conservación y Restauración (CNCR) requiere la adquisición del curso en “Introducción a la impresión 3D”, para 2 (dos) personas funcionarias del CNCR relacionadas con las\nintervenciones de conservación y restauración de bienes patrimoniales, con el objetivo de adquirir competencias necesarias para conocer y aplicar la impresión 3D al patrimonio, entregar conceptos básicos del modelado 3D, y entregar habilidades prácticas en manejo de impresoras 3D.\n",
+      "direccion_entrega": "RECOLETA 683",
+      "plazo_entrega_dias": 10,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=4841-38-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=4841-38-COT26"
+    },
+    {
+      "codigo": "2111-845-COT26",
+      "nombre": "Mantención Correctiva de Videolaringoscopio Marca HUGE MED Modelo VD3L Serie D202003192 Inventario 11132",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "HOSPITAL DE URGENCIA ASISTENCIA PUBLICA DR ALEJANDRO DEL RIO",
+      "rut_organismo": "61.608.602-2",
+      "unidad_compra": "Hospital de Urgencia Asistencia Pública",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 500000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-24 08:54",
+      "fecha_cierre": "2026-06-26 09:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "modelo"
+      ],
+      "total_ofertas": 1,
+      "productos": [
+        {
+          "nombre": "Laringoscopios o accesorios",
+          "descripcion": "Características:\nVideolaringoscopio marca HUGE MED, modelo VD3L, serie D202003192, inventario 11132, no enciende.\nRequisitos:\nAdjuntar cotización.\nGarantía mínima 3 meses.\nPlazo de entrega 1 día hábil desde la aceptación de la OC.",
+          "cantidad": 1,
+          "unidad": "EA"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "BB5D7E87-249A-44EF-931A-38DF3CF501C2",
+          "nombre": "REQUERIMIENTOS TÉCNICO.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/2111-845-COT26/REQUERIMIENTOS%20T%C3%89CNICO.pdf",
+          "tipo": "pdf"
+        }
+      ],
+      "descripcion": "Características:\nVideolaringoscopio marca HUGE MED, modelo VD3L, serie D202003192, inventario 11132, no enciende.\nRequisitos:\nAdjuntar cotización.\nGarantía mínima 3 meses.\nPlazo de entrega 1 día hábil desde la aceptación de la OC.",
+      "direccion_entrega": "Curicó 345",
+      "plazo_entrega_dias": 1,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=2111-845-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=2111-845-COT26"
     },
     {
       "codigo": "5756-348-COT26",
@@ -71,12 +169,12 @@
       "monto_clp": 180000,
       "moneda": "CLP",
       "fecha_publicacion": "2026-06-24 17:17",
-      "fecha_cierre": "2026-06-25 17:30",
+      "fecha_cierre": "2026-06-26 09:30",
       "fecha_ultimo_cambio": null,
       "palabras_clave_match": [
         "3d"
       ],
-      "total_ofertas": 2,
+      "total_ofertas": 3,
       "productos": [
         {
           "nombre": "Cinta de tinta para impresora",
@@ -100,45 +198,518 @@
       "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=5756-348-COT26"
     },
     {
-      "codigo": "4841-38-COT26",
-      "nombre": "Adquisición Curso Introducción a la Impresión 3D para el CNCR",
+      "codigo": "3658-281-COT26",
+      "nombre": "COMPRA DE ZAPATILLA DE SEGURIDAD, SEGUN MODELO ARCHIVO ADJUNTO, EL NUMERO SE ENVIARA UNA VEZ EMITIDA ORDEN DE COMPRA.",
       "estado": "publicada",
       "estado_glosa": "Publicada",
-      "organismo": "SERVICIO NACIONAL DEL PATRIMONIO CULTURAL",
-      "rut_organismo": "60.905.000-4",
-      "unidad_compra": "CENTRO NACIONAL DE CONSERVACIÓN Y RESTAURACIÓN",
+      "organismo": "I MUNICIPALIDAD DE CALERA DE TANGO",
+      "rut_organismo": "69.072.800-1",
+      "unidad_compra": "Adquisiciones",
       "region": 13,
       "region_nombre": "Metropolitana",
-      "monto_clp": 840000,
+      "monto_clp": 30000,
       "moneda": "CLP",
-      "fecha_publicacion": "2026-06-23 14:53",
-      "fecha_cierre": "2026-06-26 08:30",
+      "fecha_publicacion": "2026-06-24 17:51",
+      "fecha_cierre": "2026-06-26 09:30",
       "fecha_ultimo_cambio": null,
       "palabras_clave_match": [
-        "3d"
+        "modelo"
       ],
       "total_ofertas": 1,
       "productos": [
         {
-          "nombre": "Capacitación a empleados",
-          "descripcion": "Adquisición Curso Introducción a la Impresión 3D, según TDR adjunto.",
+          "nombre": "Zapatos de hombre",
+          "descripcion": "ZAPATILLA DE SEGURIDAD, SEGUN MODELO ARCHIVO ADJUNTO, EL NUMERO SE ENVIARA UNA VEZ EMITIDA ORDEN DE COMPRA.",
           "cantidad": 1,
           "unidad": "EA"
         }
       ],
       "adjuntos": [
         {
-          "id": "F211AFEA-14E2-48C1-A043-354A53EDCA5C",
-          "nombre": "CompraAgil_Impresion3D_v2_revcpf_kcs.pdf",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/4841-38-COT26/CompraAgil_Impresion3D_v2_revcpf_kcs.pdf",
+          "id": "0D18260D-1443-4BDB-9689-9221313C0345",
+          "nombre": "ZAPATILLA ACTIVEX AX2.docx",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/3658-281-COT26/ZAPATILLA%20ACTIVEX%20AX2.docx",
+          "tipo": "docx"
+        }
+      ],
+      "descripcion": "COMPRA DE ZAPATILLA DE SEGURIDAD, SEGUN MODELO ARCHIVO ADJUNTO, EL NUMERO SE ENVIARA UNA VEZ EMITIDA ORDEN DE COMPRA.",
+      "direccion_entrega": "AVDA CALERA DE TANGO 345, CALERA DE TANGO",
+      "plazo_entrega_dias": 3,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=3658-281-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=3658-281-COT26"
+    },
+    {
+      "codigo": "3658-280-COT26",
+      "nombre": "COMPRA DE ZAPATO DE SEGURIDAD HOMBRE, SEGUN MODELO DE ARCHIVO ADJUNTO, LOS NUMEROS SE ENVIARAN AL MOMENTO DE EMITIR ORDEN DE COMPRA",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "I MUNICIPALIDAD DE CALERA DE TANGO",
+      "rut_organismo": "69.072.800-1",
+      "unidad_compra": "Adquisiciones",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 950000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-24 17:47",
+      "fecha_cierre": "2026-06-26 09:30",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "modelo"
+      ],
+      "total_ofertas": 15,
+      "productos": [
+        {
+          "nombre": "Zapatos de hombre",
+          "descripcion": "ZAPATO DE SEGURIDAD HOMBRE, SEGUN MODELO DE ARCHIVO ADJUNTO, LOS NUMEROS SE ENVIARAN AL MOMENTO DE EMITIR ORDEN DE COMPRA.",
+          "cantidad": 38,
+          "unidad": "PR"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "5BDCEF0A-4193-4758-B648-36C4CF6A1CA1",
+          "nombre": "BOTIN ACTIVEX.docx",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/3658-280-COT26/BOTIN%20ACTIVEX.docx",
+          "tipo": "docx"
+        }
+      ],
+      "descripcion": "COMPRA DE ZAPATO DE SEGURIDAD HOMBRE, SEGUN MODELO DE ARCHIVO ADJUNTO, LOS NUMEROS SE ENVIARAN AL MOMENTO DE EMITIR ORDEN DE COMPRA.",
+      "direccion_entrega": "AVDA CALERA DE TANGO 345, CALERA DE TANGO",
+      "plazo_entrega_dias": 3,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=3658-280-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=3658-280-COT26"
+    },
+    {
+      "codigo": "2460-603-COT26",
+      "nombre": "Adquisición de 2 Lámparas de Escritorio",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "I MUNICIPALIDAD DE PROVIDENCIA",
+      "rut_organismo": "69.070.300-9",
+      "unidad_compra": "Dirección de Administración y Finanzas",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 200000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-22 16:02",
+      "fecha_cierre": "2026-06-26 09:48",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "modelo"
+      ],
+      "total_ofertas": 0,
+      "productos": [
+        {
+          "nombre": "Lámparas de mesa",
+          "descripcion": "Lámpara de escritorio, según Ficha Técnica y Condiciones administrativas adjuntas",
+          "cantidad": 2,
+          "unidad": "EA"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "11E50E36-1A19-4FDB-8D4D-743AF79882CF",
+          "nombre": "FICHA TECNICA LAMPARAS LED.docx",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/2460-603-COT26/FICHA%20TECNICA%20LAMPARAS%20LED.docx",
+          "tipo": "docx"
+        },
+        {
+          "id": "F71C0A39-EEDA-4DBE-9410-BAD55E6CA252",
+          "nombre": "Condiciones administrativas Lamparas de Escritorio.docx",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/2460-603-COT26/Condiciones%20administrativas%20Lamparas%20de%20Escritorio.docx",
+          "tipo": "docx"
+        }
+      ],
+      "descripcion": "El oferente deberá indicar plazo de entrega (días hábiles), adjuntar ficha técnica de los productos ofertados o cotización propia con detalle o indicar marca y modelo. El valor ofertado debe incluir el despacho de los producto. Los productos se recepcionarán con Guía de Despacho. Los proveedores seleccionados sólo podrá facturar una vez que la Orden de Compra correspondiente se encuentre en estado \"Recepción Conforme” en el Portal.",
+      "direccion_entrega": " Pedro de Valdivia 963, Providencia",
+      "plazo_entrega_dias": 5,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=2460-603-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=2460-603-COT26"
+    },
+    {
+      "codigo": "1355402-41-COT26",
+      "nombre": "Servicio de Mantención Preventiva Camioneta",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "CORPORACIÓN MUNICIPAL DE DEPORTES DE LO PRADO",
+      "rut_organismo": "65.157.825-6",
+      "unidad_compra": "CORPORACIÓN MUNICIPAL DE DEPORTES DE LO PRADO",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 700000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-15 12:33",
+      "fecha_cierre": "2026-06-26 09:57",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "modelo"
+      ],
+      "total_ofertas": 0,
+      "productos": [
+        {
+          "nombre": "Kit de mantenimiento de vehículo de soporte en tierra",
+          "descripcion": "Corporación Municipal de Deportes de lo Prado, requiere el servicio de mantención preventiva de camioneta marca GWM Modelo Wingle 7, 22.000 kms, según requerimientos solicitador en términos de referencia adjuntos.\nSe debe adjuntar cotización detallada.",
+          "cantidad": 1,
+          "unidad": "000"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "C7106316-38BE-4917-BC28-9FA7C18B7383",
+          "nombre": "Termino de Referencia Mantencion Preventiva Camioneta.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1355402-41-COT26/Termino%20de%20Referencia%20Mantencion%20Preventiva%20Camioneta.pdf",
           "tipo": "pdf"
         }
       ],
-      "descripcion": "El Centro Nacional de Conservación y Restauración (CNCR) requiere la adquisición del curso en “Introducción a la impresión 3D”, para 2 (dos) personas funcionarias del CNCR relacionadas con las\nintervenciones de conservación y restauración de bienes patrimoniales, con el objetivo de adquirir competencias necesarias para conocer y aplicar la impresión 3D al patrimonio, entregar conceptos básicos del modelado 3D, y entregar habilidades prácticas en manejo de impresoras 3D.\n",
-      "direccion_entrega": "RECOLETA 683",
+      "descripcion": "Corporación Municipal de Deportes de lo Prado, requiere el servicio de mantención preventiva de camioneta marca GWM Modelo Wingle 7, 22.000 kms, según requerimientos solicitados en términos de referencia adjuntos.\nSe debe cumplir con todo lo descrito en los términos de referencia \nSe debe adjuntar cotización detallada.",
+      "direccion_entrega": "San German 859",
+      "plazo_entrega_dias": 3,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1355402-41-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1355402-41-COT26"
+    },
+    {
+      "codigo": "2981-245-COT26",
+      "nombre": "REPUESTO ALTERNATIVO PARA VEHICULO NISSAN",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "POLICIA DE INVESTIGACIONES DE CHILE",
+      "rut_organismo": "60.506.000-5",
+      "unidad_compra": "DEPARTAMENTO ADMINISTRATIVO",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 350000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-25 09:49",
+      "fecha_cierre": "2026-06-26 10:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "modelo"
+      ],
+      "total_ofertas": 3,
+      "productos": [
+        {
+          "nombre": "Vehículos de policía",
+          "descripcion": "SE REQUIERE ADQUIRIR EL REPUESTO ALTERNATIVO PARA VEHÍCULO NISSAN MODELO XTRAIL 4X4 2.5 CORRESPONDIENTE A SOPORTE MOTOR DERECHO 11210-6RA0A, DETALLES EN ARCHIVO ADJUNTO. PARA COTIZAR ADJUNTAR PROPUESTA FORMAL INCLUYENDO DESCRIPCIÓN.",
+          "cantidad": 1,
+          "unidad": "GL"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "2797C8F2-A1C8-4313-85FE-220CA8116CC1",
+          "nombre": "REQUERIMIENTO REPUESTO NISSAN.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/2981-245-COT26/REQUERIMIENTO%20REPUESTO%20NISSAN.pdf",
+          "tipo": "pdf"
+        }
+      ],
+      "descripcion": "SE REQUIERE ADQUIRIR EL REPUESTO ALTERNATIVO PARA VEHÍCULO NISSAN MODELO XTRAIL 4X4 2.5 CORRESPONDIENTE A SOPORTE MOTOR DERECHO 11210-6RA0A, DETALLES EN ARCHIVO ADJUNTO. PARA COTIZAR ADJUNTAR PROPUESTA FORMAL INCLUYENDO DESCRIPCIÓN.",
+      "direccion_entrega": "AV ZAÑARTU 1728",
+      "plazo_entrega_dias": 2,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=2981-245-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=2981-245-COT26"
+    },
+    {
+      "codigo": "1501718-4-COT26",
+      "nombre": "ADQUSICION \" ESPECULOS GRAVE - INSUMOES MEDICOS \"",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "Corporación Municipal de Desarrollo Social de Coli",
+      "rut_organismo": "70.941.900-5",
+      "unidad_compra": "PROGRAMAS DE SALUD PRAPS",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 950000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-24 16:37",
+      "fecha_cierre": "2026-06-26 10:10",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "modelo"
+      ],
+      "total_ofertas": 8,
+      "productos": [
+        {
+          "nombre": "Espéculos quirúrgicos",
+          "descripcion": "ADQUISICION DE 28 ESPECULOS TALLA S DE ACERO QUIRURGICO , MODELO GRAVE REUTILIZABLE, CON SISTEMA DE APERTURA CON TORNILLO REGULADOR, ACABADO , PULIDO LISO ANTIREFLEJO DE USO CLINICO, DEBE SOPORTAR PROCESO DE ESTERILIZACION EN AUTOCLAVE HASTA 134°C,  PROVEEDOR DEBE ADJUNTAR COTIZACION FORMAL CON DESCRIPCION DE LOS PRODUCTOS O ADJUNTAR FICHA TECNICA.",
+          "cantidad": 28,
+          "unidad": "EA"
+        },
+        {
+          "nombre": "Espéculos quirúrgicos",
+          "descripcion": "ADQUISICION DE 28 ESPECULOS TALLA M DE ACERO QUIRURGICO , MODELO GRAVE REUTILIZABLE, CON SISTEMA DE APERTURA CON TORNILLO REGULADOR, ACABADO , PULIDO LISO ANTIREFLEJO DE USO CLINICO, DEBE SOPORTAR PROCESO DE ESTERILIZACION EN AUTOCLAVE HASTA 134°C,  PROVEEDOR DEBE ADJUNTAR COTIZACION FORMAL CON DESCRIPCION DE LOS PRODUCTOS O ADJUNTAR FICHA TECNICA.",
+          "cantidad": 28,
+          "unidad": "EA"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "3BF533EC-2988-4E1B-B32E-E9EC58468011",
+          "nombre": "SOLICITUD FORMAL Y ANEXO.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1501718-4-COT26/SOLICITUD%20FORMAL%20Y%20ANEXO.pdf",
+          "tipo": "pdf"
+        },
+        {
+          "id": "1EC943CC-AA2A-421F-8262-E5274FBC7CA6",
+          "nombre": "ANEXO COMPRA AGIL PARA LA ADQUISICION ESPECULOS.docx",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1501718-4-COT26/ANEXO%20COMPRA%20AGIL%20PARA%20LA%20ADQUISICION%20ESPECULOS.docx",
+          "tipo": "docx"
+        }
+      ],
+      "descripcion": "ADQUISICION DE ESPECULOS  DE ACERO QUIRURGICO , MODELO GRAVE REUTILIZABLE, CON SISTEMA DE APERTURA CON TORNILLO REGULADOR, ACABADO , PULIDO LISO ANTIREFLEJO DE USO CLINICO, DEBE SOPORTAR PROCESO DE ESTERILIZACION EN AUTOCLAVE HASTA 134°C, 28 ESPECULOS TALLA S Y 28 ESPECULOS TALLA M, PROVEEDOR DEBE ADJUNTAR COTIZACION FORMAL CON DESCRIPCION DE LOS PRODUCTOS O ADJUNTAR FICHA TECNICA.",
+      "direccion_entrega": "ALPATACAL 540, COLINA",
+      "plazo_entrega_dias": 5,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1501718-4-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1501718-4-COT26"
+    },
+    {
+      "codigo": "564162-591-COT26",
+      "nombre": "Electrodo de pH con microbulbo y conector BNC + Pin y accesorio Fixed Angle Specular Reflectance",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "UNIVERSIDAD DE SANTIAGO DE CHILE",
+      "rut_organismo": "60.911.000-7",
+      "unidad_compra": "VICERRECTORIA DE INVESTIGACION Y DESARROLLO",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 2933703,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-25 10:11",
+      "fecha_cierre": "2026-06-26 10:15",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "pin"
+      ],
+      "total_ofertas": 0,
+      "productos": [
+        {
+          "nombre": "Electrodos de pH",
+          "descripcion": " Electrodo de pH con microbulbo y conector BNC + Pin. \nTipo: Electrodo combinado de pH para muestras pequeñas. \nVolumen mínimo de muestra: Menor a 100 µL. \nMicrobulbo: Punta esférica de 3 mm de diámetro. \nRango de medición: pH 0 a 13.\nY demás especificaciones técnicas detalladas en el recuadro siguiente.",
+          "cantidad": 1,
+          "unidad": "EA"
+        },
+        {
+          "nombre": "Unidades de laboratorio",
+          "descripcion": "Fixed Angle Specular Reflectance Accessory, FASR \nEquipo compatible: FTIR PerkinElmer Spectrum Two. Código específico para \nSpectrum Two: L1600119. \nTipo de análisis: Reflectancia especular FTIR \nÁngulo de trabajo: ángulo fijo de 16° \nCantidad: 1 unidad \nY demás especificaciones técnicas detalladas en el recuadro siguiente.",
+          "cantidad": 1,
+          "unidad": "EA"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "F995F9A1-EBA6-44B7-B566-F38FDBE47292",
+          "nombre": "DOCUMENTO COMPRA ÁGIL PORTAL UAP (1).pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/564162-591-COT26/DOCUMENTO%20COMPRA%20%C3%81GIL%20PORTAL%20UAP%20%281%29.pdf",
+          "tipo": "pdf"
+        }
+      ],
+      "descripcion": "La Universidad de Santiago de Chile requiere la compra de un electrodo de pH con microbulbo y conector BNC + Pin \ny accesorio Fixed Angle Specular Reflectance según especificaciones técnicas detalladas en el anexo adjunto. Favor revisar anexo adjunto en su punto 6 sobre antecedentes que la cotización formal (formato libre) a adjuntar debe llevar.",
+      "direccion_entrega": "Enrique Kirberg N°3, Estación Central. Departamento de Ingeniería Geoespacial y ambiental, Facultad de Ingeniería  Universidad de Santiago de Chile",
+      "plazo_entrega_dias": 1,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=564162-591-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=564162-591-COT26"
+    },
+    {
+      "codigo": "5520-528-COT26",
+      "nombre": "Suministro de aceite para maquinas compresión",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "UNIVERSIDAD DE CHILE",
+      "rut_organismo": "60.910.000-1",
+      "unidad_compra": "FCFM IDIEM",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 7098951,
+      "moneda": "CLF",
+      "fecha_publicacion": "2026-06-22 11:55",
+      "fecha_cierre": "2026-06-26 10:29",
+      "fecha_ultimo_cambio": "2026-06-22T00:00:00Z",
+      "palabras_clave_match": [
+        "modelo"
+      ],
+      "total_ofertas": 2,
+      "productos": [
+        {
+          "nombre": "Lubricantes de uso general",
+          "descripcion": "Suministro de MOBIL DTE BB BALDE 19 LITROS, MOBIL ATF 220 BALDE 19 LITROS, Solicitudes parcializadas según demanda del servicio. POSTULAR INDICANDO EL VALOR TOTAL DEL PRESUPUESTO, ADJUNTANDO COTIZACIÓN QUE INCLUYA EL VALOR UNITARIO DEL PRODUCTO.",
+          "cantidad": 1,
+          "unidad": "000"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "A7A14F7E-3CC1-493F-B64C-6C01A0EE81D7",
+          "nombre": "CDC COMPRA ÁGIL.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/5520-528-COT26/CDC%20COMPRA%20%C3%81GIL.pdf",
+          "tipo": "pdf"
+        }
+      ],
+      "descripcion": "IDIEM - Universidad de Chile, requiere insumos de mantención y calibración que sean compatibles con la marca y modelo de los equipos, para así poder alcanzar el máximo potencial para lo que estos fueron diseñados, garantizando el funcionamiento. Se debe adjuntar cotización, ficha técnica y contacto para coordinación de la entrega de los productos. Pago con OC a 30 días. Despacho incluido. La vigencia del suministro se extenderá hasta el agotamiento total de los recursos presupuestarios asignados",
+      "direccion_entrega": "Plaza Ercilla 883",
+      "plazo_entrega_dias": 3,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=5520-528-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=5520-528-COT26"
+    },
+    {
+      "codigo": "2686-284-COT26",
+      "nombre": "ADQUISICIÓN DE PILAS MODELO CR 1120",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "I MUNICIPALIDAD DE COLINA",
+      "rut_organismo": "69.071.500-7",
+      "unidad_compra": "SECPLAN",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 100000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-25 11:21",
+      "fecha_cierre": "2026-06-26 11:30",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "modelo"
+      ],
+      "total_ofertas": 1,
+      "productos": [
+        {
+          "nombre": "Pilas alcalinas",
+          "descripcion": "Adquisicion de pilas modelo CR 1120, se adjunta solicitud. ",
+          "cantidad": 30,
+          "unidad": "EA"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "FF2D7636-1B25-462C-82EA-1B14D3024AD8",
+          "nombre": "MEMO-2026-07943 (part 1) - firmado.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/2686-284-COT26/MEMO-2026-07943%20%28part%201%29%20-%20firmado.pdf",
+          "tipo": "pdf"
+        }
+      ],
+      "descripcion": "Adquisicion de pilas de respaldo reloj control, solicitada por Departamento de Gestión de Personas.",
+      "direccion_entrega": "av colina 700",
+      "plazo_entrega_dias": 3,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=2686-284-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=2686-284-COT26"
+    },
+    {
+      "codigo": "3326-366-COT26",
+      "nombre": "SERVICIO DE MANTENIMIENTO CORRECTIVO PARA EL VEHÍCULO FISCAL C-101, MARCA CHEVROLET, MODELO NQR 919, AÑO 2016, DE CARGO DEL DEPARTAMENTO DE TRANSPORTES (L.3).",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "DIRECCION DE LOGISTICA DE CARABINEROS",
+      "rut_organismo": "61.938.500-4",
+      "unidad_compra": "Depto.Transportes L.3",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 2000000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-24 14:40",
+      "fecha_cierre": "2026-06-26 12:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "modelo"
+      ],
+      "total_ofertas": 4,
+      "productos": [
+        {
+          "nombre": "Reparación y pintura carrocerías",
+          "descripcion": "\nSERVICIO DE MANTENIMIENTO CORRECTIVO PARA EL VEHÍCULO FISCAL C-101, MARCA CHEVROLET, MODELO NQR 919, AÑO 2016, DE CARGO DEL DEPARTAMENTO DE TRANSPORTES (L.3).\n\n",
+          "cantidad": 1,
+          "unidad": "000"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "1B4CDAB3-044D-4EBA-A287-C961E80D6488",
+          "nombre": "ANEXO N°2 C-101.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/3326-366-COT26/ANEXO%20N%C2%B02%20C-101.pdf",
+          "tipo": "pdf"
+        },
+        {
+          "id": "20A31593-7865-4FE7-91EE-8D025733C8F0",
+          "nombre": "CARTA DE COMPROMISO N°2.docx",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/3326-366-COT26/CARTA%20DE%20COMPROMISO%20N%C2%B02.docx",
+          "tipo": "docx"
+        },
+        {
+          "id": "FE85D431-97B0-4BF0-9963-86FE04E8B723",
+          "nombre": "NUEVO FORMATO DECLARACIÓN JURADA SIMPLE[1].docx",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/3326-366-COT26/NUEVO%20FORMATO%20DECLARACI%C3%93N%20JURADA%20SIMPLE%5B1%5D.docx",
+          "tipo": "docx"
+        }
+      ],
+      "descripcion": "SERVICIO DE MANTENIMIENTO CORRECTIVO PARA EL VEHÍCULO FISCAL C-101, MARCA CHEVROLET, MODELO NQR 919, AÑO 2016, DE CARGO DEL DEPARTAMENTO DE TRANSPORTES (L.3).",
+      "direccion_entrega": "AV. FERMÍN VIVACETA N°2700",
       "plazo_entrega_dias": 10,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=4841-38-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=4841-38-COT26"
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=3326-366-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=3326-366-COT26"
+    },
+    {
+      "codigo": "1057480-395-COT26",
+      "nombre": "LLAVE PRE WASH MONOMAMDO",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "Bienes y Servicios",
+      "rut_organismo": "61.602.123-0",
+      "unidad_compra": "Hospital de Melipilla",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 400000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-25 11:55",
+      "fecha_cierre": "2026-06-26 12:05",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "modelo"
+      ],
+      "total_ofertas": 7,
+      "productos": [
+        {
+          "nombre": "Llaves",
+          "descripcion": "LLAVE PRE WASH MONOMAMDO",
+          "cantidad": 2,
+          "unidad": "EA"
+        }
+      ],
+      "adjuntos": [],
+      "descripcion": "LLAVE PRE LAVADO WASH MONOMAMDO ALTA PRESION MODELO FP-A7-1, ACERO INOXIDABLE AISI-304. VALVULA CERAMICA DE 1/4 DE GIRO S004.\n(Adjuntar ficha técnica, imagen, no se cancela despacho)",
+      "direccion_entrega": "vicuña mackena 1268 hospital nuevo",
+      "plazo_entrega_dias": 2,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1057480-395-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1057480-395-COT26"
+    },
+    {
+      "codigo": "2287-379-COT26",
+      "nombre": "PARABRISAS CARROCERIA TIPO CAIO MODELO SOLAR LADO DERECHO (COPILOTO) CON INSTALACION.",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "ILUSTRE MUNICIPALIDAD DE MACUL",
+      "rut_organismo": "69.253.700-9",
+      "unidad_compra": "ILUSTRE MUNICIPALIDAD DE MACUL",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 400000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-24 09:49",
+      "fecha_cierre": "2026-06-26 12:20",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "modelo"
+      ],
+      "total_ofertas": 2,
+      "productos": [
+        {
+          "nombre": "Parabrisas para automóviles",
+          "descripcion": "PARABRISAS CARROCERIA TIPO CAIO MODELO SOLAR LADO DERECHO (COPILOTO) CON INSTALACION, PARA BUS MARCA MERCEDES BENZ MODELO OF 1721 AÑO 2015.\n",
+          "cantidad": 1,
+          "unidad": "EA"
+        }
+      ],
+      "adjuntos": [],
+      "descripcion": "LOS PROVEEDORES QUE POSTULEN DEBEN ADJUNTAR COTIZACIÓN CON LA TOTALIDAD DE LOS PRODUCTOS Y DESCRIPCION DETALLADA DE LOS PRODUCTOS Y/O FICHA TECNICA, ADEMAS DEBEN OFERTAR CON EL GIRO O ACTIVIDAD COMERCIAL REGISTRADA EN SII ASOCIADA AL PRODUCTO O SERVICIO SOLICITADO, DE LO CONTRARIO SU OFERTA NO SERA EVALUADA.  \n\n",
+      "direccion_entrega": "AV. QUILIN 3248",
+      "plazo_entrega_dias": 2,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=2287-379-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=2287-379-COT26"
     },
     {
       "codigo": "5178-3274-COT26",
@@ -182,6 +753,702 @@
       "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=5178-3274-COT26"
     },
     {
+      "codigo": "1641-3626-COT26",
+      "nombre": "03-002-347-089\tVALVULA AHMED MODELO FP7(presentar ficha técnica, no se acepta cotización a $ 1 y tampoco ficha comercial de la empresa)",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "SERVICIO DE SALUD OCCIDENTE HOSPITAL SAN JUAN DE DIOS",
+      "rut_organismo": "61.608.204-3",
+      "unidad_compra": "SERVICIO DE SALUD OCCIDENTE HOSPITAL SAN JUAN DE D",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 4000000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-25 12:42",
+      "fecha_cierre": "2026-06-26 12:45",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "modelo"
+      ],
+      "total_ofertas": 1,
+      "productos": [
+        {
+          "nombre": "Suministros para la cirugía plástica oftalmológica o sus productos relacionados",
+          "descripcion": "03-002-347-089 VALVULA AHMED MODELO FP7(presentar ficha técnica, no se acepta cotización a $ 1 y tampoco ficha comercial de la empresa)",
+          "cantidad": 5,
+          "unidad": "EA"
+        }
+      ],
+      "adjuntos": [],
+      "descripcion": "03-002-347-089\tVALVULA AHMED MODELO FP7(presentar ficha técnica, no se acepta cotización a $ 1 y tampoco ficha comercial de la empresa)",
+      "direccion_entrega": " AV PORTALES 3239 PISO-1",
+      "plazo_entrega_dias": 1,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1641-3626-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1641-3626-COT26"
+    },
+    {
+      "codigo": "5178-3474-COT26",
+      "nombre": "PORTA AGUJA CURVO REUTILIZABLE/SP 1055172/JL",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "UNIVERSIDAD DE CHILE",
+      "rut_organismo": "60.910.000-1",
+      "unidad_compra": "UCHILE  Facultad Medicina (5178)",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 1600000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-25 12:48",
+      "fecha_cierre": "2026-06-26 13:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "modelo"
+      ],
+      "total_ofertas": 2,
+      "productos": [
+        {
+          "nombre": "Porta agujas de láser quirúrgicas de uso general",
+          "descripcion": "SE REQUIERE DE PORTA AGUJA CURVO REUTILIZABLE, MARCA TSCS(O EQUIVALENTE). MODELO S401344.1 5,0 MM DE DIAMETRO 330 MM DE LONGITUD MANGO TIPO V2 AUTOCLAVABLE A 134 C.",
+          "cantidad": 4,
+          "unidad": "EA"
+        }
+      ],
+      "adjuntos": [],
+      "descripcion": "SE REQUIERE DE PORTA AGUJA CURVO REUTILIZABLE, MARCA TSCS(O EQUIVALENTE). MODELO S401344.1 5,0 MM DE DIAMETRO 330 MM DE LONGITUD MANGO TIPO V2 AUTOCLAVABLE A 134 C. PARA PARTICIPAR ADJUNTAR COTIZACIÓN FORMAL+FICHA TECNICA+PLAZO DE ENTREGA.CRITERIOS DE EVALUACIÓN SERÁN 50 % CUMPLIMIENTO TECNICO Y 50 % PRECIO",
+      "direccion_entrega": " GRAN AVENIDA 3100",
+      "plazo_entrega_dias": 5,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=5178-3474-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=5178-3474-COT26"
+    },
+    {
+      "codigo": "3326-367-COT26",
+      "nombre": "SERVICIO DE MANTENIMIENTO CORRECTIVO PARA EL VEHÍCULO FISCAL BL-412, MARCA MERCEDES BENZ, MODELO OC 500 RF, AÑO 2014, DE CARGO DEL DEPARTAMENTO DE TRANSPORTES (L.3).",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "DIRECCION DE LOGISTICA DE CARABINEROS",
+      "rut_organismo": "61.938.500-4",
+      "unidad_compra": "Depto.Transportes L.3",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 6200000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-25 12:15",
+      "fecha_cierre": "2026-06-26 13:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "modelo"
+      ],
+      "total_ofertas": 0,
+      "productos": [
+        {
+          "nombre": "Reparación y pintura carrocerías",
+          "descripcion": "\nSERVICIO DE MANTENIMIENTO CORRECTIVO PARA EL VEHÍCULO FISCAL BL-412, MARCA MERCEDES BENZ, MODELO OC 500 RF, AÑO 2014, DE CARGO DEL DEPARTAMENTO DE TRANSPORTES (L.3).\n\n",
+          "cantidad": 1,
+          "unidad": "000"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "8C823F79-2ED7-4269-82D3-175F86363C66",
+          "nombre": "ANEXO N°2 BL-412.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/3326-367-COT26/ANEXO%20N%C2%B02%20BL-412.pdf",
+          "tipo": "pdf"
+        },
+        {
+          "id": "DE3D5F66-1715-43FB-99DC-8981621DD888",
+          "nombre": "CARTA DE COMPROMISO N°2.docx",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/3326-367-COT26/CARTA%20DE%20COMPROMISO%20N%C2%B02.docx",
+          "tipo": "docx"
+        }
+      ],
+      "descripcion": "SERVICIO DE MANTENIMIENTO CORRECTIVO PARA EL VEHÍCULO FISCAL BL-412, MARCA MERCEDES BENZ, MODELO OC 500 RF, AÑO 2014, DE CARGO DEL DEPARTAMENTO DE TRANSPORTES (L.3). El proveedor deberá ser representante de la marca. (SE DEBE ADJUNTAR CERTIFICADO CON FIRMA QUE ACREDITE LA REPRESENTACION). El oferente que no acredite esta condición será considerada inadmisible su oferta.",
+      "direccion_entrega": "AV. FERMÍN VIVACETA N°2700",
+      "plazo_entrega_dias": 6,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=3326-367-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=3326-367-COT26"
+    },
+    {
+      "codigo": "4704-277-COT26",
+      "nombre": "SENSORES DE TEMPERATURA PARA DPF / MOVILIZACION / CESFAM / FORM. 232",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "I MUNICIPALIDAD DE EL MONTE",
+      "rut_organismo": "69.073.000-6",
+      "unidad_compra": "SALUD",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 200000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-25 09:41",
+      "fecha_cierre": "2026-06-26 13:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "modelo"
+      ],
+      "total_ofertas": 0,
+      "productos": [
+        {
+          "nombre": "Sensores de opacidad, partículas o visibilidad",
+          "descripcion": "SENSORES DE TEMPERATURA DE DPF PARA:Patente \tSLPP24-K\nTipo \tAMBULANCIA\nMarca \tFORD\nModelo \tTRANSIT 2.2\nAño \t2023\nColor \tBLANCO\nN° Motor \tTU46501\nN° Chasis \tWF0XXXTTGNTU46501\nProcedencia \tGERMANY\nFabricante \tFORD OF EUROPE\nTipo de sello \tSELLO VERDE\nCombustible \tDIESEL ",
+          "cantidad": 2,
+          "unidad": "EA"
+        }
+      ],
+      "adjuntos": [],
+      "descripcion": "SENSORES DE TEMPERATURA DE DPF PARA:Patente \tSLPP24-K\nTipo \tAMBULANCIA\nMarca \tFORD\nModelo \tTRANSIT 2.2\nAño \t2023\nColor \tBLANCO\nN° Motor \tTU46501\nN° Chasis \tWF0XXXTTGNTU46501\nProcedencia \tGERMANY\nFabricante \tFORD OF EUROPE\nTipo de sello \tSELLO VERDE\nCombustible \tDIESEL ",
+      "direccion_entrega": "AVDA. LOS LIBERTADORES 531",
+      "plazo_entrega_dias": 3,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=4704-277-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=4704-277-COT26"
+    },
+    {
+      "codigo": "1051173-70-COT26",
+      "nombre": "Suministro y despacho de Materiales de Mantención",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "MINISTERIO SECRETARIA GENERAL DE LA PRESIDENCIA DE LA REPUBLICA",
+      "rut_organismo": "60.100.003-2",
+      "unidad_compra": "Ministerio Secretaria General de la Presidencia",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 6000000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-19 12:54",
+      "fecha_cierre": "2026-06-26 13:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "modelo"
+      ],
+      "total_ofertas": 2,
+      "productos": [
+        {
+          "nombre": "Conjuntos generales de herramientas",
+          "descripcion": "De acuerdo a detalles de documentos adjuntos",
+          "cantidad": 1,
+          "unidad": "000"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "DB038FF1-E642-4F8B-895F-CF8AFCA5A12A",
+          "nombre": "Anexo Económico.docx",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1051173-70-COT26/Anexo%20Econ%C3%B3mico.docx",
+          "tipo": "docx"
+        },
+        {
+          "id": "83B4FF3A-71B6-4782-B15A-5832164BC872",
+          "nombre": "Especificaciones técnicas.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1051173-70-COT26/Especificaciones%20t%C3%A9cnicas.pdf",
+          "tipo": "pdf"
+        }
+      ],
+      "descripcion": "El proveedor deberá ofertar en el portal mercado público por el monto total disponible de $6.000.000-, IVA incluido, toda vez que la ejecución de la contratación será por consumo.\n\nPara productos eléctricos o sujetos a certificación obligatoria, el proveedor Marca, modelo y/o ficha técnica de los productos ofertados, cuando corresponda.\n\nConsiderar indicación expresa de que los productos ofertados corresponden a bienes nuevos, sin uso y en condiciones aptas para su utilización inmediata.\n\n\n",
+      "direccion_entrega": "Las entregas deberán efectuarse únicamente en días hábiles, de lunes a viernes, entre las 09:00 y las 16:00 horas, en una o más de las siguientes direcciones: • Calle Morandé N°115, piso 4, Edificio Plaza Constitución, comuna de Santiago. • Calle Compañía de Jesús N°1852, comuna de Santiago. • Calle Teatinos N°92, piso 9, Edificio Moneda Bicentenario, comuna de Santiago.",
+      "plazo_entrega_dias": 1,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1051173-70-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1051173-70-COT26"
+    },
+    {
+      "codigo": "621921-4-COT26",
+      "nombre": "Mantenimiento para equipos de aire acondicionado y climatizador",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "Ejercito de Chile",
+      "rut_organismo": "61.979.900-3",
+      "unidad_compra": "Jefatura de Comunicaciones - JEFCOM",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 2272996,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-24 15:14",
+      "fecha_cierre": "2026-06-26 14:30",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "modelo"
+      ],
+      "total_ofertas": 7,
+      "productos": [
+        {
+          "nombre": "Aires acondicionados",
+          "descripcion": "Mantenimiento para 01 (un) equipo AC Marca: CLARK Modelo: CST-24HRE, 24.000 BTU\nMantenimiento para 01 (un) equipo AC Marca: IKA Modelo: SPLIT MURO, 18.000 BTU\nMantenimiento para 01 (un) equipo Climatizador Marca: STULZ Modelo: CCU221A, 75.000 BTU\n",
+          "cantidad": 1,
+          "unidad": "EA"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "E434D718-8F17-456D-AFE7-C8094CFC80D9",
+          "nombre": "REQUERIMIENTOS TECNICOS PARA MANTENIMIENTO.docx",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/621921-4-COT26/REQUERIMIENTOS%20TECNICOS%20PARA%20MANTENIMIENTO.docx",
+          "tipo": "docx"
+        }
+      ],
+      "descripcion": "La Jefatura de comunicaciones tiene la necesidad de realizar el mantenimiento anual a equipos de aire acondicionados y climatizador con la finalidad de mantener en perfecto estado y operacionalidad el equipamiento que a continuación se detalla:\n01 (un) equipo AC Marca: CLARK Modelo: CST-24HRE, 24.000 BTU\n01 (un) equipo AC Marca: IKA Modelo: SPLIT MURO, 18.000 BTU\n01 (un) equipo Climatizador Marca: STULZ Modelo: CCU221A, 75.000 BTU.\nPara más detalles se adjunta el requerimiento. \n\n\n",
+      "direccion_entrega": "Avenida Las Perdices #700, Peñalolén.",
+      "plazo_entrega_dias": 5,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=621921-4-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=621921-4-COT26"
+    },
+    {
+      "codigo": "2583-464-COT26",
+      "nombre": "Se solicita Servicio de Mantención Preventiva para Campímetro Computarizado /Programa N°2 componente 5 Gestión de Procesos/Resolutividad/DISAM/SP 44964/POS.",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "I MUNICIPALIDAD DE MAIPU",
+      "rut_organismo": "69.070.900-7",
+      "unidad_compra": "I. MUNI  MAIPU  DEPARTAMENTO DE ADQUISICIONES",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 600000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-25 14:46",
+      "fecha_cierre": "2026-06-26 14:48",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "modelo"
+      ],
+      "total_ofertas": 0,
+      "productos": [
+        {
+          "nombre": "Analizadores de función visual oftálmica",
+          "descripcion": "Servicio de Mantención Preventiva para Campímetro Computarizado. Equipo campo visual Computarizado Humprey Marca Carl Zeiss Modelo HFA-840. El servicio corresponde a 1 Mantención Preventiva. Se adjunta ficha con el requerimiento completo. Requisito: el proveedor debe tener representación vigente de la marca en Chile, la que se debe adjuntar a la oferta de este proceso como obligatorio conjuntamente a su propuesta o cotización. Indicar garantía igual o superior a 6 meses.",
+          "cantidad": 1,
+          "unidad": "EA"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "CB433254-B679-4B35-9B91-133D00676A15",
+          "nombre": "FICHA DEL REQUERIMIENTO.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/2583-464-COT26/FICHA%20DEL%20REQUERIMIENTO.pdf",
+          "tipo": "pdf"
+        },
+        {
+          "id": "CA65ADB3-7745-4D19-A10E-3427A9C952C8",
+          "nombre": "Multas y procedimiento para Compra Ágil 2583-464-COT26.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/2583-464-COT26/Multas%20y%20procedimiento%20para%20Compra%20%C3%81gil%202583-464-COT26.pdf",
+          "tipo": "pdf"
+        },
+        {
+          "id": "BF16D10E-048B-4A6D-8006-B243EC2E4D6D",
+          "nombre": "AUTORIZACIÓN PAGO CON TRANSFERENCIA BANCARIA.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/2583-464-COT26/AUTORIZACI%C3%93N%20PAGO%20CON%20TRANSFERENCIA%20BANCARIA.pdf",
+          "tipo": "pdf"
+        },
+        {
+          "id": "2EA11053-4DAB-4A8E-A6A7-4459F3A79E2D",
+          "nombre": "CLAUSULAS DE INADMISIBILIDAD EN COMPRA AGIL.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/2583-464-COT26/CLAUSULAS%20DE%20INADMISIBILIDAD%20EN%20COMPRA%20AGIL.pdf",
+          "tipo": "pdf"
+        }
+      ],
+      "descripcion": "Servicio de Mantención Preventiva para Campímetro Computarizado. Equipo campo visual Computarizado Humprey Marca Carl Zeiss Modelo HFA-840. El servicio corresponde a 1 Mantención Preventiva. Se adjunta ficha con el requerimiento completo. Requisito el proveedor debe tener representación vigente de la marca en Chile, la que se debe adjuntar a la oferta de este proceso como obligatorio conjuntamente a su propuesta o cotización. ",
+      "direccion_entrega": "Mantención para realizar en Centro CREAP, ubicado en Avenida 5 de Abril N° 1150, comuna de Maipú. Contacto Daniel Bustos Fono: 226776066.",
+      "plazo_entrega_dias": 10,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=2583-464-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=2583-464-COT26"
+    },
+    {
+      "codigo": "721-68-COT26",
+      "nombre": "Adquisición de 4 Bombas de Recirculación para circuito de Calefacción para Casa Matriz CAPREDENA",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "CAJA DE PREVISION DE LA DEFENSA NACIONAL",
+      "rut_organismo": "61.108.000-k",
+      "unidad_compra": "CAPREDENA",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 4400000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-25 11:54",
+      "fecha_cierre": "2026-06-26 15:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "modelo"
+      ],
+      "total_ofertas": 2,
+      "productos": [
+        {
+          "nombre": "Bombas de circulación",
+          "descripcion": "Adquisición de 4 Bombas de Recirculación para circuito de Calefacción para Casa Matriz CAPREDENA",
+          "cantidad": 4,
+          "unidad": "EA"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "DDA0552A-0DBF-4707-85E3-9F8C7A813889",
+          "nombre": "Rqto. Compra Ágil 2026 - Adquisición Bombas Calefacción 25.06.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/721-68-COT26/Rqto.%20Compra%20%C3%81gil%202026%20-%20Adquisici%C3%B3n%20Bombas%20Calefacci%C3%B3n%2025.06.pdf",
+          "tipo": "pdf"
+        },
+        {
+          "id": "6BAA4AB7-549C-4AE2-A4B0-2FCDFF7CFB60",
+          "nombre": "Fomulario Pago a Proveedores 2025.docx",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/721-68-COT26/Fomulario%20Pago%20a%20Proveedores%202025.docx",
+          "tipo": "docx"
+        }
+      ],
+      "descripcion": "Se requiere la adquisición de 4 Bombas de Recirculación para el circuito de Calefacción para Casa Matriz, de acuerdo a especificaciones técnicas indicadas en requerimiento. Adjuntar obligatoriamente: Ficha técnica del producto, indicando modelo, 2 años de garantía y plazo de entrega, de no ser así, la oferta será declarada inadmisible",
+      "direccion_entrega": "Paseo Bulnes 102 ó Zenteno 105",
+      "plazo_entrega_dias": 10,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=721-68-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=721-68-COT26"
+    },
+    {
+      "codigo": "1079866-191-COT26",
+      "nombre": "ADQUISICION DE MANTENCION PREVENTIVA DE LOS 10.000.- KMS DE VEHICULO FISCAL AC-2420 DE CARGO DEL DEAOPERPOL ZONA OESTE DOE: 256901929",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "SECCIÓN COMPRAS ZONA SANTIAGO OESTE",
+      "rut_organismo": "65.091.977-7",
+      "unidad_compra": "SECCIÓN COMPRAS ZONA SANTIAGO OESTE",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 198990,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-24 17:50",
+      "fecha_cierre": "2026-06-26 15:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "modelo"
+      ],
+      "total_ofertas": 1,
+      "productos": [
+        {
+          "nombre": "Vehículos de policía",
+          "descripcion": "CONTRATACION DEL SERVICIO MANTENCION PREVENTIVA DE 10.000 KM AL VEHICULOS FISCAL AC-2420\nTIPO DE VEHÍCULO AUTOMOVIL\nMARCA NISSAN \nMODELO SENTRA MC ADVANCE CVT\nAÑO 2025\nVIN: 3N1AB8AE1SY200033\nNRO. MOTOR: MR20-706137J\n\nIMPORTANTE: DICHAS MANTENCIONES SEAN EFECTUADAS POR UN REPRESENTANTE AUTORIZADO DE LA MARCA NISSAN.",
+          "cantidad": 1,
+          "unidad": "EA"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "EA224792-EE31-435E-8D1D-46F9A15AFA82",
+          "nombre": "REQUERIMIENTO AC-2420 DEAOPERPOL OESTE.xlsx",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1079866-191-COT26/REQUERIMIENTO%20AC-2420%20DEAOPERPOL%20OESTE.xlsx",
+          "tipo": "xlsx"
+        }
+      ],
+      "descripcion": "CONTRATACION DEL SERVICIO MANTENCION PREVENTIVA DE 10.000 KM AL VEHICULOS FISCAL AC-2420\nTIPO DE VEHÍCULO AUTOMOVIL\nMARCA NISSAN \nMODELO SENTRA MC ADVANCE CVT\nAÑO 2025\nVIN: 3N1AB8AE1SY200033\nNRO. MOTOR: MR20-706137J\n\nDICHAS MANTENCIONES SEAN EFECTUADAS POR UN REPRESENTANTE AUTORIZADO DE LA MARCA NISSAN.",
+      "direccion_entrega": "AVENIDA TENIENTE CRUZ N°720 , PUDAHUEL",
+      "plazo_entrega_dias": 2,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1079866-191-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1079866-191-COT26"
+    },
+    {
+      "codigo": "1422051-202-COT26",
+      "nombre": "Reparación Camioneta Jac, Modelo X200",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "JUNTA DE ALCALDES PROVIDENCIA LAS CONDES LA REINA",
+      "rut_organismo": "70.064.202-K",
+      "unidad_compra": "JUNTA DE ALCALDES PROVIDENCIA LAS CONDES LA REINA",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 2000000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-19 16:40",
+      "fecha_cierre": "2026-06-26 15:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "modelo"
+      ],
+      "total_ofertas": 1,
+      "productos": [
+        {
+          "nombre": "Patines de freno de tambor",
+          "descripcion": "Cambio de patines de freno. Trabajo debe ser realizado en un servicio que cuente con certificación de la marca y con repuestos originales.",
+          "cantidad": 2,
+          "unidad": "EA"
+        },
+        {
+          "nombre": "Sensores de velocidad",
+          "descripcion": "Cambio de sensores de ABS. Trabajo debe ser realizado en un servicio que cuente con certificación de la marca y con repuestos originales.",
+          "cantidad": 1,
+          "unidad": "EA"
+        },
+        {
+          "nombre": "Cilindros principales",
+          "descripcion": "Cambio de cilindros de freno. Trabajo debe ser realizado en un servicio que cuente con certificación de la marca y con repuestos originales.",
+          "cantidad": 1,
+          "unidad": "EA"
+        },
+        {
+          "nombre": "Líneas de freno",
+          "descripcion": "Cambio de piolas de freno de mano. Trabajo debe ser realizado en un servicio que cuente con certificación de la marca y con repuestos originales.",
+          "cantidad": 1,
+          "unidad": "EA"
+        },
+        {
+          "nombre": "Válvulas de motor",
+          "descripcion": "Cambio de válvula EGR. Trabajo debe ser realizado en un servicio que cuente con certificación de la marca y con repuestos originales.",
+          "cantidad": 1,
+          "unidad": "EA"
+        }
+      ],
+      "adjuntos": [],
+      "descripcion": "Se necesita reparación de Camioneta Jac, modelo X200, doble cabina año 2023. Criterios de evaluación: Especificaciones Técnicas 50%, Plazo de Entrega 20%, Precio 30%. Contacto: Luis Pozo Stuardo, Fono:9 93435809, Correo: lpozo@juntadealcaldes.cl. Dirección de Despacho: Av. Francisco Bilbao N°8751, La Reina, Interior Padre Hurtado.",
+      "direccion_entrega": "Av. Francisco Bilbao N°8751",
+      "plazo_entrega_dias": 3,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1422051-202-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1422051-202-COT26"
+    },
+    {
+      "codigo": "1002772-1864-COT26",
+      "nombre": "ELECTRODO PROFUNDIDAD MODELO BIS ADULTO",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "SERVICIO SALUD OCCIDENTE HOSPITAL DR FELIX BULNES CERDA",
+      "rut_organismo": "61.608.205-1",
+      "unidad_compra": "INSUMOS CLINICOS",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 404000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-25 16:46",
+      "fecha_cierre": "2026-06-26 17:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "modelo"
+      ],
+      "total_ofertas": 1,
+      "productos": [
+        {
+          "nombre": "Adaptadores, cables o electrodos de electrocardiografía (ECG)",
+          "descripcion": "0110212463  ELECTRODO PROFUNDIDAD MODELO BIS ADULTO\n",
+          "cantidad": 20,
+          "unidad": "EA"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "8BA892FA-F054-4987-A187-27A17717FD50",
+          "nombre": "NORMA TECNICA N 247 DECRETO EXENTO N 33 SRA 2025 - NORMA-TECNICA-.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1002772-1864-COT26/NORMA%20TECNICA%20N%20247%20DECRETO%20EXENTO%20N%2033%20SRA%202025%20-%20NORMA-TECNICA-.pdf",
+          "tipo": "pdf"
+        }
+      ],
+      "descripcion": "SE REQUIERE COTIZACIÓN PARA ELECTRODO PROFUNDIDAD MODELO BIS ADULTO\n**Adjuntar ficha técnica e imagen del producto**\n“Todo proveedor de dispositivos médicos debe dar cumplimiento a la Norma N°226.\ny a norma técnica 247. (Normas de trazabilidad de dispositivos médicos)\nAdemás, es deseable que los productos posean codificación según GS1.”\nDespachos parcializados según requerimientos de bodega.",
+      "direccion_entrega": "MAPOCHO SUR 7432",
+      "plazo_entrega_dias": 2,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1002772-1864-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1002772-1864-COT26"
+    },
+    {
+      "codigo": "2583-466-COT26",
+      "nombre": "Se solicita Arriendo Equipo de Rayos por 5 meses/Programa N°2 componente 5, Gestión de Procesos/SAR/DISAM/SP 44973/POS.",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "I MUNICIPALIDAD DE MAIPU",
+      "rut_organismo": "69.070.900-7",
+      "unidad_compra": "I. MUNI  MAIPU  DEPARTAMENTO DE ADQUISICIONES",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 7000000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-25 17:52",
+      "fecha_cierre": "2026-06-26 18:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "modelo"
+      ],
+      "total_ofertas": 0,
+      "productos": [
+        {
+          "nombre": "Equipo de examen por rayos X",
+          "descripcion": "Arriendo mensual Equipo de Rayos por 5 meses de Panel Flat SE Lite 43*35 C35 para equipo Rayos X Fujifilm, Modelo FDR Smart FGXR-52S-3. S/N: DXE2380199A con instalación, configuraciones, calibraciones integrando detector como segundo FPD en el sistema. Se solicita Ficha o propuesta de la oferta como obligatorio. Se adjunta requerimiento completo. Los días de entrega son los que debe quedar el equipo instalado y operativo.",
+          "cantidad": 1,
+          "unidad": "GL"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "F54CD62A-EB4E-4286-8808-B5BDAA05D88E",
+          "nombre": "MULTAS COMPRA ÁGIL- FLAT PANEL.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/2583-466-COT26/MULTAS%20COMPRA%20%C3%81GIL-%20FLAT%20PANEL.pdf",
+          "tipo": "pdf"
+        },
+        {
+          "id": "E0AC7AE0-119C-43A9-9DB6-81BA6D7F97A6",
+          "nombre": "REQUERIMIENTO TÉCNICO PANEL FLAT.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/2583-466-COT26/REQUERIMIENTO%20T%C3%89CNICO%20PANEL%20FLAT.pdf",
+          "tipo": "pdf"
+        },
+        {
+          "id": "4191724A-1EF2-4701-A951-E513160F88C0",
+          "nombre": "AUTORIZACIÓN PAGO CON TRANSFERENCIA BANCARIA.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/2583-466-COT26/AUTORIZACI%C3%93N%20PAGO%20CON%20TRANSFERENCIA%20BANCARIA.pdf",
+          "tipo": "pdf"
+        },
+        {
+          "id": "2C4D2357-4CF4-4377-BD42-F7B944050622",
+          "nombre": "CLAUSULAS DE INADMISIBILIDAD EN COMPRA AGIL.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/2583-466-COT26/CLAUSULAS%20DE%20INADMISIBILIDAD%20EN%20COMPRA%20AGIL.pdf",
+          "tipo": "pdf"
+        },
+        {
+          "id": "EBF495AA-2166-40C5-A0EA-46D9A7B107FE",
+          "nombre": "NOTIFICACIÓN PARA SERVICIOS O PRODUCTOS EN EL TIEMPO.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/2583-466-COT26/NOTIFICACI%C3%93N%20PARA%20SERVICIOS%20O%20PRODUCTOS%20EN%20EL%20TIEMPO.pdf",
+          "tipo": "pdf"
+        }
+      ],
+      "descripcion": "Se solicita Arriendo mensual Equipo de Rayos por 5 meses de Panel Flat SE Lite 43x35 C35 para equipo Rayos X Fujifilm, Modelo FDR Smart FGXR-52S-3. S/N: DXE2380199A con instalación. Se adjunta requerimiento completo. Los días de entrega son los que debe quedar el equipo instalado y operativo, pero hay otro día que se debe respetar que es cuando el equipo necesite revisión la respuesta debe ser antes de las 48 horas.",
+      "direccion_entrega": "Instalación en SAR ubicado en:  Avenida Nueva San Martín N°776, Contacto Daniel Bustos Fono: 226776066",
+      "plazo_entrega_dias": 2,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=2583-466-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=2583-466-COT26"
+    },
+    {
+      "codigo": "1057472-263-COT26",
+      "nombre": "CABLE PACIENTE MONITOR DE APNEA",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "HOSPITAL CLINICO METROPOLITANO EL CARMEN DOCTOR LUIS VALENTIN FERRADA",
+      "rut_organismo": "61.980.320-5",
+      "unidad_compra": "Bienes y Servicios",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 500000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-15 09:13",
+      "fecha_cierre": "2026-06-26 18:18",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "modelo",
+        "pines"
+      ],
+      "total_ofertas": 0,
+      "productos": [
+        {
+          "nombre": "Adaptadores, cables o electrodos de electrocardiografía (ECG)",
+          "descripcion": "Se requiere la adquisición de 02 Cable de paciente compatible con Monitor de apnea marca Getemed modelo Vitaguard VG2100. Cable troncal de ECG. Conector de color verde, 8 pines de conexión.Se adjunta imagen referencial. Enviar ficha técnica y cotización por separado. Se solicitará muestra de ser necesario.",
+          "cantidad": 2,
+          "unidad": "EA"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "999B8E03-770E-476A-9B16-760F7FAA900A",
+          "nombre": "Cable pcte. Monitor Apnea.jpg",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1057472-263-COT26/Cable%20pcte.%20Monitor%20Apnea.jpg",
+          "tipo": "jpg"
+        }
+      ],
+      "descripcion": "Se requiere la adquisición de 02 Cable de paciente compatible con Monitor de apnea marca Getemed modelo Vitaguard VG2100. Cable troncal de ECG. Conector de color verde, 8 pines de conexión. Enviar ficha técnica y cotización por separado. Se solicitará muestra de ser necesario.",
+      "direccion_entrega": "CAMINO A RINCONADA 1201",
+      "plazo_entrega_dias": 15,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1057472-263-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1057472-263-COT26"
+    },
+    {
+      "codigo": "2934-52-COT26",
+      "nombre": "MANTENCIÓN PREVENTIVA EQUIPO DE RX DENTAL",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "I MUNICIPALIDAD DE ALHUE",
+      "rut_organismo": "69.073.200-9",
+      "unidad_compra": "DPTO DE SALUD",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 1200000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-19 17:46",
+      "fecha_cierre": "2026-06-27 08:26",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "modelo"
+      ],
+      "total_ofertas": 1,
+      "productos": [
+        {
+          "nombre": "Unidades de Rayos X dentales",
+          "descripcion": "Mantención Preventiva para estos equipos en mes de Junio o Julio 2026\nRayos X Digital Dental, Fabricante: Owendy, Modelo Elios Mural, N° Serie:  29190729\nDigitalizador Air Techniques SCANX DUO, N° serie: 009589\nDe acuerdo a FR N° 76 Y TTRR.\nAdjuntar antecedentes indicados.\n",
+          "cantidad": 1,
+          "unidad": "EA"
+        },
+        {
+          "nombre": "Unidades de Rayos X dentales",
+          "descripcion": "Mantención Preventiva para estos equipos en mes de Diciembre 2026\nRayos X Digital Dental, Fabricante: Owendy, Modelo Elios Mural, N° Serie:29190729\nDigitalizador Air Techniques SCANX DUO, N° serie: 009589\nDe acuerdo a FR N° 76 Y TTRR.\nAdjuntar antecedentes indicados.",
+          "cantidad": 1,
+          "unidad": "EA"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "37941B53-F5A1-4C37-AC3B-49DC7C622C32",
+          "nombre": "FR N°76 MANTENCIÓN PREVENTIVA RX DENTAL.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/2934-52-COT26/FR%20N%C2%B076%20MANTENCI%C3%93N%20PREVENTIVA%20RX%20DENTAL.pdf",
+          "tipo": "pdf"
+        },
+        {
+          "id": "5B03E69F-B9FC-413A-8520-3B3048432DD4",
+          "nombre": "TTRR MANTENCIÓN PREVENTIVA RX DENTAL.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/2934-52-COT26/TTRR%20MANTENCI%C3%93N%20PREVENTIVA%20RX%20DENTAL.pdf",
+          "tipo": "pdf"
+        },
+        {
+          "id": "002CC21A-3F5A-4DA0-8265-8DB8B6C85445",
+          "nombre": "MULTAS Y SANCIONES.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/2934-52-COT26/MULTAS%20Y%20SANCIONES.pdf",
+          "tipo": "pdf"
+        }
+      ],
+      "descripcion": "Mantención Preventiva para estos equipos (una unidad por equipo y corresponde a 2 mantenciones anuales por cada uno, en meses de Junio o Julio y Diciembre 2026)\nRayos X Digital Dental, Fabricante: Owendy, Modelo Elios Mural, N° Serie:  29190729\nDigitalizador Air Techniques SCANX DUO, N° serie: 009589\n",
+      "direccion_entrega": "21 DE MAYO 440, VILLA ALHUÉ COMUNA DE ALHUE",
+      "plazo_entrega_dias": 10,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=2934-52-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=2934-52-COT26"
+    },
+    {
+      "codigo": "5424-101-COT26",
+      "nombre": "Reparación Compresor",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "UNIVERSIDAD DE CHILE",
+      "rut_organismo": "60.910.000-1",
+      "unidad_compra": "VAEC Dirección de Salud Estudiantil UCH",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 70000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-23 12:39",
+      "fecha_cierre": "2026-06-27 17:20",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "modelo"
+      ],
+      "total_ofertas": 0,
+      "productos": [
+        {
+          "nombre": "Kits de reparación de bombas",
+          "descripcion": "Se requiere la reparación de 1 compresor dental marca CILA modelo DS 7004. -Cambio de filtro de aire c/ llave reguladora de 1/4\n-Verificación del correcto funcionamiento del equipo posterior a la reparación. Ver adjunto\n",
+          "cantidad": 1,
+          "unidad": "EA"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "160B9434-1BB0-4195-B3DE-D3784625B5BF",
+          "nombre": "DETALLE DEL REQUERIMIENTO COMPRESOR DENTAL.docx",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/5424-101-COT26/DETALLE%20DEL%20REQUERIMIENTO%20COMPRESOR%20DENTAL.docx",
+          "tipo": "docx"
+        },
+        {
+          "id": "9A3297F2-8344-445B-A8CA-75062D2DACA9",
+          "nombre": "foto filtro de compresor cila CSE ED junio2026.jpg",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/5424-101-COT26/foto%20filtro%20de%20compresor%20cila%20CSE%20ED%20junio2026.jpg",
+          "tipo": "jpg"
+        }
+      ],
+      "descripcion": "Se requiere la reparación de 1 compresor dental marca CILA modelo DS 7004.\nEspecificación del servicio:\n•\tCambio de filtro de aire c/ llave reguladora de 1/4\n•\tVerificación del correcto funcionamiento del equipo posterior a la reparación. VER ADJUNTO EL DETALLE.\n",
+      "direccion_entrega": "Avenida La Paz 1002",
+      "plazo_entrega_dias": 2,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=5424-101-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=5424-101-COT26"
+    },
+    {
       "codigo": "3269-33-COT26",
       "nombre": "S.A. 34 MANTENCIÓN Y ACTUALIZACIÓN SOFTWARE AUTOCAD CIVIL 3D SINGLE- USER, POR UN AÑO",
       "estado": "publicada",
@@ -221,6 +1488,780 @@
       "plazo_entrega_dias": 3,
       "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=3269-33-COT26",
       "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=3269-33-COT26"
+    },
+    {
+      "codigo": "2460-609-COT26",
+      "nombre": "Adquisición de Hervidor de agua 10 Litros",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "I MUNICIPALIDAD DE PROVIDENCIA",
+      "rut_organismo": "69.070.300-9",
+      "unidad_compra": "Dirección de Administración y Finanzas",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 70000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-25 11:23",
+      "fecha_cierre": "2026-06-29 10:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "modelo"
+      ],
+      "total_ofertas": 8,
+      "productos": [
+        {
+          "nombre": "Hervidores y teteras",
+          "descripcion": "Hervidor de agua de 10 litro, Ficha Técnica y Condiciones administrativas adjuntas",
+          "cantidad": 1,
+          "unidad": "EA"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "3DF1CAC5-1143-4549-86A0-5A61A2C5F4C0",
+          "nombre": "Condiciones administrativas Hervidor 10 litros.docx",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/2460-609-COT26/Condiciones%20administrativas%20Hervidor%2010%20litros.docx",
+          "tipo": "docx"
+        },
+        {
+          "id": "A4090CE9-6983-4145-984F-46729ED670D0",
+          "nombre": "FICHA TECNICA HERVIDOR DE AGUA DE 10 LITROS.docx",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/2460-609-COT26/FICHA%20TECNICA%20HERVIDOR%20DE%20AGUA%20DE%2010%20LITROS.docx",
+          "tipo": "docx"
+        }
+      ],
+      "descripcion": "El oferente deberá indicar plazo de entrega (días hábiles), adjuntar ficha técnica de los productos ofertados o cotización propia con detalle o bien indicar marca y modelo, indicar garantia, adjuntar certificación SEC. El valor ofertado debe incluir el despacho de los producto. Los productos se recepcionarán con Guía de Despacho. Los proveedores seleccionados sólo podrá facturar una vez que la Orden de Compra correspondiente se encuentre en estado \"Recepción Conforme” en el Portal.\n",
+      "direccion_entrega": "Pedro de Valdivia 963",
+      "plazo_entrega_dias": 5,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=2460-609-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=2460-609-COT26"
+    },
+    {
+      "codigo": "1153624-25-COT26",
+      "nombre": "COMPRA DE LLAVES DE LAVAMANOS CON TECNOLOGIA DE AHORRO",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "SUBSECRETARIA DE RELACIONES ECONOMICAS INTERNACIONALES",
+      "rut_organismo": "62.000.670-K",
+      "unidad_compra": "Departamento Adquisiciones MN",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 700000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-24 09:30",
+      "fecha_cierre": "2026-06-29 11:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "modelo"
+      ],
+      "total_ofertas": 11,
+      "productos": [
+        {
+          "nombre": "Grifos",
+          "descripcion": "doce (12) llaves de lavamanos con tecnología de ahorro/temporizador, \n•\tMarca: FAS o equivalente. \n•\tAlta: 200 mm.\n•\tMaterial: Latón.\n•\tUso del grifo: Lavamanos.\n•\tAcabado: Brillante.\n•\tTipo de grifo: Temporizado.\n",
+          "cantidad": 1,
+          "unidad": "EA"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "4DD8ED9B-2AF3-4A38-96A9-3F6130E6D0F9",
+          "nombre": "TDR Compra de Llaves con tecnología de ahorro.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1153624-25-COT26/TDR%20Compra%20de%20Llaves%20con%20tecnolog%C3%ADa%20de%20ahorro.pdf",
+          "tipo": "pdf"
+        }
+      ],
+      "descripcion": "ANTECEDENTES GENERALES:\nLa Subsecretaría de Relaciones Económicas Internacionales requiere realizar la compra de doce (12) llaves de lavamanos con tecnología de ahorro/temporizador, según modelo y características exigidas en la presente ficha. Las empresas interesadas en participar del presente proceso de Compra Ágil deberán ofertar por el producto indicado, teniendo presente los criterios de evaluación más abajo señalados. \nAquellas empresas que no tengan la posibilidad de cumplir específicame\n",
+      "direccion_entrega": "Teatinos #180, piso 9",
+      "plazo_entrega_dias": 5,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1153624-25-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1153624-25-COT26"
+    },
+    {
+      "codigo": "761391-548-COT26",
+      "nombre": "EE/ MANTENIMIENTO DE 40.000 KMS M. BENZ SPRINTER",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "Comando de Personal",
+      "rut_organismo": "61.103.032-0",
+      "unidad_compra": "Base Aérea El Bosque",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 950000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-22 15:10",
+      "fecha_cierre": "2026-06-29 12:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "modelo"
+      ],
+      "total_ofertas": 0,
+      "productos": [
+        {
+          "nombre": "Vehículos de transporte a granel",
+          "descripcion": "MANTENIMIENTO DE 40.000 KMS M. BENZ SPRINTER,  Acreditar representación de la marca Mercedes Benz en Chile, con el fin de mantener la garantía de fábrica. - Contar con servicio técnico en la Región Metropolitana. - Que preste el servicio de mantenimiento a vehículo marca Mercedes Benz modelo Sprinter 417 CDI de propiedad de la Fuerza Aérea de Chile.",
+          "cantidad": 1,
+          "unidad": "EA"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "95C83898-D45D-489A-B166-583095090447",
+          "nombre": "BASES MANTTO M. BENZ.docx",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/761391-548-COT26/BASES%20MANTTO%20M.%20BENZ.docx",
+          "tipo": "docx"
+        }
+      ],
+      "descripcion": "EE/ MANTENIMIENTO DE 40.000 KMS M. BENZ SPRINTER SE SOLICITA ADJUNTAR COTIZACIÓN DEL REQUERIMIENTO SE SOLICITA QUE EN COTIZACIÓN SE INDIQUE CLARAMENTE LA VALIDEZ DE LA OFERTA QUE DEBERÁ - Acreditar representación de la marca Mercedes Benz en Chile, con el fin de mantener la garantía de fábrica. - Contar con servicio técnico en la Región Metropolitana. - Que preste el servicio de mantenimiento a vehículo marca Mercedes Benz modelo Sprinter 417 CDI de propiedad de la Fuerza Aérea de Chile.",
+      "direccion_entrega": "GRAN AVENIDA JOSE MIGUEL CARRERA #10525 P.32 1/2",
+      "plazo_entrega_dias": 5,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=761391-548-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=761391-548-COT26"
+    },
+    {
+      "codigo": "559322-177-COT26",
+      "nombre": "Estación NVIDIA DGX SPARK (o similar).",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "UNIVERSIDAD DE CHILE",
+      "rut_organismo": "60.910.000-1",
+      "unidad_compra": "FCFM Centro AMTC",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 6000000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-23 09:35",
+      "fecha_cierre": "2026-06-29 23:59",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "modelo"
+      ],
+      "total_ofertas": 2,
+      "productos": [
+        {
+          "nombre": "Computadores de escritorio",
+          "descripcion": "Estación NVIDIA DGX SPARK, Grace Blackwell (GB10), 1000 AI Tops, 128GB Memoria Unificada, 4TB SSD (características mínimas, modelo de referencia). Favor adjuntar cotización para ser revisada y comparada. El precio no será el único criterio de elección.",
+          "cantidad": 1,
+          "unidad": "EA"
+        }
+      ],
+      "adjuntos": [],
+      "descripcion": "Se solicita una estación NVIDIA DGX SPARK, Grace Blackwell (GB10), 1000 AI Tops, 128GB Memoria Unificada, 4TB SSD (características mínimas, modelo de referencia). Favor adjuntar cotización para ser revisada y comparada. El precio no será el único criterio de elección.",
+      "direccion_entrega": "Avenida Tupper 2007",
+      "plazo_entrega_dias": 5,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=559322-177-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=559322-177-COT26"
+    },
+    {
+      "codigo": "5531-102-COT26",
+      "nombre": "Accesorios y memorias para camara fotografica del MBA y Edex",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "UNIVERSIDAD DE CHILE",
+      "rut_organismo": "60.910.000-1",
+      "unidad_compra": "FCFM Departamento de Ingeniería Industrial",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 900000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-25 15:58",
+      "fecha_cierre": "2026-06-30 09:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "modelo"
+      ],
+      "total_ofertas": 1,
+      "productos": [
+        {
+          "nombre": "Tarjetas de módulo de memoria",
+          "descripcion": "tarjeta SanDisk Extreme PRO SDXC 512 GB (tarjeta de memoria cámara fotográfica).\nAdjuntar ficha técnica de los productos ofertados con imagen. ",
+          "cantidad": 2,
+          "unidad": "EA"
+        },
+        {
+          "nombre": "Micrófonos",
+          "descripcion": "micrófonos de solapa (lavalier) con patrón omnidireccional, conector Jack 3,5 mm (mini-plug) y adaptador, cable de al menos 5 metros de longitud, cable de baja transmisión de ruido por manipulación, sistema de reducción de vibraciones y accesorios de fijación y protección (clip y espuma antiviento).\nAdjuntar ficha técnica de los productos ofertados con imagen. ",
+          "cantidad": 2,
+          "unidad": "EA"
+        },
+        {
+          "nombre": "Baterías recargables",
+          "descripcion": "Batería recargable de ion-litio Canon modelo LP-E8, para cámaras fotográficas digitales compatibles de la serie EOS. Voltaje nominal de 7,2 V, una capacidad de 1.120 mAh y una energía de 8,1 Wh. Incluir cargador.\nAdjuntar ficha técnica de los productos ofertados con imagen. ",
+          "cantidad": 1,
+          "unidad": "EA"
+        },
+        {
+          "nombre": "Trípodes",
+          "descripcion": "trípode de altura ajustable para cámaras fotográficas y equipos audiovisuales, aluminio resistente y liviano, con patas telescópicas de bloqueo seguro, altura de al menos 1,70 metros, cabeza móvil para ajuste de posición, base estándar compatible con cámaras y pies antideslizantes para mayor estabilidad. Incluir funda de transporte.\nAdjuntar ficha técnica de los productos ofertados con imagen. ",
+          "cantidad": 2,
+          "unidad": "EA"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "6D9CD681-6B7E-48AD-8F25-C4E5974C32EE",
+          "nombre": "detalle.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/5531-102-COT26/detalle.pdf",
+          "tipo": "pdf"
+        }
+      ],
+      "descripcion": "-tarjeta SanDisk Extreme PRO SDXC 512 GB \n-micrófonos de solapa \n-Batería recargable de ion-litio Canon modelo LP-E8, para cámaras fotográficas digitales compatibles de la serie EOS. Incluir cargador.\n-trípode de altura ajustable para cámaras fotográficas y equipos \n\nAdjuntar ficha técnica de los productos ofertados con imagen. \n",
+      "direccion_entrega": "Beauchef 851, Santiago.",
+      "plazo_entrega_dias": 5,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=5531-102-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=5531-102-COT26"
+    },
+    {
+      "codigo": "2460-590-COT26",
+      "nombre": "Adquisición de Audífono para SECPLA. SBC N° 786.-",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "I MUNICIPALIDAD DE PROVIDENCIA",
+      "rut_organismo": "69.070.300-9",
+      "unidad_compra": "Dirección de Administración y Finanzas",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 30000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-18 17:34",
+      "fecha_cierre": "2026-06-30 09:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "modelo"
+      ],
+      "total_ofertas": 3,
+      "productos": [
+        {
+          "nombre": "Audífonos",
+          "descripcion": "Audífono Over-Ear tipo HP, Potencia 10 mW, con micrófono integrado y cancelación de ruido, conexión mínima 3.5 mm de color negro. Garantía mínima de 6 meses. Según condiciones administrativas adjuntas.-",
+          "cantidad": 1,
+          "unidad": "EA"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "E0041D44-A7F0-4133-91BE-995ADDB0408E",
+          "nombre": "Condiciones administrativas.docx",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/2460-590-COT26/Condiciones%20administrativas.docx",
+          "tipo": "docx"
+        }
+      ],
+      "descripcion": "El oferente deberá indicar plazo de entrega en días hábiles y adjuntar Ficha Técnica y/o descripción técnica o bien indicar marca y modelo del producto ofertado. El valor ofertado debe considerar el despacho. Los productos se recepcionarán con Guía se Despacho. El proveedor seleccionado SÓLO podrá facturar una vez que la Orden de compra correspondiente se encuentre en estado \"recepción Conforme” en el Porta.",
+      "direccion_entrega": "Pedro de Valdivia N° 963 (Secpla)",
+      "plazo_entrega_dias": 5,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=2460-590-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=2460-590-COT26"
+    },
+    {
+      "codigo": "1274277-86-COT26",
+      "nombre": "4 SILLAS PARA TERRAZA MODELO ADIRONDACK  , ENVIAR DISPONIBILIDAD DE COLORES",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "CORPORACION DE FOMENTO DE DESARROLLO COMUNAL Y PRODUCTIVO",
+      "rut_organismo": "65.215.635-5",
+      "unidad_compra": "CORPORACION DE FOMENTO DE DESARROLLO COMUNAL Y PRODUCTIVO",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 150000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-25 12:53",
+      "fecha_cierre": "2026-06-30 10:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "modelo"
+      ],
+      "total_ofertas": 3,
+      "productos": [
+        {
+          "nombre": "Sillas de terraza",
+          "descripcion": "4 SILLAS PARA TERRAZA MODELO ADIRONDACK  , ENVIAR DISPONIBILIDAD DE COLORES\nADJUNTO FOTO DE REFERENCIA ",
+          "cantidad": 4,
+          "unidad": "EA"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "B34A0AFF-22AC-4E1E-9794-925A1A4A9EDF",
+          "nombre": "A_Modern_Adirondack_Chair.jpg",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1274277-86-COT26/A_Modern_Adirondack_Chair.jpg",
+          "tipo": "jpg"
+        }
+      ],
+      "descripcion": "\n4 SILLAS PARA TERRAZA MODELO ADIRONDACK  , ENVIAR DISPONIBILIDAD DE COLORES\nADJUNTO FOTO DE REFERENCIA ",
+      "direccion_entrega": "SANTA ROSA # 9014 LA GRANJA ",
+      "plazo_entrega_dias": 2,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1274277-86-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1274277-86-COT26"
+    },
+    {
+      "codigo": "1515304-130-COT26",
+      "nombre": "ADQ. REPUESTOS AERONÁUTICA BÁSICA Y COMPONENTES DE USO FRECUENTE, TALES COMO WASHER, ROD,  FILTROS Y ELEMENTOS DE FIJACIÓN. PARA HELICOP. BELL 206  DE O.S.4  NCU 254598815",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "Carabineros de Chile",
+      "rut_organismo": "65.260.551-6",
+      "unidad_compra": "Sec Compras Zona Frontera y Servicios Especiales",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 6700000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-22 13:02",
+      "fecha_cierre": "2026-06-30 12:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "pin"
+      ],
+      "total_ofertas": 1,
+      "productos": [
+        {
+          "nombre": "Helicóptero de transporte militar",
+          "descripcion": "ADQ. REPUESTOS AERONÁUTICA BÁSICA Y COMPONENTES DE USO FRECUENTE, TALES COMO WASHER, ROD, PIN COTTER, NUT, FILTROS Y ELEMENTOS DE FIJACIÓN, DE ACUERDO CON LOS REQUERIMIENTOS ADJUNTOS.",
+          "cantidad": 1,
+          "unidad": "EA"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "10D4A483-AD57-4084-AEC9-9945043D23E4",
+          "nombre": "REQUERIMIENTOS TÉCNICOS - ADQ. REPUESTOS BELL 206 C-08-.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1515304-130-COT26/REQUERIMIENTOS%20T%C3%89CNICOS%20-%20ADQ.%20REPUESTOS%20BELL%20206%20C-08-.pdf",
+          "tipo": "pdf"
+        }
+      ],
+      "descripcion": "ADQ. REPUESTOS DE AERONÁUTICA BÁSICA Y COMPONENTES DE USO FRECUENTE, TALES COMO  WASHER, ROD, PIN COTTER, NUT, FILTROS Y ELEMENTOS DE FIJACIÓN, PARA HELICOP. BELL 206  DE ACUERDO CON LOS REQUERIMIENTOS ADJUNTOS.",
+      "direccion_entrega": "AV. ALCALDE FERNANDO CASTILLO VELASCO 7941",
+      "plazo_entrega_dias": 55,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1515304-130-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1515304-130-COT26"
+    },
+    {
+      "codigo": "2460-616-COT26",
+      "nombre": "Kit de 2 Micrófonos Portátiles con Parlante incorporado. SBC 796.",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "I MUNICIPALIDAD DE PROVIDENCIA",
+      "rut_organismo": "69.070.300-9",
+      "unidad_compra": "Dirección de Administración y Finanzas",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 120000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-25 10:10",
+      "fecha_cierre": "2026-06-30 15:30",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "modelo"
+      ],
+      "total_ofertas": 6,
+      "productos": [
+        {
+          "nombre": "Micrófonos",
+          "descripcion": "Kit de 2 Micrófonos Portátiles con Parlante incorporado, según \"Ficha Técnica\" y \"Condiciones administrativas Adicionales\" en adjunto.",
+          "cantidad": 1,
+          "unidad": "EA"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "68E94972-ADF3-4878-A9C6-64F6C671A1BA",
+          "nombre": "Condiciones administrativas Adicionales.docx",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/2460-616-COT26/Condiciones%20administrativas%20Adicionales.docx",
+          "tipo": "docx"
+        },
+        {
+          "id": "CE00DAE1-5C37-4303-9507-228BD448D2AB",
+          "nombre": "Ficha Técnica.docx",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/2460-616-COT26/Ficha%20T%C3%A9cnica.docx",
+          "tipo": "docx"
+        }
+      ],
+      "descripcion": "Se deberá indicar plazo de entrega en días hábiles, garantía y adjuntar ficha técnica o cotización propia con TODOS los detalles técnicos o bien indicar marca y modelo. El valor ofertado debe incluir el despacho del producto. Los productos se recepcionarán con Guía de Despacho. La factura se debe emitir una vez que la Orden de Compra tenga \"Recepción Conforme\" en el portal.",
+      "direccion_entrega": "Marchant Pereira 880",
+      "plazo_entrega_dias": 10,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=2460-616-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=2460-616-COT26"
+    },
+    {
+      "codigo": "188-308-COT26",
+      "nombre": "MEMO N.° 130 “ADQUISICIÓN INSUMOS FUNGIBLES DE MONITOR D60 “.",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "CORP MUNICIPAL DE EDUC SALUD CULTURA Y RECREACION DE LA FLORIDA",
+      "rut_organismo": "70.933.700-9",
+      "unidad_compra": "Corporación Municipal de la Florida",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 6742900,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-25 17:06",
+      "fecha_cierre": "2026-06-30 17:20",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "modelo"
+      ],
+      "total_ofertas": 0,
+      "productos": [
+        {
+          "nombre": "Accesorios o desfibriladores implantables o generadores de marcapasos cardíacos",
+          "descripcion": "• Parche de adulto desechable para desfibrilador sin auto identificación. • Características: • Electrodo preconectado multifunción para paciente adulto, sin auto identificación y radioluciente. • Medidas: 12,2” (8 cm2) largo del cable: 82,6” + 4” (210 cm., + 10 cm.) duración parche: 5 años (a partir de la fecha de elaboración) • Compatibilidad de uso con serie Beneheart D30/D60/C1/C2 • Producto libre de látex.",
+          "cantidad": 70,
+          "unidad": "EA"
+        },
+        {
+          "nombre": "Accesorios o desfibriladores implantables o generadores de marcapasos cardíacos",
+          "descripcion": "• Parche pediátrico desechable para desfibrilador sin auto identificación. • Características: • Electrodos multifunción pediátrico, sin auto identificación • Medidas: 12,2” (8 cm2) largo del cable: 82,6” + 4” (210 cm., + 10 cm.) duración parche: 5 años (a partir de la fecha de elaboración) • Compatibilidad de uso con serie Beneheart D30/D60/C1/C2 • Producto libre de látex.",
+          "cantidad": 20,
+          "unidad": "EA"
+        },
+        {
+          "nombre": "Accesorios o desfibriladores implantables o generadores de marcapasos cardíacos",
+          "descripcion": "• Cable ECG integrativo ADU/PED 12 pines 4 lead, IEC tipo SNAP, Pre-hosp compatible con monitor-desfibrilador mindray D60 (EXCLUYENTE)",
+          "cantidad": 3,
+          "unidad": "EA"
+        },
+        {
+          "nombre": "Accesorios o desfibriladores implantables o generadores de marcapasos cardíacos",
+          "descripcion": "• Terminal 6 lead para ECG 12 derivadas, IEC, SNAP compatible con monitor-desfibrilador mindray D60 (EXCLUYENTE)\n\n",
+          "cantidad": 3,
+          "unidad": "EA"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "10BE2D05-3BBC-48C1-9B01-200F68FEF491",
+          "nombre": "COMPRA ÁGIL ADQUISICIÓN INSUMOS FUNGIBLES DE MONITOR D60.docx",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/188-308-COT26/COMPRA%20%C3%81GIL%20ADQUISICI%C3%93N%20INSUMOS%20FUNGIBLES%20DE%20MONITOR%20D60.docx",
+          "tipo": "docx"
+        }
+      ],
+      "descripcion": "INSUMOS FUNGIBLES DE MONITOR D60 COMPATIBLE CON LOS EQUIPOS MINDRAY, COMPATIBLE CON LOS EQUIPOS EXCLUYENTE MODELO D60 ",
+      "direccion_entrega": " Las Pataguas N.° 850",
+      "plazo_entrega_dias": 3,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=188-308-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=188-308-COT26"
+    },
+    {
+      "codigo": "3970-6-COT26",
+      "nombre": "MANTENCIÓN ELEVADOR HIDRAULICO DOS COLUMNAS",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "Dirección General de Carabineros de Chile",
+      "rut_organismo": "60.505.000-k",
+      "unidad_compra": "Depto.I.O.Crim.O.S.9",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 955275,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-25 12:21",
+      "fecha_cierre": "2026-06-30 18:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "modelo"
+      ],
+      "total_ofertas": 0,
+      "productos": [
+        {
+          "nombre": "Servicios de mantenimiento de ascensores",
+          "descripcion": "MANTENCIÓN DE ELEVADOR HIDRAULICO DOS TORRES, MARCA HESHBON, MODELO HL-27M, CAPACIDAD 400 K,CONFORME A REQUERIMIENTOS TÉCNICOS DESCRITAS EN ANEXO REQUERIMIENTOS TÉCNICOS, ADJUNTOS",
+          "cantidad": 1,
+          "unidad": "EA"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "1D1B2BEA-8773-41D3-B466-8502B0C30094",
+          "nombre": "REQUERIMIENTO TECNICO ELEVADOR HIDRAULICO DEPTO. SEBV.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/3970-6-COT26/REQUERIMIENTO%20TECNICO%20ELEVADOR%20HIDRAULICO%20DEPTO.%20SEBV.pdf",
+          "tipo": "pdf"
+        },
+        {
+          "id": "0CE0D209-20F0-41F0-93B1-264189444B7F",
+          "nombre": "REQUERIMIENTO TECNICO ELEVADOR HIDRAULICO DEPTO. SEBV.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/3970-6-COT26/REQUERIMIENTO%20TECNICO%20ELEVADOR%20HIDRAULICO%20DEPTO.%20SEBV.pdf",
+          "tipo": "pdf"
+        }
+      ],
+      "descripcion": "MANTENCIÓN DE ELEVADOR HIFRAULICO, DOS TORRES, MARCA HESHBON, MODELO HL-27M, 400 K   ",
+      "direccion_entrega": "ESCANILLA NRO. 560, COMUNA DE INDEPENDENCIA",
+      "plazo_entrega_dias": 10,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=3970-6-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=3970-6-COT26"
+    },
+    {
+      "codigo": "1186229-72-COT26",
+      "nombre": "Adquisión de Cajas Modelo Americana",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "SERVICIO DE REGISTRO CIVIL E IDENTIFICACION",
+      "rut_organismo": "61.002.000-3",
+      "unidad_compra": "Unidad de Compras Nivel Central",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 7000000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-24 08:50",
+      "fecha_cierre": "2026-07-01 12:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "modelo"
+      ],
+      "total_ofertas": 8,
+      "productos": [
+        {
+          "nombre": "Organizadores o cajas de almacenamiento de archivos",
+          "descripcion": "Cajas de archivo, según requerimiento técnico",
+          "cantidad": 2500,
+          "unidad": "EA"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "62904702-B7C6-4AE5-AAEC-DA8EE98AB5AA",
+          "nombre": "Informe Técnico Adquisición de Cajas de cartón tipo Americanas.docx",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1186229-72-COT26/Informe%20T%C3%A9cnico%20Adquisici%C3%B3n%20de%20Cajas%20de%20cart%C3%B3n%20tipo%20Americanas.docx",
+          "tipo": "docx"
+        }
+      ],
+      "descripcion": "Cajas Modelo Americana; Medidas: Largo 45 cms. X Ancho 30 cms. x Alto 26 cms.",
+      "direccion_entrega": "Catedral 1772",
+      "plazo_entrega_dias": 4,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1186229-72-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1186229-72-COT26"
+    },
+    {
+      "codigo": "519302-52-COT26",
+      "nombre": "SERVICIO DE MANTENCIÓN PREVENTIVA DE EQUIPOS DE CLIMATIZACIÓN DE PRECISIÓN INROW UBICADOS EN EL DATA CENTER DE INAPI",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "INSTITUTO NACIONAL DE PROPIEDAD INDUSTRIAL",
+      "rut_organismo": "65.999.669-3",
+      "unidad_compra": "Servicios Generales",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 5000000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-25 14:59",
+      "fecha_cierre": "2026-07-01 15:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "modelo"
+      ],
+      "total_ofertas": 2,
+      "productos": [
+        {
+          "nombre": "Servicios de reparación, mantenimiento o reparación de aire acondicionado",
+          "descripcion": "SERVICIOS DE MANTENCIÓN PREVENTIVA PARA 2 EQUIPOS DE CLIMATIZACIÓN DE PRECISIÓN INROW MODELO ACRD101 UBICADOS EN EL DATA CENTER del Instituto Nacional de Propiedad Industrial.\n\nRequisitos mínimos y solicitud completa en adjunto.",
+          "cantidad": 2,
+          "unidad": "EA"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "CA52FD3E-BF53-44D6-8228-599ADBF876E2",
+          "nombre": "COMPRA_AGIL_-_MANTENCION_IN_ROW_ nuevo llamado.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/519302-52-COT26/COMPRA_AGIL_-_MANTENCION_IN_ROW_%20nuevo%20llamado.pdf",
+          "tipo": "pdf"
+        }
+      ],
+      "descripcion": "Se requiere la contratación de 2 (dos) SERVICIOS DE MANTENCIÓN PREVENTIVA PARA 2 EQUIPOS DE CLIMATIZACIÓN DE PRECISIÓN INROW MODELO ACRD101 UBICADOS EN EL DATA CENTER del Instituto Nacional de Propiedad Industrial.",
+      "direccion_entrega": "Av. Libertador Bernardo O’Higgins N°194, Comuna Santiago ",
+      "plazo_entrega_dias": 30,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=519302-52-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=519302-52-COT26"
+    },
+    {
+      "codigo": "3539-28-COT26",
+      "nombre": "ADQUISICIÓN DE SCANNER CON FORA INSTITUCIONAL ( EXENTO DE IVA)",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "Ejercito de Chile",
+      "rut_organismo": "61.101.041-9",
+      "unidad_compra": "Jefatura Estado Mayor General del Ejército - JEMGE",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 1222803,
+      "moneda": "USD",
+      "fecha_publicacion": "2026-06-23 17:04",
+      "fecha_cierre": "2026-07-02 08:00",
+      "fecha_ultimo_cambio": "2026-06-23T00:00:00Z",
+      "palabras_clave_match": [
+        "modelo"
+      ],
+      "total_ofertas": 2,
+      "productos": [
+        {
+          "nombre": "Escáner",
+          "descripcion": "SCÁNER MODELO SV600 SIMILAR SCANSNAP",
+          "cantidad": 1,
+          "unidad": "EA"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "27E30DB1-1EBF-4578-9CDD-930DEACD7039",
+          "nombre": "SCANNER DCHEE FORA.jpg",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/3539-28-COT26/SCANNER%20DCHEE%20FORA.jpg",
+          "tipo": "jpg"
+        }
+      ],
+      "descripcion": "ADQUISICIÓN DE SCANNER CON GARANTÍA, DE LO CUAL SE REQUIERE QUE LA EMPRESA QUE PARTICIPE, ACEPTE EL PAGO DE \"FORA\" EXENTA DE IVA , CONFORME A LA LEY 18.948 ART 106 , SE ADJUNTA ESPECIFICACIONES TÉCNICAS Y MODELO DEL PROYECTOR, SE REQUIERE QUE LA EMPRESA TENGA EL STOCK EN TERRITORIO NACIONAL YA QUE LA ENTREGA DEBE SER EN 3 DÍAS HÁBILES AL MOMENTO DE ENVIAR LA ORDEN DE COMPRA A PROVEEDOR, EN CASO DE NO CUMPLIR LO ESTABLECIDO, SE ELEGIRÁ A AL SIGUIENTE PROVEEDOR QUE CUMPLA CON LO REQUERIDO.",
+      "direccion_entrega": "CALLE ZENTENO 45 SANTIAGO CENTRO",
+      "plazo_entrega_dias": 3,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=3539-28-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=3539-28-COT26"
+    },
+    {
+      "codigo": "2305-22-COT26",
+      "nombre": "Provisión e instalación de quicios, bisagras hidráulicas para recambio en mamparas  y reparación del herraje superior de puerta de acceso.",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "UNIDAD DE ANALISIS FINANCIERO",
+      "rut_organismo": "61.973.000-3",
+      "unidad_compra": "Unidad de Análisis Financiero",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 2000000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-25 16:31",
+      "fecha_cierre": "2026-07-02 10:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "modelo"
+      ],
+      "total_ofertas": 2,
+      "productos": [
+        {
+          "nombre": "Puertas de cristal",
+          "descripcion": "El área de SSGG solicita la adquisición e instalación de elementos para mamparas de ingreso de los piso 17 y 15:\n- 3 quicios hidráulicos BTS 75-V. \n- 2 brazos hidráulicos (igual o similar a modelo Yale).\n- 6 bisagras superiores para recambio.\n- 6 retenedores magnéticos. \n- Reparación del herraje superior puertas de acceso",
+          "cantidad": 1,
+          "unidad": "000"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "1C2530DF-33D4-466A-83B5-C69E70F3FB08",
+          "nombre": "Anexo quicios puertas 15-17.docx",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/2305-22-COT26/Anexo%20quicios%20puertas%2015-17.docx",
+          "tipo": "docx"
+        }
+      ],
+      "descripcion": "El área de SSGG solicita la adquisición e instalación de elementos para mamparas de ingreso de los piso 17 y 15:\n- 3 quicios hidráulicos BTS 75-V. \n- 2 brazos hidráulicos (igual o similar a modelo Yale).\n- 6 bisagras superiores para recambio.\n- 6 retenedores magnéticos. \n- Reparación del herraje superior puertas de acceso\nEl servicio contempla suministro completo, instalación, puesta en funcionamiento y garantía mínima de 6 meses, asegurando cierre seguro y óptimo desempeño. ",
+      "direccion_entrega": "Moneda 975, piso 15",
+      "plazo_entrega_dias": 3,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=2305-22-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=2305-22-COT26"
+    },
+    {
+      "codigo": "622-85-COT26",
+      "nombre": "Contratación curso \"AUDITORÍA CLOUD\"",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "TESORERIA GENERAL DE LA REPUBLICA",
+      "rut_organismo": "60.805.000-0",
+      "unidad_compra": "Tesorería General de la República",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 2500000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-25 16:08",
+      "fecha_cierre": "2026-07-06 15:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "modelo"
+      ],
+      "total_ofertas": 0,
+      "productos": [
+        {
+          "nombre": "Programas o cursos no diplomados a distancia",
+          "descripcion": "Fortalecer las capacidades institucionales en auditoría de servicios cloud, para asegurar la seguridad, el cumplimiento normativo y la adecuada gestión de riesgos en el uso de tecnologías en la nube. El curso debe contar con al menos 20 horas, las que deben ser realizadas en modalidad virtual sincrónica (con profesor/a en línea) \nEl curso está dirigido a 5 personas. El curso se debe dictar en forma cerrada y exclusiva para funcionarios/as de TGR\n",
+          "cantidad": 1,
+          "unidad": "EA"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "89EBF706-0ADE-4075-ACA7-19F54751CE68",
+          "nombre": "Compra Ágil Auditoría Cloud vf.docx",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/622-85-COT26/Compra%20%C3%81gil%20Auditor%C3%ADa%20Cloud%20vf.docx",
+          "tipo": "docx"
+        },
+        {
+          "id": "7D22EF7A-6443-4DDB-B663-75C667E3A0A5",
+          "nombre": "Compra Ágil Auditoría Cloud vf.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/622-85-COT26/Compra%20%C3%81gil%20Auditor%C3%ADa%20Cloud%20vf.pdf",
+          "tipo": "pdf"
+        }
+      ],
+      "descripcion": "Desarrollar las competencias necesarias para auditar, supervisar y evaluar la seguridad, el cumplimiento y la eficiencia de los servicios en la nube bajo un modelo de responsabilidad compartida, asegurando la integridad de los datos públicos en entornos AWS, Google Cloud y Oracle Cloud. ",
+      "direccion_entrega": "Bandera 341 piso 4 Santiago Centro",
+      "plazo_entrega_dias": 60,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=622-85-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=622-85-COT26"
+    },
+    {
+      "codigo": "3474-140-COT26",
+      "nombre": "BOTAS CON PEALES DE CUERO PRINCIPE DE GALES MODELO CHANTILLY CON CAÑA DE CHAROL",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "Dirección de Educación, Doctrina e Historia de Carabineros",
+      "rut_organismo": "61.979.960-7",
+      "unidad_compra": "Escuela de Carabineros",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 5320490,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-24 18:17",
+      "fecha_cierre": "2026-07-06 15:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "modelo"
+      ],
+      "total_ofertas": 4,
+      "productos": [
+        {
+          "nombre": "Botas de hombre",
+          "descripcion": "BOTAS CON PEALES DE CUERO PRINCIPE DE GALES MODELO CHANTILLY CON CAÑA DE CHAROL CONFORME A LO SOLICITADO EN ANEXOS",
+          "cantidad": 17,
+          "unidad": "EA"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "CD8BC398-B6AF-4F6E-AA90-EE164C23685A",
+          "nombre": "ANEXO NRO. 01 EE.TT - BOTAS DE MONTAR.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/3474-140-COT26/ANEXO%20NRO.%2001%20EE.TT%20-%20BOTAS%20DE%20MONTAR.pdf",
+          "tipo": "pdf"
+        },
+        {
+          "id": "31CE70EE-8C76-422E-831A-6796DDFE5D61",
+          "nombre": "ANEXO NRO. 02 EE.TT - PEALES_BOTAS_DE_MONTAR.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/3474-140-COT26/ANEXO%20NRO.%2002%20EE.TT%20-%20PEALES_BOTAS_DE_MONTAR.pdf",
+          "tipo": "pdf"
+        },
+        {
+          "id": "7F4D0F23-57EC-44E2-BE9D-2214C2525B48",
+          "nombre": "ANEXO N°03 FORMULARIO DESIGNACIÓN EJECUTIVO COORDINADOR.doc",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/3474-140-COT26/ANEXO%20N%C2%B003%20FORMULARIO%20DESIGNACI%C3%93N%20EJECUTIVO%20COORDINADOR.doc",
+          "tipo": "doc"
+        },
+        {
+          "id": "BC3FF31F-7D94-4B7E-97C9-132E53E6DFF4",
+          "nombre": "ANEXO N°04 - PLAZO DE ENTREGA.doc",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/3474-140-COT26/ANEXO%20N%C2%B004%20-%20PLAZO%20DE%20ENTREGA.doc",
+          "tipo": "doc"
+        },
+        {
+          "id": "61EA394E-F62B-4F03-9557-932B3B419862",
+          "nombre": "ANEXO N°05 - MUESTRA BOTAS - PEALES.docx",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/3474-140-COT26/ANEXO%20N%C2%B005%20-%20MUESTRA%20BOTAS%20-%20PEALES.docx",
+          "tipo": "docx"
+        }
+      ],
+      "descripcion": "BOTAS CON PEALES DE CUERO PRINCIPE DE GALES MODELO CHANTILLY CON CAÑA DE CHAROL  CONFORME A LO SOLICITADO EN ANEXOS",
+      "direccion_entrega": "ANTONIO VARAS 1842",
+      "plazo_entrega_dias": 30,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=3474-140-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=3474-140-COT26"
     }
   ]
 }
