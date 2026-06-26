@@ -36,11 +36,17 @@ MAX_ADJ_MB = 25  # no descargar archivos más grandes que esto
 _kw_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), "keywords.json")
 if os.path.exists(_kw_file):
     with open(_kw_file, encoding="utf-8") as _f:
-        PALABRAS_CLAVE = json.load(_f).get("palabras_clave", [])
+        _kw_data = json.load(_f)
+        PALABRAS_CLAVE = _kw_data.get("palabras_clave", [])
+        BUSCAR_TODO = bool(_kw_data.get("buscar_todo", False))
 else:
     PALABRAS_CLAVE = ["impresion 3d", "filamento", "prototipo", "plastico", "fabricacion"]
+    BUSCAR_TODO = False
 
-REGIONES = [13]
+# Si "buscar_todo" está activo, se ignora el filtro de región (se busca en
+# todo Chile) y se agrega una pasada sin palabra clave para traer todas las
+# oportunidades publicadas, no solo las que matchean PALABRAS_CLAVE.
+REGIONES = [] if BUSCAR_TODO else [13]
 ESTADOS = ["publicada"]
 FETCH_DETALLE = True
 OUTPUT_FILE = os.environ.get("OUTPUT_FILE", "oportunidades.json")
@@ -53,12 +59,11 @@ ESTADO_CODIGO = {2: "publicada", 3: "cerrada", 5: "cancelada", 6: "desierta"}
 ESTADO_PARAM = {"publicada": 2, "cerrada": 3, "cancelada": 5, "desierta": 6}
 
 REGION_NOMBRES = {
-    1:"Tarapacá",2:"Antofagasta",3:"Atacama",4:"Coquimbo",5:"Valparaíso",
-    6:"O'Higgins",7:"Maule",8:"Biobío",9:"Araucanía",10:"Los Lagos",
-    11:"Aysén",12:"Magallanes y Antártica",13:"Metropolitana",14:"Los Ríos",
-    15:"Arica y Parinacota",16:"Ñuble",
+    1: "Tarapacá", 2: "Antofagasta", 3: "Atacama", 4: "Coquimbo", 5: "Valparaíso",
+    6: "O'Higgins", 7: "Maule", 8: "Biobío", 9: "Araucanía", 10: "Los Lagos",
+    11: "Aysén", 12: "Magallanes y Antártica", 13: "Metropolitana", 14: "Los Ríos",
+    15: "Arica y Parinacota", 16: "Ñuble",
 }
-
 
 def _get_buscador(params=None, intento=0):
     """GET a la API del buscador con reintentos."""
@@ -66,7 +71,7 @@ def _get_buscador(params=None, intento=0):
     while True:
         try:
             resp = requests.get(url, headers={"x-api-key": BUSCADOR_API_KEY, "Accept": "application/json"},
-                                params=params, timeout=60)
+                                 params=params, timeout=60)
         except (requests.exceptions.Timeout, requests.exceptions.ConnectionError) as e:
             intento += 1
             if intento > MAX_REINTENTOS:
@@ -92,13 +97,16 @@ def _get_buscador(params=None, intento=0):
             return None
         return data.get("payload")
 
-
 def buscar_por_palabra(keyword):
-    """Busca procesos por palabra clave usando el buscador público."""
+    """Busca procesos por palabra clave usando el buscador público.
+    keyword puede ser "" (cadena vacía) para traer todo sin filtrar por texto.
+    """
     items, pagina = [], 1
     estado_id = ESTADO_PARAM.get((ESTADOS[0] if ESTADOS else "publicada"), 2)
     while pagina <= MAX_PAGINAS:
-        params = {"keywords": keyword, "status": estado_id, "order_by": "recent", "page_number": pagina}
+        params = {"status": estado_id, "order_by": "recent", "page_number": pagina}
+        if keyword:
+            params["keywords"] = keyword
         if REGIONES and len(REGIONES) == 1:
             params["region"] = REGIONES[0]
         payload = _get_buscador(params)
@@ -111,12 +119,10 @@ def buscar_por_palabra(keyword):
         pagina += 1
     return items
 
-
 def traer_ficha(codigo):
     payload = _get_buscador({"action": "ficha", "code": codigo})
     time.sleep(PAUSA_SEG)
     return payload
-
 
 # ---------- Adjuntos ----------
 
@@ -127,11 +133,10 @@ def _safe_filename(nombre):
     nombre = re.sub(r"\s+", " ", nombre).strip()
     return nombre[:150] or "archivo"
 
-
 def listar_adjuntos_publico(codigo):
     try:
         r = requests.get(f"{ADJ_BASE}/listar/{quote(codigo)}",
-                         headers={"user_key": ADJ_USER_KEY}, timeout=30)
+                          headers={"user_key": ADJ_USER_KEY}, timeout=30)
         if r.status_code != 200:
             return []
         data = r.json()
@@ -142,12 +147,11 @@ def listar_adjuntos_publico(codigo):
         print(f"  · listar adjuntos {codigo}: {e}", file=sys.stderr)
         return []
 
-
 def descargar_adjunto(guid, destino):
     try:
         with requests.get(f"{ADJ_BASE}/descargar/{guid}",
-                          headers={"user_key": ADJ_USER_KEY},
-                          timeout=120, stream=True) as r:
+                           headers={"user_key": ADJ_USER_KEY},
+                           timeout=120, stream=True) as r:
             if r.status_code != 200:
                 return False
             cl = r.headers.get("Content-Length")
@@ -171,7 +175,6 @@ def descargar_adjunto(guid, destino):
             except OSError: pass
         return False
 
-
 def procesar_adjuntos(registro):
     codigo = registro["codigo"]
     files = listar_adjuntos_publico(codigo)
@@ -190,10 +193,9 @@ def procesar_adjuntos(registro):
                 url = registro["ficha_publica"]  # fallback: descargar desde la ficha
             ext = nombre.rsplit(".", 1)[-1].lower() if "." in nombre else ""
             adjuntos.append({"id": guid, "nombre": f.get("nombreArchivo") or nombre,
-                             "url": url, "tipo": ext})
+                              "url": url, "tipo": ext})
             time.sleep(PAUSA_SEG)
     registro["adjuntos"] = adjuntos
-
 
 def limpiar_adjuntos_viejos(codigos_vigentes):
     if not os.path.isdir(ADJ_DIR):
@@ -204,20 +206,19 @@ def limpiar_adjuntos_viejos(codigos_vigentes):
             shutil.rmtree(ruta, ignore_errors=True)
             print(f"  · limpieza: adjuntos/{d} eliminado")
 
-
 # ---------- Normalización (mismo esquema de feed que antes) ----------
 
 def normalizar(item, palabras_match):
     codigo = item.get("codigo") or ""
     id_estado = item.get("id_estado")
-    region = REGIONES[0] if len(REGIONES) == 1 else None
+    region = item.get("region") or (REGIONES[0] if len(REGIONES) == 1 else None)
     return {
         "codigo": codigo,
         "nombre": (item.get("nombre") or "").strip(),
         "estado": ESTADO_CODIGO.get(id_estado, str(item.get("estado") or "").lower()),
         "estado_glosa": ESTADO_GLOSA.get(id_estado, item.get("estado")),
         "organismo": item.get("organismo"),
-        "rut_organismo": None,          # se completa con la ficha
+        "rut_organismo": None,  # se completa con la ficha
         "unidad_compra": item.get("unidad"),
         "region": region,
         "region_nombre": REGION_NOMBRES.get(region),
@@ -227,13 +228,12 @@ def normalizar(item, palabras_match):
         "fecha_cierre": item.get("fecha_cierre"),
         "fecha_ultimo_cambio": item.get("fecha_cambio"),
         "palabras_clave_match": sorted(palabras_match),
-        "total_ofertas": None,          # se completa con la ficha
+        "total_ofertas": None,  # se completa con la ficha
         "productos": [], "adjuntos": [], "descripcion": None,
         "direccion_entrega": None, "plazo_entrega_dias": None,
         "ficha_publica": f"https://buscador.mercadopublico.cl/ficha?code={quote(codigo)}",
         "url_detalle_api": f"{BUSCADOR_BASE}/compra-agil?action=ficha&code={quote(codigo)}",
     }
-
 
 def enriquecer_con_detalle(registro):
     det = traer_ficha(registro["codigo"])
@@ -260,24 +260,33 @@ def enriquecer_con_detalle(registro):
     # Adjuntos: servicio público (GUIDs + descarga real al repo)
     procesar_adjuntos(registro)
 
-
 def _fecha_orden(reg):
     fc = reg.get("fecha_cierre")
     return (fc is None, fc or "")
 
-
 def main():
-    print(f"Buscando Compra Ágil (buscador público) — {len(PALABRAS_CLAVE)} palabras, regiones={REGIONES}, estados={ESTADOS}")
+    terminos = list(PALABRAS_CLAVE)
+    if BUSCAR_TODO:
+        # "" = sin palabra clave → trae todo lo publicado (sujeto solo a estado)
+        terminos = [""] + terminos
+
+    print(f"Buscando Compra Ágil (buscador público) — {len(terminos)} término(s), "
+          f"regiones={REGIONES or 'TODAS'}, estados={ESTADOS}, buscar_todo={BUSCAR_TODO}")
     por_codigo, matches = {}, {}
-    for kw in PALABRAS_CLAVE:
+    for kw in terminos:
         items = buscar_por_palabra(kw)
-        print(f"  · '{kw}': {len(items)} resultados")
+        etiqueta = kw if kw else "(sin palabra clave / todo)"
+        print(f"  · '{etiqueta}': {len(items)} resultados")
         for it in items:
             cod = it.get("codigo")
             if not cod: continue
-            matches.setdefault(cod, set()).add(kw)
+            if kw:
+                matches.setdefault(cod, set()).add(kw)
+            else:
+                matches.setdefault(cod, set())
             if cod not in por_codigo:
                 por_codigo[cod] = it
+
     registros = []
     total = len(por_codigo)
     print(f"Procesando {total} procesos únicos (ficha una a una)…")
@@ -295,14 +304,14 @@ def main():
         "generado": dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "total": len(registros),
         "palabras_clave": PALABRAS_CLAVE,
-        "regiones": REGIONES,
+        "buscar_todo": BUSCAR_TODO,
+        "regiones": REGIONES or "todas",
         "estados": ESTADOS,
         "items": registros,
     }
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(salida, f, ensure_ascii=False, indent=2)
     print(f"OK: {len(registros)} oportunidades ({n_adj} adjuntos) → {OUTPUT_FILE}")
-
 
 if __name__ == "__main__":
     main()
