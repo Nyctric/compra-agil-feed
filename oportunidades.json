@@ -1,6 +1,6 @@
 {
-  "generado": "2026-06-26T05:20:48Z",
-  "total": 7,
+  "generado": "2026-06-26T16:19:54Z",
+  "total": 8,
   "palabras_clave": [
     "anatomico",
     "3d",
@@ -21,135 +21,6 @@
   ],
   "items": [
     {
-      "codigo": "4841-38-COT26",
-      "nombre": "Adquisición Curso Introducción a la Impresión 3D para el CNCR",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "SERVICIO NACIONAL DEL PATRIMONIO CULTURAL",
-      "rut_organismo": "60.905.000-4",
-      "unidad_compra": "CENTRO NACIONAL DE CONSERVACIÓN Y RESTAURACIÓN",
-      "region": 13,
-      "region_nombre": "Metropolitana",
-      "monto_clp": 840000,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-06-23 14:53",
-      "fecha_cierre": "2026-06-26 08:30",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [
-        "3d"
-      ],
-      "total_ofertas": 3,
-      "productos": [
-        {
-          "nombre": "Capacitación a empleados",
-          "descripcion": "Adquisición Curso Introducción a la Impresión 3D, según TDR adjunto.",
-          "cantidad": 1,
-          "unidad": "EA"
-        }
-      ],
-      "adjuntos": [
-        {
-          "id": "F211AFEA-14E2-48C1-A043-354A53EDCA5C",
-          "nombre": "CompraAgil_Impresion3D_v2_revcpf_kcs.pdf",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/4841-38-COT26/CompraAgil_Impresion3D_v2_revcpf_kcs.pdf",
-          "tipo": "pdf"
-        }
-      ],
-      "descripcion": "El Centro Nacional de Conservación y Restauración (CNCR) requiere la adquisición del curso en “Introducción a la impresión 3D”, para 2 (dos) personas funcionarias del CNCR relacionadas con las\nintervenciones de conservación y restauración de bienes patrimoniales, con el objetivo de adquirir competencias necesarias para conocer y aplicar la impresión 3D al patrimonio, entregar conceptos básicos del modelado 3D, y entregar habilidades prácticas en manejo de impresoras 3D.\n",
-      "direccion_entrega": "RECOLETA 683",
-      "plazo_entrega_dias": 10,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=4841-38-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=4841-38-COT26"
-    },
-    {
-      "codigo": "5756-348-COT26",
-      "nombre": "Filamento para Impresión 3D FDM - Acabado Mate",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "UNIVERSIDAD DE CHILE",
-      "rut_organismo": "60.910.000-1",
-      "unidad_compra": "FAC. ARQUITECTURA Dirección Econ. y Admin.",
-      "region": 13,
-      "region_nombre": "Metropolitana",
-      "monto_clp": 180000,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-06-24 17:17",
-      "fecha_cierre": "2026-06-26 09:30",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [
-        "3d"
-      ],
-      "total_ofertas": 3,
-      "productos": [
-        {
-          "nombre": "Cinta de tinta para impresora",
-          "descripcion": "Filamento para Impresión 3D FDM - Acabado Mate, según archivo adjunto\n\nAdjuntar cotización formal y ficha técnica",
-          "cantidad": 8,
-          "unidad": "EA"
-        }
-      ],
-      "adjuntos": [
-        {
-          "id": "B2AA50B7-0F9E-4F3B-AA60-76500C850BA3",
-          "nombre": "Ficha Técnica Oficial - Filamento PLA Matte V2.pdf",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/5756-348-COT26/Ficha%20T%C3%A9cnica%20Oficial%20-%20Filamento%20PLA%20Matte%20V2.pdf",
-          "tipo": "pdf"
-        }
-      ],
-      "descripcion": "Se requiere Filamento para Impresión 3D FDM - Acabado Mate, según archivo adjunto\n\nAdjuntar cotización formal y ficha técnica",
-      "direccion_entrega": "Diagonal Paraguay 257",
-      "plazo_entrega_dias": 5,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=5756-348-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=5756-348-COT26"
-    },
-    {
-      "codigo": "564162-591-COT26",
-      "nombre": "Electrodo de pH con microbulbo y conector BNC + Pin y accesorio Fixed Angle Specular Reflectance",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "UNIVERSIDAD DE SANTIAGO DE CHILE",
-      "rut_organismo": "60.911.000-7",
-      "unidad_compra": "VICERRECTORIA DE INVESTIGACION Y DESARROLLO",
-      "region": 13,
-      "region_nombre": "Metropolitana",
-      "monto_clp": 2933703,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-06-25 10:11",
-      "fecha_cierre": "2026-06-26 10:15",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [
-        "pin"
-      ],
-      "total_ofertas": 0,
-      "productos": [
-        {
-          "nombre": "Electrodos de pH",
-          "descripcion": " Electrodo de pH con microbulbo y conector BNC + Pin. \nTipo: Electrodo combinado de pH para muestras pequeñas. \nVolumen mínimo de muestra: Menor a 100 µL. \nMicrobulbo: Punta esférica de 3 mm de diámetro. \nRango de medición: pH 0 a 13.\nY demás especificaciones técnicas detalladas en el recuadro siguiente.",
-          "cantidad": 1,
-          "unidad": "EA"
-        },
-        {
-          "nombre": "Unidades de laboratorio",
-          "descripcion": "Fixed Angle Specular Reflectance Accessory, FASR \nEquipo compatible: FTIR PerkinElmer Spectrum Two. Código específico para \nSpectrum Two: L1600119. \nTipo de análisis: Reflectancia especular FTIR \nÁngulo de trabajo: ángulo fijo de 16° \nCantidad: 1 unidad \nY demás especificaciones técnicas detalladas en el recuadro siguiente.",
-          "cantidad": 1,
-          "unidad": "EA"
-        }
-      ],
-      "adjuntos": [
-        {
-          "id": "F995F9A1-EBA6-44B7-B566-F38FDBE47292",
-          "nombre": "DOCUMENTO COMPRA ÁGIL PORTAL UAP (1).pdf",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/564162-591-COT26/DOCUMENTO%20COMPRA%20%C3%81GIL%20PORTAL%20UAP%20%281%29.pdf",
-          "tipo": "pdf"
-        }
-      ],
-      "descripcion": "La Universidad de Santiago de Chile requiere la compra de un electrodo de pH con microbulbo y conector BNC + Pin \ny accesorio Fixed Angle Specular Reflectance según especificaciones técnicas detalladas en el anexo adjunto. Favor revisar anexo adjunto en su punto 6 sobre antecedentes que la cotización formal (formato libre) a adjuntar debe llevar.",
-      "direccion_entrega": "Enrique Kirberg N°3, Estación Central. Departamento de Ingeniería Geoespacial y ambiental, Facultad de Ingeniería  Universidad de Santiago de Chile",
-      "plazo_entrega_dias": 1,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=564162-591-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=564162-591-COT26"
-    },
-    {
       "codigo": "5178-3274-COT26",
       "nombre": "PINS METALICOS PERSONALIZADOS/SP 1055303/JL",
       "estado": "publicada",
@@ -167,7 +38,7 @@
       "palabras_clave_match": [
         "pins"
       ],
-      "total_ofertas": 0,
+      "total_ofertas": 1,
       "productos": [
         {
           "nombre": "Medallas",
@@ -208,7 +79,7 @@
       "palabras_clave_match": [
         "pines"
       ],
-      "total_ofertas": 0,
+      "total_ofertas": 1,
       "productos": [
         {
           "nombre": "Adaptadores, cables o electrodos de electrocardiografía (ECG)",
@@ -273,6 +144,272 @@
       "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=3269-33-COT26"
     },
     {
+      "codigo": "1549-2733-COT26",
+      "nombre": "850-0289 / 850-0284 / 850-0282 / 850-0287 / 850-0286 / 850-0285",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "SERVICIO DE SALUD METROPOLITANA NORTE HOSPITAL SAN JOSE",
+      "rut_organismo": "61.608.002-4",
+      "unidad_compra": "Hospital San  José",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 5900000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-26 12:10",
+      "fecha_cierre": "2026-06-30 10:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "pin"
+      ],
+      "total_ofertas": 0,
+      "productos": [
+        {
+          "nombre": "Productos blandos ortopédicos para la cadera",
+          "descripcion": "850-0289 CLAVO RETROGRADO ZNN 11.5X280MM // ADJUNTAR FICHA TECNICA CON ESPECIFICACIONES, COTIZACIÓN, INSUMO DEBE ESTAR EVALUADO POR EL HOSPITAL SAN JOSÉ.",
+          "cantidad": 3,
+          "unidad": "EA"
+        },
+        {
+          "nombre": "Productos blandos ortopédicos para la cadera",
+          "descripcion": "850-0284 TORNILLO CORTICAL ZNN 5X30 // ADJUNTAR FICHA TECNICA CON ESPECIFICACIONES, COTIZACIÓN, INSUMO DEBE ESTAR EVALUADO POR EL HOSPITAL SAN JOSÉ.",
+          "cantidad": 9,
+          "unidad": "EA"
+        },
+        {
+          "nombre": "Productos blandos ortopédicos para la cadera",
+          "descripcion": "850-0282 TORNILLO CANULADO ROSCA PARCIAL ZNN 6X110  // ADJUNTAR FICHA TECNICA CON ESPECIFICACIONES, COTIZACIÓN, INSUMO DEBE ESTAR EVALUADO POR EL HOSPITAL SAN JOSÉ.",
+          "cantidad": 6,
+          "unidad": "EA"
+        },
+        {
+          "nombre": "Productos blandos ortopédicos para la cadera",
+          "descripcion": " 850-0287 PIN ROSCADO 3MM  // ADJUNTAR FICHA TECNICA CON ESPECIFICACIONES, COTIZACIÓN, INSUMO DEBE ESTAR EVALUADO POR EL HOSPITAL SAN JOSÉ.",
+          "cantidad": 3,
+          "unidad": "EA"
+        },
+        {
+          "nombre": "Productos blandos ortopédicos para la cadera",
+          "descripcion": "850-0286 GUÍA DE OLIVA ESTERIL 3X100MM // ADJUNTAR FICHA TECNICA CON ESPECIFICACIONES, COTIZACIÓN, INSUMO DEBE ESTAR EVALUADO POR EL HOSPITAL SAN JOSÉ.",
+          "cantidad": 3,
+          "unidad": "EA"
+        },
+        {
+          "nombre": "Productos blandos ortopédicos para la cadera",
+          "descripcion": "850-0285 TAPON ZNN ANTEROGRADO // ADJUNTAR FICHA TECNICA CON ESPECIFICACIONES, COTIZACIÓN, INSUMO DEBE ESTAR EVALUADO POR EL HOSPITAL SAN JOSÉ.",
+          "cantidad": 3,
+          "unidad": "EA"
+        }
+      ],
+      "adjuntos": [],
+      "descripcion": "850-0289 CLAVO RETROGRADO ZNN 11.5X280MM / 850-0284 TORNILLO CORTICAL ZNN 5X30 / 850-0282 TORNILLO CANULADO ROSCA PARCIAL ZNN 6X110 / 850-0287 PIN ROSCADO 3MM / 850-0286 GUÍA DE OLIVA ESTERIL 3X100MM / 850-0285 TAPON ZNN ANTEROGRADO OMM // ADJUNTAR FICHA TECNICA CON ESPECIFICACIONES, COTIZACIÓN, INSUMO DEBE ESTAR EVALUADO POR EL HOSPITAL SAN JOSÉ.",
+      "direccion_entrega": "ELYA CONEJEROS JIMÉNEZ",
+      "plazo_entrega_dias": 2,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1549-2733-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1549-2733-COT26"
+    },
+    {
+      "codigo": "564162-591-COT26",
+      "nombre": "Electrodo de pH con microbulbo y conector BNC + Pin y accesorio Fixed Angle Specular Reflectance",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "UNIVERSIDAD DE SANTIAGO DE CHILE",
+      "rut_organismo": "60.911.000-7",
+      "unidad_compra": "VICERRECTORIA DE INVESTIGACION Y DESARROLLO",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 2933703,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-25 10:11",
+      "fecha_cierre": "2026-06-30 10:30",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "pin"
+      ],
+      "total_ofertas": 0,
+      "productos": [
+        {
+          "nombre": "Electrodos de pH",
+          "descripcion": " Electrodo de pH con microbulbo y conector BNC + Pin. \nTipo: Electrodo combinado de pH para muestras pequeñas. \nVolumen mínimo de muestra: Menor a 100 µL. \nMicrobulbo: Punta esférica de 3 mm de diámetro. \nRango de medición: pH 0 a 13.\nY demás especificaciones técnicas detalladas en el recuadro siguiente.",
+          "cantidad": 1,
+          "unidad": "EA"
+        },
+        {
+          "nombre": "Unidades de laboratorio",
+          "descripcion": "Fixed Angle Specular Reflectance Accessory, FASR \nEquipo compatible: FTIR PerkinElmer Spectrum Two. Código específico para \nSpectrum Two: L1600119. \nTipo de análisis: Reflectancia especular FTIR \nÁngulo de trabajo: ángulo fijo de 16° \nCantidad: 1 unidad \nY demás especificaciones técnicas detalladas en el recuadro siguiente.",
+          "cantidad": 1,
+          "unidad": "EA"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "F995F9A1-EBA6-44B7-B566-F38FDBE47292",
+          "nombre": "DOCUMENTO COMPRA ÁGIL PORTAL UAP (1).pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/564162-591-COT26/DOCUMENTO%20COMPRA%20%C3%81GIL%20PORTAL%20UAP%20%281%29.pdf",
+          "tipo": "pdf"
+        }
+      ],
+      "descripcion": "La Universidad de Santiago de Chile requiere la compra de un electrodo de pH con microbulbo y conector BNC + Pin \ny accesorio Fixed Angle Specular Reflectance según especificaciones técnicas detalladas en el anexo adjunto. Favor revisar anexo adjunto en su punto 6 sobre antecedentes que la cotización formal (formato libre) a adjuntar debe llevar.",
+      "direccion_entrega": "Enrique Kirberg N°3, Estación Central. Departamento de Ingeniería Geoespacial y ambiental, Facultad de Ingeniería  Universidad de Santiago de Chile",
+      "plazo_entrega_dias": 1,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=564162-591-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=564162-591-COT26"
+    },
+    {
+      "codigo": "1230869-81-COT26",
+      "nombre": "ADQUISICIÓN DE FIGURAS RÍTMICAS",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "Corporación Cultural de La Florida",
+      "rut_organismo": "65.235.450-5",
+      "unidad_compra": "Corporación Cultural de La Florida",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 476000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-26 11:55",
+      "fecha_cierre": "2026-06-30 12:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "3d"
+      ],
+      "total_ofertas": 0,
+      "productos": [
+        {
+          "nombre": "Cajas de música o mecanismos",
+          "descripcion": "10 UNIDADES DE REDONDAS (10CM (LARGO) X 1 CM (PROFUNDIDAD)), ADJUNTAR COTIZACIÓN DETALLADA.",
+          "cantidad": 10,
+          "unidad": "EA"
+        },
+        {
+          "nombre": "Cajas de música o mecanismos",
+          "descripcion": "10 UNIDADES DE BLANCAS (10CM (LARGO) X 1 CM (PROFUNDIDAD)), ADJUNTAR COTIZACIÓN DETALLADA.",
+          "cantidad": 10,
+          "unidad": "EA"
+        },
+        {
+          "nombre": "Cajas de música o mecanismos",
+          "descripcion": "10 UNIDADES DE NEGRAS (10CM (LARGO) X 1 CM (PROFUNDIDAD)), ADJUNTAR COTIZACIÓN DETALLADA.",
+          "cantidad": 10,
+          "unidad": "EA"
+        },
+        {
+          "nombre": "Cajas de música o mecanismos",
+          "descripcion": "10 UNIDADES DE  DOBLE CORCHEA (10CM (LARGO) X 1 CM (PROFUNDIDAD)), ADJUNTAR COTIZACIÓN DETALLADA.",
+          "cantidad": 10,
+          "unidad": "EA"
+        },
+        {
+          "nombre": "Cajas de música o mecanismos",
+          "descripcion": "10 UNIDADES DE CUARTINAS (10CM (LARGO) X 1 CM (PROFUNDIDAD)), ADJUNTAR COTIZACIÓN DETALLADA.",
+          "cantidad": 10,
+          "unidad": "EA"
+        },
+        {
+          "nombre": "Cajas de música o mecanismos",
+          "descripcion": "10 UNIDADES DE GALOPAS (10CM (LARGO) X 1 CM (PROFUNDIDAD)), ADJUNTAR COTIZACIÓN DETALLADA.",
+          "cantidad": 10,
+          "unidad": "EA"
+        },
+        {
+          "nombre": "Cajas de música o mecanismos",
+          "descripcion": "10 UNIDADES DE SALTILLOS (10CM (LARGO) X 1 CM (PROFUNDIDAD)), ADJUNTAR COTIZACIÓN DETALLADA.",
+          "cantidad": 10,
+          "unidad": "EA"
+        },
+        {
+          "nombre": "Cajas de música o mecanismos",
+          "descripcion": "10 UNIDADES DE TRESILLOS (10CM (LARGO) X 1 CM (PROFUNDIDAD)), ADJUNTAR COTIZACIÓN DETALLADA.",
+          "cantidad": 10,
+          "unidad": "EA"
+        },
+        {
+          "nombre": "Cajas de música o mecanismos",
+          "descripcion": "10 UNIDADES DE GALOPA INVERSA (10CM (LARGO) X 1 CM (PROFUNDIDAD)), ADJUNTAR COTIZACIÓN DETALLADA.",
+          "cantidad": 10,
+          "unidad": "EA"
+        },
+        {
+          "nombre": "Cajas de música o mecanismos",
+          "descripcion": "10 UNIDADES DE CORCHEAS SOLAS (10CM (LARGO) X 1 CM (PROFUNDIDAD)), ADJUNTAR COTIZACIÓN DETALLADA.",
+          "cantidad": 10,
+          "unidad": "EA"
+        },
+        {
+          "nombre": "Cajas de música o mecanismos",
+          "descripcion": "5 UNIDADES DE SILENCIOS DE BLANCA (10CM (LARGO) X 1 CM (PROFUNDIDAD)), ADJUNTAR COTIZACIÓN DETALLADA.",
+          "cantidad": 5,
+          "unidad": "EA"
+        },
+        {
+          "nombre": "Cajas de música o mecanismos",
+          "descripcion": "5 UNIDADES DE SILENCIOS DE NEGRA (10CM (LARGO) X 1 CM (PROFUNDIDAD)), ADJUNTAR COTIZACIÓN DETALLADA.",
+          "cantidad": 5,
+          "unidad": "EA"
+        },
+        {
+          "nombre": "Cajas de música o mecanismos",
+          "descripcion": "5 UNIDADES DE SILENCIOS DE CORCHEA (10CM (LARGO) X 1 CM (PROFUNDIDAD)), ADJUNTAR COTIZACIÓN DETALLADA.",
+          "cantidad": 5,
+          "unidad": "EA"
+        },
+        {
+          "nombre": "Cajas de música o mecanismos",
+          "descripcion": "20 UNIDADES DE BARRAS DE COMPÁS (20CM (LARGO) X 0,5 CM (ANCHO) X 0.5 CM (PROFUNDIDAD)), ADJUNTAR COTIZACIÓN DETALLADA.",
+          "cantidad": 20,
+          "unidad": "EA"
+        },
+        {
+          "nombre": "Cajas de música o mecanismos",
+          "descripcion": "2 UNIDADES DE 4/4 (10CM (LARGO) X 0.7 CM (ANCHO) X 1 CM (PROFUNDIDAD)), ADJUNTAR COTIZACIÓN DETALLADA.",
+          "cantidad": 2,
+          "unidad": "EA"
+        },
+        {
+          "nombre": "Cajas de música o mecanismos",
+          "descripcion": "2 UNIDADES DE 2/4 (10CM (LARGO) X 0.7 CM (ANCHO) X 1 CM (PROFUNDIDAD)), ADJUNTAR COTIZACIÓN DETALLADA.",
+          "cantidad": 2,
+          "unidad": "EA"
+        },
+        {
+          "nombre": "Cajas de música o mecanismos",
+          "descripcion": "2 UNIDADES DE 3/4 (10CM (LARGO) X 0.7 CM (ANCHO) X 1 CM (PROFUNDIDAD)), ADJUNTAR COTIZACIÓN DETALLADA.",
+          "cantidad": 2,
+          "unidad": "EA"
+        },
+        {
+          "nombre": "Cajas de música o mecanismos",
+          "descripcion": "2 UNIDADES DE 2/2 (10CM (LARGO) X 0.7 CM (ANCHO) X 1 CM (PROFUNDIDAD)), ADJUNTAR COTIZACIÓN DETALLADA.",
+          "cantidad": 2,
+          "unidad": "EA"
+        },
+        {
+          "nombre": "Cajas de música o mecanismos",
+          "descripcion": "6/8 (10 CM (LARGO) X 0.7 CM (ANCHO) X 1 CM (PROFUNDIDAD)), ADJUNTAR COTIZACIÓN DETALLADA.",
+          "cantidad": 2,
+          "unidad": "EA"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "C5C141D7-40E0-4CEA-9354-D1F0D16BFCE8",
+          "nombre": "TDR FIGURAS RITMICAS.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1230869-81-COT26/TDR%20FIGURAS%20RITMICAS.pdf",
+          "tipo": "pdf"
+        },
+        {
+          "id": "195EB06C-62E2-4F2A-9238-2FD8D454C69D",
+          "nombre": "ANEXO 1.docx",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1230869-81-COT26/ANEXO%201.docx",
+          "tipo": "docx"
+        }
+      ],
+      "descripcion": "Se requiere adquirir 145 figuras rítmicas en 3D de diferentes colores en las proporciones que se detallan a continuación. Estas figuras deben tener medidas de 10 a 20 cm de largo, según la figura, siguiendo la imagen de referencia en donde las figuras mas pequeñas miden 10 cm y la más grande miden 20 cm ADJUNTAR COTIZACIÓN DETALLADA.",
+      "direccion_entrega": " Serafín Zamora 6792",
+      "plazo_entrega_dias": 2,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1230869-81-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1230869-81-COT26"
+    },
+    {
       "codigo": "1515304-130-COT26",
       "nombre": "ADQ. REPUESTOS AERONÁUTICA BÁSICA Y COMPONENTES DE USO FRECUENTE, TALES COMO WASHER, ROD,  FILTROS Y ELEMENTOS DE FIJACIÓN. PARA HELICOP. BELL 206  DE O.S.4  NCU 254598815",
       "estado": "publicada",
@@ -312,6 +449,47 @@
       "plazo_entrega_dias": 55,
       "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1515304-130-COT26",
       "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1515304-130-COT26"
+    },
+    {
+      "codigo": "4841-38-COT26",
+      "nombre": "Adquisición Curso Introducción a la Impresión 3D para el CNCR",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "SERVICIO NACIONAL DEL PATRIMONIO CULTURAL",
+      "rut_organismo": "60.905.000-4",
+      "unidad_compra": "CENTRO NACIONAL DE CONSERVACIÓN Y RESTAURACIÓN",
+      "region": 13,
+      "region_nombre": "Metropolitana",
+      "monto_clp": 840000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-06-23 14:53",
+      "fecha_cierre": "2026-06-30 15:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "3d"
+      ],
+      "total_ofertas": 0,
+      "productos": [
+        {
+          "nombre": "Capacitación a empleados",
+          "descripcion": "Adquisición Curso Introducción a la Impresión 3D, según TDR adjunto.",
+          "cantidad": 1,
+          "unidad": "EA"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "F211AFEA-14E2-48C1-A043-354A53EDCA5C",
+          "nombre": "CompraAgil_Impresion3D_v2_revcpf_kcs.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/4841-38-COT26/CompraAgil_Impresion3D_v2_revcpf_kcs.pdf",
+          "tipo": "pdf"
+        }
+      ],
+      "descripcion": "El Centro Nacional de Conservación y Restauración (CNCR) requiere la adquisición del curso en “Introducción a la impresión 3D”, para 2 (dos) personas funcionarias del CNCR relacionadas con las\nintervenciones de conservación y restauración de bienes patrimoniales, con el objetivo de adquirir competencias necesarias para conocer y aplicar la impresión 3D al patrimonio, entregar conceptos básicos del modelado 3D, y entregar habilidades prácticas en manejo de impresoras 3D.\n",
+      "direccion_entrega": "RECOLETA 683",
+      "plazo_entrega_dias": 10,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=4841-38-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=4841-38-COT26"
     }
   ]
 }
