@@ -11,5 +11,11 @@
     "galardon",
     "llavero"
   ],
-  "buscar_todo": true
+  "buscar_todo": true,
+  "monto_min_clp": 100000,
+  "horas_min_cierre": 24,
+  "max_detalle": 150,
+  "max_eval_ia": 100,
+  "max_items_feed": 800,
+  "rubros_bloqueados": []
 }
