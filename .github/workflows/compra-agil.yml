@@ -39,22 +39,33 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -A oportunidades.json
-          if [ -f eval_ia.json ]; then git add -A eval_ia.json; fi
-          if [ -d adjuntos ]; then git add -A adjuntos; fi
-          if git diff --staged --quiet; then
-            echo "Sin cambios"
-            exit 0
-          fi
-          git commit -m "Actualiza oportunidades y adjuntos Compra Ágil ($(date -u +%Y-%m-%dT%H:%MZ))"
+          # Guardar los archivos generados fuera del repo
+          mkdir -p /tmp/salida
+          cp oportunidades.json /tmp/salida/ 2>/dev/null || true
+          if [ -f eval_ia.json ]; then cp eval_ia.json /tmp/salida/; fi
+          if [ -d adjuntos ]; then cp -r adjuntos /tmp/salida/; fi
+          # Commit sobre master SIEMPRE actualizado: sin rebase, sin conflictos posibles
           for i in 1 2 3 4 5; do
+            git fetch origin master
+            git reset --hard origin/master
+            rm -rf adjuntos
+            cp /tmp/salida/oportunidades.json . 2>/dev/null || true
+            if [ -f /tmp/salida/eval_ia.json ]; then cp /tmp/salida/eval_ia.json .; fi
+            if [ -d /tmp/salida/adjuntos ]; then cp -r /tmp/salida/adjuntos .; fi
+            git add -A oportunidades.json
+            if [ -f eval_ia.json ]; then git add -A eval_ia.json; fi
+            git add -A adjuntos 2>/dev/null || true
+            if git diff --staged --quiet; then
+              echo "Sin cambios"
+              exit 0
+            fi
+            git commit -m "Actualiza oportunidades y adjuntos Compra Ágil ($(date -u +%Y-%m-%dT%H:%MZ))"
             if git push; then
               echo "Push OK"
               exit 0
             fi
-            echo "Push rechazado (intento $i) — actualizando con rebase…"
-            git fetch origin master
-            git rebase origin/master
+            echo "Push rechazado (intento $i) — reintentando desde master actualizado…"
+            sleep 5
           done
           echo "No se pudo subir tras varios intentos" >&2
           exit 1
