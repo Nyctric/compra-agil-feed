@@ -30,7 +30,7 @@ jobs:
           MP_TICKET: ${{ secrets.MP_TICKET }}
           # Opcional: si está definido, la evaluación IA (Haiku) corre aquí y
           # queda cacheada en eval_ia.json — la app no gasta tokens al abrir.
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY || secrets.ANTROPIC_API_KEY }}
         run: python compra_agil_collector.py
 
       - name: Commit del JSON y adjuntos si cambiaron
