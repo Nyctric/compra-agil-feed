@@ -70,6 +70,15 @@ MAX_DETALLE = int(_CFG.get("max_detalle", 150))
 MAX_EVAL_IA = int(_CFG.get("max_eval_ia", 100))
 MAX_ITEMS_FEED = int(_CFG.get("max_items_feed", 800))
 RUBROS_BLOQUEADOS = [str(r) for r in (_CFG.get("rubros_bloqueados") or [])]
+INCLUIR_LICITACIONES = bool(_CFG.get("incluir_licitaciones", True))
+MAX_DETALLE_LIC = int(_CFG.get("max_detalle_licitaciones", 60))
+VALOR_UTM_CLP = int(_CFG.get("valor_utm_clp", 69000))   # aprox., solo para filtrar/puntuar
+VALOR_USD_CLP = int(_CFG.get("valor_usd_clp", 950))
+
+# API oficial de Mercado Público (licitaciones) — requiere ticket, tiene cuota diaria
+MP_TICKET = os.environ.get("MP_TICKET", "")
+LIC_BASE = "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json"
+PAUSA_LIC_SEG = 1.3  # la API oficial limita consultas por segundo
 
 ESTADOS = ["publicada"]
 FETCH_DETALLE = True
@@ -125,8 +134,18 @@ def _hit_blacklist(texto_norm):
     return None
 
 
+def _kw_en_texto(kw_norm, texto_norm):
+    """Palabras cortas (<5 chars) exigen borde de palabra: 'pin' no matchea 'pintura'."""
+    kw_norm = kw_norm.strip()
+    if not kw_norm:
+        return False
+    if len(kw_norm) < 5:
+        return re.search(r"(?<![a-z0-9])" + re.escape(kw_norm) + r"(?![a-z0-9])", texto_norm) is not None
+    return kw_norm in texto_norm
+
+
 def _matches_whitelist(texto_norm):
-    return [w for w in _WHITELIST_N if w.strip() and w in texto_norm]
+    return [w for w in _WHITELIST_N if _kw_en_texto(w, texto_norm)]
 
 
 def _parse_fecha(s):
@@ -244,6 +263,120 @@ def traer_ficha(codigo):
     return payload
 
 
+# ---------- Licitaciones (API oficial, requiere MP_TICKET) ----------
+
+def _get_oficial(params, intento=0):
+    if not MP_TICKET:
+        return None
+    params = dict(params); params["ticket"] = MP_TICKET
+    while True:
+        try:
+            r = requests.get(LIC_BASE, params=params, timeout=60)
+        except (requests.exceptions.Timeout, requests.exceptions.ConnectionError) as e:
+            intento += 1
+            if intento > MAX_REINTENTOS:
+                print(f"  · licitaciones: error de red: {e}", file=sys.stderr)
+                return None
+            time.sleep(5 * intento)
+            continue
+        if r.status_code in (403, 429, 500, 503):  # cuota por segundo / transitorio
+            intento += 1
+            if intento > MAX_REINTENTOS:
+                print(f"  · licitaciones: HTTP {r.status_code} persistente — saltando", file=sys.stderr)
+                return None
+            time.sleep(3 * intento)
+            continue
+        if r.status_code != 200:
+            print(f"  · licitaciones: HTTP {r.status_code} — saltando", file=sys.stderr)
+            return None
+        try:
+            return r.json()
+        except ValueError:
+            return None
+
+
+def listar_licitaciones():
+    data = _get_oficial({"estado": "activas"})
+    time.sleep(PAUSA_LIC_SEG)
+    return (data or {}).get("Listado") or []
+
+
+def _monto_a_clp(monto, moneda):
+    try:
+        m = float(monto)
+    except (TypeError, ValueError):
+        return None
+    if not m:
+        return None
+    moneda = (moneda or "CLP").upper()
+    if moneda == "UTM":
+        return int(m * VALOR_UTM_CLP)
+    if moneda in ("USD", "DOLAR"):
+        return int(m * VALOR_USD_CLP)
+    return int(m)  # CLP u otra: se asume CLP
+
+
+def normalizar_licitacion(item):
+    codigo = item.get("CodigoExterno") or ""
+    fc = (item.get("FechaCierre") or "").replace("T", " ")[:19] or None
+    fpub = (item.get("FechaCreacion") or "").replace("T", " ")[:19] or None
+    return {
+        "codigo": codigo,
+        "tipo": "licitacion",
+        "nombre": (item.get("Nombre") or "").strip(),
+        "estado": "publicada",
+        "estado_glosa": "Publicada",
+        "organismo": None, "rut_organismo": None, "unidad_compra": None,
+        "region": None, "region_nombre": None,
+        "monto_clp": None, "moneda": "CLP",
+        "fecha_publicacion": fpub,
+        "fecha_cierre": fc,
+        "fecha_ultimo_cambio": None,
+        "palabras_clave_match": [],
+        "total_ofertas": None,
+        "productos": [], "adjuntos": [], "descripcion": None,
+        "direccion_entrega": None, "plazo_entrega_dias": None,
+        "ficha_publica": f"https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion={quote(codigo)}",
+        "url_detalle_api": f"{LIC_BASE}?codigo={quote(codigo)}",
+    }
+
+
+def enriquecer_licitacion(reg):
+    data = _get_oficial({"codigo": reg["codigo"]})
+    time.sleep(PAUSA_LIC_SEG)
+    det = ((data or {}).get("Listado") or [None])[0]
+    if not det:
+        return
+    if det.get("Descripcion"):
+        reg["descripcion"] = det["Descripcion"]
+    m = _monto_a_clp(det.get("MontoEstimado"), det.get("Moneda"))
+    if m:
+        reg["monto_clp"] = m
+        reg["moneda"] = det.get("Moneda") or "CLP"
+    if det.get("Tipo"):
+        reg["tipo_licitacion"] = det.get("Tipo")
+    comp = det.get("Comprador") or {}
+    if comp.get("NombreOrganismo"):
+        reg["organismo"] = comp["NombreOrganismo"]
+    reg["unidad_compra"] = comp.get("NombreUnidad") or reg.get("unidad_compra")
+    reg["rut_organismo"] = comp.get("RutUnidad") or reg.get("rut_organismo")
+    rid, rnom = _region_desde_texto(comp.get("RegionUnidad"))
+    if rid or rnom:
+        reg["region"], reg["region_nombre"] = rid, rnom
+    fechas = det.get("Fechas") or {}
+    if fechas.get("FechaCierre"):
+        reg["fecha_cierre"] = str(fechas["FechaCierre"]).replace("T", " ")[:19]
+    prods = []
+    for p in ((det.get("Items") or {}).get("Listado") or []):
+        prod = {"nombre": p.get("NombreProducto"), "descripcion": p.get("Descripcion"),
+                "cantidad": p.get("Cantidad"), "unidad": p.get("UnidadMedida")}
+        if p.get("CodigoProducto"):
+            prod["categoria"] = str(p["CodigoProducto"])
+        prods.append(prod)
+    if prods:
+        reg["productos"] = prods
+
+
 # ---------- Adjuntos ----------
 
 def _safe_filename(nombre):
@@ -333,6 +466,17 @@ def limpiar_adjuntos_viejos(codigos_vigentes):
 
 # ---------- Normalización ----------
 
+def _region_desde_texto(v):
+    """Región a partir de un nombre en texto libre ('Región del Biobío')."""
+    if not isinstance(v, str) or not v.strip():
+        return None, None
+    vn = _norm(v).replace("region", "").replace("del ", "").replace("de ", "").strip()
+    for nom_n, rid in _REGION_POR_NOMBRE.items():
+        if nom_n in vn or vn in nom_n:
+            return rid, REGION_NOMBRES[rid]
+    return None, v.strip()  # nombre desconocido: se muestra tal cual
+
+
 def _extraer_region(obj):
     """Busca la región en varios campos posibles (API no documentada)."""
     if not isinstance(obj, dict):
@@ -349,11 +493,7 @@ def _extraer_region(obj):
     for k in ("region", "region_nombre", "nombre_region", "region_unidad", "region_compradora"):
         v = obj.get(k)
         if isinstance(v, str) and v.strip():
-            vn = _norm(v).replace("region", "").replace("del ", "").replace("de ", "").strip()
-            for nom_n, rid in _REGION_POR_NOMBRE.items():
-                if nom_n in vn or vn in nom_n:
-                    return rid, REGION_NOMBRES[rid]
-            return None, v.strip()  # nombre desconocido: se muestra tal cual
+            return _region_desde_texto(v)
         if isinstance(v, int) and v in REGION_NOMBRES:
             return v, REGION_NOMBRES[v]
     return None, None
@@ -375,6 +515,7 @@ def normalizar(item, palabras_match):
     rid, rnom = _extraer_region(item)
     return {
         "codigo": codigo,
+        "tipo": "compra_agil",
         "nombre": (item.get("nombre") or "").strip(),
         "estado": ESTADO_CODIGO.get(id_estado, str(item.get("estado") or "").lower()),
         "estado_glosa": ESTADO_GLOSA.get(id_estado, item.get("estado")),
@@ -524,7 +665,8 @@ def _llamar_anthropic(prompt, max_tokens):
 
 PROMPT_EVAL = ("Green Wolf SPA (Chile) fabrica con impresión 3D FDM y resina: prototipos, "
     "piezas plásticas funcionales, modelos anatómicos, señalética y letreros 3D, repuestos "
-    "plásticos, maquetas. Evalúa cada licitación de Compra Ágil: ¿lo pedido PUEDE fabricarse "
+    "plásticos, maquetas. Evalúa cada oportunidad de Mercado Público (t=CA: Compra Ágil, "
+    "t=LIC: licitación formal, exige más papeleo y garantías): ¿lo pedido PUEDE fabricarse "
     "con impresión 3D y es buen negocio (monto, plazo, cantidad producible)? NO viable: "
     "imprenta de papel, software/licencias, servicios profesionales, químicos, textiles, "
     "electrónica terminada, alimentos.\n"
@@ -535,6 +677,8 @@ PROMPT_EVAL = ("Green Wolf SPA (Chile) fabrica con impresión 3D FDM y resina: p
 
 def _compactar_para_ia(reg):
     d = {"c": reg["codigo"], "n": (reg.get("nombre") or "")[:120]}
+    if reg.get("tipo") == "licitacion":
+        d["t"] = "LIC"
     if reg.get("descripcion"):
         d["d"] = reg["descripcion"][:200]
     prods = reg.get("productos") or []
@@ -602,7 +746,7 @@ def main():
         for cod, it in por_codigo.items():
             nom = _norm(it.get("nombre") or "")
             for kw in PALABRAS_CLAVE:
-                if _norm(kw) in nom:
+                if _kw_en_texto(_norm(kw), nom):
                     matches.setdefault(cod, set()).add(kw)
     else:
         for kw in PALABRAS_CLAVE:
@@ -645,11 +789,61 @@ def main():
         if i % 10 == 0:
             print(f"  · {i}/{len(a_enriquecer)} procesados")
 
+    # 3b) Licitaciones públicas (API oficial, cuota del ticket)
+    lic_stats = {"activas": 0, "candidatas": 0, "incluidas": 0}
+    lic_enriquecidas = []
+    if INCLUIR_LICITACIONES and MP_TICKET:
+        lst = listar_licitaciones()
+        lic_stats["activas"] = len(lst)
+        print(f"Licitaciones activas en el país: {len(lst)}")
+        lics, vistos = [], set()
+        for it in lst:
+            cod = it.get("CodigoExterno")
+            if not cod or cod in vistos:
+                continue
+            vistos.add(cod)
+            reg = normalizar_licitacion(it)
+            if filtro_duro(reg):
+                descartados["filtro_duro"] += 1
+                continue
+            nombre_n = _norm(reg["nombre"])
+            if _hit_blacklist(nombre_n):
+                descartados["blacklist"] += 1
+                continue
+            # el listado no permite búsqueda por keyword → exigir señal en el nombre
+            reg["palabras_clave_match"] = sorted({kw for kw in PALABRAS_CLAVE
+                                                  if _kw_en_texto(_norm(kw), nombre_n)})
+            if not reg["palabras_clave_match"] and not _matches_whitelist(nombre_n):
+                descartados["sin_match"] += 1
+                continue
+            reg["prefiltro"] = {"pasa": True, "razon": ""}
+            reg["score_heuristico"] = score_heuristico(reg)
+            lics.append(reg)
+        lics.sort(key=lambda r: -r["score_heuristico"])
+        lics = lics[:MAX_DETALLE_LIC]  # cuota del ticket: detalle solo para los mejores
+        lic_stats["candidatas"] = len(lics)
+        print(f"Licitaciones candidatas: {len(lics)} — pidiendo detalle (cuota MP_TICKET)…")
+        for i, reg in enumerate(lics, 1):
+            enriquecer_licitacion(reg)
+            if filtro_duro(reg):  # re-chequeo: ahora se conoce el monto real
+                reg["prefiltro"] = {"pasa": False, "razon": "filtro duro post-detalle"}
+            else:
+                pasa, razon = prefiltro_texto(reg, con_detalle=True)
+                reg["prefiltro"] = {"pasa": pasa, "razon": razon}
+            reg["score_heuristico"] = score_heuristico(reg)
+            if i % 10 == 0:
+                print(f"  · {i}/{len(lics)} procesadas")
+        lic_enriquecidas = [r for r in lics if r["prefiltro"]["pasa"]]
+        lic_stats["incluidas"] = len(lic_enriquecidas)
+        registros.extend(lics)
+    elif INCLUIR_LICITACIONES:
+        print("Sin MP_TICKET: se omiten licitaciones (solo Compra Ágil).")
+
     # 4) Evaluación IA con caché persistente (solo códigos nuevos que pasan todo)
     cache = cargar_cache_ia()
     ia_nuevos = ia_errores = 0
     if ANTHROPIC_KEY:
-        candidatos_ia = sorted([r for r in a_enriquecer if r["prefiltro"]["pasa"]],
+        candidatos_ia = sorted([r for r in a_enriquecer if r["prefiltro"]["pasa"]] + lic_enriquecidas,
                                key=lambda r: -r["score_heuristico"])
         cache, ia_nuevos, ia_errores = evaluar_ia(candidatos_ia, cache)
     else:
@@ -670,6 +864,7 @@ def main():
     limpiar_adjuntos_viejos({r["codigo"] for r in registros})
     n_adj = sum(len(r.get("adjuntos") or []) for r in registros)
     n_viables = sum(1 for r in registros if r.get("ia", {}).get("v"))
+    n_lic = sum(1 for r in registros if r.get("tipo") == "licitacion")
     salida = {
         "generado": dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "total": len(registros),
@@ -680,14 +875,15 @@ def main():
         "config": {"monto_min_clp": MONTO_MIN_CLP, "horas_min_cierre": HORAS_MIN_CIERRE,
                    "max_detalle": MAX_DETALLE, "max_eval_ia": MAX_EVAL_IA},
         "descartados": descartados,
+        "licitaciones": dict(lic_stats, habilitadas=INCLUIR_LICITACIONES, con_ticket=bool(MP_TICKET)),
         "eval_ia": {"evaluados_total": len(cache), "nuevos_esta_corrida": ia_nuevos,
                     "errores": ia_errores, "server_side": bool(ANTHROPIC_KEY)},
         "items": registros,
     }
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(salida, f, ensure_ascii=False, indent=2)
-    print(f"OK: {len(registros)} oportunidades ({n_adj} adjuntos, {n_viables} viables IA, "
-          f"{ia_nuevos} evaluaciones nuevas) → {OUTPUT_FILE}")
+    print(f"OK: {len(registros)} oportunidades ({n_lic} licitaciones, {n_adj} adjuntos, "
+          f"{n_viables} viables IA, {ia_nuevos} evaluaciones nuevas) → {OUTPUT_FILE}")
 
 
 if __name__ == "__main__":
