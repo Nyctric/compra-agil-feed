@@ -94,7 +94,7 @@ EVAL_CACHE_FILE = os.environ.get("EVAL_CACHE_FILE", "eval_ia.json")
 PAUSA_SEG = 0.35
 MAX_REINTENTOS = 3
 MAX_PAGINAS = 20        # tope de seguridad por palabra clave
-MAX_PAGINAS_TODO = 150  # tope de seguridad en modo buscar_todo (todo el país)
+MAX_PAGINAS_TODO = int(_CFG.get("max_paginas_todo", 400))  # tope en modo buscar_todo (todo el país)
 
 ANTHROPIC_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
 IA_MODELOS = ["claude-haiku-4-5", "claude-haiku-4-5-20251001", "claude-sonnet-4-5"]
@@ -1039,6 +1039,21 @@ def main():
             cod = it.get("codigo")
             if cod and cod not in por_codigo:
                 por_codigo[cod] = it
+        # ADEMÁS búsqueda dirigida por keyword: garantiza que lo relevante entre
+        # aunque haya quedado fuera de la ventana de paginación del "todo"
+        for kw in PALABRAS_CLAVE:
+            extra = buscar_por_palabra(kw)
+            n_nuevos = 0
+            for it in extra:
+                cod = it.get("codigo")
+                if not cod:
+                    continue
+                matches.setdefault(cod, set()).add(kw)
+                if cod not in por_codigo:
+                    por_codigo[cod] = it
+                    n_nuevos += 1
+            if n_nuevos:
+                print(f"  · '{kw}': +{n_nuevos} que el barrido general no alcanzó")
         # igualmente marcamos matches por keyword contra el nombre (sirve al score)
         for cod, it in por_codigo.items():
             nom = _norm(it.get("nombre") or "")
