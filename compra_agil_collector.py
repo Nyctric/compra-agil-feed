@@ -465,6 +465,110 @@ def _relevante_para_historico(nombre):
     return bool(_matches_whitelist(n))
 
 
+def _extraer_ofertas_ficha_ca(det):
+    """Busca recursivamente pares (proveedor, monto) en la ficha de una Compra
+    Ágil cerrada — la API no está documentada, así que se exploran claves
+    plausibles. Devuelve [{'pr','u','e'}]."""
+    res = []
+    def walk(o):
+        if isinstance(o, dict):
+            nombre = monto = None
+            sel = False
+            for k, v in o.items():
+                kl = str(k).lower()
+                if isinstance(v, str) and v.strip() and any(t in kl for t in ("proveedor", "razon_social", "nombre_empresa")):
+                    if "rut" not in kl:
+                        nombre = v.strip()
+                if isinstance(v, (int, float)) and not isinstance(v, bool) and v > 0 and any(t in kl for t in ("monto", "total", "precio")):
+                    monto = float(v)
+                if ("selecc" in kl or "adjudic" in kl or "ganador" in kl) and v in (True, 1, "1", "si", "SI"):
+                    sel = True
+                if isinstance(v, str) and "selecc" in v.lower():
+                    sel = True
+            if nombre and monto:
+                res.append({"pr": nombre[:60], "u": monto, "e": "adjudicada" if sel else ""})
+            for v in o.values():
+                walk(v)
+        elif isinstance(o, list):
+            for v in o:
+                walk(v)
+    walk(det)
+    # si la ficha muestra una sola oferta, es la seleccionada
+    if len(res) == 1 and not res[0]["e"]:
+        res[0]["e"] = "adjudicada"
+    # si hay varias sin estado claro, quedan como "oferta" (rango rival, no ganadora)
+    for o in res:
+        if not o["e"]:
+            o["e"] = "oferta"
+    return res
+
+
+def capturar_historico_ca(hist, vistos):
+    """Precios de Compras Ágiles cerradas del rubro (buscador público, sin cuota).
+    Solo procesos con 0 o 1 producto: permite calcular precio unitario sin ambigüedad."""
+    ca_proc = set(hist.get("ca_procesadas") or [])
+    estado_id = ESTADO_PARAM.get("cerrada", 3)
+    if BUSCAR_TODO:
+        cerradas = _paginar({"status": estado_id, "order_by": "recent"}, 30)
+    else:
+        cerradas = []
+        for kw in PALABRAS_CLAVE:
+            cerradas.extend(_paginar({"keywords": kw, "status": estado_id, "order_by": "recent"}, 5))
+    vistos_cod, fichas, nuevas = set(), 0, 0
+    for it in cerradas:
+        cod = it.get("codigo")
+        if not cod or cod in vistos_cod or cod in ca_proc:
+            continue
+        vistos_cod.add(cod)
+        if not _relevante_para_historico(it.get("nombre")):
+            continue
+        if fichas >= HIST_MAX_DETALLE:
+            break
+        det = traer_ficha(cod)
+        fichas += 1
+        ca_proc.add(cod)
+        if not det:
+            continue
+        prods = det.get("productos_solicitados") or []
+        if len(prods) > 1:
+            continue  # sin desglose por ítem no se puede derivar el unitario
+        ofertas = _extraer_ofertas_ficha_ca(det)
+        if not ofertas:
+            continue
+        cant = 1.0
+        if prods:
+            try:
+                cant = max(1.0, float(prods[0].get("cantidad") or 1))
+            except (TypeError, ValueError):
+                pass
+        nombre_p = (prods[0].get("nombre") if prods else it.get("nombre")) or ""
+        inst = det.get("informacion_institucion") or {}
+        fecha = str(det.get("fecha_cierre") or it.get("fecha_cierre") or dt.date.today().isoformat())[:10]
+        for o in ofertas:
+            unit = int(round(o["u"] / cant))
+            if unit <= 0:
+                continue
+            clave = (cod, "CA", o["pr"][:60], unit)
+            if clave in vistos:
+                continue
+            vistos.add(clave)
+            hist["items"].append({
+                "l": cod, "i": "CA", "f": fecha, "p": nombre_p[:120],
+                "d": (det.get("descripcion") or "")[:120], "c": "",
+                "q": cant, "u": unit, "m": "CLP",
+                "pr": o["pr"], "org": (inst.get("organismo_comprador") or it.get("organismo") or "")[:60],
+                "of": det.get("total_ofertas_recibidas"), "e": o["e"],
+            })
+            nuevas += 1
+    # recordar procesadas (tope para que el archivo no crezca sin límite)
+    hist["ca_procesadas"] = (hist.get("ca_procesadas") or [])
+    hist["ca_procesadas"] = [c for c in hist["ca_procesadas"] if c in ca_proc] + \
+                            [c for c in ca_proc if c not in set(hist["ca_procesadas"])]
+    hist["ca_procesadas"] = hist["ca_procesadas"][-5000:]
+    print(f"Histórico CA: +{nuevas} ofertas ({fichas} fichas revisadas)")
+    return nuevas
+
+
 def actualizar_historico():
     """Recolecta precios unitarios adjudicados de licitaciones del rubro.
     Backfill gradual hacia atrás hasta HISTORICO_DIAS; cuota controlada."""
@@ -473,7 +577,7 @@ def actualizar_historico():
     vistos = {(it.get("l"), it.get("i"), it.get("pr"), it.get("u")) for it in hist.get("items") or []}
     hoy = dt.date.today()
     candidatos = [(hoy - dt.timedelta(days=d)).isoformat() for d in range(1, HISTORICO_DIAS + 1)]
-    pendientes = [d for d in candidatos if d not in procesados][:HIST_DIAS_POR_CORRIDA]
+    pendientes = ([d for d in candidatos if d not in procesados][:HIST_DIAS_POR_CORRIDA]) if MP_TICKET else []
     detalles_usados, nuevos = 0, 0
     for dia in pendientes:
         if detalles_usados >= HIST_MAX_DETALLE:
@@ -545,6 +649,11 @@ def actualizar_historico():
                     })
                     nuevos += 1
         procesados.add(dia)
+    # Compra Ágil cerradas (buscador público, sin cuota del ticket)
+    try:
+        nuevos += capturar_historico_ca(hist, vistos)
+    except Exception as e:
+        print(f"  · histórico CA: {e}", file=sys.stderr)
     # poda: fuera de la ventana de un año
     limite = (hoy - dt.timedelta(days=HISTORICO_DIAS)).isoformat()
     hist["items"] = [x for x in hist["items"] if (x.get("f") or "") >= limite]
@@ -986,98 +1095,4 @@ def main():
             vistos.add(cod)
             reg = normalizar_licitacion(it)
             if filtro_duro(reg):
-                descartados["filtro_duro"] += 1
-                continue
-            nombre_n = _norm(reg["nombre"])
-            if _hit_blacklist(nombre_n):
-                descartados["blacklist"] += 1
-                continue
-            # el listado no permite búsqueda por keyword → exigir señal en el nombre
-            reg["palabras_clave_match"] = sorted({kw for kw in PALABRAS_CLAVE
-                                                  if _kw_en_texto(_norm(kw), nombre_n)})
-            if not reg["palabras_clave_match"] and not _matches_whitelist(nombre_n):
-                descartados["sin_match"] += 1
-                continue
-            reg["prefiltro"] = {"pasa": True, "razon": ""}
-            reg["score_heuristico"] = score_heuristico(reg)
-            lics.append(reg)
-        lics.sort(key=lambda r: -r["score_heuristico"])
-        lics = lics[:MAX_DETALLE_LIC]  # cuota del ticket: detalle solo para los mejores
-        lic_stats["candidatas"] = len(lics)
-        print(f"Licitaciones candidatas: {len(lics)} — pidiendo detalle (cuota MP_TICKET)…")
-        for i, reg in enumerate(lics, 1):
-            enriquecer_licitacion(reg)
-            if filtro_duro(reg):  # re-chequeo: ahora se conoce el monto real
-                reg["prefiltro"] = {"pasa": False, "razon": "filtro duro post-detalle"}
-            else:
-                pasa, razon = prefiltro_texto(reg, con_detalle=True)
-                reg["prefiltro"] = {"pasa": pasa, "razon": razon}
-            reg["score_heuristico"] = score_heuristico(reg)
-            if i % 10 == 0:
-                print(f"  · {i}/{len(lics)} procesadas")
-        lic_enriquecidas = [r for r in lics if r["prefiltro"]["pasa"]]
-        lic_stats["incluidas"] = len(lic_enriquecidas)
-        registros.extend(lics)
-    elif INCLUIR_LICITACIONES:
-        print("Sin MP_TICKET: se omiten licitaciones (solo Compra Ágil).")
-
-    # 3c) Historial de precios adjudicados (referencia para cotizar −10%)
-    hist_info = None
-    if HISTORICO_ON and MP_TICKET:
-        try:
-            h = actualizar_historico()
-            hist_info = {"items": len(h.get("items") or []), "dias_cubiertos": h.get("dias_cubiertos"),
-                         "dias_pendientes": h.get("dias_pendientes")}
-        except Exception as e:
-            print(f"  · histórico de precios: {e}", file=sys.stderr)
-
-    # 4) Evaluación IA con caché persistente (solo códigos nuevos que pasan todo)
-    cache = cargar_cache_ia()
-    ia_nuevos = ia_errores = 0
-    if ANTHROPIC_KEY:
-        candidatos_ia = sorted([r for r in a_enriquecer if r["prefiltro"]["pasa"]] + lic_enriquecidas,
-                               key=lambda r: -r["score_heuristico"])
-        cache, ia_nuevos, ia_errores = evaluar_ia(candidatos_ia, cache)
-    else:
-        print("Sin ANTHROPIC_API_KEY: la evaluación IA queda para la app (fallback).")
-
-    # 5) Adjuntar evaluación al feed + recorte final
-    for reg in registros:
-        ev = cache.get(reg["codigo"])
-        if ev:
-            reg["ia"] = ev
-    registros.sort(key=lambda r: (-(r.get("ia", {}).get("v") and 1 or 0),
-                                  -(r.get("ia", {}).get("s") or 0),
-                                  -r["score_heuristico"]))
-    if len(registros) > MAX_ITEMS_FEED:
-        registros = registros[:MAX_ITEMS_FEED]
-
-    cache = guardar_cache_ia(cache, {r["codigo"] for r in registros})
-    limpiar_adjuntos_viejos({r["codigo"] for r in registros})
-    n_adj = sum(len(r.get("adjuntos") or []) for r in registros)
-    n_viables = sum(1 for r in registros if r.get("ia", {}).get("v"))
-    n_lic = sum(1 for r in registros if r.get("tipo") == "licitacion")
-    salida = {
-        "generado": dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-        "total": len(registros),
-        "palabras_clave": PALABRAS_CLAVE,
-        "buscar_todo": BUSCAR_TODO,
-        "regiones": [],  # vacío = todo el país
-        "estados": ESTADOS,
-        "config": {"monto_min_clp": MONTO_MIN_CLP, "horas_min_cierre": HORAS_MIN_CIERRE,
-                   "max_detalle": MAX_DETALLE, "max_eval_ia": MAX_EVAL_IA},
-        "descartados": descartados,
-        "licitaciones": dict(lic_stats, habilitadas=INCLUIR_LICITACIONES, con_ticket=bool(MP_TICKET)),
-        "historico_precios": hist_info,
-        "eval_ia": {"evaluados_total": len(cache), "nuevos_esta_corrida": ia_nuevos,
-                    "errores": ia_errores, "server_side": bool(ANTHROPIC_KEY)},
-        "items": registros,
-    }
-    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-        json.dump(salida, f, ensure_ascii=False, indent=2)
-    print(f"OK: {len(registros)} oportunidades ({n_lic} licitaciones, {n_adj} adjuntos, "
-          f"{n_viables} viables IA, {ia_nuevos} evaluaciones nuevas) → {OUTPUT_FILE}")
-
-
-if __name__ == "__main__":
-    main()
+                descartado
