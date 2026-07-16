@@ -865,6 +865,12 @@ def enriquecer_con_detalle(registro):
 
 # ---------- Filtros ----------
 
+def cerrada_ya(reg):
+    """True si el proceso ya cerró (única razón para sacarlo del feed)."""
+    fc = _parse_fecha(reg.get("fecha_cierre"))
+    return fc is not None and fc <= dt.datetime.now()
+
+
 def filtro_duro(reg):
     """Filtros baratos que no requieren ficha ni IA. Devuelve razón o None."""
     fc = _parse_fecha(reg.get("fecha_cierre"))
@@ -1050,31 +1056,48 @@ def main():
                 if cod not in por_codigo:
                     por_codigo[cod] = it
 
-    # 2) Normalizar + filtros duros + pre-filtro por nombre
-    registros, descartados = [], {"filtro_duro": 0, "blacklist": 0, "sin_match": 0}
+    # Feed anterior: red de seguridad para no perder procesos aún abiertos
+    prev_items = {}
+    if os.path.exists(OUTPUT_FILE):
+        try:
+            with open(OUTPUT_FILE, encoding="utf-8") as f:
+                for it in (json.load(f).get("items") or []):
+                    if it.get("codigo"):
+                        prev_items[it["codigo"]] = it
+        except Exception:
+            pass
+
+    # 2) Normalizar + pre-filtro. IMPORTANTE: solo se descarta lo cerrado, la
+    #    blacklist y lo sin match; el filtro duro (monto/cierre próximo) MARCA
+    #    pero no elimina — así nada visible desaparece mientras siga abierto.
+    registros, descartados = [], {"cerradas": 0, "blacklist": 0, "sin_match": 0}
     for cod, it in por_codigo.items():
         reg = normalizar(it, matches.get(cod, set()))
-        razon_dura = filtro_duro(reg)
-        if razon_dura:
-            descartados["filtro_duro"] += 1
+        if cerrada_ya(reg):
+            descartados["cerradas"] += 1
             continue
         pasa, razon = prefiltro_texto(reg, con_detalle=False)
         if not pasa:
             descartados["blacklist" if razon.startswith("blacklist") else "sin_match"] += 1
             continue
-        reg["prefiltro"] = {"pasa": True, "razon": ""}
+        razon_dura = filtro_duro(reg)
+        reg["prefiltro"] = {"pasa": razon_dura is None, "razon": razon_dura or ""}
         reg["score_heuristico"] = score_heuristico(reg)
         registros.append(reg)
 
-    # 3) Priorizar por score y enriquecer SOLO los mejores (no cortar arbitrario)
-    registros.sort(key=lambda r: -r["score_heuristico"])
-    a_enriquecer = registros[:MAX_DETALLE] if FETCH_DETALLE else []
+    # 3) Priorizar por score y enriquecer SOLO los mejores que pasan todo
+    registros.sort(key=lambda r: -(r.get("score_heuristico") or 0))
+    a_enriquecer = ([r for r in registros if r["prefiltro"]["pasa"]][:MAX_DETALLE]) if FETCH_DETALLE else []
     print(f"Candidatos tras filtros: {len(registros)} (descartados: {descartados}). "
           f"Enriqueciendo top {len(a_enriquecer)} con ficha + adjuntos…")
     for i, reg in enumerate(a_enriquecer, 1):
         enriquecer_con_detalle(reg)
-        # re-chequeo con productos/categorías ya conocidos
+        # re-chequeo con productos/categorías ya conocidos + monto real
         pasa, razon = prefiltro_texto(reg, con_detalle=True)
+        if pasa:
+            razon_dura = filtro_duro(reg)
+            if razon_dura:
+                pasa, razon = False, razon_dura
         reg["prefiltro"] = {"pasa": pasa, "razon": razon}
         reg["score_heuristico"] = score_heuristico(reg)  # ahora con total_ofertas
         if i % 10 == 0:
@@ -1094,5 +1117,116 @@ def main():
                 continue
             vistos.add(cod)
             reg = normalizar_licitacion(it)
-            if filtro_duro(reg):
-                descartado
+            if cerrada_ya(reg):
+                descartados["cerradas"] += 1
+                continue
+            nombre_n = _norm(reg["nombre"])
+            if _hit_blacklist(nombre_n):
+                descartados["blacklist"] += 1
+                continue
+            # el listado no permite búsqueda por keyword → exigir señal en el nombre
+            reg["palabras_clave_match"] = sorted({kw for kw in PALABRAS_CLAVE
+                                                  if _kw_en_texto(_norm(kw), nombre_n)})
+            if not reg["palabras_clave_match"] and not _matches_whitelist(nombre_n):
+                descartados["sin_match"] += 1
+                continue
+            razon_dura = filtro_duro(reg)
+            reg["prefiltro"] = {"pasa": razon_dura is None, "razon": razon_dura or ""}
+            reg["score_heuristico"] = score_heuristico(reg)
+            lics.append(reg)
+        lics.sort(key=lambda r: -(r.get("score_heuristico") or 0))
+        candidatas = [r for r in lics if r["prefiltro"]["pasa"]][:MAX_DETALLE_LIC]  # cuota del ticket
+        lic_stats["candidatas"] = len(candidatas)
+        print(f"Licitaciones abiertas relevantes: {len(lics)} — detalle para top {len(candidatas)} (cuota MP_TICKET)…")
+        for i, reg in enumerate(candidatas, 1):
+            enriquecer_licitacion(reg)
+            if filtro_duro(reg):  # re-chequeo: ahora se conoce el monto real
+                reg["prefiltro"] = {"pasa": False, "razon": filtro_duro(reg)}
+            else:
+                pasa, razon = prefiltro_texto(reg, con_detalle=True)
+                reg["prefiltro"] = {"pasa": pasa, "razon": razon}
+            reg["score_heuristico"] = score_heuristico(reg)
+            if i % 10 == 0:
+                print(f"  · {i}/{len(candidatas)} procesadas")
+        lic_enriquecidas = [r for r in candidatas if r["prefiltro"]["pasa"]]
+        lic_stats["incluidas"] = len(lic_enriquecidas)
+        registros.extend(lics)  # TODAS las abiertas relevantes van al feed, con o sin detalle
+    elif INCLUIR_LICITACIONES:
+        print("Sin MP_TICKET: se omiten licitaciones (solo Compra Ágil).")
+
+    # 3c) Historial de precios adjudicados (referencia para cotizar −10%)
+    hist_info = None
+    if HISTORICO_ON:
+        try:
+            h = actualizar_historico()
+            hist_info = {"items": len(h.get("items") or []), "dias_cubiertos": h.get("dias_cubiertos"),
+                         "dias_pendientes": h.get("dias_pendientes")}
+        except Exception as e:
+            print(f"  · histórico de precios: {e}", file=sys.stderr)
+
+    # 4) Evaluación IA con caché persistente (solo códigos nuevos que pasan todo)
+    cache = cargar_cache_ia()
+    ia_nuevos = ia_errores = 0
+    if ANTHROPIC_KEY:
+        candidatos_ia = sorted([r for r in a_enriquecer if r["prefiltro"]["pasa"]] + lic_enriquecidas,
+                               key=lambda r: -(r.get("score_heuristico") or 0))
+        cache, ia_nuevos, ia_errores = evaluar_ia(candidatos_ia, cache)
+    else:
+        print("Sin ANTHROPIC_API_KEY: la evaluación IA queda para la app (fallback).")
+
+    # 4b) Arrastre: procesos del feed anterior que siguen abiertos pero no
+    #     aparecieron en esta corrida (hipo de la API, cambio de scores, etc.)
+    codigos_nuevos = {r["codigo"] for r in registros}
+    recuperados = 0
+    for cod, it in prev_items.items():
+        if cod in codigos_nuevos:
+            continue
+        if cerrada_ya(it):
+            continue
+        it["recuperado_corrida_anterior"] = True
+        registros.append(it)
+        recuperados += 1
+    if recuperados:
+        print(f"Arrastrados del feed anterior (aún abiertos): {recuperados}")
+
+    # 5) Adjuntar evaluación al feed + recorte final
+    for reg in registros:
+        ev = cache.get(reg["codigo"])
+        if ev:
+            reg["ia"] = ev
+    registros.sort(key=lambda r: (-(r.get("ia", {}).get("v") and 1 or 0),
+                                  -(r.get("ia", {}).get("s") or 0),
+                                  -(r.get("score_heuristico") or 0)))
+    if len(registros) > MAX_ITEMS_FEED:
+        registros = registros[:MAX_ITEMS_FEED]
+
+    cache = guardar_cache_ia(cache, {r["codigo"] for r in registros})
+    limpiar_adjuntos_viejos({r["codigo"] for r in registros})
+    n_adj = sum(len(r.get("adjuntos") or []) for r in registros)
+    n_viables = sum(1 for r in registros if r.get("ia", {}).get("v"))
+    n_lic = sum(1 for r in registros if r.get("tipo") == "licitacion")
+    salida = {
+        "generado": dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "total": len(registros),
+        "palabras_clave": PALABRAS_CLAVE,
+        "buscar_todo": BUSCAR_TODO,
+        "regiones": [],  # vacío = todo el país
+        "estados": ESTADOS,
+        "config": {"monto_min_clp": MONTO_MIN_CLP, "horas_min_cierre": HORAS_MIN_CIERRE,
+                   "max_detalle": MAX_DETALLE, "max_eval_ia": MAX_EVAL_IA},
+        "descartados": descartados,
+        "recuperados_feed_anterior": recuperados,
+        "licitaciones": dict(lic_stats, habilitadas=INCLUIR_LICITACIONES, con_ticket=bool(MP_TICKET)),
+        "historico_precios": hist_info,
+        "eval_ia": {"evaluados_total": len(cache), "nuevos_esta_corrida": ia_nuevos,
+                    "errores": ia_errores, "server_side": bool(ANTHROPIC_KEY)},
+        "items": registros,
+    }
+    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+        json.dump(salida, f, ensure_ascii=False, indent=2)
+    print(f"OK: {len(registros)} oportunidades ({n_lic} licitaciones, {n_adj} adjuntos, "
+          f"{n_viables} viables IA, {ia_nuevos} evaluaciones nuevas) → {OUTPUT_FILE}")
+
+
+if __name__ == "__main__":
+    main()
