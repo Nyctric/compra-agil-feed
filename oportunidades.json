@@ -1,6 +1,6 @@
 {
-  "generado": "2026-07-16T15:52:06Z",
-  "total": 94,
+  "generado": "2026-07-16T19:13:00Z",
+  "total": 149,
   "palabras_clave": [
     "anatomico",
     "3d",
@@ -25,25 +25,26 @@
     "max_eval_ia": 100
   },
   "descartados": {
-    "filtro_duro": 1640,
-    "blacklist": 511,
-    "sin_match": 4356
+    "cerradas": 279,
+    "blacklist": 656,
+    "sin_match": 5543
   },
+  "recuperados_feed_anterior": 0,
   "licitaciones": {
-    "activas": 4377,
+    "activas": 4379,
     "candidatas": 60,
     "incluidas": 58,
     "habilitadas": true,
     "con_ticket": true
   },
   "historico_precios": {
-    "items": 232,
-    "dias_cubiertos": 8,
-    "dias_pendientes": 357
+    "items": 432,
+    "dias_cubiertos": 19,
+    "dias_pendientes": 346
   },
   "eval_ia": {
-    "evaluados_total": 180,
-    "nuevos_esta_corrida": 34,
+    "evaluados_total": 181,
+    "nuevos_esta_corrida": 1,
     "errores": 0,
     "server_side": true
   },
@@ -416,6 +417,45 @@
       }
     },
     {
+      "codigo": "3016-38-LE26",
+      "tipo": "licitacion",
+      "nombre": "Segundo Llamado Servicio de Suministro Trofeos Galvanos Placas y Otros para Actividades Municipales de Lolol Año 2026 del Área de Gestión Municipal Departamento de Salud y Departamento de Educación",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": null,
+      "rut_organismo": null,
+      "unidad_compra": null,
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": null,
+      "moneda": "CLP",
+      "fecha_publicacion": null,
+      "fecha_cierre": "2026-07-17 15:01:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "galvano"
+      ],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3016-38-LE26",
+      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=3016-38-LE26",
+      "prefiltro": {
+        "pasa": false,
+        "razon": "cierre a menos de 24h"
+      },
+      "score_heuristico": 28,
+      "ia": {
+        "v": true,
+        "s": 75,
+        "r": "Trofeos/galvanos/placas 3D, altísimo monto, 29.5M viable",
+        "t": 1784004551992
+      }
+    },
+    {
       "codigo": "2403-582-COT26",
       "tipo": "compra_agil",
       "nombre": "Adquisición de medallas y trofeos.",
@@ -432,7 +472,7 @@
       "fecha_cierre": "2026-07-20 09:00",
       "fecha_ultimo_cambio": null,
       "palabras_clave_match": [],
-      "total_ofertas": 9,
+      "total_ofertas": 10,
       "productos": [
         {
           "nombre": "Medallas",
@@ -696,6 +736,52 @@
         "s": 70,
         "r": "Accesorios médicos plásticos, volumen regular",
         "t": 1784004568388
+      }
+    },
+    {
+      "codigo": "2065-21-LE26",
+      "tipo": "licitacion",
+      "nombre": "SERVICIO DE CONFECCION E INSTALACION DE SEÑALETICAS PARA HOSPITAL DE PTO. SAAVEDRA",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "SERV SALUD ARAUC SUR HOSP DR ARTURO HILLERNS LARRANAGA DE PTO SAAVEDRA",
+      "rut_organismo": "61.602.299-7",
+      "unidad_compra": "Hospital Puerto Saavedra",
+      "region": 9,
+      "region_nombre": "Araucanía",
+      "monto_clp": null,
+      "moneda": "CLP",
+      "fecha_publicacion": null,
+      "fecha_cierre": "2026-07-17 19:59:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [
+        {
+          "nombre": "Letreros publicitarios",
+          "descripcion": "Servicio de confección e instalación de señalética para hospital Dr. Arturo Hillerns Larrañaga por 18 meses de acuerdo a las necesidades del hospital según se indica en el punto 1.2 de las bases administrativas.",
+          "cantidad": 18.0,
+          "unidad": "Unidad",
+          "categoria": "82101501"
+        }
+      ],
+      "adjuntos": [],
+      "descripcion": "Servicio de confección e instalación de señalética para hospital Dr. Arturo Hillerns Larrañaga por 18 meses de acuerdo a las necesidades del hospital según se indica en el punto 1.2 de las bases administrativas.",
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2065-21-LE26",
+      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=2065-21-LE26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 24,
+      "tipo_licitacion": "LE",
+      "ia": {
+        "v": true,
+        "s": 70,
+        "r": "Señalética hospital fabricable resina, servicio continuo",
+        "t": 1784004561083
       }
     },
     {
@@ -1074,7 +1160,7 @@
       "palabras_clave_match": [
         "galvano"
       ],
-      "total_ofertas": 1,
+      "total_ofertas": 2,
       "productos": [
         {
           "nombre": "Galvanos",
@@ -1242,7 +1328,7 @@
       "palabras_clave_match": [
         "pin"
       ],
-      "total_ofertas": 0,
+      "total_ofertas": 1,
       "productos": [
         {
           "nombre": "Insignias",
@@ -1348,8 +1434,15 @@
       "palabras_clave_match": [
         "3d"
       ],
-      "total_ofertas": 0,
+      "total_ofertas": 1,
       "productos": [
+        {
+          "nombre": "Cintas de cartuchos para impresoras, fax o fotocopiadoras",
+          "descripcion": "Filamento PETG Color Negro\nContenido: 1 kg (aprox 350mt)\n",
+          "cantidad": 10,
+          "unidad": "EA",
+          "categoria": "44103101"
+        },
         {
           "nombre": "Cintas de cartuchos para impresoras, fax o fotocopiadoras",
           "descripcion": "Filamento PETG Color Verde\nContenido: 1 kg (aprox 350mt)\n",
@@ -1426,13 +1519,6 @@
           "cantidad": 10,
           "unidad": "EA",
           "categoria": "44103107"
-        },
-        {
-          "nombre": "Cintas de cartuchos para impresoras, fax o fotocopiadoras",
-          "descripcion": "Filamento PETG Color Negro\nContenido: 1 kg (aprox 350mt)\n",
-          "cantidad": 10,
-          "unidad": "EA",
-          "categoria": "44103101"
         }
       ],
       "adjuntos": [
@@ -1724,71 +1810,6 @@
         "razon": "blacklist: 'alimento' en producto"
       },
       "score_heuristico": 74
-    },
-    {
-      "codigo": "2281-1310-COT26",
-      "tipo": "compra_agil",
-      "nombre": "Confección de letreros informativos destinados a parques municipales y vía pública.",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "I MUNICIPALIDAD VALDIVIA",
-      "rut_organismo": "69.200.100-1",
-      "unidad_compra": "UNIDAD ADQUISICIONES MUNICIPAL VALDIVIA",
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": 1000000,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-07-15 17:19",
-      "fecha_cierre": "2026-07-20 13:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [],
-      "total_ofertas": 2,
-      "productos": [
-        {
-          "nombre": "Letreros",
-          "descripcion": "4 letreros informativos de 120x120 Materialidad placa de aluminio compuesto de mínimo 4mm, PVDF MOP, impresión en vinilo adhesivo, en tintas solventadas, full color. deberán ser entregados en Santa Bernardita 489 Villa San Luis (Clínica Veterinaria Municipal).",
-          "cantidad": 4,
-          "unidad": "EA",
-          "categoria": "55121727"
-        },
-        {
-          "nombre": "Letreros",
-          "descripcion": "6 letreros informativos de 60x90 materialidad placa de aluminio compuesto de mínimo 4mm, PVDF MOP, impresión en vinilo adhesivo, en tintas solventadas, full color, con poste omega no adosado, deberán ser entregados en Santa Bernardita 489 Villa San Luis (Clínica Veterinaria Municipal).",
-          "cantidad": 6,
-          "unidad": "EA",
-          "categoria": "55121727"
-        }
-      ],
-      "adjuntos": [
-        {
-          "id": "47FBC33D-CAC7-4792-938E-7C608AAAE830",
-          "nombre": "Bases Técnicas Letreros Tenencia Responsable.doc",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/2281-1310-COT26/Bases%20T%C3%A9cnicas%20Letreros%20Tenencia%20Responsable.doc",
-          "tipo": "doc"
-        },
-        {
-          "id": "ED623724-7D3F-4EF0-874C-90B93EE1EAC7",
-          "nombre": "TERMINOS REFERENCIA LETREROS.doc",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/2281-1310-COT26/TERMINOS%20REFERENCIA%20LETREROS.doc",
-          "tipo": "doc"
-        }
-      ],
-      "descripcion": "Se requiere confección de 4 letreros informativos de 120x120 Material placa de aluminio compuesto de mínimo 4mm, PVDF MOP, impresión en vinilo adhesivo, en tintas solventadas, full color. Letreros con instalación en parques a designar y 6 letreros de 60 x90, mismas especificaciones técnicas. El diseño será entregado por el Depto. de Tenencia Responsable de Mascotas. El costo de flete serán pagados por el oferente.",
-      "direccion_entrega": "Santa Bernardita 489 Villa San Luis (Clínica Veterinaria Municipal), Valdivia, Región de Los Ríos",
-      "plazo_entrega_dias": 5,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=2281-1310-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=2281-1310-COT26",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 74,
-      "ia": {
-        "v": false,
-        "s": 0,
-        "r": "Letreros aluminio con vinilo, no es 3D",
-        "t": 1784217121152
-      }
     },
     {
       "codigo": "539119-112-COT26",
@@ -2683,97 +2704,6 @@
       }
     },
     {
-      "codigo": "1274189-299-COT26",
-      "tipo": "compra_agil",
-      "nombre": "Extintores CO2 2 kg, PQS 6 kg, soporte mural tipo L para extintor, Gabinete para PQS 6kg - Dirección de Salud - Solic nro - 330",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "CORPORACION DE DESARROLLO SOCIAL DE BUIN",
-      "rut_organismo": "70.934.900-7",
-      "unidad_compra": "SALUD",
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": 415000,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-07-15 19:29",
-      "fecha_cierre": "2026-07-20 16:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [],
-      "total_ofertas": 5,
-      "productos": [
-        {
-          "nombre": "Extintores",
-          "descripcion": "\nExtintores CO2 2 kg. Ver adjunto con EETT de referencia",
-          "cantidad": 2,
-          "unidad": "EA",
-          "categoria": "46191601"
-        },
-        {
-          "nombre": "Extintores",
-          "descripcion": "Extintores PQS 6 kg. Ver adjunto con EETT de referencia",
-          "cantidad": 5,
-          "unidad": "EA",
-          "categoria": "46191601"
-        },
-        {
-          "nombre": "Extintores",
-          "descripcion": "soporte mural tipo L para extintor. Ver adjunto con EETT de referencia",
-          "cantidad": 7,
-          "unidad": "EA",
-          "categoria": "46191601"
-        },
-        {
-          "nombre": "Extintores",
-          "descripcion": "Gabinete para PQS 6kg\nVer adjunto con EETT de referencia",
-          "cantidad": 4,
-          "unidad": "EA",
-          "categoria": "46191601"
-        }
-      ],
-      "adjuntos": [
-        {
-          "id": "4B79CDDA-4CAA-4B2D-BD77-73743AC8BE7C",
-          "nombre": "Extintor CO2- 2 Kg..pdf",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1274189-299-COT26/Extintor%20CO2-%202%20Kg..pdf",
-          "tipo": "pdf"
-        },
-        {
-          "id": "16E6D75B-0CE3-4434-968A-BE93BCB8EA14",
-          "nombre": "Soporte Mural Tipo L para Extintores.pdf",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1274189-299-COT26/Soporte%20Mural%20Tipo%20L%20para%20Extintores.pdf",
-          "tipo": "pdf"
-        },
-        {
-          "id": "4F4AF9FD-65EF-46F0-BA8D-6B3F598AC794",
-          "nombre": "Extintor PQS -6 Kg...pdf",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1274189-299-COT26/Extintor%20PQS%20-6%20Kg...pdf",
-          "tipo": "pdf"
-        },
-        {
-          "id": "32B0605B-1B2F-4970-A850-40F51E2BCB83",
-          "nombre": "Gabinete para Extintor PQS de 6 Kg.pdf",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1274189-299-COT26/Gabinete%20para%20Extintor%20PQS%20de%206%20Kg.pdf",
-          "tipo": "pdf"
-        }
-      ],
-      "descripcion": "\"Para adjudicar la compra se solicita adjuntar cotización formal con detalle de oferta, rut y datos bancarios de la empresa. Se considerará el menor plazo de entrega, coherencia de la cotización adjunta con lo ofertado en el portal. Se evaluará la equivalencia técnica de lo ofertado, además, del precio ofertado y en caso de empate se compararán los perfiles de los oferentes.\nLa adjudicación de la compra se basará en lo ya mencionado y en lo descrito en especificación técnica adjunta.\"\n",
-      "direccion_entrega": "CARLOS CONDELL N°320 BUIN",
-      "plazo_entrega_dias": 3,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1274189-299-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1274189-299-COT26",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 67,
-      "ia": {
-        "v": false,
-        "s": 0,
-        "r": "Extintores metal, no es fabricación plástica",
-        "t": 1784217121152
-      }
-    },
-    {
       "codigo": "559322-197-COT26",
       "tipo": "compra_agil",
       "nombre": "Compra de filamentos",
@@ -2847,54 +2777,67 @@
       }
     },
     {
-      "codigo": "2345-158-COT26",
+      "codigo": "2281-1310-COT26",
       "tipo": "compra_agil",
-      "nombre": "SERVICIO DE LIMPIEZA DE POZO PROFUNDO.",
+      "nombre": "Confección de letreros informativos destinados a parques municipales y vía pública.",
       "estado": "publicada",
       "estado_glosa": "Publicada",
-      "organismo": "I MUNICIPALIDAD DE LAS CONDES",
-      "rut_organismo": "69.070.400-5",
-      "unidad_compra": "I MUNICIPALIDAD DE LAS CONDES",
+      "organismo": "I MUNICIPALIDAD VALDIVIA",
+      "rut_organismo": "69.200.100-1",
+      "unidad_compra": "UNIDAD ADQUISICIONES MUNICIPAL VALDIVIA",
       "region": null,
       "region_nombre": null,
-      "monto_clp": 5000000,
+      "monto_clp": 1000000,
       "moneda": "CLP",
-      "fecha_publicacion": "2026-07-16 11:25",
-      "fecha_cierre": "2026-07-17 17:00",
+      "fecha_publicacion": "2026-07-15 17:19",
+      "fecha_cierre": "2026-07-20 13:00",
       "fecha_ultimo_cambio": null,
       "palabras_clave_match": [],
-      "total_ofertas": 1,
+      "total_ofertas": 3,
       "productos": [
         {
-          "nombre": "Servicios de mantenimiento y administración de pozos de agua",
-          "descripcion": "\nSERVICIO DE LIMPIEZA Y REHABILITACIÓN DE POZO PROFUNDO, UBICADO AL INTERIOR DEL PARQUE ARAUCANO. COMUNA DE LAS CONDES.  SEGÚN FICHA TÉCNICA EN ARCHIVO ADJUNTO.",
-          "cantidad": 1,
+          "nombre": "Letreros",
+          "descripcion": "4 letreros informativos de 120x120 Materialidad placa de aluminio compuesto de mínimo 4mm, PVDF MOP, impresión en vinilo adhesivo, en tintas solventadas, full color. deberán ser entregados en Santa Bernardita 489 Villa San Luis (Clínica Veterinaria Municipal).",
+          "cantidad": 4,
           "unidad": "EA",
-          "categoria": "70171707"
+          "categoria": "55121727"
+        },
+        {
+          "nombre": "Letreros",
+          "descripcion": "6 letreros informativos de 60x90 materialidad placa de aluminio compuesto de mínimo 4mm, PVDF MOP, impresión en vinilo adhesivo, en tintas solventadas, full color, con poste omega no adosado, deberán ser entregados en Santa Bernardita 489 Villa San Luis (Clínica Veterinaria Municipal).",
+          "cantidad": 6,
+          "unidad": "EA",
+          "categoria": "55121727"
         }
       ],
       "adjuntos": [
         {
-          "id": "FE5EF49F-4F2D-408B-B356-8D9BFA0C0F23",
-          "nombre": "F.T. P.M.N°126.008 Limpieza de Pozo profundo.pdf",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/2345-158-COT26/F.T.%20P.M.N%C2%B0126.008%20Limpieza%20de%20Pozo%20profundo.pdf",
-          "tipo": "pdf"
+          "id": "47FBC33D-CAC7-4792-938E-7C608AAAE830",
+          "nombre": "Bases Técnicas Letreros Tenencia Responsable.doc",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/2281-1310-COT26/Bases%20T%C3%A9cnicas%20Letreros%20Tenencia%20Responsable.doc",
+          "tipo": "doc"
+        },
+        {
+          "id": "ED623724-7D3F-4EF0-874C-90B93EE1EAC7",
+          "nombre": "TERMINOS REFERENCIA LETREROS.doc",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/2281-1310-COT26/TERMINOS%20REFERENCIA%20LETREROS.doc",
+          "tipo": "doc"
         }
       ],
-      "descripcion": "SERVICIO DE LIMPIEZA DE POZO PROFUNDO.\nP.M.N°126.008 - DIR. PARQUE Y JARDINES\n",
-      "direccion_entrega": "AV. PRESIDENTE RIESCO N°5877",
-      "plazo_entrega_dias": 10,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=2345-158-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=2345-158-COT26",
+      "descripcion": "Se requiere confección de 4 letreros informativos de 120x120 Material placa de aluminio compuesto de mínimo 4mm, PVDF MOP, impresión en vinilo adhesivo, en tintas solventadas, full color. Letreros con instalación en parques a designar y 6 letreros de 60 x90, mismas especificaciones técnicas. El diseño será entregado por el Depto. de Tenencia Responsable de Mascotas. El costo de flete serán pagados por el oferente.",
+      "direccion_entrega": "Santa Bernardita 489 Villa San Luis (Clínica Veterinaria Municipal), Valdivia, Región de Los Ríos",
+      "plazo_entrega_dias": 5,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=2281-1310-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=2281-1310-COT26",
       "prefiltro": {
         "pasa": true,
         "razon": ""
       },
-      "score_heuristico": 64,
+      "score_heuristico": 67,
       "ia": {
         "v": false,
         "s": 0,
-        "r": "Servicio limpieza pozo, no fabricación",
+        "r": "Letreros aluminio con vinilo, no es 3D",
         "t": 1784217121152
       }
     },
@@ -2981,126 +2924,6 @@
       }
     },
     {
-      "codigo": "1666-188-COT26",
-      "tipo": "compra_agil",
-      "nombre": "Repuestos para sillón dental Kavo Unik",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "Servicio de Salud del Reloncaví",
-      "rut_organismo": "61.602.272-5",
-      "unidad_compra": "HOSPITAL DE MAULLÍN",
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": 900000,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-07-15 17:02",
-      "fecha_cierre": "2026-07-17 16:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [],
-      "total_ofertas": 1,
-      "productos": [
-        {
-          "nombre": "Luces o lámparas de cabeza para examen médico o accesorios",
-          "descripcion": "Kit reflector led original. Con despacho al Hospital de Maullín en 3 días.",
-          "cantidad": 1,
-          "unidad": "KIT",
-          "categoria": "42182603"
-        },
-        {
-          "nombre": "Tarjetas de tablero de conectadores de circuitos",
-          "descripcion": "Placa para silla Kavo Unik Comfort. Con despacho al Hospital de Maullín en 3 días.",
-          "cantidad": 1,
-          "unidad": "EA",
-          "categoria": "32101507"
-        },
-        {
-          "nombre": "Kits de accesorios de jeringas odontológicas",
-          "descripcion": "Jeringa triple. Con despacho al Hospital de Maullín en 3 días.",
-          "cantidad": 1,
-          "unidad": "EA",
-          "categoria": "42152519"
-        },
-        {
-          "nombre": "Mangueras especiales",
-          "descripcion": "Eyector + manguera + filtro. Con despacho al Hospital de Maullín en 3 días.",
-          "cantidad": 1,
-          "unidad": "KIT",
-          "categoria": "40142007"
-        }
-      ],
-      "adjuntos": [],
-      "descripcion": "1 Kit reflector led original. 1 Placa para silla Kavo Unik Comfort. 1 Jeringa triple.\n1 Eyector + manguera + filtro. Con despacho al Hospital de Maullín en 3 días.\n",
-      "direccion_entrega": "Calle Gabriela Mistral 136",
-      "plazo_entrega_dias": 3,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1666-188-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1666-188-COT26",
-      "prefiltro": {
-        "pasa": false,
-        "razon": "blacklist: 'examen medico' en producto"
-      },
-      "score_heuristico": 64
-    },
-    {
-      "codigo": "3928-244-COT26",
-      "tipo": "compra_agil",
-      "nombre": "ADQUISICION DE LAPIZ 3D PARA LICEO AGUSTIN ROSS EDWARDS",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "Educación Municipal",
-      "rut_organismo": "69.091.201-5",
-      "unidad_compra": "Educación Municipal",
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": 200000,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-07-15 16:19",
-      "fecha_cierre": "2026-07-17 16:20",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [
-        "3d"
-      ],
-      "total_ofertas": 0,
-      "productos": [
-        {
-          "nombre": "Lápiz óptico de presión",
-          "descripcion": "ADQUISICION DE LAPIZ 3D PARA LICEO AGUSTIN ROSS EDWARDS, DEBEN REVISAR COTIZACION ADJUNTA, COMPLETAR Y SUBIR TODOS LOS ANEXOS QUE SE SOLICITAN Y QUE SEA EL PRODUCTO REQUERIDO. LA OFERTA QUE NO CUMPLA NO SERA CONSIDERADA.",
-          "cantidad": 10,
-          "unidad": "EA",
-          "categoria": "43211709"
-        }
-      ],
-      "adjuntos": [
-        {
-          "id": "1CDAE7E4-AF8E-4E2E-9774-AA7471C39797",
-          "nombre": "ANEXO  LAPIZ 3D.doc",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/3928-244-COT26/ANEXO%20LAPIZ%203D.doc",
-          "tipo": "doc"
-        },
-        {
-          "id": "CBDA540B-328A-48E5-BA0F-09B5A9D249C0",
-          "nombre": "ADQ LAPIZ 3D.pdf",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/3928-244-COT26/ADQ%20LAPIZ%203D.pdf",
-          "tipo": "pdf"
-        }
-      ],
-      "descripcion": "ADQUISICION DE LAPIZ 3D PARA LICEO AGUSTIN ROSS EDWARDS, DEBEN REVISAR COTIZACION ADJUNTA, COMPLETAR Y SUBIR TODOS LOS ANEXOS QUE SE SOLICITAN Y QUE SEA EL PRODUCTO REQUERIDO. LA OFERTA QUE NO CUMPLA NO SERA CONSIDERADA.",
-      "direccion_entrega": "ANGEL GAETE 365",
-      "plazo_entrega_dias": 2,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=3928-244-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=3928-244-COT26",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 64,
-      "ia": {
-        "v": false,
-        "s": 0,
-        "r": "Lápiz 3D es producto electrónico terminado",
-        "t": 1784217125853
-      }
-    },
-    {
       "codigo": "3085-360-COT26",
       "tipo": "compra_agil",
       "nombre": "QUESO GOUDA PIEZA",
@@ -3150,6 +2973,97 @@
         "s": 0,
         "r": "Queso es alimento, no fabricable 3D",
         "t": 1784217125853
+      }
+    },
+    {
+      "codigo": "1274189-299-COT26",
+      "tipo": "compra_agil",
+      "nombre": "Extintores CO2 2 kg, PQS 6 kg, soporte mural tipo L para extintor, Gabinete para PQS 6kg - Dirección de Salud - Solic nro - 330",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "CORPORACION DE DESARROLLO SOCIAL DE BUIN",
+      "rut_organismo": "70.934.900-7",
+      "unidad_compra": "SALUD",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 415000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-07-15 19:29",
+      "fecha_cierre": "2026-07-20 16:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": 6,
+      "productos": [
+        {
+          "nombre": "Extintores",
+          "descripcion": "\nExtintores CO2 2 kg. Ver adjunto con EETT de referencia",
+          "cantidad": 2,
+          "unidad": "EA",
+          "categoria": "46191601"
+        },
+        {
+          "nombre": "Extintores",
+          "descripcion": "Extintores PQS 6 kg. Ver adjunto con EETT de referencia",
+          "cantidad": 5,
+          "unidad": "EA",
+          "categoria": "46191601"
+        },
+        {
+          "nombre": "Extintores",
+          "descripcion": "soporte mural tipo L para extintor. Ver adjunto con EETT de referencia",
+          "cantidad": 7,
+          "unidad": "EA",
+          "categoria": "46191601"
+        },
+        {
+          "nombre": "Extintores",
+          "descripcion": "Gabinete para PQS 6kg\nVer adjunto con EETT de referencia",
+          "cantidad": 4,
+          "unidad": "EA",
+          "categoria": "46191601"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "4B79CDDA-4CAA-4B2D-BD77-73743AC8BE7C",
+          "nombre": "Extintor CO2- 2 Kg..pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1274189-299-COT26/Extintor%20CO2-%202%20Kg..pdf",
+          "tipo": "pdf"
+        },
+        {
+          "id": "16E6D75B-0CE3-4434-968A-BE93BCB8EA14",
+          "nombre": "Soporte Mural Tipo L para Extintores.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1274189-299-COT26/Soporte%20Mural%20Tipo%20L%20para%20Extintores.pdf",
+          "tipo": "pdf"
+        },
+        {
+          "id": "4F4AF9FD-65EF-46F0-BA8D-6B3F598AC794",
+          "nombre": "Extintor PQS -6 Kg...pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1274189-299-COT26/Extintor%20PQS%20-6%20Kg...pdf",
+          "tipo": "pdf"
+        },
+        {
+          "id": "32B0605B-1B2F-4970-A850-40F51E2BCB83",
+          "nombre": "Gabinete para Extintor PQS de 6 Kg.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1274189-299-COT26/Gabinete%20para%20Extintor%20PQS%20de%206%20Kg.pdf",
+          "tipo": "pdf"
+        }
+      ],
+      "descripcion": "\"Para adjudicar la compra se solicita adjuntar cotización formal con detalle de oferta, rut y datos bancarios de la empresa. Se considerará el menor plazo de entrega, coherencia de la cotización adjunta con lo ofertado en el portal. Se evaluará la equivalencia técnica de lo ofertado, además, del precio ofertado y en caso de empate se compararán los perfiles de los oferentes.\nLa adjudicación de la compra se basará en lo ya mencionado y en lo descrito en especificación técnica adjunta.\"\n",
+      "direccion_entrega": "CARLOS CONDELL N°320 BUIN",
+      "plazo_entrega_dias": 3,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1274189-299-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1274189-299-COT26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 59,
+      "ia": {
+        "v": false,
+        "s": 0,
+        "r": "Extintores metal, no es fabricación plástica",
+        "t": 1784217121152
       }
     },
     {
@@ -3349,6 +3263,37 @@
         "r": "Medallas metálicas, requiere galvanoplastia, no manufactura aditiva.",
         "t": 1784130021416
       }
+    },
+    {
+      "codigo": "418-1035-COT26",
+      "tipo": "compra_agil",
+      "nombre": "CRA-DENTAL-REPUESTO DE PIEZA DE MANO DTE YZ - 1L.-",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE PUERTO AYSEN",
+      "rut_organismo": null,
+      "unidad_compra": "H Puerto Aysén",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 1000000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-07-15 14:11",
+      "fecha_cierre": "2026-07-17 12:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=418-1035-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=418-1035-COT26",
+      "prefiltro": {
+        "pasa": false,
+        "razon": "cierre a menos de 24h"
+      },
+      "score_heuristico": 53
     },
     {
       "codigo": "1271359-71-L126",
@@ -3585,6 +3530,706 @@
         "r": "Mantención equipos odontológicos; es servicio especializado",
         "t": 1784043809094
       }
+    },
+    {
+      "codigo": "2345-158-COT26",
+      "tipo": "compra_agil",
+      "nombre": "SERVICIO DE LIMPIEZA DE POZO PROFUNDO.",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "I MUNICIPALIDAD DE LAS CONDES",
+      "rut_organismo": null,
+      "unidad_compra": "I MUNICIPALIDAD DE LAS CONDES",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 5000000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-07-16 11:25",
+      "fecha_cierre": "2026-07-17 17:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=2345-158-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=2345-158-COT26",
+      "prefiltro": {
+        "pasa": false,
+        "razon": "cierre a menos de 24h"
+      },
+      "score_heuristico": 39,
+      "ia": {
+        "v": false,
+        "s": 0,
+        "r": "Servicio limpieza pozo, no fabricación",
+        "t": 1784217121152
+      }
+    },
+    {
+      "codigo": "1386073-88-COT26",
+      "tipo": "compra_agil",
+      "nombre": "SERVICIO DE IMPRESIÓN GRÁFICA DE SEÑALÉTICAS PARA MUSEO INTERACTIVO LAS CONDES",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "CORP CULTURAL DE LAS CONDES",
+      "rut_organismo": null,
+      "unidad_compra": "CORP CULTURAL DE LAS CONDES",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 750000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-07-15 17:59",
+      "fecha_cierre": "2026-07-17 15:30",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1386073-88-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1386073-88-COT26",
+      "prefiltro": {
+        "pasa": false,
+        "razon": "cierre a menos de 24h"
+      },
+      "score_heuristico": 39
+    },
+    {
+      "codigo": "2385-370-COT26",
+      "tipo": "compra_agil",
+      "nombre": "COMPRA GALVANOS  M-562",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "I MUNICIPALIDAD DE CALAMA",
+      "rut_organismo": null,
+      "unidad_compra": "ADQUISICIONES",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 600000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-07-15 17:19",
+      "fecha_cierre": "2026-07-17 12:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "galvano"
+      ],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=2385-370-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=2385-370-COT26",
+      "prefiltro": {
+        "pasa": false,
+        "razon": "cierre a menos de 24h"
+      },
+      "score_heuristico": 39
+    },
+    {
+      "codigo": "4179-146-COT26",
+      "tipo": "compra_agil",
+      "nombre": "Adquisición de Plástico de Invernadero",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "I MUNICIPALIDAD DE LAUTARO",
+      "rut_organismo": null,
+      "unidad_compra": "ABASTECIMIENTO",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 5000000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-07-15 17:16",
+      "fecha_cierre": "2026-07-17 11:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=4179-146-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=4179-146-COT26",
+      "prefiltro": {
+        "pasa": false,
+        "razon": "cierre a menos de 24h"
+      },
+      "score_heuristico": 39
+    },
+    {
+      "codigo": "1666-188-COT26",
+      "tipo": "compra_agil",
+      "nombre": "Repuestos para sillón dental Kavo Unik",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "Servicio de Salud del Reloncaví",
+      "rut_organismo": null,
+      "unidad_compra": "HOSPITAL DE MAULLÍN",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 900000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-07-15 17:02",
+      "fecha_cierre": "2026-07-17 16:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1666-188-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1666-188-COT26",
+      "prefiltro": {
+        "pasa": false,
+        "razon": "cierre a menos de 24h"
+      },
+      "score_heuristico": 39
+    },
+    {
+      "codigo": "3593-280-COT26",
+      "tipo": "compra_agil",
+      "nombre": "REPUESTOS PARA CAMION RECOLECTOR DE BASURA",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "ILUSTRE MINICIPALIDAD DE COMBARBALA",
+      "rut_organismo": null,
+      "unidad_compra": "ILUSTRE MINICIPALIDAD DE COMBARBALA",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 530188,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-07-15 17:00",
+      "fecha_cierre": "2026-07-17 11:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=3593-280-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=3593-280-COT26",
+      "prefiltro": {
+        "pasa": false,
+        "razon": "cierre a menos de 24h"
+      },
+      "score_heuristico": 39
+    },
+    {
+      "codigo": "2941-226-COT26",
+      "tipo": "compra_agil",
+      "nombre": "ADQUISICION DE SEÑALETICAS VERTICALES DE TRANSITO, PARA INSTALACION EN DIVERSAS CALLES DE SAN PABLO",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "I MUNICIPALIDAD DE SAN PABLO",
+      "rut_organismo": null,
+      "unidad_compra": "Finanzas",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 1500000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-07-15 16:37",
+      "fecha_cierre": "2026-07-17 12:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=2941-226-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=2941-226-COT26",
+      "prefiltro": {
+        "pasa": false,
+        "razon": "cierre a menos de 24h"
+      },
+      "score_heuristico": 39
+    },
+    {
+      "codigo": "1057736-32-COT26",
+      "tipo": "compra_agil",
+      "nombre": "LIMPIEZA DE FOSAS Y DUCTOS EN RECINTO VACACIONAL LA ISLA EN LA COMUNA DE PINTO",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "DIRECCION SERVICIO DE SALUD TALCAHUANO",
+      "rut_organismo": null,
+      "unidad_compra": "Bienestar",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 900000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-07-15 16:32",
+      "fecha_cierre": "2026-07-17 08:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1057736-32-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1057736-32-COT26",
+      "prefiltro": {
+        "pasa": false,
+        "razon": "cierre a menos de 24h"
+      },
+      "score_heuristico": 39
+    },
+    {
+      "codigo": "3928-244-COT26",
+      "tipo": "compra_agil",
+      "nombre": "ADQUISICION DE LAPIZ 3D PARA LICEO AGUSTIN ROSS EDWARDS",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "Educación Municipal",
+      "rut_organismo": null,
+      "unidad_compra": "Educación Municipal",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 200000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-07-15 16:19",
+      "fecha_cierre": "2026-07-17 16:20",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "3d"
+      ],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=3928-244-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=3928-244-COT26",
+      "prefiltro": {
+        "pasa": false,
+        "razon": "cierre a menos de 24h"
+      },
+      "score_heuristico": 39,
+      "ia": {
+        "v": false,
+        "s": 0,
+        "r": "Lápiz 3D es producto electrónico terminado",
+        "t": 1784217125853
+      }
+    },
+    {
+      "codigo": "3055-37-COT26",
+      "tipo": "compra_agil",
+      "nombre": "ADQUISICION DE REPUESTOS PARA PLANTA OSMOSIS INVERSA",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "LST Chacabuco",
+      "rut_organismo": null,
+      "unidad_compra": "LST CHACABUCO",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 3660000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-07-15 16:04",
+      "fecha_cierre": "2026-07-17 08:30",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=3055-37-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=3055-37-COT26",
+      "prefiltro": {
+        "pasa": false,
+        "razon": "cierre a menos de 24h"
+      },
+      "score_heuristico": 39
+    },
+    {
+      "codigo": "889473-1291-COT26",
+      "tipo": "compra_agil",
+      "nombre": "SC 8202 - Repuestos",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "UNIVERSIDAD DE O'HIGGINS",
+      "rut_organismo": null,
+      "unidad_compra": "UNIVERSIDAD DE O'HIGGINS",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 385001,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-07-15 15:20",
+      "fecha_cierre": "2026-07-17 10:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=889473-1291-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=889473-1291-COT26",
+      "prefiltro": {
+        "pasa": false,
+        "razon": "cierre a menos de 24h"
+      },
+      "score_heuristico": 39
+    },
+    {
+      "codigo": "1057605-10-COT26",
+      "tipo": "compra_agil",
+      "nombre": "COMPRA DE GALVANOS PARA FUNCIONARIOS AFILIADOS A BIENESTAR",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "SERVICIO DE SALUD DE ARICA Y PARINACOTA",
+      "rut_organismo": null,
+      "unidad_compra": "Bienestar",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 265000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-07-15 15:01",
+      "fecha_cierre": "2026-07-17 09:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "galvano"
+      ],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1057605-10-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1057605-10-COT26",
+      "prefiltro": {
+        "pasa": false,
+        "razon": "cierre a menos de 24h"
+      },
+      "score_heuristico": 39
+    },
+    {
+      "codigo": "2678-78-COT26",
+      "tipo": "compra_agil",
+      "nombre": "SERVICIO DE LIMPIEZA Y MANTENCIÓN  DE FOSAS Y CÁMARAS DESGRAZADORAS PARA JARDINES INFANTILES DE LA COMUNA DE MOSTAZAL.",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "I MUNICIPALIDAD DE MOSTAZAL",
+      "rut_organismo": null,
+      "unidad_compra": "Departamento de Educación",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 1642200,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-07-15 14:52",
+      "fecha_cierre": "2026-07-17 09:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=2678-78-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=2678-78-COT26",
+      "prefiltro": {
+        "pasa": false,
+        "razon": "cierre a menos de 24h"
+      },
+      "score_heuristico": 39
+    },
+    {
+      "codigo": "418-1036-COT26",
+      "tipo": "compra_agil",
+      "nombre": "CRA-DENTAL-CONTRA ÁNGULO, PIEZA DE MANO, MICROMOTOR.-",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE PUERTO AYSEN",
+      "rut_organismo": null,
+      "unidad_compra": "H Puerto Aysén",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 1000000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-07-15 14:26",
+      "fecha_cierre": "2026-07-17 12:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=418-1036-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=418-1036-COT26",
+      "prefiltro": {
+        "pasa": false,
+        "razon": "cierre a menos de 24h"
+      },
+      "score_heuristico": 39
+    },
+    {
+      "codigo": "702988-213-COT26",
+      "tipo": "compra_agil",
+      "nombre": "REPUESTOS CAMIÓN  MERC BENZ  ACTROS 3336K (OFERTA DEBE SER EXENTA DE IVA LEY NAVARINO REQUISITO EXCLUYENTE)",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "Ejercito de Chile",
+      "rut_organismo": null,
+      "unidad_compra": "Cuerpo Milit Subjefatura Zonal Punta Arenas (IGTF)",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 244600,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-07-15 14:18",
+      "fecha_cierre": "2026-07-17 12:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=702988-213-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=702988-213-COT26",
+      "prefiltro": {
+        "pasa": false,
+        "razon": "cierre a menos de 24h"
+      },
+      "score_heuristico": 39
+    },
+    {
+      "codigo": "551872-5-COT26",
+      "tipo": "compra_agil",
+      "nombre": "Servicio de fumigación, limpieza y sanitización para bodega Unidad de Crédito Antofagasta",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "DIRECCION GENERAL DEL CREDITO PRENDARIO",
+      "rut_organismo": null,
+      "unidad_compra": "Unidad Antofagasta",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 628320,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-07-15 14:05",
+      "fecha_cierre": "2026-07-17 12:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=551872-5-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=551872-5-COT26",
+      "prefiltro": {
+        "pasa": false,
+        "razon": "cierre a menos de 24h"
+      },
+      "score_heuristico": 39
+    },
+    {
+      "codigo": "4034-331-COT26",
+      "tipo": "compra_agil",
+      "nombre": "MEDALLAS GRABADAS PARA ACTIVIDADES ESCOLARES SEGUNDO SEMESTRE, SP 21 - FONDOS EXTRAESCOLAR",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "Ilustre Municipalidad de Cañete - Educación",
+      "rut_organismo": null,
+      "unidad_compra": "Daem",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 4200000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-07-15 13:54",
+      "fecha_cierre": "2026-07-17 11:30",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=4034-331-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=4034-331-COT26",
+      "prefiltro": {
+        "pasa": false,
+        "razon": "cierre a menos de 24h"
+      },
+      "score_heuristico": 39
+    },
+    {
+      "codigo": "4494-390-COT26",
+      "tipo": "compra_agil",
+      "nombre": "LETREROS \"PROHIBIDO BOTAR BASURA Y ESCOMBROS\" (P.539 DEPTO. ASEO)",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "I MUNICIPALIDAD DE PENCO",
+      "rut_organismo": null,
+      "unidad_compra": "Municipalidad",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 2500000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-07-15 13:49",
+      "fecha_cierre": "2026-07-17 11:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=4494-390-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=4494-390-COT26",
+      "prefiltro": {
+        "pasa": false,
+        "razon": "cierre a menos de 24h"
+      },
+      "score_heuristico": 39
+    },
+    {
+      "codigo": "2594-538-COT26",
+      "tipo": "compra_agil",
+      "nombre": "ADQUISICION DE COPAS Y MEDALLAS GRABADAS CON LOGO Y CINTA. (OF. DIDECO DEPORTES).",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "I MUNICIPALIDAD DE CONCON",
+      "rut_organismo": null,
+      "unidad_compra": "I.MUNICIPALIDAD DE CONCON",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 500000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-07-15 13:47",
+      "fecha_cierre": "2026-07-17 08:10",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=2594-538-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=2594-538-COT26",
+      "prefiltro": {
+        "pasa": false,
+        "razon": "cierre a menos de 24h"
+      },
+      "score_heuristico": 39
+    },
+    {
+      "codigo": "952751-127-COT26",
+      "tipo": "compra_agil",
+      "nombre": "OPI 23833 COMPRA DE CONTENEDORES PLASTICOS",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "DIRECCIÓN DE ADMINISTRACIÓN DE SALUD DAS",
+      "rut_organismo": null,
+      "unidad_compra": "DAS SAN PEDRO DE LA PAZ",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 1300000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-07-15 13:39",
+      "fecha_cierre": "2026-07-17 10:30",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=952751-127-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=952751-127-COT26",
+      "prefiltro": {
+        "pasa": false,
+        "razon": "cierre a menos de 24h"
+      },
+      "score_heuristico": 39
+    },
+    {
+      "codigo": "702988-209-COT26",
+      "tipo": "compra_agil",
+      "nombre": "REPUESTOS TOYOTA HILUX 2015  (OFERTA DEBE SER EXENTA DE IVA LEY NAVARINO REQUISITO EXCLUYENTE)",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "Ejercito de Chile",
+      "rut_organismo": null,
+      "unidad_compra": "Cuerpo Milit Subjefatura Zonal Punta Arenas (IGTF)",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 635450,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-07-15 13:20",
+      "fecha_cierre": "2026-07-17 09:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=702988-209-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=702988-209-COT26",
+      "prefiltro": {
+        "pasa": false,
+        "razon": "cierre a menos de 24h"
+      },
+      "score_heuristico": 39
+    },
+    {
+      "codigo": "2833-481-COT26",
+      "tipo": "compra_agil",
+      "nombre": "Adquisición de Artículos de Limpieza para Colegio Roberto Matta.",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "I MUNICIPALIDAD DE QUILLOTA",
+      "rut_organismo": null,
+      "unidad_compra": "DEPARTAMENTO DE EDUCACION MUNICIPAL",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 1200000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-07-15 13:16",
+      "fecha_cierre": "2026-07-17 15:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=2833-481-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=2833-481-COT26",
+      "prefiltro": {
+        "pasa": false,
+        "razon": "cierre a menos de 24h"
+      },
+      "score_heuristico": 39
     },
     {
       "codigo": "1078177-39-LE26",
@@ -3868,7 +4513,7 @@
       "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=1697-35-LE26",
       "prefiltro": {
         "pasa": false,
-        "razon": "filtro duro post-detalle"
+        "razon": "monto bajo el mínimo (100,000 CLP)"
       },
       "score_heuristico": 39,
       "tipo_licitacion": "LE"
@@ -5582,6 +6227,130 @@
       }
     },
     {
+      "codigo": "1499-378-COT26",
+      "tipo": "compra_agil",
+      "nombre": "SUTURA CUTANEA ADHESIVA DE 6 mm. X 7.5 cm. (RAYON RESPIRABLE CON FILAMENTOS DE POLIÉSTER PARA MAYOR ESTABILIDAD. LIBRE DE LÁTEX Y SUAVE CON LA PIEL",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "INSTITUTO NACIONAL DEL TORAX",
+      "rut_organismo": null,
+      "unidad_compra": "INSTITUTO NACIONAL DEL TORAX",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 100000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-07-15 19:13",
+      "fecha_cierre": "2026-07-17 12:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1499-378-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1499-378-COT26",
+      "prefiltro": {
+        "pasa": false,
+        "razon": "cierre a menos de 24h"
+      },
+      "score_heuristico": 29
+    },
+    {
+      "codigo": "3714-227-COT26",
+      "tipo": "compra_agil",
+      "nombre": "Adquisición de juego modular plástico para la Escuela Teresa Cannon.",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "I MUNICIPALIDAD DE LOS VILOS",
+      "rut_organismo": null,
+      "unidad_compra": "Educacion",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 6500000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-07-15 17:29",
+      "fecha_cierre": "2026-07-17 09:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=3714-227-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=3714-227-COT26",
+      "prefiltro": {
+        "pasa": false,
+        "razon": "cierre a menos de 24h"
+      },
+      "score_heuristico": 29
+    },
+    {
+      "codigo": "1461054-248-COT26",
+      "tipo": "compra_agil",
+      "nombre": "SERVICIO DE LIMPIEZA, RETIRO DE CABLEADO ANTIGUO, RECABLEADO DE TRONCALES DE DATOS CAT6, ENLACE PUNTO A PUNTO Y PUNTOS DE ACCESO DE WIFI PARA COLEGIO GABRIEL GONZALEZ VIDELA RBD 530,",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "SERVICIO LOCAL DE EDUCACIÓN PÚBLICA DEL ELQUI",
+      "rut_organismo": null,
+      "unidad_compra": "P02 Establecimientos Educacionales",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 6500000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-07-15 14:28",
+      "fecha_cierre": "2026-07-17 15:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1461054-248-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1461054-248-COT26",
+      "prefiltro": {
+        "pasa": false,
+        "razon": "cierre a menos de 24h"
+      },
+      "score_heuristico": 29
+    },
+    {
+      "codigo": "1532-206-COT26",
+      "tipo": "compra_agil",
+      "nombre": "RESINAS Y MAQUILLAJE ODONTOLOGICAS",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "CENTRO REFERENCIAL DE SALUD DR SALVADOR ALLENDE GOSSENS",
+      "rut_organismo": null,
+      "unidad_compra": "Centro Referencia Salud Doctor Salvador Allende G.",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 6500000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-07-15 13:23",
+      "fecha_cierre": "2026-07-17 14:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1532-206-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1532-206-COT26",
+      "prefiltro": {
+        "pasa": false,
+        "razon": "cierre a menos de 24h"
+      },
+      "score_heuristico": 29
+    },
+    {
       "codigo": "1006-17-LP26",
       "tipo": "licitacion",
       "nombre": "SERVICIO DE MANTENCIÓN Y REPARACIÓN DE CAMIONES Y VEHÍCULOS MARCA FREIGHTLER MAXUS FOTON RANDON Y MITSUBISHI FUSO CON PROVISIÓN DE REPUESTOS INSUMOS Y DEMÁS ELEMENTOS NECESARIOS PARA SU EJECUCIÓN",
@@ -5783,1316 +6552,6 @@
       }
     },
     {
-      "codigo": "1057547-271-LP26",
-      "tipo": "licitacion",
-      "nombre": "CONV SUMINISTRO Y REPUESTOS PARA UNIDAD EQ MEDICOS",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "SERVICIO DE SALUD VALDIVIA HOSPITAL BASE",
-      "rut_organismo": "61.607.502-0",
-      "unidad_compra": "Bienes y Servicios",
-      "region": 14,
-      "region_nombre": "Los Ríos",
-      "monto_clp": 175000000,
-      "moneda": "CLP",
-      "fecha_publicacion": null,
-      "fecha_cierre": "2026-07-17 19:00:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [],
-      "total_ofertas": null,
-      "productos": [
-        {
-          "nombre": "Baterías recargables",
-          "descripcion": "GA\t6570165\tBatería Níquel Cadmio 24 v 700 mAh código AMN0776 para electrocardiógrafo cardioline modelo delta 1 plus",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "26111701"
-        },
-        {
-          "nombre": "Baterías recargables",
-          "descripcion": "GA\t6571894\tBatería interna Li-Ion 14,8 V 4,5 Ah siemens código ms14490 para monitor Drager modelo Infinity Delta XL",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "26111701"
-        },
-        {
-          "nombre": "Baterías recargables",
-          "descripcion": "GA\t6571895\tBatería NiCD 18V 1.3 Ah OEM GE 30344270\r\npara electrocardiógrafo GE modelo Mac 1200",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "26111701"
-        },
-        {
-          "nombre": "Baterías recargables",
-          "descripcion": "GA\t6571926\tBatería externa 12V 2.3A power sonic código PS-1223 (drager 5592097) para monitor Drager modelo Infinity delta - delta XL; mindray mec 1200, mec 2000",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "26111701"
-        },
-        {
-          "nombre": "Baterías recargables",
-          "descripcion": "GA\t6572336\tBaterías 12V 2,3 Ah marca visión código CP1226 para monitor GE datex omheda modelo Cardiocap 5",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "26111701"
-        },
-        {
-          "nombre": "Baterías recargables",
-          "descripcion": "GA\t6572623\tBatería 6 Volt 4.5 Amp  power sonic código PS - 640 F1. 6 para monitor nellcor n600x",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "26111701"
-        },
-        {
-          "nombre": "Baterías recargables",
-          "descripcion": "GA\t6574697\tBaterías NI-MH 12 V 3 Ah oem Nihon kohden NKB 301V, para Monitores Desfibriladores marca Nihon Kohden, modelo Tec 5531k- 5521k-5521e",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "26111701"
-        },
-        {
-          "nombre": "Baterías recargables",
-          "descripcion": "GA\t6576596\tBaterías 12V 26A marca long código WP26-12 (drager 6736126) incubadora  Recargable, para incubadoras drager, modelo TI 500.",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "26111701"
-        },
-        {
-          "nombre": "Baterías recargables",
-          "descripcion": "GA\t6578043\tBatería recargable 3,5V, para Otoscopio Welch Allyn, Cód. WA-72300.",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "26111701"
-        },
-        {
-          "nombre": "Baterías recargables",
-          "descripcion": "GA\t6579455\tBatería li-lon 7,2 v 2,25 ah OEM GE 2047357- 001 para electrocardiógrafo GE modelo Mac 400, MAC 600.",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "26111701"
-        },
-        {
-          "nombre": "Baterías recargables",
-          "descripcion": "GA\t6579944\tBatería recargable 3,5V, para Otoscopio Welch Allyn, Cód. WA-72200",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "26111701"
-        },
-        {
-          "nombre": "Baterías recargables",
-          "descripcion": "GA\t6670109\tBatería ni-mh 12v 2Ah OEM nihon kohden 1250-9620-9629 para electrocardiógrafo nihon kohden modelo ecg 9620",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "26111701"
-        },
-        {
-          "nombre": "Baterías recargables",
-          "descripcion": "GA\t6670110\tBatería Li-Ion 14,4 v 2,6 Ah OEM edan HYLB-102 para electrocardiógrafo Edan modelo SE3",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "26111701"
-        },
-        {
-          "nombre": "Baterías recargables",
-          "descripcion": "GA\t6670118\tBatería externa 12V  2A  long código wp1250 (drager 5949479) para monitores infinity vista - gama",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "26111701"
-        },
-        {
-          "nombre": "Baterías recargables",
-          "descripcion": "GA\t6670119\tBatería ni-mh 12v 3Ah marca sanyo código 10HR-SCR OEM 3200497-001 para desfibrilador marca medtronic modelo  lifepack 20",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "26111701"
-        },
-        {
-          "nombre": "Baterías recargables",
-          "descripcion": "GA\t6670121\tBatería pack (2 unidades  pack) ni-mh (cada batería 12v 7Ah marca yuasa código np7-12fr) 24 V 7Ah OEM 4-070523 para ventilador marca puritan bennett modelo pb 840",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "26111701"
-        },
-        {
-          "nombre": "Baterías recargables",
-          "descripcion": "GA\t6670312\tBaterías duracell 123 pack bateria oem zoll 8000-0807-01",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "26111701"
-        },
-        {
-          "nombre": "Baterías recargables",
-          "descripcion": "GA\t6674403\tBatería 11.1V 2600mAh (OEM BM-BAT-4) para monitor Bionet BM5",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "26111701"
-        },
-        {
-          "nombre": "Baterías recargables",
-          "descripcion": "GA\t6674404\tBatería 6V 3.5Ah (OEM 2037103-016 - exalium exa 3.5 -6) para monitor signos vitales ge carescape v100",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "26111701"
-        },
-        {
-          "nombre": "Baterías recargables",
-          "descripcion": "GA\t6674405\tBatería 11,1 V y 5200 mAh (OEM LB-08) para monitor Biolight v6",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "26111701"
-        },
-        {
-          "nombre": "Baterías recargables",
-          "descripcion": "GA\t6674406\tBatería 7,4V 6,6Ah (OEM datascope mindray 0146-00-0079) para monitor signos vitales datascope mindray dúo",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "26111701"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GB\t6473370\tSensor spo2 multisitio Y  masimo alternativ  (OEM masimo LNCS ref 2258) M-tech codigo  U803-49R  UNIMED, TEVEIK 1131HA1B,   igual superior para monitor  GE b40, b105, passport V",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GB\t6572417\tsensor spo2 alternativo wrap neo nellcor U303-01P OXIMAX , Intellivue MX500; MX450, VM6 (SOLO NEO)",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GB\t6572626\tinterface spo2 alternativo certificado  masimo* nellcor no oximax codigo U708-15, SHENZHEN 3131BB4B  igual superior para  monitores  marca mindray pasport V- spectrum OR - trio  ; Ivy vital guard 450 C, goldway UT400A",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GB\t6572902\tinterface spo2 alternativo certificado (OEM mindray  0010-20-42594) non-Oximax codigo U708-29  (CR002-51012) igual superior monitores mindray duo - trio - mec1200- 2000- dpm3",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GB\t6572906\tsensosr  spo2 finger adulto directo  alternativo certificado  codigo U410-113 (MEDPLUS mps082a)(APK a1424-sa108pv)  igual superior  para monitores dixtal 2020- 2022",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GB\t6572919\tsensor spo2 alternativo wrap neo nellcor U303-01 NON OXIMAX , Intellivue MX500; MX450, VM6(SOLO NEO)",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GB\t6572963\tinterface spo2 alternativo certificado (OEM drager   3368433)   non-Oximax codigo  U708-23  igual superior para monitores  Draguer  infinity delta (AZUL)",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GB\t6573045\tsensor spo2 alternativo certificado multisitio DY-S oximax codigo U803-01P  igual o superior para monitor drager",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GB\t6573163\tsensor spo2 alternativo wrap U305-16 neo nihon ,  vismo (SOLO NEO)",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GB\t6573164\tinterface spo2 alternativo certificado (OEM doc 10) oximax  codigo U710-70   (SHENZHEN 3153DB4A)igual superior para monitores nellcor 5500 - N600- NPB295 - N560;  Ivy  vital guard 450 C ; GE procare 200 ; Schiller truescope",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GB\t6573367\tsensor spo2 alternativo certificado finger adulto TruSignal tech (OEM GE TS-F-D) codigo U403-117  (CSS064B Chenzhen) igual superior para monitor GE datex, FCU-8,  Cardiocap 5,  GE- BE30",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GB\t6573368\tSensor spo2 finger adulto masimo M-tech codigo U410-15R UNIMED (SHENZHEN CSL028B) (oem mindray   0600-00-0120) para monitores mindray passport V  spectrum or",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GB\t6575426\tSensor SPO2 Alternativo multisitio GE/DATEX - TS-W-D , codigo U803-117 UNIMED,   para monitor GE B30",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GB\t6576024\tsensor spo2 alternativo certificado multisitio Non oximax codigo U803-01 igual o superior para monitores Draguer infinity delta; GE dash 2000; Goldway UT 4000A; Mindray -dpm3- duo- mec1200- 2000- passport V- trio- spectrum OR",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GB\t6578219\tsensor spo2 alternativo certificado adulto finger oximax (DS100A) codigo U403-01x, U403-01P, U403-01XP , SHENZHEN CITY TEVEIKY  1153C11A, igual superior para monitores Draguer infinity delta; GE dash 2000; Goldway UT 4000A; Mindray -dpm3- duo- ",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GB\t6579662\tinterface spo2 alternativo certificado (OEM GE  TS-G3) TruSignal tech codigo U708-111  igual superior para monitor datex ohmeda FCU-8 - GE B30",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GB\t6610273\tSensor SpO2 alternativo multisitio adulto certificado. Cód U810-61D igual o superior. Para monitores AllMedical PC 5000",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GB\t6670148\tInterface spo2 alternativo certificado (OEM GE TS-N3) TruSignal tech código U708-119 igual superior para monitor GE datex ohmeda cardiocap V",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GB\t6670150\tinterface spo2 alternativo certificado (OEM GE  2006644-001) non-Oximax codigo U708-21M  igual superior para monitor GE dash 2000",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GB\t6670151\tinterface spo2 alternativo certificado (OEM criticare 518DD) CSI-Tech codigo U708-75 (CA010A shenzhen)  igual superior monitores criticare 8100e - 506DXN2 equality",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GB\t6670152\tinterface spo2 alternativo certificado (OEM  masimo  LNCS - LNC-10 ref 1814) M-Tech codigo  U708M-15 , U710M-15R  (3,0 mt) igual superior para monitor mindray passport V ",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GB\t6670154\tinterface spo2 alternativo certificado (OEM  nihon JL-900P) codigo U710-36  igual superior para monitores Nihon - BSM6000",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GB\t6670155\tinterface spo2 alternativo certificado  (OEM drager   MS18683)   alternativo certificado oximax cod. U710X-23   igual superior para monitores draguer infinity vista XL (CELESTE)",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GB\t6670159\tSensor SpO2 alternativo finger pediátrico certificado.  Cód U110-61D Cód Solaris S200P-300182 igual o superior. Para monitores AllMedical PC 5000",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GB\t6670161\tsensor spo2 alternativo certificado pediatrico finger codigo  U105-16   igual superior para monitor  Nikon kohden -bsm6000, vismo",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GB\t6670162\tsensor spo2 alternativo certificado pediatrico  soft oximax codigo U103S-01X   -  U103S-01p  igual superior para monitor GE procare 400; nellcor N600",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GB\t6670163\tSensor de SPO2,  Pediatric finger/1.1m oximax COD: U103-01P,  U103-01X para monitor IVY vital guard",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GB\t6670164\tsensor spo2 alternativo certificado infant soft non- oximax codigo U203S-01  igual superior para monitor Ivy vital guard 450c",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GB\t6670167\tsensor spo2 alternativo certificado adulto finger (OEM masimo LNCS DCI ref 1863)  M-Tech codigo  U403-49R,  U403-49, SHENZHEN 131H11A  igual superior para monitores GE B40, B105, passport V",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GB\t6670168\tsensor spo2  alternativo certIficado adulto finger  (OEM criticare 934-10dn) CSI-Tech codigo U410-75  (CZL011B shenzhen) igual superior para monitores criticare 8100e - 506dxn2",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GB\t6670169\tsensor spo2 alternativo pediatrico  finger CSI-Tech codigo U110-75    (CSL011C shenzhen) igual superior para monitores  criticare 8100e - 506dxn2",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GB\t6670183\tinterface spo2 alternativo certificado (OEM  masimo LNCS- LNC 10 GE ref 2016) M-Tech codigo U708M-21 , U710M-21R ,   igual superior para monitores  GE - B40, B105",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GB\t6670189\tsensor multisitio SPO2 alternativo Nihon kohden código P225G (TL-220T) codigo U805-16 para monitores nihon kohden vismo ",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GB\t6670750\tinterface spo2 alternativo certificado Masimo LNCS (OEM drager MS17522 )  M-tech codigo  U708M-23R  igual superior para monitores  Draguer  infinity delta (CELESTE)",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GB\t6670753\tInterface spo2 alternativo certificado Nellcor (philips  M1943AL)  Nellcor OxiSmart codigo U710-43  monitores philips MX700, VM6,INTELLIVUE MX500",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GB\t6670759\tsensor spo2 soft adulto directo  philips (OEM M1191BL) alternativo certificado codigo U410S-91 para monitor philips VM6 ",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GB\t6672380\tSensor SPO2 alternativo Infante Soft Tip  3 a 15 kg oximax codigo U203S-01P  -  U203S-01X monitores nellcor N600, NPB-295,5500,y GE Pro Care 400. schiller truscope classic, ivy vital guard 450c ",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GB\t6672398\tSensor spo2alternativo  finger adulto- pediatrico  mayor a 20 KG original nihon kohden OEM P225F (TL-201T) codigo U405-16 para monitores nihon kohden vismo",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GB\t6673232\tinterface spo2 oem mindray (562A/0010-20-42710 ) unimed U708-48 , (562B/040-001443-00)  monitores  mindray N17, N15, N1",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GB\t6673237\tsensor spo2 finger adulto directo philips (OEM 989803205901) alternativo certificado codigo U410-91M para monitor philips VM6 - suresing vs2+, INTELLIVUE MX500, INTELLIVUE MX450, effiicia CM120",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GB\t6674419\tinterface spo2 alternativo certificado (OEM  masimo LNCS -Red LNC-10  ref 2056 ) M-Tech codigo U710M-87R igual superior para monitor,  zoll serie X, masimo rad 5",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GB\t6674420\tinterface spo2 alternativo masimo 2365/Red LNC-01 codigo  U701M-87",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GB\t6674421\tinterface spo2 alternativo nihon kohden oem slz106  codigo U708-224",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GB\t6674427\tSensor spo2 de oreja  alternativo nellcor U903-01P",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GB\t6674428\tsensor spo2 de oreja alternativo masimo U903-49R",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GB\t6674429\tsensor spo2 de oreja alternativo nihon kohden U905-16",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GB\t6674430\tsensor spo2 de oreja alternativo philips U903-103",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GB\t6674433\tsensor spo2 directo alt. monitor Bionet BM5 codigo unimed U410-108",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GB\t6674650\tsensor spo2 finger pediatrico alternativo NONIN (7 PIN) Nonin  8000AP  unimed U103-08",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GB\t6674652\textencion spo2 alternativo masimo (oem 2021/LNC-4-Ext) M-tech codigo U704M-49",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GB\t6674654\tSensor spo2 finger infantil masimo directo alternativ M-tech codigo  UNIMED U110-15 para monitores mindray passport V  spectrum or",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GB\t6572415\tInterface alternativo certificado Masimo LNCS (MINDRAY OEM :040-000332-00)  M-tech codigo U708M-48R de 8 Pin para monitor mindray DPM7, DPM6, IM12",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GB\t6670165\tsensor alternativo certificado adulto finger non-oximax codigo U403-01 igual superior para monitores ;  draguer Infinity vista XL;  GE - procare 2000; mindray duo- blanco ",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GB\t6670755\textension  alternativa philips (oem philips M1941A) codigo u708-41 ",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GB\t6672413\tdesechable MAXIMO LNCS INF  ( U523-49R) (10-50Kg)",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GB\t6673229\textension  alternativa nellcor  U708-01P",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GB\t6674426\tdesechable MAXIMO LNCS NEO- 3 (U543-49R)  (menor a 3kg    &lt; 3)",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GB\t6674431\tdesechable nihon kohden infantil TL-274T ( U533-16) (3-20Kg)",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GB\t6674432\tdesechable nihon kohden pediatrico  TL-272T (U523-16) ( 10-50Kg )",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GB\t6674653\tdesechable MAXIMO LNCS ADT",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GC\t6572323\tCelda de oxígeno alternativa certificada, para para incubadora, Drager, modelo ISOLETTE 8000 (OEM dräger  MU13223) evintec OOM102",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GC\t6670140\tCelda de oxígeno alternativa (OEM dräger 6850645) evintec OOM201-  amquina anestesia drager",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GC\t6670144\tCelda de oxígeno alternativo para oxímetro ambiental puritan bennett  7820, analytical industries inc. Código  PSR-11-917-J7,  evintec OOM102-1",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GC\t6674412\tCelda de oxigeno OOMLF204 Celda Oxigeno Acutronic/ Envitec",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GC\t6674435\tsonda de temperatura cutánea, reutilizable, con conector de 7 pines, 3 m (OEM draguer 5204669 ) codigo unimed  TSM-AS monitor draguer infinity",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GC\t6674436\tsonda de temperatura universal ,  reutilizable, adulto, alter. conector de 7 pines, 3 m (OEM draguer  5204644) codigo unimed TSM-AG monitor draguer infinity",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GC\t6674437\tsonda de temperatura universal,  reutilizable, niño,  alter. conector de 7 pines, 3 m (OEM draguer 5204651) codigo unimed TSM-PG monitor draguer infinity",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GC\t6674659\tsensores de temperatura pediatrico  general alternativos certificados  (OEM  Philips  21076A) unimed THP-PG",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GC\t6674660\tsensores de temperatura adulto general  alternativos certificados  (OEM  Philips 21075A) unimed THP-AG",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GC\t6674661\tsensores de temperatura adulto piel alternativos certificados  (OEM  Philips 21078A) unimed THP-AS",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GC\t6674662\tsensores de temperatura ped. piel alternativos certificados  (OEM  Philips) unimed THP-PS",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GC\t6674438\tSonda de tempertaura  esófago/recto, adulto, conector jack de 6,3 mm, 4 mm de diámetro, 3,5 m (OEM   YSI-401)  codigo unimed  T2252-AG montor  Nihon K. ",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GC\t6674439\tSonda de tempertaura  esófago/recto, neonato/niño, conector jack de 6,3 mm, 3 mm de diámetro, 3,5 m (OEM   YSI-402)  codigo unimed  T2252-PG montor  Nihon K. ",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GC\t6674440\tSonda de tempertaura superficie  corporal, conector jack de 6,3 mm, disco de 9,5 mm (OEM YSI-409B)  codigo unimed  T2252-AS montor  Nihon K. ",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GD\t6572473\tcable electrocardiograma alternativo  tipo   EKG Mindray  DECG-03A,  10 lead tipo banana unimed  E10-ED-B/I ",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GD\t6572595\tcable ECG  3 derivadas Codigo unimed 2016P para monitor C30 ",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GD\t6572994\tCable ECG completo  alternativo certificado ECG (troncal mas 3 derivadas), (GE OEM  2001292-001) codigo 2386P para monitores GE datex ohmeda  FCU-8; GE -dash2000  B40, B30, B105 ",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GD\t6573147\tCable ECG  alternativo certificado ECG 5 derivadas leads snap(OEM drager MS16546 ) codigo unimed DG5-90P grabber igual o superior para monitores draguer infinity delta",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GD\t6573369\tCable ECG estandar completo alternativo certificado ECG 3 derivadas caiman - graber(troncal mas derivadas),   UNIMED  2340P,  (CR005-7301AC3)  igual superior para monitores choicemmed  NMED6000DP, dixtal 2022- 2020; nellcor 5500 ; Goldway UT 40",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GD\t6573695\tCable ECG alternativo certificado ECG 3 derivadas leads snap(OEM mindray  0012-00-1503-04 ) codigo  DT3-90S   igual superior para monitores Mindray passport V",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GD\t6573696\tCable ECG  alternativo certificado ECG 5 derivadas leads graber(OEM mindray0012-00-1503-01) codigo  DT5-90S   igual superior para monitores Mindray passport V",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GD\t6573774\tcable ECG  5 derivadas directo grabber philips para  monitor Philips VM6 - EFFICIA- INTELVUE codigo 2585P-I",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GD\t6574698\tCable ECG 3/5 alter. troncal (OEM mindray 0012-00-1745-01) codigo DT-2526   igual superior para monitores Mindray Passport V",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GD\t6670170\tCable  ECG alternativo certificado  ECG 3 derivadas leads (OEM DRAGER MS16231) codigo DG3-90P-I grabber  (DG3-90S SNAP) igual superior  para monitores drager vista",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GD\t6670171\t Cable ECG alternativo certificado ECG 3 derivadas leads graber(OEM GE datex ohmeda 545317-HEL)codigo DX3-90P  igual superior para monitores  GE Datex  Ohmeda CardioCap 5",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GD\t6670173\tCable ECG alternativo certificado ECG troncal 5(OEM mindray 0010-30-42719) codigo MR-2512 igual superior para monitores mindray  DPM7, DPM6, IM12, benevision N17, N15, N1",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GD\t6670174\tCable ECG  alternativo certificado ECG 5 derivadas leads graber(OEM mindray 0012-00-1261-12) codigo MR5-90P-I igual superior para monitores mindray DPM7, DPM6,  N17, N15, N1",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GD\t6670175\tCable ECG alternativo certificado ECG troncal (OEM  nihon kohden JC-906P) código NK-2509-I igual superior para  monitor nihon koden BSM 6000",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GD\t6670176\tCable ECG alternativo certificado ECG 3 derivadas leads snap(OEM nihon kohden  BR- 903P) código NKBR-90P-I igual superior para monitor nihon koden BSM 6000",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GD\t6670177\tCable ECG  alternativo certificado ECG 5 derivadas leads snap(OEM drager  5956458  ) codigo unimed SMD5-90P-I (sm5-90p-i) (SM5-90S)   (SM5-90p)igual o superior para monitores draguer infinity delta",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GD\t6670178\tCable ECG  alternativo certificado ECG 3 derivadas leads snap(OEM drager 5956441) codigo SMD3-90P (sm3-90p GRABBER)(SM3-90s  SNAP)  igual superior para monitores draguer infinity delta",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GD\t6670257\tCable ECG  alternativo certificado ECG 5 derivadas leads graber(OEM  GE datex ohmeda 545318) codigo  DX5-90P igual superior para monitores GE cardiocap 5",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GD\t6672368\tcable ECG  3 derivadas directo graber philips OEM M1603A para  monitor Philips VM6 - EFFICIA- INTELVUE codigo 2385P",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GD\t6673214\tCable ECG alternativo certificado ECG troncal 3(OEM mindray 0010-30-42720) codigo MR-2312 igual superior para monitores mindray DPM7, DPM6, IM12, benevision N17, N15, N1",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GD\t6673230\tCable ECG  alternativo certificado ECG 3 derivadas leads graber(OEM mindray 0012-00-1262-07/08/09) codigo MR3-90P igual superior para monitores mindray DPM7, DPM6,  N17, N15, N1",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GD\t6674407\tCable  ECG  alternativo certificado troncal  5 (OEM GE datex ohmeda 545303-HEL)codigo DX-2595 ,   igual superior para monitores GE Datex  Ohmeda CardioCap",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GD\t6674408\tcable directo ecg 3 derivadas snap Bionet (OEM BN-23115) unimed 23115S  para monitor bionet BM5",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GD\t6674409\tCable ECG 10 lead grabber alter. Directo  Oem Philips    codigo unimed 21085P-I",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GD\t6674410\tCable ECG 4 Derivadas snap alt. Desfibrilador Zoll (OEM (241) 8300-0803-01) serie X  codigo unimed 2479S",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GD\t6674651\tCable ECG estandar completo alternativo certificado ECG 5 derivadas boton- snap  (troncal mas derivadas),   UNIMED  2540s,  (schenzhen 4147A01-5SIA))  igual superior para monitores choicemmed  NMED6000DP, dixtal 2022- 2020; nellcor 5500 ; Goldw",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GD\t6572327\tcable electrocardiograma alternativo tipo EKG ,GE OEM CB-45509-B igual superior  UNIMED E10R-MQ-B/I para electrocardiograma EKG GE, MAC  600, 1200",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GD\t6572476\tcables  altern .electrocardiograma tipo  EKG edan  modelo ED-SE-3 Codigo unimed  E10R-ED-B/I,  10 leads, tipo banana ",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GD\t6574686\telectrodos peras pericordiales EKG, pediatrico  universal, 3mm / 4mm, 6 por caja codigo  UU-SE-P",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GD\t6574687\telectrodos pinzas EKG para extremidades pediatrico, 3mm / 4mm, 4 por caja unimed codigo  UU-LC-P",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GD\t6575907\telectrodos peras precordiales EKG, Adulto  universal, 3mm / 4mm, 6 por caja unimed codigo  UU-SE-A",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GD\t6576135\tcable electrocardiograma alternativo  tipo   EKG Nihon Kohden 9620 Conector Con Tornillos, 10 lead tipo banana unimed E10R-NK2-B/I",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GD\t6579220\telectrodos pinzas EKG para extremidades adulto universal, 3mm / 4mm, 4 por caja unimed codigo  UU-LC-A",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GD\t6579456\tcables electrocardiograma cardioline tipo  EKG Kenz PC-104 ,10 lead, tipo banana Cardioline Delta 1 Plus codigo unimed E10-KZ1-B",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GD\t6674434\tSet de 10 adaptadores EKG de bana a clip oem GE CL-10401-05-10",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GD\t6674658\tSet adaptador (10 piezas) grabber/ EKG  Banana - caiman  AD10-DP",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GD\t6573393\tTransductor alternativo certificado ultrasonido (OEM Corometrics  5700HAX) para corometric 171",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GD\t6573394\tTransductor alternativo certificado  toco (OEM corometric 2264HAX) para corometric 171",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GD\t6573395\tcable Assembly 2264HAX para reparacion para Transductor Toco de boton  Corometrics 2264HAX",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GD\t6573396\tcable Assembly 5700HAX US para reparacion para Transductor ultrasonido de boton  Corometrics 5700HAX",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GE\t6572466\tManguera NIBP parara monitor generico , con  conector PANI modelo BP15 - BP15 (coreray cr10-qr01 - unimed HS-15-15)",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GE\t6572468\tConector PANI modelo BP15",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GE\t6572469\tconector PANI moleo BP12 metalico (macho)",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GE\t6670234\tconector PANI modelo BP08 (ge dinamap)",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GE\t6670235\tConector PANI modelo BP09",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GE\t6670236\tConector PANI modelo BP17",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GE\t6670237\tconector PANI modelo BP18 (ge, nihon ad-ped)",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GE\t6670238\tConector PANI modelo BP2T-M",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GE\t6670239\tAdaptador en Y PANI modelo BP3T-Y",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GE\t6670749\ttubo PANI espiral de 3,8 mt/4 mm UNIMED Y02-H005 (maquina de dialisis)",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GE\t6673212\tManguera NIBP - PANI adult.- ped para monitores General electric (oem 2017008-002) con conector PANI BP24 - BP17 para monitor  B105, B40, B30",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GE\t6673213\tManguera NIBP neo - inf para monitores General electric (oem 017009-003) con conector PANI con conector  PANI modelo BP 24 -  BP20 ( unimed HDN-24-20)",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GE\t6673215\tManguera NIBP adult- ped para monitor nihon kohden -  (oem YN-701S)  con conector PANI con conector  PANI modelo BP64 -  BP18 (unimed HD30-64-18)",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GE\t6674413\tconector PANI modelo BP36 ",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GE\t6674414\tconector PANI modelo BP46 (welch allyn)",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GE\t6674415\tconector PANI modelo BP55 (philips -neo)",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GE\t6674416\tconector PANI modelo BP56  (philips -neo)",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GE\t6674417\tconector PANI modelo BP57A (drager)",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GE\t6674418\tconector PANI modelo BP58 (drager)",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GE\t6674422\tManguera NIBP adulto - ped  para monitor nihon kohden -  (oem  YN-901P/S902)  con conector PANI con conector  PANI modelo BP30A -  BP18 (unimed HD35-30-18)",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GE\t6674423\tManguera NIBP adulto - ped  para monitores philips (oem M1599A/M1599B) , mindray (oem 6200-30-096889)  con conector PANI modelo BP16 -  BP15 (unimed HS-16-15)  monitores philips EFFICIA CM120, SURESIGNS VS2+, INTELLIVUE MX500, MX450, MX700, MX5",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GE\t6674424\tManguera NIBP neo - inf   para monitores philips (oem M1597C)  con conector PANI modelo BP16 - BP BP56 (unimed HSN30-16-56)",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GE\t6674425\tManguera NIBP neo- inf para monitor nihon kohden -  (oem YN-921P/S905)  con conector PANI con conector  PANI modelo BP30 -  BP20 (unimed HDN35-30-20)",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GE\t6674663\tconector pani Draeger/Siemens BP40",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GE\t6674664\tconector PANI modelo BP16  (philips)",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GE\t6571163\tbrazalete de 1 via  adulto 27,5 a 36,5 cm largo tubo 50 cm para monitor codigo U1880NS",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GE\t6572472\tbrazalete de 1 via  pediatrico  13,8  a 21,5 cm largo tubo 25 cm para monitor codigo U1881NS",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GE\t6574611\tbrazalete de 1 via  infante 9 a 14,8 cm largo tubo 25 cm para monitor codigo U1882NS",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GE\t6577924\tbrazalete de 2 via  adulto 27,5 a 36,5 cm largo tubo 50 cm para monitor  codigo U1880ND ",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GE\t6578262\tbrazalete de 2 via  adulto 25 a  35 cm  tubo de 50 cm para esfignomanometro digital codigo U1880D",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GE\t6578263\tbrazalete de 1 via adulto 25 a  35 cm  tubo de 50 cm para esfignomanometro digital codigo U1880S ",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GE\t6670229\tBrazalete de 2 vía adulto pequeño  20,5 a 28,5 cm largo tubo 50 cm para monitor código U1885ND coritonA.N.C.2,5213",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GE\t6670230\tBrazalete de 2 vía pediátrico  13,8  a 21,5 cm largo tubo 50 cm para monitor  código U1881ND ",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GE\t6670231\tbrazalete de 1 via  neonato  6 a 11 cm largo tubo  cm para monitor  codigo U1883NS",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GE\t6674655\tBrazalete de 1 vía adulto pequeño  20,5 a 28,5 cm largo tubo 50 cm para monitor código U1885NS",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GE\t6674656\tbrazalete de 2 via  infante 9 a 14,8 cm largo tubo 25 cm para monitor codigo U1882ND",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GE\t6674657\tbrazalete de 2 via  neonato  6 a 11 cm largo tubo  cm para monitor  codigo U1883ND",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GE\t6670232\tPera negra con valvula reusable para esfingo analogo Y14-L001",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        },
-        {
-          "nombre": "Accesorios para sondas o sensores de oxímetros de impulsos",
-          "descripcion": "GE\t6670233\tAneroide de bolsillo",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "42181804"
-        }
-      ],
-      "adjuntos": [],
-      "descripcion": "CONVENIO DE SUMINISTRO DE INSUMOS Y REPUESTOS PARA LA UNIDAD DE EQUIPOS MEDICOS DEL HOSPITAL BASE VALDIVIA",
-      "direccion_entrega": null,
-      "plazo_entrega_dias": null,
-      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1057547-271-LP26",
-      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=1057547-271-LP26",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 29,
-      "tipo_licitacion": "LP",
-      "ia": {
-        "v": false,
-        "s": 0,
-        "r": "Baterías recargables electrónica, no 3D, monto inviable",
-        "t": 1784004551992
-      }
-    },
-    {
-      "codigo": "1155683-10-LE26",
-      "tipo": "licitacion",
-      "nombre": "SERVICIO LIMPIEZA FOSAS Y VARILLAJE DEPRIF ÑUBLE",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "CORP NACIONAL FORESTAL",
-      "rut_organismo": "61.313.000-4",
-      "unidad_compra": "XVI - OFICINA REGIONAL DE ÑUBLE",
-      "region": 16,
-      "region_nombre": "Ñuble",
-      "monto_clp": 15000000,
-      "moneda": "CLP",
-      "fecha_publicacion": null,
-      "fecha_cierre": "2026-07-17 16:15:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [],
-      "total_ofertas": null,
-      "productos": [
-        {
-          "nombre": "Servicio de gasfitería y alcantarillado",
-          "descripcion": "CONAF requiere contratar, mediante suministro, servicios de limpieza, vaciado y mantención de fosas sépticas para bases de brigadas forestales en Ñuble, asegurando el funcionamiento sanitario e higiénico durante las temporadas 2026-2027 y 2027-2028.",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "81141807"
-        },
-        {
-          "nombre": "Servicio de gasfitería y alcantarillado",
-          "descripcion": "CONAF requiere contratar, mediante suministro, servicios de desobstrucción de sistemas sanitarios por varillaje para bases de brigadas forestales en Ñuble, asegurando el correcto funcionamiento de las redes sanitarias durante las temporadas 2026-2027 y 20",
-          "cantidad": 1.0,
-          "unidad": "Unidad",
-          "categoria": "81141807"
-        }
-      ],
-      "adjuntos": [],
-      "descripcion": "La Corporación Nacional Forestal CONAF requiere contratar, mediante la modalidad de contrato de suministro, servicios destinados a asegurar el adecuado funcionamiento y mantención de los sistemas sanitarios existentes en las bases de Brigadas Forestales de la Región de Ñuble, considerando además la eventual incorporación de nuevas bases dentro de la región durante la vigencia del contrato, según las necesidades operativas de la Corporación. El servicio contempla la ejecución de labores de limpieza y vaciado de fosas sépticas, así como la desobstrucción de sistemas sanitarios mediante varillaje u otros procedimientos adecuados, con el propósito de mantener la continuidad operativa y las condiciones sanitarias de las instalaciones utilizadas por el personal brigadista y de apoyo. \r\nLas prestaciones deberán realizarse de manera oportuna, eficiente y conforme a los requerimientos de CONAF, incluyendo todas las actividades necesarias para el correcto manejo sanitario, tales como extracción, limpieza, desobstrucción, transporte y disposición final de residuos, de acuerdo con la normativa sanitaria y ambiental vigente.\r\nLa presente contratación tiene por finalidad garantizar condiciones sanitarias adecuadas en las bases de Brigadas Forestales de la Región de Ñuble, contribuyendo al normal desarrollo de las actividades de prevención, control y combate de incendios forestales que desarrolla CONAF.\r\nEl servicio tendrá una vigencia de 24 meses, correspondiente a las temporadas 2026-2027 y 2027-2028, período durante el cual el proveedor adjudicado deberá atender los requerimientos que se generen en las distintas bases de brigadas forestales que mantenga o incorpore CONAF en la Región de Ñuble.",
-      "direccion_entrega": null,
-      "plazo_entrega_dias": null,
-      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1155683-10-LE26",
-      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=1155683-10-LE26",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 29,
-      "tipo_licitacion": "LE",
-      "ia": {
-        "v": false,
-        "s": 0,
-        "r": "Servicios gasfitería/alcantarillado no manufactura 3D",
-        "t": 1784004551992
-      }
-    },
-    {
       "codigo": "1423921-15-LE26",
       "tipo": "licitacion",
       "nombre": "Adquisición de 1.180 piezas de madera natural",
@@ -7171,6 +6630,52 @@
         "s": 0,
         "r": "Madera natural, no plástico 3D fabricable",
         "t": 1784217125853
+      }
+    },
+    {
+      "codigo": "1461054-26-LP26",
+      "tipo": "licitacion",
+      "nombre": "CONTRATO DE SUMINISTRO LIMPIEZA DE FOSAS SÉPTICAS",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "SERVICIO LOCAL DE EDUCACIÓN PÚBLICA DEL ELQUI",
+      "rut_organismo": "61.981.040-6",
+      "unidad_compra": "P02 Establecimientos Educacionales",
+      "region": 4,
+      "region_nombre": "Coquimbo",
+      "monto_clp": 74000000,
+      "moneda": "CLP",
+      "fecha_publicacion": null,
+      "fecha_cierre": "2026-08-03 15:30:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [
+        {
+          "nombre": "Servicio de gasfitería y alcantarillado",
+          "descripcion": "CONTRATO DE SUMINISTRO LIMPIEZA DE FOSAS SÉPTICAS Y CÁMARAS PARA ESTABLECIMIENTOS EDUCACIONALES Y JARDINES INSFANTILES  DEL SERVICIO LOCAL DE EDUCACIÓN PÚBLICA DEL ELQUI",
+          "cantidad": 1.0,
+          "unidad": "Unidad",
+          "categoria": "81141807"
+        }
+      ],
+      "adjuntos": [],
+      "descripcion": "El Servicio Local de Educación Pública del Elqui o SLEP Elqui, como sostenedor de los establecimientos educacionales ubicados en las comunas de La Serena, La Higuera, Paihuano y Vicuña, y para el cumplimiento de sus objetivos, requiere la suscripción de un contrato de suministro para la ejecución del servicio de limpieza de fosas sépticas, limpieza de cámaras desgrasadoras y de alcantarillado y el servicio de varillaje para establecimientos educacionales y jardines infantiles de su dependencia, de acuerdo a sus respectivas necesidades y requerimientos, asegurando la correcta prestación del servicio, y en parte, las condiciones e infraestructura sanitaria básica para el funcionamiento de los establecimientos",
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1461054-26-LP26",
+      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=1461054-26-LP26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 29,
+      "tipo_licitacion": "LP",
+      "ia": {
+        "v": false,
+        "s": 0,
+        "r": "Servicio de gasfitería/limpieza, no manufactura plástica",
+        "t": 1784229179869
       }
     },
     {
@@ -7413,6 +6918,980 @@
         "r": "Obra civil conservación, no manufactura plástica",
         "t": 1784004568388
       }
+    },
+    {
+      "codigo": "2427-65-LE26",
+      "tipo": "licitacion",
+      "nombre": "SERVICIO DE ENCARPADO BANQUETERIA ILUMINACION Y PRODUCCION ARTISTICA DIA DEL DIRIGENTE GABINETE.",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": null,
+      "rut_organismo": null,
+      "unidad_compra": null,
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": null,
+      "moneda": "CLP",
+      "fecha_publicacion": null,
+      "fecha_cierre": "2026-07-27 15:30:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2427-65-LE26",
+      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=2427-65-LE26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 24
+    },
+    {
+      "codigo": "2434-14-LP26",
+      "tipo": "licitacion",
+      "nombre": "HABILITACIÓN DE SEÑALETICAS PATRIMONIALES",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": null,
+      "rut_organismo": null,
+      "unidad_compra": null,
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": null,
+      "moneda": "CLP",
+      "fecha_publicacion": null,
+      "fecha_cierre": "2026-07-30 14:00:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2434-14-LP26",
+      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=2434-14-LP26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 24
+    },
+    {
+      "codigo": "2580-18-LE26",
+      "tipo": "licitacion",
+      "nombre": "CONTRATACIÓN DEL SERVICIO DE LIMPIEZA Y LABORES COMPLEMENTARIAS EN OFICINAS REGIONALES DE ARICA CHILLÁN Y VALDIVIA",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": null,
+      "rut_organismo": null,
+      "unidad_compra": null,
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": null,
+      "moneda": "CLP",
+      "fecha_publicacion": null,
+      "fecha_cierre": "2026-07-28 16:00:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2580-18-LE26",
+      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=2580-18-LE26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 24
+    },
+    {
+      "codigo": "2582-36-LR26",
+      "tipo": "licitacion",
+      "nombre": "SERVICIO DE LIMPIEZA E HIGIENIZACIÓN Y SUMINISTRO",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": null,
+      "rut_organismo": null,
+      "unidad_compra": null,
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": null,
+      "moneda": "CLP",
+      "fecha_publicacion": null,
+      "fecha_cierre": "2026-08-03 15:00:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2582-36-LR26",
+      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=2582-36-LR26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 24
+    },
+    {
+      "codigo": "2591-138-L126",
+      "tipo": "licitacion",
+      "nombre": "REMODELACIÓN OF PERMISOS DE CIRCULACIÓN Y GABINETE",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": null,
+      "rut_organismo": null,
+      "unidad_compra": null,
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": null,
+      "moneda": "CLP",
+      "fecha_publicacion": null,
+      "fecha_cierre": "2026-07-29 15:02:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2591-138-L126",
+      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=2591-138-L126",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 24
+    },
+    {
+      "codigo": "2770-96-LP26",
+      "tipo": "licitacion",
+      "nombre": "SERVICIOS DE MANTENCIÓN ASEO Y LIMPIEZA PARA EL CENTRO DE CUIDADOS PARA PERSONAS MAYORES DE MAIPÚ",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": null,
+      "rut_organismo": null,
+      "unidad_compra": null,
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": null,
+      "moneda": "CLP",
+      "fecha_publicacion": null,
+      "fecha_cierre": "2026-07-30 13:20:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2770-96-LP26",
+      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=2770-96-LP26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 24
+    },
+    {
+      "codigo": "2852-35-LE26",
+      "tipo": "licitacion",
+      "nombre": "SUMINISTRO DE LIMPIEZA DE FOSAS Y ALCANTARILLADO",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": null,
+      "rut_organismo": null,
+      "unidad_compra": null,
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": null,
+      "moneda": "CLP",
+      "fecha_publicacion": null,
+      "fecha_cierre": "2026-07-27 17:28:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2852-35-LE26",
+      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=2852-35-LE26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 24
+    },
+    {
+      "codigo": "3595-23-LE26",
+      "tipo": "licitacion",
+      "nombre": "Confección 48 Letreros informativos localización",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": null,
+      "rut_organismo": null,
+      "unidad_compra": null,
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": null,
+      "moneda": "CLP",
+      "fecha_publicacion": null,
+      "fecha_cierre": "2026-07-29 15:00:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3595-23-LE26",
+      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=3595-23-LE26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 24
+    },
+    {
+      "codigo": "3761-17-LE26",
+      "tipo": "licitacion",
+      "nombre": "DESARME LIMPIEZA E INHABILITACIÓN DE TERRENO CAMPAMENTO LOS LEONES COMUNA DE COELEMU",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": null,
+      "rut_organismo": null,
+      "unidad_compra": null,
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": null,
+      "moneda": "CLP",
+      "fecha_publicacion": null,
+      "fecha_cierre": "2026-07-28 15:05:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3761-17-LE26",
+      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=3761-17-LE26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 24
+    },
+    {
+      "codigo": "407-101-LP26",
+      "tipo": "licitacion",
+      "nombre": "MANTENIMIENTO PREVENTIVO Y REPARATIVO SIN REPUESTOS PARA ECÓGRAFOS",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": null,
+      "rut_organismo": null,
+      "unidad_compra": null,
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": null,
+      "moneda": "CLP",
+      "fecha_publicacion": null,
+      "fecha_cierre": "2026-08-03 15:30:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=407-101-LP26",
+      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=407-101-LP26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 24
+    },
+    {
+      "codigo": "4121-15-LE26",
+      "tipo": "licitacion",
+      "nombre": "PROYECTO CONSTRUCCION PATIO DE LAS ESCULTURAS",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": null,
+      "rut_organismo": null,
+      "unidad_compra": null,
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": null,
+      "moneda": "CLP",
+      "fecha_publicacion": null,
+      "fecha_cierre": "2026-07-27 15:00:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4121-15-LE26",
+      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=4121-15-LE26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 24
+    },
+    {
+      "codigo": "4366-21-LP26",
+      "tipo": "licitacion",
+      "nombre": "Señaléticas turísticas e identificación de calles",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": null,
+      "rut_organismo": null,
+      "unidad_compra": null,
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": null,
+      "moneda": "CLP",
+      "fecha_publicacion": null,
+      "fecha_cierre": "2026-07-30 15:00:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4366-21-LP26",
+      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=4366-21-LP26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 24
+    },
+    {
+      "codigo": "4928-11-LP26",
+      "tipo": "licitacion",
+      "nombre": "REPUESTOS Y ACCESORIOS COMPUTACIONALES",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": null,
+      "rut_organismo": null,
+      "unidad_compra": null,
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": null,
+      "moneda": "CLP",
+      "fecha_publicacion": null,
+      "fecha_cierre": "2026-07-31 18:00:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4928-11-LP26",
+      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=4928-11-LP26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 24
+    },
+    {
+      "codigo": "5098-1-LE26",
+      "tipo": "licitacion",
+      "nombre": "Limpieza y reparación de red de aguas servidas",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": null,
+      "rut_organismo": null,
+      "unidad_compra": null,
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": null,
+      "moneda": "CLP",
+      "fecha_publicacion": null,
+      "fecha_cierre": "2026-08-04 15:01:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5098-1-LE26",
+      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=5098-1-LE26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 24
+    },
+    {
+      "codigo": "5196-17-LE26",
+      "tipo": "licitacion",
+      "nombre": "GBA039-40 REPUESTOS PARA VEHICULOS DE PASAJEROS",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": null,
+      "rut_organismo": null,
+      "unidad_compra": null,
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": null,
+      "moneda": "CLP",
+      "fecha_publicacion": null,
+      "fecha_cierre": "2026-07-28 12:00:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5196-17-LE26",
+      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=5196-17-LE26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 24
+    },
+    {
+      "codigo": "520149-34-LE26",
+      "tipo": "licitacion",
+      "nombre": "Mantención y limpieza acomulador de agua-DINFRA-PC 6417",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": null,
+      "rut_organismo": null,
+      "unidad_compra": null,
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": null,
+      "moneda": "CLP",
+      "fecha_publicacion": null,
+      "fecha_cierre": "2026-07-28 11:00:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=520149-34-LE26",
+      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=520149-34-LE26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 24
+    },
+    {
+      "codigo": "5907-5-LE26",
+      "tipo": "licitacion",
+      "nombre": "SS. RECOLECCIÓN RSD FUMIGACIÓN Y LIMPIEZA DE CALLES FESTIVIDAD SAN LORENZO DE TARAPACÁ",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": null,
+      "rut_organismo": null,
+      "unidad_compra": null,
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": null,
+      "moneda": "CLP",
+      "fecha_publicacion": null,
+      "fecha_cierre": "2026-07-27 15:09:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5907-5-LE26",
+      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=5907-5-LE26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 24
+    },
+    {
+      "codigo": "621-599-LR26",
+      "tipo": "licitacion",
+      "nombre": "DESMOPRESINA 01 MG CMCM REC 1000022773",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": null,
+      "rut_organismo": null,
+      "unidad_compra": null,
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": null,
+      "moneda": "CLP",
+      "fecha_publicacion": null,
+      "fecha_cierre": "2026-07-27 16:00:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=621-599-LR26",
+      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=621-599-LR26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 24
+    },
+    {
+      "codigo": "729-138-LE26",
+      "tipo": "licitacion",
+      "nombre": "REPUESTOS VARIOS 2-20171-19169-19796-20164-19712-20163-20166-20240 ECU",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": null,
+      "rut_organismo": null,
+      "unidad_compra": null,
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": null,
+      "moneda": "CLP",
+      "fecha_publicacion": null,
+      "fecha_cierre": "2026-07-27 15:02:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=729-138-LE26",
+      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=729-138-LE26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 24
+    },
+    {
+      "codigo": "702988-212-COT26",
+      "tipo": "compra_agil",
+      "nombre": "REPUESTOS BARCAZA AUNASHAKA  (OFERTA DEBE SER EXENTA DE IVA LEY NAVARINO REQUISITO EXCLUYENTE)",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "Ejercito de Chile",
+      "rut_organismo": null,
+      "unidad_compra": "Cuerpo Milit Subjefatura Zonal Punta Arenas (IGTF)",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 86700,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-07-15 14:14",
+      "fecha_cierre": "2026-07-17 12:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=702988-212-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=702988-212-COT26",
+      "prefiltro": {
+        "pasa": false,
+        "razon": "cierre a menos de 24h"
+      },
+      "score_heuristico": 19
+    },
+    {
+      "codigo": "1057547-271-LP26",
+      "tipo": "licitacion",
+      "nombre": "CONV SUMINISTRO Y REPUESTOS PARA UNIDAD EQ MEDICOS",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": null,
+      "rut_organismo": null,
+      "unidad_compra": null,
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": null,
+      "moneda": "CLP",
+      "fecha_publicacion": null,
+      "fecha_cierre": "2026-07-17 19:00:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1057547-271-LP26",
+      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=1057547-271-LP26",
+      "prefiltro": {
+        "pasa": false,
+        "razon": "cierre a menos de 24h"
+      },
+      "score_heuristico": 14,
+      "ia": {
+        "v": false,
+        "s": 0,
+        "r": "Baterías recargables electrónica, no 3D, monto inviable",
+        "t": 1784004551992
+      }
+    },
+    {
+      "codigo": "1155683-10-LE26",
+      "tipo": "licitacion",
+      "nombre": "SERVICIO LIMPIEZA FOSAS Y VARILLAJE DEPRIF ÑUBLE",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": null,
+      "rut_organismo": null,
+      "unidad_compra": null,
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": null,
+      "moneda": "CLP",
+      "fecha_publicacion": null,
+      "fecha_cierre": "2026-07-17 16:15:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1155683-10-LE26",
+      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=1155683-10-LE26",
+      "prefiltro": {
+        "pasa": false,
+        "razon": "cierre a menos de 24h"
+      },
+      "score_heuristico": 14,
+      "ia": {
+        "v": false,
+        "s": 0,
+        "r": "Servicios gasfitería/alcantarillado no manufactura 3D",
+        "t": 1784004551992
+      }
+    },
+    {
+      "codigo": "1641-263-LP26",
+      "tipo": "licitacion",
+      "nombre": "RPH - SUMINISTRO INSUMOS DE LIMPIEZA VARIOS",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": null,
+      "rut_organismo": null,
+      "unidad_compra": null,
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": null,
+      "moneda": "CLP",
+      "fecha_publicacion": null,
+      "fecha_cierre": "2026-07-17 16:00:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1641-263-LP26",
+      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=1641-263-LP26",
+      "prefiltro": {
+        "pasa": false,
+        "razon": "cierre a menos de 24h"
+      },
+      "score_heuristico": 14,
+      "ia": {
+        "v": false,
+        "s": 0,
+        "r": "Textiles (toallas) paños no fabricables 3D, monto inviable",
+        "t": 1784004551992
+      }
+    },
+    {
+      "codigo": "1736-77-LR26",
+      "tipo": "licitacion",
+      "nombre": "Servicio integral de aseo limpieza desinfección y mantención para los Centros y Dispositivos de Salud de la Comuna de El Bosque 2026-2029",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": null,
+      "rut_organismo": null,
+      "unidad_compra": null,
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": null,
+      "moneda": "CLP",
+      "fecha_publicacion": null,
+      "fecha_cierre": "2026-08-10 15:30:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1736-77-LR26",
+      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=1736-77-LR26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 14
+    },
+    {
+      "codigo": "2428-45-LE26",
+      "tipo": "licitacion",
+      "nombre": "ADQUISICION TOMÓGRAFO ARBORSONIC 3D",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": null,
+      "rut_organismo": null,
+      "unidad_compra": null,
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": null,
+      "moneda": "CLP",
+      "fecha_publicacion": null,
+      "fecha_cierre": "2026-07-17 16:00:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "3d"
+      ],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2428-45-LE26",
+      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=2428-45-LE26",
+      "prefiltro": {
+        "pasa": false,
+        "razon": "cierre a menos de 24h"
+      },
+      "score_heuristico": 14,
+      "ia": {
+        "v": false,
+        "s": 0,
+        "r": "Tomógrafo especializado, equipo médico electrónico",
+        "t": 1784004561083
+      }
+    },
+    {
+      "codigo": "3540-46-L126",
+      "tipo": "licitacion",
+      "nombre": "Repuestos para station wagon, camiones y camioneta (P.2086-2090-2091-2096)",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": null,
+      "rut_organismo": null,
+      "unidad_compra": null,
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": null,
+      "moneda": "CLP",
+      "fecha_publicacion": null,
+      "fecha_cierre": "2026-07-17 15:00:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3540-46-L126",
+      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=3540-46-L126",
+      "prefiltro": {
+        "pasa": false,
+        "razon": "cierre a menos de 24h"
+      },
+      "score_heuristico": 14,
+      "ia": {
+        "v": false,
+        "s": 0,
+        "r": "Juntas, bujes, espejos requieren materiales/precisión no 3D",
+        "t": 1784004551992
+      }
+    },
+    {
+      "codigo": "3920-20-LP26",
+      "tipo": "licitacion",
+      "nombre": "SEÑALETICA DE EMERGENCIA VOLCANICA",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": null,
+      "rut_organismo": null,
+      "unidad_compra": null,
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": null,
+      "moneda": "CLP",
+      "fecha_publicacion": null,
+      "fecha_cierre": "2026-08-10 15:15:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3920-20-LP26",
+      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=3920-20-LP26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 14
+    },
+    {
+      "codigo": "407-100-LE26",
+      "tipo": "licitacion",
+      "nombre": "REPUESTOS PARA MAQUINAS DE DIALISIS",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": null,
+      "rut_organismo": null,
+      "unidad_compra": null,
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": null,
+      "moneda": "CLP",
+      "fecha_publicacion": null,
+      "fecha_cierre": "2026-07-17 15:30:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=407-100-LE26",
+      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=407-100-LE26",
+      "prefiltro": {
+        "pasa": false,
+        "razon": "cierre a menos de 24h"
+      },
+      "score_heuristico": 14,
+      "ia": {
+        "v": false,
+        "s": 0,
+        "r": "Repuestos médicos especializados, requieren certificación",
+        "t": 1784004568388
+      }
+    },
+    {
+      "codigo": "407-98-LE26",
+      "tipo": "licitacion",
+      "nombre": "SERVICIO DE MANTENIMIENTO PREVENTIVO Y REPARATIVO SIN REPUESTOS PARA BOMBAS DE MEDIO CONTRASTE",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": null,
+      "rut_organismo": null,
+      "unidad_compra": null,
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": null,
+      "moneda": "CLP",
+      "fecha_publicacion": null,
+      "fecha_cierre": "2026-07-17 15:30:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=407-98-LE26",
+      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=407-98-LE26",
+      "prefiltro": {
+        "pasa": false,
+        "razon": "cierre a menos de 24h"
+      },
+      "score_heuristico": 14,
+      "ia": {
+        "v": false,
+        "s": 0,
+        "r": "Servicio mantenimiento, no fabricación de piezas",
+        "t": 1784004568388
+      }
+    },
+    {
+      "codigo": "5293-17-LP26",
+      "tipo": "licitacion",
+      "nombre": "MEJORAMIENTO PASEO EX LÍNEA FÉRREA Y SEÑALÉTICA",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": null,
+      "rut_organismo": null,
+      "unidad_compra": null,
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": null,
+      "moneda": "CLP",
+      "fecha_publicacion": null,
+      "fecha_cierre": "2026-08-14 15:30:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5293-17-LP26",
+      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=5293-17-LP26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 14
     }
   ]
 }
