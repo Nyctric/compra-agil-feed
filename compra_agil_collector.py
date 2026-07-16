@@ -402,6 +402,60 @@ def listar_adjudicadas_dia(ddmmyyyy):
     return (data or {}).get("Listado") or []
 
 
+def _num_clp(s):
+    s = re.sub(r"[^\d,.\-]", "", s or "")
+    if not s:
+        return None
+    s = s.replace(".", "").replace(",", ".")
+    try:
+        v = float(s)
+        return v if v > 0 else None
+    except ValueError:
+        return None
+
+
+def parsear_acta_ofertas(url):
+    """Extrae TODAS las ofertas (ganadoras y perdedoras) del acta pública de
+    adjudicación. Parsing tolerante: si la página cambia, devuelve [] y el
+    histórico cae al dato de la API (solo ganador)."""
+    if not url:
+        return []
+    try:
+        r = requests.get(url.replace("http://", "https://"), timeout=60,
+                         headers={"User-Agent": "Mozilla/5.0"})
+        if r.status_code != 200:
+            return []
+        html = r.text
+    except Exception:
+        return []
+    # posiciones de cada producto: "Clasificación ONU : 82151704 ..."
+    prods = [(m.start(), m.group(1)) for m in
+             re.finditer(r"Clasificaci[^<]{0,30}ONU[^0-9]{0,60}(\d{6,10})", html)]
+    ofertas = []
+    for m in re.finditer(r"lnkViewProvider[^>]*>\s*([^<]+?)\s*<", html):
+        prov = re.sub(r"\s+", " ", m.group(1)).strip()
+        if not prov:
+            continue
+        # producto al que pertenece: el último encabezado ONU antes de esta fila
+        cod = ""
+        for pos, c in prods:
+            if pos < m.start():
+                cod = c
+            else:
+                break
+        ventana = html[m.end():m.end() + 3000]
+        mu = re.search(r"\$\s*([\d\.\,]+)", ventana)
+        unit = _num_clp(mu.group(1)) if mu else None
+        if not unit:
+            continue
+        me = re.search(r"(No\s+Adjudicad[ao]|Adjudicad[ao]|Rechazad[ao]|Fuera de Bases)", ventana, re.I)
+        estado = re.sub(r"\s+", " ", me.group(1)).strip().lower() if me else ""
+        mq = re.search(r"\$\s*[\d\.\,]+[^0-9]{0,200}?>\s*([\d\.,]+)\s*<", ventana)
+        cant = _num_clp(mq.group(1)) if mq else None
+        ofertas.append({"c": cod, "pr": prov[:70], "u": unit, "q": cant, "e": estado})
+    return ofertas
+
+
 def _relevante_para_historico(nombre):
     n = _norm(nombre or "")
     if _hit_blacklist(n):
@@ -416,7 +470,7 @@ def actualizar_historico():
     Backfill gradual hacia atrás hasta HISTORICO_DIAS; cuota controlada."""
     hist = cargar_historico()
     procesados = set(hist.get("procesados") or [])
-    vistos = {(it.get("l"), it.get("i")) for it in hist.get("items") or []}
+    vistos = {(it.get("l"), it.get("i"), it.get("pr"), it.get("u")) for it in hist.get("items") or []}
     hoy = dt.date.today()
     candidatos = [(hoy - dt.timedelta(days=d)).isoformat() for d in range(1, HISTORICO_DIAS + 1)]
     pendientes = [d for d in candidatos if d not in procesados][:HIST_DIAS_POR_CORRIDA]
@@ -440,26 +494,56 @@ def actualizar_historico():
             moneda = det.get("Moneda") or "CLP"
             n_of = ((det.get("Adjudicacion") or {}).get("NumeroOferentes"))
             org = ((det.get("Comprador") or {}).get("NombreOrganismo") or "")[:60]
-            for p in ((det.get("Items") or {}).get("Listado") or []):
-                adj = p.get("Adjudicacion") or {}
-                unit = _monto_a_clp(adj.get("MontoUnitario"), moneda)
-                if not unit:
-                    continue
-                clave = (it["CodigoExterno"], p.get("Correlativo"))
-                if clave in vistos:
-                    continue
-                vistos.add(clave)
-                hist["items"].append({
-                    "l": it["CodigoExterno"], "i": p.get("Correlativo"),
-                    "f": dia, "p": (p.get("NombreProducto") or "")[:120],
-                    "d": (p.get("Descripcion") or "")[:120],
-                    "c": str(p.get("CodigoProducto") or ""),
-                    "q": adj.get("Cantidad") or p.get("Cantidad"),
-                    "u": unit, "m": moneda,
-                    "pr": (adj.get("NombreProveedor") or "")[:60],
-                    "org": org, "of": n_of,
-                })
-                nuevos += 1
+            items_api = ((det.get("Items") or {}).get("Listado") or [])
+            mapa_prod = {str(p.get("CodigoProducto") or ""): p for p in items_api}
+            # 1) Acta pública: TODAS las ofertas (ganadoras y perdedoras) con su monto
+            acta_url = ((det.get("Adjudicacion") or {}).get("UrlActa")) or ""
+            filas_acta = parsear_acta_ofertas(acta_url)
+            time.sleep(PAUSA_LIC_SEG)
+            if filas_acta:
+                for idx, o in enumerate(filas_acta):
+                    unit = _monto_a_clp(o["u"], moneda)
+                    if not unit:
+                        continue
+                    clave = (it["CodigoExterno"], o["c"] or idx, o["pr"][:60], unit)
+                    if clave in vistos:
+                        continue
+                    vistos.add(clave)
+                    pin = mapa_prod.get(o["c"]) or (items_api[0] if len(items_api) == 1 else {})
+                    hist["items"].append({
+                        "l": it["CodigoExterno"], "i": o["c"] or idx,
+                        "f": dia, "p": (pin.get("NombreProducto") or it.get("Nombre") or "")[:120],
+                        "d": (pin.get("Descripcion") or "")[:120],
+                        "c": o["c"] or str(pin.get("CodigoProducto") or ""),
+                        "q": o.get("q") or pin.get("Cantidad"),
+                        "u": unit, "m": moneda,
+                        "pr": o["pr"][:60], "org": org, "of": n_of,
+                        "e": o.get("e") or "",
+                    })
+                    nuevos += 1
+            else:
+                # 2) Fallback API: solo el precio ganador por ítem
+                for p in items_api:
+                    adj = p.get("Adjudicacion") or {}
+                    unit = _monto_a_clp(adj.get("MontoUnitario"), moneda)
+                    if not unit:
+                        continue
+                    clave = (it["CodigoExterno"], p.get("Correlativo"), (adj.get("NombreProveedor") or "")[:60], unit)
+                    if clave in vistos:
+                        continue
+                    vistos.add(clave)
+                    hist["items"].append({
+                        "l": it["CodigoExterno"], "i": p.get("Correlativo"),
+                        "f": dia, "p": (p.get("NombreProducto") or "")[:120],
+                        "d": (p.get("Descripcion") or "")[:120],
+                        "c": str(p.get("CodigoProducto") or ""),
+                        "q": adj.get("Cantidad") or p.get("Cantidad"),
+                        "u": unit, "m": moneda,
+                        "pr": (adj.get("NombreProveedor") or "")[:60],
+                        "org": org, "of": n_of,
+                        "e": "adjudicada",
+                    })
+                    nuevos += 1
         procesados.add(dia)
     # poda: fuera de la ventana de un año
     limite = (hoy - dt.timedelta(days=HISTORICO_DIAS)).isoformat()
