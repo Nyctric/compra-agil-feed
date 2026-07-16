@@ -80,6 +80,13 @@ MP_TICKET = os.environ.get("MP_TICKET", "")
 LIC_BASE = "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json"
 PAUSA_LIC_SEG = 1.3  # la API oficial limita consultas por segundo
 
+# Historial de precios adjudicados (referencia de mercado para cotizar)
+HIST_FILE = os.environ.get("HIST_FILE", "precios_historicos.json")
+HISTORICO_ON = bool(_CFG.get("historico_precios", True))
+HISTORICO_DIAS = int(_CFG.get("historico_dias", 365))          # ventana: 1 año
+HIST_DIAS_POR_CORRIDA = int(_CFG.get("historico_dias_por_corrida", 30))  # backfill gradual
+HIST_MAX_DETALLE = int(_CFG.get("max_detalle_historico", 40))  # tope de fichas por corrida (cuota)
+
 ESTADOS = ["publicada"]
 FETCH_DETALLE = True
 OUTPUT_FILE = os.environ.get("OUTPUT_FILE", "oportunidades.json")
@@ -375,6 +382,97 @@ def enriquecer_licitacion(reg):
         prods.append(prod)
     if prods:
         reg["productos"] = prods
+
+
+# ---------- Historial de precios adjudicados ----------
+
+def cargar_historico():
+    if os.path.exists(HIST_FILE):
+        try:
+            with open(HIST_FILE, encoding="utf-8") as f:
+                return json.load(f)
+        except Exception:
+            pass
+    return {"actualizado": None, "procesados": [], "items": []}
+
+
+def listar_adjudicadas_dia(ddmmyyyy):
+    data = _get_oficial({"fecha": ddmmyyyy, "estado": "adjudicada"})
+    time.sleep(PAUSA_LIC_SEG)
+    return (data or {}).get("Listado") or []
+
+
+def _relevante_para_historico(nombre):
+    n = _norm(nombre or "")
+    if _hit_blacklist(n):
+        return False
+    if any(_kw_en_texto(_norm(kw), n) for kw in PALABRAS_CLAVE):
+        return True
+    return bool(_matches_whitelist(n))
+
+
+def actualizar_historico():
+    """Recolecta precios unitarios adjudicados de licitaciones del rubro.
+    Backfill gradual hacia atrás hasta HISTORICO_DIAS; cuota controlada."""
+    hist = cargar_historico()
+    procesados = set(hist.get("procesados") or [])
+    vistos = {(it.get("l"), it.get("i")) for it in hist.get("items") or []}
+    hoy = dt.date.today()
+    candidatos = [(hoy - dt.timedelta(days=d)).isoformat() for d in range(1, HISTORICO_DIAS + 1)]
+    pendientes = [d for d in candidatos if d not in procesados][:HIST_DIAS_POR_CORRIDA]
+    detalles_usados, nuevos = 0, 0
+    for dia in pendientes:
+        if detalles_usados >= HIST_MAX_DETALLE:
+            break
+        f = dt.date.fromisoformat(dia)
+        lst = listar_adjudicadas_dia(f.strftime("%d%m%Y"))
+        relevantes = [it for it in lst
+                      if it.get("CodigoExterno") and _relevante_para_historico(it.get("Nombre"))]
+        if len(relevantes) > HIST_MAX_DETALLE - detalles_usados:
+            break  # no alcanza la cuota para el día completo: se retoma en la próxima corrida
+        for it in relevantes:
+            data = _get_oficial({"codigo": it["CodigoExterno"]})
+            time.sleep(PAUSA_LIC_SEG)
+            detalles_usados += 1
+            det = ((data or {}).get("Listado") or [None])[0]
+            if not det:
+                continue
+            moneda = det.get("Moneda") or "CLP"
+            n_of = ((det.get("Adjudicacion") or {}).get("NumeroOferentes"))
+            org = ((det.get("Comprador") or {}).get("NombreOrganismo") or "")[:60]
+            for p in ((det.get("Items") or {}).get("Listado") or []):
+                adj = p.get("Adjudicacion") or {}
+                unit = _monto_a_clp(adj.get("MontoUnitario"), moneda)
+                if not unit:
+                    continue
+                clave = (it["CodigoExterno"], p.get("Correlativo"))
+                if clave in vistos:
+                    continue
+                vistos.add(clave)
+                hist["items"].append({
+                    "l": it["CodigoExterno"], "i": p.get("Correlativo"),
+                    "f": dia, "p": (p.get("NombreProducto") or "")[:120],
+                    "d": (p.get("Descripcion") or "")[:120],
+                    "c": str(p.get("CodigoProducto") or ""),
+                    "q": adj.get("Cantidad") or p.get("Cantidad"),
+                    "u": unit, "m": moneda,
+                    "pr": (adj.get("NombreProveedor") or "")[:60],
+                    "org": org, "of": n_of,
+                })
+                nuevos += 1
+        procesados.add(dia)
+    # poda: fuera de la ventana de un año
+    limite = (hoy - dt.timedelta(days=HISTORICO_DIAS)).isoformat()
+    hist["items"] = [x for x in hist["items"] if (x.get("f") or "") >= limite]
+    hist["procesados"] = sorted(d for d in procesados if d >= limite)
+    hist["actualizado"] = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    hist["dias_cubiertos"] = len(hist["procesados"])
+    hist["dias_pendientes"] = HISTORICO_DIAS - len(hist["procesados"])
+    with open(HIST_FILE, "w", encoding="utf-8") as f:
+        json.dump(hist, f, ensure_ascii=False)
+    print(f"Histórico de precios: +{nuevos} registros ({len(hist['items'])} totales, "
+          f"{hist['dias_cubiertos']}/{HISTORICO_DIAS} días cubiertos, {detalles_usados} fichas usadas)")
+    return hist
 
 
 # ---------- Adjuntos ----------
@@ -839,6 +937,16 @@ def main():
     elif INCLUIR_LICITACIONES:
         print("Sin MP_TICKET: se omiten licitaciones (solo Compra Ágil).")
 
+    # 3c) Historial de precios adjudicados (referencia para cotizar −10%)
+    hist_info = None
+    if HISTORICO_ON and MP_TICKET:
+        try:
+            h = actualizar_historico()
+            hist_info = {"items": len(h.get("items") or []), "dias_cubiertos": h.get("dias_cubiertos"),
+                         "dias_pendientes": h.get("dias_pendientes")}
+        except Exception as e:
+            print(f"  · histórico de precios: {e}", file=sys.stderr)
+
     # 4) Evaluación IA con caché persistente (solo códigos nuevos que pasan todo)
     cache = cargar_cache_ia()
     ia_nuevos = ia_errores = 0
@@ -876,6 +984,7 @@ def main():
                    "max_detalle": MAX_DETALLE, "max_eval_ia": MAX_EVAL_IA},
         "descartados": descartados,
         "licitaciones": dict(lic_stats, habilitadas=INCLUIR_LICITACIONES, con_ticket=bool(MP_TICKET)),
+        "historico_precios": hist_info,
         "eval_ia": {"evaluados_total": len(cache), "nuevos_esta_corrida": ia_nuevos,
                     "errores": ia_errores, "server_side": bool(ANTHROPIC_KEY)},
         "items": registros,

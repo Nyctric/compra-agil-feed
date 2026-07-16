@@ -43,6 +43,7 @@ jobs:
           mkdir -p /tmp/salida
           cp oportunidades.json /tmp/salida/ 2>/dev/null || true
           if [ -f eval_ia.json ]; then cp eval_ia.json /tmp/salida/; fi
+          if [ -f precios_historicos.json ]; then cp precios_historicos.json /tmp/salida/; fi
           if [ -d adjuntos ]; then cp -r adjuntos /tmp/salida/; fi
           # Commit sobre master SIEMPRE actualizado: sin rebase, sin conflictos posibles
           for i in 1 2 3 4 5; do
@@ -51,9 +52,11 @@ jobs:
             rm -rf adjuntos
             cp /tmp/salida/oportunidades.json . 2>/dev/null || true
             if [ -f /tmp/salida/eval_ia.json ]; then cp /tmp/salida/eval_ia.json .; fi
+            if [ -f /tmp/salida/precios_historicos.json ]; then cp /tmp/salida/precios_historicos.json .; fi
             if [ -d /tmp/salida/adjuntos ]; then cp -r /tmp/salida/adjuntos .; fi
             git add -A oportunidades.json
             if [ -f eval_ia.json ]; then git add -A eval_ia.json; fi
+            if [ -f precios_historicos.json ]; then git add -A precios_historicos.json; fi
             git add -A adjuntos 2>/dev/null || true
             if git diff --staged --quiet; then
               echo "Sin cambios"

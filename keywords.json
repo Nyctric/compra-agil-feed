@@ -1,5 +1,16 @@
 {
-  "palabras_clave": ["anatomico","3d","fantomas","pines","pins","maqueta","galvano","pin","galardon","llavero"],
+  "palabras_clave": [
+    "anatomico",
+    "3d",
+    "fantomas",
+    "pines",
+    "pins",
+    "maqueta",
+    "galvano",
+    "pin",
+    "galardon",
+    "llavero"
+  ],
   "buscar_todo": true,
   "monto_min_clp": 100000,
   "horas_min_cierre": 24,
@@ -9,5 +20,9 @@
   "rubros_bloqueados": [],
   "incluir_licitaciones": true,
   "max_detalle_licitaciones": 60,
-  "valor_utm_clp": 69000
+  "valor_utm_clp": 69000,
+  "historico_precios": true,
+  "historico_dias": 365,
+  "historico_dias_por_corrida": 30,
+  "max_detalle_historico": 40
 }
