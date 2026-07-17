@@ -87,6 +87,9 @@ RUTS_PROPIOS = [re.sub(r"[^0-9kK]", "", str(r)).lower()
 NOMBRES_PROPIOS = [str(n).lower() for n in (_CFG.get("nombres_propios") or ["green wolf", "provectus"])]
 TG_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "")
 TG_CHAT = os.environ.get("TELEGRAM_CHAT_ID", "")
+MAIL_USER = os.environ.get("MAIL_USER", "")            # cuenta Gmail que envía
+MAIL_PASS = os.environ.get("MAIL_APP_PASSWORD", "")    # contraseña de aplicación de Gmail
+MAIL_TO = os.environ.get("MAIL_TO", "") or MAIL_USER   # destinatario (por defecto, la misma)
 
 # Historial de precios adjudicados (referencia de mercado para cotizar)
 HIST_FILE = os.environ.get("HIST_FILE", "precios_historicos.json")
@@ -445,6 +448,25 @@ def notificar_telegram(texto):
         return r.status_code == 200
     except Exception as e:
         print(f"  · telegram: {e}", file=sys.stderr)
+        return False
+
+
+def notificar_correo(asunto, cuerpo_html):
+    if not MAIL_USER or not MAIL_PASS or not MAIL_TO:
+        return False
+    try:
+        import smtplib
+        from email.mime.text import MIMEText
+        msg = MIMEText(cuerpo_html, "html", "utf-8")
+        msg["Subject"] = asunto
+        msg["From"] = MAIL_USER
+        msg["To"] = MAIL_TO
+        with smtplib.SMTP_SSL("smtp.gmail.com", 465, timeout=60) as s:
+            s.login(MAIL_USER, MAIL_PASS)
+            s.sendmail(MAIL_USER, [MAIL_TO], msg.as_string())
+        return True
+    except Exception as e:
+        print(f"  · correo: {e}", file=sys.stderr)
         return False
 
 
@@ -1322,8 +1344,8 @@ def main():
     print(f"OK: {len(registros)} oportunidades ({n_lic} licitaciones, {n_adj} adjuntos, "
           f"{n_viables} viables IA, {ia_nuevos} evaluaciones nuevas) → {OUTPUT_FILE}")
 
-    # 6) Aviso por Telegram (si hay TELEGRAM_BOT_TOKEN y TELEGRAM_CHAT_ID)
-    if TG_TOKEN and TG_CHAT:
+    # 6) Avisos (Telegram y/o correo, según secrets configurados)
+    if (TG_TOKEN and TG_CHAT) or (MAIL_USER and MAIL_PASS):
         viables = [r for r in registros if r.get("ia", {}).get("v")]
         viables.sort(key=lambda r: -(r.get("ia", {}).get("s") or 0))
         lineas = [f"🦊 <b>Compra Ágil</b> — {len(registros)} oportunidades, ⭐ {len(viables)} viables"
@@ -1345,8 +1367,13 @@ def main():
         except Exception:
             pass
         lineas.append("Abre la app para cotizar 🚀")
-        ok_tg = notificar_telegram("\n".join(lineas))
-        print(f"Telegram: {'enviado' if ok_tg else 'falló'}")
+        if TG_TOKEN and TG_CHAT:
+            ok_tg = notificar_telegram("\n".join(lineas))
+            print(f"Telegram: {'enviado' if ok_tg else 'falló'}")
+        if MAIL_USER and MAIL_PASS:
+            asunto = f"🦊 Compra Ágil: {len(viables)} viables · {dt.date.today().isoformat()}"
+            ok_mail = notificar_correo(asunto, "<br>".join(lineas))
+            print(f"Correo: {'enviado' if ok_mail else 'falló'}")
 
 
 if __name__ == "__main__":
