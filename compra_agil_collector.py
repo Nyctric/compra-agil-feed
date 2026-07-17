@@ -80,6 +80,14 @@ MP_TICKET = os.environ.get("MP_TICKET", "")
 LIC_BASE = "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json"
 PAUSA_LIC_SEG = 1.3  # la API oficial limita consultas por segundo
 
+# Resultados propios (ganadas/perdidas) + notificación Telegram
+RESULT_FILE = os.environ.get("RESULT_FILE", "resultados.json")
+RUTS_PROPIOS = [re.sub(r"[^0-9kK]", "", str(r)).lower()
+                for r in (_CFG.get("ruts_propios") or ["77.387.704-1", "78.297.937-K"])]
+NOMBRES_PROPIOS = [str(n).lower() for n in (_CFG.get("nombres_propios") or ["green wolf", "provectus"])]
+TG_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "")
+TG_CHAT = os.environ.get("TELEGRAM_CHAT_ID", "")
+
 # Historial de precios adjudicados (referencia de mercado para cotizar)
 HIST_FILE = os.environ.get("HIST_FILE", "precios_historicos.json")
 HISTORICO_ON = bool(_CFG.get("historico_precios", True))
@@ -402,6 +410,44 @@ def listar_adjudicadas_dia(ddmmyyyy):
     return (data or {}).get("Listado") or []
 
 
+def _es_propio(texto):
+    """True si el texto de proveedor corresponde a una de nuestras empresas."""
+    t = _norm(texto or "")
+    trut = re.sub(r"[^0-9k]", "", t)
+    if any(r and r in trut for r in RUTS_PROPIOS):
+        return True
+    return any(n and n in t for n in NOMBRES_PROPIOS)
+
+
+def cargar_resultados():
+    if os.path.exists(RESULT_FILE):
+        try:
+            with open(RESULT_FILE, encoding="utf-8") as f:
+                return json.load(f)
+        except Exception:
+            pass
+    return {"actualizado": None, "items": []}
+
+
+def guardar_resultados(res):
+    res["actualizado"] = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    with open(RESULT_FILE, "w", encoding="utf-8") as f:
+        json.dump(res, f, ensure_ascii=False, indent=1)
+
+
+def notificar_telegram(texto):
+    if not TG_TOKEN or not TG_CHAT:
+        return False
+    try:
+        r = requests.post(f"https://api.telegram.org/bot{TG_TOKEN}/sendMessage",
+                          json={"chat_id": TG_CHAT, "text": texto, "parse_mode": "HTML",
+                                "disable_web_page_preview": True}, timeout=30)
+        return r.status_code == 200
+    except Exception as e:
+        print(f"  · telegram: {e}", file=sys.stderr)
+        return False
+
+
 def _num_clp(s):
     s = re.sub(r"[^\d,.\-]", "", s or "")
     if not s:
@@ -503,7 +549,7 @@ def _extraer_ofertas_ficha_ca(det):
     return res
 
 
-def capturar_historico_ca(hist, vistos):
+def capturar_historico_ca(hist, vistos, resultados):
     """Precios de Compras Ágiles cerradas del rubro (buscador público, sin cuota).
     Solo procesos con 0 o 1 producto: permite calcular precio unitario sin ambigüedad."""
     ca_proc = set(hist.get("ca_procesadas") or [])
@@ -548,6 +594,12 @@ def capturar_historico_ca(hist, vistos):
             unit = int(round(o["u"] / cant))
             if unit <= 0:
                 continue
+            if _es_propio(o["pr"]) and o["e"] == "adjudicada":
+                resultados["items"].append({
+                    "codigo": cod, "tipo": "compra_agil", "fecha": fecha,
+                    "nombre": nombre_p[:120], "nuestra_oferta": int(o["u"]),
+                    "resultado": "ganada", "ganador": o["pr"], "monto_ganador": int(o["u"]),
+                })
             clave = (cod, "CA", o["pr"][:60], unit)
             if clave in vistos:
                 continue
@@ -573,6 +625,9 @@ def actualizar_historico():
     """Recolecta precios unitarios adjudicados de licitaciones del rubro.
     Backfill gradual hacia atrás hasta HISTORICO_DIAS; cuota controlada."""
     hist = cargar_historico()
+    resultados = cargar_resultados()
+    res_previos = len(resultados["items"])
+    codigos_res = {(r.get("codigo"), r.get("resultado")) for r in resultados["items"]}
     procesados = set(hist.get("procesados") or [])
     vistos = {(it.get("l"), it.get("i"), it.get("pr"), it.get("u")) for it in hist.get("items") or []}
     hoy = dt.date.today()
@@ -605,6 +660,20 @@ def actualizar_historico():
             filas_acta = parsear_acta_ofertas(acta_url)
             time.sleep(PAUSA_LIC_SEG)
             if filas_acta:
+                # ¿Ofertamos nosotros? → registrar resultado (ganada/perdida)
+                propias = [o for o in filas_acta if _es_propio(o["pr"])]
+                if propias:
+                    ganadora = next((o for o in filas_acta if str(o.get("e", "")).startswith("adjudicad")), None)
+                    for o in propias:
+                        gane = str(o.get("e", "")).startswith("adjudicad")
+                        resultados["items"].append({
+                            "codigo": it["CodigoExterno"], "tipo": "licitacion", "fecha": dia,
+                            "nombre": (it.get("Nombre") or "")[:120],
+                            "nuestra_oferta": _monto_a_clp(o["u"], moneda),
+                            "resultado": "ganada" if gane else "perdida",
+                            "ganador": (ganadora or {}).get("pr", ""),
+                            "monto_ganador": _monto_a_clp((ganadora or {}).get("u"), moneda),
+                        })
                 for idx, o in enumerate(filas_acta):
                     unit = _monto_a_clp(o["u"], moneda)
                     if not unit:
@@ -651,7 +720,7 @@ def actualizar_historico():
         procesados.add(dia)
     # Compra Ágil cerradas (buscador público, sin cuota del ticket)
     try:
-        nuevos += capturar_historico_ca(hist, vistos)
+        nuevos += capturar_historico_ca(hist, vistos, resultados)
     except Exception as e:
         print(f"  · histórico CA: {e}", file=sys.stderr)
     # poda: fuera de la ventana de un año
@@ -659,6 +728,17 @@ def actualizar_historico():
     hist["items"] = [x for x in hist["items"] if (x.get("f") or "") >= limite]
     hist["procesados"] = sorted(d for d in procesados if d >= limite)
     hist["actualizado"] = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    # dedup y guardado de resultados propios
+    unicos, vistos_r = [], set()
+    for r in resultados["items"]:
+        k = (r.get("codigo"), r.get("resultado"), r.get("nuestra_oferta"))
+        if k in vistos_r:
+            continue
+        vistos_r.add(k)
+        unicos.append(r)
+    resultados["items"] = unicos[-500:]
+    guardar_resultados(resultados)
+    hist["resultados_nuevos"] = len(resultados["items"]) - min(res_previos, len(resultados["items"]))
     hist["dias_cubiertos"] = len(hist["procesados"])
     hist["dias_pendientes"] = HISTORICO_DIAS - len(hist["procesados"])
     with open(HIST_FILE, "w", encoding="utf-8") as f:
@@ -1241,6 +1321,32 @@ def main():
         json.dump(salida, f, ensure_ascii=False, indent=2)
     print(f"OK: {len(registros)} oportunidades ({n_lic} licitaciones, {n_adj} adjuntos, "
           f"{n_viables} viables IA, {ia_nuevos} evaluaciones nuevas) → {OUTPUT_FILE}")
+
+    # 6) Aviso por Telegram (si hay TELEGRAM_BOT_TOKEN y TELEGRAM_CHAT_ID)
+    if TG_TOKEN and TG_CHAT:
+        viables = [r for r in registros if r.get("ia", {}).get("v")]
+        viables.sort(key=lambda r: -(r.get("ia", {}).get("s") or 0))
+        lineas = [f"🦊 <b>Compra Ágil</b> — {len(registros)} oportunidades, ⭐ {len(viables)} viables"
+                  + (f", {ia_nuevos} evaluadas hoy" if ia_nuevos else "")]
+        for r in viables[:6]:
+            fc = str(r.get("fecha_cierre") or "")[:10]
+            m = r.get("monto_clp")
+            monto = f"${int(float(m)):,}".replace(",", ".") if m else "s/m"
+            tipo = "LIC" if r.get("tipo") == "licitacion" else "CA"
+            lineas.append(f"• [{r.get('ia', {}).get('s', 0)}] {(r.get('nombre') or '')[:70]} — {monto} · cierra {fc} · {tipo}")
+        try:
+            res_items = (cargar_resultados().get("items") or [])
+            recientes = [x for x in res_items
+                         if x.get("fecha") and x["fecha"] >= (dt.date.today() - dt.timedelta(days=2)).isoformat()]
+            for x in recientes[:5]:
+                emoji = "🎉 GANASTE" if x["resultado"] == "ganada" else "❌ Perdiste"
+                extra = "" if x["resultado"] == "ganada" else f" (ganó {x.get('ganador', '?')[:40]})"
+                lineas.append(f"{emoji}: {x.get('nombre', '')[:60]}{extra}")
+        except Exception:
+            pass
+        lineas.append("Abre la app para cotizar 🚀")
+        ok_tg = notificar_telegram("\n".join(lineas))
+        print(f"Telegram: {'enviado' if ok_tg else 'falló'}")
 
 
 if __name__ == "__main__":
