@@ -24,5 +24,14 @@
   "historico_precios": true,
   "historico_dias": 365,
   "historico_dias_por_corrida": 30,
-  "max_detalle_historico": 40
+  "max_detalle_historico": 40,
+  "ruts_propios": [
+    "77.387.704-1",
+    "78.297.937-K"
+  ],
+  "nombres_propios": [
+    "green wolf",
+    "provectus"
+  ],
+  "max_paginas_todo": 400
 }

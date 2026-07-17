@@ -33,6 +33,9 @@ jobs:
           # Opcional: si está definido, la evaluación IA (Haiku) corre aquí y
           # queda cacheada en eval_ia.json — la app no gasta tokens al abrir.
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY || secrets.ANTROPIC_API_KEY }}
+          # Opcional: aviso diario por Telegram con finalistas y resultados
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python compra_agil_collector.py
 
       - name: Commit del JSON y adjuntos si cambiaron
@@ -44,6 +47,7 @@ jobs:
           cp oportunidades.json /tmp/salida/ 2>/dev/null || true
           if [ -f eval_ia.json ]; then cp eval_ia.json /tmp/salida/; fi
           if [ -f precios_historicos.json ]; then cp precios_historicos.json /tmp/salida/; fi
+          if [ -f resultados.json ]; then cp resultados.json /tmp/salida/; fi
           if [ -d adjuntos ]; then cp -r adjuntos /tmp/salida/; fi
           # Commit sobre master SIEMPRE actualizado: sin rebase, sin conflictos posibles
           for i in 1 2 3 4 5; do
@@ -53,10 +57,12 @@ jobs:
             cp /tmp/salida/oportunidades.json . 2>/dev/null || true
             if [ -f /tmp/salida/eval_ia.json ]; then cp /tmp/salida/eval_ia.json .; fi
             if [ -f /tmp/salida/precios_historicos.json ]; then cp /tmp/salida/precios_historicos.json .; fi
+            if [ -f /tmp/salida/resultados.json ]; then cp /tmp/salida/resultados.json .; fi
             if [ -d /tmp/salida/adjuntos ]; then cp -r /tmp/salida/adjuntos .; fi
             git add -A oportunidades.json
             if [ -f eval_ia.json ]; then git add -A eval_ia.json; fi
             if [ -f precios_historicos.json ]; then git add -A precios_historicos.json; fi
+            if [ -f resultados.json ]; then git add -A resultados.json; fi
             git add -A adjuntos 2>/dev/null || true
             if git diff --staged --quiet; then
               echo "Sin cambios"
