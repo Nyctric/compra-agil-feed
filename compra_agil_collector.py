@@ -1331,6 +1331,7 @@ def main():
         "estados": ESTADOS,
         "config": {"monto_min_clp": MONTO_MIN_CLP, "horas_min_cierre": HORAS_MIN_CIERRE,
                    "max_detalle": MAX_DETALLE, "max_eval_ia": MAX_EVAL_IA},
+        "recolectados_total": len(por_codigo),
         "descartados": descartados,
         "recuperados_feed_anterior": recuperados,
         "licitaciones": dict(lic_stats, habilitadas=INCLUIR_LICITACIONES, con_ticket=bool(MP_TICKET)),
