@@ -1381,7 +1381,7 @@ def main():
         if nuevas:
             lineas.append("")
             lineas.append(f"🆕 <b>Nuevas viables hoy ({len(nuevas)}):</b>")
-            for r in nuevas[:6]:
+            for r in nuevas[:30]:
                 s = r.get("ia", {}).get("s", 0)
                 lineas.append(f"• [{s}] {_link(r)} — {_monto(r)}")
 
@@ -1390,7 +1390,7 @@ def main():
         if urgentes:
             lineas.append("")
             lineas.append(f"⏰ <b>Viables que cierran en ≤48h ({len(urgentes)}):</b>")
-            for r in urgentes[:4]:
+            for r in urgentes[:20]:
                 d = _dias(r)
                 cuando = "HOY" if d < 1 else "mañana"
                 lineas.append(f"• {_link(r)} — {_monto(r)} · cierra {cuando}")
@@ -1398,7 +1398,7 @@ def main():
         if not nuevas and not urgentes and viables:
             lineas.append("")
             lineas.append("<b>Top viables vigentes:</b>")
-            for r in viables[:4]:
+            for r in viables[:20]:
                 s = r.get("ia", {}).get("s", 0)
                 lineas.append(f"• [{s}] {_link(r)} — {_monto(r)} · cierra {str(r.get('fecha_cierre') or '')[:10]}")
 
@@ -1409,7 +1409,7 @@ def main():
             if res_items:
                 lineas.append("")
                 lineas.append("<b>Resultados de tus ofertas:</b>")
-                for x in res_items[:5]:
+                for x in res_items[:15]:
                     if x["resultado"] == "ganada":
                         lineas.append(f"🎉 GANASTE: {x.get('nombre', '')[:60]}")
                     else:
@@ -1418,7 +1418,10 @@ def main():
             pass
 
         if TG_TOKEN and TG_CHAT:
-            ok_tg = notificar_telegram("\n".join(lineas))
+            txt_tg = "\n".join(lineas)
+            if len(txt_tg) > 3900:  # límite de Telegram: 4096 caracteres
+                txt_tg = txt_tg[:3900] + "\n…(lista completa en el correo y la app)"
+            ok_tg = notificar_telegram(txt_tg)
             print(f"Telegram: {'enviado' if ok_tg else 'falló'}")
         if MAIL_USER and MAIL_PASS:
             asunto = f"🦊 Mercado Público: {len(nuevas)} nuevas, {len(viables)} viables · {hoy_txt}"
