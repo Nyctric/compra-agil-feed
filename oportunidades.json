@@ -1,6 +1,6 @@
 {
-  "generado": "2026-07-18T02:15:50Z",
-  "total": 272,
+  "generado": "2026-07-18T04:38:04Z",
+  "total": 271,
   "palabras_clave": [
     "anatomico",
     "3d",
@@ -25,26 +25,26 @@
     "max_eval_ia": 100
   },
   "descartados": {
-    "cerradas": 44,
-    "blacklist": 938,
-    "sin_match": 8438
+    "cerradas": 37,
+    "blacklist": 939,
+    "sin_match": 8435
   },
   "recuperados_feed_anterior": 0,
   "licitaciones": {
-    "activas": 4197,
+    "activas": 4199,
     "candidatas": 60,
     "incluidas": 59,
     "habilitadas": true,
     "con_ticket": true
   },
   "historico_precios": {
-    "items": 798,
-    "dias_cubiertos": 42,
-    "dias_pendientes": 323
+    "items": 924,
+    "dias_cubiertos": 50,
+    "dias_pendientes": 315
   },
   "eval_ia": {
     "evaluados_total": 292,
-    "nuevos_esta_corrida": 46,
+    "nuevos_esta_corrida": 0,
     "errores": 0,
     "server_side": true
   },
@@ -839,7 +839,7 @@
       "palabras_clave_match": [
         "galvano"
       ],
-      "total_ofertas": 6,
+      "total_ofertas": 7,
       "productos": [
         {
           "nombre": "Galvanos",
@@ -1239,7 +1239,7 @@
         "pasa": true,
         "razon": ""
       },
-      "score_heuristico": 74,
+      "score_heuristico": 64,
       "ia": {
         "v": true,
         "s": 72,
@@ -2377,7 +2377,7 @@
       "fecha_cierre": "2026-07-20 15:00",
       "fecha_ultimo_cambio": null,
       "palabras_clave_match": [],
-      "total_ofertas": 4,
+      "total_ofertas": 5,
       "productos": [
         {
           "nombre": "Sillas",
@@ -2907,7 +2907,7 @@
       "palabras_clave_match": [
         "galvano"
       ],
-      "total_ofertas": 2,
+      "total_ofertas": 3,
       "productos": [
         {
           "nombre": "Galvanos",
@@ -2934,7 +2934,7 @@
         "pasa": true,
         "razon": ""
       },
-      "score_heuristico": 64,
+      "score_heuristico": 57,
       "ia": {
         "v": true,
         "s": 45,
@@ -3177,7 +3177,7 @@
       "fecha_cierre": "2026-07-20 08:00",
       "fecha_ultimo_cambio": null,
       "palabras_clave_match": [],
-      "total_ofertas": 0,
+      "total_ofertas": 1,
       "productos": [
         {
           "nombre": "Mopas húmedas",
@@ -3526,7 +3526,7 @@
       "palabras_clave_match": [
         "galvano"
       ],
-      "total_ofertas": 1,
+      "total_ofertas": 2,
       "productos": [
         {
           "nombre": "Galvanos",
@@ -3944,7 +3944,7 @@
       "fecha_cierre": "2026-07-21 12:00",
       "fecha_ultimo_cambio": null,
       "palabras_clave_match": [],
-      "total_ofertas": 1,
+      "total_ofertas": 2,
       "productos": [
         {
           "nombre": "Filtros de aire",
@@ -4599,60 +4599,6 @@
       "score_heuristico": 74
     },
     {
-      "codigo": "1729-278-COT26",
-      "tipo": "compra_agil",
-      "nombre": "PINES METALICOS PERSONALIZADOS PROGRAMA DEPORTIVO",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "I MUNICIPALIDAD DE TIERRA AMARILLA",
-      "rut_organismo": "69.030.400-7",
-      "unidad_compra": "Departamento de Abastecimiento",
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": 500000,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-07-17 09:35",
-      "fecha_cierre": "2026-07-20 10:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [
-        "pines"
-      ],
-      "total_ofertas": 2,
-      "productos": [
-        {
-          "nombre": "Broches",
-          "descripcion": "PINES METALICOS PERSONALIZADOS PROGRAMA DEPORTIVO, SEGUN TTR ADJUNTOS.\n\n",
-          "cantidad": 80,
-          "unidad": "EA",
-          "categoria": "53141507"
-        }
-      ],
-      "adjuntos": [
-        {
-          "id": "DDD7EC75-1C1E-41D7-9F97-1AA81B008DDE",
-          "nombre": "TTR PINES.pdf",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1729-278-COT26/TTR%20PINES.pdf",
-          "tipo": "pdf"
-        }
-      ],
-      "descripcion": "SE NECESITA ADQUIRIR PINES METALICOS PERSONALIZADOS PROGRAMA DEPORTIVO, SEGUN TTR ADJUNTOS.",
-      "direccion_entrega": "MIGUEL LEMEUR 544",
-      "plazo_entrega_dias": 7,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1729-278-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1729-278-COT26",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 74,
-      "ia": {
-        "v": false,
-        "s": 0,
-        "r": "Pines metálicos requieren metalurgia, no 3D",
-        "t": 1784303815804
-      }
-    },
-    {
       "codigo": "3482-92-COT26",
       "tipo": "compra_agil",
       "nombre": "ADQUISICIÓN DE REPUESTOS PARA UN VEHÍCULO ADMINISTRATIVO AMBULANCIA MATRÍCULA BRCR-14, PERTENECIENTE A LA COMPAÑÍA DE CUARTEL DE ESTA UNIDAD REGIMENTARIA.",
@@ -4848,76 +4794,6 @@
       "productos": [
         {
           "nombre": "Puntales",
-          "descripcion": "SENSOR TEMPERATURA PARA TOYOTA HILUX STD 2.4, AÑO 2000",
-          "cantidad": 1,
-          "unidad": "EA",
-          "categoria": "25172007"
-        },
-        {
-          "nombre": "Puntales",
-          "descripcion": "MANGUERA SUPERIOR RADIADOR PARA TOYOTA HILUX STD 2.4, AÑO 2000",
-          "cantidad": 1,
-          "unidad": "EA",
-          "categoria": "25172007"
-        },
-        {
-          "nombre": "Puntales",
-          "descripcion": "MANGUERA INFERIOR RADIADOR PARA TOYOTA HILUX STD 2.4, AÑO 2000",
-          "cantidad": 1,
-          "unidad": "EA",
-          "categoria": "25172007"
-        },
-        {
-          "nombre": "Puntales",
-          "descripcion": "Seguro Reten Toma de Fuerza Massey Ferguson, modelo MF4292T4K",
-          "cantidad": 1,
-          "unidad": "EA",
-          "categoria": "25172007"
-        },
-        {
-          "nombre": "Puntales",
-          "descripcion": "Reten toma de Fuerza Massey Ferguson, modelo MF4292T4K",
-          "cantidad": 1,
-          "unidad": "EA",
-          "categoria": "25172007"
-        },
-        {
-          "nombre": "Puntales",
-          "descripcion": "Rodamiento toma de Fuerza Massey Ferguson, modelo MF4292T4K",
-          "cantidad": 1,
-          "unidad": "EA",
-          "categoria": "25172007"
-        },
-        {
-          "nombre": "Puntales",
-          "descripcion": "FILTRO AIRE REDONDO P/TOYOTA HILUX D/CAB 4X4 2.4, AÑO 2025",
-          "cantidad": 2,
-          "unidad": "EA",
-          "categoria": "25172007"
-        },
-        {
-          "nombre": "Puntales",
-          "descripcion": "FILTRO PETROLEO CAMIONETA TOYOTA HILUX D/CAB 4X4 2.4, AÑO 2025",
-          "cantidad": 2,
-          "unidad": "EA",
-          "categoria": "25172007"
-        },
-        {
-          "nombre": "Puntales",
-          "descripcion": "FILTRO ACEITE CAMIONETA TOYOTA HILUX D/CAB 4X4 2.4, AÑO 2025.",
-          "cantidad": 2,
-          "unidad": "EA",
-          "categoria": "25172007"
-        },
-        {
-          "nombre": "Puntales",
-          "descripcion": "FILTRO DE POLEN CAMIONETA TOYOTA HILUX D/CAB 4X4 2.4, AÑO 2025.",
-          "cantidad": 2,
-          "unidad": "EA",
-          "categoria": "25172007"
-        },
-        {
-          "nombre": "Puntales",
           "descripcion": "FILTRO AIRE P/CTA CHEVROLET NEW DMAX 4WD 2.5, Año 2019",
           "cantidad": 3,
           "unidad": "EA",
@@ -5069,6 +4945,76 @@
           "cantidad": 1,
           "unidad": "EA",
           "categoria": "25172007"
+        },
+        {
+          "nombre": "Puntales",
+          "descripcion": "SENSOR TEMPERATURA PARA TOYOTA HILUX STD 2.4, AÑO 2000",
+          "cantidad": 1,
+          "unidad": "EA",
+          "categoria": "25172007"
+        },
+        {
+          "nombre": "Puntales",
+          "descripcion": "MANGUERA SUPERIOR RADIADOR PARA TOYOTA HILUX STD 2.4, AÑO 2000",
+          "cantidad": 1,
+          "unidad": "EA",
+          "categoria": "25172007"
+        },
+        {
+          "nombre": "Puntales",
+          "descripcion": "MANGUERA INFERIOR RADIADOR PARA TOYOTA HILUX STD 2.4, AÑO 2000",
+          "cantidad": 1,
+          "unidad": "EA",
+          "categoria": "25172007"
+        },
+        {
+          "nombre": "Puntales",
+          "descripcion": "Seguro Reten Toma de Fuerza Massey Ferguson, modelo MF4292T4K",
+          "cantidad": 1,
+          "unidad": "EA",
+          "categoria": "25172007"
+        },
+        {
+          "nombre": "Puntales",
+          "descripcion": "Reten toma de Fuerza Massey Ferguson, modelo MF4292T4K",
+          "cantidad": 1,
+          "unidad": "EA",
+          "categoria": "25172007"
+        },
+        {
+          "nombre": "Puntales",
+          "descripcion": "Rodamiento toma de Fuerza Massey Ferguson, modelo MF4292T4K",
+          "cantidad": 1,
+          "unidad": "EA",
+          "categoria": "25172007"
+        },
+        {
+          "nombre": "Puntales",
+          "descripcion": "FILTRO AIRE REDONDO P/TOYOTA HILUX D/CAB 4X4 2.4, AÑO 2025",
+          "cantidad": 2,
+          "unidad": "EA",
+          "categoria": "25172007"
+        },
+        {
+          "nombre": "Puntales",
+          "descripcion": "FILTRO PETROLEO CAMIONETA TOYOTA HILUX D/CAB 4X4 2.4, AÑO 2025",
+          "cantidad": 2,
+          "unidad": "EA",
+          "categoria": "25172007"
+        },
+        {
+          "nombre": "Puntales",
+          "descripcion": "FILTRO ACEITE CAMIONETA TOYOTA HILUX D/CAB 4X4 2.4, AÑO 2025.",
+          "cantidad": 2,
+          "unidad": "EA",
+          "categoria": "25172007"
+        },
+        {
+          "nombre": "Puntales",
+          "descripcion": "FILTRO DE POLEN CAMIONETA TOYOTA HILUX D/CAB 4X4 2.4, AÑO 2025.",
+          "cantidad": 2,
+          "unidad": "EA",
+          "categoria": "25172007"
         }
       ],
       "adjuntos": [
@@ -5129,13 +5075,6 @@
       "productos": [
         {
           "nombre": "Envases para guardar alimentos domésticos",
-          "descripcion": "BANDEJA RECTANGULAR N°14 COLOR BLANCO",
-          "cantidad": 500,
-          "unidad": "EA",
-          "categoria": "52152002"
-        },
-        {
-          "nombre": "Envases para guardar alimentos domésticos",
           "descripcion": "BANDEJA RECTANGULAR N°13 COLOR BLANCO",
           "cantidad": 300,
           "unidad": "EA",
@@ -5187,6 +5126,13 @@
           "nombre": "Envases para guardar alimentos domésticos",
           "descripcion": "ENVASE PET 250 GRS. 242. MEDIDAS 15x11x6",
           "cantidad": 3600,
+          "unidad": "EA",
+          "categoria": "52152002"
+        },
+        {
+          "nombre": "Envases para guardar alimentos domésticos",
+          "descripcion": "BANDEJA RECTANGULAR N°14 COLOR BLANCO",
+          "cantidad": 500,
           "unidad": "EA",
           "categoria": "52152002"
         }
@@ -5277,58 +5223,6 @@
         "v": false,
         "s": 0,
         "r": "Servicio gasfitería, no fabricación",
-        "t": 1784217121152
-      }
-    },
-    {
-      "codigo": "1079866-224-COT26",
-      "tipo": "compra_agil",
-      "nombre": "SERVICIO DE LIMPIEZA INTEGRAL DE ALCANTARILLADO CAMARA, PARA LA 59 COM. LAMPA DOE. 257646951 C.D.P. 291",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "SECCIÓN COMPRAS ZONA SANTIAGO OESTE",
-      "rut_organismo": "65.091.977-7",
-      "unidad_compra": "SECCIÓN COMPRAS ZONA SANTIAGO OESTE",
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": 1582700,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-07-15 16:44",
-      "fecha_cierre": "2026-07-20 15:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [],
-      "total_ofertas": 2,
-      "productos": [
-        {
-          "nombre": "Bombas para servicios sanitarios",
-          "descripcion": "RETIRO Y DISPOSICION FINAL DE RESIDUOS, LA CONTRATACIÓN DEL SERVICIO DE LIMPIEZA, DESOBSTRUCCIÓN Y RETIRO DE DESECHOS DE SEIS (06) CÁMARAS DE RESIDUOS, ASÍ COMO DEL SISTEMA DE EVACUACIÓN DE AGUAS SERVIDAS DE LA 59ª COMISARÍA DE CARABINEROS LAMPA, CON LA FINALIDAD DE HABILITAR ADECUADAMENTE LAS DEPENDENCIAS DESTINADAS A LA PRESTACIÓN DEL SERVICIO DE ALIMENTACIÓN",
-          "cantidad": 1,
-          "unidad": "EA",
-          "categoria": "40151519"
-        }
-      ],
-      "adjuntos": [
-        {
-          "id": "9BF91709-155D-477E-966F-0966DE558A44",
-          "nombre": "COMPRA AGIL PLANILLA (2)59 COM LAMPA CDP.291.docx",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1079866-224-COT26/COMPRA%20AGIL%20PLANILLA%20%282%2959%20COM%20LAMPA%20CDP.291.docx",
-          "tipo": "docx"
-        }
-      ],
-      "descripcion": "1 LIMPIEZA Y DESOBTRUCCION DE CAMARAS,RETIRO Y DISPOSICION FINAL DE LOS RESIDUOS SERVICIO LIMPIEZA INTEGRAL DE ALCANTARILLADO PARA LA 59° COMISARIA DE CARABINEROS \"LAMPA\" EL OFERENTE DEBE PRESENTAR UNA COTIZACION FORMAL, PLAZO DE ENTREGA, TIEMPO DE GARANTIA, CONTACTO CON EL OFERENTE QUE SE ADJUDIQUE LOS TRABAJOS, ACTA DE ENTREGA DE LOS TRABAJOS, EL PROVEEDOR QUE NO PROPORCIONE LA INFORMACIÓN SOLICITADA O NO CUMPLA CON LOS REQUERIMIENTOS, LA INSTITUCIÓN PODRÁ RECHAZAR LA OFERTA.",
-      "direccion_entrega": "SARGENTO ALDEA #1100, LAMPA, 59 COMISARIA DE CARABINEROS, Lampa, Región Metropolitana de Santiago, Lampa, Región Metropolitana de Santiago",
-      "plazo_entrega_dias": 2,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1079866-224-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1079866-224-COT26",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 74,
-      "ia": {
-        "v": false,
-        "s": 0,
-        "r": "Servicio limpieza alcantarillado, no fabricación",
         "t": 1784217121152
       }
     },
@@ -5499,105 +5393,6 @@
         "v": false,
         "s": 0,
         "r": "Cristal violeta químico, no viable",
-        "t": 1784217121152
-      }
-    },
-    {
-      "codigo": "1471-41-COT26",
-      "tipo": "compra_agil",
-      "nombre": "Adquisición de resmas papel recicladas, pilas y paños Limpieza",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "DIRECCION GENERAL DE AERONAUTICA CIVIL",
-      "rut_organismo": "61.104.000-8",
-      "unidad_compra": "UNIDAD DE COMPRA LA SERENA",
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": 510000,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-07-15 15:00",
-      "fecha_cierre": "2026-07-24 10:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [],
-      "total_ofertas": 2,
-      "productos": [
-        {
-          "nombre": "Papel multiuso",
-          "descripcion": "Papel tamaño carta reciclado o ecologico",
-          "cantidad": 65,
-          "unidad": "RM",
-          "categoria": "14111525"
-        },
-        {
-          "nombre": "Pilas alcalinas",
-          "descripcion": "Pilas tamaño triple A de alta duración",
-          "cantidad": 60,
-          "unidad": "EA",
-          "categoria": "26111702"
-        },
-        {
-          "nombre": "Pilas alcalinas",
-          "descripcion": "Pilas tamaño doble A de alta duración",
-          "cantidad": 60,
-          "unidad": "EA",
-          "categoria": "26111702"
-        },
-        {
-          "nombre": "Pilas alcalinas",
-          "descripcion": "Pilas tamaño mediano C de alta duración",
-          "cantidad": 24,
-          "unidad": "EA",
-          "categoria": "26111702"
-        },
-        {
-          "nombre": "Pilas alcalinas",
-          "descripcion": "Pilas tamaño grande D de alta duración",
-          "cantidad": 6,
-          "unidad": "EA",
-          "categoria": "26111702"
-        },
-        {
-          "nombre": "Paños de limpieza absorbente",
-          "descripcion": "Toalla similar a wypall de 88 paños, de acuerdo a Especificaciones Técnicas adjuntas",
-          "cantidad": 8,
-          "unidad": "RO",
-          "categoria": "47131602"
-        }
-      ],
-      "adjuntos": [
-        {
-          "id": "AB5B03C5-6E1D-42BA-86D5-848575067A53",
-          "nombre": "Especificaciones técnicas Art. varios.docx",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1471-41-COT26/Especificaciones%20t%C3%A9cnicas%20Art.%20varios.docx",
-          "tipo": "docx"
-        },
-        {
-          "id": "B783B6E0-CB52-4B46-A587-9ADBC536F71F",
-          "nombre": "Condiciones Comerciales Compra Ágil 2026.doc",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1471-41-COT26/Condiciones%20Comerciales%20Compra%20%C3%81gil%202026.doc",
-          "tipo": "doc"
-        },
-        {
-          "id": "D1E8CBE9-A3C4-479B-A641-020F2ADCF242",
-          "nombre": "PAUTA DE EVALUACIÓN ART. VARIOS.docx",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1471-41-COT26/PAUTA%20DE%20EVALUACI%C3%93N%20ART.%20VARIOS.docx",
-          "tipo": "docx"
-        }
-      ],
-      "descripcion": "Adquisición de resmas papel recicladas, pilas y paños Limpieza, de acuerdo a especificaciones técnicas adjuntas\nDebe incluir el valor del despacho hasta la dirección de la compra.\nSe informa que esta institución retiene un 2% del total facturado, según la Ley N° 16.752. art. 37 del año 1968.-\nLeer condiciones comerciales adjuntas antes de ofertar, no se aceptaran reclamos posteriores.",
-      "direccion_entrega": "Aeródromo La Florida, de La Serena, camino Vicuña S/N°, ruta 41.",
-      "plazo_entrega_dias": 10,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1471-41-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1471-41-COT26",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 74,
-      "ia": {
-        "v": false,
-        "s": 0,
-        "r": "Papel reciclado pilas paños, no es 3D",
         "t": 1784217121152
       }
     },
@@ -6148,67 +5943,6 @@
       }
     },
     {
-      "codigo": "1350293-19-COT26",
-      "tipo": "compra_agil",
-      "nombre": "Adquisición de stock  de galvanos para premiación y reconocimiento a artistas, bandas, agrupaciones en diferentes actividades realizadas en la Casa de la Cultura y el territorio.",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "CORPORACION CULTURAL MUNICIPAL DE NACIMIENTO",
-      "rut_organismo": "65.077.273-3",
-      "unidad_compra": "CORPORACION CULTURAL MUNICIPAL DE NACIMIENTO",
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": 300000,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-07-14 17:22",
-      "fecha_cierre": "2026-07-20 09:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [
-        "galvano"
-      ],
-      "total_ofertas": 2,
-      "productos": [
-        {
-          "nombre": "Galvanos",
-          "descripcion": "30 Galvanos de acrílico de 3mm de espesor, de 20 centímetros de alto\npor 10 de ancho, forma trapezoidal, con base de madera, con\nlogotipo full color de 5x3 cm, impreso centrado en la parte superior\ndel galvano.Detalles deben ser coordinados previamente con encargado registrado en el documento adjunto de esta compra agil.",
-          "cantidad": 30,
-          "unidad": "EA",
-          "categoria": "49101704"
-        },
-        {
-          "nombre": "Adhesivos decorativos",
-          "descripcion": "1 Rollo de 30 cm x 5 metros de 0.08 mm de espesor adhesivo color\nnegro mate para plotter de corte.",
-          "cantidad": 1,
-          "unidad": "RO",
-          "categoria": "60121012"
-        }
-      ],
-      "adjuntos": [
-        {
-          "id": "D2C0E4AD-3A50-4940-8D3B-CD3BB87B0939",
-          "nombre": "REQUERIMIENTO DE COMPRA N° 021 (2).pdf",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1350293-19-COT26/REQUERIMIENTO%20DE%20COMPRA%20N%C2%B0%20021%20%282%29.pdf",
-          "tipo": "pdf"
-        }
-      ],
-      "descripcion": "La Casa de la Cultura y el Arte de Nacimiento requiere comprar 30 galvanos de acrílico de 3mm de espesor, de 20 centímetros de alto\npor 10 de ancho, forma trapezoidal, con base de madera, con logotipo full color de 5x3 cm, impreso centrado en la parte superior\ndel galvano y un rollo de 30 cm x 5 metros de 0.08 mm de espesor adhesivo color negro mate para plotter de corte.",
-      "direccion_entrega": "Pablo Neruda 1289",
-      "plazo_entrega_dias": 3,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1350293-19-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1350293-19-COT26",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 74,
-      "ia": {
-        "v": false,
-        "s": 0,
-        "r": "Galvanos acrílico con base madera, no 3D",
-        "t": 1784130014544
-      }
-    },
-    {
       "codigo": "1350293-18-COT26",
       "tipo": "compra_agil",
       "nombre": "Adquisición de piezas de alfarería tradicional con identidad local, para hacer entrega a autoridades, cultores, visitas, etc. en forma de reconocimiento.",
@@ -6747,41 +6481,6 @@
       "total_ofertas": 1,
       "productos": [
         {
-          "nombre": "Brochas",
-          "descripcion": "Brocha esponja 3 pulgadas ancho, según especificaciones técnicas.\n\n",
-          "cantidad": 10,
-          "unidad": "EA",
-          "categoria": "31211904"
-        },
-        {
-          "nombre": "Brochas",
-          "descripcion": "Brocha esponja 2 pulgadas ancho, según especificaciones técnicas.\n\n",
-          "cantidad": 2,
-          "unidad": "EA",
-          "categoria": "31211904"
-        },
-        {
-          "nombre": "Cinta de tinta para impresora",
-          "descripcion": "FILAMENTO PLA FIBRA CARBONO 1KG CREALITY, según especificaciones técnicas.",
-          "cantidad": 2,
-          "unidad": "EA",
-          "categoria": "44103112"
-        },
-        {
-          "nombre": "Cinta de tinta para impresora",
-          "descripcion": "FILAMENTO PLA ALTA VELOCIDAD BLANCO BOBINA RECICLABLE 1KG CREALITY, según especificaciones técnicas.",
-          "cantidad": 1,
-          "unidad": "EA",
-          "categoria": "44103112"
-        },
-        {
-          "nombre": "Kits para impresoras",
-          "descripcion": "FILAMENTO PLA MATE NEGRO MATE 1KG CREALITY, según especificaciones técnicas.",
-          "cantidad": 2,
-          "unidad": "EA",
-          "categoria": "44103116"
-        },
-        {
           "nombre": "Kits para impresoras",
           "descripcion": "FILAMENTO PLA ALTA VELOCIDAD ROJO BOBINA RECICLABLE 1KG CREALITY, según especificaciones técnicas.",
           "cantidad": 1,
@@ -6822,6 +6521,41 @@
           "cantidad": 40,
           "unidad": "EA",
           "categoria": "60121112"
+        },
+        {
+          "nombre": "Brochas",
+          "descripcion": "Brocha esponja 3 pulgadas ancho, según especificaciones técnicas.\n\n",
+          "cantidad": 10,
+          "unidad": "EA",
+          "categoria": "31211904"
+        },
+        {
+          "nombre": "Brochas",
+          "descripcion": "Brocha esponja 2 pulgadas ancho, según especificaciones técnicas.\n\n",
+          "cantidad": 2,
+          "unidad": "EA",
+          "categoria": "31211904"
+        },
+        {
+          "nombre": "Cinta de tinta para impresora",
+          "descripcion": "FILAMENTO PLA FIBRA CARBONO 1KG CREALITY, según especificaciones técnicas.",
+          "cantidad": 2,
+          "unidad": "EA",
+          "categoria": "44103112"
+        },
+        {
+          "nombre": "Cinta de tinta para impresora",
+          "descripcion": "FILAMENTO PLA ALTA VELOCIDAD BLANCO BOBINA RECICLABLE 1KG CREALITY, según especificaciones técnicas.",
+          "cantidad": 1,
+          "unidad": "EA",
+          "categoria": "44103112"
+        },
+        {
+          "nombre": "Kits para impresoras",
+          "descripcion": "FILAMENTO PLA MATE NEGRO MATE 1KG CREALITY, según especificaciones técnicas.",
+          "cantidad": 2,
+          "unidad": "EA",
+          "categoria": "44103116"
         }
       ],
       "adjuntos": [
@@ -7711,7 +7445,7 @@
       "fecha_cierre": "2026-07-20 10:00",
       "fecha_ultimo_cambio": null,
       "palabras_clave_match": [],
-      "total_ofertas": 3,
+      "total_ofertas": 4,
       "productos": [
         {
           "nombre": "Calderas eléctricas",
@@ -7907,6 +7641,60 @@
       }
     },
     {
+      "codigo": "1729-278-COT26",
+      "tipo": "compra_agil",
+      "nombre": "PINES METALICOS PERSONALIZADOS PROGRAMA DEPORTIVO",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "I MUNICIPALIDAD DE TIERRA AMARILLA",
+      "rut_organismo": "69.030.400-7",
+      "unidad_compra": "Departamento de Abastecimiento",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 500000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-07-17 09:35",
+      "fecha_cierre": "2026-07-20 10:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "pines"
+      ],
+      "total_ofertas": 3,
+      "productos": [
+        {
+          "nombre": "Broches",
+          "descripcion": "PINES METALICOS PERSONALIZADOS PROGRAMA DEPORTIVO, SEGUN TTR ADJUNTOS.\n\n",
+          "cantidad": 80,
+          "unidad": "EA",
+          "categoria": "53141507"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "DDD7EC75-1C1E-41D7-9F97-1AA81B008DDE",
+          "nombre": "TTR PINES.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1729-278-COT26/TTR%20PINES.pdf",
+          "tipo": "pdf"
+        }
+      ],
+      "descripcion": "SE NECESITA ADQUIRIR PINES METALICOS PERSONALIZADOS PROGRAMA DEPORTIVO, SEGUN TTR ADJUNTOS.",
+      "direccion_entrega": "MIGUEL LEMEUR 544",
+      "plazo_entrega_dias": 7,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1729-278-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1729-278-COT26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 67,
+      "ia": {
+        "v": false,
+        "s": 0,
+        "r": "Pines metálicos requieren metalurgia, no 3D",
+        "t": 1784303815804
+      }
+    },
+    {
       "codigo": "924-159-COT26",
       "tipo": "compra_agil",
       "nombre": "Repuestos para pulverizadoras",
@@ -8092,6 +7880,58 @@
       }
     },
     {
+      "codigo": "1079866-224-COT26",
+      "tipo": "compra_agil",
+      "nombre": "SERVICIO DE LIMPIEZA INTEGRAL DE ALCANTARILLADO CAMARA, PARA LA 59 COM. LAMPA DOE. 257646951 C.D.P. 291",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "SECCIÓN COMPRAS ZONA SANTIAGO OESTE",
+      "rut_organismo": "65.091.977-7",
+      "unidad_compra": "SECCIÓN COMPRAS ZONA SANTIAGO OESTE",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 1582700,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-07-15 16:44",
+      "fecha_cierre": "2026-07-20 15:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": 3,
+      "productos": [
+        {
+          "nombre": "Bombas para servicios sanitarios",
+          "descripcion": "RETIRO Y DISPOSICION FINAL DE RESIDUOS, LA CONTRATACIÓN DEL SERVICIO DE LIMPIEZA, DESOBSTRUCCIÓN Y RETIRO DE DESECHOS DE SEIS (06) CÁMARAS DE RESIDUOS, ASÍ COMO DEL SISTEMA DE EVACUACIÓN DE AGUAS SERVIDAS DE LA 59ª COMISARÍA DE CARABINEROS LAMPA, CON LA FINALIDAD DE HABILITAR ADECUADAMENTE LAS DEPENDENCIAS DESTINADAS A LA PRESTACIÓN DEL SERVICIO DE ALIMENTACIÓN",
+          "cantidad": 1,
+          "unidad": "EA",
+          "categoria": "40151519"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "9BF91709-155D-477E-966F-0966DE558A44",
+          "nombre": "COMPRA AGIL PLANILLA (2)59 COM LAMPA CDP.291.docx",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1079866-224-COT26/COMPRA%20AGIL%20PLANILLA%20%282%2959%20COM%20LAMPA%20CDP.291.docx",
+          "tipo": "docx"
+        }
+      ],
+      "descripcion": "1 LIMPIEZA Y DESOBTRUCCION DE CAMARAS,RETIRO Y DISPOSICION FINAL DE LOS RESIDUOS SERVICIO LIMPIEZA INTEGRAL DE ALCANTARILLADO PARA LA 59° COMISARIA DE CARABINEROS \"LAMPA\" EL OFERENTE DEBE PRESENTAR UNA COTIZACION FORMAL, PLAZO DE ENTREGA, TIEMPO DE GARANTIA, CONTACTO CON EL OFERENTE QUE SE ADJUDIQUE LOS TRABAJOS, ACTA DE ENTREGA DE LOS TRABAJOS, EL PROVEEDOR QUE NO PROPORCIONE LA INFORMACIÓN SOLICITADA O NO CUMPLA CON LOS REQUERIMIENTOS, LA INSTITUCIÓN PODRÁ RECHAZAR LA OFERTA.",
+      "direccion_entrega": "SARGENTO ALDEA #1100, LAMPA, 59 COMISARIA DE CARABINEROS, Lampa, Región Metropolitana de Santiago, Lampa, Región Metropolitana de Santiago",
+      "plazo_entrega_dias": 2,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1079866-224-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1079866-224-COT26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 67,
+      "ia": {
+        "v": false,
+        "s": 0,
+        "r": "Servicio limpieza alcantarillado, no fabricación",
+        "t": 1784217121152
+      }
+    },
+    {
       "codigo": "1079689-351-COT26",
       "tipo": "compra_agil",
       "nombre": "ADQUISICION DE REPUESTOS GENUINOS PARA LM-122 Y VEHICULOS FISCALES NISSAN MODELO NAVARA",
@@ -8202,6 +8042,105 @@
       }
     },
     {
+      "codigo": "1471-41-COT26",
+      "tipo": "compra_agil",
+      "nombre": "Adquisición de resmas papel recicladas, pilas y paños Limpieza",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "DIRECCION GENERAL DE AERONAUTICA CIVIL",
+      "rut_organismo": "61.104.000-8",
+      "unidad_compra": "UNIDAD DE COMPRA LA SERENA",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 510000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-07-15 15:00",
+      "fecha_cierre": "2026-07-24 10:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": 3,
+      "productos": [
+        {
+          "nombre": "Papel multiuso",
+          "descripcion": "Papel tamaño carta reciclado o ecologico",
+          "cantidad": 65,
+          "unidad": "RM",
+          "categoria": "14111525"
+        },
+        {
+          "nombre": "Pilas alcalinas",
+          "descripcion": "Pilas tamaño triple A de alta duración",
+          "cantidad": 60,
+          "unidad": "EA",
+          "categoria": "26111702"
+        },
+        {
+          "nombre": "Pilas alcalinas",
+          "descripcion": "Pilas tamaño doble A de alta duración",
+          "cantidad": 60,
+          "unidad": "EA",
+          "categoria": "26111702"
+        },
+        {
+          "nombre": "Pilas alcalinas",
+          "descripcion": "Pilas tamaño mediano C de alta duración",
+          "cantidad": 24,
+          "unidad": "EA",
+          "categoria": "26111702"
+        },
+        {
+          "nombre": "Pilas alcalinas",
+          "descripcion": "Pilas tamaño grande D de alta duración",
+          "cantidad": 6,
+          "unidad": "EA",
+          "categoria": "26111702"
+        },
+        {
+          "nombre": "Paños de limpieza absorbente",
+          "descripcion": "Toalla similar a wypall de 88 paños, de acuerdo a Especificaciones Técnicas adjuntas",
+          "cantidad": 8,
+          "unidad": "RO",
+          "categoria": "47131602"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "AB5B03C5-6E1D-42BA-86D5-848575067A53",
+          "nombre": "Especificaciones técnicas Art. varios.docx",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1471-41-COT26/Especificaciones%20t%C3%A9cnicas%20Art.%20varios.docx",
+          "tipo": "docx"
+        },
+        {
+          "id": "B783B6E0-CB52-4B46-A587-9ADBC536F71F",
+          "nombre": "Condiciones Comerciales Compra Ágil 2026.doc",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1471-41-COT26/Condiciones%20Comerciales%20Compra%20%C3%81gil%202026.doc",
+          "tipo": "doc"
+        },
+        {
+          "id": "D1E8CBE9-A3C4-479B-A641-020F2ADCF242",
+          "nombre": "PAUTA DE EVALUACIÓN ART. VARIOS.docx",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1471-41-COT26/PAUTA%20DE%20EVALUACI%C3%93N%20ART.%20VARIOS.docx",
+          "tipo": "docx"
+        }
+      ],
+      "descripcion": "Adquisición de resmas papel recicladas, pilas y paños Limpieza, de acuerdo a especificaciones técnicas adjuntas\nDebe incluir el valor del despacho hasta la dirección de la compra.\nSe informa que esta institución retiene un 2% del total facturado, según la Ley N° 16.752. art. 37 del año 1968.-\nLeer condiciones comerciales adjuntas antes de ofertar, no se aceptaran reclamos posteriores.",
+      "direccion_entrega": "Aeródromo La Florida, de La Serena, camino Vicuña S/N°, ruta 41.",
+      "plazo_entrega_dias": 10,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1471-41-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1471-41-COT26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 67,
+      "ia": {
+        "v": false,
+        "s": 0,
+        "r": "Papel reciclado pilas paños, no es 3D",
+        "t": 1784217121152
+      }
+    },
+    {
       "codigo": "2042-254-COT26",
       "tipo": "compra_agil",
       "nombre": "ADQUISICION DE  REPUESTOS   PARA  GENERADORES .",
@@ -8271,6 +8210,67 @@
         "s": 0,
         "r": "Filtros, tapones, aceite son productos especializados.",
         "t": 1784235288124
+      }
+    },
+    {
+      "codigo": "1350293-19-COT26",
+      "tipo": "compra_agil",
+      "nombre": "Adquisición de stock  de galvanos para premiación y reconocimiento a artistas, bandas, agrupaciones en diferentes actividades realizadas en la Casa de la Cultura y el territorio.",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "CORPORACION CULTURAL MUNICIPAL DE NACIMIENTO",
+      "rut_organismo": "65.077.273-3",
+      "unidad_compra": "CORPORACION CULTURAL MUNICIPAL DE NACIMIENTO",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 300000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-07-14 17:22",
+      "fecha_cierre": "2026-07-20 09:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "galvano"
+      ],
+      "total_ofertas": 4,
+      "productos": [
+        {
+          "nombre": "Galvanos",
+          "descripcion": "30 Galvanos de acrílico de 3mm de espesor, de 20 centímetros de alto\npor 10 de ancho, forma trapezoidal, con base de madera, con\nlogotipo full color de 5x3 cm, impreso centrado en la parte superior\ndel galvano.Detalles deben ser coordinados previamente con encargado registrado en el documento adjunto de esta compra agil.",
+          "cantidad": 30,
+          "unidad": "EA",
+          "categoria": "49101704"
+        },
+        {
+          "nombre": "Adhesivos decorativos",
+          "descripcion": "1 Rollo de 30 cm x 5 metros de 0.08 mm de espesor adhesivo color\nnegro mate para plotter de corte.",
+          "cantidad": 1,
+          "unidad": "RO",
+          "categoria": "60121012"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "D2C0E4AD-3A50-4940-8D3B-CD3BB87B0939",
+          "nombre": "REQUERIMIENTO DE COMPRA N° 021 (2).pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1350293-19-COT26/REQUERIMIENTO%20DE%20COMPRA%20N%C2%B0%20021%20%282%29.pdf",
+          "tipo": "pdf"
+        }
+      ],
+      "descripcion": "La Casa de la Cultura y el Arte de Nacimiento requiere comprar 30 galvanos de acrílico de 3mm de espesor, de 20 centímetros de alto\npor 10 de ancho, forma trapezoidal, con base de madera, con logotipo full color de 5x3 cm, impreso centrado en la parte superior\ndel galvano y un rollo de 30 cm x 5 metros de 0.08 mm de espesor adhesivo color negro mate para plotter de corte.",
+      "direccion_entrega": "Pablo Neruda 1289",
+      "plazo_entrega_dias": 3,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1350293-19-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1350293-19-COT26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 67,
+      "ia": {
+        "v": false,
+        "s": 0,
+        "r": "Galvanos acrílico con base madera, no 3D",
+        "t": 1784130014544
       }
     },
     {
@@ -8444,6 +8444,20 @@
       "productos": [
         {
           "nombre": "Vehículos de transporte a granel",
+          "descripcion": "TENSOR DE CORREA ALTERNADOR PARA CAMIONETA MAHINDRA PICK UP XLO EIV 2.2 AÑO 2011 PATENTE DD KB 13-7 MOTOR ",
+          "cantidad": 1,
+          "unidad": "EA",
+          "categoria": "24101502"
+        },
+        {
+          "nombre": "Vehículos de transporte a granel",
+          "descripcion": "TENSOR DE CORREA DE AIRE ACONDICIONADO, PARA CAMIONETA MAHINDRA PICK UP XLO EIV 2.2 AÑO 2011 PATENTE DD KB 13-7 MOTOR",
+          "cantidad": 1,
+          "unidad": "EA",
+          "categoria": "24101502"
+        },
+        {
+          "nombre": "Vehículos de transporte a granel",
           "descripcion": "TERMINAL DIRECCION DERECHO PARA CAMION PLANO ELECTRICO HYUNDAI CON GRUA MARCA FASSI MODELO F50A23, HD 65 STD AÑO 2009",
           "cantidad": 1,
           "unidad": "EA",
@@ -8487,20 +8501,6 @@
         {
           "nombre": "Vehículos de transporte a granel",
           "descripcion": "CORREA DE AIRE ACONDICIONADO 4 PK 1115, PARA CAMIONETA MAHINDRA PICK UP XLO EIV 2.2 AÑO 2011 PATENTE DD KB 13-7 MOTOR HGB4A44739",
-          "cantidad": 1,
-          "unidad": "EA",
-          "categoria": "24101502"
-        },
-        {
-          "nombre": "Vehículos de transporte a granel",
-          "descripcion": "TENSOR DE CORREA ALTERNADOR PARA CAMIONETA MAHINDRA PICK UP XLO EIV 2.2 AÑO 2011 PATENTE DD KB 13-7 MOTOR ",
-          "cantidad": 1,
-          "unidad": "EA",
-          "categoria": "24101502"
-        },
-        {
-          "nombre": "Vehículos de transporte a granel",
-          "descripcion": "TENSOR DE CORREA DE AIRE ACONDICIONADO, PARA CAMIONETA MAHINDRA PICK UP XLO EIV 2.2 AÑO 2011 PATENTE DD KB 13-7 MOTOR",
           "cantidad": 1,
           "unidad": "EA",
           "categoria": "24101502"
@@ -9070,51 +9070,6 @@
         "s": 0,
         "r": "Lentes médicos, dispositivos precisos no 3D",
         "t": 1784303815804
-      }
-    },
-    {
-      "codigo": "3413-68-COT26",
-      "tipo": "compra_agil",
-      "nombre": "ADQUISICIÓN DE REPUESTOS PARA EL TERMO ELÉCTRICO DE LA DUCHA DEL  CGVIDE",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "Ejercito de Chile",
-      "rut_organismo": "61.971.700-7",
-      "unidad_compra": "Cuartel General VI División de Ejército - CGVIDE",
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": 160000,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-07-14 15:55",
-      "fecha_cierre": "2026-07-20 11:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [],
-      "total_ofertas": 2,
-      "productos": [
-        {
-          "nombre": "Duchas",
-          "descripcion": "RESISTENCIA ELÉCTRICA DE 3000 W 220 VOLT.",
-          "cantidad": 2,
-          "unidad": "EA",
-          "categoria": "30181503"
-        }
-      ],
-      "adjuntos": [],
-      "descripcion": "Toda oferta que no cumpla con las especificaciones técnicas o elementos solicitados serán declaradas inadmisibles. El costo de transporte y despacho deberá estar incorporado en el valor de los productos ofertados. No se aceptará valorización del flete como ítem separado ni adicional. Con el objeto de fomentar el desarrollo económico local y reducir tiempos logísticos, se otorgará prioridad a proveedores de la zona. Adjuntar cotización con imágenes, indicar garantía, plazo de entrega, etc.",
-      "direccion_entrega": "AVENIDA DIEGO PORTALES # 1041",
-      "plazo_entrega_dias": 3,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=3413-68-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=3413-68-COT26",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 64,
-      "ia": {
-        "v": false,
-        "s": 0,
-        "r": "Repuestos duchas metálicas, no 3D",
-        "t": 1784130014544
       }
     },
     {
@@ -9688,6 +9643,13 @@
       "productos": [
         {
           "nombre": "Extintores",
+          "descripcion": "\nExtintores CO2 2 kg. Ver adjunto con EETT de referencia",
+          "cantidad": 2,
+          "unidad": "EA",
+          "categoria": "46191601"
+        },
+        {
+          "nombre": "Extintores",
           "descripcion": "Extintores PQS 6 kg. Ver adjunto con EETT de referencia",
           "cantidad": 5,
           "unidad": "EA",
@@ -9704,13 +9666,6 @@
           "nombre": "Extintores",
           "descripcion": "Gabinete para PQS 6kg\nVer adjunto con EETT de referencia",
           "cantidad": 4,
-          "unidad": "EA",
-          "categoria": "46191601"
-        },
-        {
-          "nombre": "Extintores",
-          "descripcion": "\nExtintores CO2 2 kg. Ver adjunto con EETT de referencia",
-          "cantidad": 2,
           "unidad": "EA",
           "categoria": "46191601"
         }
@@ -10033,7 +9988,7 @@
       "fecha_cierre": "2026-07-22 12:00",
       "fecha_ultimo_cambio": null,
       "palabras_clave_match": [],
-      "total_ofertas": 8,
+      "total_ofertas": 9,
       "productos": [
         {
           "nombre": "Toallas de papel",
@@ -10709,157 +10664,6 @@
       }
     },
     {
-      "codigo": "3877-363-COT26",
-      "tipo": "compra_agil",
-      "nombre": "ARTICULOS, IMPLEMENTOS  Y PRODUCTOS DE LIMPIEZA E HIGINE PERSONAL",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "I MUNICIPALIDAD DE LAMPA",
-      "rut_organismo": "69.071.400-0",
-      "unidad_compra": "Adquisiciones",
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": 5625000,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-07-17 16:32",
-      "fecha_cierre": "2026-07-20 08:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [],
-      "total_ofertas": 3,
-      "productos": [
-        {
-          "nombre": "Cremas o lociones homeopáticas o naturales",
-          "descripcion": "FRASCOS DE 270ML DE ACEITE EMUSLSIONADO NEUTRO, HIPOALERGENICO, SIN PARABENOS, IGUAL O SUPERIOR EN CALIDAD A LA MARCA BABYLAND",
-          "cantidad": 20,
-          "unidad": "VI",
-          "categoria": "53131616"
-        },
-        {
-          "nombre": "Mascarillas de aislamiento o quirófano para el personal sanitario",
-          "descripcion": "CAJA DE 50 UN DE MASCARILLAS DE 3 PLIEGUES CON ELASTICO REDONDO, TAMAÑO UNIVERSAL, COLOR BLANCO, HIPOALERGENICOS, FILTRO BACTEREOLOGICO, AJUSTE NASAL, TIPO MASCARILLA CRANBERRY",
-          "cantidad": 30,
-          "unidad": "BX",
-          "categoria": "42131606"
-        },
-        {
-          "nombre": "Mascarillas de aislamiento o quirófano para el personal sanitario",
-          "descripcion": "CAJAS DE 10 UN DE MASCARILLAS KN95 DE 5 CAPAS, TAMAÑO UNIVERSAL, COLOR BLANCO, CON AJUSTE NASAL, CON EFICACIA DE FILTRACION BACTERIANA MELTBLOWN",
-          "cantidad": 20,
-          "unidad": "BX",
-          "categoria": "42131606"
-        },
-        {
-          "nombre": "Guantes protectores",
-          "descripcion": "CAJAS DE 100 GUATES DE NITRILO AZUL SIN POLVO, LIBRE DE LATEX, GRADO MEDICO, TALLA S",
-          "cantidad": 15,
-          "unidad": "BX",
-          "categoria": "46181504"
-        },
-        {
-          "nombre": "Guantes protectores",
-          "descripcion": "CAJAS DE 100 GUATES DE NITRILO AZUL SIN POLVO, LIBRE DE LATEX, GRADO MEDICO, TALLA M",
-          "cantidad": 60,
-          "unidad": "BX",
-          "categoria": "46181504"
-        },
-        {
-          "nombre": "Guantes protectores",
-          "descripcion": "CAJAS DE 100 GUATES DE NITRILO AZUL SIN POLVO, LIBRE DE LATEX, GRADO MEDICO, TALLA L",
-          "cantidad": 15,
-          "unidad": "BX",
-          "categoria": "46181504"
-        },
-        {
-          "nombre": "Toallas de papel",
-          "descripcion": "PAQUETE DE 80 UN DE TOALLAS HUMEDAS HIPOALERGENICAS Y SIN ALCOHOL, PAQUETE CON TAPA DURA REUTILIZABLE, SIMILAR O SUPERIOR EN CALIDAD A SOSFT WIPES",
-          "cantidad": 150,
-          "unidad": "PK",
-          "categoria": "14111703"
-        },
-        {
-          "nombre": "Toallas de papel",
-          "descripcion": "PACK DE 2 UN DE TOALLAS DE POLIESTER IMPREGNADAS CON JABON NEUTRO JABONOSA DE TAMAÑO 11*20 CM, HIPOALERGENICA, IGUAL O SUPERIOR EN CALIDAD A LA MARCA DIFEM PHARMA HIGIENIX",
-          "cantidad": 999,
-          "unidad": "PACK",
-          "categoria": "14111703"
-        },
-        {
-          "nombre": "Toallas de papel",
-          "descripcion": "PAQUETE DE 45 UN DE TOALLAS HUMEDAS PARA ADULTOS GRANDE DE 20*31 CM, TELA SPUNLACE, HIPOALERGENICO, SIN ALCOHOL CON ALOE VERA, PAQUETE CON TAPA DURA REUTILIZABLE, IGUAL O SUPERIOR EN CALIDAD A WIN",
-          "cantidad": 150,
-          "unidad": "PK",
-          "categoria": "14111703"
-        },
-        {
-          "nombre": "Toallas de papel",
-          "descripcion": "PAQUETE DE 50 UN DE TOALLAS HUMEDAS ANTIBACTERIAL, SIN ALCOHOL, CON GLICERINA, CON AMONIO CUATERNARIO ,PAQUETE CON TAPA DURA REUTILIZABLE, IGUAL O SUPERIOR EN CALIDAD A VIRUTEX O CARE UP",
-          "cantidad": 20,
-          "unidad": "PK",
-          "categoria": "14111703"
-        },
-        {
-          "nombre": "Antisépticos basados en alcohol o acetona",
-          "descripcion": "BOTELLA DE 250ML DE ALCOHOL DESNATURALIZADO, SOLUCION TOPICA 70%, IGUAL O SUPERIOR EN CALIDAD A DIFEM PHARMAWIN",
-          "cantidad": 30,
-          "unidad": "BO",
-          "categoria": "51102710"
-        },
-        {
-          "nombre": "Jabones",
-          "descripcion": "BOTELLA DE 750 ML DE JABON LIQUIDO DE GLICERINA HIPOALERGENICO, IGUAL O SUPERIOR EN CALIDAD A HYGIENIC O SIMONS",
-          "cantidad": 10,
-          "unidad": "BO",
-          "categoria": "53131608"
-        },
-        {
-          "nombre": "Shampoo",
-          "descripcion": "BOLSA DE 750ML DE SHAMPOO HIDRATACION Y SUAVIDAD SIN SAL , 0% SILICONA Y PARABENOS",
-          "cantidad": 10,
-          "unidad": "BG",
-          "categoria": "53131628"
-        },
-        {
-          "nombre": "Cubre calzado o botas de goma de bebé",
-          "descripcion": "PAR CUBRECALZADO DESECHABLE PLASTICO, TAMAÑO UNIVERSAL, ANTIDESLIZANTE, MATERIAL PVC, COLOR AZUL",
-          "cantidad": 500,
-          "unidad": "PR",
-          "categoria": "53112105"
-        },
-        {
-          "nombre": "Gorro de baño",
-          "descripcion": "GORRO DESECHABLES, TIPO CLIP DE POLIPROPILENO, COLOR BLANCO, TALLA UNISEX, ELASTICADO CON AJUSTE COMODO Y SEGURO, LIBRE DE LATEX",
-          "cantidad": 500,
-          "unidad": "EA",
-          "categoria": "53131601"
-        },
-        {
-          "nombre": "Pecheras para pacientes",
-          "descripcion": "PECHERA PLASTICA, LARGA, DESECHABLE, SIN MANGAS, CON AMARRE POSTERIOR, COLOR BLANCO, TELA LISA, FABRICADO EN POLIESTER O POLIETILENO",
-          "cantidad": 500,
-          "unidad": "EA",
-          "categoria": "42131501"
-        },
-        {
-          "nombre": "Cloro Cl",
-          "descripcion": "BOTELLA CON GATILLO  DE  500ML DE CLORO, LIMPIADOR LIQUIDO,IGUAL O SUPERIOR EN CALIDAD A CLOROX",
-          "cantidad": 10,
-          "unidad": "BO",
-          "categoria": "12141901"
-        }
-      ],
-      "adjuntos": [],
-      "descripcion": "ARTICULOS, IMPLEMENTOS  Y PRODUCTOS DE LIMPIEZA E HIGINE PERSONAL\nADJUNTAR COTIZACION FORMAL CON E.T. DE TODOS LOS PRODUCTOS OFERTADOS CON FECHA REAL DE ENTREGA UNA VEZ ACEPTADA LA OC",
-      "direccion_entrega": "ARTURO PRAT 1138, BODEGA MUNICIPAL",
-      "plazo_entrega_dias": 3,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=3877-363-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=3877-363-COT26",
-      "prefiltro": {
-        "pasa": false,
-        "razon": "blacklist: 'calzado' en producto"
-      },
-      "score_heuristico": 57
-    },
-    {
       "codigo": "1380-3657-COT26",
       "tipo": "compra_agil",
       "nombre": "MEDALLA METALICA COLOR ORO CON LOGO PERSONALIZADO, SE SOLICITA ADJUNTAR IMAGENES DE REFERENCIA DE TRABAJOS REALIZADOS, SE ADJUNTAN TERMINOS DE REFERENCIA",
@@ -11034,6 +10838,51 @@
         "s": 0,
         "r": "Piezas odontológicas acero, no es 3D",
         "t": 1784217121152
+      }
+    },
+    {
+      "codigo": "3413-68-COT26",
+      "tipo": "compra_agil",
+      "nombre": "ADQUISICIÓN DE REPUESTOS PARA EL TERMO ELÉCTRICO DE LA DUCHA DEL  CGVIDE",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "Ejercito de Chile",
+      "rut_organismo": "61.971.700-7",
+      "unidad_compra": "Cuartel General VI División de Ejército - CGVIDE",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 160000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-07-14 15:55",
+      "fecha_cierre": "2026-07-20 11:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": 3,
+      "productos": [
+        {
+          "nombre": "Duchas",
+          "descripcion": "RESISTENCIA ELÉCTRICA DE 3000 W 220 VOLT.",
+          "cantidad": 2,
+          "unidad": "EA",
+          "categoria": "30181503"
+        }
+      ],
+      "adjuntos": [],
+      "descripcion": "Toda oferta que no cumpla con las especificaciones técnicas o elementos solicitados serán declaradas inadmisibles. El costo de transporte y despacho deberá estar incorporado en el valor de los productos ofertados. No se aceptará valorización del flete como ítem separado ni adicional. Con el objeto de fomentar el desarrollo económico local y reducir tiempos logísticos, se otorgará prioridad a proveedores de la zona. Adjuntar cotización con imágenes, indicar garantía, plazo de entrega, etc.",
+      "direccion_entrega": "AVENIDA DIEGO PORTALES # 1041",
+      "plazo_entrega_dias": 3,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=3413-68-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=3413-68-COT26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 57,
+      "ia": {
+        "v": false,
+        "s": 0,
+        "r": "Repuestos duchas metálicas, no 3D",
+        "t": 1784130014544
       }
     },
     {
@@ -11319,6 +11168,157 @@
         "r": "Repuestos soldadura/forja metal, no 3D",
         "t": 1784303815804
       }
+    },
+    {
+      "codigo": "3877-363-COT26",
+      "tipo": "compra_agil",
+      "nombre": "ARTICULOS, IMPLEMENTOS  Y PRODUCTOS DE LIMPIEZA E HIGINE PERSONAL",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "I MUNICIPALIDAD DE LAMPA",
+      "rut_organismo": "69.071.400-0",
+      "unidad_compra": "Adquisiciones",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 5625000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-07-17 16:32",
+      "fecha_cierre": "2026-07-20 08:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": 6,
+      "productos": [
+        {
+          "nombre": "Cremas o lociones homeopáticas o naturales",
+          "descripcion": "FRASCOS DE 270ML DE ACEITE EMUSLSIONADO NEUTRO, HIPOALERGENICO, SIN PARABENOS, IGUAL O SUPERIOR EN CALIDAD A LA MARCA BABYLAND",
+          "cantidad": 20,
+          "unidad": "VI",
+          "categoria": "53131616"
+        },
+        {
+          "nombre": "Mascarillas de aislamiento o quirófano para el personal sanitario",
+          "descripcion": "CAJA DE 50 UN DE MASCARILLAS DE 3 PLIEGUES CON ELASTICO REDONDO, TAMAÑO UNIVERSAL, COLOR BLANCO, HIPOALERGENICOS, FILTRO BACTEREOLOGICO, AJUSTE NASAL, TIPO MASCARILLA CRANBERRY",
+          "cantidad": 30,
+          "unidad": "BX",
+          "categoria": "42131606"
+        },
+        {
+          "nombre": "Mascarillas de aislamiento o quirófano para el personal sanitario",
+          "descripcion": "CAJAS DE 10 UN DE MASCARILLAS KN95 DE 5 CAPAS, TAMAÑO UNIVERSAL, COLOR BLANCO, CON AJUSTE NASAL, CON EFICACIA DE FILTRACION BACTERIANA MELTBLOWN",
+          "cantidad": 20,
+          "unidad": "BX",
+          "categoria": "42131606"
+        },
+        {
+          "nombre": "Guantes protectores",
+          "descripcion": "CAJAS DE 100 GUATES DE NITRILO AZUL SIN POLVO, LIBRE DE LATEX, GRADO MEDICO, TALLA S",
+          "cantidad": 15,
+          "unidad": "BX",
+          "categoria": "46181504"
+        },
+        {
+          "nombre": "Guantes protectores",
+          "descripcion": "CAJAS DE 100 GUATES DE NITRILO AZUL SIN POLVO, LIBRE DE LATEX, GRADO MEDICO, TALLA M",
+          "cantidad": 60,
+          "unidad": "BX",
+          "categoria": "46181504"
+        },
+        {
+          "nombre": "Guantes protectores",
+          "descripcion": "CAJAS DE 100 GUATES DE NITRILO AZUL SIN POLVO, LIBRE DE LATEX, GRADO MEDICO, TALLA L",
+          "cantidad": 15,
+          "unidad": "BX",
+          "categoria": "46181504"
+        },
+        {
+          "nombre": "Toallas de papel",
+          "descripcion": "PAQUETE DE 80 UN DE TOALLAS HUMEDAS HIPOALERGENICAS Y SIN ALCOHOL, PAQUETE CON TAPA DURA REUTILIZABLE, SIMILAR O SUPERIOR EN CALIDAD A SOSFT WIPES",
+          "cantidad": 150,
+          "unidad": "PK",
+          "categoria": "14111703"
+        },
+        {
+          "nombre": "Toallas de papel",
+          "descripcion": "PACK DE 2 UN DE TOALLAS DE POLIESTER IMPREGNADAS CON JABON NEUTRO JABONOSA DE TAMAÑO 11*20 CM, HIPOALERGENICA, IGUAL O SUPERIOR EN CALIDAD A LA MARCA DIFEM PHARMA HIGIENIX",
+          "cantidad": 999,
+          "unidad": "PACK",
+          "categoria": "14111703"
+        },
+        {
+          "nombre": "Toallas de papel",
+          "descripcion": "PAQUETE DE 45 UN DE TOALLAS HUMEDAS PARA ADULTOS GRANDE DE 20*31 CM, TELA SPUNLACE, HIPOALERGENICO, SIN ALCOHOL CON ALOE VERA, PAQUETE CON TAPA DURA REUTILIZABLE, IGUAL O SUPERIOR EN CALIDAD A WIN",
+          "cantidad": 150,
+          "unidad": "PK",
+          "categoria": "14111703"
+        },
+        {
+          "nombre": "Toallas de papel",
+          "descripcion": "PAQUETE DE 50 UN DE TOALLAS HUMEDAS ANTIBACTERIAL, SIN ALCOHOL, CON GLICERINA, CON AMONIO CUATERNARIO ,PAQUETE CON TAPA DURA REUTILIZABLE, IGUAL O SUPERIOR EN CALIDAD A VIRUTEX O CARE UP",
+          "cantidad": 20,
+          "unidad": "PK",
+          "categoria": "14111703"
+        },
+        {
+          "nombre": "Antisépticos basados en alcohol o acetona",
+          "descripcion": "BOTELLA DE 250ML DE ALCOHOL DESNATURALIZADO, SOLUCION TOPICA 70%, IGUAL O SUPERIOR EN CALIDAD A DIFEM PHARMAWIN",
+          "cantidad": 30,
+          "unidad": "BO",
+          "categoria": "51102710"
+        },
+        {
+          "nombre": "Jabones",
+          "descripcion": "BOTELLA DE 750 ML DE JABON LIQUIDO DE GLICERINA HIPOALERGENICO, IGUAL O SUPERIOR EN CALIDAD A HYGIENIC O SIMONS",
+          "cantidad": 10,
+          "unidad": "BO",
+          "categoria": "53131608"
+        },
+        {
+          "nombre": "Shampoo",
+          "descripcion": "BOLSA DE 750ML DE SHAMPOO HIDRATACION Y SUAVIDAD SIN SAL , 0% SILICONA Y PARABENOS",
+          "cantidad": 10,
+          "unidad": "BG",
+          "categoria": "53131628"
+        },
+        {
+          "nombre": "Cubre calzado o botas de goma de bebé",
+          "descripcion": "PAR CUBRECALZADO DESECHABLE PLASTICO, TAMAÑO UNIVERSAL, ANTIDESLIZANTE, MATERIAL PVC, COLOR AZUL",
+          "cantidad": 500,
+          "unidad": "PR",
+          "categoria": "53112105"
+        },
+        {
+          "nombre": "Gorro de baño",
+          "descripcion": "GORRO DESECHABLES, TIPO CLIP DE POLIPROPILENO, COLOR BLANCO, TALLA UNISEX, ELASTICADO CON AJUSTE COMODO Y SEGURO, LIBRE DE LATEX",
+          "cantidad": 500,
+          "unidad": "EA",
+          "categoria": "53131601"
+        },
+        {
+          "nombre": "Pecheras para pacientes",
+          "descripcion": "PECHERA PLASTICA, LARGA, DESECHABLE, SIN MANGAS, CON AMARRE POSTERIOR, COLOR BLANCO, TELA LISA, FABRICADO EN POLIESTER O POLIETILENO",
+          "cantidad": 500,
+          "unidad": "EA",
+          "categoria": "42131501"
+        },
+        {
+          "nombre": "Cloro Cl",
+          "descripcion": "BOTELLA CON GATILLO  DE  500ML DE CLORO, LIMPIADOR LIQUIDO,IGUAL O SUPERIOR EN CALIDAD A CLOROX",
+          "cantidad": 10,
+          "unidad": "BO",
+          "categoria": "12141901"
+        }
+      ],
+      "adjuntos": [],
+      "descripcion": "ARTICULOS, IMPLEMENTOS  Y PRODUCTOS DE LIMPIEZA E HIGINE PERSONAL\nADJUNTAR COTIZACION FORMAL CON E.T. DE TODOS LOS PRODUCTOS OFERTADOS CON FECHA REAL DE ENTREGA UNA VEZ ACEPTADA LA OC",
+      "direccion_entrega": "ARTURO PRAT 1138, BODEGA MUNICIPAL",
+      "plazo_entrega_dias": 3,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=3877-363-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=3877-363-COT26",
+      "prefiltro": {
+        "pasa": false,
+        "razon": "blacklist: 'calzado' en producto"
+      },
+      "score_heuristico": 49
     },
     {
       "codigo": "2281-1308-COT26",
@@ -12227,43 +12227,6 @@
         "v": false,
         "s": 0,
         "r": "Repuestos metal y electrónica, no viable 3D",
-        "t": 1784235294610
-      }
-    },
-    {
-      "codigo": "539778-186-COT26",
-      "tipo": "compra_agil",
-      "nombre": "ADQUISICION DE MATERIALES Y REPUESTOS PARA MANTENIMIENTO EQUIPOS LSM 90 ELICURA",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "COMANDANCIA BASE NAVAL PUNTA ARENAS",
-      "rut_organismo": null,
-      "unidad_compra": "COMANDANCIA BASE NAVAL PUNTA ARENAS",
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": 340000,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-07-12 21:54",
-      "fecha_cierre": "2026-07-18 03:28",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [],
-      "total_ofertas": null,
-      "productos": [],
-      "adjuntos": [],
-      "descripcion": null,
-      "direccion_entrega": null,
-      "plazo_entrega_dias": null,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=539778-186-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=539778-186-COT26",
-      "prefiltro": {
-        "pasa": false,
-        "razon": "cierre a menos de 24h"
-      },
-      "score_heuristico": 39,
-      "ia": {
-        "v": false,
-        "s": 0,
-        "r": "Repuestos metal especializado, requiere procesos específicos",
         "t": 1784235294610
       }
     },
