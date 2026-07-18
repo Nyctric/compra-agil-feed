@@ -500,8 +500,8 @@ def parsear_acta_ofertas(url):
     prods = [(m.start(), m.group(1)) for m in
              re.finditer(r"Clasificaci[^<]{0,30}ONU[^0-9]{0,60}(\d{6,10})", html)]
     ofertas = []
-    for m in re.finditer(r"lnkViewProvider[^>]*>\s*([^<]+?)\s*<", html):
-        prov = re.sub(r"\s+", " ", m.group(1)).strip()
+    for m in re.finditer(r"lnkViewProvider[^>]*>(.*?)</a>", html, re.S):
+        prov = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", m.group(1))).strip()
         if not prov:
             continue
         # producto al que pertenece: el último encabezado ONU antes de esta fila
@@ -681,6 +681,8 @@ def actualizar_historico():
             acta_url = ((det.get("Adjudicacion") or {}).get("UrlActa")) or ""
             filas_acta = parsear_acta_ofertas(acta_url)
             time.sleep(PAUSA_LIC_SEG)
+            if acta_url and not filas_acta:
+                print(f"  · acta sin ofertas parseables: {it['CodigoExterno']}", file=sys.stderr)
             if filas_acta:
                 # ¿Ofertamos nosotros? → registrar resultado (ganada/perdida)
                 propias = [o for o in filas_acta if _es_propio(o["pr"])]
@@ -1284,6 +1286,7 @@ def main():
     # 4) Evaluación IA con caché persistente (solo códigos nuevos que pasan todo)
     cache = cargar_cache_ia()
     ia_nuevos = ia_errores = 0
+    pre_eval = set(cache.keys())
     if ANTHROPIC_KEY:
         candidatos_ia = sorted([r for r in a_enriquecer if r["prefiltro"]["pasa"]] + lic_enriquecidas,
                                key=lambda r: -(r.get("score_heuristico") or 0))
@@ -1347,34 +1350,80 @@ def main():
 
     # 6) Avisos (Telegram y/o correo, según secrets configurados)
     if (TG_TOKEN and TG_CHAT) or (MAIL_USER and MAIL_PASS):
+        nuevos_codigos = set(cache.keys()) - pre_eval
         viables = [r for r in registros if r.get("ia", {}).get("v")]
         viables.sort(key=lambda r: -(r.get("ia", {}).get("s") or 0))
-        lineas = [f"🦊 <b>Compra Ágil</b> — {len(registros)} oportunidades, ⭐ {len(viables)} viables"
-                  + (f", {ia_nuevos} evaluadas hoy" if ia_nuevos else "")]
-        for r in viables[:6]:
-            fc = str(r.get("fecha_cierre") or "")[:10]
+
+        def _link(r):
+            url = r.get("ficha_publica") or ""
+            nom = (r.get("nombre") or "")[:65]
+            return f'<a href="{url}">{nom}</a>' if url else nom
+
+        def _monto(r):
             m = r.get("monto_clp")
-            monto = f"${int(float(m)):,}".replace(",", ".") if m else "s/m"
-            tipo = "LIC" if r.get("tipo") == "licitacion" else "CA"
-            lineas.append(f"• [{r.get('ia', {}).get('s', 0)}] {(r.get('nombre') or '')[:70]} — {monto} · cierra {fc} · {tipo}")
+            try:
+                return "$" + f"{int(float(m)):,}".replace(",", ".") if m else "s/m"
+            except (TypeError, ValueError):
+                return "s/m"
+
+        def _dias(r):
+            fc = _parse_fecha(r.get("fecha_cierre"))
+            if not fc:
+                return None
+            return (fc - dt.datetime.now()).total_seconds() / 86400
+
+        hoy_txt = dt.date.today().strftime("%d-%m-%Y")
+        lineas = [f"🦊 <b>Mercado Público — {hoy_txt}</b>",
+                  f"Revisados {len(por_codigo):,} procesos + {lic_stats['activas']:,} licitaciones → "
+                  f"{len(registros)} oportunidades, ⭐ {len(viables)} viables".replace(",", ".")]
+
+        nuevas = [r for r in viables if r["codigo"] in nuevos_codigos]
+        if nuevas:
+            lineas.append("")
+            lineas.append(f"🆕 <b>Nuevas viables hoy ({len(nuevas)}):</b>")
+            for r in nuevas[:6]:
+                s = r.get("ia", {}).get("s", 0)
+                lineas.append(f"• [{s}] {_link(r)} — {_monto(r)}")
+
+        urgentes = [r for r in viables if r["codigo"] not in nuevos_codigos
+                    and (_dias(r) is not None and _dias(r) <= 2)]
+        if urgentes:
+            lineas.append("")
+            lineas.append(f"⏰ <b>Viables que cierran en ≤48h ({len(urgentes)}):</b>")
+            for r in urgentes[:4]:
+                d = _dias(r)
+                cuando = "HOY" if d < 1 else "mañana"
+                lineas.append(f"• {_link(r)} — {_monto(r)} · cierra {cuando}")
+
+        if not nuevas and not urgentes and viables:
+            lineas.append("")
+            lineas.append("<b>Top viables vigentes:</b>")
+            for r in viables[:4]:
+                s = r.get("ia", {}).get("s", 0)
+                lineas.append(f"• [{s}] {_link(r)} — {_monto(r)} · cierra {str(r.get('fecha_cierre') or '')[:10]}")
+
         try:
-            res_items = (cargar_resultados().get("items") or [])
-            recientes = [x for x in res_items
-                         if x.get("fecha") and x["fecha"] >= (dt.date.today() - dt.timedelta(days=2)).isoformat()]
-            for x in recientes[:5]:
-                emoji = "🎉 GANASTE" if x["resultado"] == "ganada" else "❌ Perdiste"
-                extra = "" if x["resultado"] == "ganada" else f" (ganó {x.get('ganador', '?')[:40]})"
-                lineas.append(f"{emoji}: {x.get('nombre', '')[:60]}{extra}")
+            ayer = (dt.date.today() - dt.timedelta(days=1)).isoformat()
+            res_items = [x for x in (cargar_resultados().get("items") or [])
+                         if (x.get("fecha") or "") >= ayer]
+            if res_items:
+                lineas.append("")
+                lineas.append("<b>Resultados de tus ofertas:</b>")
+                for x in res_items[:5]:
+                    if x["resultado"] == "ganada":
+                        lineas.append(f"🎉 GANASTE: {x.get('nombre', '')[:60]}")
+                    else:
+                        lineas.append(f"❌ Perdiste: {x.get('nombre', '')[:60]} — ganó {x.get('ganador', '?')[:35]}")
         except Exception:
             pass
-        lineas.append("Abre la app para cotizar 🚀")
+
         if TG_TOKEN and TG_CHAT:
             ok_tg = notificar_telegram("\n".join(lineas))
             print(f"Telegram: {'enviado' if ok_tg else 'falló'}")
         if MAIL_USER and MAIL_PASS:
-            asunto = f"🦊 Compra Ágil: {len(viables)} viables · {dt.date.today().isoformat()}"
+            asunto = f"🦊 Mercado Público: {len(nuevas)} nuevas, {len(viables)} viables · {hoy_txt}"
             ok_mail = notificar_correo(asunto, "<br>".join(lineas))
-            print(f"Correo: {'enviado' if ok_mail else 'falló'}")
+        print(f"Correo: {'enviado' if ok_mail else 'falló'}")
 
 
 if __name__ == "__main__":
