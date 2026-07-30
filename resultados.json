@@ -1,4 +1,15 @@
 {
- "actualizado": "2026-07-30T13:55:47Z",
- "items": []
+ "actualizado": "2026-07-30T17:09:23Z",
+ "items": [
+  {
+   "codigo": "1071775-18-LE25",
+   "tipo": "licitacion",
+   "fecha": "2026-01-13",
+   "nombre": "MODELOS ANATÓMICOS TECNOLOGIA MÉDICA",
+   "nuestra_oferta": 425000,
+   "resultado": "perdida",
+   "ganador": "92.999.000-5 IMPORTADORA Y DISTRIBUIDORA ARQUIMED LTDA",
+   "monto_ganador": 1886700
+  }
+ ]
 }
