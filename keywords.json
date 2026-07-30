@@ -7,9 +7,7 @@
     "pins",
     "maqueta",
     "galvano",
-    "pin",
-    "galardon",
-    "llavero"
+    "modelo"
   ],
   "buscar_todo": true,
   "monto_min_clp": 100000,
