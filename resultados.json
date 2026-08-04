@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-08-03T17:35:11Z",
+ "actualizado": "2026-08-04T17:15:38Z",
  "items": [
   {
    "codigo": "1071775-18-LE25",
@@ -10,6 +10,46 @@
    "resultado": "perdida",
    "ganador": "92.999.000-5 IMPORTADORA Y DISTRIBUIDORA ARQUIMED LTDA",
    "monto_ganador": 1886700
+  },
+  {
+   "codigo": "1057501-500-LE25",
+   "tipo": "licitacion",
+   "fecha": "2025-11-14",
+   "nombre": "CONVENIO IMPLANTES MODELOS Y PROTESIS",
+   "nuestra_oferta": 600000,
+   "resultado": "ganada",
+   "ganador": "77.387.704-1 GREEN WOLF SPA",
+   "monto_ganador": 600000
+  },
+  {
+   "codigo": "1057501-500-LE25",
+   "tipo": "licitacion",
+   "fecha": "2025-11-14",
+   "nombre": "CONVENIO IMPLANTES MODELOS Y PROTESIS",
+   "nuestra_oferta": 1100000,
+   "resultado": "ganada",
+   "ganador": "77.387.704-1 GREEN WOLF SPA",
+   "monto_ganador": 600000
+  },
+  {
+   "codigo": "1057501-500-LE25",
+   "tipo": "licitacion",
+   "fecha": "2025-11-14",
+   "nombre": "CONVENIO IMPLANTES MODELOS Y PROTESIS",
+   "nuestra_oferta": 900000,
+   "resultado": "ganada",
+   "ganador": "77.387.704-1 GREEN WOLF SPA",
+   "monto_ganador": 600000
+  },
+  {
+   "codigo": "1057501-500-LE25",
+   "tipo": "licitacion",
+   "fecha": "2025-11-14",
+   "nombre": "CONVENIO IMPLANTES MODELOS Y PROTESIS",
+   "nuestra_oferta": 650000,
+   "resultado": "ganada",
+   "ganador": "77.387.704-1 GREEN WOLF SPA",
+   "monto_ganador": 600000
   }
  ]
 }
