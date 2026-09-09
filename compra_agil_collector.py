@@ -782,19 +782,51 @@ def _safe_filename(nombre):
     return nombre[:150] or "archivo"
 
 
+# Estado del servicio de adjuntos durante la corrida. El servicio de Mercado
+# Público devuelve 504 con frecuencia; antes eso se tragaba en silencio y la
+# corrida perdía ~30 s por oportunidad para terminar con cero adjuntos.
+_ADJ_ESTADO = {"fallos_seguidos": 0, "apagado": False, "motivos": {}}
+ADJ_TIMEOUT = 8          # antes 30: si tarda más, no sirve
+ADJ_MAX_FALLOS = 5       # cortacircuitos tras N fallos consecutivos
+
+
 def listar_adjuntos_publico(codigo):
+    if _ADJ_ESTADO["apagado"]:
+        return []
+
+    def _fallo(motivo):
+        _ADJ_ESTADO["fallos_seguidos"] += 1
+        _ADJ_ESTADO["motivos"][motivo] = _ADJ_ESTADO["motivos"].get(motivo, 0) + 1
+        print(f"  · adjuntos {codigo}: {motivo}", file=sys.stderr)
+        if _ADJ_ESTADO["fallos_seguidos"] >= ADJ_MAX_FALLOS:
+            _ADJ_ESTADO["apagado"] = True
+            print(f"  · adjuntos: {ADJ_MAX_FALLOS} fallos seguidos — se omiten "
+                  f"los adjuntos en el resto de la corrida", file=sys.stderr)
+        return []
+
     try:
         r = requests.get(f"{ADJ_BASE}/listar/{quote(codigo)}",
-                         headers={"user_key": ADJ_USER_KEY}, timeout=30)
+                         headers={"user_key": ADJ_USER_KEY}, timeout=ADJ_TIMEOUT)
         if r.status_code != 200:
-            return []
+            return _fallo(f"HTTP {r.status_code}")
         data = r.json()
         if data.get("success") != "OK":
-            return []
-        return (data.get("payload") or {}).get("files") or []
+            return _fallo(f"success={data.get('success')!r}")
+        files = (data.get("payload") or {}).get("files") or []
+        _ADJ_ESTADO["fallos_seguidos"] = 0   # respuesta buena: se reinicia el contador
+        return files
     except Exception as e:
-        print(f"  · listar adjuntos {codigo}: {e}", file=sys.stderr)
-        return []
+        return _fallo(type(e).__name__)
+
+
+def resumen_adjuntos():
+    """Una línea al final de la corrida con el estado del servicio de adjuntos."""
+    m = _ADJ_ESTADO["motivos"]
+    if not m:
+        return ""
+    detalle = ", ".join(f"{k}×{v}" for k, v in sorted(m.items(), key=lambda x: -x[1]))
+    apagado = " (servicio omitido tras el cortacircuitos)" if _ADJ_ESTADO["apagado"] else ""
+    return f"Adjuntos: sin resultados — {detalle}{apagado}"
 
 
 def descargar_adjunto(guid, destino):
@@ -1347,6 +1379,9 @@ def main():
         json.dump(salida, f, ensure_ascii=False, indent=2)
     print(f"OK: {len(registros)} oportunidades ({n_lic} licitaciones, {n_adj} adjuntos, "
           f"{n_viables} viables IA, {ia_nuevos} evaluaciones nuevas) → {OUTPUT_FILE}")
+    _res_adj = resumen_adjuntos()
+    if _res_adj:
+        print(_res_adj)
 
     # 6) Avisos (Telegram y/o correo, según secrets configurados)
     if (TG_TOKEN and TG_CHAT) or (MAIL_USER and MAIL_PASS):
