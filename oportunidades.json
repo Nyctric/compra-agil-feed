@@ -1,6 +1,6 @@
 {
-  "generado": "2026-09-28T22:36:35Z",
-  "total": 405,
+  "generado": "2026-09-28T23:00:07Z",
+  "total": 422,
   "palabras_clave": [
     "anatomico",
     "3d",
@@ -22,15 +22,15 @@
     "max_detalle": 150,
     "max_eval_ia": 100
   },
-  "recolectados_total": 5445,
+  "recolectados_total": 5805,
   "descartados": {
-    "cerradas": 35,
-    "blacklist": 927,
-    "sin_match": 8124
+    "cerradas": 28,
+    "blacklist": 959,
+    "sin_match": 8440
   },
   "recuperados_feed_anterior": 32,
   "licitaciones": {
-    "activas": 4014,
+    "activas": 4012,
     "candidatas": 60,
     "incluidas": 57,
     "habilitadas": true,
@@ -42,8 +42,8 @@
     "dias_pendientes": 0
   },
   "eval_ia": {
-    "evaluados_total": 4130,
-    "nuevos_esta_corrida": 87,
+    "evaluados_total": 4143,
+    "nuevos_esta_corrida": 100,
     "errores": 0,
     "server_side": true
   },
@@ -190,140 +190,6 @@
       }
     },
     {
-      "codigo": "2462-190-COT26",
-      "tipo": "compra_agil",
-      "nombre": "COLGANTE SECUENCIA ADN",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "I MUNICIPALIDAD DE PROVIDENCIA",
-      "rut_organismo": "69.070.300-9",
-      "unidad_compra": "Dirección de Desarrollo Comunitario",
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": 150000,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-09-28 13:41",
-      "fecha_cierre": "2026-10-01 10:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [
-        "modelo"
-      ],
-      "total_ofertas": 0,
-      "productos": [
-        {
-          "nombre": "Kits de decoración de la sala de clases",
-          "descripcion": "COLGNATE DE LA SECUENCIA DE ADN DE DOBLE HELICE, CON CALBE DE ACERO EN BASE PARA SU ANCLAJE, LARGO TOTAL 120CM. MATERIAL: MADERA CON LIJADO FINO Y BARNIZ AL AGUA, NO TOXICO, NATURAL, TERMINACION SATINADA.",
-          "cantidad": 1,
-          "unidad": "EA",
-          "categoria": "60111401"
-        }
-      ],
-      "adjuntos": [],
-      "descripcion": "SE REQUIERE LA ADQUISICION DE UN MODELO COLGANTE TRIDIMESNIONAL DE LA SECUENCIA DE ADN. OBLIGATORIO ADJUNTAR FOTOGRAFIA CON LAS MEDIDAS Y DETALLE DEL PRODUCTO OFERTADO",
-      "direccion_entrega": "MARCHATN PEREIRA 887",
-      "plazo_entrega_dias": 5,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=2462-190-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=2462-190-COT26",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 64,
-      "ia": {
-        "v": true,
-        "s": 85,
-        "r": "Modelo ADN 3D educativo, bajo costo alto margen",
-        "t": 1790634963581
-      }
-    },
-    {
-      "codigo": "5626-596-COT26",
-      "tipo": "compra_agil",
-      "nombre": "FILAMENTOS  E INSUMOS DE IMPRESION BIOMEDICA  PROYECTO ING 2030 - E.S",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "UNIVERSIDAD DE VALPARAISO",
-      "rut_organismo": "60.921.000-1",
-      "unidad_compra": "22 Organismo Central-Vic de Investigación e Innova",
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": 150000,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-09-25 11:14",
-      "fecha_cierre": "2026-10-01 12:45",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [],
-      "total_ofertas": 0,
-      "productos": [
-        {
-          "nombre": "Impresora rotativa de ultravioletas (UV)",
-          "descripcion": "1 Filamento PLA Mate Rojo Negro 1kg Esun | Filamentos\n",
-          "cantidad": 1,
-          "unidad": "UNII",
-          "categoria": "45101509"
-        },
-        {
-          "nombre": "Impresora rotativa de ultravioletas (UV)",
-          "descripcion": "1 Filamento PLA Silk o Seda Tricolor Morado, Azul y Negro 1kg Elegoo | Filamento\n",
-          "cantidad": 1,
-          "unidad": "EA",
-          "categoria": "45101509"
-        },
-        {
-          "nombre": "Impresora rotativa de ultravioletas (UV)",
-          "descripcion": "1 Filamento PLA+ RAPID Alta Velocidad Blanco 1kg Elegoo | Filamentos\n",
-          "cantidad": 1,
-          "unidad": "EA",
-          "categoria": "45101509"
-        },
-        {
-          "nombre": "Impresora rotativa de ultravioletas (UV)",
-          "descripcion": "1 Filamento PLA+ Negro 1kg Elegoo | Filamentos\n",
-          "cantidad": 1,
-          "unidad": "EA",
-          "categoria": "45101509"
-        },
-        {
-          "nombre": "Impresora rotativa de ultravioletas (UV)",
-          "descripcion": "1 Filamento PLA Algodón de Azucar 1kg BAMBU LAB | Filamentos\n",
-          "cantidad": 1,
-          "unidad": "EA",
-          "categoria": "45101509"
-        },
-        {
-          "nombre": "Impresora rotativa de ultravioletas (UV)",
-          "descripcion": "1 VarioShore TPU Prosthetic para ferulas finales\n",
-          "cantidad": 1,
-          "unidad": "EA",
-          "categoria": "45101509"
-        },
-        {
-          "nombre": "Impresora rotativa de ultravioletas (UV)",
-          "descripcion": "1 Correas de velcro médico ajustables hebillas y protectores de contacto dérmico",
-          "cantidad": 1,
-          "unidad": "EA",
-          "categoria": "45101509"
-        }
-      ],
-      "adjuntos": [],
-      "descripcion": "1 Filamento PLA Mate Rojo Negro 1kg Esun | Filamentos\n1 Filamento PLA Silk o Seda Tricolor Morado, Azul y Negro 1kg Elegoo | Filamento\n1 Filamento PLA+ RAPID Alta Velocidad Blanco 1kg Elegoo | Filamentos\n1 Filamento PLA+ Negro 1kg Elegoo | Filamentos\n1 Filamento PLA Algodón de Azucar 1kg BAMBU LAB | Filamentos\n1 VarioShore TPU Prosthetic para ferulas finales\n1 Correas de velcro médico ajustables hebillas y protectores de contacto dérmico\nadjuntar propuesta para evaluacion",
-      "direccion_entrega": "Facultad de Ingeniería, ubicada en Calle General Cruz 222, Valparaís",
-      "plazo_entrega_dias": 5,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=5626-596-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=5626-596-COT26",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 64,
-      "ia": {
-        "v": true,
-        "s": 85,
-        "r": "Filamentos 3D, insumos dirección impresión 3D",
-        "t": 1790634975893
-      }
-    },
-    {
       "codigo": "2704-1677-COT26",
       "tipo": "compra_agil",
       "nombre": "(sc 3746) provisión e instalación de 3 letreros",
@@ -382,6 +248,79 @@
         "t": 1790198900264
       },
       "recuperado_corrida_anterior": true
+    },
+    {
+      "codigo": "3948-281-COT26",
+      "tipo": "compra_agil",
+      "nombre": "LETREROS PERIODO ESTIVAL",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "I MUNICIPALIDAD DE NAVIDAD",
+      "rut_organismo": "69.073.800-7",
+      "unidad_compra": "Unidad de Adquisiciones",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 1802396,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-09-28 10:06",
+      "fecha_cierre": "2026-09-30 10:05",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": 4,
+      "productos": [
+        {
+          "nombre": "Letreros",
+          "descripcion": "Adquisición de letreros descriptivos en material trovicel, 43,2 x 33 cm, se adjunta archivo con requerimientos.",
+          "cantidad": 8,
+          "unidad": "EA",
+          "categoria": "55121727"
+        },
+        {
+          "nombre": "Letreros",
+          "descripcion": "Adquisición de letreros descriptivos en material trovicel, 21,6 x 33 cm, se adjunta archivo con requerimientos.",
+          "cantidad": 40,
+          "unidad": "EA",
+          "categoria": "55121727"
+        },
+        {
+          "nombre": "Letreros",
+          "descripcion": "Adquisición de letreros informativos, 150 x 80 cm , se adjunta archivo con requerimientos.",
+          "cantidad": 10,
+          "unidad": "EA",
+          "categoria": "55121727"
+        },
+        {
+          "nombre": "Letreros",
+          "descripcion": "Adquisición de limite de playa, 60 x 60 cm , se adjunta archivo con requerimientos.",
+          "cantidad": 4,
+          "unidad": "EA",
+          "categoria": "55121727"
+        },
+        {
+          "nombre": "Adhesivos de fotografías",
+          "descripcion": "Adhesivo impreso full + laminado de protección, se adjunta archivo con requerimientos.",
+          "cantidad": 10,
+          "unidad": "EA",
+          "categoria": "60101304"
+        }
+      ],
+      "adjuntos": [],
+      "descripcion": "LETREROS PERIODO ESTIVAL",
+      "direccion_entrega": "PLAZA GENERAL BONILLA 24",
+      "plazo_entrega_dias": 5,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=3948-281-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=3948-281-COT26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 57,
+      "ia": {
+        "v": true,
+        "s": 85,
+        "r": "Letreros 3D, especialidad Green Wolf, monto atractivo.",
+        "t": 1790636396787
+      }
     },
     {
       "codigo": "2345-265-COT26",
@@ -466,60 +405,6 @@
       }
     },
     {
-      "codigo": "5153-1854-COT26",
-      "tipo": "compra_agil",
-      "nombre": "MFV_SUMINISTRO DE PINS - MM 164",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "UNIVERSIDAD DE CHILE",
-      "rut_organismo": "60.910.000-1",
-      "unidad_compra": "Hospital Clínico Univ. de Chile-Insumos Generales",
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": 7172100,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-09-28 17:10",
-      "fecha_cierre": "2026-09-30 09:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [
-        "pins"
-      ],
-      "total_ofertas": 1,
-      "productos": [
-        {
-          "nombre": "Personalización de regalos o productos promocionales",
-          "descripcion": "Pin metálico níquel brillante / Plateado - 2000 unidades (Detalles obligatorios en EETT adjunto)",
-          "cantidad": 2000,
-          "unidad": "EA",
-          "categoria": "80141611"
-        },
-        {
-          "nombre": "Personalización de regalos o productos promocionales",
-          "descripcion": "Pin metalico dorado brillante - 200 unidades (Detalles obligatorios en EETT adjunto)",
-          "cantidad": 200,
-          "unidad": "EA",
-          "categoria": "80141611"
-        }
-      ],
-      "adjuntos": [],
-      "descripcion": "Subir cotización formal en dato adjunto indicando: plazo de pago a 30 días, despacho incluido, materiales puestos en bodega, plazo de entrega una vez enviada la OC a proveedor. adjuntar especificaciones técnicas del producto, marca o imagen para VB° por parte de los requirentes. La falta de dicha información será causal para dejar fuera de la compra. PROVEEDOR ADJUDICADO DEBERA ENTREGAR MUESTRA OBLIGATORIA DE PRODUCTO.",
-      "direccion_entrega": " Av. La Paz 1000, ingreso Urgencia",
-      "plazo_entrega_dias": 2,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=5153-1854-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=5153-1854-COT26",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 54,
-      "ia": {
-        "v": true,
-        "s": 82,
-        "r": "Pins personalizados 3D, alto monto, producible masivamente",
-        "t": 1790634988578
-      }
-    },
-    {
       "codigo": "1233623-732-COT26",
       "tipo": "compra_agil",
       "nombre": "ADQUISICIÓN DE GALVANOS PARA ESCUELA PEDRO VERGARA KELLER RBD-232 Y ESCUELA GRECIA #2128 FECHA DE ENTREGA MES DE NOVIEMBRE",
@@ -556,6 +441,51 @@
         "s": 82,
         "r": "Galvanos y medallas resina, volumen alto, 7.07M",
         "t": 1790535355032
+      }
+    },
+    {
+      "codigo": "5036-41-COT26",
+      "tipo": "compra_agil",
+      "nombre": "Suministro e Instalación de Señaléticas - Facultad de Farmacia UV",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "UNIVERSIDAD DE VALPARAISO",
+      "rut_organismo": "60.921.000-1",
+      "unidad_compra": "07 Facultad de Farmacia",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 2500000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-09-28 17:04",
+      "fecha_cierre": "2026-10-05 15:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": 0,
+      "productos": [
+        {
+          "nombre": "Señales orientadoras",
+          "descripcion": "Solicita cotizar fabricación, suministro e instalación de señaléticas de acuerdo a lo indicado en archivo adjunto.",
+          "cantidad": 1,
+          "unidad": "EA",
+          "categoria": "55121712"
+        }
+      ],
+      "adjuntos": [],
+      "descripcion": "Solicita cotizar de acuerdo a lo indicado en archivo adjunto.",
+      "direccion_entrega": "Av. Gran Bretaña 1093, Playa Ancha",
+      "plazo_entrega_dias": 3,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=5036-41-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=5036-41-COT26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 74,
+      "ia": {
+        "v": true,
+        "s": 80,
+        "r": "Señaléticas 3D FDM buena demanda universidades Chile",
+        "t": 1790636374708
       }
     },
     {
@@ -619,47 +549,40 @@
       "recuperado_corrida_anterior": true
     },
     {
-      "codigo": "1057499-290-COT26",
+      "codigo": "2462-190-COT26",
       "tipo": "compra_agil",
-      "nombre": "Materiales didácticos Anatómico  para Lactancia",
+      "nombre": "COLGANTE SECUENCIA ADN",
       "estado": "publicada",
       "estado_glosa": "Publicada",
-      "organismo": "SERVICIO DE SALUD SUR UNIDAD HOSPITALARI",
-      "rut_organismo": "61.608.108-K",
-      "unidad_compra": "Bienes y Servicios",
+      "organismo": "I MUNICIPALIDAD DE PROVIDENCIA",
+      "rut_organismo": "69.070.300-9",
+      "unidad_compra": "Dirección de Desarrollo Comunitario",
       "region": null,
       "region_nombre": null,
-      "monto_clp": 497500,
+      "monto_clp": 150000,
       "moneda": "CLP",
-      "fecha_publicacion": "2026-09-28 15:40",
-      "fecha_cierre": "2026-09-30 15:30",
+      "fecha_publicacion": "2026-09-28 13:41",
+      "fecha_cierre": "2026-10-01 10:00",
       "fecha_ultimo_cambio": null,
       "palabras_clave_match": [
-        "anatomico"
+        "modelo"
       ],
       "total_ofertas": 0,
       "productos": [
         {
-          "nombre": "Materiales de enseñanza de materiales",
-          "descripcion": "Fantoma didáctico de capacidad gástrica del recién nacido, destinado a apoyar la educación y consejería en Lactancia Materna, se anexa especificaciones técnicas requeridas. se debe adjuntar especificaciones en su oferta, Obligatorio. Presupuesto Disponible    ",
-          "cantidad": 10,
+          "nombre": "Kits de decoración de la sala de clases",
+          "descripcion": "COLGNATE DE LA SECUENCIA DE ADN DE DOBLE HELICE, CON CALBE DE ACERO EN BASE PARA SU ANCLAJE, LARGO TOTAL 120CM. MATERIAL: MADERA CON LIJADO FINO Y BARNIZ AL AGUA, NO TOXICO, NATURAL, TERMINACION SATINADA.",
+          "cantidad": 1,
           "unidad": "EA",
-          "categoria": "60106207"
-        },
-        {
-          "nombre": "Materiales de enseñanza de materiales",
-          "descripcion": "Kit para hacer huellas de manos y huellas de bebé, se anexa especificaciones técnicas requeridas. se debe adjuntar a la cotización, especificaciones en su oferta, Obligatorio. Presupuesto Disponible ",
-          "cantidad": 39,
-          "unidad": "EA",
-          "categoria": "60106207"
+          "categoria": "60111401"
         }
       ],
       "adjuntos": [],
-      "descripcion": "se requiere materiales anatómicos para lactancia, Material didáctico que se utiliza en el apoyo a la Lactancia Materna, de acuerdo a especificaciones adjuntas. Se debe adjuntar a la cotización especificaciones técnicas, Obligatorio. presupuesto disponible.",
-      "direccion_entrega": "Avenida Santa Rosa 3453",
-      "plazo_entrega_dias": 10,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1057499-290-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1057499-290-COT26",
+      "descripcion": "SE REQUIERE LA ADQUISICION DE UN MODELO COLGANTE TRIDIMESNIONAL DE LA SECUENCIA DE ADN. OBLIGATORIO ADJUNTAR FOTOGRAFIA CON LAS MEDIDAS Y DETALLE DEL PRODUCTO OFERTADO",
+      "direccion_entrega": "MARCHATN PEREIRA 887",
+      "plazo_entrega_dias": 5,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=2462-190-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=2462-190-COT26",
       "prefiltro": {
         "pasa": true,
         "razon": ""
@@ -668,81 +591,8 @@
       "ia": {
         "v": true,
         "s": 80,
-        "r": "Modelos anatómicos lactancia, perfecta aplicación educativa",
-        "t": 1790634963581
-      }
-    },
-    {
-      "codigo": "3907-85-COT26",
-      "tipo": "compra_agil",
-      "nombre": "MEDALLAS CAMPEONATO Y ACTIVIDADES OMD",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "I MUNICIPALIDAD DE RENAICO",
-      "rut_organismo": "69.180.400-3",
-      "unidad_compra": "Desarrollo Comunitario",
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": 1100000,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-09-28 10:45",
-      "fecha_cierre": "2026-09-30 09:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [],
-      "total_ofertas": 2,
-      "productos": [
-        {
-          "nombre": "Medallas",
-          "descripcion": "MEDALLAS DE MADERA DE 8X9,5 CM, DE ACUERDO A FICHA TECNICA ADJUNTA.",
-          "cantidad": 600,
-          "unidad": "EA",
-          "categoria": "49101701"
-        },
-        {
-          "nombre": "Medallas",
-          "descripcion": "MEDALLAS DE MADERA DE 8X9,5 CM (MEDALLA CAMPEON) DE ACUERDO A FICHA TECNICA ADJUNTA.",
-          "cantidad": 25,
-          "unidad": "EA",
-          "categoria": "49101701"
-        },
-        {
-          "nombre": "Medallas",
-          "descripcion": "MEDALLAS DE MADERA DE 8X9,5 CM (2° LUGAR), DE ACUERDO A FICHA TECNICA ADJUNTA.",
-          "cantidad": 25,
-          "unidad": "EA",
-          "categoria": "49101701"
-        },
-        {
-          "nombre": "Medallas",
-          "descripcion": "MEDALLAS DE MADERA DE 8X9,5 CM (3° LUGAR), DE ACUERDO A FICHA TECNICA ADJUNTA.",
-          "cantidad": 25,
-          "unidad": "EA",
-          "categoria": "49101701"
-        },
-        {
-          "nombre": "Medallas",
-          "descripcion": "MEDALLAS DE MADERA DE 8X9,5 CM (DESTACADO), DE ACUERDO A FICHA TECNICA ADJUNTA.",
-          "cantidad": 30,
-          "unidad": "EA",
-          "categoria": "49101701"
-        }
-      ],
-      "adjuntos": [],
-      "descripcion": "ADQUISICION DE MEDALLAS PARA CAMPEONATO INSTITUCIONAL Y MEDALLAS DE PARTICIPACION ACTIVIDADES DEPORTIVAS FIN DE AÑO 2026.",
-      "direccion_entrega": "CALLE ARTURO PRAT CON PROGRESO, BODEGA MUNICIPAL",
-      "plazo_entrega_dias": 3,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=3907-85-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=3907-85-COT26",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 64,
-      "ia": {
-        "v": true,
-        "s": 80,
-        "r": "Medallas 3D, producible cantidad razonable",
-        "t": 1790634975893
+        "r": "Modelo ADN colgante 3D, monto adecuado educativo",
+        "t": 1790636385898
       }
     },
     {
@@ -832,8 +682,53 @@
       "ia": {
         "v": true,
         "s": 80,
-        "r": "Medallas 3D viables, monto atractivo, plazo flexible",
-        "t": 1790634988578
+        "r": "Medallas personalizadas, cantidad media, excelente margen.",
+        "t": 1790636396787
+      }
+    },
+    {
+      "codigo": "1057532-482-COT26",
+      "tipo": "compra_agil",
+      "nombre": "F1-395-26-RUA/ Letrero para COSAM Rahue",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "SERVICIO DE SALUD OSORNO",
+      "rut_organismo": "61.607.600-0",
+      "unidad_compra": "Bienes y Servicios",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 250000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-09-28 08:29",
+      "fecha_cierre": "2026-09-30 15:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": 4,
+      "productos": [
+        {
+          "nombre": "Letreros publicitarios",
+          "descripcion": "Letrero en placa acrílica según especificaciones técnicas adjuntas.",
+          "cantidad": 1,
+          "unidad": "EA",
+          "categoria": "82101501"
+        }
+      ],
+      "adjuntos": [],
+      "descripcion": "Se requiere la compra del servicio de elaboración de 1 letrero en acrílico para instalar en COSAM Rahue con el motivo de difusión de articulo 7 y atención de Salud Mental con Pertinencia Cultural. se debe adjuntar obligatoriamente Formulario N°1, Declaración Jurada Complementaria y formulario EE.TT.",
+      "direccion_entrega": "Avda. Manuel Rodriguez 759",
+      "plazo_entrega_dias": 10,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1057532-482-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1057532-482-COT26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 57,
+      "ia": {
+        "v": true,
+        "s": 80,
+        "r": "Letrero acrílico 3D, especialidad, monto competitivo.",
+        "t": 1790636396787
       }
     },
     {
@@ -956,93 +851,6 @@
         "s": 80,
         "r": "Trofeos licitación, presupuesto alto, volumen aceptable",
         "t": 1790449556064
-      }
-    },
-    {
-      "codigo": "2292-813-COT26",
-      "tipo": "compra_agil",
-      "nombre": "COPAS Y MEDALLAS DE PREMIACIÓN CONV PROMOCIÓN DE LA SALUD (PEDIDO 2098)(SMV)",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "I MUNICIPALIDAD DE TALCA",
-      "rut_organismo": "69.110.400-1",
-      "unidad_compra": "DIR. COMUNAL DE SALUD",
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": 430000,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-09-28 11:15",
-      "fecha_cierre": "2026-09-30 08:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [],
-      "total_ofertas": 3,
-      "productos": [
-        {
-          "nombre": "Medallas",
-          "descripcion": "MEDALLA COLOR ORO",
-          "cantidad": 40,
-          "unidad": "EA",
-          "categoria": "49101701"
-        },
-        {
-          "nombre": "Medallas",
-          "descripcion": "MEDALLA COLOR PLATA",
-          "cantidad": 40,
-          "unidad": "EA",
-          "categoria": "49101701"
-        },
-        {
-          "nombre": "Medallas",
-          "descripcion": "MEDALLA COLOR BRONCE",
-          "cantidad": 80,
-          "unidad": "EA",
-          "categoria": "49101701"
-        },
-        {
-          "nombre": "Distintivos de premio",
-          "descripcion": "COPA DE PREMIACIÓN COLOR ORO DIMENSIÓN MÍNIMA 42 CM",
-          "cantidad": 4,
-          "unidad": "EA",
-          "categoria": "60101402"
-        },
-        {
-          "nombre": "Distintivos de premio",
-          "descripcion": "COPA DE PREMIACIÓN COLOR ORO DIMENSIÓN MÍNIMA 35 CM",
-          "cantidad": 4,
-          "unidad": "EA",
-          "categoria": "60101402"
-        },
-        {
-          "nombre": "Distintivos de premio",
-          "descripcion": "COPA DE PREMIACIÓN COLOR ORO DIMENSIÓN MÍNIMA 30 CM",
-          "cantidad": 4,
-          "unidad": "EA",
-          "categoria": "60101402"
-        },
-        {
-          "nombre": "Distintivos de premio",
-          "descripcion": "COPA DE PREMIACIÓN COLOR ORO DIMENSIÓN MÍNIMA 25 CM",
-          "cantidad": 2,
-          "unidad": "EA",
-          "categoria": "60101402"
-        }
-      ],
-      "adjuntos": [],
-      "descripcion": "ADQUISICIÓN DE COPAS Y MEDALLAS DE PREMIACIÓN , SE ADJUNTA ARCHIVO CON ESPECIFICACIONES A CUMPLIR DE LOS PRODUCTOS (REVISAR ARCHIVOS). COTIZAR EN VALOR NETO. INDICAR DATOS DE CONTACTO DEL PROVEEDOR. COTIZAR POR TODOS LOS PRODUCTOS. ENTREGA CON GUIA O FACTURA CON UNA COPIA DE ORDEN DE COMPRA, PARA EL PAGO LA OC DEBE SER ACEPTADA DENTRO DE 72 HRS Y CUMPLIR CON PLAZO DE ENTREGA. DEBE DESPACHAR LA TOTALIDAD",
-      "direccion_entrega": "BODEGA COMUNAL  15 ORIENTE N° 600, ENTRE  5 Y 6 SUR TALCA ",
-      "plazo_entrega_dias": 7,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=2292-813-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=2292-813-COT26",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 57,
-      "ia": {
-        "v": true,
-        "s": 78,
-        "r": "Copas y medallas 3D, monto moderado, fabricable",
-        "t": 1790634988578
       }
     },
     {
@@ -1220,52 +1028,38 @@
       }
     },
     {
-      "codigo": "1477751-34-COT26",
+      "codigo": "5951-107-COT26",
       "tipo": "compra_agil",
-      "nombre": "ADQUISICIÓN MEDALLAS CORRIDA CMDRM 2026",
+      "nombre": "Adquisición de un fantoma de control de calidad para sistemas de mamografía",
       "estado": "publicada",
       "estado_glosa": "Publicada",
-      "organismo": "ASOCIACION MUNICIPAL DE DEPORTES Y RECREACION DE MEJILLONES",
-      "rut_organismo": "65.059.186-0",
-      "unidad_compra": "ASOCIACION MUNICIPAL DE DEPORTES Y RECREACION DE MEJILLONES",
+      "organismo": "UNIVERSIDAD DE TARAPACA",
+      "rut_organismo": "70.770.800-k",
+      "unidad_compra": "FACULTAD DE CIENCIAS DE LA SALUD",
       "region": null,
       "region_nombre": null,
-      "monto_clp": 2450000,
+      "monto_clp": 1300000,
       "moneda": "CLP",
-      "fecha_publicacion": "2026-09-28 16:33",
-      "fecha_cierre": "2026-10-02 10:00",
+      "fecha_publicacion": "2026-09-28 17:24",
+      "fecha_cierre": "2026-10-02 14:00",
       "fecha_ultimo_cambio": null,
       "palabras_clave_match": [],
       "total_ofertas": 0,
       "productos": [
         {
-          "nombre": "Medallas",
-          "descripcion": "Medalla metálica 70 mm. Material: Zamak Tonsul (libre de plomo), en baño metálico de galvanoplastía. NO PINTADO CON SPRAY, diseño personalizado en ambas caras.",
-          "cantidad": 500,
+          "nombre": "Unidades de laboratorio",
+          "descripcion": "El fantoma debe ser un dispositivo de prueba diseñado para evaluar el rendimiento de sistemas de mamografía. Debe simular las propiedades de atenuación de una mama comprimida estándar y contener objetos de prueba internos cuyas dimensiones y criterios de visibilidad estén alineados con los estándares del Colegio Americano de Radiología (ACR) para acreditación en mamografía.",
+          "cantidad": 1,
           "unidad": "EA",
-          "categoria": "49101701"
-        },
-        {
-          "nombre": "Medallas",
-          "descripcion": "Medalla metálica 100 mm. Para premiación de los tres primeros lugares en dos categorías 10 K y 3 K. Material: Zamak Tonsul (libre de plomo), en baño metálico de galvanoplastía.  NO PINTADO CON SPRAY, diseño personalizado en ambas caras. 2 DE ORO, 2 DE PLATA Y 2 DE BRONCE.",
-          "cantidad": 6,
-          "unidad": "EA",
-          "categoria": "49101701"
-        },
-        {
-          "nombre": "Cintas decorativas",
-          "descripcion": "Cinta sublimada para medalla de tejido nacional de 20 mm. de ancho y 810 mm. de largo, con diseño personalizado.",
-          "cantidad": 506,
-          "unidad": "EA",
-          "categoria": "60123204"
+          "categoria": "30201902"
         }
       ],
       "adjuntos": [],
-      "descripcion": "Adquisición de Medallas metálicas y cinta sublimada, por concepto de Corrida CMDRM 2026, de acuerdo a especificaciones adjuntas. Dirección de despacho Avda. Bernardo O'Higgins N° 911, Mejillones, Segunda Región. Polideportivo Juan Álvarez Rubiño.",
-      "direccion_entrega": "Avenida O'Higgins # 911, Mejillones, Segunda Región. Ref. Polideportivo Juan Álvarez Rubiño",
-      "plazo_entrega_dias": 7,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1477751-34-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1477751-34-COT26",
+      "descripcion": "Adquisición de un fantoma de control de calidad para sistemas de mamografía,\nconforme a los estándares del Colegio Americano de Radiología (ACR). Según documento adjunto \"ANEXO_N°1_COMPRA_AGIL_Y_CONDICIONES_COMERCIALES, FANTOMA_MAMOGRAFIA\", debe incluir envió a la Universidad de Tarapacá (Arica), IVA y garantía",
+      "direccion_entrega": "Luis Valente Rossi 2223 - Universidad de Tarapacá, Arica, Región de Arica y Parinacota, Arica, Región de Arica y Parinacota",
+      "plazo_entrega_dias": 5,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=5951-107-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=5951-107-COT26",
       "prefiltro": {
         "pasa": true,
         "razon": ""
@@ -1274,43 +1068,106 @@
       "ia": {
         "v": true,
         "s": 75,
-        "r": "Medallas 3D + cintas, volumen moderado, margen rentable",
-        "t": 1790634963581
+        "r": "Fantoma mamografía impresión 3D resina biocompatible",
+        "t": 1790636374708
       }
     },
     {
-      "codigo": "2045-125-COT26",
+      "codigo": "889473-1952-COT26",
       "tipo": "compra_agil",
-      "nombre": "Termoplástico liso",
+      "nombre": "SC 9105 - Servicio Confección Medallas y Galvanos",
       "estado": "publicada",
       "estado_glosa": "Publicada",
-      "organismo": "SERVICIO DE SALUD DEL MAULE HOSPITAL DE CUREPTO",
-      "rut_organismo": "61.606.910-1",
-      "unidad_compra": "Hospital de Curepto",
+      "organismo": "UNIVERSIDAD DE O'HIGGINS",
+      "rut_organismo": "61.980.530-5",
+      "unidad_compra": "UNIVERSIDAD DE O'HIGGINS",
       "region": null,
       "region_nombre": null,
-      "monto_clp": 160000,
+      "monto_clp": 800000,
       "moneda": "CLP",
-      "fecha_publicacion": "2026-09-28 12:56",
-      "fecha_cierre": "2026-10-01 10:00",
+      "fecha_publicacion": "2026-09-28 09:33",
+      "fecha_cierre": "2026-09-30 10:00",
       "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [],
-      "total_ofertas": 1,
+      "palabras_clave_match": [
+        "galvano"
+      ],
+      "total_ofertas": 5,
       "productos": [
         {
-          "nombre": "Termoplástico",
-          "descripcion": "Termoplástico liso similar o equivalente yabin medical 3.2 mm, permite la creación de órtesis para las diferentes necesidades del usuario, medida 60cm x 90cm, color blanco.\n\n",
-          "cantidad": 2,
-          "unidad": "EA",
-          "categoria": "13101723"
+          "nombre": "Medallas",
+          "descripcion": "Confección Medallas Metálicas, de acuerdo al detalle adjunto. Debe adjuntar cotización detallando lo ofertado",
+          "cantidad": 1,
+          "unidad": "GL",
+          "categoria": "49101701"
+        },
+        {
+          "nombre": "Galvanos",
+          "descripcion": "Confección Galvanos Cristal con caja de presentación y Confección Galvanos Madera de acuerdo al detalle adjunto. Debe adjuntar cotización detallando lo ofertado",
+          "cantidad": 1,
+          "unidad": "GL",
+          "categoria": "49101704"
         }
       ],
       "adjuntos": [],
-      "descripcion": "El Hospital de Curepto requiere la compra de Termoplástico liso. Se deben adjuntar imágenes de referencia y ficha técnica de los productos, el costo del flete debe ir incluido en el precio del producto.\nProveedor debe encontrarse hábil en Chile Proveedores, adjuntar: declaración jurada de habilidad, datos para transferencia, email y teléfono.\n",
-      "direccion_entrega": "Pedro Antonio González N° 24",
-      "plazo_entrega_dias": 3,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=2045-125-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=2045-125-COT26",
+      "descripcion": "Se requiere la contratación de servicio de confección de Medallas y Galvanos para la iniciativa ECA-IN26-02 “Olimpiada Regional de Ciencias Biológicas y Naturales ECA3” a desarrollarse durante toda la jornada del día miércoles 14 de octubre.",
+      "direccion_entrega": "Campus Colchagua, Ruta I-90, Km 3, San Fernando",
+      "plazo_entrega_dias": 10,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=889473-1952-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=889473-1952-COT26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 71,
+      "ia": {
+        "v": true,
+        "s": 75,
+        "r": "Medallas galvanos 3D cantidad moderada buena margen",
+        "t": 1790636374708
+      }
+    },
+    {
+      "codigo": "1057499-290-COT26",
+      "tipo": "compra_agil",
+      "nombre": "Materiales didácticos Anatómico  para Lactancia",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "SERVICIO DE SALUD SUR UNIDAD HOSPITALARI",
+      "rut_organismo": "61.608.108-K",
+      "unidad_compra": "Bienes y Servicios",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 497500,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-09-28 15:40",
+      "fecha_cierre": "2026-09-30 15:30",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "anatomico"
+      ],
+      "total_ofertas": 0,
+      "productos": [
+        {
+          "nombre": "Materiales de enseñanza de materiales",
+          "descripcion": "Fantoma didáctico de capacidad gástrica del recién nacido, destinado a apoyar la educación y consejería en Lactancia Materna, se anexa especificaciones técnicas requeridas. se debe adjuntar especificaciones en su oferta, Obligatorio. Presupuesto Disponible    ",
+          "cantidad": 10,
+          "unidad": "EA",
+          "categoria": "60106207"
+        },
+        {
+          "nombre": "Materiales de enseñanza de materiales",
+          "descripcion": "Kit para hacer huellas de manos y huellas de bebé, se anexa especificaciones técnicas requeridas. se debe adjuntar a la cotización, especificaciones en su oferta, Obligatorio. Presupuesto Disponible ",
+          "cantidad": 39,
+          "unidad": "EA",
+          "categoria": "60106207"
+        }
+      ],
+      "adjuntos": [],
+      "descripcion": "se requiere materiales anatómicos para lactancia, Material didáctico que se utiliza en el apoyo a la Lactancia Materna, de acuerdo a especificaciones adjuntas. Se debe adjuntar a la cotización especificaciones técnicas, Obligatorio. presupuesto disponible.",
+      "direccion_entrega": "Avenida Santa Rosa 3453",
+      "plazo_entrega_dias": 10,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1057499-290-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1057499-290-COT26",
       "prefiltro": {
         "pasa": true,
         "razon": ""
@@ -1319,8 +1176,81 @@
       "ia": {
         "v": true,
         "s": 75,
-        "r": "Termoplástico liso, bajo monto pero producible",
-        "t": 1790634975893
+        "r": "Modelos anatómicos lactancia, ideal 3D resina",
+        "t": 1790636385898
+      }
+    },
+    {
+      "codigo": "3907-85-COT26",
+      "tipo": "compra_agil",
+      "nombre": "MEDALLAS CAMPEONATO Y ACTIVIDADES OMD",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "I MUNICIPALIDAD DE RENAICO",
+      "rut_organismo": "69.180.400-3",
+      "unidad_compra": "Desarrollo Comunitario",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 1100000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-09-28 10:45",
+      "fecha_cierre": "2026-09-30 09:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": 2,
+      "productos": [
+        {
+          "nombre": "Medallas",
+          "descripcion": "MEDALLAS DE MADERA DE 8X9,5 CM, DE ACUERDO A FICHA TECNICA ADJUNTA.",
+          "cantidad": 600,
+          "unidad": "EA",
+          "categoria": "49101701"
+        },
+        {
+          "nombre": "Medallas",
+          "descripcion": "MEDALLAS DE MADERA DE 8X9,5 CM (MEDALLA CAMPEON) DE ACUERDO A FICHA TECNICA ADJUNTA.",
+          "cantidad": 25,
+          "unidad": "EA",
+          "categoria": "49101701"
+        },
+        {
+          "nombre": "Medallas",
+          "descripcion": "MEDALLAS DE MADERA DE 8X9,5 CM (2° LUGAR), DE ACUERDO A FICHA TECNICA ADJUNTA.",
+          "cantidad": 25,
+          "unidad": "EA",
+          "categoria": "49101701"
+        },
+        {
+          "nombre": "Medallas",
+          "descripcion": "MEDALLAS DE MADERA DE 8X9,5 CM (3° LUGAR), DE ACUERDO A FICHA TECNICA ADJUNTA.",
+          "cantidad": 25,
+          "unidad": "EA",
+          "categoria": "49101701"
+        },
+        {
+          "nombre": "Medallas",
+          "descripcion": "MEDALLAS DE MADERA DE 8X9,5 CM (DESTACADO), DE ACUERDO A FICHA TECNICA ADJUNTA.",
+          "cantidad": 30,
+          "unidad": "EA",
+          "categoria": "49101701"
+        }
+      ],
+      "adjuntos": [],
+      "descripcion": "ADQUISICION DE MEDALLAS PARA CAMPEONATO INSTITUCIONAL Y MEDALLAS DE PARTICIPACION ACTIVIDADES DEPORTIVAS FIN DE AÑO 2026.",
+      "direccion_entrega": "CALLE ARTURO PRAT CON PROGRESO, BODEGA MUNICIPAL",
+      "plazo_entrega_dias": 3,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=3907-85-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=3907-85-COT26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 64,
+      "ia": {
+        "v": true,
+        "s": 75,
+        "r": "Medallas 3D imprimibles, cantidad producible, buen margen.",
+        "t": 1790636396787
       }
     },
     {
@@ -1377,38 +1307,80 @@
       "recuperado_corrida_anterior": true
     },
     {
-      "codigo": "3658-465-COT26",
+      "codigo": "2292-813-COT26",
       "tipo": "compra_agil",
-      "nombre": "COMPRA DE TROFEOS, PARA FESTIVAL DE LA VOZ, SE ADJUNTAN ESPECIFICACIONES E IMAGEN DE LOS TROFEOS SOLICITADOS, EL PROVEEDOR DEBE AGOGERSE AL 100% LO INDICADO EN LAS ESPECIFICACIONES, ADJUNTAR COTIZACIO",
+      "nombre": "COPAS Y MEDALLAS DE PREMIACIÓN CONV PROMOCIÓN DE LA SALUD (PEDIDO 2098)(SMV)",
       "estado": "publicada",
       "estado_glosa": "Publicada",
-      "organismo": "I MUNICIPALIDAD DE CALERA DE TANGO",
-      "rut_organismo": "69.072.800-1",
-      "unidad_compra": "Adquisiciones",
+      "organismo": "I MUNICIPALIDAD DE TALCA",
+      "rut_organismo": "69.110.400-1",
+      "unidad_compra": "DIR. COMUNAL DE SALUD",
       "region": null,
       "region_nombre": null,
-      "monto_clp": 200000,
+      "monto_clp": 430000,
       "moneda": "CLP",
-      "fecha_publicacion": "2026-09-28 13:41",
-      "fecha_cierre": "2026-09-30 09:00",
+      "fecha_publicacion": "2026-09-28 11:15",
+      "fecha_cierre": "2026-09-30 08:00",
       "fecha_ultimo_cambio": null,
       "palabras_clave_match": [],
       "total_ofertas": 3,
       "productos": [
         {
-          "nombre": "Trofeos",
-          "descripcion": "TROFEOS, PARA FESTIVAL DE LA VOZ, SE ADJUNTAN ESPECIFICACIONES E IMAGEN DE LOS TROFEOS SOLICITADOS, EL PROVEEDOR DEBE AGOGERSE AL 100% LO INDICADO EN LAS ESPECIFICACIONES, ADJUNTAR COTIZACION.\n\n",
-          "cantidad": 6,
+          "nombre": "Medallas",
+          "descripcion": "MEDALLA COLOR ORO",
+          "cantidad": 40,
           "unidad": "EA",
-          "categoria": "49101702"
+          "categoria": "49101701"
+        },
+        {
+          "nombre": "Medallas",
+          "descripcion": "MEDALLA COLOR PLATA",
+          "cantidad": 40,
+          "unidad": "EA",
+          "categoria": "49101701"
+        },
+        {
+          "nombre": "Medallas",
+          "descripcion": "MEDALLA COLOR BRONCE",
+          "cantidad": 80,
+          "unidad": "EA",
+          "categoria": "49101701"
+        },
+        {
+          "nombre": "Distintivos de premio",
+          "descripcion": "COPA DE PREMIACIÓN COLOR ORO DIMENSIÓN MÍNIMA 42 CM",
+          "cantidad": 4,
+          "unidad": "EA",
+          "categoria": "60101402"
+        },
+        {
+          "nombre": "Distintivos de premio",
+          "descripcion": "COPA DE PREMIACIÓN COLOR ORO DIMENSIÓN MÍNIMA 35 CM",
+          "cantidad": 4,
+          "unidad": "EA",
+          "categoria": "60101402"
+        },
+        {
+          "nombre": "Distintivos de premio",
+          "descripcion": "COPA DE PREMIACIÓN COLOR ORO DIMENSIÓN MÍNIMA 30 CM",
+          "cantidad": 4,
+          "unidad": "EA",
+          "categoria": "60101402"
+        },
+        {
+          "nombre": "Distintivos de premio",
+          "descripcion": "COPA DE PREMIACIÓN COLOR ORO DIMENSIÓN MÍNIMA 25 CM",
+          "cantidad": 2,
+          "unidad": "EA",
+          "categoria": "60101402"
         }
       ],
       "adjuntos": [],
-      "descripcion": "COMPRA DE TROFEOS, PARA FESTIVAL DE LA VOZ, SE ADJUNTAN ESPECIFICACIONES E IMAGEN DE LOS TROFEOS SOLICITADOS, EL PROVEEDOR DEBE AGOGERSE AL 100% LO INDICADO EN LAS ESPECIFICACIONES, ADJUNTAR COTIZACION.",
-      "direccion_entrega": "AVDA CALERA DE TANGO 345, CALERA DE TANGO",
-      "plazo_entrega_dias": 3,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=3658-465-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=3658-465-COT26",
+      "descripcion": "ADQUISICIÓN DE COPAS Y MEDALLAS DE PREMIACIÓN , SE ADJUNTA ARCHIVO CON ESPECIFICACIONES A CUMPLIR DE LOS PRODUCTOS (REVISAR ARCHIVOS). COTIZAR EN VALOR NETO. INDICAR DATOS DE CONTACTO DEL PROVEEDOR. COTIZAR POR TODOS LOS PRODUCTOS. ENTREGA CON GUIA O FACTURA CON UNA COPIA DE ORDEN DE COMPRA, PARA EL PAGO LA OC DEBE SER ACEPTADA DENTRO DE 72 HRS Y CUMPLIR CON PLAZO DE ENTREGA. DEBE DESPACHAR LA TOTALIDAD",
+      "direccion_entrega": "BODEGA COMUNAL  15 ORIENTE N° 600, ENTRE  5 Y 6 SUR TALCA ",
+      "plazo_entrega_dias": 7,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=2292-813-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=2292-813-COT26",
       "prefiltro": {
         "pasa": true,
         "razon": ""
@@ -1417,8 +1389,62 @@
       "ia": {
         "v": true,
         "s": 75,
-        "r": "Trofeos 3D, monto bajo, plazo corto, producible",
-        "t": 1790634988578
+        "r": "Copas y medallas 3D, cantidad razonable, buen negocio.",
+        "t": 1790636396787
+      }
+    },
+    {
+      "codigo": "5153-1854-COT26",
+      "tipo": "compra_agil",
+      "nombre": "MFV_SUMINISTRO DE PINS - MM 164",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "UNIVERSIDAD DE CHILE",
+      "rut_organismo": "60.910.000-1",
+      "unidad_compra": "Hospital Clínico Univ. de Chile-Insumos Generales",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 7172100,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-09-28 17:10",
+      "fecha_cierre": "2026-09-30 09:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "pins"
+      ],
+      "total_ofertas": 1,
+      "productos": [
+        {
+          "nombre": "Personalización de regalos o productos promocionales",
+          "descripcion": "Pin metálico níquel brillante / Plateado - 2000 unidades (Detalles obligatorios en EETT adjunto)",
+          "cantidad": 2000,
+          "unidad": "EA",
+          "categoria": "80141611"
+        },
+        {
+          "nombre": "Personalización de regalos o productos promocionales",
+          "descripcion": "Pin metalico dorado brillante - 200 unidades (Detalles obligatorios en EETT adjunto)",
+          "cantidad": 200,
+          "unidad": "EA",
+          "categoria": "80141611"
+        }
+      ],
+      "adjuntos": [],
+      "descripcion": "Subir cotización formal en dato adjunto indicando: plazo de pago a 30 días, despacho incluido, materiales puestos en bodega, plazo de entrega una vez enviada la OC a proveedor. adjuntar especificaciones técnicas del producto, marca o imagen para VB° por parte de los requirentes. La falta de dicha información será causal para dejar fuera de la compra. PROVEEDOR ADJUDICADO DEBERA ENTREGAR MUESTRA OBLIGATORIA DE PRODUCTO.",
+      "direccion_entrega": " Av. La Paz 1000, ingreso Urgencia",
+      "plazo_entrega_dias": 2,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=5153-1854-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=5153-1854-COT26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 54,
+      "ia": {
+        "v": true,
+        "s": 75,
+        "r": "Pins promocionales, 2000 unidades, margen bueno",
+        "t": 1790636406322
       }
     },
     {
@@ -1467,53 +1493,6 @@
         "s": 75,
         "r": "Medallas y copas 3D resina viables, monto moderado.",
         "t": 1790025557357
-      }
-    },
-    {
-      "codigo": "1137153-32-COT26",
-      "tipo": "compra_agil",
-      "nombre": "Galvanos – Proyecto Carén",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "UNIVERSIDAD DE CHILE",
-      "rut_organismo": "60.910.000-1",
-      "unidad_compra": "RECTORIA - PROGRAMA TRANSVERSAL DE EDUCACION",
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": 150000,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-09-28 09:48",
-      "fecha_cierre": "2026-09-30 09:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [
-        "galvano"
-      ],
-      "total_ofertas": 4,
-      "productos": [
-        {
-          "nombre": "Galvanos",
-          "descripcion": "Galardones de Cristal con caja azul.\nMedida 15 x 13 cms\nSe entregará diseño de Logo a todo color.",
-          "cantidad": 4,
-          "unidad": "EA",
-          "categoria": "49101704"
-        }
-      ],
-      "adjuntos": [],
-      "descripcion": "Fondo de Participación CEP Carén 2026, en recoocimiento de los proyectos adjudicados, se entregan galvanos.",
-      "direccion_entrega": "av.grecia 3401, edificio Campus, piso 1",
-      "plazo_entrega_dias": 2,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1137153-32-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1137153-32-COT26",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 47,
-      "ia": {
-        "v": true,
-        "s": 75,
-        "r": "Galvanos 3D, bajo monto pero viable",
-        "t": 1790634994622
       }
     },
     {
@@ -1680,51 +1659,6 @@
       }
     },
     {
-      "codigo": "1057532-482-COT26",
-      "tipo": "compra_agil",
-      "nombre": "F1-395-26-RUA/ Letrero para COSAM Rahue",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "SERVICIO DE SALUD OSORNO",
-      "rut_organismo": "61.607.600-0",
-      "unidad_compra": "Bienes y Servicios",
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": 250000,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-09-28 08:29",
-      "fecha_cierre": "2026-09-30 15:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [],
-      "total_ofertas": 4,
-      "productos": [
-        {
-          "nombre": "Letreros publicitarios",
-          "descripcion": "Letrero en placa acrílica según especificaciones técnicas adjuntas.",
-          "cantidad": 1,
-          "unidad": "EA",
-          "categoria": "82101501"
-        }
-      ],
-      "adjuntos": [],
-      "descripcion": "Se requiere la compra del servicio de elaboración de 1 letrero en acrílico para instalar en COSAM Rahue con el motivo de difusión de articulo 7 y atención de Salud Mental con Pertinencia Cultural. se debe adjuntar obligatoriamente Formulario N°1, Declaración Jurada Complementaria y formulario EE.TT.",
-      "direccion_entrega": "Avda. Manuel Rodriguez 759",
-      "plazo_entrega_dias": 10,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1057532-482-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1057532-482-COT26",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 57,
-      "ia": {
-        "v": true,
-        "s": 72,
-        "r": "Letrero acrílico 3D, monto accesible, plazo holgado",
-        "t": 1790634988578
-      }
-    },
-    {
       "codigo": "4051-94-COT26",
       "tipo": "compra_agil",
       "nombre": "MEDALLAS, TROFEOS Y OTROS PARA PREMIACIÓN",
@@ -1808,6 +1742,65 @@
       }
     },
     {
+      "codigo": "1477751-34-COT26",
+      "tipo": "compra_agil",
+      "nombre": "ADQUISICIÓN MEDALLAS CORRIDA CMDRM 2026",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "ASOCIACION MUNICIPAL DE DEPORTES Y RECREACION DE MEJILLONES",
+      "rut_organismo": "65.059.186-0",
+      "unidad_compra": "ASOCIACION MUNICIPAL DE DEPORTES Y RECREACION DE MEJILLONES",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 2450000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-09-28 16:33",
+      "fecha_cierre": "2026-10-02 10:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": 0,
+      "productos": [
+        {
+          "nombre": "Medallas",
+          "descripcion": "Medalla metálica 70 mm. Material: Zamak Tonsul (libre de plomo), en baño metálico de galvanoplastía. NO PINTADO CON SPRAY, diseño personalizado en ambas caras.",
+          "cantidad": 500,
+          "unidad": "EA",
+          "categoria": "49101701"
+        },
+        {
+          "nombre": "Medallas",
+          "descripcion": "Medalla metálica 100 mm. Para premiación de los tres primeros lugares en dos categorías 10 K y 3 K. Material: Zamak Tonsul (libre de plomo), en baño metálico de galvanoplastía.  NO PINTADO CON SPRAY, diseño personalizado en ambas caras. 2 DE ORO, 2 DE PLATA Y 2 DE BRONCE.",
+          "cantidad": 6,
+          "unidad": "EA",
+          "categoria": "49101701"
+        },
+        {
+          "nombre": "Cintas decorativas",
+          "descripcion": "Cinta sublimada para medalla de tejido nacional de 20 mm. de ancho y 810 mm. de largo, con diseño personalizado.",
+          "cantidad": 506,
+          "unidad": "EA",
+          "categoria": "60123204"
+        }
+      ],
+      "adjuntos": [],
+      "descripcion": "Adquisición de Medallas metálicas y cinta sublimada, por concepto de Corrida CMDRM 2026, de acuerdo a especificaciones adjuntas. Dirección de despacho Avda. Bernardo O'Higgins N° 911, Mejillones, Segunda Región. Polideportivo Juan Álvarez Rubiño.",
+      "direccion_entrega": "Avenida O'Higgins # 911, Mejillones, Segunda Región. Ref. Polideportivo Juan Álvarez Rubiño",
+      "plazo_entrega_dias": 7,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1477751-34-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1477751-34-COT26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 74,
+      "ia": {
+        "v": true,
+        "s": 70,
+        "r": "Medallas 3D resina acabado cintas cantidad moderada",
+        "t": 1790636374708
+      }
+    },
+    {
       "codigo": "4375-636-COT26",
       "tipo": "compra_agil",
       "nombre": "Adquisición de Asa de Bloqueo de Bota de Piernera y Mango de Operación de Piernera para mesa quirúrgica",
@@ -1862,186 +1855,38 @@
       }
     },
     {
-      "codigo": "889473-1952-COT26",
+      "codigo": "3658-465-COT26",
       "tipo": "compra_agil",
-      "nombre": "SC 9105 - Servicio Confección Medallas y Galvanos",
+      "nombre": "COMPRA DE TROFEOS, PARA FESTIVAL DE LA VOZ, SE ADJUNTAN ESPECIFICACIONES E IMAGEN DE LOS TROFEOS SOLICITADOS, EL PROVEEDOR DEBE AGOGERSE AL 100% LO INDICADO EN LAS ESPECIFICACIONES, ADJUNTAR COTIZACIO",
       "estado": "publicada",
       "estado_glosa": "Publicada",
-      "organismo": "UNIVERSIDAD DE O'HIGGINS",
-      "rut_organismo": "61.980.530-5",
-      "unidad_compra": "UNIVERSIDAD DE O'HIGGINS",
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": 800000,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-09-28 09:33",
-      "fecha_cierre": "2026-09-30 10:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [
-        "galvano"
-      ],
-      "total_ofertas": 5,
-      "productos": [
-        {
-          "nombre": "Medallas",
-          "descripcion": "Confección Medallas Metálicas, de acuerdo al detalle adjunto. Debe adjuntar cotización detallando lo ofertado",
-          "cantidad": 1,
-          "unidad": "GL",
-          "categoria": "49101701"
-        },
-        {
-          "nombre": "Galvanos",
-          "descripcion": "Confección Galvanos Cristal con caja de presentación y Confección Galvanos Madera de acuerdo al detalle adjunto. Debe adjuntar cotización detallando lo ofertado",
-          "cantidad": 1,
-          "unidad": "GL",
-          "categoria": "49101704"
-        }
-      ],
-      "adjuntos": [],
-      "descripcion": "Se requiere la contratación de servicio de confección de Medallas y Galvanos para la iniciativa ECA-IN26-02 “Olimpiada Regional de Ciencias Biológicas y Naturales ECA3” a desarrollarse durante toda la jornada del día miércoles 14 de octubre.",
-      "direccion_entrega": "Campus Colchagua, Ruta I-90, Km 3, San Fernando",
-      "plazo_entrega_dias": 10,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=889473-1952-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=889473-1952-COT26",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 71,
-      "ia": {
-        "v": true,
-        "s": 70,
-        "r": "Medallas y galvanos, volumen moderado, plazo 10 días factible",
-        "t": 1790634963581
-      }
-    },
-    {
-      "codigo": "1214102-1246-COT26",
-      "tipo": "compra_agil",
-      "nombre": "(RML) REPUESTOS PARA MANTENCION DE BICICLETAS SPINNING",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "CORP MUNICIPAL DE DESARROLLO SOCIAL DE PUDAHUEL",
-      "rut_organismo": "70.835.200-4",
+      "organismo": "I MUNICIPALIDAD DE CALERA DE TANGO",
+      "rut_organismo": "69.072.800-1",
       "unidad_compra": "Adquisiciones",
       "region": null,
       "region_nombre": null,
-      "monto_clp": 700000,
+      "monto_clp": 200000,
       "moneda": "CLP",
-      "fecha_publicacion": "2026-09-28 11:12",
-      "fecha_cierre": "2026-09-30 09:30",
+      "fecha_publicacion": "2026-09-28 13:41",
+      "fecha_cierre": "2026-09-30 09:00",
       "fecha_ultimo_cambio": null,
       "palabras_clave_match": [],
-      "total_ofertas": 0,
+      "total_ofertas": 3,
       "productos": [
         {
-          "nombre": "Conjuntos generales de herramientas",
-          "descripcion": "eje central para soporte inferior de sustitución de bicicleta spinning, material de alta resistencia hecho de acero endurecido, compatibilidad precisa modelo 17, transmisión estable diseño asegura una transmisión eficiente de energía durante el entrenamiento, sin vibraciones o movimientos desviados, instalación fácil 17x159mm",
-          "cantidad": 3,
+          "nombre": "Trofeos",
+          "descripcion": "TROFEOS, PARA FESTIVAL DE LA VOZ, SE ADJUNTAN ESPECIFICACIONES E IMAGEN DE LOS TROFEOS SOLICITADOS, EL PROVEEDOR DEBE AGOGERSE AL 100% LO INDICADO EN LAS ESPECIFICACIONES, ADJUNTAR COTIZACION.\n\n",
+          "cantidad": 6,
           "unidad": "EA",
-          "categoria": "27113201"
-        },
-        {
-          "nombre": "Ruedas",
-          "descripcion": "ruedas gomas resistencias al desgaste para bicicleta spinning de 4,5cm de diámetro x 2cm de ancho",
-          "cantidad": 20,
-          "unidad": "EA",
-          "categoria": "31162702"
-        },
-        {
-          "nombre": "Conjuntos generales de herramientas",
-          "descripcion": "pastilla de freno para bicicleta spinning 3x11cm hecha de material de primera calidad, resistente al desgaste y antideslizante, material fieltro+hierro, peso aprox. 80g, color como se muestra en imagen, tamaño aprox. 11x3cm/4,33x1,18",
-          "cantidad": 10,
-          "unidad": "EA",
-          "categoria": "27113201"
-        },
-        {
-          "nombre": "Conjuntos generales de herramientas",
-          "descripcion": "sillín bicicleta spinning, fabricado en cuero sintético, resistente y fácil de limpiar, material anti prostático y resistente a las inclemencias del tiempo, asegurando durabilidad y funcionalidad en diversas condiciones, dimensiones de 260mm de largo y 250mm de ancho, se ajusta a la mayoría de las bicicletas estáticas",
-          "cantidad": 5,
-          "unidad": "EA",
-          "categoria": "27113201"
+          "categoria": "49101702"
         }
       ],
       "adjuntos": [],
-      "descripcion": "\nREPUESTOS PARA MANTENCION DE BICICLETAS SPINNING",
-      "direccion_entrega": " AVDA. FEDERICO ERRAZURIZ 921",
-      "plazo_entrega_dias": 4,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1214102-1246-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1214102-1246-COT26",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 64,
-      "ia": {
-        "v": true,
-        "s": 70,
-        "r": "Ruedas bicicletas, repuestos plásticos viables",
-        "t": 1790634975893
-      }
-    },
-    {
-      "codigo": "3948-281-COT26",
-      "tipo": "compra_agil",
-      "nombre": "LETREROS PERIODO ESTIVAL",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "I MUNICIPALIDAD DE NAVIDAD",
-      "rut_organismo": "69.073.800-7",
-      "unidad_compra": "Unidad de Adquisiciones",
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": 1802396,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-09-28 10:06",
-      "fecha_cierre": "2026-09-30 10:05",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [],
-      "total_ofertas": 4,
-      "productos": [
-        {
-          "nombre": "Letreros",
-          "descripcion": "Adquisición de letreros descriptivos en material trovicel, 43,2 x 33 cm, se adjunta archivo con requerimientos.",
-          "cantidad": 8,
-          "unidad": "EA",
-          "categoria": "55121727"
-        },
-        {
-          "nombre": "Letreros",
-          "descripcion": "Adquisición de letreros descriptivos en material trovicel, 21,6 x 33 cm, se adjunta archivo con requerimientos.",
-          "cantidad": 40,
-          "unidad": "EA",
-          "categoria": "55121727"
-        },
-        {
-          "nombre": "Letreros",
-          "descripcion": "Adquisición de letreros informativos, 150 x 80 cm , se adjunta archivo con requerimientos.",
-          "cantidad": 10,
-          "unidad": "EA",
-          "categoria": "55121727"
-        },
-        {
-          "nombre": "Letreros",
-          "descripcion": "Adquisición de limite de playa, 60 x 60 cm , se adjunta archivo con requerimientos.",
-          "cantidad": 4,
-          "unidad": "EA",
-          "categoria": "55121727"
-        },
-        {
-          "nombre": "Adhesivos de fotografías",
-          "descripcion": "Adhesivo impreso full + laminado de protección, se adjunta archivo con requerimientos.",
-          "cantidad": 10,
-          "unidad": "EA",
-          "categoria": "60101304"
-        }
-      ],
-      "adjuntos": [],
-      "descripcion": "LETREROS PERIODO ESTIVAL",
-      "direccion_entrega": "PLAZA GENERAL BONILLA 24",
-      "plazo_entrega_dias": 5,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=3948-281-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=3948-281-COT26",
+      "descripcion": "COMPRA DE TROFEOS, PARA FESTIVAL DE LA VOZ, SE ADJUNTAN ESPECIFICACIONES E IMAGEN DE LOS TROFEOS SOLICITADOS, EL PROVEEDOR DEBE AGOGERSE AL 100% LO INDICADO EN LAS ESPECIFICACIONES, ADJUNTAR COTIZACION.",
+      "direccion_entrega": "AVDA CALERA DE TANGO 345, CALERA DE TANGO",
+      "plazo_entrega_dias": 3,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=3658-465-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=3658-465-COT26",
       "prefiltro": {
         "pasa": true,
         "razon": ""
@@ -2050,8 +1895,55 @@
       "ia": {
         "v": true,
         "s": 70,
-        "r": "Letreros 3D período estival, monto bueno, viabilidad",
-        "t": 1790634988578
+        "r": "Trofeos 3D personalizables, bajo monto, fabricable.",
+        "t": 1790636396787
+      }
+    },
+    {
+      "codigo": "1505151-1-COT26",
+      "tipo": "compra_agil",
+      "nombre": "Galvanos",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "UNIVERSIDAD METROPOLITANA DE CIENCIAS DE LA EDUCAC",
+      "rut_organismo": "60.910.047-8",
+      "unidad_compra": "OFICINA DE EGRESADOS",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 500000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-09-28 16:07",
+      "fecha_cierre": "2026-09-30 09:30",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "galvano"
+      ],
+      "total_ofertas": 6,
+      "productos": [
+        {
+          "nombre": "Galvanos",
+          "descripcion": "Galvanos, revisar documento adjunto antes de ofertar.",
+          "cantidad": 21,
+          "unidad": "EA",
+          "categoria": "49101704"
+        }
+      ],
+      "adjuntos": [],
+      "descripcion": "Se solicitan cotizaciones para la adquisición de 21 galvanos. Se adjunta documento con las especificaciones técnicas. Los valores debe incluir despacho. Plazo máximo de entrega 5 a 7 días hábiles. Favor indicar número de contacto. ",
+      "direccion_entrega": "Avenida José Pedro Alessandri N°636",
+      "plazo_entrega_dias": 7,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1505151-1-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1505151-1-COT26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 49,
+      "ia": {
+        "v": true,
+        "s": 70,
+        "r": "21 galvanos, pequeño pero margen",
+        "t": 1790636406322
       }
     },
     {
@@ -2490,38 +2382,40 @@
       "recuperado_corrida_anterior": true
     },
     {
-      "codigo": "4044-564-COT26",
+      "codigo": "1628-320-COT26",
       "tipo": "compra_agil",
-      "nombre": "SERVICIO DISEÑO CONFECCION Y RESTAURACION DE LETREROS - SOLICITA DIRECCION DE MEDIO AMBIENTE",
+      "nombre": "COMPRA DE GALVANOS INCENTIVO FUNCIONARIOS/AS",
       "estado": "publicada",
       "estado_glosa": "Publicada",
-      "organismo": "I MUNICIPALIDAD DE ISLA DE PASCUA",
-      "rut_organismo": "69.061.800-1",
-      "unidad_compra": "Adquisiciones",
+      "organismo": "SERVICIO DE SALUD HOSPITAL DE GRANEROS",
+      "rut_organismo": "61.602.132-k",
+      "unidad_compra": "Hospital Santa Filomena de Graneros",
       "region": null,
       "region_nombre": null,
-      "monto_clp": 600000,
+      "monto_clp": 200000,
       "moneda": "CLP",
-      "fecha_publicacion": "2026-09-28 13:10",
-      "fecha_cierre": "2026-10-01 06:00",
+      "fecha_publicacion": "2026-09-28 16:49",
+      "fecha_cierre": "2026-10-01 08:00",
       "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [],
-      "total_ofertas": 1,
+      "palabras_clave_match": [
+        "galvano"
+      ],
+      "total_ofertas": 0,
       "productos": [
         {
-          "nombre": "Letreros",
-          "descripcion": "CONFECCION Y MANO DE OBRA LETREROS - DETALLE ESPECIFICACION EN MEMORANDUM Nª96 DE MEDIO AMBIENTE",
-          "cantidad": 2,
+          "nombre": "Galvanos",
+          "descripcion": "GALVANOS CON BASE DE MADERA EN ACRILICO DE 20 CENTIMETROS  DE ANCHO Y 10 CENTIMETROS DE LARGO CON GRABACIÓN CON LASE, PERSONALIZADA QUE INCLUYA LOGO DE HOSPITAL CON RESPECTIVA CAJA DE ENVOLTORIO.SE ADJUNTA ARCHIVO CON DETALLE DE LOS PRODUCTOS SOLICITADOS, SE SOLICITA AL OFERENTE CORDINAR CON ENCARGADA CAROLINA HUERTA REY 722337622, EL OFERENTE DEBE DE ADJUNTAR DETALLES Y ESPECIFICACIONES, DE NO SER ASSI LA OFERTA QUEDARA DESESTIMADA.",
+          "cantidad": 14,
           "unidad": "EA",
-          "categoria": "55121727"
+          "categoria": "49101704"
         }
       ],
       "adjuntos": [],
-      "descripcion": "SERVICIO DISEÑO CONFECCION Y RESTAURACION DE LETREROS - DETALLES EN MEMO ADJUNTO Nª96 - SOLICITA DIRECCION DE MEDIO AMBIENTE - PRESUPUESTO CONTEMPLA PUESTO EN ISLA DE PASCUA",
-      "direccion_entrega": "ATAMU TEKENA S/N",
+      "descripcion": "COMPRA DE GALVANOS INCENTIVO FUNCIONARIOS/AS. CALIDAD DE VIDA, HOSPITAL SANTA FILOMENA DE GRANEROS.",
+      "direccion_entrega": "AVDA LA COMPAÑIA 550 GRANEROS",
       "plazo_entrega_dias": 3,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=4044-564-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=4044-564-COT26",
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1628-320-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1628-320-COT26",
       "prefiltro": {
         "pasa": true,
         "razon": ""
@@ -2530,8 +2424,8 @@
       "ia": {
         "v": true,
         "s": 65,
-        "r": "Servicio confección letreros 3D, pero incluye restauración limitada",
-        "t": 1790634963581
+        "r": "Galvanos plásticos 3D FDM bajo costo producción rápida",
+        "t": 1790636374708
       }
     },
     {
@@ -2588,38 +2482,59 @@
       "recuperado_corrida_anterior": true
     },
     {
-      "codigo": "748891-191-COT26",
+      "codigo": "1214102-1246-COT26",
       "tipo": "compra_agil",
-      "nombre": "ADQUISICIÓN DE PRODUCTOS ELABORADOS DE CUERO, CAUCHO Y PLASTICO.",
+      "nombre": "(RML) REPUESTOS PARA MANTENCION DE BICICLETAS SPINNING",
       "estado": "publicada",
       "estado_glosa": "Publicada",
-      "organismo": "I MUNICIPALIDAD DE CONCEPCION",
-      "rut_organismo": "69.150.400-k",
-      "unidad_compra": "DIRECCION MEDIO AMBIENTE",
+      "organismo": "CORP MUNICIPAL DE DESARROLLO SOCIAL DE PUDAHUEL",
+      "rut_organismo": "70.835.200-4",
+      "unidad_compra": "Adquisiciones",
       "region": null,
       "region_nombre": null,
-      "monto_clp": 650000,
+      "monto_clp": 700000,
       "moneda": "CLP",
-      "fecha_publicacion": "2026-09-28 12:21",
-      "fecha_cierre": "2026-09-30 09:00",
+      "fecha_publicacion": "2026-09-28 11:12",
+      "fecha_cierre": "2026-09-30 09:30",
       "fecha_ultimo_cambio": null,
       "palabras_clave_match": [],
-      "total_ofertas": 1,
+      "total_ofertas": 0,
       "productos": [
         {
-          "nombre": "Pulverizadores",
-          "descripcion": "Detalles en archivo adjunto.",
-          "cantidad": 1,
-          "unidad": "GL",
-          "categoria": "21101802"
+          "nombre": "Conjuntos generales de herramientas",
+          "descripcion": "eje central para soporte inferior de sustitución de bicicleta spinning, material de alta resistencia hecho de acero endurecido, compatibilidad precisa modelo 17, transmisión estable diseño asegura una transmisión eficiente de energía durante el entrenamiento, sin vibraciones o movimientos desviados, instalación fácil 17x159mm",
+          "cantidad": 3,
+          "unidad": "EA",
+          "categoria": "27113201"
+        },
+        {
+          "nombre": "Ruedas",
+          "descripcion": "ruedas gomas resistencias al desgaste para bicicleta spinning de 4,5cm de diámetro x 2cm de ancho",
+          "cantidad": 20,
+          "unidad": "EA",
+          "categoria": "31162702"
+        },
+        {
+          "nombre": "Conjuntos generales de herramientas",
+          "descripcion": "pastilla de freno para bicicleta spinning 3x11cm hecha de material de primera calidad, resistente al desgaste y antideslizante, material fieltro+hierro, peso aprox. 80g, color como se muestra en imagen, tamaño aprox. 11x3cm/4,33x1,18",
+          "cantidad": 10,
+          "unidad": "EA",
+          "categoria": "27113201"
+        },
+        {
+          "nombre": "Conjuntos generales de herramientas",
+          "descripcion": "sillín bicicleta spinning, fabricado en cuero sintético, resistente y fácil de limpiar, material anti prostático y resistente a las inclemencias del tiempo, asegurando durabilidad y funcionalidad en diversas condiciones, dimensiones de 260mm de largo y 250mm de ancho, se ajusta a la mayoría de las bicicletas estáticas",
+          "cantidad": 5,
+          "unidad": "EA",
+          "categoria": "27113201"
         }
       ],
       "adjuntos": [],
-      "descripcion": "SE REQUIERE LA ADQUISICIÓN DE DIVERSOS INSUMOS DESTINADOS A FORTALECER LAS LABORES DE ORGANIZACIÓN, LIMPIEZA, SANITIZACIÓN Y MANEJO SEGURO DE ANIMALES \nEN EL CENTRO VETERINARIO MUNICIPAL.",
-      "direccion_entrega": "EJERCITO 1010 ",
-      "plazo_entrega_dias": 3,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=748891-191-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=748891-191-COT26",
+      "descripcion": "\nREPUESTOS PARA MANTENCION DE BICICLETAS SPINNING",
+      "direccion_entrega": " AVDA. FEDERICO ERRAZURIZ 921",
+      "plazo_entrega_dias": 4,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1214102-1246-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1214102-1246-COT26",
       "prefiltro": {
         "pasa": true,
         "razon": ""
@@ -2628,55 +2543,55 @@
       "ia": {
         "v": true,
         "s": 65,
-        "r": "Pulverizadores plásticos, viables pero bajo monto",
-        "t": 1790634975893
+        "r": "Ruedas y herramientas plásticas fabricables, monto moderado.",
+        "t": 1790636396787
       }
     },
     {
-      "codigo": "2724-842-COT26",
+      "codigo": "2565-361-COT26",
       "tipo": "compra_agil",
-      "nombre": "SERVICIO DE ROTULACIÓN INSTITUCIONAL PARA DOS VEHICULOS ADQUIRIDOS PARA SEGURIDAD PUBLICA",
+      "nombre": "Adquisición de 1.000 Partidores de Comprimidos para CESFAM Chépica",
       "estado": "publicada",
       "estado_glosa": "Publicada",
-      "organismo": "ILUSTRE MUNICIPALIDAD DE SAN CARLOS",
-      "rut_organismo": "69.140.500-1",
-      "unidad_compra": " COMPRAS Y CONTRATACIONES MUNICIPALES",
+      "organismo": "I MUNICIPALIDAD DE CHEPICA",
+      "rut_organismo": "69.090.700-3",
+      "unidad_compra": "DEPTO. DE SALUD",
       "region": null,
       "region_nombre": null,
-      "monto_clp": 3451000,
+      "monto_clp": 120000,
       "moneda": "CLP",
-      "fecha_publicacion": "2026-09-28 17:15",
+      "fecha_publicacion": "2026-09-28 14:34",
       "fecha_cierre": "2026-09-30 10:00",
       "fecha_ultimo_cambio": null,
       "palabras_clave_match": [
         "modelo"
       ],
-      "total_ofertas": 2,
+      "total_ofertas": 1,
       "productos": [
         {
-          "nombre": "Impresión de publicaciones",
-          "descripcion": "Provisión y aplicación de ploteo vehicular institucional para dos camionetas marca MAXUS, modelo T60 4X4 DX PLUS 6MT, de la Direccion de Seguridad Publica. CONFORME A LAS ESPECIFICACIONES TECNICAS ADJUNTAS.",
-          "cantidad": 2,
+          "nombre": "Soluciones o comprimidos de revelar",
+          "descripcion": "Partidor de comprimidos, cantidad 1.000 unidades. Dispositivo destinado a dividir comprimidos de forma segura y precisa, de material resistente, fácil manipulación y limpieza, con sistema de corte incorporado. Producto nuevo y sin uso. Adjuntar ficha técnica del producto ofertado, indicando marca/modelo y características. Indicar datos de contacto de la empresa y plazo de despacho desde la emisión de la Orden de Compra.",
+          "cantidad": 1000,
           "unidad": "EA",
-          "categoria": "82121506"
+          "categoria": "42151904"
         }
       ],
       "adjuntos": [],
-      "descripcion": "Provisión e instalacion del servicio de rotulación institucional vehicular para 2 camionetas marca MAXUS, modelo T60 4X4 DX PLUS 6MT, destinadas a labores de patrullaje preventivo y seguridad pública municipal, conforme a las especificaciones tecnicas adjuntas.",
-      "direccion_entrega": "a convenir",
-      "plazo_entrega_dias": 3,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=2724-842-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=2724-842-COT26",
+      "descripcion": "Partidor de comprimidos, cantidad 1.000 unidades. Dispositivo destinado a dividir comprimidos de forma segura y precisa, de material resistente, fácil manipulación y limpieza, con sistema de corte incorporado. Producto nuevo y sin uso. Adjuntar ficha técnica del producto ofertado, indicando marca/modelo y características. Indicar datos de contacto de la empresa y plazo de despacho desde la emisión de la Orden de Compra.",
+      "direccion_entrega": "18 de septiembre S/N",
+      "plazo_entrega_dias": 4,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=2565-361-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=2565-361-COT26",
       "prefiltro": {
         "pasa": true,
         "razon": ""
       },
-      "score_heuristico": 64,
+      "score_heuristico": 54,
       "ia": {
         "v": true,
         "s": 65,
-        "r": "Letreros 3D viables, monto moderado, plazo holgado",
-        "t": 1790634988578
+        "r": "1000 partidores plásticos, volumen alto",
+        "t": 1790636406322
       }
     },
     {
@@ -2880,111 +2795,6 @@
       "recuperado_corrida_anterior": true
     },
     {
-      "codigo": "1851-21-COT26",
-      "tipo": "compra_agil",
-      "nombre": "Adquisiciones de Bidones plasticos DPVC",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
-      "rut_organismo": "61.202.000-0",
-      "unidad_compra": "Direccion de Vialidad - VII Region - Provincia de Cauquenes",
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": 500000,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-09-28 11:26",
-      "fecha_cierre": "2026-10-01 10:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [],
-      "total_ofertas": 3,
-      "productos": [
-        {
-          "nombre": "Bidones para medir líquido",
-          "descripcion": "BIDONES PLASTICOS DE 60 LITROS,GRADO ALIMENTARIO CON LLAVE DE PASO.SEGUN SOLICITUD DE COMPRA",
-          "cantidad": 8,
-          "unidad": "EA",
-          "categoria": "41101515"
-        }
-      ],
-      "adjuntos": [],
-      "descripcion": "La Dirección Provincial Vialidad Cauquenes, requiere la compra de bidones plásticos de 60 litros,grado alimentario con llave de paso.",
-      "direccion_entrega": "CATEDRAL N° 640",
-      "plazo_entrega_dias": 5,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1851-21-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1851-21-COT26",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 67,
-      "ia": {
-        "v": true,
-        "s": 60,
-        "r": "Bidones plásticos 60L, producción viable, margen medio",
-        "t": 1790634963581
-      }
-    },
-    {
-      "codigo": "229-102-LE26",
-      "tipo": "licitacion",
-      "nombre": "REPUESTOS ENTRE OTROS PARA MANTENCIÓN DE VEHÍCULOS DE LA FLOTA MUNICIPAL",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "I MUNICIPALIDAD DE COIHUECO",
-      "rut_organismo": "69.141.100-1",
-      "unidad_compra": "Departamento de Administración y Finanzas",
-      "region": 16,
-      "region_nombre": "Ñuble",
-      "monto_clp": null,
-      "moneda": "CLP",
-      "fecha_publicacion": null,
-      "fecha_cierre": "2026-10-13 15:01:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [],
-      "total_ofertas": null,
-      "productos": [
-        {
-          "nombre": "Parachoques para automóviles",
-          "descripcion": "SUMINISTRO DE REPUESTOS PARA RETROEXCAVADORA CAT, SEGÚN BASES Y CON UN PRESUPUESTO DISPONIBLE DE: $5.000.000.- (impuestos incluidos).",
-          "cantidad": 1.0,
-          "unidad": "Global",
-          "categoria": "25172602"
-        },
-        {
-          "nombre": "Parachoques para automóviles",
-          "descripcion": "SUMINISTRO DE REPUESTOS PARA RETROEXCAVADORA KOMATSU, SEGÚN BASES Y UN PRESUPUESTO DISPONIBLE DE $5.000.000.- (impuestos incluidos).",
-          "cantidad": 1.0,
-          "unidad": "Global",
-          "categoria": "25172602"
-        },
-        {
-          "nombre": "Parachoques para automóviles",
-          "descripcion": "SUMINISTRO DE REPUESTOS PARA MOTOCILCETAS DE LA FLOTA MUNICIPAL, SEGÚN BASES Y UN PRESUPUESTO DISPONIBLE DE $3.000.000.- (impuestos incluidos).",
-          "cantidad": 1.0,
-          "unidad": "Global",
-          "categoria": "25172602"
-        }
-      ],
-      "adjuntos": [],
-      "descripcion": "REPUESTOS, ENTRE OTROS, PARA MANTENCIÓN DE VEHÍCULOS DE LA FLOTA MUNICIPAL, SEGÚN BASES ADJUNTAS.",
-      "direccion_entrega": null,
-      "plazo_entrega_dias": null,
-      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=229-102-LE26",
-      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=229-102-LE26",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 24,
-      "tipo_licitacion": "LE",
-      "ia": {
-        "v": true,
-        "s": 60,
-        "r": "Parachoques plásticos, repuestos automotrices viables",
-        "t": 1790181914497
-      }
-    },
-    {
       "codigo": "2211-1088-COT26",
       "tipo": "compra_agil",
       "nombre": "Sol. 476 Copa y Galvano DESARROLLO COMUNITARIO",
@@ -3061,9 +2871,208 @@
       "score_heuristico": 64,
       "ia": {
         "v": true,
+        "s": 60,
+        "r": "Trofeos, parcialmente 3D pero requieren galvano metal",
+        "t": 1790636385898
+      }
+    },
+    {
+      "codigo": "1137153-32-COT26",
+      "tipo": "compra_agil",
+      "nombre": "Galvanos – Proyecto Carén",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "UNIVERSIDAD DE CHILE",
+      "rut_organismo": "60.910.000-1",
+      "unidad_compra": "RECTORIA - PROGRAMA TRANSVERSAL DE EDUCACION",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 150000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-09-28 09:48",
+      "fecha_cierre": "2026-09-30 09:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "galvano"
+      ],
+      "total_ofertas": 4,
+      "productos": [
+        {
+          "nombre": "Galvanos",
+          "descripcion": "Galardones de Cristal con caja azul.\nMedida 15 x 13 cms\nSe entregará diseño de Logo a todo color.",
+          "cantidad": 4,
+          "unidad": "EA",
+          "categoria": "49101704"
+        }
+      ],
+      "adjuntos": [],
+      "descripcion": "Fondo de Participación CEP Carén 2026, en recoocimiento de los proyectos adjudicados, se entregan galvanos.",
+      "direccion_entrega": "av.grecia 3401, edificio Campus, piso 1",
+      "plazo_entrega_dias": 2,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1137153-32-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1137153-32-COT26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 47,
+      "ia": {
+        "v": true,
+        "s": 60,
+        "r": "4 galvanos reconocimiento proyectos",
+        "t": 1790636406322
+      }
+    },
+    {
+      "codigo": "229-102-LE26",
+      "tipo": "licitacion",
+      "nombre": "REPUESTOS ENTRE OTROS PARA MANTENCIÓN DE VEHÍCULOS DE LA FLOTA MUNICIPAL",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "I MUNICIPALIDAD DE COIHUECO",
+      "rut_organismo": "69.141.100-1",
+      "unidad_compra": "Departamento de Administración y Finanzas",
+      "region": 16,
+      "region_nombre": "Ñuble",
+      "monto_clp": null,
+      "moneda": "CLP",
+      "fecha_publicacion": null,
+      "fecha_cierre": "2026-10-13 15:01:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [
+        {
+          "nombre": "Parachoques para automóviles",
+          "descripcion": "SUMINISTRO DE REPUESTOS PARA RETROEXCAVADORA CAT, SEGÚN BASES Y CON UN PRESUPUESTO DISPONIBLE DE: $5.000.000.- (impuestos incluidos).",
+          "cantidad": 1.0,
+          "unidad": "Global",
+          "categoria": "25172602"
+        },
+        {
+          "nombre": "Parachoques para automóviles",
+          "descripcion": "SUMINISTRO DE REPUESTOS PARA RETROEXCAVADORA KOMATSU, SEGÚN BASES Y UN PRESUPUESTO DISPONIBLE DE $5.000.000.- (impuestos incluidos).",
+          "cantidad": 1.0,
+          "unidad": "Global",
+          "categoria": "25172602"
+        },
+        {
+          "nombre": "Parachoques para automóviles",
+          "descripcion": "SUMINISTRO DE REPUESTOS PARA MOTOCILCETAS DE LA FLOTA MUNICIPAL, SEGÚN BASES Y UN PRESUPUESTO DISPONIBLE DE $3.000.000.- (impuestos incluidos).",
+          "cantidad": 1.0,
+          "unidad": "Global",
+          "categoria": "25172602"
+        }
+      ],
+      "adjuntos": [],
+      "descripcion": "REPUESTOS, ENTRE OTROS, PARA MANTENCIÓN DE VEHÍCULOS DE LA FLOTA MUNICIPAL, SEGÚN BASES ADJUNTAS.",
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=229-102-LE26",
+      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=229-102-LE26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 24,
+      "tipo_licitacion": "LE",
+      "ia": {
+        "v": true,
+        "s": 60,
+        "r": "Parachoques plásticos, repuestos automotrices viables",
+        "t": 1790181914497
+      }
+    },
+    {
+      "codigo": "748891-191-COT26",
+      "tipo": "compra_agil",
+      "nombre": "ADQUISICIÓN DE PRODUCTOS ELABORADOS DE CUERO, CAUCHO Y PLASTICO.",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "I MUNICIPALIDAD DE CONCEPCION",
+      "rut_organismo": "69.150.400-k",
+      "unidad_compra": "DIRECCION MEDIO AMBIENTE",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 650000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-09-28 12:21",
+      "fecha_cierre": "2026-09-30 09:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": 1,
+      "productos": [
+        {
+          "nombre": "Pulverizadores",
+          "descripcion": "Detalles en archivo adjunto.",
+          "cantidad": 1,
+          "unidad": "GL",
+          "categoria": "21101802"
+        }
+      ],
+      "adjuntos": [],
+      "descripcion": "SE REQUIERE LA ADQUISICIÓN DE DIVERSOS INSUMOS DESTINADOS A FORTALECER LAS LABORES DE ORGANIZACIÓN, LIMPIEZA, SANITIZACIÓN Y MANEJO SEGURO DE ANIMALES \nEN EL CENTRO VETERINARIO MUNICIPAL.",
+      "direccion_entrega": "EJERCITO 1010 ",
+      "plazo_entrega_dias": 3,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=748891-191-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=748891-191-COT26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 64,
+      "ia": {
+        "v": true,
         "s": 55,
-        "r": "Trofeos plásticos, bajo monto pero producible",
-        "t": 1790634975893
+        "r": "Pulverizadores plástico, fabricable 3D bajo monto",
+        "t": 1790636385898
+      }
+    },
+    {
+      "codigo": "1019-148-COT26",
+      "tipo": "compra_agil",
+      "nombre": "Brazo soporte de escritorio doble para 2 monitores modelo GS-M08 o similar",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
+      "rut_organismo": "61.202.000-0",
+      "unidad_compra": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 800000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-09-28 08:58",
+      "fecha_cierre": "2026-10-02 10:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "modelo"
+      ],
+      "total_ofertas": 11,
+      "productos": [
+        {
+          "nombre": "Soportes para monitor",
+          "descripcion": "Características generales: Soporte para monitores LCD de 17\" a 32\" modelo GS-M08 o de similares características.\n\nObservación: Serán evaluadas las cotizaciones que incluyan imagen del producto ofrecido\n",
+          "cantidad": 20,
+          "unidad": "EA",
+          "categoria": "43212002"
+        }
+      ],
+      "adjuntos": [],
+      "descripcion": "Características generales: Soporte para monitores LCD de 17\" a 32\" modelo GS-M08 o de similares características.\n\nObservación: Serán evaluadas las cotizaciones que incluyan imagen del producto ofrecido.\n \nLas especificaciones en archivo adjunto",
+      "direccion_entrega": "Santa Rosa N°342, Santiago Centro",
+      "plazo_entrega_dias": 5,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1019-148-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1019-148-COT26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 59,
+      "ia": {
+        "v": true,
+        "s": 55,
+        "r": "Soportes de monitor plásticos, cantidad producible.",
+        "t": 1790636396787
       }
     },
     {
@@ -3140,6 +3149,96 @@
         "s": 50,
         "r": "Galvanos incluido, licitación amplia, presupuesto alto",
         "t": 1790449556064
+      }
+    },
+    {
+      "codigo": "4044-564-COT26",
+      "tipo": "compra_agil",
+      "nombre": "SERVICIO DISEÑO CONFECCION Y RESTAURACION DE LETREROS - SOLICITA DIRECCION DE MEDIO AMBIENTE",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "I MUNICIPALIDAD DE ISLA DE PASCUA",
+      "rut_organismo": "69.061.800-1",
+      "unidad_compra": "Adquisiciones",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 600000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-09-28 13:10",
+      "fecha_cierre": "2026-10-01 06:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": 1,
+      "productos": [
+        {
+          "nombre": "Letreros",
+          "descripcion": "CONFECCION Y MANO DE OBRA LETREROS - DETALLE ESPECIFICACION EN MEMORANDUM Nª96 DE MEDIO AMBIENTE",
+          "cantidad": 2,
+          "unidad": "EA",
+          "categoria": "55121727"
+        }
+      ],
+      "adjuntos": [],
+      "descripcion": "SERVICIO DISEÑO CONFECCION Y RESTAURACION DE LETREROS - DETALLES EN MEMO ADJUNTO Nª96 - SOLICITA DIRECCION DE MEDIO AMBIENTE - PRESUPUESTO CONTEMPLA PUESTO EN ISLA DE PASCUA",
+      "direccion_entrega": "ATAMU TEKENA S/N",
+      "plazo_entrega_dias": 3,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=4044-564-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=4044-564-COT26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 74,
+      "ia": {
+        "v": true,
+        "s": 45,
+        "r": "Letreros 3D pero requiere servicio diseño restauración",
+        "t": 1790636374708
+      }
+    },
+    {
+      "codigo": "3208-163-COT26",
+      "tipo": "compra_agil",
+      "nombre": "REPUESTOS Y MATERIALES DIVERSOS PARA GOBERNACIÓN MARÍTIMA",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "GOBERNACION MARITIMA DE IQUIQUE",
+      "rut_organismo": "61.102.083-K",
+      "unidad_compra": "GOBERNACION MARITIMA DE IQUIQUE",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 272308,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-09-28 14:00",
+      "fecha_cierre": "2026-09-30 09:10",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": 2,
+      "productos": [
+        {
+          "nombre": "Abrazaderas de montaje",
+          "descripcion": "DETALLE DE ELEMENTOS REQUERIDOS SE ENCUENTRA EN PLIEGO ADJUNTO. OFERTA DEBERÁ CONSIDERAR LA TOTALIDAD DE LOS ARTÍCULOS SEÑALADOS.",
+          "cantidad": 1,
+          "unidad": "000",
+          "categoria": "31162305"
+        }
+      ],
+      "adjuntos": [],
+      "descripcion": "SEGÚN PLIEGO DE CONDICIONES ADJUNTO",
+      "direccion_entrega": "JORGE BARRERA 98",
+      "plazo_entrega_dias": 5,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=3208-163-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=3208-163-COT26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 64,
+      "ia": {
+        "v": true,
+        "s": 45,
+        "r": "Abrazaderas montaje, producible 3D pero bajo monto",
+        "t": 1790636385898
       }
     },
     {
@@ -3282,6 +3381,126 @@
       }
     },
     {
+      "codigo": "5424-138-COT26",
+      "tipo": "compra_agil",
+      "nombre": "Adquisición de artículos de limpieza y organización",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "UNIVERSIDAD DE CHILE",
+      "rut_organismo": "60.910.000-1",
+      "unidad_compra": "VAEC Dirección de Salud Estudiantil UCH",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 320000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-09-28 12:22",
+      "fecha_cierre": "2026-09-30 16:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": 3,
+      "productos": [
+        {
+          "nombre": "Bolsas de basura",
+          "descripcion": "Basurero gris con tapa 25 litros,  Alto: 50 cm",
+          "cantidad": 15,
+          "unidad": "EA",
+          "categoria": "47121701"
+        },
+        {
+          "nombre": "Cubiertas y cajas de plástico",
+          "descripcion": "Caja organizadora plástica de 6 litros",
+          "cantidad": 15,
+          "unidad": "EA",
+          "categoria": "31261501"
+        },
+        {
+          "nombre": "Cubiertas y cajas de plástico",
+          "descripcion": "Caja organizadora plástica de 27 litros",
+          "cantidad": 15,
+          "unidad": "EA",
+          "categoria": "31261501"
+        },
+        {
+          "nombre": "Escobillones",
+          "descripcion": "Escobillón plástico virutex o equivalente",
+          "cantidad": 10,
+          "unidad": "EA",
+          "categoria": "47131615"
+        }
+      ],
+      "adjuntos": [],
+      "descripcion": "Se requiere Basurero gris con tapa 25 litros Alto 50 cm, Caja organizadora plástica de 6 litros, Caja organizadora plástica de 27 litros, Escobillón plástico virutex o equivalente. Se deberá ofertar por la totalidad de los productos solicitados. No se aceptarán ofertas con entregas parciales, postular sólo con disponibilidad de stock. Ver adjunto\n",
+      "direccion_entrega": "Av. La Paz 1002",
+      "plazo_entrega_dias": 3,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=5424-138-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=5424-138-COT26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 57,
+      "ia": {
+        "v": true,
+        "s": 40,
+        "r": "Organizadores plásticos imprimibles, monto bajo.",
+        "t": 1790636396787
+      }
+    },
+    {
+      "codigo": "1357605-130-COT26",
+      "tipo": "compra_agil",
+      "nombre": "ARTICULOS VARIOS PARA AREAS DE LA CCA",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "Corporación Cultural de Antofagasta",
+      "rut_organismo": "71.186.200-5",
+      "unidad_compra": "Corporación Cultural de Antofagasta",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 1850000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-09-28 17:59",
+      "fecha_cierre": "2026-09-30 15:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "modelo"
+      ],
+      "total_ofertas": 2,
+      "productos": [
+        {
+          "nombre": "Sillas para trabajar",
+          "descripcion": "Se solicita 01 silla cajero modelo genova o similar , 01 kardex cajonera metalica 04 cajones con rieles y sistema antivuelco y llaves,  VER Y PRESENTAR ANEXO OBLIGATORIO, SE MEDIRA CALIDAD, ENTREGA , PRECIO , PROVEEDOR LOCAL ; MONTO TOTAL DISPONIBLE $1.850.000 CLP, SOLO SE ACEPTARAN OFERTAS POR LA TOTALIDAD DE LOS ARTICULOS, NO OFERTA PARCIALES  ",
+          "cantidad": 1,
+          "unidad": "GL",
+          "categoria": "56112102"
+        },
+        {
+          "nombre": "Mesas",
+          "descripcion": "Se SOLICITA 30 sillas plegables negra 87x46x53cm , 10 mesa plegable 1.8x0.75cm , 10 mantel spandex negro, VER Y PRESENTAR ANEXO OBLIGATORIO, SE MEDIRA CALIDAD, ENTREGA , PRECIO , PROVEEDOR LOCAL ; MONTO TOTAL DISPONIBLE $1.850.000 CLP, SOLO SE ACEPTARAN OFERTAS POR LA TOTALIDAD DE LOS ARTICULOS, NO OFERTA PARCIALES  ",
+          "cantidad": 1,
+          "unidad": "GL",
+          "categoria": "56101519"
+        }
+      ],
+      "adjuntos": [],
+      "descripcion": "Se solicita 01 silla cajero modelo genova o similar , 01 kardex cajonera metalica 04 cajones con rieles y sistema antivuelco y llaves, 30 sillas plegables negra 87x46x53cm , 10 mesa plegable 1.8x0.75cm , 10 mantel spandex negro, VER Y PRESENTAR ANEXO OBLIGATORIO, SE MEDIRA CALIDAD, ENTREGA , PRECIO , PROVEEDOR LOCAL ; MONTO TOTAL DISPONIBLE $1.850.000 CLP, SOLO SE ACEPTARAN OFERTAS POR LA TOTALIDAD DE LOS ARTICULOS, NO OFERTA PARCIALES  ",
+      "direccion_entrega": "Jose Antonio Sucre #433",
+      "plazo_entrega_dias": 7,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1357605-130-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1357605-130-COT26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 64,
+      "ia": {
+        "v": true,
+        "s": 35,
+        "r": "Sillas y mesas parcialmente imprimibles, complejidad baja.",
+        "t": 1790636396787
+      }
+    },
+    {
       "codigo": "4193-309-COT26",
       "tipo": "compra_agil",
       "nombre": "Repuesto Ecógrafo + UPS.",
@@ -3417,8 +3636,8 @@
       "ia": {
         "v": false,
         "s": 0,
-        "r": "Repuesto electrónico médico especializado, no plástico imprimible",
-        "t": 1790634963581
+        "r": "Repuesto electrónico/metálico equipo médico especializado",
+        "t": 1790636374708
       }
     },
     {
@@ -3464,8 +3683,8 @@
       "ia": {
         "v": false,
         "s": 0,
-        "r": "Mantenimiento especializado equipo médico requiere representación marca",
-        "t": 1790634963581
+        "r": "Servicio mantenimiento equipo médico marca restringida",
+        "t": 1790636374708
       }
     },
     {
@@ -3556,8 +3775,8 @@
       "ia": {
         "v": false,
         "s": 0,
-        "r": "Señalética requiere material reflectante aluminio, no es plástico FDM",
-        "t": 1790634963581
+        "r": "Señalética reflectante alta intensidad requiere especiales",
+        "t": 1790636374708
       }
     },
     {
@@ -3603,8 +3822,8 @@
       "ia": {
         "v": false,
         "s": 0,
-        "r": "Máquina generadora neblina, electrónica terminada no viable",
-        "t": 1790634963581
+        "r": "Máquina humo/hazer equipo electrónico terminado",
+        "t": 1790636374708
       }
     },
     {
@@ -3648,8 +3867,8 @@
       "ia": {
         "v": false,
         "s": 0,
-        "r": "Señales tránsito requieren material estándar, poco margen",
-        "t": 1790634963581
+        "r": "Señales tránsito requieren normativas reflectancia especiales",
+        "t": 1790636374708
       }
     },
     {
@@ -3693,8 +3912,8 @@
       "ia": {
         "v": false,
         "s": 0,
-        "r": "Servicio limpieza edificios, completamente fuera alcance",
-        "t": 1790634963581
+        "r": "Servicio limpieza bodegas no manufactura 3D",
+        "t": 1790636374708
       }
     },
     {
@@ -3745,8 +3964,8 @@
       "ia": {
         "v": false,
         "s": 0,
-        "r": "Adaptadores médicos Medtronic especializados, no compatible",
-        "t": 1790634963581
+        "r": "Adaptadores marca Medtronic equipo médico restringido",
+        "t": 1790636374708
       }
     },
     {
@@ -4281,8 +4500,8 @@
       "ia": {
         "v": false,
         "s": 0,
-        "r": "Reparación monitor médico Philips, electrónica especializada",
-        "t": 1790634963581
+        "r": "Servicio reparación equipo monitoreo electrónico Philips",
+        "t": 1790636374708
       }
     },
     {
@@ -4517,6 +4736,51 @@
       "recuperado_corrida_anterior": true
     },
     {
+      "codigo": "1851-21-COT26",
+      "tipo": "compra_agil",
+      "nombre": "Adquisiciones de Bidones plasticos DPVC",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
+      "rut_organismo": "61.202.000-0",
+      "unidad_compra": "Direccion de Vialidad - VII Region - Provincia de Cauquenes",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 500000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-09-28 11:26",
+      "fecha_cierre": "2026-10-01 10:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": 3,
+      "productos": [
+        {
+          "nombre": "Bidones para medir líquido",
+          "descripcion": "BIDONES PLASTICOS DE 60 LITROS,GRADO ALIMENTARIO CON LLAVE DE PASO.SEGUN SOLICITUD DE COMPRA",
+          "cantidad": 8,
+          "unidad": "EA",
+          "categoria": "41101515"
+        }
+      ],
+      "adjuntos": [],
+      "descripcion": "La Dirección Provincial Vialidad Cauquenes, requiere la compra de bidones plásticos de 60 litros,grado alimentario con llave de paso.",
+      "direccion_entrega": "CATEDRAL N° 640",
+      "plazo_entrega_dias": 5,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1851-21-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1851-21-COT26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 67,
+      "ia": {
+        "v": false,
+        "s": 0,
+        "r": "Bidones plásticos requieren grado alimentario moldeado",
+        "t": 1790636374708
+      }
+    },
+    {
       "codigo": "2859-1031-COT26",
       "tipo": "compra_agil",
       "nombre": "ADQUISICION DE ESCANER 3D MOVIL",
@@ -4559,8 +4823,8 @@
       "ia": {
         "v": false,
         "s": 0,
-        "r": "Escáner 3D móvil, electrónica terminada compleja",
-        "t": 1790634963581
+        "r": "Escáner 3D equipo electrónico terminado software",
+        "t": 1790636374708
       }
     },
     {
@@ -4710,6 +4974,403 @@
       }
     },
     {
+      "codigo": "4548-587-COT26",
+      "tipo": "compra_agil",
+      "nombre": "TALLER MECANICO-MANTENCION 50.00KM, COMPRA DE REPUESTO Y MANO DE OBRA PARA MOVIL DE SEGURIDAD PUBLICA PPU TWST-86",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "I MUNICIPALIDAD DE QUINTERO",
+      "rut_organismo": "69.060.700-k",
+      "unidad_compra": "UNIDAD NORMAL",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 287669,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-09-28 17:17",
+      "fecha_cierre": "2026-09-30 10:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": 0,
+      "productos": [
+        {
+          "nombre": "Lubricantes de uso general",
+          "descripcion": "SE ADJUNTA ET",
+          "cantidad": 1,
+          "unidad": "EA",
+          "categoria": "15121520"
+        }
+      ],
+      "adjuntos": [],
+      "descripcion": "TALLER MECANICO-MANTENCION 50.00KM, COMPRA DE REPUESTO Y MANO DE OBRA PARA MOVIL DE SEGURIDAD PUBLICA PPU TWST-86 CORREALTIVO 689",
+      "direccion_entrega": "AV. NORMANDIE 1916",
+      "plazo_entrega_dias": 2,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=4548-587-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=4548-587-COT26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 64,
+      "ia": {
+        "v": false,
+        "s": 0,
+        "r": "Lubricantes químicos no manufactura impresión 3D",
+        "t": 1790636374708
+      }
+    },
+    {
+      "codigo": "2724-842-COT26",
+      "tipo": "compra_agil",
+      "nombre": "SERVICIO DE ROTULACIÓN INSTITUCIONAL PARA DOS VEHICULOS ADQUIRIDOS PARA SEGURIDAD PUBLICA",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "ILUSTRE MUNICIPALIDAD DE SAN CARLOS",
+      "rut_organismo": "69.140.500-1",
+      "unidad_compra": " COMPRAS Y CONTRATACIONES MUNICIPALES",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 3451000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-09-28 17:15",
+      "fecha_cierre": "2026-09-30 10:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "modelo"
+      ],
+      "total_ofertas": 2,
+      "productos": [
+        {
+          "nombre": "Impresión de publicaciones",
+          "descripcion": "Provisión y aplicación de ploteo vehicular institucional para dos camionetas marca MAXUS, modelo T60 4X4 DX PLUS 6MT, de la Direccion de Seguridad Publica. CONFORME A LAS ESPECIFICACIONES TECNICAS ADJUNTAS.",
+          "cantidad": 2,
+          "unidad": "EA",
+          "categoria": "82121506"
+        }
+      ],
+      "adjuntos": [],
+      "descripcion": "Provisión e instalacion del servicio de rotulación institucional vehicular para 2 camionetas marca MAXUS, modelo T60 4X4 DX PLUS 6MT, destinadas a labores de patrullaje preventivo y seguridad pública municipal, conforme a las especificaciones tecnicas adjuntas.",
+      "direccion_entrega": "a convenir",
+      "plazo_entrega_dias": 3,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=2724-842-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=2724-842-COT26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 64,
+      "ia": {
+        "v": false,
+        "s": 0,
+        "r": "Rotulación vehicular impresión papel vinyl, no 3D",
+        "t": 1790636374708
+      }
+    },
+    {
+      "codigo": "4548-586-COT26",
+      "tipo": "compra_agil",
+      "nombre": "TALLER MECANICO-COMPRAE REPUESTO PARA RETROEXCAVADORA PPU HPBY-51",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "I MUNICIPALIDAD DE QUINTERO",
+      "rut_organismo": "69.060.700-k",
+      "unidad_compra": "UNIDAD NORMAL",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 529550,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-09-28 17:12",
+      "fecha_cierre": "2026-09-30 09:30",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": 1,
+      "productos": [
+        {
+          "nombre": "Sistema control temperatura vehículo",
+          "descripcion": "SE ADJUNTA ET",
+          "cantidad": 1,
+          "unidad": "EA",
+          "categoria": "25172704"
+        }
+      ],
+      "adjuntos": [],
+      "descripcion": "TALLER MECANICO-COMPRAE REPUESTO PARA RETROEXCAVADORA PPU HPBY-51 CORRELATIVO 684",
+      "direccion_entrega": "AV. NORMANDIE 1916",
+      "plazo_entrega_dias": 2,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=4548-586-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=4548-586-COT26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 64,
+      "ia": {
+        "v": false,
+        "s": 0,
+        "r": "Repuesto retroexcavadora metal mecánico especializado",
+        "t": 1790636374708
+      }
+    },
+    {
+      "codigo": "2458-142-COT26",
+      "tipo": "compra_agil",
+      "nombre": "REPUESTO CHEV. D/MAX 1241*",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "I MUNICIPALIDAD DE PROVIDENCIA",
+      "rut_organismo": "69.070.300-9",
+      "unidad_compra": "Dirección de Aseo Ornato y Mantencion",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 2100000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-09-28 17:00",
+      "fecha_cierre": "2026-09-30 15:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": 1,
+      "productos": [
+        {
+          "nombre": "Alternadores",
+          "descripcion": "ALTERNADOR 12V 90 AMP REPTO GENUINO COD.8982296710",
+          "cantidad": 2,
+          "unidad": "EA",
+          "categoria": "26101615"
+        },
+        {
+          "nombre": "Bocina de vehículo",
+          "descripcion": "VALVULA  EGR  REPTO GENUINO COD.8980139111",
+          "cantidad": 2,
+          "unidad": "EA",
+          "categoria": "25172110"
+        }
+      ],
+      "adjuntos": [],
+      "descripcion": "\n1.- cotizar repuestos genuinos en caja GM, para CHEVROLET D-MAX\t2014 LC7401\tMPATFR86HET001009 2.- indicar en su oferta reptos GM y plazo de entrega con despacho incluido.  3.- proveedor adjudicado: enviar con guía despacho productos se chequea lo solicitado, si está conforme y se cambia estado o/c a recepción conforme y se enviara cód. Hes para su facturación. (sin este código no puede facturar)\n",
+      "direccion_entrega": "CAUPOLICAN  n°1151",
+      "plazo_entrega_dias": 2,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=2458-142-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=2458-142-COT26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 64,
+      "ia": {
+        "v": false,
+        "s": 0,
+        "r": "Repuestos Chevrolet alternador bocina metal no 3D",
+        "t": 1790636374708
+      }
+    },
+    {
+      "codigo": "4548-585-COT26",
+      "tipo": "compra_agil",
+      "nombre": "TALLER MECANICO-COMPRA DE REPUESTO PARA MINICARGADORES PPU FLSZ-45 Y LHTK-10",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "I MUNICIPALIDAD DE QUINTERO",
+      "rut_organismo": "69.060.700-k",
+      "unidad_compra": "UNIDAD NORMAL",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 403149,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-09-28 16:59",
+      "fecha_cierre": "2026-09-30 09:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": 1,
+      "productos": [
+        {
+          "nombre": "Tuercas giratorias",
+          "descripcion": "SE ADJUNTA ET",
+          "cantidad": 20,
+          "unidad": "EA",
+          "categoria": "31161719"
+        },
+        {
+          "nombre": "Pernos de cabeza hexagonal",
+          "descripcion": "SE ADJUNTA ET",
+          "cantidad": 20,
+          "unidad": "EA",
+          "categoria": "31161620"
+        }
+      ],
+      "adjuntos": [],
+      "descripcion": "TALLER MECANICO-COMPRA DE REPUESTO PARA MINICARGADORES PPU FLSZ-45 Y LHTK-10 CORRELATIVO 670",
+      "direccion_entrega": "AV. NORMANDIE 1916",
+      "plazo_entrega_dias": 2,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=4548-585-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=4548-585-COT26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 64,
+      "ia": {
+        "v": false,
+        "s": 0,
+        "r": "Tuercas pernos metal requieren tolerancias precisas",
+        "t": 1790636374708
+      }
+    },
+    {
+      "codigo": "2281-1715-COT26",
+      "tipo": "compra_agil",
+      "nombre": "ADQUISICIÓN DE QUIMICOS DE LIMPIEZA PARA PLANTA DE TRATAMIENTO, DEPTO TERRITORIAL DE LA COSTA",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "I MUNICIPALIDAD VALDIVIA",
+      "rut_organismo": "69.200.100-1",
+      "unidad_compra": "UNIDAD ADQUISICIONES MUNICIPAL VALDIVIA",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 1700000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-09-28 16:59",
+      "fecha_cierre": "2026-09-30 11:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": 1,
+      "productos": [
+        {
+          "nombre": "Cloro Cl",
+          "descripcion": "BIDONES DE HIPOCLORITO AL 10% DE 20 LTS, ADJUNTAR FICHA TÉCNICA ",
+          "cantidad": 40,
+          "unidad": "BD",
+          "categoria": "12141901"
+        },
+        {
+          "nombre": "Productos químicos para el control de olores",
+          "descripcion": "NEUTRALIZADOR DE OLORES PARA PLANTA DE TRATAMIENTO SIMILAR AL BIO 25, ADJUNTAR FICHA TÉCNICA",
+          "cantidad": 140,
+          "unidad": "LTR",
+          "categoria": "47101607"
+        },
+        {
+          "nombre": "Compuestos para ablandamiento de agua",
+          "descripcion": "BACTERIAS AGUAS SERVIDAS SIMILAR AL BIO 10, ADJUNTAR FICHA TÉCNICA",
+          "cantidad": 50,
+          "unidad": "KGM",
+          "categoria": "47101610"
+        }
+      ],
+      "adjuntos": [],
+      "descripcion": "SE REQUIERE PARA LA PLANTA DE TRATAMIENTO DE AGUAS SERVIDAS DE NIEBLA, BIDONES DE HIPOCLORITO AL 10%, BACTERIAS DE AGUAS SERVIDAS SIMILAR AL BIO 10, NEUTRALIZADOR DE OLORES SIMILAR AL BIO 25, DEBEN DE ADJUNTAR COTIZACIÓN, INCLUIR I.V.A, CONSIDERAR DESPACHO A CALLE DEL CASTILLO 980, NIEBLA VALDIVIA, SE ADJUNTAN TERMINOS REFERENCIALES",
+      "direccion_entrega": "DEL CASTILLO 980, NIEBLA, VALDIVIA",
+      "plazo_entrega_dias": 7,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=2281-1715-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=2281-1715-COT26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 64,
+      "ia": {
+        "v": false,
+        "s": 0,
+        "r": "Químicos limpieza hipoclorito bacterias no manufactura",
+        "t": 1790636374708
+      }
+    },
+    {
+      "codigo": "1011254-481-COT26",
+      "tipo": "compra_agil",
+      "nombre": "REPUESTO PARA ELECTROCARDIOGRAFO MINDRAY",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "SERVICIO DE SALUD COQUIMBO HOSPITAL DE COQUIMBO",
+      "rut_organismo": "61.606.403-7",
+      "unidad_compra": "Obras y Mantenimientos",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 400000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-09-28 16:58",
+      "fecha_cierre": "2026-09-30 12:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": 0,
+      "productos": [
+        {
+          "nombre": "Servicio de reparación de equipo de fabricación",
+          "descripcion": "ADQUISICION DE CABEZAL IMPRESION TERMICA 8 PUNTOS 72MM,60MM/ SEG, CABLE FPC ORIGINAL",
+          "cantidad": 1,
+          "unidad": "EA",
+          "categoria": "73152102"
+        }
+      ],
+      "adjuntos": [],
+      "descripcion": "\nPara que su oferta sea revisada, ud debe ADJUNTAR la cotización, con una imagen de todos los productos, los precios , el tiempo de despacho y envio, ademas de un numero de contacto, mail para coordinacion en caso de eleccion. POR FAVOR REVISAR IMÁGENES Y/O DOCUMENTOS ADJUNTOS SI ASI CORRESPONDE. FAVOR DE ADJUNTAR PROPUESTA EN UN SOLO DOCUMENTO SI ES POSIBLE",
+      "direccion_entrega": " Avda Videla sin número, sector Bodega de Economato (referencia Dario Salas/W. Churchill). Horario de 8:30 a 14:00",
+      "plazo_entrega_dias": 2,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1011254-481-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1011254-481-COT26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 64,
+      "ia": {
+        "v": false,
+        "s": 0,
+        "r": "Repuesto electrocardiografo electrónico equipo médico",
+        "t": 1790636374708
+      }
+    },
+    {
+      "codigo": "3065-28-COT26",
+      "tipo": "compra_agil",
+      "nombre": "REPUESTOS / ACCESORIOS PARA MAQUINAS DE CARPINTERÍA",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "Comandancia Aviación Naval",
+      "rut_organismo": "61.102.012-0",
+      "unidad_compra": "COMANDANCIA AVIACION NAVAL",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 150000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-09-28 16:43",
+      "fecha_cierre": "2026-10-01 09:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": 1,
+      "productos": [
+        {
+          "nombre": "Hojas de cuchillo",
+          "descripcion": "CUCHILLO CEPILLO 306 MM Y 2 MM MINI HSS DOBLE FILO",
+          "cantidad": 1,
+          "unidad": "EA",
+          "categoria": "27111501"
+        },
+        {
+          "nombre": "Hojas de sierra",
+          "descripcion": "DISCO SIERRA 10 - 1/4\" (260 X 25,4 MM X 100 DTE)",
+          "cantidad": 1,
+          "unidad": "EA",
+          "categoria": "27112802"
+        }
+      ],
+      "adjuntos": [],
+      "descripcion": "La Comandancia de la Aviación Naval requiere adquirir repuestos / accesorios para máquinas de carpintería para mantención de oficina de acuerdo a archivo adjunto \"Términos de referencia\"",
+      "direccion_entrega": "CAMINO INTERNACIONAL S/N TORQUEMADA, BASE AERONAVAL CONCÓN",
+      "plazo_entrega_dias": 1,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=3065-28-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=3065-28-COT26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 64,
+      "ia": {
+        "v": false,
+        "s": 0,
+        "r": "Hojas cuchillo sierra metal alto rendimiento especializado",
+        "t": 1790636374708
+      }
+    },
+    {
       "codigo": "3073-318-COT26",
       "tipo": "compra_agil",
       "nombre": "MANTENCIÓN 30.000 KM VEHÍCULO INSTITUCIONAL",
@@ -4752,8 +5413,8 @@
       "ia": {
         "v": false,
         "s": 0,
-        "r": "Mantenimiento vehículo, servicio especializado automotriz",
-        "t": 1790634963581
+        "r": "Mantenimiento vehículo servicio mecánico autorizado",
+        "t": 1790636374708
       }
     },
     {
@@ -4797,8 +5458,8 @@
       "ia": {
         "v": false,
         "s": 0,
-        "r": "Repuestos compresor industrial, metálicos no imprimibles",
-        "t": 1790634963581
+        "r": "Repuestos metálicos compresor, no fabricables 3D",
+        "t": 1790636385898
       }
     },
     {
@@ -4842,8 +5503,8 @@
       "ia": {
         "v": false,
         "s": 0,
-        "r": "Kits frenos vehículos, componentes especializados mecánicos",
-        "t": 1790634963581
+        "r": "Kits frenos requieren metal, elastómeros específicos",
+        "t": 1790636385898
       }
     },
     {
@@ -4889,8 +5550,8 @@
       "ia": {
         "v": false,
         "s": 0,
-        "r": "Leña astillas madera, material natural no fabricable 3D",
-        "t": 1790634963581
+        "r": "Leña/astillas madera, material natural no 3D",
+        "t": 1790636385898
       }
     },
     {
@@ -4934,8 +5595,8 @@
       "ia": {
         "v": false,
         "s": 0,
-        "r": "Uniformes cheerleader textil, no compatible con 3D",
-        "t": 1790634963581
+        "r": "Prendas textiles, fuera alcance fabricación 3D",
+        "t": 1790636385898
       }
     },
     {
@@ -4979,8 +5640,8 @@
       "ia": {
         "v": false,
         "s": 0,
-        "r": "Grilletes metálicos boya, componentes marinos especializados",
-        "t": 1790634963581
+        "r": "Grilletes metálicos, requiere metal forjado",
+        "t": 1790636385898
       }
     },
     {
@@ -5004,6 +5665,13 @@
       "productos": [
         {
           "nombre": "Cabezales de impresora",
+          "descripcion": "Cabezales de color Canon CH-1 (o equivalente técnico de igual rendimiento).",
+          "cantidad": 5,
+          "unidad": "EA",
+          "categoria": "44103110"
+        },
+        {
+          "nombre": "Cabezales de impresora",
           "descripcion": "Cabezales negros Canon BH-1 (o equivalente técnico de igual rendimiento). ",
           "cantidad": 5,
           "unidad": "EA",
@@ -5022,13 +5690,6 @@
           "cantidad": 5,
           "unidad": "EA",
           "categoria": "44121905"
-        },
-        {
-          "nombre": "Cabezales de impresora",
-          "descripcion": "Cabezales de color Canon CH-1 (o equivalente técnico de igual rendimiento).",
-          "cantidad": 5,
-          "unidad": "EA",
-          "categoria": "44103110"
         }
       ],
       "adjuntos": [],
@@ -5045,53 +5706,8 @@
       "ia": {
         "v": false,
         "s": 0,
-        "r": "Repuestos impresoras Canon, electrónica y componentes especializados",
-        "t": 1790634963581
-      }
-    },
-    {
-      "codigo": "3208-163-COT26",
-      "tipo": "compra_agil",
-      "nombre": "REPUESTOS Y MATERIALES DIVERSOS PARA GOBERNACIÓN MARÍTIMA",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "GOBERNACION MARITIMA DE IQUIQUE",
-      "rut_organismo": "61.102.083-K",
-      "unidad_compra": "GOBERNACION MARITIMA DE IQUIQUE",
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": 272308,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-09-28 14:00",
-      "fecha_cierre": "2026-09-30 09:10",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [],
-      "total_ofertas": 2,
-      "productos": [
-        {
-          "nombre": "Abrazaderas de montaje",
-          "descripcion": "DETALLE DE ELEMENTOS REQUERIDOS SE ENCUENTRA EN PLIEGO ADJUNTO. OFERTA DEBERÁ CONSIDERAR LA TOTALIDAD DE LOS ARTÍCULOS SEÑALADOS.",
-          "cantidad": 1,
-          "unidad": "000",
-          "categoria": "31162305"
-        }
-      ],
-      "adjuntos": [],
-      "descripcion": "SEGÚN PLIEGO DE CONDICIONES ADJUNTO",
-      "direccion_entrega": "JORGE BARRERA 98",
-      "plazo_entrega_dias": 5,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=3208-163-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=3208-163-COT26",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 64,
-      "ia": {
-        "v": false,
-        "s": 0,
-        "r": "Abrazaderas montaje marítimas, metálicas especializadas",
-        "t": 1790634963581
+        "r": "Repuestos impresora Canon originales específicos",
+        "t": 1790636385898
       }
     },
     {
@@ -5142,8 +5758,8 @@
       "ia": {
         "v": false,
         "s": 0,
-        "r": "Resina y siliconas químicas, materiales consumibles no viables",
-        "t": 1790634963581
+        "r": "Resina/siliconas químicas, no fabricación 3D",
+        "t": 1790636385898
       }
     },
     {
@@ -5187,8 +5803,8 @@
       "ia": {
         "v": false,
         "s": 0,
-        "r": "Servicio limpieza espacios públicos, completamente fuera alcance",
-        "t": 1790634963581
+        "r": "Servicio limpieza, no es producto manufacturado",
+        "t": 1790636385898
       }
     },
     {
@@ -5234,8 +5850,53 @@
       "ia": {
         "v": false,
         "s": 0,
-        "r": "Cable fibra óptica electrónica terminada, no fabricable",
-        "t": 1790634975893
+        "r": "Cable fibra óptica médico, componente electrónico",
+        "t": 1790636385898
+      }
+    },
+    {
+      "codigo": "2045-125-COT26",
+      "tipo": "compra_agil",
+      "nombre": "Termoplástico liso",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "SERVICIO DE SALUD DEL MAULE HOSPITAL DE CUREPTO",
+      "rut_organismo": "61.606.910-1",
+      "unidad_compra": "Hospital de Curepto",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 160000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-09-28 12:56",
+      "fecha_cierre": "2026-10-01 10:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": 1,
+      "productos": [
+        {
+          "nombre": "Termoplástico",
+          "descripcion": "Termoplástico liso similar o equivalente yabin medical 3.2 mm, permite la creación de órtesis para las diferentes necesidades del usuario, medida 60cm x 90cm, color blanco.\n\n",
+          "cantidad": 2,
+          "unidad": "EA",
+          "categoria": "13101723"
+        }
+      ],
+      "adjuntos": [],
+      "descripcion": "El Hospital de Curepto requiere la compra de Termoplástico liso. Se deben adjuntar imágenes de referencia y ficha técnica de los productos, el costo del flete debe ir incluido en el precio del producto.\nProveedor debe encontrarse hábil en Chile Proveedores, adjuntar: declaración jurada de habilidad, datos para transferencia, email y teléfono.\n",
+      "direccion_entrega": "Pedro Antonio González N° 24",
+      "plazo_entrega_dias": 3,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=2045-125-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=2045-125-COT26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 64,
+      "ia": {
+        "v": false,
+        "s": 0,
+        "r": "Termoplástico liso, material químico semiacabado",
+        "t": 1790636385898
       }
     },
     {
@@ -5288,8 +5949,8 @@
       "ia": {
         "v": false,
         "s": 0,
-        "r": "Impresión papelería, no es impresión 3D",
-        "t": 1790634975893
+        "r": "Impresión papelería formularios, imprenta no 3D",
+        "t": 1790636385898
       }
     },
     {
@@ -5333,8 +5994,8 @@
       "ia": {
         "v": false,
         "s": 0,
-        "r": "Servicio gasfitería, no fabricación",
-        "t": 1790634975893
+        "r": "Servicio gasfitería, no es producto manufacturado",
+        "t": 1790636385898
       }
     },
     {
@@ -5431,8 +6092,8 @@
       "ia": {
         "v": false,
         "s": 0,
-        "r": "Repuestos ascensores, electromecánica compleja",
-        "t": 1790634975893
+        "r": "Ascensores repuestos, electromecánica especializada",
+        "t": 1790636385898
       }
     },
     {
@@ -5478,8 +6139,8 @@
       "ia": {
         "v": false,
         "s": 0,
-        "r": "Pines metálicos personalizados, requiere metalurgia",
-        "t": 1790634975893
+        "r": "Pines metálicos personalizados relieve, requiere metal",
+        "t": 1790636385898
       }
     },
     {
@@ -5525,8 +6186,8 @@
       "ia": {
         "v": false,
         "s": 0,
-        "r": "Ventilador mecánico, equipo electrónico complejo",
-        "t": 1790634975893
+        "r": "Ventilador médico, equipo electrónico especializado",
+        "t": 1790636385898
       }
     },
     {
@@ -5675,8 +6336,8 @@
       "ia": {
         "v": false,
         "s": 0,
-        "r": "Repuestos textil, aceites, químicos, no 3D",
-        "t": 1790634975893
+        "r": "Aceites siliconas químicas, no fabricables 3D",
+        "t": 1790636385898
       }
     },
     {
@@ -5722,8 +6383,8 @@
       "ia": {
         "v": false,
         "s": 0,
-        "r": "Reparación vehícular, servicio mecánico",
-        "t": 1790634975893
+        "r": "Reparación vehículo, servicio no producto 3D",
+        "t": 1790636385898
       }
     },
     {
@@ -5823,8 +6484,8 @@
       "ia": {
         "v": false,
         "s": 0,
-        "r": "Repuestos motor marino, metalurgia especializada",
-        "t": 1790634975893
+        "r": "Repuestos motor marino, metales/sellos especializados",
+        "t": 1790636385898
       }
     },
     {
@@ -5868,8 +6529,8 @@
       "ia": {
         "v": false,
         "s": 0,
-        "r": "Bomba centrífuga, equipo mecánico complejo",
-        "t": 1790634975893
+        "r": "Bomba centrífuga, equipo mecánico especializado",
+        "t": 1790636385898
       }
     },
     {
@@ -5913,8 +6574,8 @@
       "ia": {
         "v": false,
         "s": 0,
-        "r": "Placa acero inoxidable fotograbado, no 3D",
-        "t": 1790634975893
+        "r": "Placa acero inoxidable fotograbado, metalurgia no 3D",
+        "t": 1790636385898
       }
     },
     {
@@ -5958,8 +6619,8 @@
       "ia": {
         "v": false,
         "s": 0,
-        "r": "Controlador electrónico ventilador, no fabricable",
-        "t": 1790634975893
+        "r": "Servicio de reparación, no fabricación de repuestos.",
+        "t": 1790636396787
       }
     },
     {
@@ -6017,8 +6678,8 @@
       "ia": {
         "v": false,
         "s": 0,
-        "r": "Tubos fluorescentes iluminación, no 3D",
-        "t": 1790634975893
+        "r": "Tubos fluorescentes y electrónica, no imprimibles 3D.",
+        "t": 1790636396787
       }
     },
     {
@@ -6062,8 +6723,8 @@
       "ia": {
         "v": false,
         "s": 0,
-        "r": "Alimentos, fuera scope negocio",
-        "t": 1790634975893
+        "r": "Alimentos, fuera de alcance de impresión 3D.",
+        "t": 1790636396787
       }
     },
     {
@@ -6109,8 +6770,8 @@
       "ia": {
         "v": false,
         "s": 0,
-        "r": "Mesa quirúrgica, equipo médico complejo",
-        "t": 1790634975893
+        "r": "Servicio de mantenimiento, no fabricación.",
+        "t": 1790636396787
       }
     },
     {
@@ -6154,8 +6815,8 @@
       "ia": {
         "v": false,
         "s": 0,
-        "r": "Sutura médica, dispositivo sanitario especializado",
-        "t": 1790634975893
+        "r": "Suturas médicas, material especializado no imprimible.",
+        "t": 1790636396787
       }
     },
     {
@@ -6199,8 +6860,8 @@
       "ia": {
         "v": false,
         "s": 0,
-        "r": "Sutura médica, dispositivo sanitario especializado",
-        "t": 1790634975893
+        "r": "Suturas médicas, material especializado no imprimible.",
+        "t": 1790636396787
       }
     },
     {
@@ -6244,8 +6905,8 @@
       "ia": {
         "v": false,
         "s": 0,
-        "r": "Sutura médica, dispositivo sanitario especializado",
-        "t": 1790634975893
+        "r": "Suturas médicas, material especializado no imprimible.",
+        "t": 1790636396787
       }
     },
     {
@@ -6379,8 +7040,8 @@
       "ia": {
         "v": false,
         "s": 0,
-        "r": "Señalética impresión gráfica, no impresión 3D",
-        "t": 1790634975893
+        "r": "Impresión gráfica y papelería, no competencia 3D.",
+        "t": 1790636396787
       }
     },
     {
@@ -6428,6 +7089,93 @@
         "s": 0,
         "r": "Accesorios cámara electrónica, no manufactura 3D",
         "t": 1790371507091
+      }
+    },
+    {
+      "codigo": "5626-596-COT26",
+      "tipo": "compra_agil",
+      "nombre": "FILAMENTOS  E INSUMOS DE IMPRESION BIOMEDICA  PROYECTO ING 2030 - E.S",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "UNIVERSIDAD DE VALPARAISO",
+      "rut_organismo": "60.921.000-1",
+      "unidad_compra": "22 Organismo Central-Vic de Investigación e Innova",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 150000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-09-25 11:14",
+      "fecha_cierre": "2026-10-01 12:45",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": 0,
+      "productos": [
+        {
+          "nombre": "Impresora rotativa de ultravioletas (UV)",
+          "descripcion": "1 Filamento PLA Mate Rojo Negro 1kg Esun | Filamentos\n",
+          "cantidad": 1,
+          "unidad": "UNII",
+          "categoria": "45101509"
+        },
+        {
+          "nombre": "Impresora rotativa de ultravioletas (UV)",
+          "descripcion": "1 Filamento PLA Silk o Seda Tricolor Morado, Azul y Negro 1kg Elegoo | Filamento\n",
+          "cantidad": 1,
+          "unidad": "EA",
+          "categoria": "45101509"
+        },
+        {
+          "nombre": "Impresora rotativa de ultravioletas (UV)",
+          "descripcion": "1 Filamento PLA+ RAPID Alta Velocidad Blanco 1kg Elegoo | Filamentos\n",
+          "cantidad": 1,
+          "unidad": "EA",
+          "categoria": "45101509"
+        },
+        {
+          "nombre": "Impresora rotativa de ultravioletas (UV)",
+          "descripcion": "1 Filamento PLA+ Negro 1kg Elegoo | Filamentos\n",
+          "cantidad": 1,
+          "unidad": "EA",
+          "categoria": "45101509"
+        },
+        {
+          "nombre": "Impresora rotativa de ultravioletas (UV)",
+          "descripcion": "1 Filamento PLA Algodón de Azucar 1kg BAMBU LAB | Filamentos\n",
+          "cantidad": 1,
+          "unidad": "EA",
+          "categoria": "45101509"
+        },
+        {
+          "nombre": "Impresora rotativa de ultravioletas (UV)",
+          "descripcion": "1 VarioShore TPU Prosthetic para ferulas finales\n",
+          "cantidad": 1,
+          "unidad": "EA",
+          "categoria": "45101509"
+        },
+        {
+          "nombre": "Impresora rotativa de ultravioletas (UV)",
+          "descripcion": "1 Correas de velcro médico ajustables hebillas y protectores de contacto dérmico",
+          "cantidad": 1,
+          "unidad": "EA",
+          "categoria": "45101509"
+        }
+      ],
+      "adjuntos": [],
+      "descripcion": "1 Filamento PLA Mate Rojo Negro 1kg Esun | Filamentos\n1 Filamento PLA Silk o Seda Tricolor Morado, Azul y Negro 1kg Elegoo | Filamento\n1 Filamento PLA+ RAPID Alta Velocidad Blanco 1kg Elegoo | Filamentos\n1 Filamento PLA+ Negro 1kg Elegoo | Filamentos\n1 Filamento PLA Algodón de Azucar 1kg BAMBU LAB | Filamentos\n1 VarioShore TPU Prosthetic para ferulas finales\n1 Correas de velcro médico ajustables hebillas y protectores de contacto dérmico\nadjuntar propuesta para evaluacion",
+      "direccion_entrega": "Facultad de Ingeniería, ubicada en Calle General Cruz 222, Valparaís",
+      "plazo_entrega_dias": 5,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=5626-596-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=5626-596-COT26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 64,
+      "ia": {
+        "v": false,
+        "s": 0,
+        "r": "Compra de filamentos e impresoras, no servicio fabricación.",
+        "t": 1790636396787
       }
     },
     {
@@ -6586,62 +7334,8 @@
       "ia": {
         "v": false,
         "s": 0,
-        "r": "Radiador metálico, no imprimible 3D",
-        "t": 1790634988578
-      }
-    },
-    {
-      "codigo": "1357605-130-COT26",
-      "tipo": "compra_agil",
-      "nombre": "ARTICULOS VARIOS PARA AREAS DE LA CCA",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "Corporación Cultural de Antofagasta",
-      "rut_organismo": "71.186.200-5",
-      "unidad_compra": "Corporación Cultural de Antofagasta",
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": 1850000,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-09-28 17:59",
-      "fecha_cierre": "2026-09-30 15:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [
-        "modelo"
-      ],
-      "total_ofertas": 2,
-      "productos": [
-        {
-          "nombre": "Sillas para trabajar",
-          "descripcion": "Se solicita 01 silla cajero modelo genova o similar , 01 kardex cajonera metalica 04 cajones con rieles y sistema antivuelco y llaves,  VER Y PRESENTAR ANEXO OBLIGATORIO, SE MEDIRA CALIDAD, ENTREGA , PRECIO , PROVEEDOR LOCAL ; MONTO TOTAL DISPONIBLE $1.850.000 CLP, SOLO SE ACEPTARAN OFERTAS POR LA TOTALIDAD DE LOS ARTICULOS, NO OFERTA PARCIALES  ",
-          "cantidad": 1,
-          "unidad": "GL",
-          "categoria": "56112102"
-        },
-        {
-          "nombre": "Mesas",
-          "descripcion": "Se SOLICITA 30 sillas plegables negra 87x46x53cm , 10 mesa plegable 1.8x0.75cm , 10 mantel spandex negro, VER Y PRESENTAR ANEXO OBLIGATORIO, SE MEDIRA CALIDAD, ENTREGA , PRECIO , PROVEEDOR LOCAL ; MONTO TOTAL DISPONIBLE $1.850.000 CLP, SOLO SE ACEPTARAN OFERTAS POR LA TOTALIDAD DE LOS ARTICULOS, NO OFERTA PARCIALES  ",
-          "cantidad": 1,
-          "unidad": "GL",
-          "categoria": "56101519"
-        }
-      ],
-      "adjuntos": [],
-      "descripcion": "Se solicita 01 silla cajero modelo genova o similar , 01 kardex cajonera metalica 04 cajones con rieles y sistema antivuelco y llaves, 30 sillas plegables negra 87x46x53cm , 10 mesa plegable 1.8x0.75cm , 10 mantel spandex negro, VER Y PRESENTAR ANEXO OBLIGATORIO, SE MEDIRA CALIDAD, ENTREGA , PRECIO , PROVEEDOR LOCAL ; MONTO TOTAL DISPONIBLE $1.850.000 CLP, SOLO SE ACEPTARAN OFERTAS POR LA TOTALIDAD DE LOS ARTICULOS, NO OFERTA PARCIALES  ",
-      "direccion_entrega": "Jose Antonio Sucre #433",
-      "plazo_entrega_dias": 7,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1357605-130-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1357605-130-COT26",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 64,
-      "ia": {
-        "v": false,
-        "s": 0,
-        "r": "Sillas y mesas metálicas, requieren estructura",
-        "t": 1790634988578
+        "r": "Radiador metal, requiere aleaciones especializadas.",
+        "t": 1790636396787
       }
     },
     {
@@ -7549,47 +8243,8 @@
       "ia": {
         "v": false,
         "s": 0,
-        "r": "Insumos químicos limpieza, no viables",
-        "t": 1790634988578
-      }
-    },
-    {
-      "codigo": "1019-148-COT26",
-      "tipo": "compra_agil",
-      "nombre": "Brazo soporte de escritorio doble para 2 monitores modelo GS-M08 o similar",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
-      "rut_organismo": null,
-      "unidad_compra": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO",
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": 800000,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-09-28 08:58",
-      "fecha_cierre": "2026-10-02 10:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [
-        "modelo"
-      ],
-      "total_ofertas": null,
-      "productos": [],
-      "adjuntos": [],
-      "descripcion": null,
-      "direccion_entrega": null,
-      "plazo_entrega_dias": null,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1019-148-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1019-148-COT26",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 59,
-      "ia": {
-        "v": false,
-        "s": 0,
-        "r": "Brazo soporte metal, requiere resistencia estructural",
-        "t": 1790634988578
+        "r": "Insumos limpieza, no fabricables con 3D.",
+        "t": 1790636396787
       }
     },
     {
@@ -7852,8 +8507,8 @@
       "ia": {
         "v": false,
         "s": 0,
-        "r": "Filtros originales, repuestos especializados metálicos",
-        "t": 1790634988578
+        "r": "Repuestos metálicos y filtros especializados.",
+        "t": 1790636396787
       }
     },
     {
@@ -7898,8 +8553,8 @@
       "ia": {
         "v": false,
         "s": 0,
-        "r": "Filtros maquinaria, repuestos especializados",
-        "t": 1790634988578
+        "r": "Filtros aceite, no imprimibles 3D.",
+        "t": 1790636396787
       }
     },
     {
@@ -7945,161 +8600,8 @@
       "ia": {
         "v": false,
         "s": 0,
-        "r": "Tóner consumible, no imprimible 3D",
-        "t": 1790634988578
-      }
-    },
-    {
-      "codigo": "673335-3-COT26",
-      "tipo": "compra_agil",
-      "nombre": "Insumos de aseo y limpieza",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "SERVICIO NACIONAL PARA LA PREVENCION Y REHABILITACION DEL CONSUMO DE D",
-      "rut_organismo": "61.980.170-9",
-      "unidad_compra": "SENDA-DIRECCIÓN REGIONAL BIO BIO",
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": 700000,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-09-28 12:49",
-      "fecha_cierre": "2026-09-30 16:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [],
-      "total_ofertas": 5,
-      "productos": [
-        {
-          "nombre": "Cepillos de limpieza",
-          "descripcion": "Escobilla limpia sanitario plástico color blanco con base",
-          "cantidad": 10,
-          "unidad": "EA",
-          "categoria": "47131605"
-        },
-        {
-          "nombre": "Desodorantes",
-          "descripcion": "Desodorante en aerosol aromas cítricos o dulces, formato 360 ml.",
-          "cantidad": 25,
-          "unidad": "EA",
-          "categoria": "47131816"
-        },
-        {
-          "nombre": "Desinfectantes domésticos",
-          "descripcion": "Desinfectante en aerosol, formato 360cc. Distintos aromas",
-          "cantidad": 15,
-          "unidad": "EA",
-          "categoria": "47131803"
-        },
-        {
-          "nombre": "Toallas de papel",
-          "descripcion": "Toalla de papel Jumbo DOBLE HOJA suave, 200 mts. Nota: favor NO incluir toalla de papel hoja simple en su oferta.",
-          "cantidad": 120,
-          "unidad": "EA",
-          "categoria": "14111703"
-        },
-        {
-          "nombre": "Toallas de papel",
-          "descripcion": "Paquete de 200 unidades de toalla de papel doblada o interfoliada",
-          "cantidad": 200,
-          "unidad": "EA",
-          "categoria": "14111703"
-        },
-        {
-          "nombre": "Papel higiénico",
-          "descripcion": "Papel higiénico industrial, alto metraje, doble hoja, suave, 250 mts.",
-          "cantidad": 72,
-          "unidad": "EA",
-          "categoria": "14111704"
-        },
-        {
-          "nombre": "Escobillones",
-          "descripcion": "6 unidades de escobillones, según términos de referencia adjunto.",
-          "cantidad": 6,
-          "unidad": "EA",
-          "categoria": "47131615"
-        }
-      ],
-      "adjuntos": [],
-      "descripcion": "\nSe solicita cotización por insumos de aseo y limpieza descritos en términos de referencia. La cotización presentada debe contener todos los productos solicitados. Indicar datos de contacto (nombre, telefono y correo) indicar en la cotización tiempo de entrega el cual no puede ser superior a 7 días habiles. ",
-      "direccion_entrega": "San Martín 290, Concepción, Región del Biobío",
-      "plazo_entrega_dias": 7,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=673335-3-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=673335-3-COT26",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 57,
-      "ia": {
-        "v": false,
-        "s": 0,
-        "r": "Insumos químicos limpieza, productos consumibles",
-        "t": 1790634988578
-      }
-    },
-    {
-      "codigo": "5424-138-COT26",
-      "tipo": "compra_agil",
-      "nombre": "Adquisición de artículos de limpieza y organización",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "UNIVERSIDAD DE CHILE",
-      "rut_organismo": "60.910.000-1",
-      "unidad_compra": "VAEC Dirección de Salud Estudiantil UCH",
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": 320000,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-09-28 12:22",
-      "fecha_cierre": "2026-09-30 16:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [],
-      "total_ofertas": 3,
-      "productos": [
-        {
-          "nombre": "Bolsas de basura",
-          "descripcion": "Basurero gris con tapa 25 litros,  Alto: 50 cm",
-          "cantidad": 15,
-          "unidad": "EA",
-          "categoria": "47121701"
-        },
-        {
-          "nombre": "Cubiertas y cajas de plástico",
-          "descripcion": "Caja organizadora plástica de 6 litros",
-          "cantidad": 15,
-          "unidad": "EA",
-          "categoria": "31261501"
-        },
-        {
-          "nombre": "Cubiertas y cajas de plástico",
-          "descripcion": "Caja organizadora plástica de 27 litros",
-          "cantidad": 15,
-          "unidad": "EA",
-          "categoria": "31261501"
-        },
-        {
-          "nombre": "Escobillones",
-          "descripcion": "Escobillón plástico virutex o equivalente",
-          "cantidad": 10,
-          "unidad": "EA",
-          "categoria": "47131615"
-        }
-      ],
-      "adjuntos": [],
-      "descripcion": "Se requiere Basurero gris con tapa 25 litros Alto 50 cm, Caja organizadora plástica de 6 litros, Caja organizadora plástica de 27 litros, Escobillón plástico virutex o equivalente. Se deberá ofertar por la totalidad de los productos solicitados. No se aceptarán ofertas con entregas parciales, postular sólo con disponibilidad de stock. Ver adjunto\n",
-      "direccion_entrega": "Av. La Paz 1002",
-      "plazo_entrega_dias": 3,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=5424-138-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=5424-138-COT26",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 57,
-      "ia": {
-        "v": false,
-        "s": 0,
-        "r": "Basureros y cajas plásticas estándar, bajo valor",
-        "t": 1790634988578
+        "r": "Tóner impresoras, consumible electrónico.",
+        "t": 1790636396787
       }
     },
     {
@@ -8237,8 +8739,8 @@
       "ia": {
         "v": false,
         "s": 0,
-        "r": "Escáner electrónico, no imprimible 3D",
-        "t": 1790634988578
+        "r": "Escáner electrónico terminado, no fabricable.",
+        "t": 1790636396787
       }
     },
     {
@@ -8348,6 +8850,157 @@
       "recuperado_corrida_anterior": true
     },
     {
+      "codigo": "2724-840-COT26",
+      "tipo": "compra_agil",
+      "nombre": "EQUIPAMIENTO TECNOLÓGICO COMPLEMENTARIO PARA VEHÍCULOS SEGURIDAD PUBLICA",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "ILUSTRE MUNICIPALIDAD DE SAN CARLOS",
+      "rut_organismo": "69.140.500-1",
+      "unidad_compra": " COMPRAS Y CONTRATACIONES MUNICIPALES",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 6854400,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-09-28 17:05",
+      "fecha_cierre": "2026-09-30 10:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "modelo"
+      ],
+      "total_ofertas": 1,
+      "productos": [
+        {
+          "nombre": "Sirenas",
+          "descripcion": "PROVISION E INSTALACION DE BALIZA DE EMERGENCIA VEHICULAR PARA DOS VEHICULOS, CONFORME A ESPECIFICACIONES TECNICAS ADJUNTAS. (Art. 2.1 )",
+          "cantidad": 2,
+          "unidad": "EA",
+          "categoria": "46171606"
+        },
+        {
+          "nombre": "Focos cialiticos",
+          "descripcion": "PROVISION E INSTALACION DE FOCOS LED ESTROBOSCOPICO 12-24VDC PARA DOS VEHICULOS (4 CADA UNO), CONFORME A ESPECIFICACIONES TECNICAS ADJUNTAS. (Art. 2.2 )",
+          "cantidad": 8,
+          "unidad": "EA",
+          "categoria": "39101608"
+        },
+        {
+          "nombre": "Sirenas",
+          "descripcion": "PROVISION E INSTALACION DE SISTEMA DE SIRENA ELECTRONICA Y PARLANTE, PARA DOS VEHICULOS, CONFORME A ESPECIFICACIONES TECNICAS ADJUNTAS. (Art. 2.3)",
+          "cantidad": 2,
+          "unidad": "EA",
+          "categoria": "46171606"
+        }
+      ],
+      "adjuntos": [],
+      "descripcion": "La presente contratación tiene por objeto la provisión e instalación de equipamiento tecnológico complementario para 2 camionetas marca MAXUS, modelo T60 4X4 DX PLUS 6MT, destinadas a labores de patrullaje preventivo y seguridad pública municipal, conforme a las especificaciones tecnicas adjuntas.",
+      "direccion_entrega": "EL CANELO 1037",
+      "plazo_entrega_dias": 5,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=2724-840-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=2724-840-COT26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 54,
+      "ia": {
+        "v": false,
+        "s": 0,
+        "r": "Sirenas y focos electrónica terminada",
+        "t": 1790636406322
+      }
+    },
+    {
+      "codigo": "2793-857-COT26",
+      "tipo": "compra_agil",
+      "nombre": "LIMPIEZA Y DESPEJE DE CAUCE CANAL LOS CHOROS",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "Iluste Municipalidad de Huechuraba",
+      "rut_organismo": "69.255.400-0",
+      "unidad_compra": "Municipalidad de Huechuraba",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 6900000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-09-28 17:01",
+      "fecha_cierre": "2026-09-30 09:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": 0,
+      "productos": [
+        {
+          "nombre": "Servicios de limpieza del pozo",
+          "descripcion": "SERVICIO DE LIMPIEZA Y DESPEJE DE CAUCE CANAL LOS CHOROS, EN EL SECTOR CORRESPONDIENTE A LA INTERSECCIÓN DE AVENIDA PEDRO FONTOVA CON CALLE GUANACO NORTE, COMUNA DE HUECHURABA. (((FAVOR REVISAR DETALLES ESPECIFICOS DEL SERVICIO DETALLADOS PUNTUALMENTE EN EL REQUERIMIENTO DE COMPRA ÁGIL ADJUNTO))) PARA SU CORRECTA CONTRATACIÓN.",
+          "cantidad": 1,
+          "unidad": "EA",
+          "categoria": "71121022"
+        }
+      ],
+      "adjuntos": [],
+      "descripcion": "\nSERVICIO DE LIMPIEZA Y DESPEJE DE CAUCE CANAL LOS CHOROS.",
+      "direccion_entrega": "AV. RECOLETA #5315",
+      "plazo_entrega_dias": 2,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=2793-857-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=2793-857-COT26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 54,
+      "ia": {
+        "v": false,
+        "s": 0,
+        "r": "Limpieza servicio, no manufactura",
+        "t": 1790636406322
+      }
+    },
+    {
+      "codigo": "1488-310-COT26",
+      "tipo": "compra_agil",
+      "nombre": "REPUESTOS PARA SECADORA Y LAVADORA DEL HOSPITAL DR. HERNÁN HENRÍQUEZ ARAVENA",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "HOSPITAL DOCTOR HERNAN HENRIQUEZ ARAVENA",
+      "rut_organismo": "61.602.232-6",
+      "unidad_compra": "HOSPITAL HERNAN HENRIQUEZ ARAVENA - OPERACIONES",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 6000000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-09-28 17:00",
+      "fecha_cierre": "2026-09-30 09:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": 0,
+      "productos": [
+        {
+          "nombre": "Interruptores magnéticos",
+          "descripcion": "se requiere 10 interruptores magnéticos para secadora y 3 trasformadores de lavadora industrial 90kg, para el área de ropería y lavandería según especificaciones técnicas adjuntas.",
+          "cantidad": 1,
+          "unidad": "GL",
+          "categoria": "39121602"
+        }
+      ],
+      "adjuntos": [],
+      "descripcion": "Se requiere la provisión de repuestos para secadora y lavadora industrial pertenecientes al servicio de ropería y lavandería del Hospital Dr. Hernán Henríquez Aravena, ubicado en Manuel Montt N.º 115, Temuco, según especificaciones técnicas adjuntas.",
+      "direccion_entrega": "Manuel Montt 115",
+      "plazo_entrega_dias": 7,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1488-310-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1488-310-COT26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 54,
+      "ia": {
+        "v": false,
+        "s": 0,
+        "r": "Interruptores electrónica terminada",
+        "t": 1790636406322
+      }
+    },
+    {
       "codigo": "2565-365-COT26",
       "tipo": "compra_agil",
       "nombre": "Adquisición de Termómetros Digitales con Sonda y Sin Sonda – 10 Unidades",
@@ -8397,55 +9050,8 @@
       "ia": {
         "v": false,
         "s": 0,
-        "r": "Termómetros electrónicos, equipo terminado",
-        "t": 1790634988578
-      }
-    },
-    {
-      "codigo": "2565-361-COT26",
-      "tipo": "compra_agil",
-      "nombre": "Adquisición de 1.000 Partidores de Comprimidos para CESFAM Chépica",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "I MUNICIPALIDAD DE CHEPICA",
-      "rut_organismo": "69.090.700-3",
-      "unidad_compra": "DEPTO. DE SALUD",
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": 120000,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-09-28 14:34",
-      "fecha_cierre": "2026-09-30 10:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [
-        "modelo"
-      ],
-      "total_ofertas": 1,
-      "productos": [
-        {
-          "nombre": "Soluciones o comprimidos de revelar",
-          "descripcion": "Partidor de comprimidos, cantidad 1.000 unidades. Dispositivo destinado a dividir comprimidos de forma segura y precisa, de material resistente, fácil manipulación y limpieza, con sistema de corte incorporado. Producto nuevo y sin uso. Adjuntar ficha técnica del producto ofertado, indicando marca/modelo y características. Indicar datos de contacto de la empresa y plazo de despacho desde la emisión de la Orden de Compra.",
-          "cantidad": 1000,
-          "unidad": "EA",
-          "categoria": "42151904"
-        }
-      ],
-      "adjuntos": [],
-      "descripcion": "Partidor de comprimidos, cantidad 1.000 unidades. Dispositivo destinado a dividir comprimidos de forma segura y precisa, de material resistente, fácil manipulación y limpieza, con sistema de corte incorporado. Producto nuevo y sin uso. Adjuntar ficha técnica del producto ofertado, indicando marca/modelo y características. Indicar datos de contacto de la empresa y plazo de despacho desde la emisión de la Orden de Compra.",
-      "direccion_entrega": "18 de septiembre S/N",
-      "plazo_entrega_dias": 4,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=2565-361-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=2565-361-COT26",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 54,
-      "ia": {
-        "v": false,
-        "s": 0,
-        "r": "Partidores comprimidos, dispositivo especializado",
-        "t": 1790634988578
+        "r": "Termómetros electrónica terminada",
+        "t": 1790636406322
       }
     },
     {
@@ -8489,8 +9095,8 @@
       "ia": {
         "v": false,
         "s": 0,
-        "r": "Baterías litio, electrónica terminada",
-        "t": 1790634988578
+        "r": "Baterías litio electrónica",
+        "t": 1790636406322
       }
     },
     {
@@ -8534,8 +9140,8 @@
       "ia": {
         "v": false,
         "s": 0,
-        "r": "Repuestos aeronave, componentes especializados",
-        "t": 1790634988578
+        "r": "Repuestos aeronave especializada",
+        "t": 1790636406322
       }
     },
     {
@@ -8758,8 +9364,8 @@
       "ia": {
         "v": false,
         "s": 0,
-        "r": "Arriendo vehículos, servicio no manufactura",
-        "t": 1790634988578
+        "r": "Arriendo vehículos servicio",
+        "t": 1790636406322
       }
     },
     {
@@ -8826,69 +9432,8 @@
       "ia": {
         "v": false,
         "s": 0,
-        "r": "Hornos y equipos comerciales, requieren fabricación especializada",
-        "t": 1790634988578
-      }
-    },
-    {
-      "codigo": "2724-840-COT26",
-      "tipo": "compra_agil",
-      "nombre": "EQUIPAMIENTO TECNOLÓGICO COMPLEMENTARIO PARA VEHÍCULOS SEGURIDAD PUBLICA",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "ILUSTRE MUNICIPALIDAD DE SAN CARLOS",
-      "rut_organismo": "69.140.500-1",
-      "unidad_compra": " COMPRAS Y CONTRATACIONES MUNICIPALES",
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": 6854400,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-09-28 17:05",
-      "fecha_cierre": "2026-09-30 10:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [
-        "modelo"
-      ],
-      "total_ofertas": 1,
-      "productos": [
-        {
-          "nombre": "Sirenas",
-          "descripcion": "PROVISION E INSTALACION DE BALIZA DE EMERGENCIA VEHICULAR PARA DOS VEHICULOS, CONFORME A ESPECIFICACIONES TECNICAS ADJUNTAS. (Art. 2.1 )",
-          "cantidad": 2,
-          "unidad": "EA",
-          "categoria": "46171606"
-        },
-        {
-          "nombre": "Focos cialiticos",
-          "descripcion": "PROVISION E INSTALACION DE FOCOS LED ESTROBOSCOPICO 12-24VDC PARA DOS VEHICULOS (4 CADA UNO), CONFORME A ESPECIFICACIONES TECNICAS ADJUNTAS. (Art. 2.2 )",
-          "cantidad": 8,
-          "unidad": "EA",
-          "categoria": "39101608"
-        },
-        {
-          "nombre": "Sirenas",
-          "descripcion": "PROVISION E INSTALACION DE SISTEMA DE SIRENA ELECTRONICA Y PARLANTE, PARA DOS VEHICULOS, CONFORME A ESPECIFICACIONES TECNICAS ADJUNTAS. (Art. 2.3)",
-          "cantidad": 2,
-          "unidad": "EA",
-          "categoria": "46171606"
-        }
-      ],
-      "adjuntos": [],
-      "descripcion": "La presente contratación tiene por objeto la provisión e instalación de equipamiento tecnológico complementario para 2 camionetas marca MAXUS, modelo T60 4X4 DX PLUS 6MT, destinadas a labores de patrullaje preventivo y seguridad pública municipal, conforme a las especificaciones tecnicas adjuntas.",
-      "direccion_entrega": "EL CANELO 1037",
-      "plazo_entrega_dias": 5,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=2724-840-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=2724-840-COT26",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 54,
-      "ia": {
-        "v": false,
-        "s": 0,
-        "r": "Sirenas y focos, electrónica terminada especializada",
-        "t": 1790634988578
+        "r": "Hornos refrigeradores cocinas equipamiento",
+        "t": 1790636406322
       }
     },
     {
@@ -9283,60 +9828,13 @@
       "score_heuristico": 53
     },
     {
-      "codigo": "1505151-1-COT26",
-      "tipo": "compra_agil",
-      "nombre": "Galvanos",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "UNIVERSIDAD METROPOLITANA DE CIENCIAS DE LA EDUCAC",
-      "rut_organismo": "60.910.047-8",
-      "unidad_compra": "OFICINA DE EGRESADOS",
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": 500000,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-09-28 16:07",
-      "fecha_cierre": "2026-09-30 09:30",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [
-        "galvano"
-      ],
-      "total_ofertas": 6,
-      "productos": [
-        {
-          "nombre": "Galvanos",
-          "descripcion": "Galvanos, revisar documento adjunto antes de ofertar.",
-          "cantidad": 21,
-          "unidad": "EA",
-          "categoria": "49101704"
-        }
-      ],
-      "adjuntos": [],
-      "descripcion": "Se solicitan cotizaciones para la adquisición de 21 galvanos. Se adjunta documento con las especificaciones técnicas. Los valores debe incluir despacho. Plazo máximo de entrega 5 a 7 días hábiles. Favor indicar número de contacto. ",
-      "direccion_entrega": "Avenida José Pedro Alessandri N°636",
-      "plazo_entrega_dias": 7,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1505151-1-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1505151-1-COT26",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 49,
-      "ia": {
-        "v": false,
-        "s": 0,
-        "r": "Galvanos, proceso especializado no 3D",
-        "t": 1790634988578
-      }
-    },
-    {
       "codigo": "2460-958-COT26",
       "tipo": "compra_agil",
       "nombre": "Adquisición de Audifonos Inalámbricos tipo Diadema",
       "estado": "publicada",
       "estado_glosa": "Publicada",
       "organismo": "I MUNICIPALIDAD DE PROVIDENCIA",
-      "rut_organismo": null,
+      "rut_organismo": "69.070.300-9",
       "unidad_compra": "Dirección de Administración y Finanzas",
       "region": null,
       "region_nombre": null,
@@ -9348,12 +9846,20 @@
       "palabras_clave_match": [
         "modelo"
       ],
-      "total_ofertas": null,
-      "productos": [],
+      "total_ofertas": 11,
+      "productos": [
+        {
+          "nombre": "Audífonos",
+          "descripcion": "audífonos inalámbricos tipo diadema, según ficha técnica y condiciones administrativas",
+          "cantidad": 23,
+          "unidad": "EA",
+          "categoria": "52161514"
+        }
+      ],
       "adjuntos": [],
-      "descripcion": null,
-      "direccion_entrega": null,
-      "plazo_entrega_dias": null,
+      "descripcion": "El oferente deberá indicar plazo de entrega (días hábiles), adjuntar ficha técnica de los productos ofertados, cotización propia con detalle o bien indicar marca y modelo .El valor ofertado debe incluir el despacho de los producto. Los productos se recepcionarán con Guía de Despacho. Los proveedores seleccionados sólo podrá facturar una vez que la Orden de Compra correspondiente se encuentre en estado \"Recepción Conforme” en el Portal.",
+      "direccion_entrega": "Marchant Pereira 880 departamento de tecnologia y gestion digital, Providencia, Región Metropolitana de Santiago",
+      "plazo_entrega_dias": 5,
       "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=2460-958-COT26",
       "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=2460-958-COT26",
       "prefiltro": {
@@ -9364,8 +9870,45 @@
       "ia": {
         "v": false,
         "s": 0,
-        "r": "Electrónica terminada, no fabricable con 3D",
-        "t": 1790634994622
+        "r": "Audífonos electrónica terminada",
+        "t": 1790636406322
+      }
+    },
+    {
+      "codigo": "673335-3-COT26",
+      "tipo": "compra_agil",
+      "nombre": "Insumos de aseo y limpieza",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "SERVICIO NACIONAL PARA LA PREVENCION Y REHABILITACION DEL CONSUMO DE D",
+      "rut_organismo": null,
+      "unidad_compra": "SENDA-DIRECCIÓN REGIONAL BIO BIO",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 700000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-09-28 12:49",
+      "fecha_cierre": "2026-09-30 16:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=673335-3-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=673335-3-COT26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 49,
+      "ia": {
+        "v": false,
+        "s": 0,
+        "r": "Insumos aseo químicos",
+        "t": 1790636406322
       }
     },
     {
@@ -9409,8 +9952,8 @@
       "ia": {
         "v": false,
         "s": 0,
-        "r": "Alternador electromecánico, no fabricable con 3D",
-        "t": 1790634994622
+        "r": "Alternador electrónica especializada",
+        "t": 1790636406322
       }
     },
     {
@@ -9420,7 +9963,7 @@
       "estado": "publicada",
       "estado_glosa": "Publicada",
       "organismo": "Ejercito de Chile",
-      "rut_organismo": "61.101.008-7",
+      "rut_organismo": null,
       "unidad_compra": "Regimiento Logístico del Ejército Nº1 Bellavista",
       "region": null,
       "region_nombre": null,
@@ -9430,48 +9973,25 @@
       "fecha_cierre": "2026-09-30 08:00",
       "fecha_ultimo_cambio": null,
       "palabras_clave_match": [],
-      "total_ofertas": 8,
-      "productos": [
-        {
-          "nombre": "Sistemas de almacenaje de combustible híbrido",
-          "descripcion": "Filtro separador de combustible Bus Hyundai Universe Luxury PPU PYGG-31 año 2020",
-          "cantidad": 1,
-          "unidad": "EA",
-          "categoria": "25172404"
-        },
-        {
-          "nombre": "Sistemas de almacenaje de combustible híbrido",
-          "descripcion": "Filtro de combustible Bus Hyundai Universe Luxury PPU PYGG-31 año 2020",
-          "cantidad": 1,
-          "unidad": "EA",
-          "categoria": "25172404"
-        },
-        {
-          "nombre": "Tapas de aceite o combustible",
-          "descripcion": "Filtro de aceite Bus Hyundai Universe Luxury PPU PYGG-31 año 2020",
-          "cantidad": 1,
-          "unidad": "EA",
-          "categoria": "25172408"
-        },
-        {
-          "nombre": "Ventilador",
-          "descripcion": "Filtro de aire Bus Hyundai Universe Luxury PPU PYGG-31 año 2020",
-          "cantidad": 1,
-          "unidad": "EA",
-          "categoria": "25174001"
-        }
-      ],
+      "total_ofertas": null,
+      "productos": [],
       "adjuntos": [],
-      "descripcion": "No se aceptarán ofertas que solo incluyan información de la empresa sin detallar productos ni presentar cotización formal. Información adjunta en archivo.",
-      "direccion_entrega": "avenida el guanaco 2650",
-      "plazo_entrega_dias": 5,
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
       "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=3387-159-COT26",
       "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=3387-159-COT26",
       "prefiltro": {
-        "pasa": false,
-        "razon": "blacklist: 'combustible' en producto"
+        "pasa": true,
+        "razon": ""
       },
-      "score_heuristico": 49
+      "score_heuristico": 49,
+      "ia": {
+        "v": false,
+        "s": 0,
+        "r": "Repuestos vehículo falta detalle",
+        "t": 1790636406322
+      }
     },
     {
       "codigo": "1593-159-COT26",
@@ -9516,8 +10036,8 @@
       "ia": {
         "v": false,
         "s": 0,
-        "r": "Electrónica terminada, convertidor USB-C",
-        "t": 1790634994622
+        "r": "Docking USB electrónica terminada",
+        "t": 1790636406322
       }
     },
     {
@@ -9527,7 +10047,7 @@
       "estado": "publicada",
       "estado_glosa": "Publicada",
       "organismo": "MINISTERIO DE OBRAS PUBLICAS DIREC CION GRAL DE OO PP DCYF",
-      "rut_organismo": "61.202.000-0",
+      "rut_organismo": null,
       "unidad_compra": "Dirección de Obras Portuarias - Puerto Montt",
       "region": null,
       "region_nombre": null,
@@ -9539,41 +10059,12 @@
       "palabras_clave_match": [
         "modelo"
       ],
-      "total_ofertas": 8,
-      "productos": [
-        {
-          "nombre": "Papel higiénico",
-          "descripcion": "Pack de 6 rollos de Papel higiénico Jumbo 250 mts, Premium, doble hoja, pulpa de celulosa, gofrado, papel resistente y de calidad. , Marca reconocida. Se solicita cotización con fotografía de producto ofrecido",
-          "cantidad": 20,
-          "unidad": "PK",
-          "categoria": "14111704"
-        },
-        {
-          "nombre": "Toallas de papel",
-          "descripcion": "Pack de 2 rollos de Toalla de papel de manos Jumbo 250 mts. Premium, , absorbente, blanco, hoja simple y resistente para uso en dispensador.  Marca reconocida y de calidad.  Medidas 250 mts largo y 19 cms ancho.  Se solicita cotización con fotografía, marca y  especificaciones técnicas.",
-          "cantidad": 30,
-          "unidad": "PACK",
-          "categoria": "14111703"
-        },
-        {
-          "nombre": "Desodorantes",
-          "descripcion": "Desodorante ambiental aerosol 360 ml, diversos aromas. Producto de calidad y marca reconocida. Se solicita cotización con fotografía, marca y especificaciones del producto.",
-          "cantidad": 20,
-          "unidad": "EA",
-          "categoria": "47131816"
-        },
-        {
-          "nombre": "Jabones",
-          "descripcion": "Jabón líquido crema para manos (con dispensador) hipoalergénico, perfume suave.  Se solicita cotización con fotografía, marca y especificaiones del producto.",
-          "cantidad": 20,
-          "unidad": "EA",
-          "categoria": "53131608"
-        }
-      ],
+      "total_ofertas": null,
+      "productos": [],
       "adjuntos": [],
-      "descripcion": "E1O2RT9 Adquisición Materiales de Aseo para DOP Puerto Montt. Se adjunta Especificaciones. Se solicita fotografia de producto ofrecido, cotización y datos de contacto.",
-      "direccion_entrega": "Doctor Martin 499, Población Modelo, Puerto Montt",
-      "plazo_entrega_dias": 7,
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
       "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1269-28-COT26",
       "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1269-28-COT26",
       "prefiltro": {
@@ -9728,8 +10219,8 @@
       "ia": {
         "v": false,
         "s": 0,
-        "r": "Químico dental, no es material 3D",
-        "t": 1790634994622
+        "r": "Ionómero vidrio químico dental",
+        "t": 1790636406322
       }
     },
     {
@@ -9869,6 +10360,134 @@
         "razon": "cierre a menos de 24h"
       },
       "score_heuristico": 43
+    },
+    {
+      "codigo": "1171142-2288-COT26",
+      "tipo": "compra_agil",
+      "nombre": "GALVANOS DE CRISTAL CON FORMA DIMANADA IRREGULAR PROYECTO MEL",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "HOSPITAL COMPLEJO ASISTENCIAL PADRE LAS CASAS",
+      "rut_organismo": null,
+      "unidad_compra": "HOSPITAL COMPLEJO ASISTENCIAL PADRE LAS CASAS",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 300000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-09-28 16:57",
+      "fecha_cierre": "2026-09-29 17:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "galvano"
+      ],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1171142-2288-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1171142-2288-COT26",
+      "prefiltro": {
+        "pasa": false,
+        "razon": "cierre a menos de 24h"
+      },
+      "score_heuristico": 39
+    },
+    {
+      "codigo": "1238132-115-COT26",
+      "tipo": "compra_agil",
+      "nombre": "Luminarias",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "CORPORACION MUNICIPAL CLUB DE LA REINA SOCIAL DEPO",
+      "rut_organismo": null,
+      "unidad_compra": "CORPORACION MUNICIPAL CLUB DE LA REINA SOCIAL DEPO",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 450000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-09-28 16:53",
+      "fecha_cierre": "2026-09-29 17:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "modelo"
+      ],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1238132-115-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1238132-115-COT26",
+      "prefiltro": {
+        "pasa": false,
+        "razon": "cierre a menos de 24h"
+      },
+      "score_heuristico": 39
+    },
+    {
+      "codigo": "1393495-911-COT26",
+      "tipo": "compra_agil",
+      "nombre": "SERVICIO DE LIMPIEZA DE ALCANTARILLADO INTERIOR. SE INCLUYE SUCCIÓN, RETIRO DE DESHECHOS, TRASLADO, ESCUELA CARLOS CONDELL DE LA HAZA - SLEP SANTA CORINA",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "Educación",
+      "rut_organismo": null,
+      "unidad_compra": "UNIDAD DE COMPRAS - P02",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 1000000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-09-28 16:46",
+      "fecha_cierre": "2026-09-29 17:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1393495-911-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1393495-911-COT26",
+      "prefiltro": {
+        "pasa": false,
+        "razon": "cierre a menos de 24h"
+      },
+      "score_heuristico": 39
+    },
+    {
+      "codigo": "2297-1300-COT26",
+      "tipo": "compra_agil",
+      "nombre": "LETREROS E IMPRESION DE FOLLETERIA",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "I MUNICIPALIDAD DE OSORNO",
+      "rut_organismo": null,
+      "unidad_compra": "IMUNI_OSORNO DIRECCION DE ADM Y FINANZAS",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 780000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-09-28 16:36",
+      "fecha_cierre": "2026-09-29 16:40",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=2297-1300-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=2297-1300-COT26",
+      "prefiltro": {
+        "pasa": false,
+        "razon": "cierre a menos de 24h"
+      },
+      "score_heuristico": 39
     },
     {
       "codigo": "1057512-114-COT26",
@@ -12591,8 +13210,8 @@
       "ia": {
         "v": false,
         "s": 0,
-        "r": "Repuestos automotriz electromecánicos",
-        "t": 1790634994622
+        "r": "Repuestos Toyota falta especificación",
+        "t": 1790636406322
       }
     },
     {
@@ -13688,39 +14307,6 @@
       "prefiltro": {
         "pasa": false,
         "razon": "monto bajo el mínimo (100,000 CLP)"
-      },
-      "score_heuristico": 39
-    },
-    {
-      "codigo": "1238132-115-COT26",
-      "tipo": "compra_agil",
-      "nombre": "Luminarias",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "CORPORACION MUNICIPAL CLUB DE LA REINA SOCIAL DEPO",
-      "rut_organismo": null,
-      "unidad_compra": "CORPORACION MUNICIPAL CLUB DE LA REINA SOCIAL DEPO",
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": 450000,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-09-28 16:53",
-      "fecha_cierre": "2026-09-29 17:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [
-        "modelo"
-      ],
-      "total_ofertas": null,
-      "productos": [],
-      "adjuntos": [],
-      "descripcion": null,
-      "direccion_entrega": null,
-      "plazo_entrega_dias": null,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1238132-115-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1238132-115-COT26",
-      "prefiltro": {
-        "pasa": false,
-        "razon": "cierre a menos de 24h"
       },
       "score_heuristico": 39
     },
@@ -14977,8 +15563,8 @@
       "ia": {
         "v": false,
         "s": 0,
-        "r": "Electrónica, computadores y equipos",
-        "t": 1790634994622
+        "r": "Computadores electrónica licencia software",
+        "t": 1790636406322
       }
     },
     {
@@ -15767,8 +16353,8 @@
       "ia": {
         "v": false,
         "s": 0,
-        "r": "Repuestos tolva, ingeniería pesada",
-        "t": 1790634994622
+        "r": "Repuestos tolva salera especializada",
+        "t": 1790636406322
       }
     },
     {
@@ -15907,8 +16493,8 @@
       "ia": {
         "v": false,
         "s": 0,
-        "r": "Colchón clínico, textil/espuma",
-        "t": 1790634994622
+        "r": "Colchón clínico textil especializado",
+        "t": 1790636406322
       }
     },
     {
@@ -16027,8 +16613,8 @@
       "ia": {
         "v": false,
         "s": 0,
-        "r": "Madera para puentes, material natural",
-        "t": 1790634994622
+        "r": "Piezas madera puentes material tradicional",
+        "t": 1790636406322
       }
     },
     {
@@ -16643,6 +17229,134 @@
       }
     },
     {
+      "codigo": "1171142-2289-COT26",
+      "tipo": "compra_agil",
+      "nombre": "PIEZA DE MANO ACCESORIO REUTILIZABLE, ESTERILIZABLE POR AUTOCLAVE DE VAPOR ACOMPAÑADA DE CONJUNTOS DE CABLES PARA CONEXIÓN AL EQUIPO.",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "HOSPITAL COMPLEJO ASISTENCIAL PADRE LAS CASAS",
+      "rut_organismo": null,
+      "unidad_compra": "HOSPITAL COMPLEJO ASISTENCIAL PADRE LAS CASAS",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 5950000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-09-28 16:59",
+      "fecha_cierre": "2026-09-29 17:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1171142-2289-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1171142-2289-COT26",
+      "prefiltro": {
+        "pasa": false,
+        "razon": "cierre a menos de 24h"
+      },
+      "score_heuristico": 29
+    },
+    {
+      "codigo": "1057501-3347-COT26",
+      "tipo": "compra_agil",
+      "nombre": "20-340-050-317-00 ESPACIADOR DE EXTREMO DISTAL DE ENDOSCOPIO MODELO RECTO (el tamaño requerido de espaciador 13.6 – 14 mm)",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "COMPLEJO ASISTENCIAL DR. SOTERO DEL RIO",
+      "rut_organismo": null,
+      "unidad_compra": "COMPLEJO ASISTENCIAL DR. SOTERO DEL RIO",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 7172099,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-09-28 16:55",
+      "fecha_cierre": "2026-09-29 17:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "modelo"
+      ],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1057501-3347-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1057501-3347-COT26",
+      "prefiltro": {
+        "pasa": false,
+        "razon": "cierre a menos de 24h"
+      },
+      "score_heuristico": 29
+    },
+    {
+      "codigo": "4291-1286-COT26",
+      "tipo": "compra_agil",
+      "nombre": "Adquisición de insumos y equipamiento para laboratorio",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "UNIVERSIDAD DE ANTOFAGASTA",
+      "rut_organismo": null,
+      "unidad_compra": "Universidad de Antofagasta",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 6700000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-09-28 16:48",
+      "fecha_cierre": "2026-09-29 16:50",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "modelo"
+      ],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=4291-1286-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=4291-1286-COT26",
+      "prefiltro": {
+        "pasa": false,
+        "razon": "cierre a menos de 24h"
+      },
+      "score_heuristico": 29
+    },
+    {
+      "codigo": "2048-571-COT26",
+      "tipo": "compra_agil",
+      "nombre": "AROMATIZADOR - VELAS - REPUESTO // PROGRAMA GES 86 2026",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "Hospital de Ancud",
+      "rut_organismo": null,
+      "unidad_compra": "Hospital de Ancud",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 190000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-09-28 16:38",
+      "fecha_cierre": "2026-09-29 17:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=2048-571-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=2048-571-COT26",
+      "prefiltro": {
+        "pasa": false,
+        "razon": "cierre a menos de 24h"
+      },
+      "score_heuristico": 29
+    },
+    {
       "codigo": "1540667-145-COT26",
       "tipo": "compra_agil",
       "nombre": "ADQUISICIÓN DE CEPILLOS DE LIMPIEZA DE ENDOSCOPIOS",
@@ -17161,72 +17875,6 @@
       "score_heuristico": 29
     },
     {
-      "codigo": "1057501-3347-COT26",
-      "tipo": "compra_agil",
-      "nombre": "20-340-050-317-00 ESPACIADOR DE EXTREMO DISTAL DE ENDOSCOPIO MODELO RECTO (el tamaño requerido de espaciador 13.6 – 14 mm)",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "COMPLEJO ASISTENCIAL DR. SOTERO DEL RIO",
-      "rut_organismo": null,
-      "unidad_compra": "COMPLEJO ASISTENCIAL DR. SOTERO DEL RIO",
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": 7172099,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-09-28 16:55",
-      "fecha_cierre": "2026-09-29 17:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [
-        "modelo"
-      ],
-      "total_ofertas": null,
-      "productos": [],
-      "adjuntos": [],
-      "descripcion": null,
-      "direccion_entrega": null,
-      "plazo_entrega_dias": null,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1057501-3347-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1057501-3347-COT26",
-      "prefiltro": {
-        "pasa": false,
-        "razon": "cierre a menos de 24h"
-      },
-      "score_heuristico": 29
-    },
-    {
-      "codigo": "4291-1286-COT26",
-      "tipo": "compra_agil",
-      "nombre": "Adquisición de insumos y equipamiento para laboratorio",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "UNIVERSIDAD DE ANTOFAGASTA",
-      "rut_organismo": null,
-      "unidad_compra": "Universidad de Antofagasta",
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": 6700000,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-09-28 16:48",
-      "fecha_cierre": "2026-09-29 16:50",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [
-        "modelo"
-      ],
-      "total_ofertas": null,
-      "productos": [],
-      "adjuntos": [],
-      "descripcion": null,
-      "direccion_entrega": null,
-      "plazo_entrega_dias": null,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=4291-1286-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=4291-1286-COT26",
-      "prefiltro": {
-        "pasa": false,
-        "razon": "cierre a menos de 24h"
-      },
-      "score_heuristico": 29
-    },
-    {
       "codigo": "1057491-1753-COT26",
       "tipo": "compra_agil",
       "nombre": "ADQUISICIÓN DE REACTIVOS PARA LABORATORIO CLÍNICO",
@@ -17663,8 +18311,8 @@
       "ia": {
         "v": false,
         "s": 0,
-        "r": "Rotores helicóptero, componente aeronáutico",
-        "t": 1790634994622
+        "r": "Rotores helicóptero especializada",
+        "t": 1790636406322
       }
     },
     {
@@ -17755,8 +18403,8 @@
       "ia": {
         "v": false,
         "s": 0,
-        "r": "Arriendo equipo, servicio profesional",
-        "t": 1790634994622
+        "r": "Arriendo gabinete psicotécnico servicio",
+        "t": 1790636406322
       }
     },
     {
