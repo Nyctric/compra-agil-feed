@@ -105,12 +105,43 @@ EVAL_CACHE_FILE = os.environ.get("EVAL_CACHE_FILE", "eval_ia.json")
 PAUSA_SEG = 0.35
 MAX_REINTENTOS = 3
 MAX_PAGINAS = 20        # tope de seguridad por palabra clave
-MAX_PAGINAS_TODO = int(_CFG.get("max_paginas_todo", 400))  # tope en modo buscar_todo (todo el país)
+MAX_PAGINAS_TODO = int(_CFG.get("max_paginas_todo", 650))  # tope en modo buscar_todo; _paginar corta antes si pageCount es menor
 
 ANTHROPIC_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
 IA_MODELOS = ["claude-haiku-4-5", "claude-haiku-4-5-20251001", "claude-sonnet-4-5"]
 IA_LOTE = 25            # licitaciones por llamada (más grande = menos overhead de prompt)
 IA_CACHE_DIAS = 90      # conservar evaluaciones de códigos ya ausentes por N días
+
+# Triage IA: lee TODOS los títulos que no calzaron con ninguna palabra y rescata
+# los que podrían fabricarse en 3D. Cada título se evalúa una sola vez (caché).
+TRIAGE_ON = bool(_CFG.get("triage_ia", True))
+TRIAGE_LOTE = 150
+MAX_TRIAGE = int(_CFG.get("max_triage", 5000))      # tope de títulos nuevos por corrida
+TRIAGE_CACHE_FILE = os.environ.get("TRIAGE_CACHE_FILE", "triage_ia.json")
+TRIAGE_CACHE_DIAS = 30
+
+PERFIL_DEFAULT = ("Fabricación digital en Chile. Tecnologías: impresión 3D FDM (PLA, PETG, ABS, TPU) y resina "
+    "(estándar, tough). Volumen máximo FDM 30x30x30 cm por pieza (piezas mayores se fabrican por secciones "
+    "ensambladas). Postproceso: lijado, pintura, barniz UV. Productos típicos: prototipos, piezas funcionales, "
+    "modelos anatómicos y fantomas, señalética y letreros 3D, repuestos plásticos, maquetas, trofeos y galvanos, "
+    "llaveros y pines, material didáctico.")
+
+
+def _perfil_texto():
+    """El perfil lo edita el usuario en la app (Compra Ágil → Perfil de empresa) y
+    llega aquí dentro de keywords.json. Si hay uno por empresa, se usan ambos."""
+    p = _CFG.get("perfil_empresa")
+    if isinstance(p, dict):
+        partes = []
+        for k, etiqueta in (("pv", "Provectus SpA"), ("gw", "Green Wolf SPA")):
+            t = str(p.get(k) or "").strip()
+            if t and t not in partes:
+                partes.append(t)
+        return "\n".join(partes) or PERFIL_DEFAULT
+    return str(p or "").strip() or PERFIL_DEFAULT
+
+
+PERFIL = _perfil_texto()
 
 ESTADO_GLOSA = {2: "Publicada", 3: "Cerrada", 5: "Cancelada", 6: "Desierta"}
 ESTADO_CODIGO = {2: "publicada", 3: "cerrada", 5: "cancelada", 6: "desierta"}
@@ -137,29 +168,72 @@ BLACKLIST = ["triptico","afiche","fotocopia","libro","imprenta","papel couche","
   "servicio de aseo","mantencion de aire acondicionado","mantencion preventiva","auditoria","asesoria juridica",
   "consultoria juridica","reparacion vehiculo","combustible","neumatico","catering","examen medico",
   "medicamento","farmaceutico","arriendo de carpa","musica","danza","teatro","software","peluqueria"]
-WHITELIST_EXTRA = ["impresion 3d","letrero","senaletic","rotulo","prototipo","plastico","modelado",
-  "escultura","trofeo","medalla","placa conmemorativa","gabinete","carcasa","molde","maqueta",
-  "filamento","resina","pla ","fantoma","modelo anatomico","repuesto","pieza"]
+# Vocabulario en dos niveles, medido contra el feed real (veredicto IA sí/no):
+#   galvano 12/0, medalla 11/0, letrero 8/0, trofeo 3/0  -> FUERTES
+#   repuesto 3/51, pieza 1/24, modelo 8/69, filamento 0/7 -> DEBILES
+# Los DÉBILES siguen dejando entrar al feed (no se pierde nada), pero puntúan
+# poco: ya no le quitan los cupos de ficha (150) y de IA (100) a lo relevante.
+FUERTES = ["impresion 3d","impresora 3d","impreso en 3d","3d","maqueta","prototipo","modelado 3d",
+  "fantoma","anatomic","trofeo","galvano","galardon","medalla","estatuilla","llavero","piocha",
+  "pin","pines","pins","insignia","senaletic","letrero","letras corporeas","letra corporea",
+  "placa conmemorativa","placa recordatoria","escultura","busto","replica","diorama","braille",
+  "podotactil","material didactico","didactic","souvenir","merchandising","exhibidor","figura",
+  "tipodonto","craneo","esqueleto","torso"]
+DEBILES = ["repuesto","pieza","plastico","gabinete","carcasa","molde","resina","filamento","pla",
+  "modelado","modelo","rotulo","placa","estuche","organizador","dispensador","atril","acrilico",
+  "senalizacion","decoracion","juguete","rompecabezas","ajedrez","ortesis","ferula","maceta",
+  "reconocimiento","premiacion","premio","premiar","copa","logo","soporte"]
+WHITELIST_EXTRA = FUERTES + DEBILES
+# Contexto que casi nunca termina en una pieza impresa. No descarta: resta
+# prioridad, salvo que el título también tenga un término FUERTE.
+RUIDO = ["vehicul","camioneta","camion","automovil","minibus","bus","motor","maquinaria",
+  "retroexcavadora","motoniveladora","excavadora","mantencion","mantenimiento","limpieza","aseo",
+  "arriendo","reparacion","instalacion","soporte tecnico","pieza de mano","toner","cartucho",
+  "bateria","neumatico","sutura","farmac","insumos clinicos","ascensor","extintor","aeronave",
+  "helicoptero","compresor","bomba","ecograf","autoclave","electrocardiograf"]
 
 _BLACKLIST_N = [_norm(b) for b in BLACKLIST]
-_WHITELIST_N = [_norm(w) for w in (WHITELIST_EXTRA + PALABRAS_CLAVE)]
+_FUERTES_N = [_norm(w) for w in FUERTES]
+_DEBILES_N = [_norm(w) for w in DEBILES]
+_RUIDO_N = [_norm(w) for w in RUIDO]
+_WHITELIST_N = list(dict.fromkeys(_norm(w) for w in (WHITELIST_EXTRA + PALABRAS_CLAVE)))
+
+
+def _kw_en_texto(kw_norm, texto_norm):
+    """Match desde el INICIO de una palabra: 'senaletic' sí matchea 'senaletica',
+    pero 'pieza' ya no matchea 'limpieza' ni 'resina' matchea 'desmopresina'.
+    Las cortas (<5) exigen además borde final: 'pin' no matchea 'pintura'."""
+    kw_norm = kw_norm.strip()
+    if not kw_norm:
+        return False
+    pat = r"(?<![a-z0-9])" + re.escape(kw_norm)
+    if len(kw_norm) < 5:
+        pat += r"(?![a-z0-9])"
+    return re.search(pat, texto_norm) is not None
+
+
+def _tiene_fuerte(texto_norm):
+    return any(_kw_en_texto(f, texto_norm) for f in _FUERTES_N)
 
 
 def _hit_blacklist(texto_norm):
+    # Un término fuerte gana: "maqueta de teatro", "organizador de medicamentos
+    # impreso en 3d" o "atril para libro" no deben morir por la blacklist.
+    if _tiene_fuerte(texto_norm):
+        return None
     for b in _BLACKLIST_N:
-        if b in texto_norm:
+        if _kw_en_texto(b, texto_norm):
             return b
     return None
 
 
-def _kw_en_texto(kw_norm, texto_norm):
-    """Palabras cortas (<5 chars) exigen borde de palabra: 'pin' no matchea 'pintura'."""
-    kw_norm = kw_norm.strip()
-    if not kw_norm:
-        return False
-    if len(kw_norm) < 5:
-        return re.search(r"(?<![a-z0-9])" + re.escape(kw_norm) + r"(?![a-z0-9])", texto_norm) is not None
-    return kw_norm in texto_norm
+def _peso_termino(t):
+    t = _norm(t).strip()
+    if t in _FUERTES_N:
+        return 14
+    if t in _DEBILES_N:
+        return 4
+    return 10   # keyword propia del usuario sin clasificar: neutra
 
 
 def _matches_whitelist(texto_norm):
@@ -181,10 +255,18 @@ def _parse_fecha(s):
 def score_heuristico(reg):
     """0-100: prioriza qué candidatos merecen ficha + evaluación IA."""
     s = 0.0
-    texto = _norm((reg.get("nombre") or "") + " " + " ".join(reg.get("palabras_clave_match") or []))
-    # 1) coincidencias con keywords/whitelist (hasta 40)
-    n_match = len(set(_matches_whitelist(texto)) | set(reg.get("palabras_clave_match") or []))
-    s += min(40, n_match * 14)
+    nombre_n = _norm(reg.get("nombre") or "")
+    prods_n = _norm(" ".join((p.get("nombre") or "") for p in (reg.get("productos") or [])))
+    texto = nombre_n + " " + prods_n
+    # 1) coincidencias ponderadas: un término FUERTE vale 14, uno DÉBIL 4 (hasta 40)
+    terminos = set(_matches_whitelist(texto)) | {_norm(k) for k in (reg.get("palabras_clave_match") or [])}
+    pts = sum(_peso_termino(t) for t in terminos)
+    if reg.get("triage"):
+        pts += 12          # la IA lo marcó fabricable aunque ninguna palabra calzara
+    s += min(40, pts)
+    # 1b) ruido (vehículos, limpieza, mantención…) sin ningún término fuerte: -25
+    if not reg.get("triage") and not _tiene_fuerte(texto) and any(_kw_en_texto(r, nombre_n) for r in _RUIDO_N):
+        s -= 25
     # 2) monto en rango dulce para Compra Ágil (hasta 25)
     m = reg.get("monto_clp") or 0
     try: m = float(m)
@@ -260,10 +342,66 @@ def _paginar(params_base, max_paginas):
     return items
 
 
+_SIN_TILDE = str.maketrans("áéíóúÁÉÍÓÚ", "aeiouAEIOU")   # la ñ se conserva: "senaletica" no encuentra nada
+_VOCALES = set("aeiouáéíóú")
+
+
+def _plural(p):
+    if p[-1] in _VOCALES:
+        return p + "s"
+    if p[-1] == "z":
+        return p[:-1] + "ces"
+    if p[-1] in "nlrdj":
+        # galardón -> galardones (la tilde cae si ya no quedan vocales tras ella)
+        for i in range(len(p) - 1, -1, -1):
+            if p[i] in "áéíóú":
+                if not any(c in _VOCALES for c in p[i + 1:]):
+                    p = p[:i] + p[i].translate(_SIN_TILDE) + p[i + 1:]
+                break
+        return p + "es"
+    return None
+
+
+def _variantes(keyword):
+    """La búsqueda de Mercado Público es LITERAL: 'anatomico' no encuentra
+    'anatómico' ni 'anatómica', 'llavero' no encuentra 'llaveros'. Medido el
+    29-09-2026: anatomico=0, anatómico=3, anatomica=1, llavero=2, llaveros=7.
+    Se busca cada keyword con y sin tilde, en plural y, para adjetivos, en femenino."""
+    base = str(keyword or "").strip().lower()
+    if not base:
+        return []
+    formas = [base]
+    if " " not in base and base.isalpha() and len(base) >= 3:
+        for suf in ("ico", "ivo", "ado", "ido"):           # anatómico -> anatómica
+            if base.endswith(suf):
+                formas.append(base[:-1] + "a")
+                break
+        if not base.endswith("s"):
+            formas += [pl for pl in (_plural(f) for f in list(formas)) if pl]
+    out = []
+    for f in formas:
+        for v in (f, f.translate(_SIN_TILDE)):
+            if v not in out:
+                out.append(v)
+    return out
+
+
 def buscar_por_palabra(keyword):
-    """Busca procesos por palabra clave (todas las regiones del país)."""
+    """Busca procesos por palabra clave (todas las regiones del país), con
+    todas sus variantes. Devuelve la unión sin repetidos."""
     estado_id = ESTADO_PARAM.get((ESTADOS[0] if ESTADOS else "publicada"), 2)
-    return _paginar({"keywords": keyword, "status": estado_id, "order_by": "recent"}, MAX_PAGINAS)
+    vistos, items = set(), []
+    for v in _variantes(keyword):
+        for it in _paginar({"keywords": v, "status": estado_id, "order_by": "recent"}, MAX_PAGINAS):
+            cod = it.get("codigo")
+            if cod and cod not in vistos:
+                vistos.add(cod)
+                items.append(it)
+    return items
+
+
+def _kw_en_titulo(keyword, texto_norm):
+    return any(_kw_en_texto(_norm(v), texto_norm) for v in _variantes(keyword))
 
 
 def buscar_todo():
@@ -1048,7 +1186,7 @@ def prefiltro_texto(reg, con_detalle=False):
         if con_detalle:
             texto += " " + _norm(" ".join((p.get("nombre") or "") + " " + (p.get("descripcion") or "")
                                           for p in (reg.get("productos") or [])))
-        if not reg.get("palabras_clave_match") and not _matches_whitelist(texto):
+        if not reg.get("palabras_clave_match") and not reg.get("triage") and not _matches_whitelist(texto):
             return False, "sin coincidencia con keywords/whitelist"
     return True, ""
 
@@ -1096,9 +1234,11 @@ def _llamar_anthropic(prompt, max_tokens):
     raise RuntimeError(last_err or "API sin respuesta")
 
 
-PROMPT_EVAL = ("Green Wolf SPA (Chile) fabrica con impresión 3D FDM y resina: prototipos, "
-    "piezas plásticas funcionales, modelos anatómicos, señalética y letreros 3D, repuestos "
-    "plásticos, maquetas. Evalúa cada oportunidad de Mercado Público (t=CA: Compra Ágil, "
+PROMPT_EVAL = ("Perfil de capacidades:\n" + PERFIL.replace("{", "(").replace("}", ")") + "\n\n"
+    "Green Wolf SPA y Provectus SpA (Chile) fabrican con impresión 3D FDM y resina: prototipos, "
+    "piezas plásticas funcionales, modelos anatómicos y fantomas, señalética y letreros 3D, "
+    "señalética inclusiva (braille, podotáctil), repuestos plásticos, maquetas, trofeos, galvanos "
+    "y medallas, llaveros y pines, material didáctico, exhibidores y organizadores. Evalúa cada oportunidad de Mercado Público (t=CA: Compra Ágil, "
     "t=LIC: licitación formal, exige más papeleo y garantías): ¿lo pedido PUEDE fabricarse "
     "con impresión 3D y es buen negocio (monto, plazo, cantidad producible)? NO viable: "
     "imprenta de papel, software/licencias, servicios profesionales, químicos, textiles, "
@@ -1155,6 +1295,105 @@ def evaluar_ia(candidatos, cache):
     return cache, nuevos, errores
 
 
+# ---------- Triage IA sobre todo el barrido ----------
+
+PROMPT_TRIAGE = (
+    "Eres el filtro de oportunidades de compras públicas de una empresa chilena de fabricación digital.\n"
+    "LO QUE PUEDE FABRICAR:\n{perfil}\n\n"
+    "LO QUE NO PUEDE: piezas de metal, textiles y vestuario, electrónica terminada, dispositivos médicos "
+    "implantables o con registro sanitario, químicos, alimentos, impresión en papel, señalética vial "
+    "reflectante certificada, servicios (limpieza, mantención, transporte, capacitación, arriendo).\n\n"
+    "Tarea: de la lista de títulos, devuelve SOLO los que PODRÍAN resolverse total o parcialmente con "
+    "piezas impresas en 3D por esta empresa. Sé inclusivo con modelos, maquetas, réplicas, simuladores y "
+    "fantomas de entrenamiento, soportes, carcasas, organizadores, exhibidores, trofeos, galvanos, "
+    "medallas, llaveros, señalética, material didáctico y piezas plásticas. Ante duda razonable, inclúyelo: "
+    "después se revisa la ficha completa.\n"
+    "Para cada uno indica en t la palabra o frase del título que lo delata, copiada tal como aparece.\n"
+    'Responde SOLO un arreglo JSON: [{{"c":"código","t":"palabra"}}]. Si ninguno califica: [].\n'
+    "Títulos (código|título):\n{datos}")
+
+
+def cargar_cache_triage():
+    if os.path.exists(TRIAGE_CACHE_FILE):
+        try:
+            with open(TRIAGE_CACHE_FILE, encoding="utf-8") as f:
+                return json.load(f) or {}
+        except Exception:
+            pass
+    return {}
+
+
+def guardar_cache_triage(cache):
+    limite = (time.time() - TRIAGE_CACHE_DIAS * 86400) * 1000
+    cache = {k: v for k, v in cache.items() if (v.get("ts") or 0) >= limite}
+    with open(TRIAGE_CACHE_FILE, "w", encoding="utf-8") as f:
+        json.dump(cache, f, ensure_ascii=False, separators=(",", ":"))
+    return cache
+
+
+def triage_ia(regs):
+    """Devuelve (rescatados, stats). Marca reg["triage"] con la palabra que lo delató.
+    Solo se consultan títulos nuevos; los ya vistos salen del caché sin costo."""
+    stats = {"revisados": 0, "nuevos": 0, "rescatados": 0, "errores": 0}
+    if not TRIAGE_ON or not ANTHROPIC_KEY or not regs:
+        return [], stats
+    cache = cargar_cache_triage()
+    stats["revisados"] = len(regs)
+    pendientes = [r for r in regs if r["codigo"] not in cache][:MAX_TRIAGE]
+    ahora = int(time.time() * 1000)
+    print(f"Triage IA: {len(regs)} títulos sin coincidencia, {len(pendientes)} nuevos a evaluar")
+    for i in range(0, len(pendientes), TRIAGE_LOTE):
+        lote = pendientes[i:i + TRIAGE_LOTE]
+        lineas = "\n".join(f"{r['codigo']}|{(r.get('nombre') or '')[:110]}" for r in lote)
+        prompt = PROMPT_TRIAGE.format(perfil=PERFIL, datos=lineas)
+        try:
+            txt = _llamar_anthropic(prompt, max_tokens=2500)
+            txt = txt.replace("```json", "").replace("```", "").strip()
+            ini, fin = txt.find("["), txt.rfind("]")
+            if ini == -1 or fin < ini:
+                raise ValueError("respuesta sin JSON")
+            positivos = {}
+            for e in json.loads(txt[ini:fin + 1]):
+                if isinstance(e, dict) and e.get("c"):
+                    positivos[str(e["c"]).strip()] = str(e.get("t") or "")[:60]
+            for r in lote:        # solo se cachea un lote que respondió bien
+                cod = r["codigo"]
+                cache[cod] = {"v": 1, "t": positivos[cod], "ts": ahora} if cod in positivos else {"v": 0, "ts": ahora}
+            stats["nuevos"] += len(lote)
+        except Exception as ex:
+            stats["errores"] += 1
+            print(f"  · triage lote {i // TRIAGE_LOTE + 1}: {ex}", file=sys.stderr)
+        time.sleep(1)
+    guardar_cache_triage(cache)
+    rescatados = []
+    for r in regs:
+        ev = cache.get(r["codigo"])
+        if ev and ev.get("v"):
+            r["triage"] = ev.get("t") or "IA"
+            rescatados.append(r)
+    stats["rescatados"] = len(rescatados)
+    return rescatados, stats
+
+
+def sugerir_keywords(rescatados):
+    """Palabras que el triage usó para rescatar y que ninguna keyword/whitelist cubre:
+    son candidatas a keyword (la búsqueda por keyword mira también DENTRO de los productos)."""
+    conteo, ejemplos = {}, {}
+    for r in rescatados:
+        t = str(r.get("triage") or "").strip().lower()
+        tn = _norm(t)
+        if not tn or len(tn) < 4:
+            continue
+        if _matches_whitelist(tn) or any(_kw_en_titulo(k, tn) for k in PALABRAS_CLAVE):
+            continue
+        conteo[t] = conteo.get(t, 0) + 1
+        ejemplos.setdefault(t, [])
+        if len(ejemplos[t]) < 3:
+            ejemplos[t].append({"c": r["codigo"], "n": (r.get("nombre") or "")[:90]})
+    orden = sorted(conteo.items(), key=lambda kv: -kv[1])[:25]
+    return [{"t": t, "n": n, "ej": ejemplos[t]} for t, n in orden]
+
+
 # ---------- Main ----------
 
 def _fecha_orden(reg):
@@ -1194,7 +1433,7 @@ def main():
         for cod, it in por_codigo.items():
             nom = _norm(it.get("nombre") or "")
             for kw in PALABRAS_CLAVE:
-                if _kw_en_texto(_norm(kw), nom):
+                if _kw_en_titulo(kw, nom):
                     matches.setdefault(cod, set()).add(kw)
     else:
         for kw in PALABRAS_CLAVE:
@@ -1222,6 +1461,7 @@ def main():
     #    blacklist y lo sin match; el filtro duro (monto/cierre próximo) MARCA
     #    pero no elimina — así nada visible desaparece mientras siga abierto.
     registros, descartados = [], {"cerradas": 0, "blacklist": 0, "sin_match": 0}
+    sin_match = []
     for cod, it in por_codigo.items():
         reg = normalizar(it, matches.get(cod, set()))
         if cerrada_ya(reg):
@@ -1229,12 +1469,29 @@ def main():
             continue
         pasa, razon = prefiltro_texto(reg, con_detalle=False)
         if not pasa:
-            descartados["blacklist" if razon.startswith("blacklist") else "sin_match"] += 1
+            if razon.startswith("blacklist"):
+                descartados["blacklist"] += 1
+            else:
+                sin_match.append(reg)
             continue
         razon_dura = filtro_duro(reg)
         reg["prefiltro"] = {"pasa": razon_dura is None, "razon": razon_dura or ""}
         reg["score_heuristico"] = score_heuristico(reg)
         registros.append(reg)
+
+    # 2b) Triage IA: de lo que no calzó con ninguna palabra, rescatar lo fabricable.
+    #     Solo lo que igual podría cotizarse (cierre y monto OK): no gastar en lo que no sirve.
+    triables = [r for r in sin_match if filtro_duro(r) is None]
+    rescatados, triage_stats = triage_ia(triables)
+    for reg in rescatados:
+        reg["prefiltro"] = {"pasa": True, "razon": ""}
+        reg["score_heuristico"] = score_heuristico(reg)
+        registros.append(reg)
+    descartados["sin_match"] = len(sin_match) - len(rescatados)
+    descartados["rescatados_triage"] = len(rescatados)
+    sugerencias = sugerir_keywords(rescatados)
+    if rescatados:
+        print(f"Triage IA: rescatados {len(rescatados)} procesos que ninguna palabra atrapaba")
 
     # 3) Priorizar por score y enriquecer SOLO los mejores que pasan todo
     registros.sort(key=lambda r: -(r.get("score_heuristico") or 0))
@@ -1369,6 +1626,8 @@ def main():
         "recolectados_total": len(por_codigo),
         "descartados": descartados,
         "recuperados_feed_anterior": recuperados,
+        "triage_ia": dict(triage_stats, habilitado=TRIAGE_ON),
+        "sugerencias_keywords": sugerencias,
         "licitaciones": dict(lic_stats, habilitadas=INCLUIR_LICITACIONES, con_ticket=bool(MP_TICKET)),
         "historico_precios": hist_info,
         "eval_ia": {"evaluados_total": len(cache), "nuevos_esta_corrida": ia_nuevos,

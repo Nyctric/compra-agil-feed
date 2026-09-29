@@ -1,13 +1,33 @@
 {
   "palabras_clave": [
-    "anatomico",
+    "anatómico",
+    "fantoma",
     "3d",
-    "fantomas",
-    "pines",
-    "pins",
     "maqueta",
+    "prototipo",
     "galvano",
-    "modelo"
+    "galardón",
+    "trofeo",
+    "medalla",
+    "pin",
+    "pins",
+    "piocha",
+    "llavero",
+    "souvenir",
+    "souvenirs",
+    "merchandising",
+    "señalética",
+    "letrero",
+    "braille",
+    "podotáctil",
+    "réplica",
+    "escultura",
+    "didáctico",
+    "premiación",
+    "estatuilla",
+    "exhibidor",
+    "tipodonto",
+    "simulador"
   ],
   "buscar_todo": true,
   "monto_min_clp": 100000,
@@ -31,5 +51,7 @@
     "green wolf",
     "provectus"
   ],
-  "max_paginas_todo": 400
+  "max_paginas_todo": 650,
+  "triage_ia": true,
+  "max_triage": 5000
 }
