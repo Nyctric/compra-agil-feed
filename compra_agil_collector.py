@@ -88,6 +88,8 @@ BUSCAR_TODO = bool(_CFG.get("buscar_todo", False))
 MONTO_MIN_CLP = int(_CFG.get("monto_min_clp", 100000))
 HORAS_MIN_CIERRE = int(_CFG.get("horas_min_cierre", 24))
 MAX_DETALLE = int(_CFG.get("max_detalle", 150))
+MAX_DETALLE_CIERRE = int(_CFG.get("max_detalle_cierre", 30))   # fichas extra: cierran pronto
+HORAS_MIN_COTIZAR = float(_CFG.get("horas_min_cotizar", 8))   # por debajo ya no alcanza a cotizarse
 MAX_EVAL_IA = int(_CFG.get("max_eval_ia", 100))
 MAX_ITEMS_FEED = int(_CFG.get("max_items_feed", 800))
 RUBROS_BLOQUEADOS = [str(r) for r in (_CFG.get("rubros_bloqueados") or [])]
@@ -1682,6 +1684,29 @@ def main():
         reg["score_heuristico"] = score_heuristico(reg)  # ahora con total_ofertas
         if i % 10 == 0:
             print(f"  · {i}/{len(a_enriquecer)} procesados")
+
+    # 3a. Los que cierran pronto también llevan ficha si todavía alcanza a cotizarse
+    #     (la corrida es a las 23:59: "menos de 24 h" incluye todo lo que cierra al día
+    #     siguiente). Sin ficha la app solo conoce el título y cotiza a ciegas.
+    if FETCH_DETALLE and MAX_DETALLE_CIERRE > 0:
+        ya_enr = {r["codigo"] for r in a_enriquecer}
+        pronto = []
+        for r in registros:
+            if r["codigo"] in ya_enr or r.get("productos") or r.get("tipo") != "compra_agil":
+                continue
+            if not str((r.get("prefiltro") or {}).get("razon") or "").startswith("cierre a menos"):
+                continue
+            fc = _parse_fecha(r.get("fecha_cierre"))
+            if fc is None or (fc - _ahora_chile()).total_seconds() / 3600 < HORAS_MIN_COTIZAR:
+                continue
+            if not r.get("palabras_clave_match") and not r.get("triage"):
+                continue
+            pronto.append(r)
+        pronto = pronto[:MAX_DETALLE_CIERRE]
+        if pronto:
+            print(f"Fichas de procesos que cierran pronto (aún cotizables): {len(pronto)}")
+        for reg in pronto:
+            enriquecer_con_detalle(reg)
 
     # 3b) Licitaciones públicas (API oficial, cuota del ticket)
     lic_stats = {"activas": 0, "candidatas": 0, "incluidas": 0}
