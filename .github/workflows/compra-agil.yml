@@ -68,6 +68,9 @@ jobs:
 
       - name: Ejecutar recolector
         env:
+          # Sin esto Python retiene la salida y el log muestra todo con la hora
+          # de término: no se puede ver en vivo en qué etapa va ni cuánto tarda cada una.
+          PYTHONUNBUFFERED: "1"
           MP_TICKET: ${{ secrets.MP_TICKET }}
           # Opcional: si está definido, la evaluación IA (Haiku) corre aquí y
           # queda cacheada en eval_ia.json — la app no gasta tokens al abrir.
