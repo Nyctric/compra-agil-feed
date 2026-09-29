@@ -1,15 +1,16 @@
 name: Compra Agil — recolector
 
-# Lunes a viernes a las 23:59 hora de Chile continental (America/Santiago).
+# Domingo a viernes a las 23:59 hora de Chile continental (America/Santiago).
+# El domingo cubre lo publicado el fin de semana que cierra el lunes.
 # GitHub solo entiende UTC y Chile cambia de horario dos veces al año:
 #   horario de verano  (UTC-3, sept → abril): 23:59 = 02:59 UTC del día siguiente
 #   horario de invierno (UTC-4, abril → sept): 23:59 = 03:59 UTC del día siguiente
 # Por eso hay dos disparos y el job "horario" deja pasar solo el que corresponde
-# a la fecha. Lunes-viernes en Chile = martes-sábado en UTC (2-6).
+# a la fecha. Domingo-viernes en Chile = lunes-sábado en UTC (1-6).
 on:
   schedule:
-    - cron: "59 2 * * 2-6"   # verano
-    - cron: "59 3 * * 2-6"   # invierno
+    - cron: "59 2 * * 1-6"   # verano
+    - cron: "59 3 * * 1-6"   # invierno
   workflow_dispatch: {}  # a mano (o desde ContaApp): corre siempre, sin mirar la hora
 
 permissions:
@@ -22,7 +23,7 @@ concurrency:
 
 jobs:
   horario:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04   # fijo: ubuntu-latest pasa a 26 el 19-10-2026
     outputs:
       correr: ${{ steps.decidir.outputs.correr }}
     steps:
@@ -38,7 +39,7 @@ jobs:
           # Se decide por el disparo, no por la hora real: GitHub suele atrasar los
           # cron varios minutos y a las 00:05 ya sería "otro día".
           OFFSET=$(TZ=America/Santiago date +%z)
-          if [ "$OFFSET" = "-0300" ]; then ESPERADO="59 2 * * 2-6"; else ESPERADO="59 3 * * 2-6"; fi
+          if [ "$OFFSET" = "-0300" ]; then ESPERADO="59 2 * * 1-6"; else ESPERADO="59 3 * * 1-6"; fi
           if [ "$DISPARO" = "$ESPERADO" ]; then
             echo "Chile en UTC${OFFSET}: corresponde '$DISPARO'. Corre."
             echo "correr=true" >> "$GITHUB_OUTPUT"
@@ -50,16 +51,16 @@ jobs:
   recolectar:
     needs: horario
     if: needs.horario.outputs.correr == 'true'
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04   # fijo: ubuntu-latest pasa a 26 el 19-10-2026
     timeout-minutes: 350
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0   # historial completo: permite rebase si master avanzó durante la corrida
 
       - name: Setup Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
