@@ -27,7 +27,8 @@
     "estatuilla",
     "exhibidor",
     "tipodonto",
-    "simulador"
+    "simulador",
+    "juguete"
   ],
   "buscar_todo": true,
   "monto_min_clp": 100000,

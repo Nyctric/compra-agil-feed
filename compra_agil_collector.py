@@ -425,17 +425,36 @@ def _kw_en_titulo(keyword, texto_norm):
     return any(_kw_en_texto(_norm(v), texto_norm) for v in _variantes(keyword))
 
 
+BARRIDO_MAX_FALLOS_SEGUIDOS = 5
+_BARRIDO_ESTADO = {"paginas_fallidas": [], "cortado": False}
+
+
 def _paginar_hasta(params_base, max_paginas, desde):
     """Como _paginar, pero la lista viene de lo más nuevo a lo más viejo
     (order_by=recent = fecha de publicación descendente, verificado 29-09-2026):
     se corta en la primera página cuyos procesos son TODOS anteriores a `desde`."""
     items, pagina, paginas = [], 1, 0
+    fallos_seguidos = 0
+    _BARRIDO_ESTADO["paginas_fallidas"] = []
+    _BARRIDO_ESTADO["cortado"] = False
     while pagina <= max_paginas:
         params = dict(params_base); params["page_number"] = pagina
         payload = _get_buscador(params)
         time.sleep(PAUSA_SEG)
         if not payload:
-            break
+            # una página caída (502/504) ya no corta el barrido: se salta y se sigue;
+            # solo se abandona tras varias fallas seguidas (y queda marcado como cortado)
+            _BARRIDO_ESTADO["paginas_fallidas"].append(pagina)
+            fallos_seguidos += 1
+            if fallos_seguidos >= BARRIDO_MAX_FALLOS_SEGUIDOS:
+                _BARRIDO_ESTADO["cortado"] = True
+                print(f"  · barrido: {fallos_seguidos} páginas seguidas fallidas — se detiene en la {pagina}",
+                      file=sys.stderr)
+                break
+            time.sleep(10 * fallos_seguidos)
+            pagina += 1
+            continue
+        fallos_seguidos = 0
         paginas += 1
         res = payload.get("resultados") or []
         items.extend(res)
@@ -475,6 +494,11 @@ def decidir_barrido(prev_meta, triage_cache_vacio):
         return None, "sin registro de la corrida anterior"
     if triage_cache_vacio:
         return None, "caché del triage vacío (primera vez o perfil cambiado)"
+    if (prev_meta.get("barrido") or {}).get("cortado"):
+        return None, "el barrido anterior quedó cortado por fallas de la API"
+    if "cortado" not in (prev_meta.get("barrido") or {}):
+        # feeds de la versión anterior: una página caída cortaba el barrido sin avisar
+        return None, "la corrida anterior no registró si el barrido terminó"
     if not (prev_meta.get("triage_ia") or {}).get("completo", False):
         return None, "el triage anterior quedó incompleto"
     if (_ahora_chile() - ini).days >= BARRIDO_MAX_DIAS:
@@ -1371,12 +1395,20 @@ PROMPT_TRIAGE = (
     "LO QUE PUEDE FABRICAR:\n{perfil}\n\n"
     "LO QUE NO PUEDE: piezas de metal, textiles y vestuario, electrónica terminada, dispositivos médicos "
     "implantables o con registro sanitario, químicos, alimentos, impresión en papel, señalética vial "
-    "reflectante certificada, servicios (limpieza, mantención, transporte, capacitación, arriendo).\n\n"
+    "reflectante certificada, servicios (limpieza, mantención, transporte, capacitación, arriendo).\n"
+    "DESCARTA SIEMPRE (no son para esta empresa aunque parezcan objetos): muebles (camas, sillas, mesas, "
+    "escritorios, estantes, cajoneras, casilleros, carros, pizarras); impresión gran formato, gigantografías, "
+    "vinilos, pendones, lienzos y lonas; ferretería y cerrajería (cerraduras, bisagras, candados, tornillos); "
+    "máquinas y equipos (impresoras, computadores, electrodomésticos, herramientas) y sus insumos (tóner, "
+    "tinta, repuestos de equipos); EPP y seguridad industrial; construcción y obras (puertas, ventanas, "
+    "cierres, techumbres, policarbonato, planchas, pintura); aseo, basureros y contenedores; útiles de "
+    "oficina y papelería genéricos.\n\n"
     "Tarea: de la lista de títulos, devuelve SOLO los que PODRÍAN resolverse total o parcialmente con "
     "piezas impresas en 3D por esta empresa. Sé inclusivo con modelos, maquetas, réplicas, simuladores y "
     "fantomas de entrenamiento, soportes, carcasas, organizadores, exhibidores, trofeos, galvanos, "
-    "medallas, llaveros, señalética, material didáctico y piezas plásticas. Ante duda razonable, inclúyelo: "
-    "después se revisa la ficha completa.\n"
+    "medallas, llaveros, placas y letreros, material didáctico, juguetes y juegos terapéuticos, timbres y "
+    "piezas plásticas a medida. Incluye un proceso solo si una parte importante de lo pedido son piezas que "
+    "se imprimen en 3D; si lo pedido es mayormente un producto industrial de catálogo, descártalo.\n"
     "Para cada uno indica en t la palabra o frase del título que lo delata, copiada tal como aparece.\n"
     'Responde SOLO un arreglo JSON: [{{"c":"código","t":"palabra"}}]. Si ninguno califica: [].\n'
     "Títulos (código|título):\n{datos}")
@@ -1516,6 +1548,11 @@ def main():
         t0 = time.time()
         items, barrido["paginas"] = buscar_todo(desde)
         barrido["minutos"] = round((time.time() - t0) / 60, 1)
+        barrido["cortado"] = bool(_BARRIDO_ESTADO["cortado"])
+        barrido["paginas_fallidas"] = list(_BARRIDO_ESTADO["paginas_fallidas"])
+        if barrido["paginas_fallidas"]:
+            print(f"  · barrido: páginas saltadas por falla de la API: {barrido['paginas_fallidas']}"
+                  f"{' (CORTADO)' if barrido['cortado'] else ''}")
         print(f"  · barrido {barrido['modo']} ({motivo}{', desde ' + barrido['desde'] if desde else ''}): "
               f"{len(items)} resultados en {barrido['paginas']} páginas, {barrido['minutos']} min")
         for it in items:
@@ -1605,7 +1642,6 @@ def main():
         registros.append(reg)
     descartados["sin_match"] = len(sin_match) - len(rescatados)
     descartados["rescatados_triage"] = len(rescatados)
-    sugerencias = sugerir_keywords(rescatados)
     if rescatados:
         print(f"Triage IA: rescatados {len(rescatados)} procesos que ninguna palabra atrapaba")
 
@@ -1718,6 +1754,11 @@ def main():
         cache, ia_nuevos, ia_errores = evaluar_ia(candidatos_ia, cache)
     else:
         print("Sin ANTHROPIC_API_KEY: la evaluación IA queda para la app (fallback).")
+
+    # 4a. Sugerencias de keywords: solo de los rescatados que la evaluación IA
+    #     completa (con la ficha) confirmó como viables — el triage solo ve títulos.
+    sugerencias = sugerir_keywords([r for r in rescatados
+                                    if (cache.get(r["codigo"]) or {}).get("v")])
 
     # 4b) Arrastre: procesos del feed anterior que siguen abiertos pero no
     #     aparecieron en esta corrida (hipo de la API, cambio de scores, etc.)
