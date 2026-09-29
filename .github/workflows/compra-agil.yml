@@ -1,18 +1,57 @@
 name: Compra Agil — recolector
 
-# Corre una vez al día a las 10:00 hora Chile (UTC-4 verano / UTC-3 invierno).
-# 14:00 UTC = 10:00 Chile verano. En invierno serían las 11:00.
+# Lunes a viernes a las 23:59 hora de Chile continental (America/Santiago).
+# GitHub solo entiende UTC y Chile cambia de horario dos veces al año:
+#   horario de verano  (UTC-3, sept → abril): 23:59 = 02:59 UTC del día siguiente
+#   horario de invierno (UTC-4, abril → sept): 23:59 = 03:59 UTC del día siguiente
+# Por eso hay dos disparos y el job "horario" deja pasar solo el que corresponde
+# a la fecha. Lunes-viernes en Chile = martes-sábado en UTC (2-6).
 on:
   schedule:
-    - cron: "0 14 * * *"
-  workflow_dispatch: {}  # permite ejecutarlo a mano desde la pestaña Actions
+    - cron: "59 2 * * 2-6"   # verano
+    - cron: "59 3 * * 2-6"   # invierno
+  workflow_dispatch: {}  # a mano (o desde ContaApp): corre siempre, sin mirar la hora
 
 permissions:
   contents: write
 
+# Nunca dos corridas a la vez: la segunda espera a que termine la primera.
+concurrency:
+  group: compra-agil
+  cancel-in-progress: false
+
 jobs:
-  recolectar:
+  horario:
     runs-on: ubuntu-latest
+    outputs:
+      correr: ${{ steps.decidir.outputs.correr }}
+    steps:
+      - name: ¿Corresponde este disparo?
+        id: decidir
+        env:
+          DISPARO: ${{ github.event.schedule }}
+          EVENTO: ${{ github.event_name }}
+        run: |
+          if [ "$EVENTO" != "schedule" ]; then
+            echo "Ejecución manual: corre." ; echo "correr=true" >> "$GITHUB_OUTPUT" ; exit 0
+          fi
+          # Se decide por el disparo, no por la hora real: GitHub suele atrasar los
+          # cron varios minutos y a las 00:05 ya sería "otro día".
+          OFFSET=$(TZ=America/Santiago date +%z)
+          if [ "$OFFSET" = "-0300" ]; then ESPERADO="59 2 * * 2-6"; else ESPERADO="59 3 * * 2-6"; fi
+          if [ "$DISPARO" = "$ESPERADO" ]; then
+            echo "Chile en UTC${OFFSET}: corresponde '$DISPARO'. Corre."
+            echo "correr=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "Chile en UTC${OFFSET}: hoy corresponde '$ESPERADO', no '$DISPARO'. Se omite."
+            echo "correr=false" >> "$GITHUB_OUTPUT"
+          fi
+
+  recolectar:
+    needs: horario
+    if: needs.horario.outputs.correr == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -50,6 +89,7 @@ jobs:
           mkdir -p /tmp/salida
           cp oportunidades.json /tmp/salida/ 2>/dev/null || true
           if [ -f eval_ia.json ]; then cp eval_ia.json /tmp/salida/; fi
+          if [ -f triage_ia.json ]; then cp triage_ia.json /tmp/salida/; fi
           if [ -f precios_historicos.json ]; then cp precios_historicos.json /tmp/salida/; fi
           if [ -f resultados.json ]; then cp resultados.json /tmp/salida/; fi
           if [ -d adjuntos ]; then cp -r adjuntos /tmp/salida/; fi
@@ -60,11 +100,13 @@ jobs:
             rm -rf adjuntos
             cp /tmp/salida/oportunidades.json . 2>/dev/null || true
             if [ -f /tmp/salida/eval_ia.json ]; then cp /tmp/salida/eval_ia.json .; fi
+            if [ -f /tmp/salida/triage_ia.json ]; then cp /tmp/salida/triage_ia.json .; fi
             if [ -f /tmp/salida/precios_historicos.json ]; then cp /tmp/salida/precios_historicos.json .; fi
             if [ -f /tmp/salida/resultados.json ]; then cp /tmp/salida/resultados.json .; fi
             if [ -d /tmp/salida/adjuntos ]; then cp -r /tmp/salida/adjuntos .; fi
             git add -A oportunidades.json
             if [ -f eval_ia.json ]; then git add -A eval_ia.json; fi
+            if [ -f triage_ia.json ]; then git add -A triage_ia.json; fi
             if [ -f precios_historicos.json ]; then git add -A precios_historicos.json; fi
             if [ -f resultados.json ]; then git add -A resultados.json; fi
             git add -A adjuntos 2>/dev/null || true
