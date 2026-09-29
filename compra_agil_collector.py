@@ -35,8 +35,22 @@ claves públicas (BUSCADOR_API_KEY / ADJ_USER_KEY), se obtienen de nuevo
 inspeccionando el JS de buscador.mercadopublico.cl.
 """
 
-import os, re, sys, json, time, shutil, unicodedata, datetime as dt
+import os, re, sys, json, time, shutil, hashlib, unicodedata, datetime as dt
 from urllib.parse import quote
+try:
+    from zoneinfo import ZoneInfo
+    _TZ_CL = ZoneInfo("America/Santiago")
+except Exception:          # sin tzdata: se asume horario de verano chileno
+    _TZ_CL = None
+
+
+def _ahora_chile():
+    """Hora de Chile continental, sin zona (igual que las fechas de Mercado Público).
+    El runner de GitHub está en UTC: comparar contra dt.datetime.now() desfasaba
+    3-4 horas los cierres ("ya cerró", "cierra en menos de 24 h")."""
+    if _TZ_CL is not None:
+        return dt.datetime.now(_TZ_CL).replace(tzinfo=None)
+    return dt.datetime.utcnow() - dt.timedelta(hours=3)
 import requests
 
 # API pública del buscador (la misma del sitio buscador.mercadopublico.cl)
@@ -277,7 +291,7 @@ def score_heuristico(reg):
     # 3) días hasta el cierre: 2-10 días es lo cómodo (hasta 20)
     fc = _parse_fecha(reg.get("fecha_cierre"))
     if fc:
-        dias = (fc - dt.datetime.now()).total_seconds() / 86400
+        dias = (fc - _ahora_chile()).total_seconds() / 86400
         if 2 <= dias <= 10: s += 20
         elif 1 <= dias < 2 or 10 < dias <= 20: s += 10
     # 4) pocas ofertas recibidas = menos competencia (hasta 15; solo post-ficha)
@@ -404,13 +418,61 @@ def _kw_en_titulo(keyword, texto_norm):
     return any(_kw_en_texto(_norm(v), texto_norm) for v in _variantes(keyword))
 
 
-def buscar_todo():
-    """Trae todo lo publicado en el país, sin keywords."""
+def _paginar_hasta(params_base, max_paginas, desde):
+    """Como _paginar, pero la lista viene de lo más nuevo a lo más viejo
+    (order_by=recent = fecha de publicación descendente, verificado 29-09-2026):
+    se corta en la primera página cuyos procesos son TODOS anteriores a `desde`."""
+    items, pagina, paginas = [], 1, 0
+    while pagina <= max_paginas:
+        params = dict(params_base); params["page_number"] = pagina
+        payload = _get_buscador(params)
+        time.sleep(PAUSA_SEG)
+        if not payload:
+            break
+        paginas += 1
+        res = payload.get("resultados") or []
+        items.extend(res)
+        if desde is not None and res:
+            fechas = [_parse_fecha(r.get("fecha_publicacion")) for r in res]
+            if all(f is not None and f < desde for f in fechas):
+                break
+        if pagina >= (payload.get("pageCount") or 1):
+            break
+        pagina += 1
+    return items, paginas
+
+
+def buscar_todo(desde=None):
+    """Trae lo publicado en el país, sin keywords. Con `desde`, solo hasta esa
+    fecha de publicación (barrido incremental). Devuelve (items, páginas)."""
     estado_id = ESTADO_PARAM.get((ESTADOS[0] if ESTADOS else "publicada"), 2)
-    items = _paginar({"status": estado_id, "order_by": "recent"}, MAX_PAGINAS_TODO)
+    items, pags = _paginar_hasta({"status": estado_id, "order_by": "recent"}, MAX_PAGINAS_TODO, desde)
     if not items:  # algunas variantes exigen el parámetro aunque sea vacío
-        items = _paginar({"keywords": "", "status": estado_id, "order_by": "recent"}, MAX_PAGINAS_TODO)
-    return items
+        items, pags = _paginar_hasta({"keywords": "", "status": estado_id, "order_by": "recent"}, MAX_PAGINAS_TODO, desde)
+    return items, pags
+
+
+BARRIDO_INCREMENTAL = bool(_CFG.get("barrido_incremental", True))
+BARRIDO_MARGEN_H = 3          # solapamiento con la corrida anterior
+BARRIDO_MAX_DIAS = 5          # si la última corrida es más vieja, barrido completo
+
+
+def decidir_barrido(prev_meta, triage_cache_vacio):
+    """Devuelve (desde, motivo). desde=None => barrido completo.
+    Lo ya barrido antes está en el feed (arrastre) o en el caché del triage, y las
+    búsquedas por keyword miran todas las fechas: basta con revisar lo nuevo."""
+    if not BARRIDO_INCREMENTAL:
+        return None, "incremental desactivado en keywords.json"
+    ini = _parse_fecha((prev_meta.get("barrido") or {}).get("inicio_cl"))
+    if ini is None:
+        return None, "sin registro de la corrida anterior"
+    if triage_cache_vacio:
+        return None, "caché del triage vacío (primera vez o perfil cambiado)"
+    if not (prev_meta.get("triage_ia") or {}).get("completo", False):
+        return None, "el triage anterior quedó incompleto"
+    if (_ahora_chile() - ini).days >= BARRIDO_MAX_DIAS:
+        return None, f"la corrida anterior tiene más de {BARRIDO_MAX_DIAS} días"
+    return ini - dt.timedelta(hours=BARRIDO_MARGEN_H), "incremental"
 
 
 def traer_ficha(codigo):
@@ -1142,14 +1204,14 @@ def enriquecer_con_detalle(registro):
 def cerrada_ya(reg):
     """True si el proceso ya cerró (única razón para sacarlo del feed)."""
     fc = _parse_fecha(reg.get("fecha_cierre"))
-    return fc is not None and fc <= dt.datetime.now()
+    return fc is not None and fc <= _ahora_chile()
 
 
 def filtro_duro(reg):
     """Filtros baratos que no requieren ficha ni IA. Devuelve razón o None."""
     fc = _parse_fecha(reg.get("fecha_cierre"))
     if fc is not None:
-        horas = (fc - dt.datetime.now()).total_seconds() / 3600
+        horas = (fc - _ahora_chile()).total_seconds() / 3600
         if horas < HORAS_MIN_CIERRE:
             return f"cierre a menos de {HORAS_MIN_CIERRE}h"
     m = reg.get("monto_clp")
@@ -1313,11 +1375,25 @@ PROMPT_TRIAGE = (
     "Títulos (código|título):\n{datos}")
 
 
+PERFIL_HASH = hashlib.sha1(PERFIL.encode("utf-8")).hexdigest()[:12]
+_AVISO_PERFIL = []
+
+
 def cargar_cache_triage():
+    """El veredicto depende del perfil: si el perfil cambió, el caché no sirve
+    (y se hace un barrido completo para re-evaluar todo con el perfil nuevo).
+    Un caché sin marca de perfil (versión anterior) se adopta tal cual."""
     if os.path.exists(TRIAGE_CACHE_FILE):
         try:
             with open(TRIAGE_CACHE_FILE, encoding="utf-8") as f:
-                return json.load(f) or {}
+                data = json.load(f) or {}
+            marca = data.pop("_perfil", None)
+            if marca is not None and marca != PERFIL_HASH:
+                if not _AVISO_PERFIL:
+                    _AVISO_PERFIL.append(1)
+                    print("Triage IA: el perfil de empresa cambió — se re-evalúa todo")
+                return {}
+            return data
         except Exception:
             pass
     return {}
@@ -1327,19 +1403,25 @@ def guardar_cache_triage(cache):
     limite = (time.time() - TRIAGE_CACHE_DIAS * 86400) * 1000
     cache = {k: v for k, v in cache.items() if (v.get("ts") or 0) >= limite}
     with open(TRIAGE_CACHE_FILE, "w", encoding="utf-8") as f:
-        json.dump(cache, f, ensure_ascii=False, separators=(",", ":"))
+        json.dump(dict(cache, _perfil=PERFIL_HASH), f, ensure_ascii=False, separators=(",", ":"))
     return cache
 
 
 def triage_ia(regs):
     """Devuelve (rescatados, stats). Marca reg["triage"] con la palabra que lo delató.
     Solo se consultan títulos nuevos; los ya vistos salen del caché sin costo."""
-    stats = {"revisados": 0, "nuevos": 0, "rescatados": 0, "errores": 0}
-    if not TRIAGE_ON or not ANTHROPIC_KEY or not regs:
+    stats = {"revisados": 0, "nuevos": 0, "rescatados": 0, "errores": 0, "completo": True}
+    if not TRIAGE_ON or not ANTHROPIC_KEY:
+        stats["completo"] = False      # sin triage no se puede barrer solo lo nuevo
+        return [], stats
+    if not regs:
         return [], stats
     cache = cargar_cache_triage()
     stats["revisados"] = len(regs)
-    pendientes = [r for r in regs if r["codigo"] not in cache][:MAX_TRIAGE]
+    todos_pend = [r for r in regs if r["codigo"] not in cache]
+    pendientes = todos_pend[:MAX_TRIAGE]
+    if len(todos_pend) > MAX_TRIAGE:
+        stats["completo"] = False
     ahora = int(time.time() * 1000)
     print(f"Triage IA: {len(regs)} títulos sin coincidencia, {len(pendientes)} nuevos a evaluar")
     for i in range(0, len(pendientes), TRIAGE_LOTE):
@@ -1364,6 +1446,8 @@ def triage_ia(regs):
             stats["errores"] += 1
             print(f"  · triage lote {i // TRIAGE_LOTE + 1}: {ex}", file=sys.stderr)
         time.sleep(1)
+    if stats["errores"]:
+        stats["completo"] = False
     guardar_cache_triage(cache)
     rescatados = []
     for r in regs:
@@ -1407,9 +1491,26 @@ def main():
 
     # 1) Recolección
     por_codigo, matches = {}, {}
+    prev_meta, prev_abiertos = {}, {}
+    if os.path.exists(OUTPUT_FILE):
+        try:
+            with open(OUTPUT_FILE, encoding="utf-8") as f:
+                _prev = json.load(f)
+            prev_meta = {k: v for k, v in _prev.items() if k != "items"}
+            prev_abiertos = {it["codigo"]: it for it in (_prev.get("items") or []) if it.get("codigo")}
+        except Exception:
+            prev_meta, prev_abiertos = {}, {}
+    barrido = {"modo": None, "inicio_cl": _ahora_chile().strftime("%Y-%m-%d %H:%M"), "desde": None,
+               "paginas": 0, "motivo": ""}
     if BUSCAR_TODO:
-        items = buscar_todo()
-        print(f"  · buscar_todo: {len(items)} resultados")
+        desde, motivo = decidir_barrido(prev_meta, not cargar_cache_triage())
+        barrido.update(modo="incremental" if desde else "completo", motivo=motivo,
+                       desde=desde.strftime("%Y-%m-%d %H:%M") if desde else None)
+        t0 = time.time()
+        items, barrido["paginas"] = buscar_todo(desde)
+        barrido["minutos"] = round((time.time() - t0) / 60, 1)
+        print(f"  · barrido {barrido['modo']} ({motivo}{', desde ' + barrido['desde'] if desde else ''}): "
+              f"{len(items)} resultados en {barrido['paginas']} páginas, {barrido['minutos']} min")
         for it in items:
             cod = it.get("codigo")
             if cod and cod not in por_codigo:
@@ -1462,8 +1563,16 @@ def main():
     #    pero no elimina — así nada visible desaparece mientras siga abierto.
     registros, descartados = [], {"cerradas": 0, "blacklist": 0, "sin_match": 0}
     sin_match = []
+    _DETALLE = ("productos", "descripcion", "direccion_entrega", "plazo_entrega_dias", "total_ofertas",
+                "rut_organismo", "adjuntos", "organismo", "unidad_compra", "region", "region_nombre")
     for cod, it in por_codigo.items():
         reg = normalizar(it, matches.get(cod, set()))
+        prev = prev_abiertos.get(cod)
+        if prev and prev.get("productos"):
+            # ya se bajó su ficha en una corrida anterior: se reutiliza (cada ficha son ~20 s)
+            for k in _DETALLE:
+                if prev.get(k) not in (None, [], ""):
+                    reg[k] = prev[k]
         if cerrada_ya(reg):
             descartados["cerradas"] += 1
             continue
@@ -1493,13 +1602,33 @@ def main():
     if rescatados:
         print(f"Triage IA: rescatados {len(rescatados)} procesos que ninguna palabra atrapaba")
 
+    # 2c) Barrido incremental: los candidatos de corridas anteriores que siguen
+    #     abiertos y aún no tienen veredicto IA vuelven a competir por los cupos
+    #     (con barrido completo lo hacían solos, porque se volvían a recolectar).
+    if barrido.get("modo") == "incremental":
+        ya = {r["codigo"] for r in registros}
+        evaluados = cargar_cache_ia()
+        reincorporados = 0
+        for cod, it in prev_abiertos.items():
+            if cod in ya or cod in evaluados or it.get("tipo") != "compra_agil" or cerrada_ya(it):
+                continue
+            razon_dura = filtro_duro(it)
+            it["prefiltro"] = {"pasa": razon_dura is None, "razon": razon_dura or ""}
+            it["score_heuristico"] = score_heuristico(it)
+            it.pop("recuperado_corrida_anterior", None)
+            registros.append(it)
+            reincorporados += 1
+        if reincorporados:
+            print(f"  · {reincorporados} candidatos de corridas anteriores sin evaluar vuelven a competir")
+
     # 3) Priorizar por score y enriquecer SOLO los mejores que pasan todo
     registros.sort(key=lambda r: -(r.get("score_heuristico") or 0))
     a_enriquecer = ([r for r in registros if r["prefiltro"]["pasa"]][:MAX_DETALLE]) if FETCH_DETALLE else []
     print(f"Candidatos tras filtros: {len(registros)} (descartados: {descartados}). "
           f"Enriqueciendo top {len(a_enriquecer)} con ficha + adjuntos…")
     for i, reg in enumerate(a_enriquecer, 1):
-        enriquecer_con_detalle(reg)
+        if not reg.get("productos"):      # ya enriquecido en una corrida anterior: no repetir la ficha
+            enriquecer_con_detalle(reg)
         # re-chequeo con productos/categorías ya conocidos + monto real
         pasa, razon = prefiltro_texto(reg, con_detalle=True)
         if pasa:
@@ -1627,6 +1756,7 @@ def main():
         "descartados": descartados,
         "recuperados_feed_anterior": recuperados,
         "triage_ia": dict(triage_stats, habilitado=TRIAGE_ON),
+        "barrido": barrido,
         "sugerencias_keywords": sugerencias,
         "licitaciones": dict(lic_stats, habilitadas=INCLUIR_LICITACIONES, con_ticket=bool(MP_TICKET)),
         "historico_precios": hist_info,
@@ -1664,7 +1794,7 @@ def main():
             fc = _parse_fecha(r.get("fecha_cierre"))
             if not fc:
                 return None
-            return (fc - dt.datetime.now()).total_seconds() / 86400
+            return (fc - _ahora_chile()).total_seconds() / 86400
 
         hoy_txt = dt.date.today().strftime("%d-%m-%Y")
         lineas = [f"🦊 <b>Mercado Público — {hoy_txt}</b>",
