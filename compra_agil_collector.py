@@ -60,6 +60,13 @@ BUSCADOR_API_KEY = "e93089e4-437c-4723-b343-4fa20045e3bc"  # clave pública del 
 # Servicio público de adjuntos (el mismo del buscador)
 ADJ_BASE = "https://adjunto.mercadopublico.cl/adjunto-compra-agil/v1/adjuntos-compra-agil"
 ADJ_USER_KEY = "41186b85826e80d1a0d445a6ce67d1a3"  # clave pública del frontend
+# El servicio de adjuntos responde 403 a clientes que no parecen navegador
+# (probado desde GitHub Actions el 29-09-2026: curl y python-requests -> 403,
+# User-Agent de Chrome -> 200, con la misma IP). Se usa en todas las llamadas a MP.
+UA_NAVEGADOR = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                "(KHTML, like Gecko) Chrome/140.0 Safari/537.36")
+_CAB_MP = {"User-Agent": UA_NAVEGADOR, "Origin": "https://buscador.mercadopublico.cl",
+           "Referer": "https://buscador.mercadopublico.cl/"}
 
 GH_REPO = os.environ.get("GITHUB_REPOSITORY", "Nyctric/compra-agil-feed")
 GH_BRANCH = os.environ.get("GITHUB_REF_NAME", "master") or "master"
@@ -313,7 +320,7 @@ def _get_buscador(params=None, intento=0):
     url = f"{BUSCADOR_BASE}/compra-agil"
     while True:
         try:
-            resp = requests.get(url, headers={"x-api-key": BUSCADOR_API_KEY, "Accept": "application/json"},
+            resp = requests.get(url, headers=dict(_CAB_MP, **{"x-api-key": BUSCADOR_API_KEY, "Accept": "application/json"}),
                                 params=params, timeout=60)
         except (requests.exceptions.Timeout, requests.exceptions.ConnectionError) as e:
             intento += 1
@@ -1006,7 +1013,7 @@ def listar_adjuntos_publico(codigo):
 
     try:
         r = requests.get(f"{ADJ_BASE}/listar/{quote(codigo)}",
-                         headers={"user_key": ADJ_USER_KEY}, timeout=ADJ_TIMEOUT)
+                         headers=dict(_CAB_MP, user_key=ADJ_USER_KEY), timeout=ADJ_TIMEOUT)
         if r.status_code != 200:
             return _fallo(f"HTTP {r.status_code}")
         data = r.json()
@@ -1032,7 +1039,7 @@ def resumen_adjuntos():
 def descargar_adjunto(guid, destino):
     try:
         with requests.get(f"{ADJ_BASE}/descargar/{guid}",
-                          headers={"user_key": ADJ_USER_KEY},
+                          headers=dict(_CAB_MP, user_key=ADJ_USER_KEY),
                           timeout=120, stream=True) as r:
             if r.status_code != 200:
                 return False
