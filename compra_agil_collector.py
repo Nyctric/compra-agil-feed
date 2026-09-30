@@ -92,6 +92,9 @@ MAX_DETALLE_CIERRE = int(_CFG.get("max_detalle_cierre", 30))   # fichas extra: c
 HORAS_MIN_COTIZAR = float(_CFG.get("horas_min_cotizar", 8))   # por debajo ya no alcanza a cotizarse
 MAX_EVAL_IA = int(_CFG.get("max_eval_ia", 100))
 MAX_ITEMS_FEED = int(_CFG.get("max_items_feed", 800))
+# Feed curado: solo lo que la IA confirmó como fabricable con impresión 3D, las mejores N por puntaje.
+SOLO_VIABLES_FEED = bool(_CFG.get("solo_viables_en_feed", True))
+MAX_VIABLES_FEED = int(_CFG.get("max_viables_feed", 30))
 RUBROS_BLOQUEADOS = [str(r) for r in (_CFG.get("rubros_bloqueados") or [])]
 INCLUIR_LICITACIONES = bool(_CFG.get("incluir_licitaciones", True))
 MAX_DETALLE_LIC = int(_CFG.get("max_detalle_licitaciones", 60))
@@ -1857,6 +1860,11 @@ def main():
     registros.sort(key=lambda r: (-(r.get("ia", {}).get("v") and 1 or 0),
                                   -(r.get("ia", {}).get("s") or 0),
                                   -(r.get("score_heuristico") or 0)))
+    if SOLO_VIABLES_FEED and ANTHROPIC_KEY:
+        # Sin clave de IA no hay veredictos: ahí se conserva el feed completo.
+        _n0 = len(registros)
+        registros = [r for r in registros if (r.get("ia") or {}).get("v")][:MAX_VIABLES_FEED]
+        print(f"Feed curado: {len(registros)} viables IA publicados (de {_n0} candidatos; tope {MAX_VIABLES_FEED})")
     if len(registros) > MAX_ITEMS_FEED:
         registros = registros[:MAX_ITEMS_FEED]
 
