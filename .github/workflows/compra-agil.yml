@@ -1,16 +1,17 @@
 name: Compra Agil — recolector
 
-# Domingo a viernes a las 23:59 hora de Chile continental (America/Santiago).
+# Domingo a viernes a las 21:07 hora de Chile continental (America/Santiago).
+# (minuto 07 y no 00: GitHub atrasa más los disparos que caen justo en punto)
 # El domingo cubre lo publicado el fin de semana que cierra el lunes.
 # GitHub solo entiende UTC y Chile cambia de horario dos veces al año:
-#   horario de verano  (UTC-3, sept → abril): 23:59 = 02:59 UTC del día siguiente
-#   horario de invierno (UTC-4, abril → sept): 23:59 = 03:59 UTC del día siguiente
+#   horario de verano  (UTC-3, sept → abril): 21:07 = 00:07 UTC del día siguiente
+#   horario de invierno (UTC-4, abril → sept): 21:07 = 01:07 UTC del día siguiente
 # Por eso hay dos disparos y el job "horario" deja pasar solo el que corresponde
 # a la fecha. Domingo-viernes en Chile = lunes-sábado en UTC (1-6).
 on:
   schedule:
-    - cron: "59 2 * * 1-6"   # verano
-    - cron: "59 3 * * 1-6"   # invierno
+    - cron: "7 0 * * 1-6"   # verano
+    - cron: "7 1 * * 1-6"   # invierno
   workflow_dispatch: {}  # a mano (o desde ContaApp): corre siempre, sin mirar la hora
 
 permissions:
@@ -39,7 +40,7 @@ jobs:
           # Se decide por el disparo, no por la hora real: GitHub suele atrasar los
           # cron varios minutos y a las 00:05 ya sería "otro día".
           OFFSET=$(TZ=America/Santiago date +%z)
-          if [ "$OFFSET" = "-0300" ]; then ESPERADO="59 2 * * 1-6"; else ESPERADO="59 3 * * 1-6"; fi
+          if [ "$OFFSET" = "-0300" ]; then ESPERADO="7 0 * * 1-6"; else ESPERADO="7 1 * * 1-6"; fi
           if [ "$DISPARO" = "$ESPERADO" ]; then
             echo "Chile en UTC${OFFSET}: corresponde '$DISPARO'. Corre."
             echo "correr=true" >> "$GITHUB_OUTPUT"
