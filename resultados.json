@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-09-29T19:58:58Z",
+ "actualizado": "2026-09-30T12:50:46Z",
  "items": [
   {
    "codigo": "1071775-18-LE25",
@@ -50,6 +50,16 @@
    "resultado": "ganada",
    "ganador": "77.387.704-1 GREEN WOLF SPA",
    "monto_ganador": 600000
+  },
+  {
+   "codigo": "5251-71-LE26",
+   "tipo": "licitacion",
+   "fecha": "2026-09-29",
+   "nombre": "Adquisicion de piezas impresas en 3D mi Primer Rob",
+   "nuestra_oferta": 1296750,
+   "resultado": "perdida",
+   "ganador": "",
+   "monto_ganador": null
   }
  ]
 }
