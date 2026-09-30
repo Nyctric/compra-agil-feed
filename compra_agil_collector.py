@@ -215,7 +215,15 @@ RUIDO = ["vehicul","camioneta","camion","automovil","minibus","bus","motor","maq
   "bateria","neumatico","sutura","farmac","insumos clinicos","ascensor","extintor","aeronave",
   "helicoptero","compresor","bomba","ecograf","autoclave","electrocardiograf"]
 
+# Insumos y equipos de impresión 3D: la empresa vende productos fabricados, no filamento ni impresoras.
+# A diferencia de BLACKLIST, esto NO lo salva un término fuerte ("impresora 3d" en el título).
+INSUMOS_3D = ["filamento","filamentos","insumos de impresion","insumos para impresion","insumos para impresora",
+  "insumos de impresora","insumo 3d","insumos 3d","resina para impresora","resina para impresion",
+  "resinas para impresora","adquisicion de impresora","adquisicion de impresoras","compra de impresora",
+  "compra de impresoras","adquisicion impresora","boquilla","boquillas","cama caliente","hotend"]
+
 _BLACKLIST_N = [_norm(b) for b in BLACKLIST]
+_INSUMOS_N = [_norm(b) for b in INSUMOS_3D]
 _FUERTES_N = [_norm(w) for w in FUERTES]
 _DEBILES_N = [_norm(w) for w in DEBILES]
 _RUIDO_N = [_norm(w) for w in RUIDO]
@@ -240,6 +248,9 @@ def _tiene_fuerte(texto_norm):
 
 
 def _hit_blacklist(texto_norm):
+    for b in _INSUMOS_N:
+        if _kw_en_texto(b, texto_norm):
+            return b
     # Un término fuerte gana: "maqueta de teatro", "organizador de medicamentos
     # impreso en 3d" o "atril para libro" no deben morir por la blacklist.
     if _tiene_fuerte(texto_norm):
@@ -1329,7 +1340,7 @@ def _llamar_anthropic(prompt, max_tokens):
     raise RuntimeError(last_err or "API sin respuesta")
 
 
-EVAL_VERSION = 2      # sube al endurecer el criterio: los "viable" anteriores se reevalúan
+EVAL_VERSION = 3      # sube al endurecer el criterio: los "viable" anteriores se reevalúan
 
 PROMPT_EVAL = ("Perfil de capacidades:\n" + PERFIL.replace("{", "(").replace("}", ")") + "\n\n"
     "Eres un evaluador ESTRICTO de oportunidades de Mercado Público (t=CA: Compra Ágil, t=LIC: licitación "
@@ -1344,6 +1355,8 @@ PROMPT_EVAL = ("Perfil de capacidades:\n" + PERFIL.replace("{", "(").replace("}"
     "3. v=false si es un producto industrial o de catálogo: muebles, camillas, tablas espinales y otros "
     "dispositivos médicos, contenedores o basureros, gabinetes, equipos, herramientas, insumos de oficina, "
     "o repuestos que soportan carga estructural.\n"
+    "3b. v=false si compran INSUMOS o EQUIPOS de impresión 3D (filamento, resina, impresoras, boquillas, repuestos "
+    "de impresora): la empresa vende productos fabricados, no insumos ni equipos, aunque el título diga 3D.\n"
     "4. v=false si es un servicio (instalación, confección gráfica, mantención, capacitación, arriendo) sin una "
     "pieza 3D clara.\n"
     "5. Si solo una parte menor del pedido es imprimible, v=false.\n"
@@ -1835,6 +1848,12 @@ def main():
         ev = cache.get(reg["codigo"])
         if ev:
             reg["ia"] = ev
+    # Lo que la IA ya evaluó como NO viable no se publica, aunque coincida con una palabra clave.
+    # (El veredicto queda en la caché IA, así que no se vuelve a pagar por evaluarlo.)
+    _antes = len(registros)
+    registros = [r for r in registros if not (r.get("ia") is not None and not r["ia"].get("v"))]
+    if _antes != len(registros):
+        print(f"Feed: {_antes - len(registros)} oportunidades descartadas por la IA (no viables) no se publican")
     registros.sort(key=lambda r: (-(r.get("ia", {}).get("v") and 1 or 0),
                                   -(r.get("ia", {}).get("s") or 0),
                                   -(r.get("score_heuristico") or 0)))
