@@ -1329,18 +1329,30 @@ def _llamar_anthropic(prompt, max_tokens):
     raise RuntimeError(last_err or "API sin respuesta")
 
 
+EVAL_VERSION = 2      # sube al endurecer el criterio: los "viable" anteriores se reevalúan
+
 PROMPT_EVAL = ("Perfil de capacidades:\n" + PERFIL.replace("{", "(").replace("}", ")") + "\n\n"
-    "Green Wolf SPA y Provectus SpA (Chile) fabrican con impresión 3D FDM y resina: prototipos, "
-    "piezas plásticas funcionales, modelos anatómicos y fantomas, señalética y letreros 3D, "
-    "señalética inclusiva (braille, podotáctil), repuestos plásticos, maquetas, trofeos, galvanos "
-    "y medallas, llaveros y pines, material didáctico, exhibidores y organizadores. Evalúa cada oportunidad de Mercado Público (t=CA: Compra Ágil, "
-    "t=LIC: licitación formal, exige más papeleo y garantías): ¿lo pedido PUEDE fabricarse "
-    "con impresión 3D y es buen negocio (monto, plazo, cantidad producible)? NO viable: "
-    "imprenta de papel, software/licencias, servicios profesionales, químicos, textiles, "
-    "electrónica terminada, alimentos.\n"
+    "Eres un evaluador ESTRICTO de oportunidades de Mercado Público (t=CA: Compra Ágil, t=LIC: licitación "
+    "formal). Marca v=true SOLO si la mayor parte del valor pedido son piezas que esta empresa puede fabricar "
+    "con impresión 3D (FDM en PLA/PETG/ABS/TPU hasta 30x30x30 cm, o resina).\n"
+    "REGLAS OBLIGATORIAS:\n"
+    "1. Lee los productos y sus descripciones (campo p, entre corchetes): manda el MATERIAL y el tipo de producto "
+    "que pide el comprador, no la palabra del título. Que aparezca medalla, letrero, didáctico o modelo NO basta.\n"
+    "2. v=false si lo pedido es de otro material o proceso: metal (aluminio, acero, bronce, latón), vidrio, "
+    "cerámica, madera, cuero, goma/EVA/caucho/espuma, textil (cintas, escarapelas, bolsos, ropa), papel, cartón "
+    "o impresos, planchas de acrílico o policarbonato, tarjetas PVC o con chip/electrónica, lonas y vinilos.\n"
+    "3. v=false si es un producto industrial o de catálogo: muebles, camillas, tablas espinales y otros "
+    "dispositivos médicos, contenedores o basureros, gabinetes, equipos, herramientas, insumos de oficina, "
+    "o repuestos que soportan carga estructural.\n"
+    "4. v=false si es un servicio (instalación, confección gráfica, mantención, capacitación, arriendo) sin una "
+    "pieza 3D clara.\n"
+    "5. Si solo una parte menor del pedido es imprimible, v=false.\n"
+    "6. Ante duda o falta de detalle, v=false.\n"
+    "s = atractivo 0-100 por monto, plazo y cantidad producible (máximo 60 si el plazo es menor a 5 días o "
+    "hay dudas). r = razón de máx 10 palabras que cite el material o producto que decide.\n"
     "Responde SOLO un arreglo JSON, una entrada por licitación ({n} en total):\n"
-    '[{{"c":"código","v":true,"s":0,"r":"razón, máx 10 palabras"}}]\n'
-    "s = atractivo 0-100.\nLicitaciones:\n{datos}")
+    '[{{"c":"código","v":true,"s":0,"r":"razón"}}]\n'
+    "Licitaciones:\n{datos}")
 
 
 def _compactar_para_ia(reg):
@@ -1348,10 +1360,15 @@ def _compactar_para_ia(reg):
     if reg.get("tipo") == "licitacion":
         d["t"] = "LIC"
     if reg.get("descripcion"):
-        d["d"] = reg["descripcion"][:200]
+        d["d"] = reg["descripcion"][:300]
     prods = reg.get("productos") or []
     if prods:
-        d["p"] = "; ".join(f"{p.get('cantidad') or 1}x {(p.get('nombre') or '')[:60]}" for p in prods[:8])[:300]
+        # El material manda ("fabricadas en aluminio") y casi siempre viene en la descripción,
+        # no en el nombre del producto (que es la categoría genérica de Mercado Público).
+        d["p"] = "; ".join(
+            f"{p.get('cantidad') or 1}x {(p.get('nombre') or '')[:50]}"
+            + (f" [{str(p.get('descripcion') or '').strip()[:130]}]" if p.get("descripcion") else "")
+            for p in prods[:6])[:900]
     if reg.get("monto_clp"): d["m"] = reg["monto_clp"]
     if reg.get("fecha_cierre"): d["fc"] = str(reg["fecha_cierre"])[:16]
     if reg.get("plazo_entrega_dias"): d["pe"] = reg["plazo_entrega_dias"]
@@ -1360,10 +1377,18 @@ def _compactar_para_ia(reg):
 
 def evaluar_ia(candidatos, cache):
     """Evalúa con Haiku SOLO los códigos sin caché. Devuelve (cache, nuevos, errores)."""
-    pendientes = [r for r in candidatos if r["codigo"] not in cache][:MAX_EVAL_IA]
+    # Los "viable" de una versión anterior del criterio se vuelven a evaluar (los "no viable" se conservan).
+    def _vencido(c):
+        e = cache.get(c)
+        return bool(e) and e.get("v") and e.get("pv") != EVAL_VERSION
+    nuevos_c = [r for r in candidatos if r["codigo"] not in cache]
+    viejos_c = [r for r in candidatos if _vencido(r["codigo"])]
+    if viejos_c:
+        print(f"Evaluación IA: {len(viejos_c)} viables del criterio anterior se reevalúan con el criterio estricto")
+    pendientes = (viejos_c + nuevos_c)[:max(MAX_EVAL_IA, len(viejos_c) + MAX_EVAL_IA // 2)]
     if not pendientes:
         return cache, 0, 0
-    print(f"Evaluación IA: {len(pendientes)} códigos nuevos (caché: {len(cache)})")
+    print(f"Evaluación IA: {len(pendientes)} códigos a evaluar (caché: {len(cache)})")
     nuevos, errores = 0, 0
     for i in range(0, len(pendientes), IA_LOTE):
         lote = pendientes[i:i + IA_LOTE]
@@ -1381,7 +1406,7 @@ def evaluar_ia(candidatos, cache):
                 cache[cod] = {"v": bool(e.get("v", e.get("viable"))),
                               "s": max(0, min(100, int(e.get("s", e.get("score", 0)) or 0))),
                               "r": str(e.get("r", e.get("razon", "")))[:150],
-                              "t": int(time.time() * 1000)}
+                              "t": int(time.time() * 1000), "pv": EVAL_VERSION}
                 nuevos += 1
         except Exception as ex:
             errores += 1
@@ -1776,6 +1801,11 @@ def main():
     if ANTHROPIC_KEY:
         candidatos_ia = sorted([r for r in a_enriquecer if r["prefiltro"]["pasa"]] + lic_enriquecidas,
                                key=lambda r: -(r.get("score_heuristico") or 0))
+        _ya = {r["codigo"] for r in candidatos_ia}
+        for r in list(registros) + list(prev_items.values()):   # viables del criterio anterior aún abiertos: reevaluar aunque no entren al top
+            e = cache.get(r["codigo"])
+            if r["codigo"] not in _ya and e and e.get("v") and e.get("pv") != EVAL_VERSION and not cerrada_ya(r):
+                candidatos_ia.append(r); _ya.add(r["codigo"])
         cache, ia_nuevos, ia_errores = evaluar_ia(candidatos_ia, cache)
     else:
         print("Sin ANTHROPIC_API_KEY: la evaluación IA queda para la app (fallback).")
