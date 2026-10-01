@@ -1709,7 +1709,13 @@ def main():
 
     # 3) Priorizar por score y enriquecer SOLO los mejores que pasan todo
     registros.sort(key=lambda r: -(r.get("score_heuristico") or 0))
-    a_enriquecer = ([r for r in registros if r["prefiltro"]["pasa"]][:MAX_DETALLE]) if FETCH_DETALLE else []
+    # La mitad de los cupos de ficha se reserva para títulos con un término FUERTE (anatómico,
+    # fantoma, galvano, medalla…): no pueden perder el cupo contra puntajes de plazo o monto.
+    _pasan = [r for r in registros if r["prefiltro"]["pasa"]]
+    _fuertes = [r for r in _pasan if _tiene_fuerte(_norm(r.get("nombre") or ""))][:MAX_DETALLE // 2]
+    _ids_f = {r["codigo"] for r in _fuertes}
+    _resto = [r for r in _pasan if r["codigo"] not in _ids_f][:max(0, MAX_DETALLE - len(_fuertes))]
+    a_enriquecer = sorted(_fuertes + _resto, key=lambda r: -(r.get("score_heuristico") or 0)) if FETCH_DETALLE else []
     print(f"Candidatos tras filtros: {len(registros)} (descartados: {descartados}). "
           f"Enriqueciendo top {len(a_enriquecer)} con ficha + adjuntos…")
     for i, reg in enumerate(a_enriquecer, 1):
@@ -1816,7 +1822,7 @@ def main():
     pre_eval = set(cache.keys())
     if ANTHROPIC_KEY:
         candidatos_ia = sorted([r for r in a_enriquecer if r["prefiltro"]["pasa"]] + lic_enriquecidas,
-                               key=lambda r: -(r.get("score_heuristico") or 0))
+                               key=lambda r: (not _tiene_fuerte(_norm(r.get("nombre") or "")), -(r.get("score_heuristico") or 0)))
         _ya = {r["codigo"] for r in candidatos_ia}
         for r in list(registros) + list(prev_items.values()):   # viables del criterio anterior aún abiertos: reevaluar aunque no entren al top
             e = cache.get(r["codigo"])
