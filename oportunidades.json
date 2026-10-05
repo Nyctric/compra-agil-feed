@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-03T07:10:07Z",
+  "generado": "2026-10-05T05:59:21Z",
   "total": 30,
   "palabras_clave": [
     "anatómico",
@@ -43,119 +43,48 @@
     "max_detalle": 300,
     "max_eval_ia": 200
   },
-  "recolectados_total": 3392,
+  "recolectados_total": 412,
   "descartados": {
     "cerradas": 1,
-    "blacklist": 772,
-    "sin_match": 6617,
-    "rescatados_triage": 193
+    "blacklist": 451,
+    "sin_match": 4293,
+    "rescatados_triage": 6
   },
-  "recuperados_feed_anterior": 3,
+  "recuperados_feed_anterior": 4,
   "triage_ia": {
-    "revisados": 2080,
-    "nuevos": 2065,
-    "rescatados": 193,
+    "revisados": 92,
+    "nuevos": 83,
+    "rescatados": 6,
     "errores": 0,
     "completo": true,
     "habilitado": true
   },
   "barrido": {
     "modo": "incremental",
-    "inicio_cl": "2026-10-03 02:01",
-    "desde": "2026-10-01 23:19",
-    "paginas": 219,
+    "inicio_cl": "2026-10-05 02:18",
+    "desde": "2026-10-02 23:01",
+    "paginas": 18,
     "motivo": "incremental",
-    "minutos": 29.4,
+    "minutos": 1.6,
     "cortado": false,
     "paginas_fallidas": []
   },
-  "sugerencias_keywords": [
-    {
-      "t": "elaboracion mug",
-      "n": 1,
-      "ej": [
-        {
-          "c": "5626-664-COT26",
-          "n": "ELABORACION MUG PROYECTO CENTRO INVESTIGACION - A.Z"
-        }
-      ]
-    },
-    {
-      "t": "colgador para alimentacion enteral",
-      "n": 1,
-      "ej": [
-        {
-          "c": "1549-4159-COT26",
-          "n": "SE REQUIERE COLGADOR PARA ALIMENTACION ENTERAL, SE ADJUNTA FICHA TECNICA, PARA EL HOSPITAL"
-        }
-      ]
-    },
-    {
-      "t": "pastilleros",
-      "n": 1,
-      "ej": [
-        {
-          "c": "2205-183-COT26",
-          "n": "PASTILLEROS"
-        }
-      ]
-    },
-    {
-      "t": "buzones de oirs",
-      "n": 1,
-      "ej": [
-        {
-          "c": "4075-135-COT26",
-          "n": "COMPRA DE 8 BUZONES DE OIRS PARA CESFAM, ANEXO Y POSTAS RURALES"
-        }
-      ]
-    },
-    {
-      "t": "ruleta de juegos",
-      "n": 1,
-      "ej": [
-        {
-          "c": "3944-162-COT26",
-          "n": "ADQUISICIÓN RULETA DE JUEGOS PROGRAMA MÁS SALUD EN COMUNIDAD"
-        }
-      ]
-    },
-    {
-      "t": "carteles numerados y personalizados",
-      "n": 1,
-      "ej": [
-        {
-          "c": "3714-347-COT26",
-          "n": "Adquisición de insumos e implementos (carteles numerados y personalizados) para Corrida Al"
-        }
-      ]
-    },
-    {
-      "t": "materiales y juegos sensoriales",
-      "n": 1,
-      "ej": [
-        {
-          "c": "4053-154-COT26",
-          "n": "MATERIALES Y JUEGOS SENSORIALES CEVS MARIQUINA"
-        }
-      ]
-    }
-  ],
+  "sugerencias_keywords": [],
   "licitaciones": {
-    "activas": 4631,
+    "activas": 4638,
     "candidatas": 60,
-    "incluidas": 59,
+    "incluidas": 60,
     "habilitadas": true,
     "con_ticket": true
   },
   "historico_precios": {
-    "items": 7974,
+    "items": 7941,
     "dias_cubiertos": 365,
     "dias_pendientes": 0
   },
   "eval_ia": {
-    "evaluados_total": 4846,
-    "nuevos_esta_corrida": 200,
+    "evaluados_total": 4880,
+    "nuevos_esta_corrida": 34,
     "errores": 0,
     "server_side": true
   },
@@ -218,7 +147,8 @@
         "r": "Buzones OIRS plásticos: cajas funcionales imprimibles en secciones, plazo suficiente",
         "t": 1791011370675,
         "pv": 3
-      }
+      },
+      "recuperado_corrida_anterior": true
     },
     {
       "codigo": "3944-162-COT26",
@@ -272,7 +202,8 @@
         "r": "Ruleta educativa plástica: estructura funcional imprimible en secciones ensambladas",
         "t": 1791011370675,
         "pv": 3
-      }
+      },
+      "recuperado_corrida_anterior": true
     },
     {
       "codigo": "2791-142-COT26",
@@ -328,7 +259,7 @@
         "pasa": true,
         "razon": ""
       },
-      "score_heuristico": 92,
+      "score_heuristico": 82,
       "ia": {
         "v": true,
         "s": 60,
@@ -389,6 +320,112 @@
         "r": "Carteles numerados personalizados: señalética 3D imprimible FDM/resina",
         "t": 1791011370675,
         "pv": 3
+      },
+      "recuperado_corrida_anterior": true
+    },
+    {
+      "codigo": "3656-162-LE26",
+      "tipo": "licitacion",
+      "nombre": "ADQUISICION DE JUGUETES DE NAVIDAD PARA NIÑOS Y NIÑAS DESDE 0 MESES HASTA 12 AÑOS DE EDAD AÑO 2026",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "I MUNICIPALIDAD DE REQUINOA",
+      "rut_organismo": "69.081.300-9",
+      "unidad_compra": "Ilustre Municipalidad de Requínoa",
+      "region": null,
+      "region_nombre": "Región del Libertador General Bernardo O´Higgins",
+      "monto_clp": null,
+      "moneda": "CLP",
+      "fecha_publicacion": null,
+      "fecha_cierre": "2026-10-08 14:00:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "juguete"
+      ],
+      "total_ofertas": null,
+      "productos": [
+        {
+          "nombre": "Juguetes didácticos",
+          "descripcion": "LINEA 1 : 0 meses a 1 año 11 meses (unisex): juguetes preferentemente didácticos que permitan la manipulación de texturas y coloridos adecuados a la edad, tipo set de cascabeles, sonajeros que estimulen el reconocimiento de formas y colores",
+          "cantidad": 427.0,
+          "unidad": "Unidad",
+          "categoria": "60141006"
+        },
+        {
+          "nombre": "Juguetes didácticos",
+          "descripcion": "LINEA 2: De 2 A 3 años 11 meses (Unisex): Juguetes preferentemente didácticos, con piezas grandes tipos bloques de construcción, instrumentos musicales, cubos didácticos, libros con imágenes, textura y sonido entre otros que busquen fomentar la motricidad",
+          "cantidad": 668.0,
+          "unidad": "Unidad",
+          "categoria": "60141006"
+        },
+        {
+          "nombre": "Juguetes didácticos",
+          "descripcion": "LINEA 3: De 4 años a 5 años 11 meses (niñas): Juguetes preferentemente didáctico que favorezcan desarrollo cognitivo, motricidad, creatividad y diversión, como muñecas y accesorios, kit para colorear, plasticinas, hacer joyas.",
+          "cantidad": 442.0,
+          "unidad": "Unidad",
+          "categoria": "60141006"
+        },
+        {
+          "nombre": "Juguetes didácticos",
+          "descripcion": "LINEA 4: De 4 años a 5 años 11 meses (niños): Juguetes preferentemente didactico que estimulen el conocimiento y entretención, imaginación y aprendizaje",
+          "cantidad": 430.0,
+          "unidad": "Unidad",
+          "categoria": "60141006"
+        },
+        {
+          "nombre": "Juguetes didácticos",
+          "descripcion": "LINEA 5: De 6 años a 7 años (niñas): Juegos que desarrollen lla independencia, interes en Hobbies, desarrollo emocional y social, estimulacion cognitiva",
+          "cantidad": 464.0,
+          "unidad": "Unidad",
+          "categoria": "60141006"
+        },
+        {
+          "nombre": "Juguetes didácticos",
+          "descripcion": "LINEA 6: De 6 años a 7 años 11 meses (niños): Juegos que desarrollen lla independencia, interes en Hobbies, desarrollo emocional y social, estimulacion cognitiva",
+          "cantidad": 461.0,
+          "unidad": "Unidad",
+          "categoria": "60141006"
+        },
+        {
+          "nombre": "Juguetes didácticos",
+          "descripcion": "LINEA 7: De 8 años a 9 años 11 meses (niñas): Juguetes que desarrollen la socialización, creatividad e imaginación.",
+          "cantidad": 499.0,
+          "unidad": "Unidad",
+          "categoria": "60141006"
+        },
+        {
+          "nombre": "Juguetes didácticos",
+          "descripcion": "LINEA 8: De 8 años a 9 años 11meses (niños): Juguetes que desarrollen la socialización, creatividad e imaginación.",
+          "cantidad": 539.0,
+          "unidad": "Unidad",
+          "categoria": "60141006"
+        },
+        {
+          "nombre": "Juguetes didácticos",
+          "descripcion": "LINEA 9: De 10 años a 12 años 11 meses (unisex): Elementos que fomenten la imaginación, socialización y creatividad, puzzles, juegos de palabas y acertijos, jugos de logica, codigos secretos.",
+          "cantidad": 1384.0,
+          "unidad": "Unidad",
+          "categoria": "60141006"
+        }
+      ],
+      "adjuntos": [],
+      "descripcion": "ADQUISICION DE JUGUETES DE NAVIDAD PARA NIÑOS Y NIÑAS DESDE 0 MESES HASTA 12 AÑOS DE EDAD, AÑO 2026",
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3656-162-LE26",
+      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=3656-162-LE26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 48,
+      "tipo_licitacion": "LE",
+      "ia": {
+        "v": true,
+        "s": 60,
+        "r": "Juguetes didácticos 3D múltiples líneas edades",
+        "t": 1791179954649,
+        "pv": 3
       }
     },
     {
@@ -413,24 +450,17 @@
       ],
       "total_ofertas": null,
       "productos": [],
-      "adjuntos": [
-        {
-          "id": "189F4D5C-E6B2-4B87-B859-C0A5FE8E3C39",
-          "nombre": "Memorandum-Ný20--Galvanos-compartida (firmado).pdf",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/960853-9-COT26/Memorandum-N%C3%BD20--Galvanos-compartida%20%28firmado%29.pdf",
-          "tipo": "pdf"
-        }
-      ],
+      "adjuntos": [],
       "descripcion": null,
       "direccion_entrega": null,
       "plazo_entrega_dias": null,
       "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=960853-9-COT26",
       "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=960853-9-COT26",
       "prefiltro": {
-        "pasa": true,
-        "razon": ""
+        "pasa": false,
+        "razon": "cierre a menos de 24h"
       },
-      "score_heuristico": 63,
+      "score_heuristico": 43,
       "ia": {
         "v": true,
         "s": 58,
@@ -482,10 +512,10 @@
       "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=707416-46-COT26",
       "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=707416-46-COT26",
       "prefiltro": {
-        "pasa": true,
-        "razon": ""
+        "pasa": false,
+        "razon": "cierre a menos de 24h"
       },
-      "score_heuristico": 100,
+      "score_heuristico": 80,
       "ia": {
         "v": true,
         "s": 55,
@@ -585,199 +615,15 @@
       "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=5615-729-COT26",
       "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=5615-729-COT26",
       "prefiltro": {
-        "pasa": true,
-        "razon": ""
+        "pasa": false,
+        "razon": "cierre a menos de 24h"
       },
-      "score_heuristico": 92,
+      "score_heuristico": 72,
       "ia": {
         "v": true,
         "s": 55,
         "r": "Medallas y trofeos resina; compatible con fabricación 3D resina.",
         "t": 1791011322309,
-        "pv": 3
-      }
-    },
-    {
-      "codigo": "5061-646-COT26",
-      "tipo": "compra_agil",
-      "nombre": "SP 1480 Adquisición de (1) Modelo Anatómico de Musculatura  (cuerpo Completo), para el Cesfam Santa Rosa / MAIS.Según especificaciones técnicas adjuntas.",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "I MUNICIPALIDAD DE TEMUCO",
-      "rut_organismo": "69.190.700-7",
-      "unidad_compra": "Municipalidad de Temuco-Salud",
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": 345000,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-09-25 15:40",
-      "fecha_cierre": "2026-10-05 08:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [
-        "anatómico"
-      ],
-      "total_ofertas": 0,
-      "productos": [
-        {
-          "nombre": "Modelos humanos anatómicos para formación y estudios de medicina",
-          "descripcion": "MODELO ANATOMICO 80 CM (CUERPO COMPLETO), PIEZAS DESPRENDIBLES DISECCIONADO EN 27 PARTES:  CUERPO, CALVARIA CORTADA, CEREBRO (2), PARED TORÁCICA Y ABDOMINAL, BRAZO DERECHO, BRAZO IZQUIERDO (5), PIERNA (9), PULMÓN (2), CORAZÓN (2), HÍGADO, ESTÓMAGO E INTESTINO. SE DEBE OBSERVAR ÓRGANOS DE LA ANATOMÍA HUMANA DONDE SE APRECIEN TEJIDOS COMO PIEL, MÚSCULO, VENAS Y ARTERIAS, ÓRGANOS FEMENINOS Y MASCULINOS. Según especificaciones técnicas adjuntas.\n\n",
-          "cantidad": 1,
-          "unidad": "EA",
-          "categoria": "42301501"
-        }
-      ],
-      "adjuntos": [
-        {
-          "id": "02CDE409-CE9A-4013-86DD-717DC328664B",
-          "nombre": "ETT_CUERPO_HUMANO.pdf",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/5061-646-COT26/ETT_CUERPO_HUMANO.pdf",
-          "tipo": "pdf"
-        }
-      ],
-      "descripcion": "IMPORTANTE: Es requisito obligatorio ingresar ficha (en español)  y/o cotización con detalle de los productos, indicar plazo de entrega en días hábiles y Despacho, incluyendo IVA en el valor total, de lo contrario no serán evaluados, debe incluir todo lo necesario para una adecuada evaluación. ",
-      "direccion_entrega": "Despachar Con Flete Pagado al Cesfam Santa Rosa ubicado en Pircunche n°0316 Contactarse con Bárbara Caro Alvarado. Al Fono: 453244440- 973278721",
-      "plazo_entrega_dias": 7,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=5061-646-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=5061-646-COT26",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 88,
-      "ia": {
-        "v": true,
-        "s": 55,
-        "r": "Modelo anatómico 27 piezas, imprimible 3D",
-        "t": 1790839657408,
-        "pv": 3
-      }
-    },
-    {
-      "codigo": "5060-941-COT26",
-      "tipo": "compra_agil",
-      "nombre": "S609.PRO-RETENCIÓN.ADQ. DE GALVANOS Y MEDALLAS, ISETT (ord n°29)",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "I MUNICIPALIDAD DE TEMUCO",
-      "rut_organismo": "69.190.700-7",
-      "unidad_compra": "Municipalidad de Temuco-Educación",
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": 2950000,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-10-01 16:25",
-      "fecha_cierre": "2026-10-05 12:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [
-        "galvano",
-        "medalla"
-      ],
-      "total_ofertas": 2,
-      "productos": [
-        {
-          "nombre": "Medallas",
-          "descripcion": "\nS609.PRO-RETENCIÓN.ADQ. DE GALVANOS Y MEDALLAS, ISETT (ord n°29) SEGÚN DETALLE DE ARCHIVO ADJUNTO",
-          "cantidad": 1,
-          "unidad": "GL",
-          "categoria": "49101701"
-        }
-      ],
-      "adjuntos": [
-        {
-          "id": "91A0A0E3-5362-4FBF-8035-EE923DE63CB2",
-          "nombre": "E.T. SOL. N°29 GALVANOS Y MEDALLAS ISETT PRO-RET..pdf",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/5060-941-COT26/E.T.%20SOL.%20N%C2%B029%20GALVANOS%20Y%20MEDALLAS%20ISETT%20PRO-RET..pdf",
-          "tipo": "pdf"
-        }
-      ],
-      "descripcion": "S609.PRO-RETENCIÓN.ADQ. DE GALVANOS Y MEDALLAS, ISETT (ord n°29) SEGÚN DETALLE DE ARCHIVO ADJUNTO",
-      "direccion_entrega": "Balmaceda 598, Temuco.",
-      "plazo_entrega_dias": 15,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=5060-941-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=5060-941-COT26",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 88,
-      "ia": {
-        "v": true,
-        "s": 55,
-        "r": "Galvanos y medallas reconocimiento, plazo 15 días, presupuesto alto",
-        "t": 1790925894622,
-        "pv": 3
-      }
-    },
-    {
-      "codigo": "2432-734-COT26",
-      "tipo": "compra_agil",
-      "nombre": "SOL671-SEGURIDAD-MATERIAL DIDACTICO Y EDUCATIVO-PROG. IDENTIDAD DE GENERO.",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "I MUNICIPALIDAD ESTACION CENTRAL",
-      "rut_organismo": "69.254.300-9",
-      "unidad_compra": "IMUNI_ESTCENTRAL ADQUISICIONES",
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": 434880,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-10-01 11:20",
-      "fecha_cierre": "2026-10-03 11:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [
-        "didáctico"
-      ],
-      "total_ofertas": 0,
-      "productos": [
-        {
-          "nombre": "Juegos educativos",
-          "descripcion": "MATERIAL DICATICO Y EDUCATIVO, DETALLES EN ARCHIVO ADJUNTO.",
-          "cantidad": 1,
-          "unidad": "GL",
-          "categoria": "60141101"
-        }
-      ],
-      "adjuntos": [
-        {
-          "id": "B5242750-6944-4908-847D-97202544A679",
-          "nombre": "Solicitud-de-compra-material-ludico-Item-1.4.1.5.docx",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/2432-734-COT26/Solicitud-de-compra-material-ludico-Item-1.4.1.5.docx",
-          "tipo": "docx"
-        },
-        {
-          "id": "92BEE654-5D75-4FCB-BE5E-7119FA17B2BB",
-          "nombre": "SOL671.pdf",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/2432-734-COT26/SOL671.pdf",
-          "tipo": "pdf"
-        },
-        {
-          "id": "9869B677-7AC2-4891-B16B-7D90AC4257E9",
-          "nombre": "Anexo editable (1).docx",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/2432-734-COT26/Anexo%20editable%20%281%29.docx",
-          "tipo": "docx"
-        },
-        {
-          "id": "64531BDB-3735-441E-8769-F1E43CA1B3D8",
-          "nombre": "Compra ágil - Términos administrativos de referencia 2026.pdf",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/2432-734-COT26/Compra%20%C3%A1gil%20-%20T%C3%A9rminos%20administrativos%20de%20referencia%202026.pdf",
-          "tipo": "pdf"
-        }
-      ],
-      "descripcion": "SOL671-SEGURIDAD-MATERIAL DIDACTICO Y EDUCATIVO-PROG. IDENTIDAD DE GENERO.",
-      "direccion_entrega": "OBISPO MANUEL UMAÑA 159",
-      "plazo_entrega_dias": 1,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=2432-734-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=2432-734-COT26",
-      "prefiltro": {
-        "pasa": false,
-        "razon": "cierre a menos de 24h"
-      },
-      "score_heuristico": 78,
-      "ia": {
-        "v": true,
-        "s": 55,
-        "r": "Material didáctico educativo 3D imprimible, plazo 1 día crítico",
-        "t": 1790925894622,
         "pv": 3
       }
     },
@@ -833,67 +679,117 @@
         "r": "Pastilleros plásticos: piezas funcionales FDM o resina imprimibles",
         "t": 1791011370675,
         "pv": 3
-      }
+      },
+      "recuperado_corrida_anterior": true
     },
     {
-      "codigo": "3714-348-COT26",
+      "codigo": "5061-646-COT26",
       "tipo": "compra_agil",
-      "nombre": "Adquisición de insumos e implementos (medallas y poleras) para Corrida Almagrista de Cordillera a Mar 2026.",
+      "nombre": "SP 1480 Adquisición de (1) Modelo Anatómico de Musculatura  (cuerpo Completo), para el Cesfam Santa Rosa / MAIS.Según especificaciones técnicas adjuntas.",
       "estado": "publicada",
       "estado_glosa": "Publicada",
-      "organismo": "I MUNICIPALIDAD DE LOS VILOS",
-      "rut_organismo": "69.041.500-3",
-      "unidad_compra": "Educacion",
+      "organismo": "I MUNICIPALIDAD DE TEMUCO",
+      "rut_organismo": "69.190.700-7",
+      "unidad_compra": "Municipalidad de Temuco-Salud",
       "region": null,
       "region_nombre": null,
-      "monto_clp": 5000000,
+      "monto_clp": 345000,
       "moneda": "CLP",
-      "fecha_publicacion": "2026-10-02 13:54",
-      "fecha_cierre": "2026-10-05 09:00",
+      "fecha_publicacion": "2026-09-25 15:40",
+      "fecha_cierre": "2026-10-05 08:00",
       "fecha_ultimo_cambio": null,
       "palabras_clave_match": [
-        "medalla"
+        "anatómico"
       ],
-      "total_ofertas": 3,
+      "total_ofertas": 0,
       "productos": [
         {
-          "nombre": "Medallas",
-          "descripcion": "Medallas de circunferencia de 5 cm con logo en resina a todo color del Colegio Diego de Almagro de Los Vilos o logo de disciplina deportiva y leyenda en parte posterior con cinta incluida. (Según término de referencia adjunto)",
-          "cantidad": 609,
+          "nombre": "Modelos humanos anatómicos para formación y estudios de medicina",
+          "descripcion": "MODELO ANATOMICO 80 CM (CUERPO COMPLETO), PIEZAS DESPRENDIBLES DISECCIONADO EN 27 PARTES:  CUERPO, CALVARIA CORTADA, CEREBRO (2), PARED TORÁCICA Y ABDOMINAL, BRAZO DERECHO, BRAZO IZQUIERDO (5), PIERNA (9), PULMÓN (2), CORAZÓN (2), HÍGADO, ESTÓMAGO E INTESTINO. SE DEBE OBSERVAR ÓRGANOS DE LA ANATOMÍA HUMANA DONDE SE APRECIEN TEJIDOS COMO PIEL, MÚSCULO, VENAS Y ARTERIAS, ÓRGANOS FEMENINOS Y MASCULINOS. Según especificaciones técnicas adjuntas.\n\n",
+          "cantidad": 1,
           "unidad": "EA",
-          "categoria": "49101701"
-        },
-        {
-          "nombre": "Camisetas",
-          "descripcion": "Poleras Drifitt, manga corta, color azul claro, distintas tallas, con sublimado tipo insignia (logo del colegio Diego de Almagro parte frontal) y sublimado parte posterior el nombre del Colegio Diego de Almagro deportiva en la espalda (Según términos de referencia adjunto)",
-          "cantidad": 691,
-          "unidad": "EA",
-          "categoria": "53102301"
+          "categoria": "42301501"
         }
       ],
       "adjuntos": [
         {
-          "id": "540181E2-96D0-42A0-B470-E06F4FF143BD",
-          "nombre": "COMPRA ÁGIL N° 282 (1).pdf",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/3714-348-COT26/COMPRA%20%C3%81GIL%20N%C2%B0%20282%20%281%29.pdf",
+          "id": "02CDE409-CE9A-4013-86DD-717DC328664B",
+          "nombre": "ETT_CUERPO_HUMANO.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/5061-646-COT26/ETT_CUERPO_HUMANO.pdf",
           "tipo": "pdf"
         }
       ],
-      "descripcion": "Adquisición de insumos e implementos (medallas y poleras) para Corrida Almagrista de Cordillera a Mar 2026.",
-      "direccion_entrega": "Leucoton #245 (internado municipal)",
-      "plazo_entrega_dias": 5,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=3714-348-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=3714-348-COT26",
+      "descripcion": "IMPORTANTE: Es requisito obligatorio ingresar ficha (en español)  y/o cotización con detalle de los productos, indicar plazo de entrega en días hábiles y Despacho, incluyendo IVA en el valor total, de lo contrario no serán evaluados, debe incluir todo lo necesario para una adecuada evaluación. ",
+      "direccion_entrega": "Despachar Con Flete Pagado al Cesfam Santa Rosa ubicado en Pircunche n°0316 Contactarse con Bárbara Caro Alvarado. Al Fono: 453244440- 973278721",
+      "plazo_entrega_dias": 7,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=5061-646-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=5061-646-COT26",
       "prefiltro": {
-        "pasa": true,
-        "razon": ""
+        "pasa": false,
+        "razon": "cierre a menos de 24h"
       },
-      "score_heuristico": 67,
+      "score_heuristico": 68,
       "ia": {
         "v": true,
         "s": 55,
-        "r": "Medallas resina 5cm, poleras textil parcial impresión 3D",
-        "t": 1791011333130,
+        "r": "Modelo anatómico 27 piezas, imprimible 3D",
+        "t": 1790839657408,
+        "pv": 3
+      }
+    },
+    {
+      "codigo": "5060-941-COT26",
+      "tipo": "compra_agil",
+      "nombre": "S609.PRO-RETENCIÓN.ADQ. DE GALVANOS Y MEDALLAS, ISETT (ord n°29)",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "I MUNICIPALIDAD DE TEMUCO",
+      "rut_organismo": "69.190.700-7",
+      "unidad_compra": "Municipalidad de Temuco-Educación",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 2950000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-10-01 16:25",
+      "fecha_cierre": "2026-10-05 12:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "galvano",
+        "medalla"
+      ],
+      "total_ofertas": 2,
+      "productos": [
+        {
+          "nombre": "Medallas",
+          "descripcion": "\nS609.PRO-RETENCIÓN.ADQ. DE GALVANOS Y MEDALLAS, ISETT (ord n°29) SEGÚN DETALLE DE ARCHIVO ADJUNTO",
+          "cantidad": 1,
+          "unidad": "GL",
+          "categoria": "49101701"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "91A0A0E3-5362-4FBF-8035-EE923DE63CB2",
+          "nombre": "E.T. SOL. N°29 GALVANOS Y MEDALLAS ISETT PRO-RET..pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/5060-941-COT26/E.T.%20SOL.%20N%C2%B029%20GALVANOS%20Y%20MEDALLAS%20ISETT%20PRO-RET..pdf",
+          "tipo": "pdf"
+        }
+      ],
+      "descripcion": "S609.PRO-RETENCIÓN.ADQ. DE GALVANOS Y MEDALLAS, ISETT (ord n°29) SEGÚN DETALLE DE ARCHIVO ADJUNTO",
+      "direccion_entrega": "Balmaceda 598, Temuco.",
+      "plazo_entrega_dias": 15,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=5060-941-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=5060-941-COT26",
+      "prefiltro": {
+        "pasa": false,
+        "razon": "cierre a menos de 24h"
+      },
+      "score_heuristico": 68,
+      "ia": {
+        "v": true,
+        "s": 55,
+        "r": "Galvanos y medallas reconocimiento, plazo 15 días, presupuesto alto",
+        "t": 1790925894622,
         "pv": 3
       }
     },
@@ -949,135 +845,12 @@
         "pasa": true,
         "razon": ""
       },
-      "score_heuristico": 63,
+      "score_heuristico": 53,
       "ia": {
         "v": true,
         "s": 55,
         "r": "50 medallas acrílico personalizado imprimible resina",
         "t": 1791011344208,
-        "pv": 3
-      }
-    },
-    {
-      "codigo": "4629-54-COT26",
-      "tipo": "compra_agil",
-      "nombre": "INSUMOS PROTOCOLARES PARA ACTIVIDAD CONMEMORATIVA DE TRAYECTORIA INSTITUCIONAL",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "DIRECCION DEL TRABAJO",
-      "rut_organismo": "61.502.000-1",
-      "unidad_compra": "Nivel Central Santiago",
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": 2316930,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-10-01 19:31",
-      "fecha_cierre": "2026-10-05 14:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [
-        "llavero"
-      ],
-      "total_ofertas": 7,
-      "productos": [
-        {
-          "nombre": "Conjunto de lápiz o bolígrafo",
-          "descripcion": "Set completo compuesto por 1 bolígrafo, 1 llavero y su respectiva caja, embalado individualmente.\n\nSe requieren 118 sets, con bolígrafo y llavero de cuerpo color negro y terminaciones en color cobre.\n\nLas características y especificaciones técnicas se encuentran detalladas en el Requerimiento Técnico adjunto.",
-          "cantidad": 118,
-          "unidad": "EA",
-          "categoria": "44121715"
-        }
-      ],
-      "adjuntos": [
-        {
-          "id": "9B8082C5-ECCC-4061-8910-762DB473DE64",
-          "nombre": "REQUERIMIENTO TÉCNICO COMPRA ÁGIL (REVISADO).pdf",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/4629-54-COT26/REQUERIMIENTO%20T%C3%89CNICO%20COMPRA%20%C3%81GIL%20%28REVISADO%29.pdf",
-          "tipo": "pdf"
-        },
-        {
-          "id": "06DF3C3D-0AD0-42F1-8874-CD9714E12A95",
-          "nombre": "DECLARACIÓN.docx",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/4629-54-COT26/DECLARACI%C3%93N.docx",
-          "tipo": "docx"
-        }
-      ],
-      "descripcion": "Se requiere la adquisición de 118 sets de bolígrafo y llavero, con cuerpo color negro y terminaciones en cobre. Cada set incluirá un grabado personalizado que se definirá posterior a la coordinación institucional, y presentados en caja individual. Destinados a la Actividad Conmemorativa de Trayectoria Institucional. Esta ceremonia contará con la participación de autoridades ministeriales, en un acto institucional de conmemoración ante la comunidad y las autoridades.",
-      "direccion_entrega": "Agustinas Nº1253, Piso 4, Santiago",
-      "plazo_entrega_dias": 15,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=4629-54-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=4629-54-COT26",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 59,
-      "ia": {
-        "v": true,
-        "s": 55,
-        "r": "Llavero plástico + bolígrafo; productos imprimibles FDM con personalización",
-        "t": 1790925978994,
-        "pv": 3
-      }
-    },
-    {
-      "codigo": "1003598-37-COT26",
-      "tipo": "compra_agil",
-      "nombre": "EN DAP TU COMPROMISO NOS INSPIRA A TODOS",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "Servicio de Salud Central Servicio de Bienestar",
-      "rut_organismo": "61.608.603-0",
-      "unidad_compra": "Servicio de Salud Central Servicio de Bienestar",
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": 714285,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-10-01 10:56",
-      "fecha_cierre": "2026-10-03 11:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [
-        "galvano"
-      ],
-      "total_ofertas": 0,
-      "productos": [
-        {
-          "nombre": "Servicios de músicos, banda u orquestas",
-          "descripcion": "SERVICIO DE AMENIZACIÓN MUJSICAL (CONJUNTO DE CUERDAS VIOLIN Y GUITARRA) 60 MINUTOS DE INTERPRETACIÓN EN DO OPORTUNIDADES DE 30 MINUTOS CADA UNA (DE PREFERENCIA INTRPRETACIÓN DE HITS DE LOS AÑOS 80, 90 Y 2000) DEBERÁN INSTALAR Y DESINTALAR SUS EQUIPOS.\n\nLO ANTERIOR PARA EVENTO A DESARROLLARSE EL 27 DE NOVIEMBRE DE 2026, EN DEPENDENCIAS DE LA CAJA DE COMPENSACIÓN LA ARAUCANA, UBICADAS EN CALLE MERCED N° 464, SANTIAGO",
-          "cantidad": 1,
-          "unidad": "EA",
-          "categoria": "82151704"
-        },
-        {
-          "nombre": "Galvanos",
-          "descripcion": "48 MINI GALVANOS DE ACRILICO VERTICAL CON CAJA DE PRESENTACIÓN Y GRABADO LASER, CARACTERISTICAS:\n-FRASE \"En reconocimiento y agradecimiento a su trayectoria en la Dirección de Atención Primaria con Logo APS\" \n- MEDIDAS DE SOPORTE, 7 X 11 CM; ZONA PERSONALIZACIÓN 7 X 10 CMS; ORIENTACIÓN VERTICAL, MATERIAL ACRILICO 4 MM, BASE DE MADERA NO GRABABLE DE 2 CMS DE ANCHO; GRABADO COLOR GRIS PERLADO.\n\n",
-          "cantidad": 48,
-          "unidad": "EA",
-          "categoria": "49101704"
-        }
-      ],
-      "adjuntos": [
-        {
-          "id": "B5F7D7B6-4860-4222-921C-605BE1AE8104",
-          "nombre": "TT  - Tu compromiso nos inspira a todos..pdf",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1003598-37-COT26/TT%20-%20Tu%20compromiso%20nos%20inspira%20a%20todos..pdf",
-          "tipo": "pdf"
-        }
-      ],
-      "descripcion": "DOTAR CON 48 GALVANOS Y AMBIENTACIÓN MUSICAL UN EVENTO DIRIGIDO A FUNCIONARIOS(AS) DE LA RED APS DEPENDIENTE EN EL MES DE NOVIEMBRE\n- 48 GALVANOS SEGÚN DETALLE (LOGO)\n- UN SERVICIO DE MÚSICA (CONJUNTO DE CUERDAS) AMENIZACIÓN MUSICAL PARA EL EVENTO AL MENOS 60 MINUTOS",
-      "direccion_entrega": "MERCED N° 464, SANTIAGO",
-      "plazo_entrega_dias": 1,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1003598-37-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1003598-37-COT26",
-      "prefiltro": {
-        "pasa": false,
-        "razon": "cierre a menos de 24h"
-      },
-      "score_heuristico": 54,
-      "ia": {
-        "v": true,
-        "s": 55,
-        "r": "48 mini galvanos acrílico con grabado láser: piezas plásticas imprimibles",
-        "t": 1790925967980,
         "pv": 3
       }
     },
@@ -1162,7 +935,7 @@
         "pasa": true,
         "razon": ""
       },
-      "score_heuristico": 38,
+      "score_heuristico": 48,
       "tipo_licitacion": "LE",
       "ia": {
         "v": true,
@@ -1173,173 +946,223 @@
       }
     },
     {
-      "codigo": "2832-292-COT26",
-      "tipo": "compra_agil",
-      "nombre": "REQ. 820 FANTOMAS ANATÓMICOS CECOF SANTA TERESITA CONVENIO MÁS SALUD EN COMUNIDAD",
+      "codigo": "2656-74-LE26",
+      "tipo": "licitacion",
+      "nombre": "ADQUISICIÓN DE JUGUETES NAVIDAD 2026",
       "estado": "publicada",
       "estado_glosa": "Publicada",
-      "organismo": "I MUNICIPALIDAD DE QUILLOTA",
-      "rut_organismo": "69.260.400-8",
-      "unidad_compra": "DEPARTAMENTO DE SALUD",
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": 750000,
+      "organismo": "I MUNICIPALIDAD DE TOME",
+      "rut_organismo": "69.150.100-0",
+      "unidad_compra": "Dirección de Administración y Finanzas",
+      "region": 8,
+      "region_nombre": "Biobío",
+      "monto_clp": null,
       "moneda": "CLP",
-      "fecha_publicacion": "2026-09-30 15:30",
-      "fecha_cierre": "2026-10-05 09:00",
+      "fecha_publicacion": null,
+      "fecha_cierre": "2026-10-13 19:54:00",
       "fecha_ultimo_cambio": null,
       "palabras_clave_match": [
-        "anatómico",
-        "fantoma"
+        "juguete"
       ],
-      "total_ofertas": 1,
+      "total_ofertas": null,
       "productos": [
         {
-          "nombre": "Modelos humanos anatómicos para formación y estudios de medicina",
-          "descripcion": "1. CONJUNTO DE SECCIONES DE PIEL CON LESIONES PRECANCEROSAS Y CANCEROSAS, CINCO DISCOS.\ncaracterísticas en adjunto.\n\n",
-          "cantidad": 1,
-          "unidad": "EA",
-          "categoria": "42301501"
-        },
-        {
-          "nombre": "Modelos humanos anatómicos para formación y estudios de medicina",
-          "descripcion": "2.- MODELO ANATÓMICO DE MAMA IZQUIERDA CON MASAS IRREGULARES Y TARJETA EDUCATIVA.\ncaracterísticas en adjunto.\n",
-          "cantidad": 1,
-          "unidad": "EA",
-          "categoria": "42301501"
-        },
-        {
-          "nombre": "Modelos humanos anatómicos para formación y estudios de medicina",
-          "descripcion": "3.- MODELO DE EXAMEN GINECOLÓGICO CON SEIS MODELOS CERVICALES INTERCAMBIABLES. \ncaracterísticas en adjunto.\n",
-          "cantidad": 1,
-          "unidad": "EA",
-          "categoria": "42301501"
+          "nombre": "Juguetes didácticos",
+          "descripcion": "Adquisición de juguetes de Navidad 2026 para niños y niñas de la comuna de Tomé, conforme a las cantidades, rangos de edad y especificaciones establecidas en las bases técnicas y anexos.",
+          "cantidad": 1.0,
+          "unidad": "Kit",
+          "categoria": "60141006"
         }
       ],
-      "adjuntos": [
-        {
-          "id": "2A702302-6BAB-472F-AFBE-952C8A17ECD7",
-          "nombre": "req. 820 fantomas.pdf",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/2832-292-COT26/req.%20820%20fantomas.pdf",
-          "tipo": "pdf"
-        }
-      ],
-      "descripcion": "SE REQUIERE LA DE 3 fantomas anatómicas (1 modelo anatómico de cáncer de piel GPI, diámetro 10 cm; 1 modelo anatómico para pesquisa de cáncer de mama, seno patológico; 1 modelo de examen ginecológico con 6 patologías cervicales. \n\nadjuntar ficha técnica del producto, fotografías correspondientes a la marca y modelo efectivamente ofertados.\nproductos nuevos, sin uso, completos y sin defectos de fabricación.\ncotizar por unidad. ",
-      "direccion_entrega": "camino internacional s/n parcela el peuco, quillota",
-      "plazo_entrega_dias": 5,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=2832-292-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=2832-292-COT26",
+      "adjuntos": [],
+      "descripcion": "Adquirir juguetes para niños y niñas de la comuna de Tomé, destinados a la celebración de Navidad 2026, conforme a las cantidades, rangos de edad y requisitos establecidos en las bases administrativas, técnicas y anexos, incluyendo los insumos de embalaje, transporte y entrega.\r\nIDDOC 1455218\r\nFUSA 5899",
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2656-74-LE26",
+      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=2656-74-LE26",
       "prefiltro": {
         "pasa": true,
         "razon": ""
       },
-      "score_heuristico": 100,
+      "score_heuristico": 48,
+      "tipo_licitacion": "LE",
       "ia": {
         "v": true,
-        "s": 50,
-        "r": "Fantomas anatómicas piel, mama, ginecológicas en resina/plástico",
-        "t": 1790839670029,
+        "s": 55,
+        "r": "Juguetes didácticos 3D, gran licitación navidad",
+        "t": 1791179954649,
         "pv": 3
       }
     },
     {
-      "codigo": "1267885-280-COT26",
-      "tipo": "compra_agil",
-      "nombre": "SALUD - ADQUISICIÓN DE FANTOMAS PARA CECOSF NELTUME",
+      "codigo": "3671-66-LE26",
+      "tipo": "licitacion",
+      "nombre": "“ADQUISICIÓN DE JUGUETES DE NAVIDAD 2026” MUNICIPALIDAD DE CHILLÁN VIEJO.",
       "estado": "publicada",
       "estado_glosa": "Publicada",
-      "organismo": "CORP MUNICIPAL DE PANGUIPULLI",
-      "rut_organismo": "71.016.300-6",
-      "unidad_compra": "Salud",
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": 1058298,
+      "organismo": "ILUSTRE MUNICIPALIDAD DE CHILLAN VIEJO",
+      "rut_organismo": "69.266.500-7",
+      "unidad_compra": "Secplan",
+      "region": 16,
+      "region_nombre": "Ñuble",
+      "monto_clp": null,
       "moneda": "CLP",
-      "fecha_publicacion": "2026-10-02 09:24",
-      "fecha_cierre": "2026-10-05 12:00",
+      "fecha_publicacion": null,
+      "fecha_cierre": "2026-10-08 15:00:00",
       "fecha_ultimo_cambio": null,
       "palabras_clave_match": [
-        "fantoma"
+        "juguete"
       ],
-      "total_ofertas": 0,
+      "total_ofertas": null,
       "productos": [
         {
-          "nombre": "Maniquís humanos anatómicos para formación y estudios de medicina",
-          "descripcion": "KIT DE FANTOMAS FAMILIAR RCP CON MONITOR (PACK DE 5) COMPUESTO POR: 2 TORSO ADULTO - 1 TORSO PEDIÁTRICO / ESCOLAR - 2 BEBE DE CUERPO COMPLETO",
-          "cantidad": 1,
-          "unidad": "KIT",
-          "categoria": "42301502"
-        },
-        {
-          "nombre": "Estuches o bolsas de primeros auxilios para los servicios médicos de urgencias o accesorios",
-          "descripcion": "BOLSO BOTIQUIN DE 26 CM X 12 CM PARA IMPLEMENTAR KIT DE PRIMEROS AUXILIOS",
-          "cantidad": 1,
-          "unidad": "EA",
-          "categoria": "42171917"
-        },
-        {
-          "nombre": "Maniquís humanos anatómicos para formación y estudios de medicina",
-          "descripcion": "PIEZA ANATÓMICA: grasa contra músculo humano, réplica fatdurafake",
-          "cantidad": 1,
-          "unidad": "KIT",
-          "categoria": "42301502"
-        },
-        {
-          "nombre": "Maniquís humanos anatómicos para formación y estudios de medicina",
-          "descripcion": "JUGUETE DE ANATOMÍA TORSO HUMANO REALISTA INTERACTIVO 24 CM",
-          "cantidad": 1,
-          "unidad": "KIT",
-          "categoria": "42301502"
-        },
-        {
-          "nombre": "Maniquís humanos anatómicos para formación y estudios de medicina",
-          "descripcion": "COJÍN DE LACTANCIA CELESTE SUAVE COLOR GRIS SIMILAR BEBESIT",
-          "cantidad": 1,
-          "unidad": "EA",
-          "categoria": "42301502"
+          "nombre": "Juguetes didácticos",
+          "descripcion": "DE ACUERDO A REQUERIMIENTOS TECNICOS DE LAS BASES ",
+          "cantidad": 1.0,
+          "unidad": "Unidad",
+          "categoria": "60141006"
         }
       ],
-      "adjuntos": [
-        {
-          "id": "CBC645C5-FB01-4353-8540-ADF7A51E3A04",
-          "nombre": "Anexo 10 pacto de integridad.docx",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1267885-280-COT26/Anexo%2010%20pacto%20de%20integridad.docx",
-          "tipo": "docx"
-        },
-        {
-          "id": "8B8F3481-F458-4B26-8354-59CD829DC3CD",
-          "nombre": "anexo compra agil 35 quarter.docx",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1267885-280-COT26/anexo%20compra%20agil%2035%20quarter.docx",
-          "tipo": "docx"
-        },
-        {
-          "id": "95669F97-7B25-43F2-982D-D72D731CD202",
-          "nombre": "Anexos 2 datos bancarios.docx",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1267885-280-COT26/Anexos%202%20datos%20bancarios.docx",
-          "tipo": "docx"
-        },
-        {
-          "id": "3DB3EC88-15E5-4B52-B289-84C59D2CE7D7",
-          "nombre": "REFERENCIAS TÉCNICAS PRODUCTOS SOLICITADOS.pdf",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1267885-280-COT26/REFERENCIAS%20T%C3%89CNICAS%20PRODUCTOS%20SOLICITADOS.pdf",
-          "tipo": "pdf"
-        }
-      ],
-      "descripcion": "SALUD - ADQUISICIÓN DE FANTOMAS PARA CECOSF NELTUME. INCLUIR COSTOS DE ENVIO, ADJUNTAR FICHA TÉCNICA CON IMÁGENES DE REFERENCIA DE LOS PRODUCTOS OFERTADOS. COMPLETAR FORMULARIOS ADJUNTOS.",
-      "direccion_entrega": "CALLE SOR MERCEDES N°136",
-      "plazo_entrega_dias": 5,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1267885-280-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1267885-280-COT26",
+      "adjuntos": [],
+      "descripcion": "La I. Municipalidad de Chillán Viejo llama a Licitación Pública a través del Portal Mercado Público, con la finalidad disponer oportunamente de juguetes de calidad, seguros, adecuados a las edades de los beneficiarios y en las cantidades requeridas, permitiendo su posterior distribución a niñas y niños de la comuna, contribuyendo con ello a generar un espacio de encuentro, recreación y celebración durante el período navideño.\r\nLos productos ofertados deberán cumplir íntegramente con las características, especificaciones técnicas, cantidades, condiciones de entrega y demás requisitos establecidos en las presentes Bases Administrativas y Especificaciones Técnicas de la licitación.\r\n",
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3671-66-LE26",
+      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=3671-66-LE26",
       "prefiltro": {
         "pasa": true,
         "razon": ""
       },
-      "score_heuristico": 100,
+      "score_heuristico": 48,
+      "tipo_licitacion": "LE",
       "ia": {
         "v": true,
-        "s": 50,
-        "r": "Fantomas/modelos anatómicos en resina; torso realista compatible.",
-        "t": 1791011322309,
+        "s": 55,
+        "r": "Juguetes didácticos 3D licitación navidad",
+        "t": 1791179954649,
+        "pv": 3
+      }
+    },
+    {
+      "codigo": "3714-348-COT26",
+      "tipo": "compra_agil",
+      "nombre": "Adquisición de insumos e implementos (medallas y poleras) para Corrida Almagrista de Cordillera a Mar 2026.",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "I MUNICIPALIDAD DE LOS VILOS",
+      "rut_organismo": "69.041.500-3",
+      "unidad_compra": "Educacion",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 5000000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-10-02 13:54",
+      "fecha_cierre": "2026-10-05 09:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "medalla"
+      ],
+      "total_ofertas": 3,
+      "productos": [
+        {
+          "nombre": "Medallas",
+          "descripcion": "Medallas de circunferencia de 5 cm con logo en resina a todo color del Colegio Diego de Almagro de Los Vilos o logo de disciplina deportiva y leyenda en parte posterior con cinta incluida. (Según término de referencia adjunto)",
+          "cantidad": 609,
+          "unidad": "EA",
+          "categoria": "49101701"
+        },
+        {
+          "nombre": "Camisetas",
+          "descripcion": "Poleras Drifitt, manga corta, color azul claro, distintas tallas, con sublimado tipo insignia (logo del colegio Diego de Almagro parte frontal) y sublimado parte posterior el nombre del Colegio Diego de Almagro deportiva en la espalda (Según términos de referencia adjunto)",
+          "cantidad": 691,
+          "unidad": "EA",
+          "categoria": "53102301"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "540181E2-96D0-42A0-B470-E06F4FF143BD",
+          "nombre": "COMPRA ÁGIL N° 282 (1).pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/3714-348-COT26/COMPRA%20%C3%81GIL%20N%C2%B0%20282%20%281%29.pdf",
+          "tipo": "pdf"
+        }
+      ],
+      "descripcion": "Adquisición de insumos e implementos (medallas y poleras) para Corrida Almagrista de Cordillera a Mar 2026.",
+      "direccion_entrega": "Leucoton #245 (internado municipal)",
+      "plazo_entrega_dias": 5,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=3714-348-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=3714-348-COT26",
+      "prefiltro": {
+        "pasa": false,
+        "razon": "cierre a menos de 24h"
+      },
+      "score_heuristico": 47,
+      "ia": {
+        "v": true,
+        "s": 55,
+        "r": "Medallas resina 5cm, poleras textil parcial impresión 3D",
+        "t": 1791011333130,
+        "pv": 3
+      }
+    },
+    {
+      "codigo": "4629-54-COT26",
+      "tipo": "compra_agil",
+      "nombre": "INSUMOS PROTOCOLARES PARA ACTIVIDAD CONMEMORATIVA DE TRAYECTORIA INSTITUCIONAL",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "DIRECCION DEL TRABAJO",
+      "rut_organismo": "61.502.000-1",
+      "unidad_compra": "Nivel Central Santiago",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 2316930,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-10-01 19:31",
+      "fecha_cierre": "2026-10-05 14:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "llavero"
+      ],
+      "total_ofertas": 7,
+      "productos": [
+        {
+          "nombre": "Conjunto de lápiz o bolígrafo",
+          "descripcion": "Set completo compuesto por 1 bolígrafo, 1 llavero y su respectiva caja, embalado individualmente.\n\nSe requieren 118 sets, con bolígrafo y llavero de cuerpo color negro y terminaciones en color cobre.\n\nLas características y especificaciones técnicas se encuentran detalladas en el Requerimiento Técnico adjunto.",
+          "cantidad": 118,
+          "unidad": "EA",
+          "categoria": "44121715"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "9B8082C5-ECCC-4061-8910-762DB473DE64",
+          "nombre": "REQUERIMIENTO TÉCNICO COMPRA ÁGIL (REVISADO).pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/4629-54-COT26/REQUERIMIENTO%20T%C3%89CNICO%20COMPRA%20%C3%81GIL%20%28REVISADO%29.pdf",
+          "tipo": "pdf"
+        },
+        {
+          "id": "06DF3C3D-0AD0-42F1-8874-CD9714E12A95",
+          "nombre": "DECLARACIÓN.docx",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/4629-54-COT26/DECLARACI%C3%93N.docx",
+          "tipo": "docx"
+        }
+      ],
+      "descripcion": "Se requiere la adquisición de 118 sets de bolígrafo y llavero, con cuerpo color negro y terminaciones en cobre. Cada set incluirá un grabado personalizado que se definirá posterior a la coordinación institucional, y presentados en caja individual. Destinados a la Actividad Conmemorativa de Trayectoria Institucional. Esta ceremonia contará con la participación de autoridades ministeriales, en un acto institucional de conmemoración ante la comunidad y las autoridades.",
+      "direccion_entrega": "Agustinas Nº1253, Piso 4, Santiago",
+      "plazo_entrega_dias": 15,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=4629-54-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=4629-54-COT26",
+      "prefiltro": {
+        "pasa": false,
+        "razon": "cierre a menos de 24h"
+      },
+      "score_heuristico": 39,
+      "ia": {
+        "v": true,
+        "s": 55,
+        "r": "Llavero plástico + bolígrafo; productos imprimibles FDM con personalización",
+        "t": 1790925978994,
         "pv": 3
       }
     },
@@ -1556,7 +1379,7 @@
         "pasa": true,
         "razon": ""
       },
-      "score_heuristico": 98,
+      "score_heuristico": 88,
       "ia": {
         "v": true,
         "s": 50,
@@ -1566,124 +1389,173 @@
       }
     },
     {
-      "codigo": "1431841-1158-COT26",
+      "codigo": "2832-292-COT26",
       "tipo": "compra_agil",
-      "nombre": "SM 46545  DISEHU  DIDACTICOS   LUDICOS   SOMOS BARRIO",
+      "nombre": "REQ. 820 FANTOMAS ANATÓMICOS CECOF SANTA TERESITA CONVENIO MÁS SALUD EN COMUNIDAD",
       "estado": "publicada",
       "estado_glosa": "Publicada",
-      "organismo": "MUNICIPALIDAD DE RECOLETA",
-      "rut_organismo": "69.254.800-0",
-      "unidad_compra": "DIRECCION  DE COMPRAS PUBLICAS",
+      "organismo": "I MUNICIPALIDAD DE QUILLOTA",
+      "rut_organismo": "69.260.400-8",
+      "unidad_compra": "DEPARTAMENTO DE SALUD",
       "region": null,
       "region_nombre": null,
-      "monto_clp": 500000,
+      "monto_clp": 750000,
       "moneda": "CLP",
-      "fecha_publicacion": "2026-10-01 13:37",
-      "fecha_cierre": "2026-10-05 08:30",
+      "fecha_publicacion": "2026-09-30 15:30",
+      "fecha_cierre": "2026-10-05 09:00",
       "fecha_ultimo_cambio": null,
       "palabras_clave_match": [
-        "didáctico"
+        "anatómico",
+        "fantoma"
       ],
-      "total_ofertas": 3,
+      "total_ofertas": 1,
       "productos": [
         {
-          "nombre": "Juguetes didácticos",
-          "descripcion": "Se adjudicará al pack completo, obligación adjuntar cotización propia valorizada por item,\nLa empresa debe contar con giro comercial acorde a la naturaleza del requerimiento, no obstante lo anterior la municipalidad,en resguardo de sus intereses,\npodrá adjudicar la compra a un oferente que, no contando con el giro comercial ofrezca lo requerido a un menor valor respecto de quienes eventualmente cumplan con lo solicitado, ver anexo con lo requerido.\n\n",
+          "nombre": "Modelos humanos anatómicos para formación y estudios de medicina",
+          "descripcion": "1. CONJUNTO DE SECCIONES DE PIEL CON LESIONES PRECANCEROSAS Y CANCEROSAS, CINCO DISCOS.\ncaracterísticas en adjunto.\n\n",
           "cantidad": 1,
-          "unidad": "PACK",
-          "categoria": "60141006"
+          "unidad": "EA",
+          "categoria": "42301501"
+        },
+        {
+          "nombre": "Modelos humanos anatómicos para formación y estudios de medicina",
+          "descripcion": "2.- MODELO ANATÓMICO DE MAMA IZQUIERDA CON MASAS IRREGULARES Y TARJETA EDUCATIVA.\ncaracterísticas en adjunto.\n",
+          "cantidad": 1,
+          "unidad": "EA",
+          "categoria": "42301501"
+        },
+        {
+          "nombre": "Modelos humanos anatómicos para formación y estudios de medicina",
+          "descripcion": "3.- MODELO DE EXAMEN GINECOLÓGICO CON SEIS MODELOS CERVICALES INTERCAMBIABLES. \ncaracterísticas en adjunto.\n",
+          "cantidad": 1,
+          "unidad": "EA",
+          "categoria": "42301501"
         }
       ],
       "adjuntos": [
         {
-          "id": "262C7EED-EC8E-4321-B3C7-F42E47856248",
-          "nombre": "SM 46545   Didacticos Ludicos  .pdf",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1431841-1158-COT26/SM%2046545%20Didacticos%20Ludicos%20.pdf",
-          "tipo": "pdf"
-        },
-        {
-          "id": "9F560099-5DBF-498D-8481-1C7D3C4A187F",
-          "nombre": "FORMULARIO ANTECEDENTES PAGO TRANSFERENCIA ELECTRONICA.pdf",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1431841-1158-COT26/FORMULARIO%20ANTECEDENTES%20PAGO%20TRANSFERENCIA%20ELECTRONICA.pdf",
-          "tipo": "pdf"
-        },
-        {
-          "id": "C0DA59ED-9EB0-4677-A232-6B83A0FA5CFC",
-          "nombre": "EFECTOS DERIVADOS INCUMPLIMIENTO DEL PROVEEDOR.pdf",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1431841-1158-COT26/EFECTOS%20DERIVADOS%20INCUMPLIMIENTO%20DEL%20PROVEEDOR.pdf",
+          "id": "2A702302-6BAB-472F-AFBE-952C8A17ECD7",
+          "nombre": "req. 820 fantomas.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/2832-292-COT26/req.%20820%20fantomas.pdf",
           "tipo": "pdf"
         }
       ],
-      "descripcion": "Se adjudicará al pack completo, obligación adjuntar cotización propia valorizada por item,\nLa empresa debe contar con giro comercial acorde a la naturaleza del requerimiento, no obstante lo anterior la municipalidad, e resguardo de sus intereses,\npodrá adjudicar la compra a un oferente que, no contando con el giro comercial ofrezca lo requerido a un menor valor respecto de quienes eventualmente cumplan con lo solicitado, ver anexo con lo requerido.\nNO  SOBREPASAR EL MONTO DISPONIBLE  $ 500.000.\n",
-      "direccion_entrega": "AV  RECOLETA  2774 ",
-      "plazo_entrega_dias": 1,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1431841-1158-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1431841-1158-COT26",
+      "descripcion": "SE REQUIERE LA DE 3 fantomas anatómicas (1 modelo anatómico de cáncer de piel GPI, diámetro 10 cm; 1 modelo anatómico para pesquisa de cáncer de mama, seno patológico; 1 modelo de examen ginecológico con 6 patologías cervicales. \n\nadjuntar ficha técnica del producto, fotografías correspondientes a la marca y modelo efectivamente ofertados.\nproductos nuevos, sin uso, completos y sin defectos de fabricación.\ncotizar por unidad. ",
+      "direccion_entrega": "camino internacional s/n parcela el peuco, quillota",
+      "plazo_entrega_dias": 5,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=2832-292-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=2832-292-COT26",
       "prefiltro": {
-        "pasa": true,
-        "razon": ""
+        "pasa": false,
+        "razon": "cierre a menos de 24h"
       },
-      "score_heuristico": 81,
+      "score_heuristico": 80,
       "ia": {
         "v": true,
         "s": 50,
-        "r": "Juguetes didácticos lúdicos 3D imprimibles, plazo 1 día muy corto",
-        "t": 1790925894622,
+        "r": "Fantomas anatómicas piel, mama, ginecológicas en resina/plástico",
+        "t": 1790839670029,
         "pv": 3
       }
     },
     {
-      "codigo": "2701-700-COT26",
+      "codigo": "1267885-280-COT26",
       "tipo": "compra_agil",
-      "nombre": "COMPRA DE PREMIOS, INSTRUCTIVO 375 XIX TALAGANTE CORRE 2026",
+      "nombre": "SALUD - ADQUISICIÓN DE FANTOMAS PARA CECOSF NELTUME",
       "estado": "publicada",
       "estado_glosa": "Publicada",
-      "organismo": "I MUNICIPALIDAD DE TALAGANTE",
-      "rut_organismo": "69.071.800-6",
-      "unidad_compra": "I MUNICIPALIDAD DE TALAGANTE",
+      "organismo": "CORP MUNICIPAL DE PANGUIPULLI",
+      "rut_organismo": "71.016.300-6",
+      "unidad_compra": "Salud",
       "region": null,
       "region_nombre": null,
-      "monto_clp": 6250000,
+      "monto_clp": 1058298,
       "moneda": "CLP",
-      "fecha_publicacion": "2026-10-01 12:13",
-      "fecha_cierre": "2026-10-05 09:00",
+      "fecha_publicacion": "2026-10-02 09:24",
+      "fecha_cierre": "2026-10-05 12:00",
       "fecha_ultimo_cambio": null,
       "palabras_clave_match": [
-        "medalla"
+        "fantoma"
       ],
-      "total_ofertas": 3,
+      "total_ofertas": 0,
       "productos": [
         {
-          "nombre": "Trofeos",
-          "descripcion": "2.254 medallas de 5 cm de diámetro, 2,5 milímetros de espesor, con el logo municipal estampado a cuño, terminación oro, cinta roja.\n(MAS 54 MEDALLAS PARA LOS PRIMEROS 3 LUGARES DE LA COMPETENCIA), ADJUNTAR FICHA TÉCNICA DE LOS PRODUCTOS\nDETALLE EN ADJUNTO\nNOTA: Las compras deberán llegar el viernes 16 de octubre en las dependencias Polideportivo Municipal, ubicado en Av. Bellavista 509, Talagante, hasta las 14:00 hrs.",
-          "cantidad": 2254,
+          "nombre": "Maniquís humanos anatómicos para formación y estudios de medicina",
+          "descripcion": "KIT DE FANTOMAS FAMILIAR RCP CON MONITOR (PACK DE 5) COMPUESTO POR: 2 TORSO ADULTO - 1 TORSO PEDIÁTRICO / ESCOLAR - 2 BEBE DE CUERPO COMPLETO",
+          "cantidad": 1,
+          "unidad": "KIT",
+          "categoria": "42301502"
+        },
+        {
+          "nombre": "Estuches o bolsas de primeros auxilios para los servicios médicos de urgencias o accesorios",
+          "descripcion": "BOLSO BOTIQUIN DE 26 CM X 12 CM PARA IMPLEMENTAR KIT DE PRIMEROS AUXILIOS",
+          "cantidad": 1,
           "unidad": "EA",
-          "categoria": "49101702"
+          "categoria": "42171917"
+        },
+        {
+          "nombre": "Maniquís humanos anatómicos para formación y estudios de medicina",
+          "descripcion": "PIEZA ANATÓMICA: grasa contra músculo humano, réplica fatdurafake",
+          "cantidad": 1,
+          "unidad": "KIT",
+          "categoria": "42301502"
+        },
+        {
+          "nombre": "Maniquís humanos anatómicos para formación y estudios de medicina",
+          "descripcion": "JUGUETE DE ANATOMÍA TORSO HUMANO REALISTA INTERACTIVO 24 CM",
+          "cantidad": 1,
+          "unidad": "KIT",
+          "categoria": "42301502"
+        },
+        {
+          "nombre": "Maniquís humanos anatómicos para formación y estudios de medicina",
+          "descripcion": "COJÍN DE LACTANCIA CELESTE SUAVE COLOR GRIS SIMILAR BEBESIT",
+          "cantidad": 1,
+          "unidad": "EA",
+          "categoria": "42301502"
         }
       ],
       "adjuntos": [
         {
-          "id": "384D7726-1AAA-4126-A89D-C0B00715A430",
-          "nombre": "DETALLE DE COMPRA.pdf",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/2701-700-COT26/DETALLE%20DE%20COMPRA.pdf",
+          "id": "CBC645C5-FB01-4353-8540-ADF7A51E3A04",
+          "nombre": "Anexo 10 pacto de integridad.docx",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1267885-280-COT26/Anexo%2010%20pacto%20de%20integridad.docx",
+          "tipo": "docx"
+        },
+        {
+          "id": "8B8F3481-F458-4B26-8354-59CD829DC3CD",
+          "nombre": "anexo compra agil 35 quarter.docx",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1267885-280-COT26/anexo%20compra%20agil%2035%20quarter.docx",
+          "tipo": "docx"
+        },
+        {
+          "id": "95669F97-7B25-43F2-982D-D72D731CD202",
+          "nombre": "Anexos 2 datos bancarios.docx",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1267885-280-COT26/Anexos%202%20datos%20bancarios.docx",
+          "tipo": "docx"
+        },
+        {
+          "id": "3DB3EC88-15E5-4B52-B289-84C59D2CE7D7",
+          "nombre": "REFERENCIAS TÉCNICAS PRODUCTOS SOLICITADOS.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1267885-280-COT26/REFERENCIAS%20T%C3%89CNICAS%20PRODUCTOS%20SOLICITADOS.pdf",
           "tipo": "pdf"
         }
       ],
-      "descripcion": "2.200 medallas de 5 cm de diámetro, 2,5 milímetros de espesor, con el logo municipal estampado a cuño, terminación oro, cinta roja.\nMAS 54 MEDALLAS PARA LOS PRIMEROS 3 LUGARES DE LA COMPETENCIA\nDETALLE EN ADJUNTO\nNOTA: Las compras deberán llegar el viernes 16 de octubre en las dependencias Polideportivo Municipal, ubicado en Av. Bellavista 509, Talagante, hasta las 14:00 hrs.",
-      "direccion_entrega": " Av. Bellavista 509, Talagante (Polideportivo Talagante)",
-      "plazo_entrega_dias": 6,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=2701-700-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=2701-700-COT26",
+      "descripcion": "SALUD - ADQUISICIÓN DE FANTOMAS PARA CECOSF NELTUME. INCLUIR COSTOS DE ENVIO, ADJUNTAR FICHA TÉCNICA CON IMÁGENES DE REFERENCIA DE LOS PRODUCTOS OFERTADOS. COMPLETAR FORMULARIOS ADJUNTOS.",
+      "direccion_entrega": "CALLE SOR MERCEDES N°136",
+      "plazo_entrega_dias": 5,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1267885-280-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1267885-280-COT26",
       "prefiltro": {
-        "pasa": true,
-        "razon": ""
+        "pasa": false,
+        "razon": "cierre a menos de 24h"
       },
-      "score_heuristico": 75,
+      "score_heuristico": 80,
       "ia": {
         "v": true,
         "s": 50,
-        "r": "2254 medallas 5cm plástico/resina oro con logo estampado",
-        "t": 1790925919308,
+        "r": "Fantomas/modelos anatómicos en resina; torso realista compatible.",
+        "t": 1791011322309,
         "pv": 3
       }
     },
@@ -1733,7 +1605,7 @@
         "pasa": true,
         "razon": ""
       },
-      "score_heuristico": 74,
+      "score_heuristico": 64,
       "ia": {
         "v": true,
         "s": 50,
@@ -1794,7 +1666,7 @@
         "pasa": true,
         "razon": ""
       },
-      "score_heuristico": 71,
+      "score_heuristico": 61,
       "ia": {
         "v": true,
         "s": 50,
@@ -1804,64 +1676,222 @@
       }
     },
     {
-      "codigo": "1274907-187-COT26",
+      "codigo": "1431841-1158-COT26",
       "tipo": "compra_agil",
-      "nombre": "Adquisición de Modelo anatómico y  rueda de emociones.",
+      "nombre": "SM 46545  DISEHU  DIDACTICOS   LUDICOS   SOMOS BARRIO",
       "estado": "publicada",
       "estado_glosa": "Publicada",
-      "organismo": "CORPORACIÓN MUNICIPAL DE EDUCACIÓN, SALUD Y ATENCIÓN DE MENORES CHONCHI",
-      "rut_organismo": "71.299.000-7",
-      "unidad_compra": "ADQUISICIONES",
+      "organismo": "MUNICIPALIDAD DE RECOLETA",
+      "rut_organismo": "69.254.800-0",
+      "unidad_compra": "DIRECCION  DE COMPRAS PUBLICAS",
       "region": null,
       "region_nombre": null,
-      "monto_clp": 320304,
+      "monto_clp": 500000,
       "moneda": "CLP",
-      "fecha_publicacion": "2026-09-29 08:57",
-      "fecha_cierre": "2026-10-03 08:02",
+      "fecha_publicacion": "2026-10-01 13:37",
+      "fecha_cierre": "2026-10-05 08:30",
       "fecha_ultimo_cambio": null,
       "palabras_clave_match": [
-        "anatómico"
+        "didáctico"
       ],
-      "total_ofertas": 0,
+      "total_ofertas": 3,
       "productos": [
         {
-          "nombre": "Modelos anatómicos",
-          "descripcion": "Adquisición 3 modelos anatómicos de cerebro plástico desmontable con soporte, de acuerdo a las especificaciones técnicas para dar cumplimiento al componente 3 del programa MSC (Oferentes favor de adjuntar ficha técnica y cotización correspondiente).",
-          "cantidad": 3,
-          "unidad": "EA",
-          "categoria": "60121605"
-        },
-        {
-          "nombre": "Juegos educativos",
-          "descripcion": "Adquisición 44 ruedas de las emociones con soporte, de acuerdo a las especificaciones técnicas para dar cumplimiento al componente 3 del programa MSC (Oferentes favor de adjuntar ficha técnica y cotización correspondiente)",
-          "cantidad": 44,
-          "unidad": "EA",
-          "categoria": "60141101"
+          "nombre": "Juguetes didácticos",
+          "descripcion": "Se adjudicará al pack completo, obligación adjuntar cotización propia valorizada por item,\nLa empresa debe contar con giro comercial acorde a la naturaleza del requerimiento, no obstante lo anterior la municipalidad,en resguardo de sus intereses,\npodrá adjudicar la compra a un oferente que, no contando con el giro comercial ofrezca lo requerido a un menor valor respecto de quienes eventualmente cumplan con lo solicitado, ver anexo con lo requerido.\n\n",
+          "cantidad": 1,
+          "unidad": "PACK",
+          "categoria": "60141006"
         }
       ],
       "adjuntos": [
         {
-          "id": "D61EF81F-F08B-4DD7-8089-F3BF0A129F6B",
-          "nombre": "ESPEC. TEC. RUEDA DE EMOCIONES Y MODELO ANATOMICO DE CEREBRO.pdf",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1274907-187-COT26/ESPEC.%20TEC.%20RUEDA%20DE%20EMOCIONES%20Y%20MODELO%20ANATOMICO%20DE%20CEREBRO.pdf",
+          "id": "262C7EED-EC8E-4321-B3C7-F42E47856248",
+          "nombre": "SM 46545   Didacticos Ludicos  .pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1431841-1158-COT26/SM%2046545%20Didacticos%20Ludicos%20.pdf",
+          "tipo": "pdf"
+        },
+        {
+          "id": "9F560099-5DBF-498D-8481-1C7D3C4A187F",
+          "nombre": "FORMULARIO ANTECEDENTES PAGO TRANSFERENCIA ELECTRONICA.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1431841-1158-COT26/FORMULARIO%20ANTECEDENTES%20PAGO%20TRANSFERENCIA%20ELECTRONICA.pdf",
+          "tipo": "pdf"
+        },
+        {
+          "id": "C0DA59ED-9EB0-4677-A232-6B83A0FA5CFC",
+          "nombre": "EFECTOS DERIVADOS INCUMPLIMIENTO DEL PROVEEDOR.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1431841-1158-COT26/EFECTOS%20DERIVADOS%20INCUMPLIMIENTO%20DEL%20PROVEEDOR.pdf",
           "tipo": "pdf"
         }
       ],
-      "descripcion": "Se requiere modelo anatómico de cerebro y rueda de las emociones, ambas con soporte. De acuerdo a las especificaciones técnicas (Oferentes favor de adjuntar ficha técnica y cotización).",
-      "direccion_entrega": "SARGENTO CANDELARIA 275",
-      "plazo_entrega_dias": 2,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1274907-187-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1274907-187-COT26",
+      "descripcion": "Se adjudicará al pack completo, obligación adjuntar cotización propia valorizada por item,\nLa empresa debe contar con giro comercial acorde a la naturaleza del requerimiento, no obstante lo anterior la municipalidad, e resguardo de sus intereses,\npodrá adjudicar la compra a un oferente que, no contando con el giro comercial ofrezca lo requerido a un menor valor respecto de quienes eventualmente cumplan con lo solicitado, ver anexo con lo requerido.\nNO  SOBREPASAR EL MONTO DISPONIBLE  $ 500.000.\n",
+      "direccion_entrega": "AV  RECOLETA  2774 ",
+      "plazo_entrega_dias": 1,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1431841-1158-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1431841-1158-COT26",
       "prefiltro": {
         "pasa": false,
         "razon": "cierre a menos de 24h"
       },
-      "score_heuristico": 68,
+      "score_heuristico": 61,
       "ia": {
         "v": true,
         "s": 50,
-        "r": "Modelos cerebro desmontable y ruedas emociones 3D",
-        "t": 1790839657408,
+        "r": "Juguetes didácticos lúdicos 3D imprimibles, plazo 1 día muy corto",
+        "t": 1790925894622,
+        "pv": 3
+      }
+    },
+    {
+      "codigo": "2701-700-COT26",
+      "tipo": "compra_agil",
+      "nombre": "COMPRA DE PREMIOS, INSTRUCTIVO 375 XIX TALAGANTE CORRE 2026",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "I MUNICIPALIDAD DE TALAGANTE",
+      "rut_organismo": "69.071.800-6",
+      "unidad_compra": "I MUNICIPALIDAD DE TALAGANTE",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 6250000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-10-01 12:13",
+      "fecha_cierre": "2026-10-05 09:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "medalla"
+      ],
+      "total_ofertas": 3,
+      "productos": [
+        {
+          "nombre": "Trofeos",
+          "descripcion": "2.254 medallas de 5 cm de diámetro, 2,5 milímetros de espesor, con el logo municipal estampado a cuño, terminación oro, cinta roja.\n(MAS 54 MEDALLAS PARA LOS PRIMEROS 3 LUGARES DE LA COMPETENCIA), ADJUNTAR FICHA TÉCNICA DE LOS PRODUCTOS\nDETALLE EN ADJUNTO\nNOTA: Las compras deberán llegar el viernes 16 de octubre en las dependencias Polideportivo Municipal, ubicado en Av. Bellavista 509, Talagante, hasta las 14:00 hrs.",
+          "cantidad": 2254,
+          "unidad": "EA",
+          "categoria": "49101702"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "384D7726-1AAA-4126-A89D-C0B00715A430",
+          "nombre": "DETALLE DE COMPRA.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/2701-700-COT26/DETALLE%20DE%20COMPRA.pdf",
+          "tipo": "pdf"
+        }
+      ],
+      "descripcion": "2.200 medallas de 5 cm de diámetro, 2,5 milímetros de espesor, con el logo municipal estampado a cuño, terminación oro, cinta roja.\nMAS 54 MEDALLAS PARA LOS PRIMEROS 3 LUGARES DE LA COMPETENCIA\nDETALLE EN ADJUNTO\nNOTA: Las compras deberán llegar el viernes 16 de octubre en las dependencias Polideportivo Municipal, ubicado en Av. Bellavista 509, Talagante, hasta las 14:00 hrs.",
+      "direccion_entrega": " Av. Bellavista 509, Talagante (Polideportivo Talagante)",
+      "plazo_entrega_dias": 6,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=2701-700-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=2701-700-COT26",
+      "prefiltro": {
+        "pasa": false,
+        "razon": "cierre a menos de 24h"
+      },
+      "score_heuristico": 55,
+      "ia": {
+        "v": true,
+        "s": 50,
+        "r": "2254 medallas 5cm plástico/resina oro con logo estampado",
+        "t": 1790925919308,
+        "pv": 3
+      }
+    },
+    {
+      "codigo": "2831-33-LE26",
+      "tipo": "licitacion",
+      "nombre": "Adquisición de Juguetes Navideños Año 2026 C. Qta.",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "I MUNICIPALIDAD DE QUILLOTA",
+      "rut_organismo": "69.060.100-1",
+      "unidad_compra": "SECRETARIA COMUNAL DE PLANIFICACION",
+      "region": 5,
+      "region_nombre": "Valparaíso",
+      "monto_clp": 20000000,
+      "moneda": "CLP",
+      "fecha_publicacion": null,
+      "fecha_cierre": "2026-10-07 15:30:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "juguete"
+      ],
+      "total_ofertas": null,
+      "productos": [
+        {
+          "nombre": "Juguetes didácticos",
+          "descripcion": "“Adquisición de Juguetes Navideños Año 2026, Comuna de Quillota”",
+          "cantidad": 1.0,
+          "unidad": "Global",
+          "categoria": "60141006"
+        }
+      ],
+      "adjuntos": [],
+      "descripcion": "Los presentes Bases Administrativas tienen por objeto regular el llamado de licitación pública para la “Adquisición de Juguetes Navideños Año 2026, Comuna de Quillota”. Los Términos Técnicos de Referencia, se refieren a la adquisición de Juguetes para niños y niñas, de entre 0 a 7 años, 11 meses y 29 días de edad, los cuales serán entregados por la Municipalidad a las organizaciones de carácter social: Junta de vecinos, Comités de Administración de condominios sociales, Comités de Adelanto e instituciones sin fines de lucro de la comuna de Quillota, para ser distribuidos a los niños y niñas en Navidad.",
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2831-33-LE26",
+      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=2831-33-LE26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 53,
+      "tipo_licitacion": "LE",
+      "ia": {
+        "v": true,
+        "s": 50,
+        "r": "Juguetes didácticos imprimibles 3D, gran volumen",
+        "t": 1791179954649,
+        "pv": 3
+      }
+    },
+    {
+      "codigo": "3882-89-LE26",
+      "tipo": "licitacion",
+      "nombre": "“ADQUISICIÓN DE JUGUETES PARA  ACTIVIDAD COMUNITARIA NAVIDEÑA 2026 COMUNA DE LLAY LLAY”",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "I MUNICIPALIDAD DE LLAY LLAY",
+      "rut_organismo": "69.060.400-0",
+      "unidad_compra": "Ilustre Municipalidad de Llay Llay",
+      "region": 5,
+      "region_nombre": "Valparaíso",
+      "monto_clp": null,
+      "moneda": "CLP",
+      "fecha_publicacion": null,
+      "fecha_cierre": "2026-10-13 15:05:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "juguete"
+      ],
+      "total_ofertas": null,
+      "productos": [
+        {
+          "nombre": "Juguetes didácticos",
+          "descripcion": "Se requiere juguetes según especificaciones técnicas",
+          "cantidad": 1.0,
+          "unidad": "Unidad",
+          "categoria": "60141006"
+        }
+      ],
+      "adjuntos": [],
+      "descripcion": "Adquirir juguetes destinados a niños y niñas de la comuna de Llay Llay, con la finalidad de ser entregados en el marco de la Actividad Comunitaria de Navidad 2026, contribuyendo al desarrollo de una instancia recreativa y de celebración para la infancia de la comuna.",
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3882-89-LE26",
+      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=3882-89-LE26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 48,
+      "tipo_licitacion": "LE",
+      "ia": {
+        "v": true,
+        "s": 50,
+        "r": "Juguetes didácticos navideños 3D",
+        "t": 1791179954649,
         "pv": 3
       }
     },
@@ -1908,10 +1938,10 @@
       "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=2428-1424-COT26",
       "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=2428-1424-COT26",
       "prefiltro": {
-        "pasa": true,
-        "razon": ""
+        "pasa": false,
+        "razon": "cierre a menos de 24h"
       },
-      "score_heuristico": 67,
+      "score_heuristico": 47,
       "ia": {
         "v": true,
         "s": 50,
@@ -2122,205 +2152,6 @@
         "t": 1790925906405,
         "pv": 3
       }
-    },
-    {
-      "codigo": "1650-166-COT26",
-      "tipo": "compra_agil",
-      "nombre": "Material Educativo Modelo Anatómico de Pulmón y Sistema  Respiratorio",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "Hospital Santa Juana",
-      "rut_organismo": "61.602.204-0",
-      "unidad_compra": "Hospital Santa Juana",
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": 950000,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-09-30 12:14",
-      "fecha_cierre": "2026-10-05 09:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [
-        "anatómico"
-      ],
-      "total_ofertas": 2,
-      "productos": [
-        {
-          "nombre": "Materiales educativos sobre la resucitación cardiopulmonar o el soporte vital básico",
-          "descripcion": "Se solicita cotización formal por tres modelos de Pulmón Anatómico y Sistema Respiratorio.\nSe adjunta solicitud, que indican las especificaciones técnicas de cada pulmón solicitado.\nEntrega en tres días Hábiles, mas indicaciones de uso y cuidado de los productos.\n",
-          "cantidad": 3,
-          "unidad": "EA",
-          "categoria": "60105915"
-        }
-      ],
-      "adjuntos": [
-        {
-          "id": "86EE5A02-DA7C-48B6-B470-944536BD45F0",
-          "nombre": "Solicitud de Compra material educativo.pdf",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1650-166-COT26/Solicitud%20de%20Compra%20material%20educativo.pdf",
-          "tipo": "pdf"
-        }
-      ],
-      "descripcion": "Se Solicita la compra de 3 Modelos Anatómicos de Pulmón y sistema respiratorios, de acuerdo a documentos adjuntos.",
-      "direccion_entrega": "Avenida Doctor Sosa 100",
-      "plazo_entrega_dias": 3,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1650-166-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1650-166-COT26",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 92,
-      "ia": {
-        "v": true,
-        "s": 48,
-        "r": "Modelos anatómicos pulmón sistema respiratorio resina/plástico",
-        "t": 1790839670029,
-        "pv": 3
-      }
-    },
-    {
-      "codigo": "2446-926-COT26",
-      "tipo": "compra_agil",
-      "nombre": "Adquisición de artículos promocionales, lúdicos y sensoriales para niños, niñas y adolescentes participantes de las Actividades del Programa \"Comunidad Crece\"",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "I MUNICIPALIDAD DE COQUIMBO",
-      "rut_organismo": "69.040.300-5",
-      "unidad_compra": "IMUNI_COQUIMBO",
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": 460000,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-10-01 17:55",
-      "fecha_cierre": "2026-10-03 19:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [],
-      "total_ofertas": 0,
-      "productos": [
-        {
-          "nombre": "Lápiz pasta",
-          "descripcion": "Lapiceras con diseños variados, según Especificaciones Técnicas.",
-          "cantidad": 144,
-          "unidad": "EA",
-          "categoria": "44121704"
-        },
-        {
-          "nombre": "Libretas de notas",
-          "descripcion": "Mini libretas argolladas con diseños variados, según Especificaciones Técnicas.",
-          "cantidad": 144,
-          "unidad": "EA",
-          "categoria": "60101722"
-        },
-        {
-          "nombre": "Juguetes didácticos",
-          "descripcion": "Cubos infinitos tipo Infinity Cube o equivalente, según Especificaciones Técnicas.",
-          "cantidad": 24,
-          "unidad": "EA",
-          "categoria": "60141006"
-        },
-        {
-          "nombre": "Juguetes didácticos",
-          "descripcion": "Pop-It sensorial tamaño pequeño/mediano o equivalente, según Especificaciones Técnicas.",
-          "cantidad": 24,
-          "unidad": "EA",
-          "categoria": "60141006"
-        },
-        {
-          "nombre": "Juguetes didácticos",
-          "descripcion": "Juguetes sensoriales articulados tipo Tangle o equivalente, según Especificaciones Técnicas.",
-          "cantidad": 24,
-          "unidad": "EA",
-          "categoria": "60141006"
-        },
-        {
-          "nombre": "Juguetes didácticos",
-          "descripcion": "Pelotas sensoriales o antiestrés, según Especificaciones Técnicas.",
-          "cantidad": 24,
-          "unidad": "EA",
-          "categoria": "60141006"
-        },
-        {
-          "nombre": "Juguetes didácticos",
-          "descripcion": "Fidget Spinner o juguete sensorial giratorio equivalente, según Especificaciones Técnicas.",
-          "cantidad": 24,
-          "unidad": "EA",
-          "categoria": "60141006"
-        },
-        {
-          "nombre": "Juguetes didácticos",
-          "descripcion": "Tubos sensoriales extensibles tipo Pop Tube o equivalente, según Especificaciones Técnicas.",
-          "cantidad": 24,
-          "unidad": "EA",
-          "categoria": "60141006"
-        },
-        {
-          "nombre": "Juguetes didácticos",
-          "descripcion": "Llaveros con diseños variados, según Especificaciones Técnicas.",
-          "cantidad": 144,
-          "unidad": "EA",
-          "categoria": "60141006"
-        },
-        {
-          "nombre": "Juguetes didácticos",
-          "descripcion": "Mini burbujas, según Especificaciones Técnicas.",
-          "cantidad": 144,
-          "unidad": "EA",
-          "categoria": "60141006"
-        },
-        {
-          "nombre": "Juguetes didácticos",
-          "descripcion": "Masas sensoriales tipo Slime o equivalente, según Especificaciones Técnicas.",
-          "cantidad": 144,
-          "unidad": "EA",
-          "categoria": "60141006"
-        },
-        {
-          "nombre": "Juguetes didácticos",
-          "descripcion": "Bolsas de papel kraft para obsequios, según Especificaciones Técnicas.",
-          "cantidad": 600,
-          "unidad": "EA",
-          "categoria": "60141006"
-        }
-      ],
-      "adjuntos": [
-        {
-          "id": "91F0A4FF-CE6D-4439-A7F5-F06B6C42BBD9",
-          "nombre": "01 FORMULARIO CA MATERIALES LÚDICOS PROGRAMA COMUNIDAD CRECE.docx",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/2446-926-COT26/01%20FORMULARIO%20CA%20MATERIALES%20L%C3%9ADICOS%20PROGRAMA%20COMUNIDAD%20CRECE.docx",
-          "tipo": "docx"
-        },
-        {
-          "id": "77D4CC12-3D02-4275-A78A-4021BAEA4ECF",
-          "nombre": "02 CONDICIONES COMPRA ÁGIL.doc",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/2446-926-COT26/02%20CONDICIONES%20COMPRA%20%C3%81GIL.doc",
-          "tipo": "doc"
-        },
-        {
-          "id": "C5058770-74EE-4C7C-886C-423DD0FBCC3F",
-          "nombre": "ESPECIFICACIONES TÉCNICAS.docx",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/2446-926-COT26/ESPECIFICACIONES%20T%C3%89CNICAS.docx",
-          "tipo": "docx"
-        }
-      ],
-      "descripcion": "Adquisición de artículos promocionales, lúdicos y sensoriales para niños, niñas y adolescentes participantes de las Actividades del Programa \"Comunidad Crece\"",
-      "direccion_entrega": "PROFESOR ZEPEDA 8, SECTOR GUAYACÁN (BODEGA MUNICIPAL)",
-      "plazo_entrega_dias": 10,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=2446-926-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=2446-926-COT26",
-      "triage": "artículos promocionales, lúdicos y sensoriales",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 90,
-      "ia": {
-        "v": true,
-        "s": 48,
-        "r": "Cubos infinitos, Pop-It, juguetes sensoriales plástico; llaveros/artículos pequeños",
-        "t": 1790925906405,
-        "pv": 3
-      },
-      "recuperado_corrida_anterior": true
     },
     {
       "codigo": "2322-625-COT26",
