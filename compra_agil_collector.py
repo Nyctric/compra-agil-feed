@@ -140,7 +140,7 @@ MAX_PAGINAS = 20        # tope de seguridad por palabra clave
 MAX_PAGINAS_TODO = int(_CFG.get("max_paginas_todo", 650))  # tope en modo buscar_todo; _paginar corta antes si pageCount es menor
 
 ANTHROPIC_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
-IA_MODELOS = ["claude-haiku-5-5", "claude-sonnet-5-5", "claude-haiku-4-5", "claude-haiku-4-5-20251001"]   # prueba en orden; pasa al siguiente si el modelo no existe (400/404)
+IA_MODELOS = ["claude-haiku-5-5", "claude-haiku-4-5", "claude-haiku-4-5-20251001"]   # prueba en orden; pasa al siguiente si el modelo no existe (400/404)
 IA_LOTE = 25            # licitaciones por llamada (más grande = menos overhead de prompt)
 IA_CACHE_DIAS = 90      # conservar evaluaciones de códigos ya ausentes por N días
 
@@ -1342,7 +1342,7 @@ def _llamar_anthropic(prompt, max_tokens):
             last_err = str(e); continue
         if r.status_code == 200:
             data = r.json()
-            return (data.get("content") or [{}])[0].get("text") or ""
+            return "".join(b.get("text") or "" for b in (data.get("content") or []) if b.get("type", "text") == "text")
         last_err = f"API {r.status_code} ({modelo})"
         if r.status_code not in (400, 404):
             break  # solo probar otro modelo si este no existe
