@@ -95,6 +95,7 @@ jobs:
           cp oportunidades.json /tmp/salida/ 2>/dev/null || true
           if [ -f eval_ia.json ]; then cp eval_ia.json /tmp/salida/; fi
           if [ -f triage_ia.json ]; then cp triage_ia.json /tmp/salida/; fi
+          if [ -f desc_ia.json ]; then cp desc_ia.json /tmp/salida/; fi
           if [ -f precios_historicos.json ]; then cp precios_historicos.json /tmp/salida/; fi
           if [ -f resultados.json ]; then cp resultados.json /tmp/salida/; fi
           if [ -d adjuntos ]; then cp -r adjuntos /tmp/salida/; fi
@@ -106,12 +107,14 @@ jobs:
             cp /tmp/salida/oportunidades.json . 2>/dev/null || true
             if [ -f /tmp/salida/eval_ia.json ]; then cp /tmp/salida/eval_ia.json .; fi
             if [ -f /tmp/salida/triage_ia.json ]; then cp /tmp/salida/triage_ia.json .; fi
+            if [ -f /tmp/salida/desc_ia.json ]; then cp /tmp/salida/desc_ia.json .; fi
             if [ -f /tmp/salida/precios_historicos.json ]; then cp /tmp/salida/precios_historicos.json .; fi
             if [ -f /tmp/salida/resultados.json ]; then cp /tmp/salida/resultados.json .; fi
             if [ -d /tmp/salida/adjuntos ]; then cp -r /tmp/salida/adjuntos .; fi
             git add -A oportunidades.json
             if [ -f eval_ia.json ]; then git add -A eval_ia.json; fi
             if [ -f triage_ia.json ]; then git add -A triage_ia.json; fi
+            if [ -f desc_ia.json ]; then git add -A desc_ia.json; fi
             if [ -f precios_historicos.json ]; then git add -A precios_historicos.json; fi
             if [ -f resultados.json ]; then git add -A resultados.json; fi
             git add -A adjuntos 2>/dev/null || true
