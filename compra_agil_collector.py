@@ -95,6 +95,12 @@ MAX_ITEMS_FEED = int(_CFG.get("max_items_feed", 800))
 # Feed curado: solo lo que la IA confirmó como fabricable con impresión 3D, las mejores N por puntaje.
 SOLO_VIABLES_FEED = bool(_CFG.get("solo_viables_en_feed", True))
 MAX_VIABLES_FEED = int(_CFG.get("max_viables_feed", 30))
+# Si la IA no pudo evaluar (sin créditos, errores), los mejores sin evaluar se publican marcados "sin_evaluar".
+MAX_SIN_EVALUAR = int(_CFG.get("max_sin_evaluar", 60))
+# Revisión por descripción: la búsqueda de Mercado Público solo mira el título; la ficha trae descripción y productos.
+DESC_CACHE_FILE = os.environ.get("DESC_CACHE_FILE", "desc_ia.json")
+MAX_REVISION_DESC = int(_CFG.get("max_revision_descripcion", 2500))     # fichas por corrida
+MAX_SEG_REVISION_DESC = int(_CFG.get("max_seg_revision_descripcion", 2400))
 RUBROS_BLOQUEADOS = [str(r) for r in (_CFG.get("rubros_bloqueados") or [])]
 INCLUIR_LICITACIONES = bool(_CFG.get("incluir_licitaciones", True))
 MAX_DETALLE_LIC = int(_CFG.get("max_detalle_licitaciones", 60))
@@ -1560,6 +1566,92 @@ def sugerir_keywords(rescatados):
     return [{"t": t, "n": n, "ej": ejemplos[t]} for t, n in orden]
 
 
+# ---------- Revisión por descripción (sin IA) ----------
+
+# Términos que bastan por sí solos para que un proceso entre a revisión. Los DÉBILES (pieza, plástico,
+# soporte, logo…) no: en una descripción aparecen en miles de procesos irrelevantes.
+EXTRAS_DESC = ["argolla", "portallaves", "porta", "pulsera", "colgante", "dije", "iman", "posavasos",
+               "chapita", "organizador"]
+_DESC_TERMINOS_N = list(dict.fromkeys(
+    t for t in (_norm(w).strip() for w in (FUERTES + EXTRAS_DESC + PALABRAS_CLAVE)) if t))
+
+
+def _texto_ficha(det):
+    partes = [det.get("descripcion") or ""]
+    for p in (det.get("productos_solicitados") or []):
+        partes.append(p.get("nombre") or "")
+        partes.append(p.get("descripcion") or "")
+    return _norm(" ".join(str(x) for x in partes))
+
+
+def _coincidencia_desc(texto_norm):
+    """Primera palabra clave/fuerte hallada en descripción+productos; None si no hay o si es insumo 3D."""
+    for b in _INSUMOS_N:
+        if _kw_en_texto(b, texto_norm):
+            return None
+    for t in _DESC_TERMINOS_N:
+        if _kw_en_texto(t, texto_norm):
+            return t
+    return None
+
+
+def cargar_cache_desc():
+    if os.path.exists(DESC_CACHE_FILE):
+        try:
+            with open(DESC_CACHE_FILE, encoding="utf-8") as f:
+                return json.load(f) or {}
+        except Exception:
+            pass
+    return {}
+
+
+def revisar_descripciones(regs):
+    """Baja la ficha liviana (sin adjuntos) de procesos que no calzaron por título y busca las
+    palabras en descripción y productos. No usa IA. Cada código se revisa una sola vez (caché).
+    Devuelve (regs que calzan, stats)."""
+    stats = {"pendientes": 0, "revisadas": 0, "coinciden": 0, "errores": 0}
+    cache = cargar_cache_desc()
+    pend = [r for r in regs if r["codigo"] not in cache]
+    pend.sort(key=lambda r: str(r.get("fecha_publicacion") or ""), reverse=True)   # lo más nuevo primero
+    lote = pend[:MAX_REVISION_DESC]
+    stats["pendientes"] = len(pend) - len(lote)
+    print(f"Revisión por descripción: {len(regs)} procesos sin coincidencia en el título, "
+          f"{len(lote)} fichas por revisar ({len(regs) - len(pend)} ya en caché)")
+    t0, ahora = time.time(), int(time.time() * 1000)
+    for i, r in enumerate(lote, 1):
+        if time.time() - t0 > MAX_SEG_REVISION_DESC:
+            stats["pendientes"] += len(lote) - i + 1
+            print("  · revisión por descripción: tope de tiempo, el resto queda para la próxima corrida")
+            break
+        det = traer_ficha(r["codigo"])
+        if not det:
+            stats["errores"] += 1      # no se cachea: se reintenta en la próxima corrida
+            continue
+        k = _coincidencia_desc(_texto_ficha(det))
+        cache[r["codigo"]] = {"v": 1 if k else 0, "k": k or "", "ts": ahora}
+        stats["revisadas"] += 1
+        if k:
+            stats["coinciden"] += 1
+        if i % 200 == 0:
+            print(f"  · {i}/{len(lote)} fichas revisadas ({stats['coinciden']} coinciden)")
+    limite = ahora - 30 * 86400 * 1000
+    cache = {c: e for c, e in cache.items() if e.get("ts", 0) >= limite}
+    try:
+        with open(DESC_CACHE_FILE, "w", encoding="utf-8") as f:
+            json.dump(cache, f, ensure_ascii=False)
+    except Exception as ex:
+        print(f"  · no se pudo guardar {DESC_CACHE_FILE}: {ex}", file=sys.stderr)
+    hallados = []
+    for r in regs:
+        e = cache.get(r["codigo"])
+        if e and e.get("v"):
+            r["desc_match"] = e.get("k") or "descripción"
+            hallados.append(r)
+    if hallados:
+        print(f"Revisión por descripción: {len(hallados)} procesos calzan por su descripción o productos")
+    return hallados, stats
+
+
 # ---------- Main ----------
 
 def _fecha_orden(reg):
@@ -1683,8 +1775,17 @@ def main():
         reg["prefiltro"] = {"pasa": True, "razon": ""}
         reg["score_heuristico"] = score_heuristico(reg)
         registros.append(reg)
-    descartados["sin_match"] = len(sin_match) - len(rescatados)
+    # 2b-bis) Revisión por descripción: lo que ni el título ni el triage atraparon.
+    _ya_resc = {r["codigo"] for r in rescatados}
+    por_desc, desc_stats = revisar_descripciones([r for r in triables if r["codigo"] not in _ya_resc])
+    for reg in por_desc:
+        reg["palabras_clave_match"] = [reg["desc_match"]]
+        reg["prefiltro"] = {"pasa": True, "razon": ""}
+        reg["score_heuristico"] = score_heuristico(reg)
+        registros.append(reg)
+    descartados["sin_match"] = len(sin_match) - len(rescatados) - len(por_desc)
     descartados["rescatados_triage"] = len(rescatados)
+    descartados["rescatados_descripcion"] = len(por_desc)
     if rescatados:
         print(f"Triage IA: rescatados {len(rescatados)} procesos que ninguna palabra atrapaba")
 
@@ -1712,7 +1813,7 @@ def main():
     # La mitad de los cupos de ficha se reserva para títulos con un término FUERTE (anatómico,
     # fantoma, galvano, medalla…): no pueden perder el cupo contra puntajes de plazo o monto.
     _pasan = [r for r in registros if r["prefiltro"]["pasa"]]
-    _fuertes = [r for r in _pasan if _tiene_fuerte(_norm(r.get("nombre") or ""))][:MAX_DETALLE // 2]
+    _fuertes = [r for r in _pasan if r.get("desc_match") or _tiene_fuerte(_norm(r.get("nombre") or ""))][:MAX_DETALLE // 2]
     _ids_f = {r["codigo"] for r in _fuertes}
     _resto = [r for r in _pasan if r["codigo"] not in _ids_f][:max(0, MAX_DETALLE - len(_fuertes))]
     a_enriquecer = sorted(_fuertes + _resto, key=lambda r: -(r.get("score_heuristico") or 0)) if FETCH_DETALLE else []
@@ -1822,7 +1923,7 @@ def main():
     pre_eval = set(cache.keys())
     if ANTHROPIC_KEY:
         candidatos_ia = sorted([r for r in a_enriquecer if r["prefiltro"]["pasa"]] + lic_enriquecidas,
-                               key=lambda r: (not _tiene_fuerte(_norm(r.get("nombre") or "")), -(r.get("score_heuristico") or 0)))
+                               key=lambda r: (not (r.get("desc_match") or _tiene_fuerte(_norm(r.get("nombre") or ""))), -(r.get("score_heuristico") or 0)))
         _ya = {r["codigo"] for r in candidatos_ia}
         for r in list(registros) + list(prev_items.values()):   # viables del criterio anterior aún abiertos: reevaluar aunque no entren al top
             e = cache.get(r["codigo"])
@@ -1869,8 +1970,18 @@ def main():
     if SOLO_VIABLES_FEED and ANTHROPIC_KEY:
         # Sin clave de IA no hay veredictos: ahí se conserva el feed completo.
         _n0 = len(registros)
-        registros = [r for r in registros if (r.get("ia") or {}).get("v")][:MAX_VIABLES_FEED]
-        print(f"Feed curado: {len(registros)} viables IA publicados (de {_n0} candidatos; tope {MAX_VIABLES_FEED})")
+        for r in registros:
+            r.pop("sin_evaluar", None)
+        _viables = [r for r in registros if (r.get("ia") or {}).get("v")][:MAX_VIABLES_FEED]
+        # Sin veredicto (IA caída, sin créditos o fuera de cupo): los mejores se publican marcados, no se pierden.
+        _sin = [r for r in registros if not r.get("ia") and (r.get("prefiltro") or {}).get("pasa", True)]
+        _sin.sort(key=lambda r: (not r.get("desc_match"), -(r.get("score_heuristico") or 0)))
+        _sin = _sin[:MAX_SIN_EVALUAR]
+        for r in _sin:
+            r["sin_evaluar"] = True
+        registros = _viables + _sin
+        print(f"Feed curado: {len(_viables)} viables IA + {len(_sin)} sin evaluar (de {_n0} candidatos; "
+              f"topes {MAX_VIABLES_FEED}/{MAX_SIN_EVALUAR})")
     if len(registros) > MAX_ITEMS_FEED:
         registros = registros[:MAX_ITEMS_FEED]
 
@@ -1892,6 +2003,7 @@ def main():
         "descartados": descartados,
         "recuperados_feed_anterior": recuperados,
         "triage_ia": dict(triage_stats, habilitado=TRIAGE_ON),
+        "revision_descripcion": desc_stats,
         "barrido": barrido,
         "sugerencias_keywords": sugerencias,
         "licitaciones": dict(lic_stats, habilitadas=INCLUIR_LICITACIONES, con_ticket=bool(MP_TICKET)),
