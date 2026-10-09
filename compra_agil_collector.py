@@ -1328,6 +1328,17 @@ def guardar_cache_ia(cache, codigos_vigentes):
     return limpio
 
 
+def _payload_ia(modelo, prompt, max_tokens):
+    """Los modelos 5.x razonan por defecto y ese razonamiento cuenta en max_tokens:
+    esfuerzo bajo + margen extra para que siempre quede espacio para la respuesta."""
+    p = {"model": modelo, "max_tokens": max_tokens,
+         "messages": [{"role": "user", "content": prompt}]}
+    if modelo.startswith("claude-haiku-5") or modelo.startswith("claude-sonnet-5"):
+        p["max_tokens"] = max_tokens + 3000
+        p["output_config"] = {"effort": "low"}
+    return p
+
+
 def _llamar_anthropic(prompt, max_tokens):
     last_err = ""
     for modelo in IA_MODELOS:
@@ -1335,14 +1346,17 @@ def _llamar_anthropic(prompt, max_tokens):
             r = requests.post("https://api.anthropic.com/v1/messages",
                 headers={"Content-Type": "application/json", "x-api-key": ANTHROPIC_KEY,
                          "anthropic-version": "2023-06-01"},
-                json={"model": modelo, "max_tokens": max_tokens,
-                      "messages": [{"role": "user", "content": prompt}]},
+                json=_payload_ia(modelo, prompt, max_tokens),
                 timeout=120)
         except requests.exceptions.RequestException as e:
             last_err = str(e); continue
         if r.status_code == 200:
             data = r.json()
-            return "".join(b.get("text") or "" for b in (data.get("content") or []) if b.get("type", "text") == "text")
+            txt = "".join(b.get("text") or "" for b in (data.get("content") or []) if b.get("type", "text") == "text")
+            if txt.strip() or modelo.startswith("claude-haiku-4"):
+                return txt
+            last_err = f"respuesta vacia ({modelo}, stop={data.get('stop_reason')})"
+            continue  # modelo 5.x gasto los tokens pensando: probar el siguiente
         last_err = f"API {r.status_code} ({modelo})"
         if r.status_code not in (400, 404):
             break  # solo probar otro modelo si este no existe
