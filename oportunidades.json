@@ -1,6 +1,6 @@
 {
-  "generado": "2026-10-12T06:55:16Z",
-  "total": 74,
+  "generado": "2026-10-13T07:21:23Z",
+  "total": 59,
   "palabras_clave": [
     "anatómico",
     "fantoma",
@@ -43,18 +43,18 @@
     "max_detalle": 300,
     "max_eval_ia": 200
   },
-  "recolectados_total": 342,
+  "recolectados_total": 232,
   "descartados": {
     "cerradas": 1,
-    "blacklist": 499,
-    "sin_match": 4601,
+    "blacklist": 489,
+    "sin_match": 4548,
     "rescatados_triage": 1,
-    "rescatados_descripcion": 10
+    "rescatados_descripcion": 4
   },
-  "recuperados_feed_anterior": 3,
+  "recuperados_feed_anterior": 2,
   "triage_ia": {
-    "revisados": 121,
-    "nuevos": 99,
+    "revisados": 38,
+    "nuevos": 31,
     "rescatados": 1,
     "errores": 0,
     "completo": true,
@@ -62,15 +62,15 @@
   },
   "revision_descripcion": {
     "pendientes": 0,
-    "revisadas": 97,
-    "coinciden": 7,
-    "errores": 1
+    "revisadas": 25,
+    "coinciden": 4,
+    "errores": 5
   },
   "barrido": {
     "modo": "incremental",
-    "inicio_cl": "2026-10-12 02:39",
-    "desde": "2026-10-09 23:32",
-    "paginas": 13,
+    "inicio_cl": "2026-10-13 03:35",
+    "desde": "2026-10-11 23:39",
+    "paginas": 8,
     "motivo": "incremental",
     "minutos": 1.0,
     "cortado": false,
@@ -78,9 +78,9 @@
   },
   "sugerencias_keywords": [],
   "licitaciones": {
-    "activas": 5065,
+    "activas": 5066,
     "candidatas": 60,
-    "incluidas": 60,
+    "incluidas": 59,
     "habilitadas": true,
     "con_ticket": true
   },
@@ -90,8 +90,8 @@
     "dias_pendientes": 0
   },
   "eval_ia": {
-    "evaluados_total": 5487,
-    "nuevos_esta_corrida": 102,
+    "evaluados_total": 5483,
+    "nuevos_esta_corrida": 13,
     "errores": 0,
     "server_side": true
   },
@@ -167,10 +167,10 @@
       "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=2328-1224-COT26",
       "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=2328-1224-COT26",
       "prefiltro": {
-        "pasa": true,
-        "razon": ""
+        "pasa": false,
+        "razon": "cierre a menos de 24h"
       },
-      "score_heuristico": 88,
+      "score_heuristico": 78,
       "ia": {
         "v": true,
         "s": 60,
@@ -185,11 +185,11 @@
       "nombre": "SUM. DE MAT. DIDACTICOS PARA SALA CUNAS Y JARDINES",
       "estado": "publicada",
       "estado_glosa": "Publicada",
-      "organismo": "CORP MUNICIPAL MELIPILLA PARA LA ED SALUD",
-      "rut_organismo": "71.293.900-1",
-      "unidad_compra": "INFANCIA",
-      "region": 13,
-      "region_nombre": "Metropolitana",
+      "organismo": null,
+      "rut_organismo": null,
+      "unidad_compra": null,
+      "region": null,
+      "region_nombre": null,
       "monto_clp": null,
       "moneda": "CLP",
       "fecha_publicacion": null,
@@ -199,69 +199,18 @@
         "didáctico"
       ],
       "total_ofertas": null,
-      "productos": [
-        {
-          "nombre": "Juguetes didácticos",
-          "descripcion": "LÍNEA N°1: PSICOMOTRICIDAD, SENSORIALIDAD, DEPORTE.",
-          "cantidad": 1.0,
-          "unidad": "Global",
-          "categoria": "60141006"
-        },
-        {
-          "nombre": "Juguetes didácticos",
-          "descripcion": "LÍNEA N°: JUEGOS DE ROLES, JUEGOS SIMBÓLICOS, ESTIMULACIÓN TEMPRANA, SOCIEDAD, VALORES, MUÑECOS Y TÍTERES.",
-          "cantidad": 1.0,
-          "unidad": "Global",
-          "categoria": "60141006"
-        },
-        {
-          "nombre": "Juguetes didácticos",
-          "descripcion": "LÍNEA N°3: PUZLES, ENCAJES Y CONSTRUCCIÓN.",
-          "cantidad": 1.0,
-          "unidad": "Global",
-          "categoria": "60141006"
-        },
-        {
-          "nombre": "Juguetes didácticos",
-          "descripcion": "LÍNEA N°4: INSTRUMENTOS MUSICALES.",
-          "cantidad": 1.0,
-          "unidad": "Global",
-          "categoria": "60141006"
-        },
-        {
-          "nombre": "Juguetes didácticos",
-          "descripcion": "LÍNEA N°5: CIENCIAS, LENGUAJE, LÓGICO MATEMÁTICO Y MATEMÁTICA.",
-          "cantidad": 1.0,
-          "unidad": "Global",
-          "categoria": "60141006"
-        },
-        {
-          "nombre": "Juguetes didácticos",
-          "descripcion": "LÍNEA N°6: JUEGOS DE MADERA.",
-          "cantidad": 1.0,
-          "unidad": "Global",
-          "categoria": "60141006"
-        },
-        {
-          "nombre": "Juguetes didácticos",
-          "descripcion": "LÍNEA N°7: JUEGO MODULAR INFANTIL.",
-          "cantidad": 1.0,
-          "unidad": "Global",
-          "categoria": "60141006"
-        }
-      ],
+      "productos": [],
       "adjuntos": [],
-      "descripcion": "La Corporación Municipal de Melipilla requiere contratar el suministro de materiales didácticos para Salas Cunas y Jardines Infantiles dependientes de la Dirección de Infancia, conforme a las especificaciones establecidas en las presentes Bases Técnicas.\r\n\r\nLos productos serán requeridos durante la vigencia del contrato, de acuerdo con las necesidades de cada establecimiento, y deberán ser despachados por el proveedor adjudicado directamente a las dependencias de cada Sala Cuna y Jardín Infantil.\r\nContar con los materiales didácticos como elementos de apoyo pedagógico, permiten favorecer el desarrollo de las actividades en forma óptima y promover la participación activa de losas estudiantes y miembros de la comunidad educativa en las diferentes actividades que realice el establecimiento.",
+      "descripcion": null,
       "direccion_entrega": null,
       "plazo_entrega_dias": null,
       "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1298356-3-LE26",
       "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=1298356-3-LE26",
       "prefiltro": {
-        "pasa": true,
-        "razon": ""
+        "pasa": false,
+        "razon": "cierre a menos de 24h"
       },
-      "score_heuristico": 38,
-      "tipo_licitacion": "LE",
+      "score_heuristico": 24,
       "ia": {
         "v": true,
         "s": 55,
@@ -298,10 +247,10 @@
       "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2656-74-LE26",
       "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=2656-74-LE26",
       "prefiltro": {
-        "pasa": true,
-        "razon": ""
+        "pasa": false,
+        "razon": "cierre a menos de 24h"
       },
-      "score_heuristico": 14,
+      "score_heuristico": 4,
       "ia": {
         "v": true,
         "s": 55,
@@ -336,10 +285,10 @@
       "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2658-341-L126",
       "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=2658-341-L126",
       "prefiltro": {
-        "pasa": true,
-        "razon": ""
+        "pasa": false,
+        "razon": "cierre a menos de 24h"
       },
-      "score_heuristico": 14,
+      "score_heuristico": 4,
       "ia": {
         "v": true,
         "s": 55,
@@ -403,10 +352,10 @@
       "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=3710-128-COT26",
       "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=3710-128-COT26",
       "prefiltro": {
-        "pasa": true,
-        "razon": ""
+        "pasa": false,
+        "razon": "cierre a menos de 24h"
       },
-      "score_heuristico": 78,
+      "score_heuristico": 68,
       "ia": {
         "v": true,
         "s": 50,
@@ -461,7 +410,7 @@
         "pasa": true,
         "razon": ""
       },
-      "score_heuristico": 74,
+      "score_heuristico": 64,
       "ia": {
         "v": true,
         "s": 50,
@@ -469,110 +418,6 @@
         "t": 1791275804767,
         "pv": 3
       }
-    },
-    {
-      "codigo": "1665-155-COT26",
-      "tipo": "compra_agil",
-      "nombre": "Material Sala Estimulación SCN°327",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "Servicio de Salud del Reloncaví",
-      "rut_organismo": "61.602.311-k",
-      "unidad_compra": "HOSPITAL DE CHAITEN",
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": 886712,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-10-06 11:30",
-      "fecha_cierre": "2026-10-12 12:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [],
-      "total_ofertas": 0,
-      "productos": [
-        {
-          "nombre": "Materiales educativos individuales",
-          "descripcion": "FANTOMA MAMARIO MODELO ANATOMICO(terminos tecnicos de referencia adjuntos)",
-          "cantidad": 4,
-          "unidad": "EA",
-          "categoria": "60101703"
-        },
-        {
-          "nombre": "Materiales educativos individuales",
-          "descripcion": "FULAR PORTABEBE(terminos tecnicos de referencia adjuntos)",
-          "cantidad": 5,
-          "unidad": "EA",
-          "categoria": "60101703"
-        },
-        {
-          "nombre": "Materiales educativos individuales",
-          "descripcion": "MODELO DE ESTOMAGO DE RECIEN NACIDO(terminos tecnicos de referencia adjuntos)",
-          "cantidad": 1,
-          "unidad": "EA",
-          "categoria": "60101703"
-        },
-        {
-          "nombre": "Materiales educativos individuales",
-          "descripcion": "MUÑECO DIDACTICO RECIEN NACIDO PARA PORTEO(terminos tecnicos de referencia adjuntos)",
-          "cantidad": 1,
-          "unidad": "EA",
-          "categoria": "60101703"
-        },
-        {
-          "nombre": "Materiales educativos individuales",
-          "descripcion": "MUESTRARIO DE PUERPERIO(terminos tecnicos de referencia adjuntos)",
-          "cantidad": 2,
-          "unidad": "EA",
-          "categoria": "60101703"
-        },
-        {
-          "nombre": "Materiales educativos individuales",
-          "descripcion": "BLOCKS JUEGO DE CONSTRUCCION MULTICOLOR(terminos tecnicos de referencia adjuntos)",
-          "cantidad": 1,
-          "unidad": "EA",
-          "categoria": "60101703"
-        },
-        {
-          "nombre": "Materiales educativos individuales",
-          "descripcion": "BALON YOGA PILATES GYM GIMNASIA(terminos tecnicos de referencia adjuntos)",
-          "cantidad": 6,
-          "unidad": "EA",
-          "categoria": "60101703"
-        },
-        {
-          "nombre": "Materiales educativos individuales",
-          "descripcion": "MAMA SIMULADORA PARA EDUCACION(terminos tecnicos de referencia adjuntos)",
-          "cantidad": 4,
-          "unidad": "EA",
-          "categoria": "60101703"
-        }
-      ],
-      "adjuntos": [
-        {
-          "id": "EC739921-25C3-4A17-A2BB-3C2B8B79ACDF",
-          "nombre": "TTR Sala Estimulacion.docx",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1665-155-COT26/TTR%20Sala%20Estimulacion.docx",
-          "tipo": "docx"
-        }
-      ],
-      "descripcion": "Material Sala Estimulación ",
-      "direccion_entrega": "Ignacio Carrera Pinto 153",
-      "plazo_entrega_dias": 5,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1665-155-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1665-155-COT26",
-      "triage": "Material Sala Estimulación",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 72,
-      "ia": {
-        "v": true,
-        "s": 50,
-        "r": "Modelos anatómicos, fantomas y material didáctico imprimible en resina/FDM",
-        "t": 1791360782798,
-        "pv": 3
-      },
-      "recuperado_corrida_anterior": true
     },
     {
       "codigo": "188-92-LE26",
@@ -756,10 +601,10 @@
       "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3882-89-LE26",
       "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=3882-89-LE26",
       "prefiltro": {
-        "pasa": true,
-        "razon": ""
+        "pasa": false,
+        "razon": "cierre a menos de 24h"
       },
-      "score_heuristico": 14,
+      "score_heuristico": 4,
       "ia": {
         "v": true,
         "s": 50,
@@ -907,66 +752,44 @@
       "recuperado_corrida_anterior": true
     },
     {
-      "codigo": "2914-312-COT26",
+      "codigo": "3765-267-COT26",
       "tipo": "compra_agil",
-      "nombre": "MODELOS ANATOMICOS PROG. MAIS, SM-254 REG INT 4",
+      "nombre": "MATERIALES DE ESTIMULACION COGNITIVOS -PROGRAMA DEMENCIA",
       "estado": "publicada",
       "estado_glosa": "Publicada",
-      "organismo": "ILUSTRE MUNICIPALIDAD DE DIEGO DE ALMAGRO",
-      "rut_organismo": "69.250.500-k",
-      "unidad_compra": "Salud",
+      "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE C",
+      "rut_organismo": null,
+      "unidad_compra": "Hospital Doctor  Leopoldo Ortega Rodríguez",
       "region": null,
       "region_nombre": null,
-      "monto_clp": 187112,
+      "monto_clp": 950000,
       "moneda": "CLP",
-      "fecha_publicacion": "2026-10-08 17:01",
-      "fecha_cierre": "2026-10-12 10:00",
+      "fecha_publicacion": "2026-10-05 11:04",
+      "fecha_cierre": "2026-10-14 10:00",
       "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [
-        "anatómico"
-      ],
-      "total_ofertas": 2,
-      "productos": [
-        {
-          "nombre": "Modelos humanos anatómicos para formación y estudios de medicina",
-          "descripcion": "MODELO ANATOMICO UTERO SANO. MEDIDAS APROXIMADAS 23 X 17 X 5,5 CM",
-          "cantidad": 2,
-          "unidad": "EA",
-          "categoria": "42301501"
-        },
-        {
-          "nombre": "Modelos humanos anatómicos para formación y estudios de medicina",
-          "descripcion": "MODELO ANATOMICO UTERO ENFERMO. MEDIDAS APROXIMADAS 23 X 17 X 7 CM",
-          "cantidad": 2,
-          "unidad": "EA",
-          "categoria": "42301501"
-        },
-        {
-          "nombre": "Modelos humanos anatómicos para formación y estudios de medicina",
-          "descripcion": "MODELO ANATOMICO KIT EDUCATIVO MÁS CLITORIS DESMONTABLE. MEDIDAS APROXIMADAS 10 X 13 X 3 CM",
-          "cantidad": 2,
-          "unidad": "EA",
-          "categoria": "42301501"
-        }
-      ],
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [],
       "adjuntos": [],
-      "descripcion": "ADJUNTAR IMÁGENES Y CARACTERÍSTICAS TÉCNICAS DE INSUMO OFERTADO, ESTAS SERÁN EVALUADAS. \nDE NO ENTREGAR U OMITIR INFORMACIÓN, SE PROCEDERÁ A DESESTIMAR OFERTA. SE EVALUARÁ COMPORTAMIENTO CONTRACTUAL ANTERIOR. \nOFERTAS QUE OMITAN UNO O MÁS PRODUCTOS SERÁN DECLARADAS INADMISIBLES. OFERTA QUE EXCEDA MONTO TOTAL DISPONIBLE SERÁ DECLARADA INADMISIBLE.\n",
-      "direccion_entrega": "COBRESAL 2428 CES EL SALVADOR",
-      "plazo_entrega_dias": 7,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=2914-312-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=2914-312-COT26",
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=3765-267-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=3765-267-COT26",
+      "triage": "MATERIALES DE ESTIMULACION COGNITIVOS",
       "prefiltro": {
-        "pasa": false,
-        "razon": "cierre a menos de 24h"
+        "pasa": true,
+        "razon": ""
       },
-      "score_heuristico": 58,
+      "score_heuristico": 57,
       "ia": {
         "v": true,
         "s": 45,
-        "r": "Modelos anatómicos de útero y clítoris, producto típico de la empresa",
-        "t": 1791622449680,
+        "r": "Juegos didácticos terapéuticos plástico 3D",
+        "t": 1791275826679,
         "pv": 3
-      }
+      },
+      "recuperado_corrida_anterior": true
     },
     {
       "codigo": "1242016-25-COT26",
@@ -1018,10 +841,10 @@
       "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1242016-25-COT26",
       "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1242016-25-COT26",
       "prefiltro": {
-        "pasa": true,
-        "razon": ""
+        "pasa": false,
+        "razon": "cierre a menos de 24h"
       },
-      "score_heuristico": 57,
+      "score_heuristico": 47,
       "ia": {
         "v": true,
         "s": 45,
@@ -1029,246 +852,6 @@
         "t": 1791360742168,
         "pv": 3
       }
-    },
-    {
-      "codigo": "3765-267-COT26",
-      "tipo": "compra_agil",
-      "nombre": "MATERIALES DE ESTIMULACION COGNITIVOS -PROGRAMA DEMENCIA",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "SERVICIO NACIONAL DE SALUD HOSPITAL DE C",
-      "rut_organismo": null,
-      "unidad_compra": "Hospital Doctor  Leopoldo Ortega Rodríguez",
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": 950000,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-10-05 11:04",
-      "fecha_cierre": "2026-10-14 10:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [],
-      "total_ofertas": null,
-      "productos": [],
-      "adjuntos": [],
-      "descripcion": null,
-      "direccion_entrega": null,
-      "plazo_entrega_dias": null,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=3765-267-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=3765-267-COT26",
-      "triage": "MATERIALES DE ESTIMULACION COGNITIVOS",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 57,
-      "ia": {
-        "v": true,
-        "s": 45,
-        "r": "Juegos didácticos terapéuticos plástico 3D",
-        "t": 1791275826679,
-        "pv": 3
-      },
-      "recuperado_corrida_anterior": true
-    },
-    {
-      "codigo": "5060-986-COT26",
-      "tipo": "compra_agil",
-      "nombre": "S601-SEP. ADQ. DE MATERIALES DE ENSEÑANZA PARA INSTITUTO SUPERIOR DE COMERCIO TIBURCIO SAAVEDRA ORD N°601 CON FONDOS SEP.",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "I MUNICIPALIDAD DE TEMUCO",
-      "rut_organismo": "69.190.700-7",
-      "unidad_compra": "Municipalidad de Temuco-Educación",
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": 3882000,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-10-08 10:12",
-      "fecha_cierre": "2026-10-14 11:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [],
-      "total_ofertas": 3,
-      "productos": [
-        {
-          "nombre": "Cartulina",
-          "descripcion": "\nS601-SEP. ADQ. DE MATERIALES DE ENSEÑANZA PARA INSTITUTO SUPERIOR DE COMERCIO TIBURCIO SAAVEDRA ORD N°601 CON FONDOS SEP.",
-          "cantidad": 1,
-          "unidad": "GL",
-          "categoria": "14121503"
-        }
-      ],
-      "adjuntos": [
-        {
-          "id": "DD290DA6-7F78-4B9A-AE2A-04CDB9AA02C2",
-          "nombre": "ET_ADQUISICION_DE_MATERIAL_PEDAGOGICOS_INSUCO.pdf",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/5060-986-COT26/ET_ADQUISICION_DE_MATERIAL_PEDAGOGICOS_INSUCO.pdf",
-          "tipo": "pdf"
-        }
-      ],
-      "descripcion": "S601-SEP. ADQ. DE MATERIALES DE ENSEÑANZA PARA INSTITUTO SUPERIOR DE COMERCIO TIBURCIO SAAVEDRA ORD N°601 CON FONDOS SEP. ",
-      "direccion_entrega": "Vicuña mackenna s/n entre calle bilbao y las acacias ",
-      "plazo_entrega_dias": 10,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=5060-986-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=5060-986-COT26",
-      "triage": "MATERIALES DE ENSEÑANZA",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 65,
-      "sin_evaluar": true
-    },
-    {
-      "codigo": "889473-2126-COT26",
-      "tipo": "compra_agil",
-      "nombre": "SC 9080 - Artículos de difusión institucional",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "UNIVERSIDAD DE O'HIGGINS",
-      "rut_organismo": "61.980.530-5",
-      "unidad_compra": "UNIVERSIDAD DE O'HIGGINS",
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": 340000,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-10-08 09:43",
-      "fecha_cierre": "2026-10-13 09:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [],
-      "total_ofertas": 0,
-      "productos": [
-        {
-          "nombre": "Impresión promocional o publicitaria",
-          "descripcion": "Adquisición de 300 credenciales rectangulares de 9×11 cm, en cartulina laminada mate por ambas caras, equivalente a couché 400 g, con perforación ovalada de 1,3×0,3 cm y lanyard liso con broche plástico. Cara frontal común y reverso según categoría: 145 asistentes con lanyard negro, 100 presentadores/as naranjo, 25 comisión evaluadora celeste y 30 organizadores/as verde claro. Se priorizará plazo de entrega. Detalle en adjunto. Adjuntar cotización detallada.",
-          "cantidad": 1,
-          "unidad": "EA",
-          "categoria": "82121505"
-        }
-      ],
-      "adjuntos": [
-        {
-          "id": "6E166060-F5B9-4454-B3B9-0D3E58DC4010",
-          "nombre": "1790167538734_Compra Ã_gil_CREDENCIALES-lanyard 4TA JORNADA.pdf",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/889473-2126-COT26/1790167538734_Compra%20%C3%83_gil_CREDENCIALES-lanyard%204TA%20JORNADA.pdf",
-          "tipo": "pdf"
-        },
-        {
-          "id": "C93D0ECA-8C03-4E85-BA7F-3853907C221D",
-          "nombre": "INDIVIDUALIZACIÓN OFERENTE COMPRA ÁGIL.docx",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/889473-2126-COT26/INDIVIDUALIZACI%C3%93N%20OFERENTE%20COMPRA%20%C3%81GIL.docx",
-          "tipo": "docx"
-        }
-      ],
-      "descripcion": "Adquisición de 300 credenciales rectangulares de 9×11 cm, en cartulina laminada mate por ambas caras, equivalente a couché 400 g, con perforación ovalada de 1,3×0,3 cm y lanyard liso con broche plástico. Cara frontal común y reverso según categoría: 145 asistentes con lanyard negro, 100 presentadores/as naranjo, 25 comisión evaluadora celeste y 30 organizadores/as verde claro.",
-      "direccion_entrega": "Alameda 611",
-      "plazo_entrega_dias": 2,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=889473-2126-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=889473-2126-COT26",
-      "triage": "Artículos de difusión institucional",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 62,
-      "sin_evaluar": true
-    },
-    {
-      "codigo": "906816-18-LE26",
-      "tipo": "licitacion",
-      "nombre": "ADQUISICIÓN JUGUETES NAVIDEÑOS PARA LA COMUNIDAD I",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": null,
-      "rut_organismo": null,
-      "unidad_compra": null,
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": null,
-      "moneda": "CLP",
-      "fecha_publicacion": null,
-      "fecha_cierre": "2026-10-19 15:00:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [
-        "juguete"
-      ],
-      "total_ofertas": null,
-      "productos": [],
-      "adjuntos": [],
-      "descripcion": null,
-      "direccion_entrega": null,
-      "plazo_entrega_dias": null,
-      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=906816-18-LE26",
-      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=906816-18-LE26",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 24,
-      "sin_evaluar": true
-    },
-    {
-      "codigo": "938-37-LE26",
-      "tipo": "licitacion",
-      "nombre": "Adquisición mediante importación directa repuestos para ser usados en la Red Radiométrica Nacional de la Dirección Meteorológica de Chile",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": null,
-      "rut_organismo": null,
-      "unidad_compra": null,
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": null,
-      "moneda": "CLP",
-      "fecha_publicacion": null,
-      "fecha_cierre": "2026-10-20 15:00:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [],
-      "total_ofertas": null,
-      "productos": [],
-      "adjuntos": [],
-      "descripcion": null,
-      "direccion_entrega": null,
-      "plazo_entrega_dias": null,
-      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=938-37-LE26",
-      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=938-37-LE26",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 24,
-      "sin_evaluar": true
-    },
-    {
-      "codigo": "979-60-LE26",
-      "tipo": "licitacion",
-      "nombre": "Adquisición de repuestos recuerrentes para la Unidad de Sondaje del Departameto de Puentes de la Dirección de Vialidad",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": null,
-      "rut_organismo": null,
-      "unidad_compra": null,
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": null,
-      "moneda": "CLP",
-      "fecha_publicacion": null,
-      "fecha_cierre": "2026-10-19 15:01:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [],
-      "total_ofertas": null,
-      "productos": [],
-      "adjuntos": [],
-      "descripcion": null,
-      "direccion_entrega": null,
-      "plazo_entrega_dias": null,
-      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=979-60-LE26",
-      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=979-60-LE26",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 24,
-      "sin_evaluar": true
     },
     {
       "codigo": "980313-39-LE26",
@@ -1497,134 +1080,6 @@
       "sin_evaluar": true
     },
     {
-      "codigo": "1480972-33-LE26",
-      "tipo": "licitacion",
-      "nombre": "SMART TVS Y SOPORTES PARA DIVERSOS EE",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": null,
-      "rut_organismo": null,
-      "unidad_compra": null,
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": null,
-      "moneda": "CLP",
-      "fecha_publicacion": null,
-      "fecha_cierre": "2026-10-13 17:29:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [],
-      "total_ofertas": null,
-      "productos": [],
-      "adjuntos": [],
-      "descripcion": null,
-      "direccion_entrega": null,
-      "plazo_entrega_dias": null,
-      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1480972-33-LE26",
-      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=1480972-33-LE26",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 14,
-      "sin_evaluar": true
-    },
-    {
-      "codigo": "1532-70-LE26",
-      "tipo": "licitacion",
-      "nombre": "RESINAS PARA IMPRESIONES ODONTOLOGICAS",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": null,
-      "rut_organismo": null,
-      "unidad_compra": null,
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": null,
-      "moneda": "CLP",
-      "fecha_publicacion": null,
-      "fecha_cierre": "2026-10-22 15:00:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [],
-      "total_ofertas": null,
-      "productos": [],
-      "adjuntos": [],
-      "descripcion": null,
-      "direccion_entrega": null,
-      "plazo_entrega_dias": null,
-      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1532-70-LE26",
-      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=1532-70-LE26",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 14,
-      "sin_evaluar": true
-    },
-    {
-      "codigo": "2282-116-LE26",
-      "tipo": "licitacion",
-      "nombre": "PP 95-2026 ADQUISICIÓN DE DECORACIÓN E INSUMOS DE",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": null,
-      "rut_organismo": null,
-      "unidad_compra": null,
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": null,
-      "moneda": "CLP",
-      "fecha_publicacion": null,
-      "fecha_cierre": "2026-10-22 10:30:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [],
-      "total_ofertas": null,
-      "productos": [],
-      "adjuntos": [],
-      "descripcion": null,
-      "direccion_entrega": null,
-      "plazo_entrega_dias": null,
-      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2282-116-LE26",
-      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=2282-116-LE26",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 14,
-      "sin_evaluar": true
-    },
-    {
-      "codigo": "2297-31-LE26",
-      "tipo": "licitacion",
-      "nombre": "REPUESTOS DIFERENTES MOVILES MUNICIPALES",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": null,
-      "rut_organismo": null,
-      "unidad_compra": null,
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": null,
-      "moneda": "CLP",
-      "fecha_publicacion": null,
-      "fecha_cierre": "2026-10-13 16:30:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [],
-      "total_ofertas": null,
-      "productos": [],
-      "adjuntos": [],
-      "descripcion": null,
-      "direccion_entrega": null,
-      "plazo_entrega_dias": null,
-      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2297-31-LE26",
-      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=2297-31-LE26",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 14,
-      "sin_evaluar": true
-    },
-    {
       "codigo": "2354-35-LP26",
       "tipo": "licitacion",
       "nombre": "ADQUISICIÓN DE JUGUETES – PROGRAMA NAVIDAD 2026",
@@ -1693,40 +1148,6 @@
       "sin_evaluar": true
     },
     {
-      "codigo": "2446-292-LP26",
-      "tipo": "licitacion",
-      "nombre": "ADQUISICIÓN DE JUGUETES DE NAVIDAD",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": null,
-      "rut_organismo": null,
-      "unidad_compra": null,
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": null,
-      "moneda": "CLP",
-      "fecha_publicacion": null,
-      "fecha_cierre": "2026-10-22 15:00:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [
-        "juguete"
-      ],
-      "total_ofertas": null,
-      "productos": [],
-      "adjuntos": [],
-      "descripcion": null,
-      "direccion_entrega": null,
-      "plazo_entrega_dias": null,
-      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2446-292-LP26",
-      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=2446-292-LP26",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 14,
-      "sin_evaluar": true
-    },
-    {
       "codigo": "2667-109-LP26",
       "tipo": "licitacion",
       "nombre": "SERVICIO DE DISEÑO MONTAJE Y DESMONTAJE DE DECORACIÓN COMUNAL Y ÁRBOLES NAVIDEÑOS PARA LA COMUNA DE VITACURA",
@@ -1751,70 +1172,6 @@
       "plazo_entrega_dias": null,
       "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2667-109-LP26",
       "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=2667-109-LP26",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 14,
-      "sin_evaluar": true
-    },
-    {
-      "codigo": "2793-71-LP26",
-      "tipo": "licitacion",
-      "nombre": "AMPLIACIÓN SISTEMA DE PÓRTICOS LECTORES DE PLACAS PATENTES COMUNA DE HUECHURABA",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": null,
-      "rut_organismo": null,
-      "unidad_compra": null,
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": null,
-      "moneda": "CLP",
-      "fecha_publicacion": null,
-      "fecha_cierre": "2026-10-22 11:00:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [],
-      "total_ofertas": null,
-      "productos": [],
-      "adjuntos": [],
-      "descripcion": null,
-      "direccion_entrega": null,
-      "plazo_entrega_dias": null,
-      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2793-71-LP26",
-      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=2793-71-LP26",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 14,
-      "sin_evaluar": true
-    },
-    {
-      "codigo": "3086-71-LE26",
-      "tipo": "licitacion",
-      "nombre": "BATOLAVE - ADQUISICION DE REPUESTOS",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": null,
-      "rut_organismo": null,
-      "unidad_compra": null,
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": null,
-      "moneda": "CLP",
-      "fecha_publicacion": null,
-      "fecha_cierre": "2026-10-22 15:00:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [],
-      "total_ofertas": null,
-      "productos": [],
-      "adjuntos": [],
-      "descripcion": null,
-      "direccion_entrega": null,
-      "plazo_entrega_dias": null,
-      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3086-71-LE26",
-      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=3086-71-LE26",
       "prefiltro": {
         "pasa": true,
         "razon": ""
@@ -1957,70 +1314,6 @@
       "sin_evaluar": true
     },
     {
-      "codigo": "707415-38-LE26",
-      "tipo": "licitacion",
-      "nombre": "Adquisicion dispensadores region antofagasta",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": null,
-      "rut_organismo": null,
-      "unidad_compra": null,
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": null,
-      "moneda": "CLP",
-      "fecha_publicacion": null,
-      "fecha_cierre": "2026-10-22 15:00:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [],
-      "total_ofertas": null,
-      "productos": [],
-      "adjuntos": [],
-      "descripcion": null,
-      "direccion_entrega": null,
-      "plazo_entrega_dias": null,
-      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=707415-38-LE26",
-      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=707415-38-LE26",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 14,
-      "sin_evaluar": true
-    },
-    {
-      "codigo": "729-186-LE26",
-      "tipo": "licitacion",
-      "nombre": "REPUESTOS VARIOS   2-20151   19730    20163   20151  20164   20165  19804 20172  20212   MVV",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": null,
-      "rut_organismo": null,
-      "unidad_compra": null,
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": null,
-      "moneda": "CLP",
-      "fecha_publicacion": null,
-      "fecha_cierre": "2026-10-13 18:39:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [],
-      "total_ofertas": null,
-      "productos": [],
-      "adjuntos": [],
-      "descripcion": null,
-      "direccion_entrega": null,
-      "plazo_entrega_dias": null,
-      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=729-186-LE26",
-      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=729-186-LE26",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 14,
-      "sin_evaluar": true
-    },
-    {
       "codigo": "812030-22-LP26",
       "tipo": "licitacion",
       "nombre": "CAJA PLACA DISTAL EXTRA ARTICULAR TMT HOMBRO CODO",
@@ -2045,38 +1338,6 @@
       "plazo_entrega_dias": null,
       "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=812030-22-LP26",
       "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=812030-22-LP26",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 14,
-      "sin_evaluar": true
-    },
-    {
-      "codigo": "990973-6-LE26",
-      "tipo": "licitacion",
-      "nombre": "ADQUISICION DE REPUESTOS PARA LOS BAÑOS DEL OPV 84",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": null,
-      "rut_organismo": null,
-      "unidad_compra": null,
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": null,
-      "moneda": "CLP",
-      "fecha_publicacion": null,
-      "fecha_cierre": "2026-10-13 15:05:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [],
-      "total_ofertas": null,
-      "productos": [],
-      "adjuntos": [],
-      "descripcion": null,
-      "direccion_entrega": null,
-      "plazo_entrega_dias": null,
-      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=990973-6-LE26",
-      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=990973-6-LE26",
       "prefiltro": {
         "pasa": true,
         "razon": ""
@@ -2207,40 +1468,6 @@
       "plazo_entrega_dias": null,
       "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1057509-340-LE26",
       "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=1057509-340-LE26",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 0,
-      "sin_evaluar": true
-    },
-    {
-      "codigo": "1057539-151-LP26",
-      "tipo": "licitacion",
-      "nombre": "ARRIENDO DE SIMULADORES Y ANALIZADORES BIOMÉDICOS SOLIC 2026-401.",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": null,
-      "rut_organismo": null,
-      "unidad_compra": null,
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": null,
-      "moneda": "CLP",
-      "fecha_publicacion": null,
-      "fecha_cierre": "2026-10-13 15:01:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [
-        "simulador"
-      ],
-      "total_ofertas": null,
-      "productos": [],
-      "adjuntos": [],
-      "descripcion": null,
-      "direccion_entrega": null,
-      "plazo_entrega_dias": null,
-      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1057539-151-LP26",
-      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=1057539-151-LP26",
       "prefiltro": {
         "pasa": true,
         "razon": ""
@@ -2409,38 +1636,6 @@
       "sin_evaluar": true
     },
     {
-      "codigo": "1540-108-LE26",
-      "tipo": "licitacion",
-      "nombre": "MANTENIMIENTO SOPORTE PLC BECKHOFF",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": null,
-      "rut_organismo": null,
-      "unidad_compra": null,
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": null,
-      "moneda": "CLP",
-      "fecha_publicacion": null,
-      "fecha_cierre": "2026-10-13 15:30:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [],
-      "total_ofertas": null,
-      "productos": [],
-      "adjuntos": [],
-      "descripcion": null,
-      "direccion_entrega": null,
-      "plazo_entrega_dias": null,
-      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1540-108-LE26",
-      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=1540-108-LE26",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 0,
-      "sin_evaluar": true
-    },
-    {
       "codigo": "1540-111-LE26",
       "tipo": "licitacion",
       "nombre": "REPUESTOS PARA MANTENIMIENTO MOBILIARIO CLINICO",
@@ -2465,38 +1660,6 @@
       "plazo_entrega_dias": null,
       "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1540-111-LE26",
       "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=1540-111-LE26",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 0,
-      "sin_evaluar": true
-    },
-    {
-      "codigo": "2332-120-L126",
-      "tipo": "licitacion",
-      "nombre": "MALLA MOSQUITERA E INSTALACIÓN DE ACRÍLICOS PARA SEGREGACIÓN ÁREA SUCIA “SAPU Y CESFAM PADRE HURTADO” Y “CECOSF PUERTA SUR” DEL DEPARTAMENTO DE SALUD DE PUERTO MONTT",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": null,
-      "rut_organismo": null,
-      "unidad_compra": null,
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": null,
-      "moneda": "CLP",
-      "fecha_publicacion": null,
-      "fecha_cierre": "2026-10-13 15:00:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [],
-      "total_ofertas": null,
-      "productos": [],
-      "adjuntos": [],
-      "descripcion": null,
-      "direccion_entrega": null,
-      "plazo_entrega_dias": null,
-      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2332-120-L126",
-      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=2332-120-L126",
       "prefiltro": {
         "pasa": true,
         "razon": ""
@@ -2859,38 +2022,6 @@
       "sin_evaluar": true
     },
     {
-      "codigo": "407-148-LE26",
-      "tipo": "licitacion",
-      "nombre": "SERVICIO DE MANTENIMIENTO PREVENTIVO Y REPARATIVO VENTILADORES MECÁNICOS IMTMEDICAL BELLAVISTA CON REPUESTOS",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": null,
-      "rut_organismo": null,
-      "unidad_compra": null,
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": null,
-      "moneda": "CLP",
-      "fecha_publicacion": null,
-      "fecha_cierre": "2026-10-13 15:30:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [],
-      "total_ofertas": null,
-      "productos": [],
-      "adjuntos": [],
-      "descripcion": null,
-      "direccion_entrega": null,
-      "plazo_entrega_dias": null,
-      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=407-148-LE26",
-      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=407-148-LE26",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 0,
-      "sin_evaluar": true
-    },
-    {
       "codigo": "407-154-LP26",
       "tipo": "licitacion",
       "nombre": "SERVICIO DE MANTENIMIENTO PREVENTIVO Y REPARATIVO VENTILADORES MECÁNICOS PURITAN BENNETT PB840 Y PB980 CON REPUESTOS FULL",
@@ -3019,9 +2150,9 @@
       "sin_evaluar": true
     },
     {
-      "codigo": "5061-32-L126",
+      "codigo": "539778-8-LE26",
       "tipo": "licitacion",
-      "nombre": "SCHC 140 SUMINISTRO E INSTALACIÓN DE GABINETES DE RED HÚMEDA CONTRA INCENDIOS PARA ESTABLECIMIENTOS DE SALUD, SEGÚN ESPECIFICACIONES TÉCNICAS ADJUNTAS",
+      "nombre": "ADQUISICIÓN DE REPUESTOS PARA MOTORES FUERA DE BORDA",
       "estado": "publicada",
       "estado_glosa": "Publicada",
       "organismo": null,
@@ -3032,7 +2163,7 @@
       "monto_clp": null,
       "moneda": "CLP",
       "fecha_publicacion": null,
-      "fecha_cierre": "2026-10-13 15:00:00",
+      "fecha_cierre": "2026-10-15 10:00:00",
       "fecha_ultimo_cambio": null,
       "palabras_clave_match": [],
       "total_ofertas": null,
@@ -3041,8 +2172,200 @@
       "descripcion": null,
       "direccion_entrega": null,
       "plazo_entrega_dias": null,
-      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5061-32-L126",
-      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=5061-32-L126",
+      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=539778-8-LE26",
+      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=539778-8-LE26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 0,
+      "sin_evaluar": true
+    },
+    {
+      "codigo": "5482-94-LP26",
+      "tipo": "licitacion",
+      "nombre": "SERVICIO DE ARRIENDO MANTENCIÓN Y SOPORTE DE PLATAFORMA DOM",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": null,
+      "rut_organismo": null,
+      "unidad_compra": null,
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": null,
+      "moneda": "CLP",
+      "fecha_publicacion": null,
+      "fecha_cierre": "2026-10-20 18:36:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5482-94-LP26",
+      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=5482-94-LP26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 0,
+      "sin_evaluar": true
+    },
+    {
+      "codigo": "608-179-LR26",
+      "tipo": "licitacion",
+      "nombre": "SERVICIO DE IMPRESIÓN ESCÁNER Y SOPORTE TÉCNICO",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": null,
+      "rut_organismo": null,
+      "unidad_compra": null,
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": null,
+      "moneda": "CLP",
+      "fecha_publicacion": null,
+      "fecha_cierre": "2026-10-27 16:29:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=608-179-LR26",
+      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=608-179-LR26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 0,
+      "sin_evaluar": true
+    },
+    {
+      "codigo": "730377-2-L126",
+      "tipo": "licitacion",
+      "nombre": "Servicio de arriendo de dispensadores de agua purificada para 2°Juzgado de Familia de San Miguel",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": null,
+      "rut_organismo": null,
+      "unidad_compra": null,
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": null,
+      "moneda": "CLP",
+      "fecha_publicacion": null,
+      "fecha_cierre": "2026-10-21 16:00:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=730377-2-L126",
+      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=730377-2-L126",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 0,
+      "sin_evaluar": true
+    },
+    {
+      "codigo": "734-59-LE26",
+      "tipo": "licitacion",
+      "nombre": "SOPORTE TECNICO ESPECIALISTA EN REDES",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": null,
+      "rut_organismo": null,
+      "unidad_compra": null,
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": null,
+      "moneda": "CLP",
+      "fecha_publicacion": null,
+      "fecha_cierre": "2026-10-19 15:00:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=734-59-LE26",
+      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=734-59-LE26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 0,
+      "sin_evaluar": true
+    },
+    {
+      "codigo": "752-38-LE26",
+      "tipo": "licitacion",
+      "nombre": "Mantenimiento Evolutivo y Soporte Sistema Fondo Comunidad y FNDR",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": null,
+      "rut_organismo": null,
+      "unidad_compra": null,
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": null,
+      "moneda": "CLP",
+      "fecha_publicacion": null,
+      "fecha_cierre": "2026-10-16 15:30:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=752-38-LE26",
+      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=752-38-LE26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 0,
+      "sin_evaluar": true
+    },
+    {
+      "codigo": "938-36-LE26",
+      "tipo": "licitacion",
+      "nombre": "ADQUISICIÓN REPUESTOS AERONAVE PIPER DAKOTA",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": null,
+      "rut_organismo": null,
+      "unidad_compra": null,
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": null,
+      "moneda": "CLP",
+      "fecha_publicacion": null,
+      "fecha_cierre": "2026-10-14 10:00:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=938-36-LE26",
+      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=938-36-LE26",
       "prefiltro": {
         "pasa": true,
         "razon": ""
