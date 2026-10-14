@@ -1,6 +1,6 @@
 {
-  "generado": "2026-10-13T07:21:23Z",
-  "total": 59,
+  "generado": "2026-10-14T07:46:36Z",
+  "total": 62,
   "palabras_clave": [
     "anatómico",
     "fantoma",
@@ -43,324 +43,186 @@
     "max_detalle": 300,
     "max_eval_ia": 200
   },
-  "recolectados_total": 232,
+  "recolectados_total": 4892,
   "descartados": {
     "cerradas": 1,
-    "blacklist": 489,
-    "sin_match": 4548,
-    "rescatados_triage": 1,
-    "rescatados_descripcion": 4
+    "blacklist": 931,
+    "sin_match": 8030,
+    "rescatados_triage": 36,
+    "rescatados_descripcion": 18
   },
-  "recuperados_feed_anterior": 2,
+  "recuperados_feed_anterior": 1,
   "triage_ia": {
-    "revisados": 38,
-    "nuevos": 31,
-    "rescatados": 1,
+    "revisados": 1518,
+    "nuevos": 1511,
+    "rescatados": 36,
     "errores": 0,
     "completo": true,
     "habilitado": true
   },
   "revision_descripcion": {
-    "pendientes": 0,
-    "revisadas": 25,
-    "coinciden": 4,
+    "pendientes": 1281,
+    "revisadas": 189,
+    "coinciden": 18,
     "errores": 5
   },
   "barrido": {
     "modo": "incremental",
-    "inicio_cl": "2026-10-13 03:35",
-    "desde": "2026-10-11 23:39",
-    "paginas": 8,
+    "inicio_cl": "2026-10-14 01:36",
+    "desde": "2026-10-13 00:35",
+    "paginas": 323,
     "motivo": "incremental",
-    "minutos": 1.0,
+    "minutos": 51.5,
     "cortado": false,
     "paginas_fallidas": []
   },
-  "sugerencias_keywords": [],
+  "sugerencias_keywords": [
+    {
+      "t": "contenedores miniatura",
+      "n": 1,
+      "ej": [
+        {
+          "c": "1208910-339-COT26",
+          "n": "24 contenedores miniatura para Proyecto Alternancias 2026 (CC2613)"
+        }
+      ]
+    },
+    {
+      "t": "corpóreo institucional",
+      "n": 1,
+      "ej": [
+        {
+          "c": "3829-96-COT26",
+          "n": "DISEÑO Y FABRICACIÓN DE CORPÓREO INSTITUCIONAL PARA EL DPTO DE SALUD COMUNA DE RÁNQUIL"
+        }
+      ]
+    }
+  ],
   "licitaciones": {
-    "activas": 5066,
+    "activas": 4575,
     "candidatas": 60,
-    "incluidas": 59,
+    "incluidas": 58,
     "habilitadas": true,
     "con_ticket": true
   },
   "historico_precios": {
-    "items": 8004,
+    "items": 8118,
     "dias_cubiertos": 365,
     "dias_pendientes": 0
   },
   "eval_ia": {
-    "evaluados_total": 5483,
-    "nuevos_esta_corrida": 13,
+    "evaluados_total": 5619,
+    "nuevos_esta_corrida": 173,
     "errores": 0,
     "server_side": true
   },
   "items": [
     {
-      "codigo": "2328-1224-COT26",
-      "tipo": "compra_agil",
-      "nombre": "ADQUISICIÓN MATERIAL DIDÁCTICO MATEMÁTICA 1° Y 2° CICLO - ESCUELA ESPAÑA / FICHA 24485",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "I MUNICIPALIDAD DE PUERTO MONTT",
-      "rut_organismo": "69.220.100-0",
-      "unidad_compra": "Unidad de Adquisiciones Dirección de Educación",
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": 2295680,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-10-06 11:45",
-      "fecha_cierre": "2026-10-13 15:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [
-        "didáctico"
-      ],
-      "total_ofertas": 0,
-      "productos": [
-        {
-          "nombre": "Contadores o sets de actividades con contadores para las matemáticas básicas",
-          "descripcion": "Cantidad: 70 sets | Bloques Multibase Encajables Set de 136 piezas con manual de actividades guiadas (material concreto de plástico de alta resistencia, no tóxico y lavable, piezas encajables por cualquiera de sus caras para trabajo en sistema base 10, presentado en caja plástica transparente con tapa).",
-          "cantidad": 70,
-          "unidad": "KIT",
-          "categoria": "60102405"
-        },
-        {
-          "nombre": "Contadores o sets de actividades con contadores para las matemáticas básicas",
-          "descripcion": "Cantidad: 60 unidades | Mini Tablero Numérico 1-100 (incluye 1 placa de centena numerada del 1 al 100, 8 barras de decenas y 20 cubitos de unidad, fabricado en plástico rígido de alta resistencia no tóxico).   ",
-          "cantidad": 60,
-          "unidad": "EA",
-          "categoria": "60102405"
-        },
-        {
-          "nombre": "Contadores o sets de actividades con contadores para las matemáticas básicas",
-          "descripcion": "Cantidad: 60 unidades | Tabla de Valor Posicional UM / Gráficos Teduca (tablero borrable de doble cara en plástico laminado semirrígido lavable; Lado A: valor posicional hasta Unidades de Mil; Lado B: diagrama de barras vertical de 4 columnas, tabla de registro y cuadrícula numerada del 0 al 10).",
-          "cantidad": 60,
-          "unidad": "EA",
-          "categoria": "60102405"
-        },
-        {
-          "nombre": "Contadores o sets de actividades con contadores para las matemáticas básicas",
-          "descripcion": "Cantidad: 70 unidades | Tabla de Valor Posicional hasta 1 Millón Teduca (tablero borrable de doble cara en plástico laminado semirrígido lavable; Lado A: composición numérica desde Unidades hasta Unidad de Millón; Lado B: plantilla isométrica, cuadrícula de puntos/geoplano y redes de cuerpos geométricos).",
-          "cantidad": 70,
-          "unidad": "EA",
-          "categoria": "60102405"
-        },
-        {
-          "nombre": "Contadores o sets de actividades con contadores para las matemáticas básicas",
-          "descripcion": "Cantidad: 100 unidades | Tabla de Valor Posicional Decimales / Milésimos Teduca (tablero borrable de doble cara en plástico laminado semirrígido lavable; Lado A: separación de parte entera [Decenas y Unidades] y decimales [Décimas, Centésimas y Milésimas]; Lado B: cuadrícula de 10x10 de 100 cuadros para representación de centésimas y recuadro de registro).",
-          "cantidad": 100,
-          "unidad": "EA",
-          "categoria": "60102405"
-        }
-      ],
-      "adjuntos": [
-        {
-          "id": "B1797714-4E85-4ACF-994A-4A0E1626FE2F",
-          "nombre": "ANEXO N° 1 IDENTIFICACION COMPRA AGIL.docx",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/2328-1224-COT26/ANEXO%20N%C2%B0%201%20IDENTIFICACION%20COMPRA%20AGIL.docx",
-          "tipo": "docx"
-        }
-      ],
-      "descripcion": "SE INVITA A COTIZAR MATERIAL DIDÁCTICO PARA LA ASIGNATURA DE MATEMÁTICA DE 1° Y 2° CICLO PARA LA ESCUELA ESPAÑA, FICHA 24485. OBLIGATORIO ADJUNTAR ANEXO 1 DE IDENTIFICACIÓN Y ESPECIFICACIONES TÉCNICAS. LA ORDEN DE COMPRA DEBE SER ACEPTADA EN EL PORTAL MERCADO PÚBLICO DENTRO DE LOS 5 DÍAS CORRIDOS DESDE SU EMISIÓN O SERÁ CANCELADA. LUGAR DE DESPACHO OBLIGATORIO: EL TENIENTE 169 BODEGA 3, PARQUE INDUSTRIAL PUERTO MONTT,",
-      "direccion_entrega": "EL TENIENTE 169 BODEGA 3, PARQUE INDUSTRIAL",
-      "plazo_entrega_dias": 5,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=2328-1224-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=2328-1224-COT26",
-      "prefiltro": {
-        "pasa": false,
-        "razon": "cierre a menos de 24h"
-      },
-      "score_heuristico": 78,
-      "ia": {
-        "v": true,
-        "s": 60,
-        "r": "Bloques multibase plástico, tableros numéricos plástico didácticos",
-        "t": 1791360729459,
-        "pv": 3
-      }
-    },
-    {
-      "codigo": "1298356-3-LE26",
+      "codigo": "4451-114-LE26",
       "tipo": "licitacion",
-      "nombre": "SUM. DE MAT. DIDACTICOS PARA SALA CUNAS Y JARDINES",
+      "nombre": "ADQUISICION DE JUGUETES PARA NAVIDAD 2026",
       "estado": "publicada",
       "estado_glosa": "Publicada",
-      "organismo": null,
-      "rut_organismo": null,
-      "unidad_compra": null,
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": null,
+      "organismo": "I MUNICIPALIDAD DE SAN CLEMENTE",
+      "rut_organismo": "69.110.500-8",
+      "unidad_compra": "UNIDAD DE COMPRAS MUNICIPALES",
+      "region": 7,
+      "region_nombre": "Maule",
+      "monto_clp": 50000000,
       "moneda": "CLP",
       "fecha_publicacion": null,
-      "fecha_cierre": "2026-10-13 16:00:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [
-        "didáctico"
-      ],
-      "total_ofertas": null,
-      "productos": [],
-      "adjuntos": [],
-      "descripcion": null,
-      "direccion_entrega": null,
-      "plazo_entrega_dias": null,
-      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1298356-3-LE26",
-      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=1298356-3-LE26",
-      "prefiltro": {
-        "pasa": false,
-        "razon": "cierre a menos de 24h"
-      },
-      "score_heuristico": 24,
-      "ia": {
-        "v": true,
-        "s": 55,
-        "r": "Juguetes didácticos plástico múltiples líneas; cantidad y plazo adecuados",
-        "t": 1790925906405,
-        "pv": 3
-      }
-    },
-    {
-      "codigo": "2656-74-LE26",
-      "tipo": "licitacion",
-      "nombre": "ADQUISICIÓN DE JUGUETES NAVIDAD 2026",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": null,
-      "rut_organismo": null,
-      "unidad_compra": null,
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": null,
-      "moneda": "CLP",
-      "fecha_publicacion": null,
-      "fecha_cierre": "2026-10-13 19:54:00",
+      "fecha_cierre": "2026-10-23 15:00:00",
       "fecha_ultimo_cambio": null,
       "palabras_clave_match": [
         "juguete"
       ],
       "total_ofertas": null,
-      "productos": [],
+      "productos": [
+        {
+          "nombre": "Juguetes didácticos",
+          "descripcion": "1.2\tLas presentes bases administrativas de propuestas reglamentan la adquisición por parte del municipio, de Juguetes para Navidad 2026, la que será financiado por la I. municipalidad de San Clemente a través del presupuesto 2026.",
+          "cantidad": 1.0,
+          "unidad": "Unidad",
+          "categoria": "60141006"
+        }
+      ],
       "adjuntos": [],
-      "descripcion": null,
+      "descripcion": "Las presentes bases administrativas de propuestas reglamentan la adquisición por parte del municipio, de Juguetes para Navidad 2026, la que será financiado por la I. municipalidad de San Clemente a través del presupuesto 2026.\r\nLa contratación se efectuará mediante licitación pública, regida por lo dispuesto en las presentes bases, y lo estipulado en la ley de compras y contrataciones públicas.",
       "direccion_entrega": null,
       "plazo_entrega_dias": null,
-      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2656-74-LE26",
-      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=2656-74-LE26",
+      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4451-114-LE26",
+      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=4451-114-LE26",
       "prefiltro": {
-        "pasa": false,
-        "razon": "cierre a menos de 24h"
+        "pasa": true,
+        "razon": ""
       },
-      "score_heuristico": 4,
+      "score_heuristico": 53,
+      "tipo_licitacion": "LE",
       "ia": {
         "v": true,
         "s": 55,
-        "r": "Juguetes didácticos 3D, gran licitación navidad",
-        "t": 1791179954649,
+        "r": "Juguetes didácticos plástico 3D variable, alto volumen",
+        "t": 1791963984715,
         "pv": 3
       }
     },
     {
-      "codigo": "2658-341-L126",
-      "tipo": "licitacion",
-      "nombre": "RECONOCIMIENTOS DIA DEL FUNCIONARIO MUNICIPAL",
+      "codigo": "3829-96-COT26",
+      "tipo": "compra_agil",
+      "nombre": "DISEÑO Y FABRICACIÓN DE CORPÓREO INSTITUCIONAL PARA EL DPTO DE SALUD COMUNA DE RÁNQUIL",
       "estado": "publicada",
       "estado_glosa": "Publicada",
-      "organismo": null,
-      "rut_organismo": null,
-      "unidad_compra": null,
+      "organismo": "Ilustre Municipalidad de Ranquil",
+      "rut_organismo": "69.150.300-3",
+      "unidad_compra": "Departamento de Salud",
       "region": null,
       "region_nombre": null,
-      "monto_clp": null,
+      "monto_clp": 400000,
       "moneda": "CLP",
-      "fecha_publicacion": null,
-      "fecha_cierre": "2026-10-13 15:38:00",
+      "fecha_publicacion": "2026-10-13 12:53",
+      "fecha_cierre": "2026-10-15 15:00",
       "fecha_ultimo_cambio": null,
       "palabras_clave_match": [],
-      "total_ofertas": null,
-      "productos": [],
-      "adjuntos": [],
-      "descripcion": null,
-      "direccion_entrega": null,
-      "plazo_entrega_dias": null,
-      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2658-341-L126",
-      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=2658-341-L126",
-      "prefiltro": {
-        "pasa": false,
-        "razon": "cierre a menos de 24h"
-      },
-      "score_heuristico": 4,
-      "ia": {
-        "v": true,
-        "s": 55,
-        "r": "Galvanos trofeos reconocimiento: producto típico 3D post-procesado",
-        "t": 1791275838336,
-        "pv": 3
-      }
-    },
-    {
-      "codigo": "3710-128-COT26",
-      "tipo": "compra_agil",
-      "nombre": "material educativo de modelos anatómicos para cecosf Bajo Traiguén",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "I MUNICIPALIDAD DE VICTORIA",
-      "rut_organismo": "69.180.900-5",
-      "unidad_compra": "Salud",
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": 740000,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-10-09 14:53",
-      "fecha_cierre": "2026-10-13 12:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [
-        "anatómico"
-      ],
       "total_ofertas": 0,
       "productos": [
         {
-          "nombre": "Modelos anatómicos",
-          "descripcion": "DIFERENTES MODELOS ANATOMICOS SEGÚN DETALLE EN ANEXO TECNICO, OFERTAR LA TOTALIDAD Y ADJUNTAR DOCUMENTACION SOLICITADA.",
+          "nombre": "Materiales educativos de publicidad y marketing de marca",
+          "descripcion": "DISEÑAR Y FABRICAR CORPÓREO INSTITUCIONAL PARA UN CENTRO DE SALUD PRIMARIA,A ESCALA HUMANA,3D,MATERIAL RESISTENTE A LA LUZ SOLAR, HUMEDAD, LLUVIA, GOLPES, FULL COLOR, AD HOC AL ÁREA DE SALUD, PALETA DE COLORES INSTITUCIONALES DEL CESFAM DE ÑIPAS DEL DPTO DE SALUD COMUNA DE RÁNQUIL,DEBE TENER CAPA, ESTILO SÚPER HÉROE, DEBE CONTEMPLAR LOGOS INSTITUCIONALES, COLORES ATRACTIVOS PARA NIÑOS/AS, DISPONER DE ALGUNOS ACCESORIOS A ESCALA (JERINGA,ESTETOSCOPIO,CEPILLO DENTAL,SOMBRERO Y MANTA HUASA).",
           "cantidad": 1,
-          "unidad": "GL",
-          "categoria": "60121605"
+          "unidad": "EA",
+          "categoria": "60105409"
         }
       ],
       "adjuntos": [
         {
-          "id": "D28EBC26-B05B-4530-A734-F6367349A2B8",
-          "nombre": "ANEXO-SP-04-CECOSFBT-MATERIAL-EDUCATIVO.pdf",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/3710-128-COT26/ANEXO-SP-04-CECOSFBT-MATERIAL-EDUCATIVO.pdf",
-          "tipo": "pdf"
+          "id": "64FB3B2A-98B9-4C0D-887A-887CBB05BA33",
+          "nombre": "WhatsApp Image 2026-10-01 at 9.31.09 PM.jpeg",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/3829-96-COT26/WhatsApp%20Image%202026-10-01%20at%209.31.09%20PM.jpeg",
+          "tipo": "jpeg"
         },
         {
-          "id": "731540CA-9F04-41C5-BACA-DB1C21CB37BA",
-          "nombre": "SOLICITUD-DE-PEDIDO-DOC-DIGITAL-4-CBT-PREOBLIGADO (1).pdf",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/3710-128-COT26/SOLICITUD-DE-PEDIDO-DOC-DIGITAL-4-CBT-PREOBLIGADO%20%281%29.pdf",
-          "tipo": "pdf"
-        },
-        {
-          "id": "82ACD581-E456-4673-8EF5-E2C9C193A5CF",
-          "nombre": "FORMULARIOS EDITABLES SP 04 CBT DILDOS.docx",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/3710-128-COT26/FORMULARIOS%20EDITABLES%20SP%2004%20CBT%20DILDOS.docx",
-          "tipo": "docx"
+          "id": "0882F8ED-A6BD-4F9E-87DB-25926E63944B",
+          "nombre": "WhatsApp Image 2026-10-13 at 9.49.18 AM.jpeg",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/3829-96-COT26/WhatsApp%20Image%202026-10-13%20at%209.49.18%20AM.jpeg",
+          "tipo": "jpeg"
         }
       ],
-      "descripcion": "material educativo de modelos anatómicos para cecosf Bajo Traiguén SP04/CBT",
-      "direccion_entrega": "AVENIDA MUÑOZ VARGAS N°730",
-      "plazo_entrega_dias": 10,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=3710-128-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=3710-128-COT26",
+      "descripcion": "Diseñar y fabricar un Personaje tridimensional a escala humana para representar a la institución Cesfam de Ñipas del Dpto. de Salud Municipal de Ránquil. El que participará en eventos, bienvenidas y actividades institucionales para generar sentido de pertenencia, promover hábitos saludables, prevención de enfermedades, campañas de salud, dirigida a la comunidad, especialmente niños y adultos mayore.Se adjunta imágenes de referencia. El corpóreo debe contar con vestuario y algunos accesorios.",
+      "direccion_entrega": "PEDRO AGUIRRE CERDA 392 ÑIPAS RÁNQUIL REGIÓN DE ÑUBLE",
+      "plazo_entrega_dias": 20,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=3829-96-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=3829-96-COT26",
+      "triage": "CORPÓREO INSTITUCIONAL",
       "prefiltro": {
-        "pasa": false,
-        "razon": "cierre a menos de 24h"
+        "pasa": true,
+        "razon": ""
       },
-      "score_heuristico": 68,
+      "score_heuristico": 62,
       "ia": {
         "v": true,
         "s": 50,
-        "r": "Modelos anatómicos educativos, producto típico; verificar anexo técnico",
-        "t": 1791622433479,
+        "r": "Corpóreo humano impreso 3D en PETG/ABS por secciones; material resistente al sol a confirmar",
+        "t": 1791963970884,
         "pv": 3
       }
     },
@@ -407,15 +269,64 @@
       "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=5155-167-COT26",
       "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=5155-167-COT26",
       "prefiltro": {
-        "pasa": true,
-        "razon": ""
+        "pasa": false,
+        "razon": "cierre a menos de 24h"
       },
-      "score_heuristico": 64,
+      "score_heuristico": 54,
       "ia": {
         "v": true,
         "s": 50,
         "r": "Galvanos institucionales cristal 20 unidades personalizados con logo",
         "t": 1791275804767,
+        "pv": 3
+      }
+    },
+    {
+      "codigo": "701426-16-LE26",
+      "tipo": "licitacion",
+      "nombre": "ADQ. JUGUETES NAVIDAD COLLIPULLI 2026",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "I MUNICIPALIDAD DE COLLIPULLI",
+      "rut_organismo": "69.180.500-k",
+      "unidad_compra": "UNIDAD DIDECO",
+      "region": 9,
+      "region_nombre": "Araucanía",
+      "monto_clp": 13000000,
+      "moneda": "CLP",
+      "fecha_publicacion": null,
+      "fecha_cierre": "2026-10-23 15:00:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "juguete"
+      ],
+      "total_ofertas": null,
+      "productos": [
+        {
+          "nombre": "Juguetes didácticos",
+          "descripcion": "ADQUISICIÓN DE JUGUETES, NAVIDAD COLLIPULLI 2026, conforme a bases adjuntas en archivos anexos",
+          "cantidad": 1.0,
+          "unidad": "Global",
+          "categoria": "60141006"
+        }
+      ],
+      "adjuntos": [],
+      "descripcion": "1.\tQue, la entrega de juguetes para navidad se encuentra planificada y presupuestada en el Plan Operativo Anual POA 2026 del Programa Infancia y según PLADECO: EJE ESTRATEGICO 1: Desarrollo Social. LINEAMIENTO 2: Contribuir a la promoción y protección de los derechos e inclusión social, considerando estrategias y planes de acción, orientados al trabajo articulado con la institucionalidad público y privada. OBJETIVO ESTRATEGICO 4: Desarrollar estrategias pertinentes, eficientes, oportunas e igualitarias para la disminución de las condiciones de vulnerabilidad de ingresos y multidimensional de las personas, grupos y familias de los distintos territorios de la comuna.\r\n2.\tQue, en virtud de lo anterior, se hace necesario efectuar el llamado a licitación pública denominado: “ADQUISICIÓN DE JUGUETES PARA NAVIDAD, COLLIPULLI 2026”.",
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=701426-16-LE26",
+      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=701426-16-LE26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 53,
+      "tipo_licitacion": "LE",
+      "ia": {
+        "v": true,
+        "s": 50,
+        "r": "Juguetes didácticos imprimibles 3D, monto significativo",
+        "t": 1791963984715,
         "pv": 3
       }
     },
@@ -574,42 +485,111 @@
       }
     },
     {
-      "codigo": "3882-89-LE26",
-      "tipo": "licitacion",
-      "nombre": "“ADQUISICIÓN DE JUGUETES PARA  ACTIVIDAD COMUNITARIA NAVIDEÑA 2026 COMUNA DE LLAY LLAY”",
+      "codigo": "2762-627-COT26",
+      "tipo": "compra_agil",
+      "nombre": "ADQ. DE JUGUETES PARA SALA DE ESTIMULACIÓN CONVENIO CHILE CRECE CONTIGO",
       "estado": "publicada",
       "estado_glosa": "Publicada",
-      "organismo": null,
+      "organismo": "I MUNICIPALIDAD DE CORONEL DPTO ADMINIST",
       "rut_organismo": null,
-      "unidad_compra": null,
+      "unidad_compra": "DEPARTAMENTO ADMINISTRACION SALUD MUNICIPAL",
       "region": null,
       "region_nombre": null,
-      "monto_clp": null,
+      "monto_clp": 454750,
       "moneda": "CLP",
-      "fecha_publicacion": null,
-      "fecha_cierre": "2026-10-13 15:05:00",
+      "fecha_publicacion": "2026-10-06 12:49",
+      "fecha_cierre": "2026-10-15 12:04",
       "fecha_ultimo_cambio": null,
       "palabras_clave_match": [
         "juguete"
       ],
       "total_ofertas": null,
       "productos": [],
-      "adjuntos": [],
+      "adjuntos": [
+        {
+          "id": "B1727B94-D8A3-41BD-9AB3-8F29255F9EC6",
+          "nombre": "SOL. N° 147, CESFAM Yobilo.docx",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/2762-627-COT26/SOL.%20N%C2%B0%20147%2C%20CESFAM%20Yobilo.docx",
+          "tipo": "docx"
+        }
+      ],
       "descripcion": null,
       "direccion_entrega": null,
       "plazo_entrega_dias": null,
-      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3882-89-LE26",
-      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=3882-89-LE26",
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=2762-627-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=2762-627-COT26",
       "prefiltro": {
-        "pasa": false,
-        "razon": "cierre a menos de 24h"
+        "pasa": true,
+        "razon": ""
       },
-      "score_heuristico": 4,
+      "score_heuristico": 39,
       "ia": {
         "v": true,
         "s": 50,
-        "r": "Juguetes didácticos navideños 3D",
-        "t": 1791179954649,
+        "r": "Juguetes plástico TPU pelotas sensoriales; imprimible FDM/resina",
+        "t": 1791360755683,
+        "pv": 3
+      }
+    },
+    {
+      "codigo": "2914-312-COT26",
+      "tipo": "compra_agil",
+      "nombre": "MODELOS ANATOMICOS PROG. MAIS, SM-254 REG INT 4",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "ILUSTRE MUNICIPALIDAD DE DIEGO DE ALMAGRO",
+      "rut_organismo": "69.250.500-k",
+      "unidad_compra": "Salud",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 187112,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-10-08 17:01",
+      "fecha_cierre": "2026-10-17 04:25",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "anatómico"
+      ],
+      "total_ofertas": 3,
+      "productos": [
+        {
+          "nombre": "Modelos humanos anatómicos para formación y estudios de medicina",
+          "descripcion": "MODELO ANATOMICO UTERO SANO. MEDIDAS APROXIMADAS 23 X 17 X 5,5 CM",
+          "cantidad": 2,
+          "unidad": "EA",
+          "categoria": "42301501"
+        },
+        {
+          "nombre": "Modelos humanos anatómicos para formación y estudios de medicina",
+          "descripcion": "MODELO ANATOMICO UTERO ENFERMO. MEDIDAS APROXIMADAS 23 X 17 X 7 CM",
+          "cantidad": 2,
+          "unidad": "EA",
+          "categoria": "42301501"
+        },
+        {
+          "nombre": "Modelos humanos anatómicos para formación y estudios de medicina",
+          "descripcion": "MODELO ANATOMICO KIT EDUCATIVO MÁS CLITORIS DESMONTABLE. MEDIDAS APROXIMADAS 10 X 13 X 3 CM",
+          "cantidad": 2,
+          "unidad": "EA",
+          "categoria": "42301501"
+        }
+      ],
+      "adjuntos": [],
+      "descripcion": "ADJUNTAR IMÁGENES Y CARACTERÍSTICAS TÉCNICAS DE INSUMO OFERTADO, ESTAS SERÁN EVALUADAS. \nDE NO ENTREGAR U OMITIR INFORMACIÓN, SE PROCEDERÁ A DESESTIMAR OFERTA. SE EVALUARÁ COMPORTAMIENTO CONTRACTUAL ANTERIOR. \nOFERTAS QUE OMITAN UNO O MÁS PRODUCTOS SERÁN DECLARADAS INADMISIBLES. OFERTA QUE EXCEDA MONTO TOTAL DISPONIBLE SERÁ DECLARADA INADMISIBLE.\n",
+      "direccion_entrega": "COBRESAL 2428 CES EL SALVADOR",
+      "plazo_entrega_dias": 7,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=2914-312-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=2914-312-COT26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 71,
+      "ia": {
+        "v": true,
+        "s": 45,
+        "r": "Modelos anatómicos de útero y clítoris, producto típico de la empresa",
+        "t": 1791622449680,
         "pv": 3
       }
     },
@@ -666,7 +646,7 @@
         "pasa": true,
         "razon": ""
       },
-      "score_heuristico": 78,
+      "score_heuristico": 68,
       "ia": {
         "v": true,
         "s": 45,
@@ -674,82 +654,6 @@
         "t": 1790839692448,
         "pv": 3
       }
-    },
-    {
-      "codigo": "1461054-341-COT26",
-      "tipo": "compra_agil",
-      "nombre": "ADQUISICIÓN DE JUEGOS DE MESA, TOLDOS Y MATERIALES SENSORIALES PARA LICEO IGNACIO CARRERA PINTO LA SERENA/ ESCUELA DAGOBERTO CAMPOS VICUÑA / LICEO GABRIELA MISTRAL LA SERENA / COLEGIO CALETA SAN PEDRO",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "SERVICIO LOCAL DE EDUCACIÓN PÚBLICA DEL ELQUI",
-      "rut_organismo": "61.981.040-6",
-      "unidad_compra": "P02 Establecimientos Educacionales",
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": 2517846,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-10-06 14:02",
-      "fecha_cierre": "2026-10-13 12:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [],
-      "total_ofertas": 0,
-      "productos": [
-        {
-          "nombre": "Juegos educativos",
-          "descripcion": "Productos educativos para Liceo Ignacio Carrera Pinto RBD 578-Requerimiento n° 1534",
-          "cantidad": 1,
-          "unidad": "GL",
-          "categoria": "60141101"
-        },
-        {
-          "nombre": "Juegos educativos",
-          "descripcion": "Productos educativos para Escuela Dagoberto campo Nuñez RBD 682-Requerimiento n° 1660",
-          "cantidad": 1,
-          "unidad": "GL",
-          "categoria": "60141101"
-        },
-        {
-          "nombre": "Juegos educativos",
-          "descripcion": "Productos educativos para liceo Gabriela Mistral RBD 516-Requerimiento n° 1641",
-          "cantidad": 1,
-          "unidad": "GL",
-          "categoria": "60141101"
-        },
-        {
-          "nombre": "Juegos educativos",
-          "descripcion": "Productos educativos para Colegio Caleta san Pedro RBD 562-Requerimiento n° 1732",
-          "cantidad": 1,
-          "unidad": "GL",
-          "categoria": "60141101"
-        }
-      ],
-      "adjuntos": [
-        {
-          "id": "00FD16EC-9F50-47E5-BAE1-50963923AAC9",
-          "nombre": "TDR 5 REQ.pdf",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1461054-341-COT26/TDR%205%20REQ.pdf",
-          "tipo": "pdf"
-        }
-      ],
-      "descripcion": "SERVICIO LOCAL DE EDUCACIÓN PÚBLICA DEL ELQUI REQUIERE LA ADQUISICIÓN DE JUEGOS DE MESA, TOLDOS Y MATERIALES SENSORIALES PARA LICEO IGNACIO CARRERA PINTO LA SERENA/ ESCUELA DAGOBERTO CAMPOS VICUÑA / LICEO GABRIELA MISTRAL LA SERENA / COLEGIO CALETA SAN PEDRO LA SERENA /, DE ACUERDO CON LAS ESPECIFICACIONES TÉCNICAS QUE A CONTINUACIÓN SE DETALLAN.",
-      "direccion_entrega": "VARIAS DIRECCIONES ESPECIFICADAS EN TDR",
-      "plazo_entrega_dias": 5,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1461054-341-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1461054-341-COT26",
-      "triage": "JUEGOS DE MESA",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 72,
-      "ia": {
-        "v": true,
-        "s": 45,
-        "r": "Juegos educativos pueden ser piezas plásticas impresas FDM",
-        "t": 1791360782798,
-        "pv": 3
-      },
-      "recuperado_corrida_anterior": true
     },
     {
       "codigo": "3765-267-COT26",
@@ -792,66 +696,246 @@
       "recuperado_corrida_anterior": true
     },
     {
-      "codigo": "1242016-25-COT26",
-      "tipo": "compra_agil",
-      "nombre": "MEDALLAS PERSONALIZADA",
+      "codigo": "1658-252-LE26",
+      "tipo": "licitacion",
+      "nombre": "P. 316-2026 ADQUISICIÓN DE JUGUETES NAVIDAD COMUNAL TEMUCO 2026",
       "estado": "publicada",
       "estado_glosa": "Publicada",
-      "organismo": "CORPORACION DE DEPORTES DE LA ILUSTRE MUNICIPALIDAD DE TENO",
-      "rut_organismo": "65.134.866-8",
-      "unidad_compra": "CORPORACION DE DEPORTES DE LA ILUSTRE MUNICIPALIDAD DE TENO",
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": 500000,
+      "organismo": "I MUNICIPALIDAD DE TEMUCO",
+      "rut_organismo": "69.190.700-7",
+      "unidad_compra": "I MUNICIPALIDAD DE TEMUCO",
+      "region": 9,
+      "region_nombre": "Araucanía",
+      "monto_clp": null,
       "moneda": "CLP",
-      "fecha_publicacion": "2026-10-06 13:05",
-      "fecha_cierre": "2026-10-13 08:30",
+      "fecha_publicacion": null,
+      "fecha_cierre": "2026-10-23 11:00:00",
       "fecha_ultimo_cambio": null,
       "palabras_clave_match": [
-        "medalla"
+        "juguete"
       ],
-      "total_ofertas": 3,
+      "total_ofertas": null,
       "productos": [
         {
-          "nombre": "Medallas",
-          "descripcion": "Medalla personalizada de participación, con descripción de Duatlón Teno 2026, incluye 2 logos.",
-          "cantidad": 200,
-          "unidad": "EA",
-          "categoria": "49101701"
+          "nombre": "Juguetes didácticos",
+          "descripcion": "LÍNEA 1 DE 0-24 MESES, SEGÚN BASES Y ESPECIFICACIONES TÉCNICAS",
+          "cantidad": 1.0,
+          "unidad": "Global",
+          "categoria": "60141006"
         },
         {
-          "nombre": "Medallas",
-          "descripcion": "Medalla finish para premiación de dama (03) varón (03), de 1er, 2do y 3er lugar. Incluir diferenciación en la cinta para dama y varón.",
-          "cantidad": 6,
+          "nombre": "Juguetes didácticos",
+          "descripcion": "LÍNEA 2 DE 0-24 MESES, SEGÚN BASES Y ESPECIFICACIONES TÉCNICAS",
+          "cantidad": 1.0,
+          "unidad": "Global",
+          "categoria": "60141006"
+        },
+        {
+          "nombre": "Juguetes didácticos",
+          "descripcion": "LÍNEA 3 DE 3-5 AÑOS, SEGÚN BASES Y ESPECIFICACIONES TÉCNICAS\t\r\n ",
+          "cantidad": 1.0,
+          "unidad": "Global",
+          "categoria": "60141006"
+        },
+        {
+          "nombre": "Juguetes didácticos",
+          "descripcion": "LÍNEA 4 DE 3-5 AÑOS, SEGÚN BASES Y ESPECIFICACIONES TÉCNICAS",
+          "cantidad": 1.0,
+          "unidad": "Global",
+          "categoria": "60141006"
+        },
+        {
+          "nombre": "Juguetes didácticos",
+          "descripcion": "LÍNEA 5 DE 6-8 AÑOS, SEGÚN BASES Y ESPECIFICACIONES TÉCNICAS",
+          "cantidad": 1.0,
+          "unidad": "Global",
+          "categoria": "60141006"
+        },
+        {
+          "nombre": "Juguetes didácticos",
+          "descripcion": "LÍNEA 6 DE 6-8 AÑOS, SEGÚN BASES Y ESPECIFICACIONES TÉCNICAS",
+          "cantidad": 1.0,
+          "unidad": "Global",
+          "categoria": "60141006"
+        },
+        {
+          "nombre": "Juguetes didácticos",
+          "descripcion": "LÍNEA 7 LÍNEA INCLUSIVA, SEGÚN BASES Y ESPECIFICACIONES TÉCNICAS",
+          "cantidad": 1.0,
+          "unidad": "Global",
+          "categoria": "60141006"
+        }
+      ],
+      "adjuntos": [],
+      "descripcion": "ADQUISICIÓN DE JUGUETES NAVIDAD COMUNAL TEMUCO 2026, DE ACUERDO A EXIGENCIAS EN BASES ADMINISTRATIVAS Y ESPECIFICACIONES TÉCNICAS POR LÍNEAS.",
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1658-252-LE26",
+      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=1658-252-LE26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 48,
+      "tipo_licitacion": "LE",
+      "ia": {
+        "v": true,
+        "s": 45,
+        "r": "Juguetes didácticos por líneas etarias, 3D imprimible",
+        "t": 1791963984715,
+        "pv": 3
+      }
+    },
+    {
+      "codigo": "1208910-339-COT26",
+      "tipo": "compra_agil",
+      "nombre": "24 contenedores miniatura para Proyecto Alternancias 2026 (CC2613)",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "CENTRO DE FORMACIÓN TÉCNICA ESTATAL DE LA REGIÓN DEL BIOBÍO",
+      "rut_organismo": "65.201.852-1",
+      "unidad_compra": "CFTE del BioBio",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 238000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-10-13 17:08",
+      "fecha_cierre": "2026-10-15 10:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": 0,
+      "productos": [
+        {
+          "nombre": "Juguetes didácticos",
+          "descripcion": "24 contenedores miniatura, 5.5 cms.*11.5 cms*5 cms. Medidas equivalentes a un contenedor de 20 pies, 1 TEU. *DESPACHO A SEDE SAN PEDRO DE LA PAZ, 1 DIA HÁBIL PARA DESPACHO UNA VEZ ACEPTADA LA ORDEN DE COMPRA* FACTURA DEBE CITAR: *PROYECTO CRB26851*",
+          "cantidad": 24,
           "unidad": "EA",
-          "categoria": "49101701"
+          "categoria": "60141006"
         }
       ],
       "adjuntos": [
         {
-          "id": "B7C65347-1E1F-474F-92C2-12971F02F4B4",
-          "nombre": "FICHA DE REQUERIMIENTO.pdf",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1242016-25-COT26/FICHA%20DE%20REQUERIMIENTO.pdf",
-          "tipo": "pdf"
+          "id": "FD4D626C-B811-4A5C-90AA-3E8ABD5AD3D3",
+          "nombre": "ANEXO COMPLEMENTARIO CFTE (COMPRAS).docx",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1208910-339-COT26/ANEXO%20COMPLEMENTARIO%20CFTE%20%28COMPRAS%29.docx",
+          "tipo": "docx"
         }
       ],
-      "descripcion": "DESCRIPCIÓN EN FICHA DE REQUERIMIENTO",
-      "direccion_entrega": "Ruta j 40 km 3 3",
+      "descripcion": "ENVIAR COTIZACION CON IMAGENES, REVISAR Y COMPLETAR ANEXO COMPLEMENTARIO, DESPACHO A SEDE SAN PEDRO DE LA PAZ, ENVIAR FACTURA A: FACTURASCFTE@CFTEBIOBIO.CL POSTERIOR A RECEPECION CONFORME. FACTURA DEBE CITAR CODIGO: CRB26851",
+      "direccion_entrega": "AVENIDA LAS TORRES #3613, SAN PEDRO DE LA COSTA",
       "plazo_entrega_dias": 1,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1242016-25-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1242016-25-COT26",
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1208910-339-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1208910-339-COT26",
+      "triage": "contenedores miniatura",
       "prefiltro": {
-        "pasa": false,
-        "razon": "cierre a menos de 24h"
+        "pasa": true,
+        "razon": ""
       },
-      "score_heuristico": 47,
+      "score_heuristico": 90,
       "ia": {
         "v": true,
-        "s": 45,
-        "r": "Medallas plásticas personalizadas 206 unidades",
-        "t": 1791360742168,
+        "s": 35,
+        "r": "24 contenedores miniatura didácticos de plástico, imprimibles en FDM; plazo 1 día",
+        "t": 1791963941347,
         "pv": 3
       }
+    },
+    {
+      "codigo": "2324-1018-COT26",
+      "tipo": "compra_agil",
+      "nombre": "ADQUISICION DE JUGUETES DE NAVIDAD CARGAS FAMILIARES  SOCIOS BIENESTAR MUNICIPAL AÑO 2026",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "I MUNICIPALIDAD DE PUERTO MONTT",
+      "rut_organismo": null,
+      "unidad_compra": "Departamento de Licitaciones y gestión de Abastecimiento ",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 4321961,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-10-13 11:12",
+      "fecha_cierre": "2026-10-16 11:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "juguete"
+      ],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [
+        {
+          "id": "4348AAC0-7130-4B12-8169-6E00C732FB52",
+          "nombre": "ESPECIFICACIONES-TECNICAS-JUGUETES-2026.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/2324-1018-COT26/ESPECIFICACIONES-TECNICAS-JUGUETES-2026.pdf",
+          "tipo": "pdf"
+        },
+        {
+          "id": "AF3C0DC2-CCDA-42FF-9566-7CCE3A188B42",
+          "nombre": "CDP-JUGUETES-NAVIDAD-2026.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/2324-1018-COT26/CDP-JUGUETES-NAVIDAD-2026.pdf",
+          "tipo": "pdf"
+        },
+        {
+          "id": "6D397E2D-388F-481A-9004-79AD2534E730",
+          "nombre": "Solicitud-de-compra-juguetes-2026 (2).pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/2324-1018-COT26/Solicitud-de-compra-juguetes-2026%20%282%29.pdf",
+          "tipo": "pdf"
+        },
+        {
+          "id": "619E14D0-E616-4930-8D50-B18159E4BAED",
+          "nombre": "ANEXO N°1    COMPRA AGIL.docx",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/2324-1018-COT26/ANEXO%20N%C2%B01%20COMPRA%20AGIL.docx",
+          "tipo": "docx"
+        }
+      ],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=2324-1018-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=2324-1018-COT26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 49,
+      "ia": {
+        "v": true,
+        "s": 35,
+        "r": "Juguetes navidad imprimibles 3D, plazo 5+ días",
+        "t": 1791963984715,
+        "pv": 3
+      }
+    },
+    {
+      "codigo": "729-189-LE26",
+      "tipo": "licitacion",
+      "nombre": "REPUESTOS VARIOS 2-19898-19805-19670-19681-20264-20210-20171-20235-20151 ECU",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": null,
+      "rut_organismo": null,
+      "unidad_compra": null,
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": null,
+      "moneda": "CLP",
+      "fecha_publicacion": null,
+      "fecha_cierre": "2026-10-23 11:08:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=729-189-LE26",
+      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=729-189-LE26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 24,
+      "sin_evaluar": true
     },
     {
       "codigo": "980313-39-LE26",
@@ -867,7 +951,7 @@
       "monto_clp": null,
       "moneda": "CLP",
       "fecha_publicacion": null,
-      "fecha_cierre": "2026-10-19 15:00:00",
+      "fecha_cierre": "2026-10-22 15:00:00",
       "fecha_ultimo_cambio": null,
       "palabras_clave_match": [],
       "total_ofertas": null,
@@ -1016,38 +1100,6 @@
       "sin_evaluar": true
     },
     {
-      "codigo": "1070-24-LP26",
-      "tipo": "licitacion",
-      "nombre": "ADQUISICIÓN DE ESTABILIZADOR DE SUELO EN BASE A COPOLÍMERO ACRILICO PARA CONSERVACIÓN DE RUTAS OPERADAS POR LA ADMINISTRACION DIRECTA EN LA OFICNA PROVINCIAL DE VIALIDAD MAGALLANES",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": null,
-      "rut_organismo": null,
-      "unidad_compra": null,
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": null,
-      "moneda": "CLP",
-      "fecha_publicacion": null,
-      "fecha_cierre": "2026-10-23 13:19:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [],
-      "total_ofertas": null,
-      "productos": [],
-      "adjuntos": [],
-      "descripcion": null,
-      "direccion_entrega": null,
-      "plazo_entrega_dias": null,
-      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1070-24-LP26",
-      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=1070-24-LP26",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 14,
-      "sin_evaluar": true
-    },
-    {
       "codigo": "1380-195-LR26",
       "tipo": "licitacion",
       "nombre": "PPTA 88-26 “ADQUISICIÓN DE TOALLAS DE PAPEL PAPEL HIGIÉNICO Y JABÓN DE GLICERINA CON DISPENSADORES”",
@@ -1148,6 +1200,40 @@
       "sin_evaluar": true
     },
     {
+      "codigo": "2483-270-LP26",
+      "tipo": "licitacion",
+      "nombre": "SUMINISTRO DE JUGUETES NAVIDAD 2026",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": null,
+      "rut_organismo": null,
+      "unidad_compra": null,
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": null,
+      "moneda": "CLP",
+      "fecha_publicacion": null,
+      "fecha_cierre": "2026-11-02 15:01:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "juguete"
+      ],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2483-270-LP26",
+      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=2483-270-LP26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 14,
+      "sin_evaluar": true
+    },
+    {
       "codigo": "2667-109-LP26",
       "tipo": "licitacion",
       "nombre": "SERVICIO DE DISEÑO MONTAJE Y DESMONTAJE DE DECORACIÓN COMUNAL Y ÁRBOLES NAVIDEÑOS PARA LA COMUNA DE VITACURA",
@@ -1172,6 +1258,70 @@
       "plazo_entrega_dias": null,
       "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2667-109-LP26",
       "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=2667-109-LP26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 14,
+      "sin_evaluar": true
+    },
+    {
+      "codigo": "3134-88-LP26",
+      "tipo": "licitacion",
+      "nombre": "ADQUISICIÓN DE DOS 2 CUATRIMOTOS PARA LA POLICÍA MARÍTIMA IGUAL O EQUIVALENTE A CAN AM MODELO OUTLANDER XT 700 CON CARRO DE ARRASTRE Y DOCUMENTACIÓN COMPLETA",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": null,
+      "rut_organismo": null,
+      "unidad_compra": null,
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": null,
+      "moneda": "CLP",
+      "fecha_publicacion": null,
+      "fecha_cierre": "2026-11-02 16:00:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3134-88-LP26",
+      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=3134-88-LP26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 14,
+      "sin_evaluar": true
+    },
+    {
+      "codigo": "3134-89-LE26",
+      "tipo": "licitacion",
+      "nombre": "ADQUISICIÓN DE UNA MOTO ACUÁTICA PARA LA POLICÍA MARÍTIMA IGUAL O EQUIVALENTE A BRP SEA DOO MODELO WAKE PRO 230 CON PONTONES Y CARRO DE ARRASTRE CON DOCUMENTACIÓN COMPLETA",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": null,
+      "rut_organismo": null,
+      "unidad_compra": null,
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": null,
+      "moneda": "CLP",
+      "fecha_publicacion": null,
+      "fecha_cierre": "2026-10-28 16:00:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3134-89-LE26",
+      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=3134-89-LE26",
       "prefiltro": {
         "pasa": true,
         "razon": ""
@@ -1246,6 +1396,74 @@
       "sin_evaluar": true
     },
     {
+      "codigo": "4768-55-LE26",
+      "tipo": "licitacion",
+      "nombre": "ADQUISICION DE JUGUETES DE NAVIDAD 2026",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": null,
+      "rut_organismo": null,
+      "unidad_compra": null,
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": null,
+      "moneda": "CLP",
+      "fecha_publicacion": null,
+      "fecha_cierre": "2026-10-26 15:05:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "juguete"
+      ],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4768-55-LE26",
+      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=4768-55-LE26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 14,
+      "sin_evaluar": true
+    },
+    {
+      "codigo": "4858-66-LE26",
+      "tipo": "licitacion",
+      "nombre": "ADQUISICIÓN DE JUGUETES",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": null,
+      "rut_organismo": null,
+      "unidad_compra": null,
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": null,
+      "moneda": "CLP",
+      "fecha_publicacion": null,
+      "fecha_cierre": "2026-10-26 15:00:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "juguete"
+      ],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4858-66-LE26",
+      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=4858-66-LE26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 14,
+      "sin_evaluar": true
+    },
+    {
       "codigo": "5282-42-LE26",
       "tipo": "licitacion",
       "nombre": "Construcción  Letreros de Bienvenida Porvenir",
@@ -1272,40 +1490,6 @@
       "plazo_entrega_dias": null,
       "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=5282-42-LE26",
       "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=5282-42-LE26",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 14,
-      "sin_evaluar": true
-    },
-    {
-      "codigo": "701426-16-LE26",
-      "tipo": "licitacion",
-      "nombre": "ADQ. JUGUETES NAVIDAD COLLIPULLI 2026",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": null,
-      "rut_organismo": null,
-      "unidad_compra": null,
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": null,
-      "moneda": "CLP",
-      "fecha_publicacion": null,
-      "fecha_cierre": "2026-10-23 15:00:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [
-        "juguete"
-      ],
-      "total_ofertas": null,
-      "productos": [],
-      "adjuntos": [],
-      "descripcion": null,
-      "direccion_entrega": null,
-      "plazo_entrega_dias": null,
-      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=701426-16-LE26",
-      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=701426-16-LE26",
       "prefiltro": {
         "pasa": true,
         "razon": ""
@@ -1380,9 +1564,9 @@
       "sin_evaluar": true
     },
     {
-      "codigo": "3134-88-LP26",
+      "codigo": "834259-53-LR26",
       "tipo": "licitacion",
-      "nombre": "ADQUISICIÓN DE DOS 2 CUATRIMOTOS PARA LA POLICÍA MARÍTIMA IGUAL O EQUIVALENTE A CAN AM MODELO OUTLANDER XT 700 CON CARRO DE ARRASTRE Y DOCUMENTACIÓN COMPLETA",
+      "nombre": "SOPORTE OPERACIONAL PARA INFRAESTRUCTURA Y SERV.",
       "estado": "publicada",
       "estado_glosa": "Publicada",
       "organismo": null,
@@ -1393,7 +1577,7 @@
       "monto_clp": null,
       "moneda": "CLP",
       "fecha_publicacion": null,
-      "fecha_cierre": "2026-11-02 16:00:00",
+      "fecha_cierre": "2026-11-12 15:05:00",
       "fecha_ultimo_cambio": null,
       "palabras_clave_match": [],
       "total_ofertas": null,
@@ -1402,13 +1586,45 @@
       "descripcion": null,
       "direccion_entrega": null,
       "plazo_entrega_dias": null,
-      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3134-88-LP26",
-      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=3134-88-LP26",
+      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=834259-53-LR26",
+      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=834259-53-LR26",
       "prefiltro": {
         "pasa": true,
         "razon": ""
       },
       "score_heuristico": 4,
+      "sin_evaluar": true
+    },
+    {
+      "codigo": "1057417-15-LP26",
+      "tipo": "licitacion",
+      "nombre": "CONVENIO DE SERVICIOS DE MANTENCIÓN SOPORTE TÉCNICO E INSTALACIÓN Y PROVISIÓN DE EQUIPAMIENTO PARA SISTEMAS CCTV",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": null,
+      "rut_organismo": null,
+      "unidad_compra": null,
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": null,
+      "moneda": "CLP",
+      "fecha_publicacion": null,
+      "fecha_cierre": "2026-11-02 17:00:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1057417-15-LP26",
+      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=1057417-15-LP26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 0,
       "sin_evaluar": true
     },
     {
@@ -1604,38 +1820,6 @@
       "sin_evaluar": true
     },
     {
-      "codigo": "1515304-198-LE26",
-      "tipo": "licitacion",
-      "nombre": "ADQUISICIÓN DE REPUESTO PARA AERONAVE PIPER",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": null,
-      "rut_organismo": null,
-      "unidad_compra": null,
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": null,
-      "moneda": "CLP",
-      "fecha_publicacion": null,
-      "fecha_cierre": "2026-10-14 12:00:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [],
-      "total_ofertas": null,
-      "productos": [],
-      "adjuntos": [],
-      "descripcion": null,
-      "direccion_entrega": null,
-      "plazo_entrega_dias": null,
-      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1515304-198-LE26",
-      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=1515304-198-LE26",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 0,
-      "sin_evaluar": true
-    },
-    {
       "codigo": "1540-111-LE26",
       "tipo": "licitacion",
       "nombre": "REPUESTOS PARA MANTENIMIENTO MOBILIARIO CLINICO",
@@ -1745,7 +1929,7 @@
       "monto_clp": null,
       "moneda": "CLP",
       "fecha_publicacion": null,
-      "fecha_cierre": "2026-10-23 15:00:00",
+      "fecha_cierre": "2026-10-27 15:00:00",
       "fecha_ultimo_cambio": null,
       "palabras_clave_match": [],
       "total_ofertas": null,
@@ -1926,6 +2110,38 @@
       "sin_evaluar": true
     },
     {
+      "codigo": "3537-66-LE26",
+      "tipo": "licitacion",
+      "nombre": "Adquisición de repuestos para Camiones y Camioneta",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": null,
+      "rut_organismo": null,
+      "unidad_compra": null,
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": null,
+      "moneda": "CLP",
+      "fecha_publicacion": null,
+      "fecha_cierre": "2026-10-19 15:01:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3537-66-LE26",
+      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=3537-66-LE26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 0,
+      "sin_evaluar": true
+    },
+    {
       "codigo": "407-141-LP26",
       "tipo": "licitacion",
       "nombre": "MANTENIMIENTO PREVENTIVO Y CORRECTIVO SIN REPUESTOS PARA ECÓGRAFOS",
@@ -2078,38 +2294,6 @@
       "plazo_entrega_dias": null,
       "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=407-158-LE26",
       "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=407-158-LE26",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 0,
-      "sin_evaluar": true
-    },
-    {
-      "codigo": "425-69-LE26",
-      "tipo": "licitacion",
-      "nombre": "Servicio de Soporte y Mantención de 2 Impresoras",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": null,
-      "rut_organismo": null,
-      "unidad_compra": null,
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": null,
-      "moneda": "CLP",
-      "fecha_publicacion": null,
-      "fecha_cierre": "2026-10-14 16:00:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [],
-      "total_ofertas": null,
-      "productos": [],
-      "adjuntos": [],
-      "descripcion": null,
-      "direccion_entrega": null,
-      "plazo_entrega_dias": null,
-      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=425-69-LE26",
-      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=425-69-LE26",
       "prefiltro": {
         "pasa": true,
         "razon": ""
@@ -2334,38 +2518,6 @@
       "plazo_entrega_dias": null,
       "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=752-38-LE26",
       "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=752-38-LE26",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 0,
-      "sin_evaluar": true
-    },
-    {
-      "codigo": "938-36-LE26",
-      "tipo": "licitacion",
-      "nombre": "ADQUISICIÓN REPUESTOS AERONAVE PIPER DAKOTA",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": null,
-      "rut_organismo": null,
-      "unidad_compra": null,
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": null,
-      "moneda": "CLP",
-      "fecha_publicacion": null,
-      "fecha_cierre": "2026-10-14 10:00:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [],
-      "total_ofertas": null,
-      "productos": [],
-      "adjuntos": [],
-      "descripcion": null,
-      "direccion_entrega": null,
-      "plazo_entrega_dias": null,
-      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=938-36-LE26",
-      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=938-36-LE26",
       "prefiltro": {
         "pasa": true,
         "razon": ""
