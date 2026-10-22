@@ -1363,7 +1363,7 @@ def _llamar_anthropic(prompt, max_tokens):
     raise RuntimeError(last_err or "API sin respuesta")
 
 
-EVAL_VERSION = 3      # sube al endurecer el criterio: los "viable" anteriores se reevalúan
+EVAL_VERSION = 4      # sube al endurecer el criterio: los "viable" anteriores se reevalúan
 
 PROMPT_EVAL = ("Perfil de capacidades:\n" + PERFIL.replace("{", "(").replace("}", ")") + "\n\n"
     "Eres un evaluador ESTRICTO de oportunidades de Mercado Público (t=CA: Compra Ágil, t=LIC: licitación "
@@ -1374,7 +1374,10 @@ PROMPT_EVAL = ("Perfil de capacidades:\n" + PERFIL.replace("{", "(").replace("}"
     "que pide el comprador, no la palabra del título. Que aparezca medalla, letrero, didáctico o modelo NO basta.\n"
     "2. v=false si lo pedido es de otro material o proceso: metal (aluminio, acero, bronce, latón), vidrio, "
     "cerámica, madera, cuero, goma/EVA/caucho/espuma, textil (cintas, escarapelas, bolsos, ropa), papel, cartón "
-    "o impresos, planchas de acrílico o policarbonato, tarjetas PVC o con chip/electrónica, lonas y vinilos.\n"
+    "o impresos, planchas de acrílico o policarbonato, tarjetas plásticas (PVC) o con chip/electrónica, lonas y vinilos.\n"
+    "2b. EXCEPCIÓN: los MODELOS ANATÓMICOS, fantomas, maquetas y réplicas SÍ son viables aunque el comprador "
+    "pida material PVC, silicona, resina o no especifique material (se fabrican igual por impresión 3D): "
+    "v=true si son piezas de ese tipo y caben en 30x30x30 cm por pieza o se pueden hacer por partes.\n"
     "3. v=false si es un producto industrial o de catálogo: muebles, camillas, tablas espinales y otros "
     "dispositivos médicos, contenedores o basureros, gabinetes, equipos, herramientas, insumos de oficina, "
     "o repuestos que soportan carga estructural.\n"
@@ -1383,7 +1386,8 @@ PROMPT_EVAL = ("Perfil de capacidades:\n" + PERFIL.replace("{", "(").replace("}"
     "4. v=false si es un servicio (instalación, confección gráfica, mantención, capacitación, arriendo) sin una "
     "pieza 3D clara.\n"
     "5. Si solo una parte menor del pedido es imprimible, v=false.\n"
-    "6. Ante duda o falta de detalle, v=false.\n"
+    "6. Ante duda o falta de detalle, v=false, salvo modelos anatómicos, fantomas y réplicas (regla 2b), "
+    "que se aceptan aunque el detalle esté en un adjunto.\n"
     "s = atractivo 0-100 por monto, plazo y cantidad producible (máximo 60 si el plazo es menor a 5 días o "
     "hay dudas). r = razón de máx 10 palabras que cite el material o producto que decide.\n"
     "Responde SOLO un arreglo JSON, una entrada por licitación ({n} en total):\n"
@@ -1417,6 +1421,11 @@ def evaluar_ia(candidatos, cache):
     def _vencido(c):
         e = cache.get(c)
         return bool(e) and e.get("v") and e.get("pv") != EVAL_VERSION
+    # Criterio nuevo (v4): modelos anatómicos/fantomas/PVC ya no se descartan. Los "no viable" de versiones
+    # anteriores cuyo motivo toca eso se borran de la caché para reevaluarlos (solo si siguen abiertos y entran).
+    _rx = re.compile(r"pvc|anat[oó]m|fantom|sin material|falta de detalle|ante duda|sin detalle", re.I)
+    for _c in [c for c, e in cache.items() if not e.get("v") and e.get("pv") != EVAL_VERSION and _rx.search(e.get("r") or "")]:
+        del cache[_c]
     nuevos_c = [r for r in candidatos if r["codigo"] not in cache]
     viejos_c = [r for r in candidatos if _vencido(r["codigo"])]
     if viejos_c:
