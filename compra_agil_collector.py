@@ -97,6 +97,10 @@ SOLO_VIABLES_FEED = bool(_CFG.get("solo_viables_en_feed", True))
 MAX_VIABLES_FEED = int(_CFG.get("max_viables_feed", 30))
 # Si la IA no pudo evaluar (sin créditos, errores), los mejores sin evaluar se publican marcados "sin_evaluar".
 MAX_SIN_EVALUAR = int(_CFG.get("max_sin_evaluar", 60))
+# Casos dudosos (sin material, detalle en adjunto ilegible): se publican marcados "revisar" para que decida el usuario.
+MAX_REVISAR_FEED = int(_CFG.get("max_revisar_feed", 40))
+# Marcas del usuario desde la app ("la hago" / "no la hago"): mandan sobre la IA y le sirven de ejemplos.
+EJEMPLOS_USUARIO = [e for e in (_CFG.get("ejemplos_usuario") or []) if isinstance(e, dict) and e.get("c")]
 # Revisión por descripción: la búsqueda de Mercado Público solo mira el título; la ficha trae descripción y productos.
 DESC_CACHE_FILE = os.environ.get("DESC_CACHE_FILE", "desc_ia.json")
 MAX_REVISION_DESC = int(_CFG.get("max_revision_descripcion", 2500))     # fichas por corrida
@@ -1390,13 +1394,64 @@ PROMPT_EVAL = ("Perfil de capacidades:\n" + PERFIL.replace("{", "(").replace("}"
     "4. v=false si es un servicio (instalación, confección gráfica, mantención, capacitación, arriendo) sin una "
     "pieza 3D clara.\n"
     "5. Si solo una parte menor del pedido es imprimible, v=false.\n"
-    "6. Ante duda o falta de detalle, v=false, salvo los objetos de la regla 2b, que se aceptan aunque "
-    "el material no se diga o el detalle esté en un adjunto.\n"
+    "6. Ante duda real o falta de detalle (y no aplica la regla 2b): v=false y q=true (queda para que el dueño "
+    "lo revise). Si es claramente no fabricable: v=false y q=false.\n"
+    "7. El campo a, si viene, es texto extraído de los adjuntos (bases, especificaciones): úsalo para el material "
+    "y las medidas.\n"
     "s = atractivo 0-100 por monto, plazo y cantidad producible (máximo 60 si el plazo es menor a 5 días o "
-    "hay dudas). r = razón de máx 10 palabras que cite el material o producto que decide.\n"
+    "hay dudas). r = razón de máx 10 palabras que cite el material o producto que decide. "
+    "e = cita textual (máx 100 caracteres) copiada del texto (n, d, p o a) que te hizo decidir.\n"
+    "{ejemplos}"
     "Responde SOLO un arreglo JSON, una entrada por licitación ({n} en total):\n"
-    '[{{"c":"código","v":true,"s":0,"r":"razón"}}]\n'
+    '[{{"c":"código","v":true,"q":false,"s":0,"r":"razón","e":"cita"}}]\n'
     "Licitaciones:\n{datos}")
+
+
+def _texto_ejemplos():
+    """Decisiones reales del dueño (botones de la app): tienen prioridad sobre las reglas."""
+    if not EJEMPLOS_USUARIO:
+        return ""
+    lineas = []
+    for e in EJEMPLOS_USUARIO[-40:]:
+        txt = (str(e.get("n") or "") + (" — " + str(e.get("p")) if e.get("p") else ""))[:220]
+        lineas.append(("- SÍ lo fabrica: " if e.get("v") else "- NO lo fabrica: ") + txt
+                      + (f" (nota: {str(e.get('nota'))[:100]})" if e.get("nota") else ""))
+    return ("EJEMPLOS DEL DUEÑO (decisiones reales; si un caso se parece, decide igual):\n"
+            + "\n".join(lineas) + "\n")
+
+
+_ADJ_TXT = {}
+
+
+def _texto_adjuntos(reg, max_chars=1200):
+    """Primeras páginas de los PDF/TXT adjuntos ya descargados (bases, especificaciones técnicas)."""
+    cod = reg.get("codigo")
+    if cod in _ADJ_TXT:
+        return _ADJ_TXT[cod]
+    partes = []
+    for adj in reg.get("adjuntos") or []:
+        ruta = os.path.join(ADJ_DIR, cod, _safe_filename(adj.get("nombre")))
+        if not os.path.exists(ruta):
+            continue
+        ext = ruta.rsplit(".", 1)[-1].lower()
+        try:
+            if ext == "pdf":
+                from pypdf import PdfReader
+                lector = PdfReader(ruta)
+                t = " ".join((pg.extract_text() or "") for pg in lector.pages[:3])
+            elif ext == "txt":
+                t = open(ruta, encoding="utf-8", errors="ignore").read(4000)
+            else:
+                continue
+        except Exception:
+            continue
+        t = re.sub(r"\s+", " ", t).strip()
+        if t:
+            partes.append(t[:600])
+        if sum(len(x) for x in partes) >= max_chars:
+            break
+    _ADJ_TXT[cod] = " | ".join(partes)[:max_chars]
+    return _ADJ_TXT[cod]
 
 
 def _compactar_para_ia(reg):
@@ -1416,6 +1471,8 @@ def _compactar_para_ia(reg):
     if reg.get("monto_clp"): d["m"] = reg["monto_clp"]
     if reg.get("fecha_cierre"): d["fc"] = str(reg["fecha_cierre"])[:16]
     if reg.get("plazo_entrega_dias"): d["pe"] = reg["plazo_entrega_dias"]
+    a = _texto_adjuntos(reg)
+    if a: d["a"] = a
     return d
 
 
@@ -1430,6 +1487,11 @@ def evaluar_ia(candidatos, cache):
     _rx = re.compile(r"pvc|anat[oó]m|fantom|sin material|falta de detalle|ante duda|sin detalle|insumo|material no|no especifica|condon|condón|galvan", re.I)
     for _c in [c for c, e in cache.items() if not e.get("v") and e.get("pv") != EVAL_VERSION and _rx.search(e.get("r") or "")]:
         del cache[_c]
+    # Lo que el usuario marcó en la app manda: no se gasta IA en esos códigos.
+    for e in EJEMPLOS_USUARIO:
+        cache[e["c"]] = {"v": bool(e.get("v")), "q": False, "s": 70 if e.get("v") else 0,
+                         "r": "Marcado por ti: " + ("la hago" if e.get("v") else "no la hago"),
+                         "e": "", "u": True, "t": int(time.time() * 1000), "pv": EVAL_VERSION}
     nuevos_c = [r for r in candidatos if r["codigo"] not in cache]
     viejos_c = [r for r in candidatos if _vencido(r["codigo"])]
     if viejos_c:
@@ -1442,9 +1504,10 @@ def evaluar_ia(candidatos, cache):
     for i in range(0, len(pendientes), IA_LOTE):
         lote = pendientes[i:i + IA_LOTE]
         datos = [_compactar_para_ia(r) for r in lote]
-        prompt = PROMPT_EVAL.format(n=len(datos), datos=json.dumps(datos, ensure_ascii=False))
+        prompt = PROMPT_EVAL.format(n=len(datos), datos=json.dumps(datos, ensure_ascii=False),
+                                    ejemplos=_texto_ejemplos())
         try:
-            txt = _llamar_anthropic(prompt, max_tokens=90 * len(datos) + 200)
+            txt = _llamar_anthropic(prompt, max_tokens=170 * len(datos) + 300)
             txt = txt.replace("```json", "").replace("```", "").strip()
             ini, fin = txt.find("["), txt.rfind("]")
             if ini == -1 or fin <= ini:
@@ -1452,9 +1515,11 @@ def evaluar_ia(candidatos, cache):
             for e in json.loads(txt[ini:fin + 1]):
                 cod = e.get("c") or e.get("codigo")
                 if not cod: continue
-                cache[cod] = {"v": bool(e.get("v", e.get("viable"))),
+                _v = bool(e.get("v", e.get("viable")))
+                cache[cod] = {"v": _v, "q": bool(e.get("q")) and not _v,
                               "s": max(0, min(100, int(e.get("s", e.get("score", 0)) or 0))),
                               "r": str(e.get("r", e.get("razon", "")))[:150],
+                              "e": str(e.get("e") or "")[:160],
                               "t": int(time.time() * 1000), "pv": EVAL_VERSION}
                 nuevos += 1
         except Exception as ex:
@@ -1988,7 +2053,7 @@ def main():
     # Lo que la IA ya evaluó como NO viable no se publica, aunque coincida con una palabra clave.
     # (El veredicto queda en la caché IA, así que no se vuelve a pagar por evaluarlo.)
     _antes = len(registros)
-    registros = [r for r in registros if not (r.get("ia") is not None and not r["ia"].get("v"))]
+    registros = [r for r in registros if not (r.get("ia") is not None and not r["ia"].get("v") and not r["ia"].get("q"))]
     if _antes != len(registros):
         print(f"Feed: {_antes - len(registros)} oportunidades descartadas por la IA (no viables) no se publican")
     registros.sort(key=lambda r: (-(r.get("ia", {}).get("v") and 1 or 0),
@@ -2000,15 +2065,21 @@ def main():
         for r in registros:
             r.pop("sin_evaluar", None)
         _viables = [r for r in registros if (r.get("ia") or {}).get("v")][:MAX_VIABLES_FEED]
+        # Dudosos: la IA no tuvo información suficiente — se publican para que decidas tú.
+        _rev = [r for r in registros if r.get("ia") and not r["ia"].get("v") and r["ia"].get("q")]
+        _rev.sort(key=lambda r: -((r.get("ia") or {}).get("s") or 0))
+        _rev = _rev[:MAX_REVISAR_FEED]
+        for r in _rev:
+            r["revisar"] = True
         # Sin veredicto (IA caída, sin créditos o fuera de cupo): los mejores se publican marcados, no se pierden.
         _sin = [r for r in registros if not r.get("ia") and (r.get("prefiltro") or {}).get("pasa", True)]
         _sin.sort(key=lambda r: (not r.get("desc_match"), -(r.get("score_heuristico") or 0)))
         _sin = _sin[:MAX_SIN_EVALUAR]
         for r in _sin:
             r["sin_evaluar"] = True
-        registros = _viables + _sin
-        print(f"Feed curado: {len(_viables)} viables IA + {len(_sin)} sin evaluar (de {_n0} candidatos; "
-              f"topes {MAX_VIABLES_FEED}/{MAX_SIN_EVALUAR})")
+        registros = _viables + _rev + _sin
+        print(f"Feed curado: {len(_viables)} viables IA + {len(_rev)} a revisar + {len(_sin)} sin evaluar "
+              f"(de {_n0} candidatos; topes {MAX_VIABLES_FEED}/{MAX_REVISAR_FEED}/{MAX_SIN_EVALUAR})")
     if len(registros) > MAX_ITEMS_FEED:
         registros = registros[:MAX_ITEMS_FEED]
 
