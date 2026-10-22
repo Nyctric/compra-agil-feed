@@ -153,7 +153,7 @@ TRIAGE_CACHE_FILE = os.environ.get("TRIAGE_CACHE_FILE", "triage_ia.json")
 TRIAGE_CACHE_DIAS = 30
 
 PERFIL_DEFAULT = ("Fabricación digital en Chile. Tecnologías: impresión 3D FDM (PLA, PETG, ABS, TPU) y resina "
-    "(estándar, tough). Volumen máximo FDM 30x30x30 cm por pieza (piezas mayores se fabrican por secciones "
+    "(estándar, tough). Volumen máximo FDM 45x45x47 cm por pieza (CR-10 Max; piezas mayores se fabrican por secciones "
     "ensambladas). Postproceso: lijado, pintura, barniz UV. Productos típicos: prototipos, piezas funcionales, "
     "modelos anatómicos y fantomas, señalética y letreros 3D, repuestos plásticos, maquetas, trofeos y galvanos, "
     "llaveros y pines, material didáctico.")
@@ -1368,7 +1368,7 @@ EVAL_VERSION = 4      # sube al endurecer el criterio: los "viable" anteriores s
 PROMPT_EVAL = ("Perfil de capacidades:\n" + PERFIL.replace("{", "(").replace("}", ")") + "\n\n"
     "Eres un evaluador ESTRICTO de oportunidades de Mercado Público (t=CA: Compra Ágil, t=LIC: licitación "
     "formal). Marca v=true SOLO si la mayor parte del valor pedido son piezas que esta empresa puede fabricar "
-    "con impresión 3D (FDM en PLA/PETG/ABS/TPU hasta 30x30x30 cm, o resina).\n"
+    "con impresión 3D (FDM en PLA/PETG/ABS/TPU hasta 45x45x47 cm por pieza, o resina).\n"
     "REGLAS OBLIGATORIAS:\n"
     "1. Lee los productos y sus descripciones (campo p, entre corchetes): manda el MATERIAL y el tipo de producto "
     "que pide el comprador, no la palabra del título. Que aparezca medalla, letrero, didáctico o modelo NO basta.\n"
@@ -1379,7 +1379,7 @@ PROMPT_EVAL = ("Perfil de capacidades:\n" + PERFIL.replace("{", "(").replace("}"
     "empresa. Si el comprador no dice el material y el objeto es de los que normalmente son de plástico "
     "(modelos anatómicos, fantomas, maquetas, réplicas, galvanos, trofeos, medallas, llaveros, porta condones, "
     "dispensadores, soportes, organizadores, etc.), asume plástico: v=true. Solo es v=false por TAMAÑO si cada "
-    "pieza supera ~30x30x30 cm y no puede hacerse por partes, o si lleva electrónica/mecanismos complejos. Es v=false "
+    "pieza supera ~45x45x47 cm y no puede hacerse por partes, o si lleva electrónica/mecanismos complejos. Es v=false "
     "si piden explícitamente metal, vidrio, madera, acrílico, cartón o papel como material del producto (un "
     "embalaje de cartón no cuenta), textil, o tarjetas/credenciales de PVC con chip.\n"
     "3. v=false si es un producto industrial o de catálogo (salvo objetos pequeños de plástico, regla 2b): muebles, camillas, tablas espinales y otros "
