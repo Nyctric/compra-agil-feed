@@ -1375,9 +1375,12 @@ PROMPT_EVAL = ("Perfil de capacidades:\n" + PERFIL.replace("{", "(").replace("}"
     "2. v=false si lo pedido es de otro material o proceso: metal (aluminio, acero, bronce, latón), vidrio, "
     "cerámica, madera, cuero, goma/EVA/caucho/espuma, textil (cintas, escarapelas, bolsos, ropa), papel, cartón "
     "o impresos, planchas de acrílico o policarbonato, tarjetas plásticas (PVC) o con chip/electrónica, lonas y vinilos.\n"
-    "2b. EXCEPCIÓN: los MODELOS ANATÓMICOS, fantomas, maquetas y réplicas SÍ son viables aunque el comprador "
-    "pida material PVC, silicona, resina o no especifique material (se fabrican igual por impresión 3D): "
-    "v=true si son piezas de ese tipo y caben en 30x30x30 cm por pieza o se pueden hacer por partes.\n"
+    "2b. EXCEPCIÓN: esta empresa SÍ fabrica por impresión 3D, aunque el comprador no diga el material o pida PVC "
+    "moldeado: modelos anatómicos, fantomas, maquetas, réplicas, galvanos, trofeos, medallas, llaveros, porta "
+    "condones, dispensadores, soportes y otros objetos pequeños que normalmente se hacen en plástico. Si el "
+    "material no se especifica, asume plástico: v=true. Solo es v=false si piden explícitamente metal, vidrio, "
+    "madera, acrílico, cartón o papel como material del producto (un embalaje de cartón no cuenta), textil, o "
+    "tarjetas/credenciales de PVC con chip.\n"
     "3. v=false si es un producto industrial o de catálogo: muebles, camillas, tablas espinales y otros "
     "dispositivos médicos, contenedores o basureros, gabinetes, equipos, herramientas, insumos de oficina, "
     "o repuestos que soportan carga estructural.\n"
@@ -1386,8 +1389,8 @@ PROMPT_EVAL = ("Perfil de capacidades:\n" + PERFIL.replace("{", "(").replace("}"
     "4. v=false si es un servicio (instalación, confección gráfica, mantención, capacitación, arriendo) sin una "
     "pieza 3D clara.\n"
     "5. Si solo una parte menor del pedido es imprimible, v=false.\n"
-    "6. Ante duda o falta de detalle, v=false, salvo modelos anatómicos, fantomas y réplicas (regla 2b), "
-    "que se aceptan aunque el detalle esté en un adjunto.\n"
+    "6. Ante duda o falta de detalle, v=false, salvo los objetos de la regla 2b, que se aceptan aunque "
+    "el material no se diga o el detalle esté en un adjunto.\n"
     "s = atractivo 0-100 por monto, plazo y cantidad producible (máximo 60 si el plazo es menor a 5 días o "
     "hay dudas). r = razón de máx 10 palabras que cite el material o producto que decide.\n"
     "Responde SOLO un arreglo JSON, una entrada por licitación ({n} en total):\n"
@@ -1423,7 +1426,7 @@ def evaluar_ia(candidatos, cache):
         return bool(e) and e.get("v") and e.get("pv") != EVAL_VERSION
     # Criterio nuevo (v4): modelos anatómicos/fantomas/PVC ya no se descartan. Los "no viable" de versiones
     # anteriores cuyo motivo toca eso se borran de la caché para reevaluarlos (solo si siguen abiertos y entran).
-    _rx = re.compile(r"pvc|anat[oó]m|fantom|sin material|falta de detalle|ante duda|sin detalle", re.I)
+    _rx = re.compile(r"pvc|anat[oó]m|fantom|sin material|falta de detalle|ante duda|sin detalle|insumo|material no|no especifica|condon|condón|galvan", re.I)
     for _c in [c for c, e in cache.items() if not e.get("v") and e.get("pv") != EVAL_VERSION and _rx.search(e.get("r") or "")]:
         del cache[_c]
     nuevos_c = [r for r in candidatos if r["codigo"] not in cache]
