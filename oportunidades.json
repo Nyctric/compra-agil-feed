@@ -1,6 +1,6 @@
 {
-  "generado": "2026-10-21T08:09:34Z",
-  "total": 65,
+  "generado": "2026-10-22T06:49:47Z",
+  "total": 66,
   "palabras_clave": [
     "anatómico",
     "fantoma",
@@ -43,142 +43,59 @@
     "max_detalle": 300,
     "max_eval_ia": 200
   },
-  "recolectados_total": 5149,
+  "recolectados_total": 5312,
   "descartados": {
     "cerradas": 1,
-    "blacklist": 900,
-    "sin_match": 8262,
-    "rescatados_triage": 54,
-    "rescatados_descripcion": 9
+    "blacklist": 932,
+    "sin_match": 8513,
+    "rescatados_triage": 67,
+    "rescatados_descripcion": 27
   },
   "recuperados_feed_anterior": 1,
   "triage_ia": {
-    "revisados": 1774,
-    "nuevos": 1765,
-    "rescatados": 54,
+    "revisados": 1661,
+    "nuevos": 1652,
+    "rescatados": 67,
     "errores": 0,
     "completo": true,
     "habilitado": true
   },
   "revision_descripcion": {
-    "pendientes": 1586,
-    "revisadas": 120,
-    "coinciden": 9,
-    "errores": 5
+    "pendientes": 1201,
+    "revisadas": 383,
+    "coinciden": 27,
+    "errores": 1
   },
   "barrido": {
     "modo": "incremental",
-    "inicio_cl": "2026-10-21 01:24",
-    "desde": "2026-10-19 22:32",
-    "paginas": 337,
+    "inicio_cl": "2026-10-22 01:23",
+    "desde": "2026-10-20 22:24",
+    "paginas": 347,
     "motivo": "incremental",
-    "minutos": 60.9,
+    "minutos": 32.8,
     "cortado": false,
     "paginas_fallidas": []
   },
   "sugerencias_keywords": [],
   "licitaciones": {
-    "activas": 4665,
+    "activas": 4821,
     "candidatas": 60,
     "incluidas": 55,
     "habilitadas": true,
     "con_ticket": true
   },
   "historico_precios": {
-    "items": 8232,
+    "items": 8238,
     "dias_cubiertos": 365,
     "dias_pendientes": 0
   },
   "eval_ia": {
-    "evaluados_total": 6363,
+    "evaluados_total": 6528,
     "nuevos_esta_corrida": 200,
     "errores": 0,
     "server_side": true
   },
   "items": [
-    {
-      "codigo": "2328-1224-COT26",
-      "tipo": "compra_agil",
-      "nombre": "ADQUISICIÓN MATERIAL DIDÁCTICO MATEMÁTICA 1° Y 2° CICLO - ESCUELA ESPAÑA / FICHA 24485",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "I MUNICIPALIDAD DE PUERTO MONTT",
-      "rut_organismo": "69.220.100-0",
-      "unidad_compra": "Unidad de Adquisiciones Dirección de Educación",
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": 2295680,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-10-06 11:45",
-      "fecha_cierre": "2026-10-21 15:46",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [
-        "didáctico"
-      ],
-      "total_ofertas": 0,
-      "productos": [
-        {
-          "nombre": "Contadores o sets de actividades con contadores para las matemáticas básicas",
-          "descripcion": "Cantidad: 70 sets | Bloques Multibase Encajables Set de 136 piezas con manual de actividades guiadas (material concreto de plástico de alta resistencia, no tóxico y lavable, piezas encajables por cualquiera de sus caras para trabajo en sistema base 10, presentado en caja plástica transparente con tapa).",
-          "cantidad": 70,
-          "unidad": "KIT",
-          "categoria": "60102405"
-        },
-        {
-          "nombre": "Contadores o sets de actividades con contadores para las matemáticas básicas",
-          "descripcion": "Cantidad: 60 unidades | Mini Tablero Numérico 1-100 (incluye 1 placa de centena numerada del 1 al 100, 8 barras de decenas y 20 cubitos de unidad, fabricado en plástico rígido de alta resistencia no tóxico).   ",
-          "cantidad": 60,
-          "unidad": "EA",
-          "categoria": "60102405"
-        },
-        {
-          "nombre": "Contadores o sets de actividades con contadores para las matemáticas básicas",
-          "descripcion": "Cantidad: 60 unidades | Tabla de Valor Posicional UM / Gráficos Teduca (tablero borrable de doble cara en plástico laminado semirrígido lavable; Lado A: valor posicional hasta Unidades de Mil; Lado B: diagrama de barras vertical de 4 columnas, tabla de registro y cuadrícula numerada del 0 al 10).",
-          "cantidad": 60,
-          "unidad": "EA",
-          "categoria": "60102405"
-        },
-        {
-          "nombre": "Contadores o sets de actividades con contadores para las matemáticas básicas",
-          "descripcion": "Cantidad: 70 unidades | Tabla de Valor Posicional hasta 1 Millón Teduca (tablero borrable de doble cara en plástico laminado semirrígido lavable; Lado A: composición numérica desde Unidades hasta Unidad de Millón; Lado B: plantilla isométrica, cuadrícula de puntos/geoplano y redes de cuerpos geométricos).",
-          "cantidad": 70,
-          "unidad": "EA",
-          "categoria": "60102405"
-        },
-        {
-          "nombre": "Contadores o sets de actividades con contadores para las matemáticas básicas",
-          "descripcion": "Cantidad: 100 unidades | Tabla de Valor Posicional Decimales / Milésimos Teduca (tablero borrable de doble cara en plástico laminado semirrígido lavable; Lado A: separación de parte entera [Decenas y Unidades] y decimales [Décimas, Centésimas y Milésimas]; Lado B: cuadrícula de 10x10 de 100 cuadros para representación de centésimas y recuadro de registro).",
-          "cantidad": 100,
-          "unidad": "EA",
-          "categoria": "60102405"
-        }
-      ],
-      "adjuntos": [
-        {
-          "id": "B1797714-4E85-4ACF-994A-4A0E1626FE2F",
-          "nombre": "ANEXO N° 1 IDENTIFICACION COMPRA AGIL.docx",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/2328-1224-COT26/ANEXO%20N%C2%B0%201%20IDENTIFICACION%20COMPRA%20AGIL.docx",
-          "tipo": "docx"
-        }
-      ],
-      "descripcion": "SE INVITA A COTIZAR MATERIAL DIDÁCTICO PARA LA ASIGNATURA DE MATEMÁTICA DE 1° Y 2° CICLO PARA LA ESCUELA ESPAÑA, FICHA 24485. OBLIGATORIO ADJUNTAR ANEXO 1 DE IDENTIFICACIÓN Y ESPECIFICACIONES TÉCNICAS. LA ORDEN DE COMPRA DEBE SER ACEPTADA EN EL PORTAL MERCADO PÚBLICO DENTRO DE LOS 5 DÍAS CORRIDOS DESDE SU EMISIÓN O SERÁ CANCELADA. LUGAR DE DESPACHO OBLIGATORIO: EL TENIENTE 169 BODEGA 3, PARQUE INDUSTRIAL PUERTO MONTT,",
-      "direccion_entrega": "EL TENIENTE 169 BODEGA 3, PARQUE INDUSTRIAL",
-      "plazo_entrega_dias": 5,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=2328-1224-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=2328-1224-COT26",
-      "prefiltro": {
-        "pasa": false,
-        "razon": "cierre a menos de 24h"
-      },
-      "score_heuristico": 78,
-      "ia": {
-        "v": true,
-        "s": 60,
-        "r": "Bloques multibase plástico, tableros numéricos plástico didácticos",
-        "t": 1791360729459,
-        "pv": 3
-      }
-    },
     {
       "codigo": "4451-114-LE26",
       "tipo": "licitacion",
@@ -210,12 +127,67 @@
         "pasa": true,
         "razon": ""
       },
-      "score_heuristico": 24,
+      "score_heuristico": 14,
       "ia": {
         "v": true,
         "s": 55,
         "r": "Juguetes didácticos plástico 3D variable, alto volumen",
         "t": 1791963984715,
+        "pv": 3
+      }
+    },
+    {
+      "codigo": "4477-309-COT26",
+      "tipo": "compra_agil",
+      "nombre": "MEDALLAS ESTIMULOS ESC. SAN LUIS",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "Ilustre Municipalidad de Contulmo - Educación",
+      "rut_organismo": "69.160.601-5",
+      "unidad_compra": "Educación",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 650000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-10-21 10:31",
+      "fecha_cierre": "2026-10-24 10:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "medalla"
+      ],
+      "total_ofertas": 3,
+      "productos": [
+        {
+          "nombre": "Medallas",
+          "descripcion": "MEDALLAS INSTITUCIONALES PERSONALIZADAS CON LOGO EN RESINA. REVISAR ADJUNTO CON IMAGENES.\nCORREO PARA COORDINAR UNA VEZ, ADJUDICADA LA COMPRA. escuelasanluisdecontulmo@yahoo.com\nCON COPIA A adquisicionesdaem@contulmo.cl",
+          "cantidad": 100,
+          "unidad": "EA",
+          "categoria": "49101701"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "07045B99-FB14-4F7C-B8C6-D06BEC30D962",
+          "nombre": "ORD. N° 322 - 2026 ADQUISICIÓN MEDALLAS OCTAVOS BASICOS Y SELLOS .pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/4477-309-COT26/ORD.%20N%C2%B0%20322%20-%202026%20ADQUISICI%C3%93N%20MEDALLAS%20OCTAVOS%20BASICOS%20Y%20SELLOS%20.pdf",
+          "tipo": "pdf"
+        }
+      ],
+      "descripcion": "COTIZAR ARTICULOS QUE SE DETALLAN EN DESCRIPCION. ADJUNTAR OBLIGATORIAMNTE IMAGENES Y CARACTERISTICAS DE LO OFERTADO PARA EL PROCESO DE EVALUACION, DE LO CONTRARIO QUEDARÁ FUERA DEL PROCESO.",
+      "direccion_entrega": "CALLE FRESIA 350 ESC. SAN LUIS DE CONTULMO",
+      "plazo_entrega_dias": 3,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=4477-309-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=4477-309-COT26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 67,
+      "ia": {
+        "v": true,
+        "s": 50,
+        "r": "Medallas institucionales personalizadas en resina: material y producto fabricables; plazo corto",
+        "t": 1792651709576,
         "pv": 3
       }
     },
@@ -250,7 +222,7 @@
         "pasa": true,
         "razon": ""
       },
-      "score_heuristico": 24,
+      "score_heuristico": 14,
       "ia": {
         "v": true,
         "s": 50,
@@ -328,11 +300,11 @@
       "nombre": "P. 316-2026 ADQUISICIÓN DE JUGUETES NAVIDAD COMUNAL TEMUCO 2026",
       "estado": "publicada",
       "estado_glosa": "Publicada",
-      "organismo": "I MUNICIPALIDAD DE TEMUCO",
-      "rut_organismo": "69.190.700-7",
-      "unidad_compra": "I MUNICIPALIDAD DE TEMUCO",
-      "region": 9,
-      "region_nombre": "Araucanía",
+      "organismo": null,
+      "rut_organismo": null,
+      "unidad_compra": null,
+      "region": null,
+      "region_nombre": null,
       "monto_clp": null,
       "moneda": "CLP",
       "fecha_publicacion": null,
@@ -342,59 +314,9 @@
         "juguete"
       ],
       "total_ofertas": null,
-      "productos": [
-        {
-          "nombre": "Juguetes didácticos",
-          "descripcion": "LÍNEA 1 DE 0-24 MESES, SEGÚN BASES Y ESPECIFICACIONES TÉCNICAS",
-          "cantidad": 1.0,
-          "unidad": "Global",
-          "categoria": "60141006"
-        },
-        {
-          "nombre": "Juguetes didácticos",
-          "descripcion": "LÍNEA 2 DE 0-24 MESES, SEGÚN BASES Y ESPECIFICACIONES TÉCNICAS",
-          "cantidad": 1.0,
-          "unidad": "Global",
-          "categoria": "60141006"
-        },
-        {
-          "nombre": "Juguetes didácticos",
-          "descripcion": "LÍNEA 3 DE 3-5 AÑOS, SEGÚN BASES Y ESPECIFICACIONES TÉCNICAS\t\r\n ",
-          "cantidad": 1.0,
-          "unidad": "Global",
-          "categoria": "60141006"
-        },
-        {
-          "nombre": "Juguetes didácticos",
-          "descripcion": "LÍNEA 4 DE 3-5 AÑOS, SEGÚN BASES Y ESPECIFICACIONES TÉCNICAS",
-          "cantidad": 1.0,
-          "unidad": "Global",
-          "categoria": "60141006"
-        },
-        {
-          "nombre": "Juguetes didácticos",
-          "descripcion": "LÍNEA 5 DE 6-8 AÑOS, SEGÚN BASES Y ESPECIFICACIONES TÉCNICAS",
-          "cantidad": 1.0,
-          "unidad": "Global",
-          "categoria": "60141006"
-        },
-        {
-          "nombre": "Juguetes didácticos",
-          "descripcion": "LÍNEA 6 DE 6-8 AÑOS, SEGÚN BASES Y ESPECIFICACIONES TÉCNICAS",
-          "cantidad": 1.0,
-          "unidad": "Global",
-          "categoria": "60141006"
-        },
-        {
-          "nombre": "Juguetes didácticos",
-          "descripcion": "LÍNEA 7 LÍNEA INCLUSIVA, SEGÚN BASES Y ESPECIFICACIONES TÉCNICAS",
-          "cantidad": 1.0,
-          "unidad": "Global",
-          "categoria": "60141006"
-        }
-      ],
+      "productos": [],
       "adjuntos": [],
-      "descripcion": "ADQUISICIÓN DE JUGUETES NAVIDAD COMUNAL TEMUCO 2026, DE ACUERDO A EXIGENCIAS EN BASES ADMINISTRATIVAS Y ESPECIFICACIONES TÉCNICAS POR LÍNEAS.",
+      "descripcion": null,
       "direccion_entrega": null,
       "plazo_entrega_dias": null,
       "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1658-252-LE26",
@@ -403,8 +325,7 @@
         "pasa": true,
         "razon": ""
       },
-      "score_heuristico": 48,
-      "tipo_licitacion": "LE",
+      "score_heuristico": 14,
       "ia": {
         "v": true,
         "s": 45,
@@ -414,125 +335,1277 @@
       }
     },
     {
-      "codigo": "3334-272-COT26",
+      "codigo": "2324-1018-COT26",
       "tipo": "compra_agil",
-      "nombre": "ADQUISICIÓN DE REPUESTOS PARA VEHÍCULO DEL DEPARTAMENTO DE SALUD LA UNIÓN",
+      "nombre": "ADQUISICION DE JUGUETES DE NAVIDAD CARGAS FAMILIARES  SOCIOS BIENESTAR MUNICIPAL AÑO 2026",
       "estado": "publicada",
       "estado_glosa": "Publicada",
-      "organismo": "I MUNICIPALIDAD DE LA UNION",
-      "rut_organismo": "69.200.800-6",
-      "unidad_compra": "Ilustre Municipalidad de La Unión",
+      "organismo": "I MUNICIPALIDAD DE PUERTO MONTT",
+      "rut_organismo": "69.220.100-0",
+      "unidad_compra": "Departamento de Licitaciones y gestión de Abastecimiento ",
       "region": null,
       "region_nombre": null,
-      "monto_clp": 2300000,
+      "monto_clp": 4321961,
       "moneda": "CLP",
-      "fecha_publicacion": "2026-10-20 10:30",
-      "fecha_cierre": "2026-10-22 11:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [],
-      "total_ofertas": 3,
-      "productos": [
-        {
-          "nombre": "Kit de mantenimiento de vehículo de soporte en tierra",
-          "descripcion": "Se requiere la adquisición de un Kit de embrague Original para mantener la continuidad operativa del Vehículo Station Wagon, Peugeot año 2014. según detalle en solicitud de compra N° 273 y terminos de referencias adjuntos, incluir flete y enviar contacto para gestionar la compra. ",
-          "cantidad": 1,
-          "unidad": "EA",
-          "categoria": "25191513"
-        },
-        {
-          "nombre": "Kit de mantenimiento de vehículo de soporte en tierra",
-          "descripcion": "Se requiere la  adquisición de una caja de cambio Original para mantener la continuidad operativa del Vehículo Station Wagon, Peugeot año 2014. según detalle en solicitud de compra N° 273 y terminos de referencias adjuntos, incluir flete y enviar contacto para gestionar la compra. ",
-          "cantidad": 1,
-          "unidad": "EA",
-          "categoria": "25191513"
-        }
-      ],
-      "adjuntos": [
-        {
-          "id": "B91C86B1-1C8E-40D3-9EA2-232E99017F50",
-          "nombre": "termino referencia Repuestos originales Vehículos 2026...docx",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/3334-272-COT26/termino%20referencia%20Repuestos%20originales%20Veh%C3%ADculos%202026...docx",
-          "tipo": "docx"
-        },
-        {
-          "id": "D727F355-B8F3-430E-8519-9369BFA1FB7D",
-          "nombre": "solicitud de compra.pdf",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/3334-272-COT26/solicitud%20de%20compra.pdf",
-          "tipo": "pdf"
-        }
-      ],
-      "descripcion": "El Departamento de Salud de La union, requiere la adquisición de repuestos Originales para mantener la continuidad operativa del Vehículo Station Wagon, Peugeot año 2014. según detalle en solicitud de compra N° 273 y terminos de referencias adjuntos, incluir flete y enviar contacto para gestionar la compra. \n\n",
-      "direccion_entrega": "Centro de Salud Familiar Dr. Alfredo Gantz Mann, Los Tineos N° 55 El Maitén La Unión.",
-      "plazo_entrega_dias": 6,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=3334-272-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=3334-272-COT26",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 26,
-      "sin_evaluar": true
-    },
-    {
-      "codigo": "806208-97-COT26",
-      "tipo": "compra_agil",
-      "nombre": "Adquisición de KIT de mantenimiento preventivo para Simuladores Clínicos FACMED UTA",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": "UNIVERSIDAD DE TARAPACA",
-      "rut_organismo": "70.770.800-k",
-      "unidad_compra": "Facultad de Medicina",
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": 6200000,
-      "moneda": "CLP",
-      "fecha_publicacion": "2026-10-19 09:05",
-      "fecha_cierre": "2026-10-22 10:00",
+      "fecha_publicacion": "2026-10-13 11:12",
+      "fecha_cierre": "2026-10-24 09:29",
       "fecha_ultimo_cambio": null,
       "palabras_clave_match": [
-        "simulador"
+        "juguete"
       ],
       "total_ofertas": 0,
       "productos": [
         {
-          "nombre": "Simuladores de embarazo",
-          "descripcion": "Kit de mantenimiento preventivo para SimJunior ",
-          "cantidad": 1,
-          "unidad": "KIT",
-          "categoria": "60105909"
+          "nombre": "Juguetes táctiles",
+          "descripcion": "CEBRA BLOQUES DE ACTIVIDADES",
+          "cantidad": 2,
+          "unidad": "EA",
+          "categoria": "60124514"
         },
         {
-          "nombre": "Simuladores de embarazo",
-          "descripcion": "Kit de mantenimiento preventivo para Resusci Anne ",
+          "nombre": "Juguetes táctiles",
+          "descripcion": "SET 253 BLOQUES EN BALDE",
+          "cantidad": 2,
+          "unidad": "EA",
+          "categoria": "60124514"
+        },
+        {
+          "nombre": "Juguetes táctiles",
+          "descripcion": "CAMARA DIGITAL DE ACCION DE 1080P CON ACCESORIOS",
+          "cantidad": 7,
+          "unidad": "EA",
+          "categoria": "60124514"
+        },
+        {
+          "nombre": "Juguetes táctiles",
+          "descripcion": "PACK 15 FIGURAS SIMILAR A MAX",
           "cantidad": 1,
-          "unidad": "KIT",
-          "categoria": "60105909"
+          "unidad": "EA",
+          "categoria": "60124514"
+        },
+        {
+          "nombre": "Juguetes táctiles",
+          "descripcion": "MUÑECA PEINADO SOÑADO CON 5 SORPRESAS",
+          "cantidad": 1,
+          "unidad": "EA",
+          "categoria": "60124514"
+        },
+        {
+          "nombre": "Juguetes táctiles",
+          "descripcion": "MUÑECA PRINCESA DE 27 CMS CON CABALLO UNICORNIO",
+          "cantidad": 2,
+          "unidad": "EA",
+          "categoria": "60124514"
+        },
+        {
+          "nombre": "Juguetes táctiles",
+          "descripcion": "PISTA TIBURON SIMILAR A METAL MACHINES ZURU",
+          "cantidad": 4,
+          "unidad": "EA",
+          "categoria": "60124514"
+        },
+        {
+          "nombre": "Juguetes táctiles",
+          "descripcion": "CAMIONETA RADIO CONTROLADA RC DE 20 CMS CON LUCES",
+          "cantidad": 5,
+          "unidad": "EA",
+          "categoria": "60124514"
+        },
+        {
+          "nombre": "Juguetes táctiles",
+          "descripcion": "HELICOPTERO 2 EN 1 CONTROL MANO Y RADIO CONTROLADO",
+          "cantidad": 5,
+          "unidad": "EA",
+          "categoria": "60124514"
+        },
+        {
+          "nombre": "Juguetes táctiles",
+          "descripcion": "AUDIFONO IN EAR CON ESTUCHE RECARGABLE",
+          "cantidad": 2,
+          "unidad": "EA",
+          "categoria": "60124514"
+        },
+        {
+          "nombre": "Juguetes táctiles",
+          "descripcion": "PISTA GORILA SIMILAR A METAL MACHINES",
+          "cantidad": 1,
+          "unidad": "EA",
+          "categoria": "60124514"
+        },
+        {
+          "nombre": "Juguetes táctiles",
+          "descripcion": "CAMIONETA MONSTER WHEEL",
+          "cantidad": 1,
+          "unidad": "EA",
+          "categoria": "60124514"
+        },
+        {
+          "nombre": "Juguetes táctiles",
+          "descripcion": "PELUCHE GATO ENAMORADO EN HUEVO",
+          "cantidad": 4,
+          "unidad": "EA",
+          "categoria": "60124514"
+        },
+        {
+          "nombre": "Juguetes táctiles",
+          "descripcion": "PLAY-DOH LITTLE CHEF STARTER SET",
+          "cantidad": 1,
+          "unidad": "EA",
+          "categoria": "60124514"
+        },
+        {
+          "nombre": "Juguetes táctiles",
+          "descripcion": "AUDIFONO BLUETOOTH",
+          "cantidad": 1,
+          "unidad": "EA",
+          "categoria": "60124514"
+        },
+        {
+          "nombre": "Juguetes táctiles",
+          "descripcion": "AUDIFONO GAMER CON OREJAS",
+          "cantidad": 1,
+          "unidad": "EA",
+          "categoria": "60124514"
+        },
+        {
+          "nombre": "Juguetes táctiles",
+          "descripcion": "LANZA AGUA HYPERLOAD SKINS SONIC DE 500 ML",
+          "cantidad": 1,
+          "unidad": "EA",
+          "categoria": "60124514"
+        },
+        {
+          "nombre": "Juguetes táctiles",
+          "descripcion": "ESPEJO TRIPTICO PLEGABLE 72 LUZ LED BLANCO",
+          "cantidad": 6,
+          "unidad": "EA",
+          "categoria": "60124514"
+        },
+        {
+          "nombre": "Juguetes táctiles",
+          "descripcion": "LANZA DARDOS INSANITY MANIC CON 24 DARDOS",
+          "cantidad": 4,
+          "unidad": "EA",
+          "categoria": "60124514"
+        },
+        {
+          "nombre": "Juguetes táctiles",
+          "descripcion": "FIGURA 40 CMS SUPER SAIYAN GOKU DRAGON BALL",
+          "cantidad": 1,
+          "unidad": "EA",
+          "categoria": "60124514"
+        },
+        {
+          "nombre": "Juguetes táctiles",
+          "descripcion": "PELUCHE SORPRESA SIMILAR A RAINBOCORNS",
+          "cantidad": 1,
+          "unidad": "EA",
+          "categoria": "60124514"
+        },
+        {
+          "nombre": "Juguetes táctiles",
+          "descripcion": "AUDIFONO GAMER LUMINOSO",
+          "cantidad": 2,
+          "unidad": "EA",
+          "categoria": "60124514"
+        },
+        {
+          "nombre": "Juguetes táctiles",
+          "descripcion": "PARLANTE BARRA BLUETOOTH CON LUCES",
+          "cantidad": 2,
+          "unidad": "EA",
+          "categoria": "60124514"
+        },
+        {
+          "nombre": "Juguetes táctiles",
+          "descripcion": "PIZARRA 2 EN 1 DIBUJO",
+          "cantidad": 1,
+          "unidad": "EA",
+          "categoria": "60124514"
+        },
+        {
+          "nombre": "Juguetes táctiles",
+          "descripcion": "MALETA LAPICES 180 PIEZAS",
+          "cantidad": 11,
+          "unidad": "EA",
+          "categoria": "60124514"
+        },
+        {
+          "nombre": "Juguetes táctiles",
+          "descripcion": "LENTES DE REALIDAD VIRTUAL",
+          "cantidad": 5,
+          "unidad": "EA",
+          "categoria": "60124514"
+        },
+        {
+          "nombre": "Juguetes táctiles",
+          "descripcion": "PELUCHE MEDIANO 23 CMS ECO FRIENDLY",
+          "cantidad": 1,
+          "unidad": "EA",
+          "categoria": "60124514"
+        },
+        {
+          "nombre": "Juguetes táctiles",
+          "descripcion": "FIGURA SONIC 13 CMS",
+          "cantidad": 1,
+          "unidad": "EA",
+          "categoria": "60124514"
+        },
+        {
+          "nombre": "Juguetes táctiles",
+          "descripcion": "FIGURA VOLADORA CON SENSOR TOY STORY",
+          "cantidad": 4,
+          "unidad": "EA",
+          "categoria": "60124514"
+        },
+        {
+          "nombre": "Juguetes táctiles",
+          "descripcion": "FIGURA LANZA Y ATRAPA BUZZ LIGHTYEAR TOY STORY",
+          "cantidad": 1,
+          "unidad": "EA",
+          "categoria": "60124514"
+        },
+        {
+          "nombre": "Juguetes táctiles",
+          "descripcion": "PARLANTE ASTRONAUTA BLUETOOTH",
+          "cantidad": 8,
+          "unidad": "EA",
+          "categoria": "60124514"
+        },
+        {
+          "nombre": "Juguetes táctiles",
+          "descripcion": "KIT STREAMING PORTABLE",
+          "cantidad": 1,
+          "unidad": "EA",
+          "categoria": "60124514"
+        },
+        {
+          "nombre": "Juguetes táctiles",
+          "descripcion": "SMARTWATCH 2 CORREAS",
+          "cantidad": 8,
+          "unidad": "EA",
+          "categoria": "60124514"
+        },
+        {
+          "nombre": "Juguetes táctiles",
+          "descripcion": "AUDIFONOS BLUETOOTH LUMINOSO RGB NEGRO",
+          "cantidad": 1,
+          "unidad": "EA",
+          "categoria": "60124514"
+        },
+        {
+          "nombre": "Juguetes táctiles",
+          "descripcion": "PARLANTE INTELIGENTE CON VOZ",
+          "cantidad": 3,
+          "unidad": "EA",
+          "categoria": "60124514"
+        },
+        {
+          "nombre": "Juguetes táctiles",
+          "descripcion": "TOCADOR 46 PIEZAS",
+          "cantidad": 2,
+          "unidad": "EA",
+          "categoria": "60124514"
+        },
+        {
+          "nombre": "Juguetes táctiles",
+          "descripcion": "CAJA REGISTRADORA CON LUZ Y SONIDO 38 PIEZAS",
+          "cantidad": 5,
+          "unidad": "EA",
+          "categoria": "60124514"
+        },
+        {
+          "nombre": "Juguetes táctiles",
+          "descripcion": "FIGURAS 10 CM SUPER MARIO",
+          "cantidad": 2,
+          "unidad": "EA",
+          "categoria": "60124514"
+        },
+        {
+          "nombre": "Juguetes táctiles",
+          "descripcion": "MUÑECA 37 CM PRINCESAS",
+          "cantidad": 1,
+          "unidad": "EA",
+          "categoria": "60124514"
+        },
+        {
+          "nombre": "Juguetes táctiles",
+          "descripcion": "AUDIFONO TWS PRO CANCELACION DE RUIDOS Y PANTALLA ACTIVA",
+          "cantidad": 7,
+          "unidad": "EA",
+          "categoria": "60124514"
+        },
+        {
+          "nombre": "Juguetes táctiles",
+          "descripcion": "AUDIO ON EAR REDUCTOR DE RUIDOS AMBIENTALES",
+          "cantidad": 7,
+          "unidad": "EA",
+          "categoria": "60124514"
+        },
+        {
+          "nombre": "Juguetes táctiles",
+          "descripcion": "PARLANTE BT MANOS LIBRES",
+          "cantidad": 2,
+          "unidad": "EA",
+          "categoria": "60124514"
+        },
+        {
+          "nombre": "Juguetes táctiles",
+          "descripcion": "MOCHILA 3D FACE ANGEL",
+          "cantidad": 1,
+          "unidad": "EA",
+          "categoria": "60124514"
+        },
+        {
+          "nombre": "Juguetes táctiles",
+          "descripcion": "BALON LICENCIADO ESTADIO REAL MADRID",
+          "cantidad": 4,
+          "unidad": "EA",
+          "categoria": "60124514"
+        },
+        {
+          "nombre": "Juguetes táctiles",
+          "descripcion": "PELOTA DE BASQUET ZIG GENERATION EN CAJA",
+          "cantidad": 1,
+          "unidad": "EA",
+          "categoria": "60124514"
+        },
+        {
+          "nombre": "Juguetes táctiles",
+          "descripcion": "LUZ FIESTA LASER BALL STROBE WASH 5 LED MIC MUSIC RGBW 4 EN 1",
+          "cantidad": 1,
+          "unidad": "EA",
+          "categoria": "60124514"
+        },
+        {
+          "nombre": "Juguetes táctiles",
+          "descripcion": "TABLET ESCRITURA LCD 10\" PIZARRA CON LAPIZ MULTICOLOR",
+          "cantidad": 6,
+          "unidad": "EA",
+          "categoria": "60124514"
+        },
+        {
+          "nombre": "Juguetes táctiles",
+          "descripcion": "ALISADOR ELEGANCE AVOCADO",
+          "cantidad": 6,
+          "unidad": "EA",
+          "categoria": "60124514"
+        },
+        {
+          "nombre": "Juguetes táctiles",
+          "descripcion": "ALISADOR ELEGANCE BLUE 3D",
+          "cantidad": 3,
+          "unidad": "EA",
+          "categoria": "60124514"
+        },
+        {
+          "nombre": "Juguetes táctiles",
+          "descripcion": "CEPILLO INNOVA DIGITAL",
+          "cantidad": 1,
+          "unidad": "EA",
+          "categoria": "60124514"
+        },
+        {
+          "nombre": "Juguetes táctiles",
+          "descripcion": "PELUCHE LOTSO BIG FOOT 30 CMS",
+          "cantidad": 3,
+          "unidad": "EA",
+          "categoria": "60124514"
+        },
+        {
+          "nombre": "Juguetes táctiles",
+          "descripcion": "CORREPASILLO",
+          "cantidad": 4,
+          "unidad": "EA",
+          "categoria": "60124514"
+        },
+        {
+          "nombre": "Juguetes táctiles",
+          "descripcion": "MESA DIDACTICA CON MUSICA Y SONIDO",
+          "cantidad": 6,
+          "unidad": "EA",
+          "categoria": "60124514"
+        },
+        {
+          "nombre": "Juguetes táctiles",
+          "descripcion": "PIANO MUSICAL DE LEON",
+          "cantidad": 2,
+          "unidad": "EA",
+          "categoria": "60124514"
+        },
+        {
+          "nombre": "Juguetes táctiles",
+          "descripcion": "ESTACIONAMIENTO PISTA CIUDAD 13 PIEZAS",
+          "cantidad": 1,
+          "unidad": "EA",
+          "categoria": "60124514"
+        },
+        {
+          "nombre": "Juguetes táctiles",
+          "descripcion": "CAJA DE HERRAMIENTAS DIDACTICA CON SONIDOS",
+          "cantidad": 1,
+          "unidad": "EA",
+          "categoria": "60124514"
+        },
+        {
+          "nombre": "Juguetes táctiles",
+          "descripcion": "CUBOS MAGNETICOS DE CONSTRUCCION 48 PIEZAS",
+          "cantidad": 5,
+          "unidad": "EA",
+          "categoria": "60124514"
+        },
+        {
+          "nombre": "Juguetes táctiles",
+          "descripcion": "ROBOT SMART CON LUZ Y SONIDO",
+          "cantidad": 4,
+          "unidad": "EA",
+          "categoria": "60124514"
+        },
+        {
+          "nombre": "Juguetes táctiles",
+          "descripcion": "SET 2 ARCOS DE FUTBOL CON PELOTA",
+          "cantidad": 5,
+          "unidad": "EA",
+          "categoria": "60124514"
+        },
+        {
+          "nombre": "Juguetes táctiles",
+          "descripcion": "AUTO SOLAR ARMABLE 50 PIEZAS",
+          "cantidad": 1,
+          "unidad": "EA",
+          "categoria": "60124514"
+        },
+        {
+          "nombre": "Juguetes táctiles",
+          "descripcion": "SET DE MOSTACILLAS CAJA 3 NIVELES",
+          "cantidad": 4,
+          "unidad": "EA",
+          "categoria": "60124514"
+        },
+        {
+          "nombre": "Juguetes táctiles",
+          "descripcion": "TABLERO DE BASQUETBALL CON PELOTA",
+          "cantidad": 4,
+          "unidad": "EA",
+          "categoria": "60124514"
+        },
+        {
+          "nombre": "Juguetes táctiles",
+          "descripcion": "CAMIONETA OFF ROAD RADIO CONTROLADA 6 RUEDAS 18 CMS",
+          "cantidad": 2,
+          "unidad": "EA",
+          "categoria": "60124514"
+        },
+        {
+          "nombre": "Juguetes táctiles",
+          "descripcion": "MALETA CON SET DE 1000 MOSTACILLAS",
+          "cantidad": 1,
+          "unidad": "EA",
+          "categoria": "60124514"
+        },
+        {
+          "nombre": "Juguetes táctiles",
+          "descripcion": "CAMIONETA 4X4 RADIO CONTROLADA SIMULATION SPRAY 12 CMS",
+          "cantidad": 5,
+          "unidad": "EA",
+          "categoria": "60124514"
+        },
+        {
+          "nombre": "Juguetes táctiles",
+          "descripcion": "CAMARA FOTOGRAFICA IMPRESORA BLANCO NEGRO CON ROLLO",
+          "cantidad": 4,
+          "unidad": "EA",
+          "categoria": "60124514"
+        },
+        {
+          "nombre": "Juguetes táctiles",
+          "descripcion": "BOLSO PORTATIL LILY PAD",
+          "cantidad": 3,
+          "unidad": "EA",
+          "categoria": "60124514"
+        },
+        {
+          "nombre": "Juguetes táctiles",
+          "descripcion": "SET DE LAPICES 88 PIEZAS EN MALETA",
+          "cantidad": 4,
+          "unidad": "EA",
+          "categoria": "60124514"
         }
       ],
       "adjuntos": [
         {
-          "id": "3B29DFA4-3D8D-43FF-8682-2C7FEA503866",
-          "nombre": "ANEXO_N°1 COMPRA_AGIL_Y_CONDICIONES_COMERCIALES.docx",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/806208-97-COT26/ANEXO_N%C2%B01%20COMPRA_AGIL_Y_CONDICIONES_COMERCIALES.docx",
-          "tipo": "docx"
+          "id": "4348AAC0-7130-4B12-8169-6E00C732FB52",
+          "nombre": "ESPECIFICACIONES-TECNICAS-JUGUETES-2026.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/2324-1018-COT26/ESPECIFICACIONES-TECNICAS-JUGUETES-2026.pdf",
+          "tipo": "pdf"
         },
         {
-          "id": "572F242E-0D63-403A-9E60-70E857DA457F",
-          "nombre": "Anexo_2_Especificiaciones_Tecnicas.docx",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/806208-97-COT26/Anexo_2_Especificiaciones_Tecnicas.docx",
+          "id": "AF3C0DC2-CCDA-42FF-9566-7CCE3A188B42",
+          "nombre": "CDP-JUGUETES-NAVIDAD-2026.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/2324-1018-COT26/CDP-JUGUETES-NAVIDAD-2026.pdf",
+          "tipo": "pdf"
+        },
+        {
+          "id": "6D397E2D-388F-481A-9004-79AD2534E730",
+          "nombre": "Solicitud-de-compra-juguetes-2026 (2).pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/2324-1018-COT26/Solicitud-de-compra-juguetes-2026%20%282%29.pdf",
+          "tipo": "pdf"
+        },
+        {
+          "id": "619E14D0-E616-4930-8D50-B18159E4BAED",
+          "nombre": "ANEXO N°1    COMPRA AGIL.docx",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/2324-1018-COT26/ANEXO%20N%C2%B01%20COMPRA%20AGIL.docx",
           "tipo": "docx"
         }
       ],
-      "descripcion": "Se requiere la adquisición de kits de mantenimiento preventivo para los equipos de simulación clínica SimJunior y Resusci Anne, marca Laerdal, según especificaciones técnicas descritas en el Anexo 2 para la Facultad de Medicina. Esta compra ágil se rige bajo las normativas del Anexo 1 Condiciones comerciales. Enviar ofertas indicando, Precio, Garantía y Plazo de entrega.",
-      "direccion_entrega": "Av. Senador Luis Valente Rossi 2223 Arica, Arica, Región de Arica y Parinacota",
-      "plazo_entrega_dias": 30,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=806208-97-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=806208-97-COT26",
+      "descripcion": "SEGÚN DETALLE DE TÉRMINOS TÉCNICOS DE REFERENCIA ADJUNTO Y ANEXO N°1 OBLIGATORIO CON DESCRIPCION TECNICA DE LA OFERTA (SI NO SE ADJUNTA ANEXO N°1, SU OFERTA NO SERÁ EVALUADA POR FALTA DE ANTECEDENTES Y QUEDARÁ INADMISIBLE).LOS PRODUCTOS DEBEN SER ENTREGADOS EN SAN FELIPE # 80, SUBTERRANEO, PUERTO MONTT EL DÍA 14 DE DICIEMBRE.",
+      "direccion_entrega": "SAN FELIPE # 80, SUBTERRANEO",
+      "plazo_entrega_dias": 55,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=2324-1018-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=2324-1018-COT26",
       "prefiltro": {
         "pasa": true,
         "razon": ""
       },
-      "score_heuristico": 25,
+      "score_heuristico": 64,
+      "ia": {
+        "v": true,
+        "s": 35,
+        "r": "Juguetes navidad imprimibles 3D, plazo 5+ días",
+        "t": 1791963984715,
+        "pv": 3
+      }
+    },
+    {
+      "codigo": "3326-601-COT26",
+      "tipo": "compra_agil",
+      "nombre": "SERVICIO DE MANTENIMIENTO CORRECTIVO PARA VEHÍCULO FISCAL BL-702, MARCA JAC, MODELO SUNRAY 2.7 EXECUTIVE , AÑO 2023 DE CARGO DEL DEPTO DE TRANSPORTES L.3",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "DIRECCION DE LOGISTICA DE CARABINEROS",
+      "rut_organismo": "61.938.500-4",
+      "unidad_compra": "Depto.Transportes L.3",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 600000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-10-21 16:18",
+      "fecha_cierre": "2026-10-23 12:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": 1,
+      "productos": [
+        {
+          "nombre": "Reparación y pintura carrocerías",
+          "descripcion": "SERVICIO DE MANTENIMIENTO CORRECTIVO PARA VEHÍCULO FISCAL BL-702, MARCA JAC, MODELO SUNRAY 2.7 EXECUTIVE , AÑO 2023 DE CARGO DEL DEPTO DE TRANSPORTES L.3",
+          "cantidad": 1,
+          "unidad": "000",
+          "categoria": "78180101"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "2084DBCA-4262-4AE0-BB90-73DDCF9B1F80",
+          "nombre": "ANEXO N° 2 BL-702.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/3326-601-COT26/ANEXO%20N%C2%B0%202%20BL-702.pdf",
+          "tipo": "pdf"
+        },
+        {
+          "id": "19D108A8-3DBC-4E5E-B6CB-1F44F61CFCF2",
+          "nombre": "CARTA DE COMPROMISO ACTUALIZADA.docx",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/3326-601-COT26/CARTA%20DE%20COMPROMISO%20ACTUALIZADA.docx",
+          "tipo": "docx"
+        },
+        {
+          "id": "EDB82CFC-D51C-4074-BB66-2E52C3A26467",
+          "nombre": "DECLARACIÓN JURADA SIMPLE CRITERIOS DE SUSTENTABILIDAD AMBIENTAL.docx",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/3326-601-COT26/DECLARACI%C3%93N%20JURADA%20SIMPLE%20CRITERIOS%20DE%20SUSTENTABILIDAD%20AMBIENTAL.docx",
+          "tipo": "docx"
+        },
+        {
+          "id": "D61191A4-84D4-4617-B347-FC06CE37F37A",
+          "nombre": "DECLARACIÓN JURADA SIMPLE SEGURIDAD.docx",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/3326-601-COT26/DECLARACI%C3%93N%20JURADA%20SIMPLE%20SEGURIDAD.docx",
+          "tipo": "docx"
+        }
+      ],
+      "descripcion": "SERVICIO DE MANTENIMIENTO CORRECTIVO PARA VEHÍCULO FISCAL BL-702, MARCA JAC, MODELO SUNRAY 2.7 EXECUTIVE , AÑO 2023 DE CARGO DEL DEPTO DE TRANSPORTES L.3",
+      "direccion_entrega": "AV. FERMÍN VIVACETA N° 2700",
+      "plazo_entrega_dias": 5,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=3326-601-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=3326-601-COT26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 29,
+      "sin_evaluar": true
+    },
+    {
+      "codigo": "1079580-395-COT26",
+      "tipo": "compra_agil",
+      "nombre": "ADQ. DE REPUESTOS PARA VEHICULOS FISCALES ÑUBLE.",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "SECCIÓN COMPRAS XVI ZONA",
+      "rut_organismo": "62.000.520-7",
+      "unidad_compra": "SECCIÓN COMPRAS ZONA DE CARABINEROS ÑUBLE",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 2450000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-10-21 16:06",
+      "fecha_cierre": "2026-10-23 12:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": 1,
+      "productos": [
+        {
+          "nombre": "Vehículos de policía",
+          "descripcion": "CORREA CVT. GENUINA O ORIGINAL\tNUEVO Y SIN USO. CONFORME A DETALLE ADJUNTO.",
+          "cantidad": 1,
+          "unidad": "EA",
+          "categoria": "25101702"
+        },
+        {
+          "nombre": "Vehículos de policía",
+          "descripcion": "JUEGO DE BALATAS TRASERAS RANGER. GENUINA O ORIGINAL\tNUEVO Y SIN USO. CONFORME A DETALLE ADJUNTO.",
+          "cantidad": 1,
+          "unidad": "EA",
+          "categoria": "25101702"
+        },
+        {
+          "nombre": "Vehículos de policía",
+          "descripcion": "PARACHOQUE RANGER 2020/DL. GENUINA O ORIGINAL\tNUEVO Y SIN USO. CONFORME A DETALLE ADJUNTO.",
+          "cantidad": 1,
+          "unidad": "EA",
+          "categoria": "25101702"
+        },
+        {
+          "nombre": "Vehículos de policía",
+          "descripcion": "(B) SELLO ACEITE, RETEN DE SALIDA CAJA DE TRANSFERENCIA. GENUINA O ORIGINAL\tNUEVO Y SIN USO. CONFORME A DETALLE ADJUNTO.",
+          "cantidad": 1,
+          "unidad": "EA",
+          "categoria": "25101702"
+        },
+        {
+          "nombre": "Vehículos de policía",
+          "descripcion": "(D) SELLO ACEITE PINION, RETEN DE SALIDA CAJA DE TRANSFERENCIA. GENUINA O ORIGINAL\tNUEVO Y SIN USO. CONFORME A DETALLE ADJUNTO.",
+          "cantidad": 1,
+          "unidad": "EA",
+          "categoria": "25101702"
+        },
+        {
+          "nombre": "Vehículos de policía",
+          "descripcion": "C) SELLO ACEITE, RETEN DE SALIDA CAJA DE TRANSFERENCIA. GENUINA O ORIGINAL\tNUEVO Y SIN USO. CONFORME A DETALLE ADJUNTO.",
+          "cantidad": 2,
+          "unidad": "EA",
+          "categoria": "25101702"
+        },
+        {
+          "nombre": "Vehículos de policía",
+          "descripcion": "(D) SELLO O RING, RETEN DE SALIDA CAJA DE TRANSFERENCIA. GENUINA O ORIGINAL\tNUEVO Y SIN USO. CONFORME A DETALLE ADJUNTO.",
+          "cantidad": 1,
+          "unidad": "EA",
+          "categoria": "25101702"
+        },
+        {
+          "nombre": "Vehículos de policía",
+          "descripcion": "EMPAQUETADURA TAPA DE VALVULAS. GENUINA O ORIGINAL\tNUEVO Y SIN USO. CONFORME A DETALLE ADJUNTO.",
+          "cantidad": 1,
+          "unidad": "EA",
+          "categoria": "25101702"
+        },
+        {
+          "nombre": "Vehículos de policía",
+          "descripcion": "JGO. X4 BUJIAS DE ENCENDIDO. GENUINA O ORIGINAL\tNUEVO Y SIN USO. CONFORME A DETALLE ADJUNTO.",
+          "cantidad": 1,
+          "unidad": "EA",
+          "categoria": "25101702"
+        },
+        {
+          "nombre": "Vehículos de policía",
+          "descripcion": "BOMBA DE COMBUSTIBLE. GENUINA O ORIGINAL\tNUEVO Y SIN USO. CONFORME A DETALLE ADJUNTO.",
+          "cantidad": 1,
+          "unidad": "EA",
+          "categoria": "25101702"
+        },
+        {
+          "nombre": "Vehículos de policía",
+          "descripcion": "SOPORTE DE MOTOR DELANTERO DERECHO. GENUINA O ORIGINAL\tNUEVO Y SIN USO. CONFORME A DETALLE ADJUNTO.",
+          "cantidad": 1,
+          "unidad": "EA",
+          "categoria": "25101702"
+        },
+        {
+          "nombre": "Vehículos de policía",
+          "descripcion": "TAPA DE VALVULAS. GENUINA O ORIGINAL\tNUEVO Y SIN USO. CONFORME A DETALLE ADJUNTO.",
+          "cantidad": 1,
+          "unidad": "EA",
+          "categoria": "25101702"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "9DC4491B-1518-479B-84FA-2FBA93FDECAB",
+          "nombre": "BASES TECNICAS REPUESTOS  VEHICULOS FISCALES..docx",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1079580-395-COT26/BASES%20TECNICAS%20REPUESTOS%20VEHICULOS%20FISCALES..docx",
+          "tipo": "docx"
+        },
+        {
+          "id": "E1235BBE-1129-44F3-89F4-9FD961A64F09",
+          "nombre": "ANEXO METODOLOGIA DE EVALUACION compra agil.docx",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1079580-395-COT26/ANEXO%20METODOLOGIA%20DE%20EVALUACION%20compra%20agil.docx",
+          "tipo": "docx"
+        },
+        {
+          "id": "1EF00DBB-34EB-45D8-ACD0-0ACBC244D00B",
+          "nombre": "ACUERDO COMPLEMENTARIO COMPRA AGÍL.docx",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1079580-395-COT26/ACUERDO%20COMPLEMENTARIO%20COMPRA%20AG%C3%8DL.docx",
+          "tipo": "docx"
+        }
+      ],
+      "descripcion": "ADQ. DE REPUESTOS PARA VEHICULOS FISCALES ÑUBLE. SIGLA INSTITUCIONAL 4M-106, AP-2882, AP-2719, Z-8353 Y Z-8377, OFERENTE DEBE ADJUNTAR COTIZACIÓN VALORIZADA, CONSIDERANDO ORIGINALIDAD DE REPUESTOS OFERTADOS, PLAZO DE ENTREGA, GARANTIA. ",
+      "direccion_entrega": "CAUPOLICAN 1458 CHILLAN ",
+      "plazo_entrega_dias": 8,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1079580-395-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1079580-395-COT26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 29,
+      "sin_evaluar": true
+    },
+    {
+      "codigo": "1079639-1045-COT26",
+      "tipo": "compra_agil",
+      "nombre": "ADQUISICIÓN DE REPUESTOS PARA VEHÍCULO POLICIAL RP-6812 DE 5TA. COMISARIA DE CARABINEROS PUERTO MONTT.",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "SECCIÓN COMPRAS X ZONA ",
+      "rut_organismo": "61.979.300-5",
+      "unidad_compra": "SECCIÓN COMPRAS ZONA DE CARABINEROS LOS LAGOS",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 114000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-10-21 14:55",
+      "fecha_cierre": "2026-10-26 08:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": 1,
+      "productos": [
+        {
+          "nombre": "Vehículos de policía",
+          "descripcion": "BATERIA 57412 12V/74AH 700CCA CON PESTAÑA BAJA",
+          "cantidad": 1,
+          "unidad": "EA",
+          "categoria": "25101702"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "3D217943-0A0A-4B79-B4E1-EBB406E1E303",
+          "nombre": "ANEXO TÉCNICO.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1079639-1045-COT26/ANEXO%20T%C3%89CNICO.pdf",
+          "tipo": "pdf"
+        }
+      ],
+      "descripcion": "SE EVALUARÁ EXCLUSIVAMENTE CONFORME AL ANEXO TÉCNICO ADJUNTO, POR LO QUE CADA PROVEEDOR DEBE DESCARGAR ESTE DOCUMENTO, COMPLETARLO EN SU TOTALIDAD Y ADJUNTARLO COMO REQUISITO PARA QUE SU OFERTA SEA CONSIDERADA. SE PROHIBE LA SUBCONTRATACIÓN.  TODOS LOS REQUISITOS PARA SER ADJUDICADO, SE INDICAN EN DOCUMENTO ADJUNTO, POR LO QUE ES DE RESPONSABILIDAD DE CADA OFERTANTE LEER Y ACEPTAR ESTOS TÉRMINOS.",
+      "direccion_entrega": "PARQUE INDUSTRIAL 420",
+      "plazo_entrega_dias": 5,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1079639-1045-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1079639-1045-COT26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 29,
+      "sin_evaluar": true
+    },
+    {
+      "codigo": "1233829-103-COT26",
+      "tipo": "compra_agil",
+      "nombre": "ARRIENDO DE ATRILES Y PODIO",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "CORPORACION CULTURAL DE VITACURA",
+      "rut_organismo": "73.070.100-4",
+      "unidad_compra": "CORPORACION CULTURAL DE VITACURA",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 400000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-10-21 13:22",
+      "fecha_cierre": "2026-10-23 12:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": 0,
+      "productos": [
+        {
+          "nombre": "Atriles de pie",
+          "descripcion": "Atriles para orquesta\n\n- Los atriles deberán ser profesionales, regulables en altura con bandeja reclinable\n- Deberá incluir lámpara LED con pilas o en su defecto con conexión a corriente y pilas de repuesto.\n- De acero o similar para conservar posición, altura y estabilidad.\n- Deberán estar disponibles desde las 15 horas del lunes 16 de noviembre y hasta las 23 horas del sábado 21 de noviembre.\n",
+          "cantidad": 20,
+          "unidad": "EA",
+          "categoria": "45111501"
+        },
+        {
+          "nombre": "Tarimas",
+          "descripcion": "Atril y podio director\n\n- El podio debe tener soporte y atril para partituras.\n- Medidas aproximadas del podio 1,0x1,0x1,0 metros.\n- Deberán estar disponibles desde las 15 horas del lunes 16 de noviembre y hasta las 23 horas del sábado 21 de noviembre.\n",
+          "cantidad": 1,
+          "unidad": "GL",
+          "categoria": "30161702"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "FA2F9CAF-9447-4EC3-A661-B69BA4F79843",
+          "nombre": "TDR Arriendo de atriles para concierto Voces firmado.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1233829-103-COT26/TDR%20Arriendo%20de%20atriles%20para%20concierto%20Voces%20firmado.pdf",
+          "tipo": "pdf"
+        },
+        {
+          "id": "23A46943-912E-4382-AFAB-F12441711A18",
+          "nombre": "Anexo_arriendo_atriles_y_podio.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1233829-103-COT26/Anexo_arriendo_atriles_y_podio.pdf",
+          "tipo": "pdf"
+        },
+        {
+          "id": "D84849D8-3A63-462B-B286-528076B808EE",
+          "nombre": "Anexos Administrativos.docx",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1233829-103-COT26/Anexos%20Administrativos.docx",
+          "tipo": "docx"
+        }
+      ],
+      "descripcion": "La Corporación Cultural de Vitacura requiere contratar el\nservicio de arriendo de atriles para partitura con luz y podio\ndirector con atril a ser utilizados por los músicos de la orquesta\ndurante los ensayos finales y la presentación anual de Voces\nde Vitacura.",
+      "direccion_entrega": "Av. Kennedy 9350",
+      "plazo_entrega_dias": 5,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1233829-103-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1233829-103-COT26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 29,
+      "sin_evaluar": true
+    },
+    {
+      "codigo": "1968-540-COT26",
+      "tipo": "compra_agil",
+      "nombre": "C.C.P. COLLIPULLI SOLICITA “SERVICIO DE REPARACION Y REPUESTOS PARA COCINAS",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "Dirección Regional de Gendarmeria - Temuco",
+      "rut_organismo": "61.004.087-K",
+      "unidad_compra": "Región de La Araucanía",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 1556000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-10-21 13:16",
+      "fecha_cierre": "2026-10-23 11:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": 0,
+      "productos": [
+        {
+          "nombre": "Válvulas de aguja",
+          "descripcion": "07 VÁLVULAS DE GAS ITALIANAS ORIGINALES (COCINA TICGAS)",
+          "cantidad": 7,
+          "unidad": "EA",
+          "categoria": "40141602"
+        },
+        {
+          "nombre": "Termopares",
+          "descripcion": "07 TERMOCUPLAS UNIVERSALES (COCINA TICGAS)",
+          "cantidad": 7,
+          "unidad": "EA",
+          "categoria": "41112206"
+        },
+        {
+          "nombre": "Quemadores",
+          "descripcion": "06 QUEMADORES DE 18 CM (COCINA TICGAS)",
+          "cantidad": 6,
+          "unidad": "EA",
+          "categoria": "40101834"
+        },
+        {
+          "nombre": "Instalación, reparación o mantenimiento de sistemas de calefacción",
+          "descripcion": "01 SERVICIO DE INSTALACION Y AJUSTE DE REPUESTOS (COCINA TICGAS)",
+          "cantidad": 1,
+          "unidad": "EA",
+          "categoria": "72102302"
+        },
+        {
+          "nombre": "Instalación, reparación o mantenimiento de sistemas de calefacción",
+          "descripcion": "01 SERVICIO PUESTA EN MARCHA Y PRUEBAS DE FUNCIONAMIENTO (COCINA TICGAS)",
+          "cantidad": 1,
+          "unidad": "EA",
+          "categoria": "72102302"
+        },
+        {
+          "nombre": "Instalación, reparación o mantenimiento de sistemas de calefacción",
+          "descripcion": "01 SERVICIO PRUEBA DE HERMETICIDAD (COCINA TICGAS)",
+          "cantidad": 1,
+          "unidad": "EA",
+          "categoria": "72102302"
+        },
+        {
+          "nombre": "Instalación, reparación o mantenimiento de sistemas de calefacción",
+          "descripcion": "01 SERVICIO ENTREGA CERTIFICADO CORRESPONDIENTE(SEC) (COCINA TICGAS)",
+          "cantidad": 1,
+          "unidad": "EA",
+          "categoria": "72102302"
+        },
+        {
+          "nombre": "Válvulas de aguja",
+          "descripcion": "07 VÁLVULAS DE GAS ITALIANAS ORIGINALES (COCINA TOP GAS)",
+          "cantidad": 7,
+          "unidad": "EA",
+          "categoria": "40141602"
+        },
+        {
+          "nombre": "Termopares",
+          "descripcion": "07 TERMOCUPLAS UNIVERSALES (COCINA TOP GAS)",
+          "cantidad": 7,
+          "unidad": "EA",
+          "categoria": "41112206"
+        },
+        {
+          "nombre": "Instalación, reparación o mantenimiento de sistemas de calefacción",
+          "descripcion": "01 SERVICIO DE INSTALACIÓN Y AJUSTE REPUESTOS (COCINA TOP GAS) ",
+          "cantidad": 1,
+          "unidad": "EA",
+          "categoria": "72102302"
+        },
+        {
+          "nombre": "Instalación, reparación o mantenimiento de sistemas de calefacción",
+          "descripcion": "01 SERVICIO PUESTA EN MARCHA Y PRUEBAS DE FUNCIONAMIENTO (COCINA TOP GAS)",
+          "cantidad": 1,
+          "unidad": "EA",
+          "categoria": "72102302"
+        },
+        {
+          "nombre": "Instalación, reparación o mantenimiento de sistemas de calefacción",
+          "descripcion": "01 SERVICIO PRUEBA DE HERMETICIDAD (COCINA TOP GAS)",
+          "cantidad": 1,
+          "unidad": "EA",
+          "categoria": "72102302"
+        },
+        {
+          "nombre": "Instalación, reparación o mantenimiento de sistemas de calefacción",
+          "descripcion": "01 SERVICIO ENTREGA CERTIFICADO CORRESPONDIENTE (SEC) (COCINA TOP GAS)",
+          "cantidad": 1,
+          "unidad": "EA",
+          "categoria": "72102302"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "3C26B02F-1863-43C4-985C-F662E502D44B",
+          "nombre": "REQUERIMIENTO ADMINISTRATIVO SERVICIO COCINAS.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1968-540-COT26/REQUERIMIENTO%20ADMINISTRATIVO%20SERVICIO%20COCINAS.pdf",
+          "tipo": "pdf"
+        },
+        {
+          "id": "1FE2DE88-A22C-40E2-AB05-D23D68D58C97",
+          "nombre": "FORMULARIO N 1.docx",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1968-540-COT26/FORMULARIO%20N%201.docx",
+          "tipo": "docx"
+        }
+      ],
+      "descripcion": "C.C.P. COLLIPULLI “SERVICIO DE REPARACIÓN Y REPUESTOS PARA COCINAS DEL C.C.P. COLLIPULLI” GENDARMERIA DE CHILE, REGIÓN DE LA ARAUCANÍA”. (E102RT9)",
+      "direccion_entrega": "bilbao 131",
+      "plazo_entrega_dias": 3,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1968-540-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1968-540-COT26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 29,
+      "sin_evaluar": true
+    },
+    {
+      "codigo": "3326-598-COT26",
+      "tipo": "compra_agil",
+      "nombre": "SERVICIO DE MANTENIMIENTO PREVENTIVO PARA EL VEHÍCULO FISCAL VL-102, MARCA TOYOTA, MODELO COROLLA CROSS, AÑO 2023, DE CARGO CARABINEROS DE CHILE",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "DIRECCION DE LOGISTICA DE CARABINEROS",
+      "rut_organismo": "61.938.500-4",
+      "unidad_compra": "Depto.Transportes L.3",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 700000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-10-21 12:22",
+      "fecha_cierre": "2026-10-23 12:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": 1,
+      "productos": [
+        {
+          "nombre": "Reparación y pintura carrocerías",
+          "descripcion": "\nSERVICIO DE MANTENIMIENTO PREVENTIVO PARA EL VEHÍCULO FISCAL VL-102, MARCA TOYOTA, MODELO COROLLA CROSS, AÑO 2023, DE CARGO CARABINEROS DE CHILE",
+          "cantidad": 1,
+          "unidad": "000",
+          "categoria": "78180101"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "734ACF46-29B8-48A3-B040-E86FB8C764BA",
+          "nombre": "ANEXO N°2 VL-102.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/3326-598-COT26/ANEXO%20N%C2%B02%20VL-102.pdf",
+          "tipo": "pdf"
+        },
+        {
+          "id": "3D8F885D-B260-4FB1-A38E-557E326A8B18",
+          "nombre": "CARTA DE COMPROMISO ACTUALIZADA.docx",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/3326-598-COT26/CARTA%20DE%20COMPROMISO%20ACTUALIZADA.docx",
+          "tipo": "docx"
+        },
+        {
+          "id": "D682E365-3EBB-4444-ACF1-EB1368C0EBE1",
+          "nombre": "DECLARACIÓN JURADA SIMPLE CRITERIOS DE SUSTENTABILIDAD AMBIENTAL.docx",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/3326-598-COT26/DECLARACI%C3%93N%20JURADA%20SIMPLE%20CRITERIOS%20DE%20SUSTENTABILIDAD%20AMBIENTAL.docx",
+          "tipo": "docx"
+        }
+      ],
+      "descripcion": "SERVICIO DE MANTENIMIENTO PREVENTIVO PARA EL VEHÍCULO FISCAL VL-102, MARCA TOYOTA, MODELO COROLLA CROSS, AÑO 2023, DE CARGO CARABINEROS DE CHILE.\nEl proveedor deberá ser representante de la marca.  (SE DEBE ADJUNTAR CERTIFICADO CON FIRMA QUE ACREDITE LA REPRESENTACIÓN). El oferente que no acredite esta condición será considerada inadmisible su oferta. ",
+      "direccion_entrega": "AV. FERMÍN VIVACETA N° 2700",
+      "plazo_entrega_dias": 2,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=3326-598-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=3326-598-COT26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 29,
+      "sin_evaluar": true
+    },
+    {
+      "codigo": "1063538-2423-COT26",
+      "tipo": "compra_agil",
+      "nombre": "CONTENEDOR DE PIEZA DE MANO OFTALMOLOGIA",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "HOSPITAL BASE OSORNO",
+      "rut_organismo": "61.602.260-1",
+      "unidad_compra": "Bienes y Servicios",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 900000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-10-21 11:56",
+      "fecha_cierre": "2026-10-23 17:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": 2,
+      "productos": [
+        {
+          "nombre": "Contenedores, carros o accesorios para el desecho de agujas, cuchillas y otros objetos punzantes",
+          "descripcion": "CAJA CONTENEDORA DE INSTRUMENTAL 2 PISO CON ALFOMBRA DE SILICONA, MEDIDAS 16 CM ANCHO X 26 CM DE LARGO Y 4CM DE ALTO PARA PIEZA DE MANO OFTALMOLOGIA \n\n233-4536",
+          "cantidad": 3,
+          "unidad": "EA",
+          "categoria": "42142531"
+        }
+      ],
+      "adjuntos": [],
+      "descripcion": "233-4536| CONTENEDOR DE PIEZA DE MANO OFTALMOLOGIA",
+      "direccion_entrega": "Guillermo Bühler 1765",
+      "plazo_entrega_dias": 2,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1063538-2423-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1063538-2423-COT26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 29,
+      "sin_evaluar": true
+    },
+    {
+      "codigo": "757-471-COT26",
+      "tipo": "compra_agil",
+      "nombre": "GABMIN. Servicio de arriendo o comodato de máquina de café e insumos para Gabinete de Ministra",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "SUBSECRETARIA DE SALUD PUBLICA",
+      "rut_organismo": "61.601.000-k",
+      "unidad_compra": "Subsecretaría de Salud Pública",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 4897475,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-10-21 10:15",
+      "fecha_cierre": "2026-10-23 10:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": 0,
+      "productos": [
+        {
+          "nombre": "Equipo y suministros para elaboración de café",
+          "descripcion": "arriendo o comodato de máquina de café e insumos",
+          "cantidad": 1,
+          "unidad": "EA",
+          "categoria": "23181801"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "CBC4D7B5-A1CD-47DD-A418-4060624898EE",
+          "nombre": "GABMIN ERRIENDO O COMODATO DE MAQUINA DE CAFE E INSUMOS.docx",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/757-471-COT26/GABMIN%20ERRIENDO%20O%20COMODATO%20DE%20MAQUINA%20DE%20CAFE%20E%20INSUMOS.docx",
+          "tipo": "docx"
+        }
+      ],
+      "descripcion": "Servicio de arriendo o comodato de máquina de café e insumos para Gabinete de Ministra, SEGUN ARCHIVO ADJUNTO ",
+      "direccion_entrega": "MAC IVER 541",
+      "plazo_entrega_dias": 2,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=757-471-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=757-471-COT26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 29,
+      "sin_evaluar": true
+    },
+    {
+      "codigo": "4105-645-COT26",
+      "tipo": "compra_agil",
+      "nombre": "REPARACION CAMIONETA NISSAN PLACA PATENTE RHXX-62",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "I MUNICIPALIDAD DE CALLE LARGA",
+      "rut_organismo": "69.051.200-9",
+      "unidad_compra": "FINANZAS",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 1532000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-10-21 09:05",
+      "fecha_cierre": "2026-10-23 09:20",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": 2,
+      "productos": [
+        {
+          "nombre": "Kits de reparación de frenos",
+          "descripcion": "Mano de obra para reparación y mantención.\n• Cambio de discos de frenos y pastillas de frenos delanteras. \n• Cambio de tambores de frenos y balatas de frenos traseras. \n• Cambio de bomba de agua. \n• Cambio de viscoso ventilador. \n• Cambio de refrigerante de motor, extracción y montaje de turbo. \n• Compresor para reparación, cambio de empaquetadura de escape de múltiple de escape y de bajada turbo, limpieza de ductos de admisión, intercooler.",
+          "cantidad": 1,
+          "unidad": "EA",
+          "categoria": "25171718"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "72CBE64D-1E4C-4A28-82E9-B4127E09AB19",
+          "nombre": "MEMORÁNMDUM N°215.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/4105-645-COT26/MEMOR%C3%81NMDUM%20N%C2%B0215.pdf",
+          "tipo": "pdf"
+        }
+      ],
+      "descripcion": "Servicio de mano de obra mecánica para reparación y \nmantención de camioneta. Ofertar de acuerdo a los requerimientos indicados en Memorándum adjunto. Ingresar en oferta garantías, fotografías, y ficha técnica del producto ofertado. Ingresar ofertas en formato PDF.",
+      "direccion_entrega": "La Pampilla 164",
+      "plazo_entrega_dias": 2,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=4105-645-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=4105-645-COT26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 29,
+      "sin_evaluar": true
+    },
+    {
+      "codigo": "4105-644-COT26",
+      "tipo": "compra_agil",
+      "nombre": "REPARACIÓN CAMIONETA NISSAN PLACA PATENTE RHXX-61",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "I MUNICIPALIDAD DE CALLE LARGA",
+      "rut_organismo": "69.051.200-9",
+      "unidad_compra": "FINANZAS",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 2314000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-10-21 08:55",
+      "fecha_cierre": "2026-10-23 09:15",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": 0,
+      "productos": [
+        {
+          "nombre": "Culatas de transmisión",
+          "descripcion": "Servicio de mano de obra para extracción y montaje de culata, puesta en marcha y prueba de ruta de camioneta. Ofertar de acuerdo a los requerimientos técnicos indicados en Memorándum adjunto.\n",
+          "cantidad": 1,
+          "unidad": "EA",
+          "categoria": "26111509"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "7A9E92F6-2DFF-4F91-975D-39E12B044C02",
+          "nombre": "MEMORÁNDUM N°214.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/4105-644-COT26/MEMOR%C3%81NDUM%20N%C2%B0214.pdf",
+          "tipo": "pdf"
+        }
+      ],
+      "descripcion": "Servicio de mano de obra para extracción y montaje de culata, puesta en marcha y prueba de ruta de camioneta. Ofertar de acuerdo a los requerimientos indicados en Memorándum adjunto. Ingresar en oferta garantías, fotografías, y ficha técnica del producto ofertado. Ingresar ofertas en formato PDF.",
+      "direccion_entrega": "La Pampilla 164",
+      "plazo_entrega_dias": 2,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=4105-644-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=4105-644-COT26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 29,
+      "sin_evaluar": true
+    },
+    {
+      "codigo": "3945-30-LE26",
+      "tipo": "licitacion",
+      "nombre": "CONTRATO SUMINISTRO PREMIOS -MUNICIPALIDAD DE LOS ÁLAMOS",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "I MUNICIPALIDAD DE LOS ALAMOS DEPTO COMUNAL",
+      "rut_organismo": "69.160.400-4",
+      "unidad_compra": "Administración y Finanzas",
+      "region": 8,
+      "region_nombre": "Biobío",
+      "monto_clp": 30000000,
+      "moneda": "CLP",
+      "fecha_publicacion": null,
+      "fecha_cierre": "2026-10-29 15:01:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [
+        {
+          "nombre": "Balones de fútbol",
+          "descripcion": "Se requiere contratar un suministro de PREMIOS por un periodo de 12 meses, conforme a Bases Administrativas y anexos adjuntos",
+          "cantidad": 1.0,
+          "unidad": "Global",
+          "categoria": "49161505"
+        }
+      ],
+      "adjuntos": [],
+      "descripcion": "La necesidad de contratar suministro de premios,  por un periodo de 12 meses,  destinado a proporcionar las herramientas necesarias para colaborar con las distintas Direcciones del municipio, en la organización de  actividades sociales y eventos solemnes en que se requiere hacer entregas de estímulos y premios a personas,  organizaciones sociales, deportivas, culturales y de esta forma reconocer los aportes proporcionados por el bien comunal, todo ello,  de conformidad a las Bases Administrativas y anexos adjuntos.",
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3945-30-LE26",
+      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=3945-30-LE26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 29,
+      "tipo_licitacion": "LE",
       "sin_evaluar": true
     },
     {
@@ -618,69 +1691,44 @@
       "sin_evaluar": true
     },
     {
-      "codigo": "3890-223-L126",
+      "codigo": "3933-58-L126",
       "tipo": "licitacion",
-      "nombre": "ADQUISICIÓN DE POLERONES DEPORTIVOS DESTINADOS A PREMIACIONES DEL PROGRAMA DE DEPORTES",
+      "nombre": "“RECONOCIMIENTOS PARA TÉRMINO DEL AÑO ESCOLAR EN ESCUELA ARMANDO QUINTULEN” FONDOS SEP",
       "estado": "publicada",
       "estado_glosa": "Publicada",
-      "organismo": null,
-      "rut_organismo": null,
-      "unidad_compra": null,
-      "region": null,
-      "region_nombre": null,
+      "organismo": "I MUNICIPALIDAD DE FREIRE",
+      "rut_organismo": "69.190.900-K",
+      "unidad_compra": "Departamento de Educación",
+      "region": 9,
+      "region_nombre": "Araucanía",
       "monto_clp": null,
       "moneda": "CLP",
       "fecha_publicacion": null,
-      "fecha_cierre": "2026-10-27 17:00:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [
-        "premiación"
-      ],
-      "total_ofertas": null,
-      "productos": [],
-      "adjuntos": [],
-      "descripcion": null,
-      "direccion_entrega": null,
-      "plazo_entrega_dias": null,
-      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3890-223-L126",
-      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=3890-223-L126",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 24,
-      "sin_evaluar": true
-    },
-    {
-      "codigo": "3945-30-LE26",
-      "tipo": "licitacion",
-      "nombre": "CONTRATO SUMINISTRO PREMIOS -MUNICIPALIDAD DE LOS ÁLAMOS",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": null,
-      "rut_organismo": null,
-      "unidad_compra": null,
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": null,
-      "moneda": "CLP",
-      "fecha_publicacion": null,
-      "fecha_cierre": "2026-10-29 15:01:00",
+      "fecha_cierre": "2026-10-27 17:30:00",
       "fecha_ultimo_cambio": null,
       "palabras_clave_match": [],
       "total_ofertas": null,
-      "productos": [],
+      "productos": [
+        {
+          "nombre": "Marcos para certificados",
+          "descripcion": "“RECONOCIMIENTOS PARA TÉRMINO DEL AÑO ESCOLAR EN ESCUELA ARMANDO QUINTULEN”, FONDOS SEP ",
+          "cantidad": 1.0,
+          "unidad": "Unidad",
+          "categoria": "60101603"
+        }
+      ],
       "adjuntos": [],
-      "descripcion": null,
+      "descripcion": "“RECONOCIMIENTOS PARA TÉRMINO DEL AÑO ESCOLAR EN ESCUELA ARMANDO QUINTULEN”, FONDOS SEP ",
       "direccion_entrega": null,
       "plazo_entrega_dias": null,
-      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3945-30-LE26",
-      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=3945-30-LE26",
+      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3933-58-L126",
+      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=3933-58-L126",
       "prefiltro": {
         "pasa": true,
         "razon": ""
       },
       "score_heuristico": 24,
+      "tipo_licitacion": "L1",
       "sin_evaluar": true
     },
     {
@@ -689,11 +1737,11 @@
       "nombre": "ADQUISICION DE JUGUETES PARA NAVIDAD 2026",
       "estado": "publicada",
       "estado_glosa": "Publicada",
-      "organismo": null,
-      "rut_organismo": null,
-      "unidad_compra": null,
-      "region": null,
-      "region_nombre": null,
+      "organismo": "I MUNICIPALIDAD DE DALCAHUE",
+      "rut_organismo": "69.230.300-8",
+      "unidad_compra": "Social",
+      "region": 10,
+      "region_nombre": "Los Lagos",
       "monto_clp": null,
       "moneda": "CLP",
       "fecha_publicacion": null,
@@ -703,9 +1751,17 @@
         "juguete"
       ],
       "total_ofertas": null,
-      "productos": [],
+      "productos": [
+        {
+          "nombre": "Juguetes cognitivos",
+          "descripcion": "se adjunta listado",
+          "cantidad": 2000.0,
+          "unidad": "Unidad",
+          "categoria": "60124515"
+        }
+      ],
       "adjuntos": [],
-      "descripcion": null,
+      "descripcion": "REALIZAR LA ADQUISICION DE JUGUETES Y REGALOS PARA NIÑOS Y NIÑAS DE LA COMUNA DE DALCAHUE.",
       "direccion_entrega": null,
       "plazo_entrega_dias": null,
       "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4403-10-LE26",
@@ -715,6 +1771,7 @@
         "razon": ""
       },
       "score_heuristico": 24,
+      "tipo_licitacion": "LE",
       "sin_evaluar": true
     },
     {
@@ -1016,45 +2073,45 @@
       "sin_evaluar": true
     },
     {
-      "codigo": "5684-394-COT26",
+      "codigo": "1375746-74-COT26",
       "tipo": "compra_agil",
-      "nombre": "Suministro de repuestos CARTRIDGE para valvulas motorizadas Honeywell VC.",
+      "nombre": "Servicio de reparación de 2 vehículos SLEP del Aconcagua, placa patente FJCY-51 y HBHG-63 SLEP.",
       "estado": "publicada",
       "estado_glosa": "Publicada",
-      "organismo": "UNIVERSIDAD DE CHILE",
-      "rut_organismo": "60.910.000-1",
-      "unidad_compra": "FCFM Campus Facultad",
+      "organismo": "SERVICIO LOCAL DE EDUCACIÓN PÚBLICA ACONCAGUA",
+      "rut_organismo": "61.981.280-8",
+      "unidad_compra": "COMPRAS Y LICITACIONES",
       "region": null,
       "region_nombre": null,
-      "monto_clp": 6500000,
+      "monto_clp": 7200000,
       "moneda": "CLP",
-      "fecha_publicacion": "2026-10-20 09:51",
-      "fecha_cierre": "2026-10-22 18:00",
+      "fecha_publicacion": "2026-10-21 15:55",
+      "fecha_cierre": "2026-10-23 11:00",
       "fecha_ultimo_cambio": null,
       "palabras_clave_match": [],
-      "total_ofertas": 1,
+      "total_ofertas": 0,
       "productos": [
         {
-          "nombre": "Piezas de válvula o accesorios",
-          "descripcion": "Suministro de repuesto CARTRIDGE para va´lvulas motorizada 2 vi´as 3/4\"  de  acuerdo a especificaciones técnicas adjuntas.1.- El Oferente deberá presentar cotización formal y djuntar la ficha técnica de la marca y modelo del repuesto requerido.2.- Indicar plazo de entrega, el que deberá ajustarse a lo indicado en la ficha de Mercadopublico.3.- La cotización deberá considerar todas las partidas requeridas, no se aceptaran cotizaciones parciales.4.- El servicio debe incluir el despacho a nuestra d",
-          "cantidad": 100,
-          "unidad": "EA",
-          "categoria": "40141616"
+          "nombre": "Servicios de fabricación de piezas y accesorios de vehículos de motor",
+          "descripcion": "Servicio de reparación de 2 vehículos SLEP del Aconcagua, placa patente FJCY-51 y HBHG-63. Según documento adjunto. ",
+          "cantidad": 1,
+          "unidad": "GL",
+          "categoria": "73161605"
         }
       ],
       "adjuntos": [
         {
-          "id": "47132992-62EE-490C-BD87-DDF0C57D4C52",
-          "nombre": "Especificaciones Técnicas - Repuesto Cartridge (1).pdf",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/5684-394-COT26/Especificaciones%20T%C3%A9cnicas%20-%20Repuesto%20Cartridge%20%281%29.pdf",
+          "id": "721FC5FA-5638-43A0-92B2-95E5631A558D",
+          "nombre": "EETT REPARACIÓN VEHÍCULOS.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1375746-74-COT26/EETT%20REPARACI%C3%93N%20VEH%C3%8DCULOS.pdf",
           "tipo": "pdf"
         }
       ],
-      "descripcion": "Que  la  DIS Gestión de Infraestructura de la FCFM requiere Suministro de repuestos CARTRIDGE para valvulas motorizadas Honeywell VC.De acuerdo a especificaciones adjuntas.",
-      "direccion_entrega": "Beaucheff 851 / Bodega Piso -5",
-      "plazo_entrega_dias": 1,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=5684-394-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=5684-394-COT26",
+      "descripcion": "Servicio de reparación de 2 vehículos SLEP del Aconcagua, placa patente FJCY-51 y HBHG-63 SLEP.",
+      "direccion_entrega": "Av. 12 de febrero N°70",
+      "plazo_entrega_dias": 15,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1375746-74-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1375746-74-COT26",
       "prefiltro": {
         "pasa": true,
         "razon": ""
@@ -1063,69 +2120,70 @@
       "sin_evaluar": true
     },
     {
-      "codigo": "3113-52-COT26",
+      "codigo": "4732-299-COT26",
       "tipo": "compra_agil",
-      "nombre": "REPUESTOS PARA MOTOR FUERA DE BORDA.",
+      "nombre": "Adquisición de cuchillas y dientes para retroexcavadora marca JCB, Modelo CX 4X4 año 2019.",
       "estado": "publicada",
       "estado_glosa": "Publicada",
-      "organismo": "DIRECCION DE RECUPERACION DE UNIDADES DE LA ARMADA",
-      "rut_organismo": "61.946.500-8",
-      "unidad_compra": "DIRECCION DE RECUPERACION DE UNIDADES DE LA ARMADA",
+      "organismo": "I MUNICIPALIDAD DE CODEGUA",
+      "rut_organismo": "69.080.400-K",
+      "unidad_compra": "Secpla",
       "region": null,
       "region_nombre": null,
-      "monto_clp": 1000000,
+      "monto_clp": 600000,
       "moneda": "CLP",
-      "fecha_publicacion": "2026-10-20 11:32",
-      "fecha_cierre": "2026-10-22 12:00",
+      "fecha_publicacion": "2026-10-21 15:20",
+      "fecha_cierre": "2026-10-23 17:30",
       "fecha_ultimo_cambio": null,
       "palabras_clave_match": [],
       "total_ofertas": 3,
       "productos": [
         {
-          "nombre": "Embarcaciones a motor de uso personal",
-          "descripcion": "ADQUISICIÓN DE REPUESTOS PARA MOTOR FUERA DE BORDA, DE ACUERDO A SOLICITUD DE COTIZACIÓN Y ANEXO ECONOMICO \"D\" ADJUNTO.",
-          "cantidad": 1,
+          "nombre": "Brazo de retroexcavadora o secciones del brazo",
+          "descripcion": "4 dientes de pala aguilón.\nTODOS LOS PRODUCTOS Y DOCUMENTOS SOLICITADOS EN BASES ADJUNTAS, DE NO CUMPLIR CON LO SOLICITADO LA OFERTA SERÁ DECLARADA INADMSIBLE.\nProveedor deberá ofertar todos los productos y/o servicios solicitados. Monto de entrega debe estar incluido en la cotización.",
+          "cantidad": 4,
           "unidad": "EA",
-          "categoria": "25111805"
+          "categoria": "22101713"
+        },
+        {
+          "nombre": "Palas excavadoras",
+          "descripcion": "2 cuchillas para pala frontal.\nTODOS LOS PRODUCTOS Y DOCUMENTOS SOLICITADOS EN BASES ADJUNTAS, DE NO CUMPLIR CON LO SOLICITADO LA OFERTA SERÁ DECLARADA INADMSIBLE.\nProveedor deberá ofertar todos los productos y/o servicios solicitados. Monto de entrega debe estar incluido en la cotización.\n",
+          "cantidad": 2,
+          "unidad": "EA",
+          "categoria": "22101701"
         }
       ],
       "adjuntos": [
         {
-          "id": "0D15A1AA-405B-49A7-8695-9DF3D9F4602C",
-          "nombre": "SOLICITUD DE COTIZACIÓN.pdf",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/3113-52-COT26/SOLICITUD%20DE%20COTIZACI%C3%93N.pdf",
+          "id": "B22079FB-202B-423A-AAEE-D26B3343CC18",
+          "nombre": "ord. 59 para compra de repuestos retro.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/4732-299-COT26/ord.%2059%20para%20compra%20de%20repuestos%20retro.pdf",
           "tipo": "pdf"
         },
         {
-          "id": "91C5C0EE-328C-4EA5-ADA6-BBE050101602",
-          "nombre": "Anexo_A.docx",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/3113-52-COT26/Anexo_A.docx",
+          "id": "FE752EE4-89B4-4CB0-9A54-CFBEDAB9C14D",
+          "nombre": "ANEXO N°1 - ANEXO PACTO DE INTEGRIDAD.docx",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/4732-299-COT26/ANEXO%20N%C2%B01%20-%20ANEXO%20PACTO%20DE%20INTEGRIDAD.docx",
           "tipo": "docx"
         },
         {
-          "id": "359D9608-57A1-4E61-BB6D-FE1790DBC1AB",
-          "nombre": "Anexo_B.docx",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/3113-52-COT26/Anexo_B.docx",
+          "id": "1D3F286D-4E56-435C-B810-867AD40561E9",
+          "nombre": "ANEXO N°2 - DECLARACIÓN JURADA DE PROBIDAD.docx",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/4732-299-COT26/ANEXO%20N%C2%B02%20-%20DECLARACI%C3%93N%20JURADA%20DE%20PROBIDAD.docx",
           "tipo": "docx"
         },
         {
-          "id": "DA380612-AE5A-46C1-8773-73F8F0DBF31A",
-          "nombre": "Anexo_C.DOC",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/3113-52-COT26/Anexo_C.DOC",
-          "tipo": "doc"
-        },
-        {
-          "id": "2C8E8C41-EF6F-49AF-9DBE-D8A4E7558073",
-          "nombre": "ANEXO D.XLSX",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/3113-52-COT26/ANEXO%20D.XLSX",
-          "tipo": "xlsx"
+          "id": "54DF5D3D-B565-4F44-BBD6-EC2CF8F3EE62",
+          "nombre": "ANEXO N°3 - ANEXO DECLARACIÓN JURADA SOBRE VÍNCULOS DE PARENTESCO.docx",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/4732-299-COT26/ANEXO%20N%C2%B03%20-%20ANEXO%20DECLARACI%C3%93N%20JURADA%20SOBRE%20V%C3%8DNCULOS%20DE%20PARENTESCO.docx",
+          "tipo": "docx"
         }
       ],
-      "descripcion": "REPUESTOS PARA MOTOR FUERA DE BORDA.",
-      "direccion_entrega": "Centro de Abastecimiento  de Talcahuano, (almacén de recepción), avenida Jorge Montt s/n Base Naval",
-      "plazo_entrega_dias": 15,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=3113-52-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=3113-52-COT26",
+      "descripcion": "Adquisición de cuchillas y dientes para retroexcavadora marca JCB, Modelo CX 4X4 año 2019.",
+      "direccion_entrega": "O'Higgins 376",
+      "plazo_entrega_dias": 3,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=4732-299-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=4732-299-COT26",
       "prefiltro": {
         "pasa": true,
         "razon": ""
@@ -1134,45 +2192,38 @@
       "sin_evaluar": true
     },
     {
-      "codigo": "522-188-COT26",
+      "codigo": "2127-91-COT26",
       "tipo": "compra_agil",
-      "nombre": "Compra de Repuestos para ECOGRAFO",
+      "nombre": "SE REQUIEREN 8 SOPORTES EXTINTOR TRIPOPODE DE OFICINA PQS 6 KILOS.",
       "estado": "publicada",
       "estado_glosa": "Publicada",
-      "organismo": "HOSPITAL DE LITUECHE",
-      "rut_organismo": "61.602.152-4",
-      "unidad_compra": "Hosp. de Litueche",
+      "organismo": "DEPARTAMENTO PROVINCIAL DE CAUQUENES",
+      "rut_organismo": "60.902.050-4",
+      "unidad_compra": "Departamento Provincial Cauquenes",
       "region": null,
       "region_nombre": null,
-      "monto_clp": 500000,
+      "monto_clp": 250000,
       "moneda": "CLP",
-      "fecha_publicacion": "2026-10-20 10:20",
-      "fecha_cierre": "2026-10-22 10:00",
+      "fecha_publicacion": "2026-10-21 13:22",
+      "fecha_cierre": "2026-10-23 12:00",
       "fecha_ultimo_cambio": null,
       "palabras_clave_match": [],
       "total_ofertas": 4,
       "productos": [
         {
-          "nombre": "Servicios de fabricación de ordenadores electrónicos o equipos de proceso de datos (computadores)",
-          "descripcion": "MEMORIA RAM DDR4 SDRAM VELOCIDAD DE 2.4 GH, CAPACIDAD DE 8 GR, VOLTAJE DE 1.2V ",
-          "cantidad": 1,
+          "nombre": "Servicios de herrería",
+          "descripcion": "SE REQUIEREN (8) SOPORTES EXTINTOR TRIPOPODE DE OFICINA PQS 6 KILOS, para extintores de 6 Kilos.",
+          "cantidad": 8,
           "unidad": "EA",
-          "categoria": "73171512"
-        },
-        {
-          "nombre": "Servicios de fabricación de ordenadores electrónicos o equipos de proceso de datos (computadores)",
-          "descripcion": "UPS POTENCIA 840 WVA 1500 W FORMATO TORRETOPOLOGIA ",
-          "cantidad": 1,
-          "unidad": "EA",
-          "categoria": "73171512"
+          "categoria": "73121602"
         }
       ],
       "adjuntos": [],
-      "descripcion": "Adquisición de MEMORIA RAM y UPS para electrocardiógrafo del Hospital de Litueche.",
-      "direccion_entrega": "Cardenal caro 728",
-      "plazo_entrega_dias": 2,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=522-188-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=522-188-COT26",
+      "descripcion": "-\"E102RT9\". Compras sustentables, búsqueda de productos con menor impacto ambiental y/o social.\n-SE REQUIEREN 8 SOPORTES EXTINTOR TRIPOPODE DE OFICINA PQS 6 KILOS.\n",
+      "direccion_entrega": "Avenida Claudina Urrutia 525 segundo piso Cauquenes.",
+      "plazo_entrega_dias": 3,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=2127-91-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=2127-91-COT26",
       "prefiltro": {
         "pasa": true,
         "razon": ""
@@ -1181,68 +2232,532 @@
       "sin_evaluar": true
     },
     {
-      "codigo": "3326-595-COT26",
+      "codigo": "3597-900-COT26",
       "tipo": "compra_agil",
-      "nombre": "SERVICIO DE MANTENIMIENTO CORRECTIVO PARA EL VEHÍCULO FISCAL VPC-1515, MARCA DFSK, MODELO D1 LUXURY, AÑO 2025 Y VPC-2120, MARCA TOYOTA, MODELO HILUX 4X4, AÑO 2017, DE CARGO DE CARABINEROS DE CHILE.",
+      "nombre": "ÁDQUISICION DE REPUESTOS PARA CAMION ALJIBE DE AGUA POTABLE",
       "estado": "publicada",
       "estado_glosa": "Publicada",
-      "organismo": "DIRECCION DE LOGISTICA DE CARABINEROS",
-      "rut_organismo": "61.938.500-4",
-      "unidad_compra": "Depto.Transportes L.3",
+      "organismo": "I MUNICIPALIDAD DE VICUNA",
+      "rut_organismo": "69.040.500-8",
+      "unidad_compra": "Ilustre Municipalidad de Vicuña",
       "region": null,
       "region_nombre": null,
-      "monto_clp": 130000,
+      "monto_clp": 1100000,
       "moneda": "CLP",
-      "fecha_publicacion": "2026-10-20 16:19",
-      "fecha_cierre": "2026-10-22 15:30",
+      "fecha_publicacion": "2026-10-21 12:43",
+      "fecha_cierre": "2026-10-23 10:00",
       "fecha_ultimo_cambio": null,
       "palabras_clave_match": [],
-      "total_ofertas": 2,
+      "total_ofertas": 4,
       "productos": [
         {
-          "nombre": "Reparación y pintura carrocerías",
-          "descripcion": "SERVICIO DE MANTENIMIENTO CORRECTIVO PARA EL VEHÍCULO FISCAL VPC-1515, MARCA DFSK, MODELO D1 LUXURY, AÑO 2025 Y VPC-2120, MARCA TOYOTA, MODELO HILUX 4X4, AÑO 2017, DE CARGO DE CARABINEROS DE CHILE.\n\n",
+          "nombre": "Equipo para alinear la rueda",
+          "descripcion": "Masa de rueda trasera (10 hoyos)",
           "cantidad": 1,
-          "unidad": "000",
-          "categoria": "78180101"
+          "unidad": "EA",
+          "categoria": "25191702"
+        },
+        {
+          "nombre": "Pernos de tracción",
+          "descripcion": "Pernos de masa con tuerca",
+          "cantidad": 12,
+          "unidad": "EA",
+          "categoria": "31161613"
+        },
+        {
+          "nombre": "Rodamientos de bolas",
+          "descripcion": "Rodamiento de masa interior",
+          "cantidad": 1,
+          "unidad": "EA",
+          "categoria": "31171504"
+        },
+        {
+          "nombre": "Rodamientos de bolas",
+          "descripcion": "Rodamiento de masa exterior",
+          "cantidad": 1,
+          "unidad": "EA",
+          "categoria": "31171504"
+        },
+        {
+          "nombre": "Uniones de retención",
+          "descripcion": "Reten interior y exterior (1 cada uno)",
+          "cantidad": 2,
+          "unidad": "EA",
+          "categoria": "40142402"
         }
       ],
       "adjuntos": [
         {
-          "id": "CB08FD8A-4117-4E97-9553-F79BAD41D974",
-          "nombre": "ANEXO N°2 VPC-1515, VPC-2120.pdf",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/3326-595-COT26/ANEXO%20N%C2%B02%20VPC-1515%2C%20VPC-2120.pdf",
+          "id": "3D53B772-76B3-431B-8039-3CA8C41A34DD",
+          "nombre": "Solicitud Repuestos Camión PDVV-31.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/3597-900-COT26/Solicitud%20Repuestos%20Cami%C3%B3n%20PDVV-31.pdf",
+          "tipo": "pdf"
+        }
+      ],
+      "descripcion": "Se requieren repuestos para la reparación de Camión aljibe de entrega de agua potable, patente PDVV-31, detalles y numero de chasis, en archivo adjunto. Debe adjuntar cotización con detalles de los productos, indicar plazo de entrega (si se indica plazo de envío o despacho, no será considerado para evaluación), datos de contacto y de transferencia.",
+      "direccion_entrega": "Bodega Municipal - Calle San Martin N°40 - Vicuña",
+      "plazo_entrega_dias": 2,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=3597-900-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=3597-900-COT26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 22,
+      "sin_evaluar": true
+    },
+    {
+      "codigo": "1107279-294-COT26",
+      "tipo": "compra_agil",
+      "nombre": "Servicio integral de alojamiento, habilitación, mantenimiento y soporte de plataforma web 503665-10",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "INSTITUTO DE INVESTIGACIONES AGROPECUARIAS",
+      "rut_organismo": "61.312.000-9",
+      "unidad_compra": "QUILAMAPU",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 2500000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-10-21 10:42",
+      "fecha_cierre": "2026-10-23 08:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": 5,
+      "productos": [
+        {
+          "nombre": "Web Hosting",
+          "descripcion": "Servicio integral de alojamiento, habilitación, mantenimiento y soporte de plataforma web por 12 meses, incluyendo servidor virtual, almacenamiento externo, respaldos, puesta en marcha y entrega final. según terminos de referencia",
+          "cantidad": 1,
+          "unidad": "ANN",
+          "categoria": "81112105"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "DA2F1917-254F-4B0D-9382-54469F179DB0",
+          "nombre": "Terminos de referencia_Alojamiento de Plataforma.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1107279-294-COT26/Terminos%20de%20referencia_Alojamiento%20de%20Plataforma.pdf",
           "tipo": "pdf"
         },
         {
-          "id": "77AFC180-24C1-447D-A710-B9EC9623B82D",
-          "nombre": "CARTA DE COMPROMISO ACTUALIZADA.docx",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/3326-595-COT26/CARTA%20DE%20COMPROMISO%20ACTUALIZADA.docx",
-          "tipo": "docx"
-        },
-        {
-          "id": "5458D70C-4908-4C6D-A332-75E0B519A960",
-          "nombre": "DECLARACIÓN JURADA SIMPLE CRITERIOS DE SUSTENTABILIDAD AMBIENTAL.docx",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/3326-595-COT26/DECLARACI%C3%93N%20JURADA%20SIMPLE%20CRITERIOS%20DE%20SUSTENTABILIDAD%20AMBIENTAL.docx",
-          "tipo": "docx"
-        },
-        {
-          "id": "80DA4D53-7C1E-4C65-8736-60C645A742FD",
-          "nombre": "DECLARACIÓN JURADA SIMPLE SEGURIDAD.docx",
-          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/3326-595-COT26/DECLARACI%C3%93N%20JURADA%20SIMPLE%20SEGURIDAD.docx",
-          "tipo": "docx"
+          "id": "A000745D-B3EC-4BA0-B381-F7E1C52FB530",
+          "nombre": "FORMULARIO DATOS BANCARIOS DE PROVEEDORES.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1107279-294-COT26/FORMULARIO%20DATOS%20BANCARIOS%20DE%20PROVEEDORES.pdf",
+          "tipo": "pdf"
         }
       ],
-      "descripcion": "SERVICIO DE MANTENIMIENTO CORRECTIVO PARA EL VEHÍCULO FISCAL VPC-1515, MARCA DFSK, MODELO D1 LUXURY, AÑO 2025 Y VPC-2120, MARCA TOYOTA, MODELO HILUX 4X4, AÑO 2017, DE CARGO DE CARABINEROS DE CHILE.",
-      "direccion_entrega": "AV. FERMÍN VIVACETA N° 2700",
+      "descripcion": "Servicio integral de alojamiento, habilitación, mantenimiento y soporte de plataforma web por 12 meses, incluyendo servidor virtual, almacenamiento externo, respaldos, puesta en marcha y entrega final.",
+      "direccion_entrega": "avda. Vicente , ChillánMendez 515",
+      "plazo_entrega_dias": 10,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1107279-294-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1107279-294-COT26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 22,
+      "sin_evaluar": true
+    },
+    {
+      "codigo": "742246-44-COT26",
+      "tipo": "compra_agil",
+      "nombre": "ADQUISICION DE MATERIALES Y REPUESTOS PARA MANTENCION AGS 61 CABO DE HORNOS",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "AGS 61 CABO DE HORNOS",
+      "rut_organismo": "61.980.270-5",
+      "unidad_compra": "AGS 61 CABO DE HORNOS",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 1400000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-10-21 10:18",
+      "fecha_cierre": "2026-10-23 11:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": 3,
+      "productos": [
+        {
+          "nombre": "Abrazaderas de manguera o tubo",
+          "descripcion": "TERMINAL DE ESPIGA/COLA MILANO CON HILO EXTERIOR (HE) 1/2\" ",
+          "cantidad": 50,
+          "unidad": "EA",
+          "categoria": "31162906"
+        },
+        {
+          "nombre": "Abrazaderas de manguera o tubo",
+          "descripcion": "TERMINAL DE ESPIGA/COLA MILANO CON HILO EXTERIOR (HE) 3/4\" ",
+          "cantidad": 50,
+          "unidad": "EA",
+          "categoria": "31162906"
+        },
+        {
+          "nombre": "Abrazaderas de manguera o tubo",
+          "descripcion": "TERMINAL DE ESPIGA/COLA MILANO CON HILO EXTERIOR (HE) 1\" ",
+          "cantidad": 5,
+          "unidad": "EA",
+          "categoria": "31162906"
+        },
+        {
+          "nombre": "Madeja de fibra y goma",
+          "descripcion": "PISO DE GOMA ESTRIADO 3 MM ",
+          "cantidad": 50,
+          "unidad": "MTR",
+          "categoria": "30101921"
+        },
+        {
+          "nombre": "Martillos",
+          "descripcion": "MACETA GOMA 24 OZ",
+          "cantidad": 5,
+          "unidad": "EA",
+          "categoria": "27111602"
+        },
+        {
+          "nombre": "Correas de montaje",
+          "descripcion": "CORREA MODELO 1930 PARA SECADORA MADEMSA 9DBZG O SU EQUIVALENTE",
+          "cantidad": 5,
+          "unidad": "EA",
+          "categoria": "31162310"
+        },
+        {
+          "nombre": "Poleas",
+          "descripcion": "POLEA TENSORA PARA SECADORA MADEMSA 9DBZG O SU EQUIVALENTE",
+          "cantidad": 6,
+          "unidad": "EA",
+          "categoria": "31171804"
+        },
+        {
+          "nombre": "Mangueras para agua",
+          "descripcion": "MANGUERA MALLAFLEX 1/2\" ROLLO 100 MT",
+          "cantidad": 200,
+          "unidad": "MTR",
+          "categoria": "40142008"
+        }
+      ],
+      "adjuntos": [],
+      "descripcion": "ADQUISICION DE MATERIALES Y REPUESTOS PARA MANTENCION AGS 61 CABO DE HORNOS, CON DESPACHO INCLUIDO.",
+      "direccion_entrega": "ALTAMIRANO S/N MOLO DE ABRIGO",
+      "plazo_entrega_dias": 10,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=742246-44-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=742246-44-COT26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 22,
+      "sin_evaluar": true
+    },
+    {
+      "codigo": "4105-646-COT26",
+      "tipo": "compra_agil",
+      "nombre": "REPARACIÓN BUS KING LONG PLACA PATENTE KPPY-97",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "I MUNICIPALIDAD DE CALLE LARGA",
+      "rut_organismo": "69.051.200-9",
+      "unidad_compra": "FINANZAS",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 3682000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-10-21 09:55",
+      "fecha_cierre": "2026-10-23 10:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": 5,
+      "productos": [
+        {
+          "nombre": "Autobuses",
+          "descripcion": "Servicio de mano de obra para extracción de barra larga de dirección para cambio de terminales, cambio de barra corta de dirección, cambio de pivote central, cambio de bujes de barra estabilizadora delantera, cambio de pulmones de suspensión lado izquierdo, extracción filtro de partículas para vaciado. Ofertar de acuerdo a lo indicado en Memorándum adjunto.",
+          "cantidad": 1,
+          "unidad": "EA",
+          "categoria": "25101502"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "C97A82F2-B554-4928-B350-AA933A69807F",
+          "nombre": "MEMORÁNDUM N°216.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/4105-646-COT26/MEMOR%C3%81NDUM%20N%C2%B0216.pdf",
+          "tipo": "pdf"
+        }
+      ],
+      "descripcion": "Reparación del bus king long placa patente KPPY-97 modelo XMQ6117. Ofertar de acuerdo a los requerimientos indicados en Memorándum adjunto. Ingresar en oferta garantías, fotografías, y ficha técnica del producto ofertado. Ingresar ofertas en formato PDF.",
+      "direccion_entrega": "La Pampilla 164",
       "plazo_entrega_dias": 2,
-      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=3326-595-COT26",
-      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=3326-595-COT26",
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=4105-646-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=4105-646-COT26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 22,
+      "sin_evaluar": true
+    },
+    {
+      "codigo": "2272-70-COT26",
+      "tipo": "compra_agil",
+      "nombre": "Adquisición de Repuestos para Aeronave Cessna Citation VI (tire)",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "DIRECCION GENERAL DE AERONAUTICA CIVIL",
+      "rut_organismo": "61.104.000-8",
+      "unidad_compra": "UNIDAD DE COMPRA SUBDIRECCION DE INSPECCION DE AYUDA A LA AERONAVEGACION",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 5850000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-10-21 10:54",
+      "fecha_cierre": "2026-10-23 15:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": 0,
+      "productos": [
+        {
+          "nombre": "Aeronave a reacción de carga",
+          "descripcion": "Tire Main, Nº Parte 226K08-4, Condición New, Modalidad Outright",
+          "cantidad": 2,
+          "unidad": "EA",
+          "categoria": "25131505"
+        },
+        {
+          "nombre": "Aeronave a reacción de carga",
+          "descripcion": "Tire Main, Nº Parte 606C66-8, Condición New, Modalidad Outright",
+          "cantidad": 3,
+          "unidad": "EA",
+          "categoria": "25131505"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "E0104F04-FFC2-42BA-A587-A93661867FD5",
+          "nombre": "CRITERIO SUSTENTABLE PARA PROVEEDORES (1).docx",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/2272-70-COT26/CRITERIO%20SUSTENTABLE%20PARA%20PROVEEDORES%20%281%29.docx",
+          "tipo": "docx"
+        },
+        {
+          "id": "7E0D94F4-DABB-4A76-A8B9-C1D148ACEC49",
+          "nombre": "SIFDOC RT 124-2026 Rev.2.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/2272-70-COT26/SIFDOC%20RT%20124-2026%20Rev.2.pdf",
+          "tipo": "pdf"
+        }
+      ],
+      "descripcion": "Tire Main, Nº Parte 226K08-4 y 606C66-8, Condición  New, Modalidad Outright.\n\nE102RT9",
+      "direccion_entrega": "Av. Omar Page 2075, interior Aeropuerto A.M.B.",
+      "plazo_entrega_dias": 10,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=2272-70-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=2272-70-COT26",
       "prefiltro": {
         "pasa": true,
         "razon": ""
       },
       "score_heuristico": 19,
+      "sin_evaluar": true
+    },
+    {
+      "codigo": "1431841-1258-COT26",
+      "tipo": "compra_agil",
+      "nombre": "SM 6997  ADQUISICION  E INSTALCION CABLE PARA PIEZA DE MANO SCALER CESFAM PATRICIO HEVIA",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "MUNICIPALIDAD DE RECOLETA",
+      "rut_organismo": "69.254.800-0",
+      "unidad_compra": "DIRECCION  DE COMPRAS PUBLICAS",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 150000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-10-21 10:44",
+      "fecha_cierre": "2026-10-23 10:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": 0,
+      "productos": [
+        {
+          "nombre": "Motores de laboratorio dental o accesorios",
+          "descripcion": "ADQUISICION E INSTALACION CABLE CON CONECTOR PARA PIEZA DE MANO SCALER WORD PECHER MODELO HW-3H",
+          "cantidad": 1,
+          "unidad": "EA",
+          "categoria": "42152208"
+        }
+      ],
+      "adjuntos": [],
+      "descripcion": "SE REQUIERE LA ADQUISICION E INSTALACION DE CABLE CON CONECTOR PARA PIEZA DE MANO SCALER WOODPECKER MODELO HW-3H, GARANTIA MINIMA 6 MESES.\n\nDEBE ADJUNTAR COTIZACION Y FICHA TECNICA",
+      "direccion_entrega": "RECOLETA",
+      "plazo_entrega_dias": 2,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1431841-1258-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1431841-1258-COT26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 19,
+      "sin_evaluar": true
+    },
+    {
+      "codigo": "1469-3631-COT26",
+      "tipo": "compra_agil",
+      "nombre": "20-44547 ADQUISICIÓN DE BATERIA-SOPORTE TV-MINI AMPLIFICADOR",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "UNIVERSIDAD DE TALCA",
+      "rut_organismo": "70.885.500-6",
+      "unidad_compra": "Universidad de Talca",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 230000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-10-21 20:49",
+      "fecha_cierre": "2026-10-23 09:30",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": 10,
+      "productos": [
+        {
+          "nombre": "Baterías recargables",
+          "descripcion": "Adquisición de 1 batería recargable original Nikon EN-EL25 de ion-litio, compatible con cámaras sin espejo Nikon Z50 y Z50 II. Debe ser un producto original, compatible con el cargador MH-32 y el adaptador de CA EH-7P, garantizando su funcionamiento con el equipo existente. Las características técnicas y condiciones específicas se detallan en las especificaciones técnicas adjuntas.",
+          "cantidad": 1,
+          "unidad": "EA",
+          "categoria": "26111701"
+        },
+        {
+          "nombre": "Soportes de televisión",
+          "descripcion": "Adquisición de 1 soporte móvil para TV de hasta 75 pulgadas, con ruedas, compatible con pantallas de 32 a 75 pulgadas y capacidad de carga de hasta 40 kg. Debe contar con montaje VESA de 200x200 mm a 400x600 mm, estructura de acero resistente y color negro. Las características técnicas y condiciones específicas se detallan en las especificaciones técnicas adjuntas.",
+          "cantidad": 1,
+          "unidad": "EA",
+          "categoria": "45111802"
+        },
+        {
+          "nombre": "Amplificadores",
+          "descripcion": "Adquisición de 2 mini amplificadores de voz modelo VA02, con clip y 2 micrófonos inalámbricos de solapa cada uno. Deben incluir cancelación de ruido DSP, función de música de fondo, potencia de 15 W, batería recargable y alcance inalámbrico de 15 m. Incluyen cable USB y correa. Las características técnicas y condiciones específicas se detallan en las especificaciones técnicas adjuntas.",
+          "cantidad": 2,
+          "unidad": "EA",
+          "categoria": "32101514"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "7779EAE1-128A-43B3-9441-5147146D3EDB",
+          "nombre": "ESPEC.TÉCNICAS 20-44547.pdf",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/1469-3631-COT26/ESPEC.T%C3%89CNICAS%2020-44547.pdf",
+          "tipo": "pdf"
+        }
+      ],
+      "descripcion": "Se requiere ADQUISICIÓN DE BATERIA-SOPORTE TV-MINI AMPLIFICADOR, conforme a las especificaciones técnicas adjuntas. La oferta deberá considerar la totalidad de los productos solicitados, despacho incluido y sin costo adicional. Se deberá adjuntar cotización indicando bienes ofertados, precios y plazo de entrega.",
+      "direccion_entrega": "Escuela de Arquitectura, Universidad de Talca, Avenida Lircay s/n.",
+      "plazo_entrega_dias": 2,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=1469-3631-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=1469-3631-COT26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 14,
+      "sin_evaluar": true
+    },
+    {
+      "codigo": "4083-656-COT26",
+      "tipo": "compra_agil",
+      "nombre": "Pieza de Mano Recta, NP Nº833",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "I MUNICIPALIDAD DE CABRERO DEPARTAMENTO DE SALUD",
+      "rut_organismo": "69.151.002-6",
+      "unidad_compra": "Depto. De Salud",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 1600000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-10-21 17:31",
+      "fecha_cierre": "2026-10-23 10:15",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": 6,
+      "productos": [
+        {
+          "nombre": "Piezas de mano dentales o accesorios",
+          "descripcion": "Pieza de mano recta, velocidad 1:1, velocidad máxima 40.000 rpm, sistema de cabezal limpio, para fresas de 2,35 de diámetro. Autoclavable a 135 grados",
+          "cantidad": 20,
+          "unidad": "EA",
+          "categoria": "42151624"
+        }
+      ],
+      "adjuntos": [],
+      "descripcion": "Se requiere adquirir Pieza de Mano Recta para Bodega Comunal-Dental del Departamento de Salud. Adjuntar ficha técnica e imagen del producto cotizado. Indicar plazo de entrega. Despacho incluido.",
+      "direccion_entrega": "Av. Las Violetas Nº805",
+      "plazo_entrega_dias": 3,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=4083-656-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=4083-656-COT26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 14,
+      "sin_evaluar": true
+    },
+    {
+      "codigo": "1049-82-LE26",
+      "tipo": "licitacion",
+      "nombre": "EQUIPAMIENTO REPUESTOS E INSUMOS PARA EL BC ABATE MOLINA",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": null,
+      "rut_organismo": null,
+      "unidad_compra": null,
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": null,
+      "moneda": "CLP",
+      "fecha_publicacion": null,
+      "fecha_cierre": "2026-11-02 16:00:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1049-82-LE26",
+      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=1049-82-LE26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 14,
+      "sin_evaluar": true
+    },
+    {
+      "codigo": "1057461-65-LE26",
+      "tipo": "licitacion",
+      "nombre": "CONVENIO DE SUMINISTRO DE PRODUCTOS DE HIGIENE CON DISPENSADORES EN COMODATO PARA HOSPITAL DE CAUQUENES",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": null,
+      "rut_organismo": null,
+      "unidad_compra": null,
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": null,
+      "moneda": "CLP",
+      "fecha_publicacion": null,
+      "fecha_cierre": "2026-11-05 15:30:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1057461-65-LE26",
+      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=1057461-65-LE26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 14,
       "sin_evaluar": true
     },
     {
@@ -1291,7 +2806,7 @@
       "monto_clp": null,
       "moneda": "CLP",
       "fecha_publicacion": null,
-      "fecha_cierre": "2026-11-04 15:30:00",
+      "fecha_cierre": "2026-11-10 15:30:00",
       "fecha_ultimo_cambio": null,
       "palabras_clave_match": [],
       "total_ofertas": null,
@@ -1336,6 +2851,104 @@
       "plazo_entrega_dias": null,
       "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1667-31-LR26",
       "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=1667-31-LR26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 14,
+      "sin_evaluar": true
+    },
+    {
+      "codigo": "2111-290-LP26",
+      "tipo": "licitacion",
+      "nombre": "SUMINISTRO DE PLACAS PEQUEÑO GRAN Y FRAGMENTO",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": null,
+      "rut_organismo": null,
+      "unidad_compra": null,
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": null,
+      "moneda": "CLP",
+      "fecha_publicacion": null,
+      "fecha_cierre": "2026-11-02 15:01:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2111-290-LP26",
+      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=2111-290-LP26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 14,
+      "sin_evaluar": true
+    },
+    {
+      "codigo": "2385-62-LP26",
+      "tipo": "licitacion",
+      "nombre": "Adquisición Montaje Desmontaje y Embalaje de Árboles Navideños y Decoración en Espacios Públicos de la Comuna Año 2025",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": null,
+      "rut_organismo": null,
+      "unidad_compra": null,
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": null,
+      "moneda": "CLP",
+      "fecha_publicacion": null,
+      "fecha_cierre": "2026-11-10 15:00:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2385-62-LP26",
+      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=2385-62-LP26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 14,
+      "sin_evaluar": true
+    },
+    {
+      "codigo": "2405-153-LP26",
+      "tipo": "licitacion",
+      "nombre": "ADQUISICIÓN DE JUGUETES BOLSAS Y EMPAQUE NAVIDAD 2026 SEGUNDO LLAMADO",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": null,
+      "rut_organismo": null,
+      "unidad_compra": null,
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": null,
+      "moneda": "CLP",
+      "fecha_publicacion": null,
+      "fecha_cierre": "2026-11-10 10:00:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "juguete"
+      ],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2405-153-LP26",
+      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=2405-153-LP26",
       "prefiltro": {
         "pasa": true,
         "razon": ""
@@ -1412,6 +3025,38 @@
       "sin_evaluar": true
     },
     {
+      "codigo": "2675-135-LE26",
+      "tipo": "licitacion",
+      "nombre": "PREMIOS PARA DIDECO",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": null,
+      "rut_organismo": null,
+      "unidad_compra": null,
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": null,
+      "moneda": "CLP",
+      "fecha_publicacion": null,
+      "fecha_cierre": "2026-11-02 16:00:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2675-135-LE26",
+      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=2675-135-LE26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 14,
+      "sin_evaluar": true
+    },
+    {
       "codigo": "2686-137-LP26",
       "tipo": "licitacion",
       "nombre": "SERV. PRODUCCIÓN ENTREGA DE JUGUETES COLINA",
@@ -1446,9 +3091,9 @@
       "sin_evaluar": true
     },
     {
-      "codigo": "3086-71-LE26",
+      "codigo": "2713-197-LE26",
       "tipo": "licitacion",
-      "nombre": "BATOLAVE - ADQUISICION DE REPUESTOS",
+      "nombre": "DIDECO-ADQUISICION DE JUGUETES FOLIO 1292",
       "estado": "publicada",
       "estado_glosa": "Publicada",
       "organismo": null,
@@ -1459,17 +3104,19 @@
       "monto_clp": null,
       "moneda": "CLP",
       "fecha_publicacion": null,
-      "fecha_cierre": "2026-10-22 15:00:00",
+      "fecha_cierre": "2026-11-02 15:30:00",
       "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [],
+      "palabras_clave_match": [
+        "juguete"
+      ],
       "total_ofertas": null,
       "productos": [],
       "adjuntos": [],
       "descripcion": null,
       "direccion_entrega": null,
       "plazo_entrega_dias": null,
-      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3086-71-LE26",
-      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=3086-71-LE26",
+      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2713-197-LE26",
+      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=2713-197-LE26",
       "prefiltro": {
         "pasa": true,
         "razon": ""
@@ -1544,6 +3191,72 @@
       "sin_evaluar": true
     },
     {
+      "codigo": "3567-42-LE26",
+      "tipo": "licitacion",
+      "nombre": "JUGUETES DE NAVIDAD AÑO 2026.",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": null,
+      "rut_organismo": null,
+      "unidad_compra": null,
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": null,
+      "moneda": "CLP",
+      "fecha_publicacion": null,
+      "fecha_cierre": "2026-11-02 16:00:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [
+        "juguete"
+      ],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3567-42-LE26",
+      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=3567-42-LE26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 14,
+      "sin_evaluar": true
+    },
+    {
+      "codigo": "3588-58-LE26",
+      "tipo": "licitacion",
+      "nombre": "SERVICIO DECORACIÓN NAVIDEÑA RECINTOS PÚBLICOS",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": null,
+      "rut_organismo": null,
+      "unidad_compra": null,
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": null,
+      "moneda": "CLP",
+      "fecha_publicacion": null,
+      "fecha_cierre": "2026-11-02 15:01:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3588-58-LE26",
+      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=3588-58-LE26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 14,
+      "sin_evaluar": true
+    },
+    {
       "codigo": "4050-48-LE26",
       "tipo": "licitacion",
       "nombre": "ADQ. DE JUGUETES PARA ACTIVIDADES RECREATIVAS 2026",
@@ -1570,6 +3283,38 @@
       "plazo_entrega_dias": null,
       "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4050-48-LE26",
       "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=4050-48-LE26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 14,
+      "sin_evaluar": true
+    },
+    {
+      "codigo": "45-53-LE26",
+      "tipo": "licitacion",
+      "nombre": "SERVICIO DE SOPORTE DE CENTRALES TELEFÓNICAS DE SENCE",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": null,
+      "rut_organismo": null,
+      "unidad_compra": null,
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": null,
+      "moneda": "CLP",
+      "fecha_publicacion": null,
+      "fecha_cierre": "2026-11-04 15:00:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=45-53-LE26",
+      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=45-53-LE26",
       "prefiltro": {
         "pasa": true,
         "razon": ""
@@ -1610,9 +3355,9 @@
       "sin_evaluar": true
     },
     {
-      "codigo": "980313-39-LE26",
+      "codigo": "608897-62-LE26",
       "tipo": "licitacion",
-      "nombre": "SUMINISTRO SERVICIOS SEÑALIZACION VIAL ANTUCO",
+      "nombre": "INSUMOS Y REPUESTOS PARA EQUIPOS MARCA METONE 2026",
       "estado": "publicada",
       "estado_glosa": "Publicada",
       "organismo": null,
@@ -1623,7 +3368,7 @@
       "monto_clp": null,
       "moneda": "CLP",
       "fecha_publicacion": null,
-      "fecha_cierre": "2026-10-22 15:00:00",
+      "fecha_cierre": "2026-11-02 15:30:00",
       "fecha_ultimo_cambio": null,
       "palabras_clave_match": [],
       "total_ofertas": null,
@@ -1632,13 +3377,66 @@
       "descripcion": null,
       "direccion_entrega": null,
       "plazo_entrega_dias": null,
-      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=980313-39-LE26",
-      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=980313-39-LE26",
+      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=608897-62-LE26",
+      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=608897-62-LE26",
       "prefiltro": {
         "pasa": true,
         "razon": ""
       },
       "score_heuristico": 14,
+      "sin_evaluar": true
+    },
+    {
+      "codigo": "4686-98-COT26",
+      "tipo": "compra_agil",
+      "nombre": "Retiro de tabiquería volcometal y casilleros existentes, más instalación de tabiquería aluminio/cristal en 1.° piso, sector placa.",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "Cámara de Diputados de Chile",
+      "rut_organismo": "60.202.000-2",
+      "unidad_compra": "DEPARTAMENTO DE ADQUISICIONES",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 7000000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-10-21 12:00",
+      "fecha_cierre": "2026-11-16 14:00",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": 0,
+      "productos": [
+        {
+          "nombre": "Servicios temporales de construcción",
+          "descripcion": "Retiro de tabiquería volcometal y casilleros existentes, más instalación de tabiquería aluminio/cristal en 1.° piso, sector placa, Cámara de Diputadas y Diputados en Valparaíso. Completar documento adjunto en Word \"Ficha Compra Ágil\", ingresar cotización formal con descripción de los servicios y bienes ofertados y asistir a la Visita a Terreno de caracter obligatorio el día 12-noviembre-2026 a las 11:00 horas en Valparaíso.",
+          "cantidad": 1,
+          "unidad": "KIT",
+          "categoria": "80111618"
+        }
+      ],
+      "adjuntos": [
+        {
+          "id": "CE0A14D2-77C0-42EF-90C7-86F849F3AE6E",
+          "nombre": "Ficha Compra Ágil (a completar e ingresarla al portal por los ofe.docx",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/4686-98-COT26/Ficha%20Compra%20%C3%81gil%20%28a%20completar%20e%20ingresarla%20al%20portal%20por%20los%20ofe.docx",
+          "tipo": "docx"
+        },
+        {
+          "id": "D5DD7772-A015-4DD6-B047-758B4289ED08",
+          "nombre": "Listado de Documentos Contratista (Exigido al Proveedor una vez q.doc",
+          "url": "https://raw.githubusercontent.com/Nyctric/compra-agil-feed/master/adjuntos/4686-98-COT26/Listado%20de%20Documentos%20Contratista%20%28Exigido%20al%20Proveedor%20una%20vez%20q.doc",
+          "tipo": "doc"
+        }
+      ],
+      "descripcion": "Retiro de tabiquería volcometal y casilleros existentes, más instalación de tabiquería aluminio/cristal en 1.° piso, sector placa, Cámara de Diputadas y Diputados en Valparaíso. Completar documento adjunto en Word \"Ficha Compra Ágil\" y asistir a la Visita a Terreno de caracter obligatorio el día 12-noviembre-2026 a las 11:00 horas en Valparaíso.",
+      "direccion_entrega": "Edificio Congreso Nacional S/N°, Valparaíso - Departamento Técnico de la Cámara de Diputados de Chile.",
+      "plazo_entrega_dias": 8,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=4686-98-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=4686-98-COT26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 9,
       "sin_evaluar": true
     },
     {
@@ -1676,6 +3474,38 @@
       "sin_evaluar": true
     },
     {
+      "codigo": "4134-680-COT26",
+      "tipo": "compra_agil",
+      "nombre": "COMPRA DE REPUESTOS PARA VEHÍCULOS MUNICIPALES",
+      "estado": "publicada",
+      "estado_glosa": "Publicada",
+      "organismo": "I. Municipalidad Sagrada Familia",
+      "rut_organismo": null,
+      "unidad_compra": "ADMINISTRACION Y FINANZAS - ADQUISICIONES",
+      "region": null,
+      "region_nombre": null,
+      "monto_clp": 7200000,
+      "moneda": "CLP",
+      "fecha_publicacion": "2026-10-21 12:04",
+      "fecha_cierre": "2026-10-23 10:30",
+      "fecha_ultimo_cambio": null,
+      "palabras_clave_match": [],
+      "total_ofertas": null,
+      "productos": [],
+      "adjuntos": [],
+      "descripcion": null,
+      "direccion_entrega": null,
+      "plazo_entrega_dias": null,
+      "ficha_publica": "https://buscador.mercadopublico.cl/ficha?code=4134-680-COT26",
+      "url_detalle_api": "https://api.buscador.mercadopublico.cl/compra-agil?action=ficha&code=4134-680-COT26",
+      "prefiltro": {
+        "pasa": true,
+        "razon": ""
+      },
+      "score_heuristico": 4,
+      "sin_evaluar": true
+    },
+    {
       "codigo": "1261-37-LR26",
       "tipo": "licitacion",
       "nombre": "Estrategia Reconocimiento Humedales Comp2-3y5",
@@ -1705,842 +3535,6 @@
         "razon": ""
       },
       "score_heuristico": 4,
-      "sin_evaluar": true
-    },
-    {
-      "codigo": "1447790-13-LP26",
-      "tipo": "licitacion",
-      "nombre": "ADQ. CAMPANAS Y GABINETES PROYECTO HPC",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": null,
-      "rut_organismo": null,
-      "unidad_compra": null,
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": null,
-      "moneda": "CLP",
-      "fecha_publicacion": null,
-      "fecha_cierre": "2026-11-24 15:01:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [],
-      "total_ofertas": null,
-      "productos": [],
-      "adjuntos": [],
-      "descripcion": null,
-      "direccion_entrega": null,
-      "plazo_entrega_dias": null,
-      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1447790-13-LP26",
-      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=1447790-13-LP26",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 4,
-      "sin_evaluar": true
-    },
-    {
-      "codigo": "2385-62-LP26",
-      "tipo": "licitacion",
-      "nombre": "Adquisición Montaje Desmontaje y Embalaje de Árboles Navideños y Decoración en Espacios Públicos de la Comuna Año 2025",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": null,
-      "rut_organismo": null,
-      "unidad_compra": null,
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": null,
-      "moneda": "CLP",
-      "fecha_publicacion": null,
-      "fecha_cierre": "2026-11-10 15:00:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [],
-      "total_ofertas": null,
-      "productos": [],
-      "adjuntos": [],
-      "descripcion": null,
-      "direccion_entrega": null,
-      "plazo_entrega_dias": null,
-      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2385-62-LP26",
-      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=2385-62-LP26",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 4,
-      "sin_evaluar": true
-    },
-    {
-      "codigo": "2405-153-LP26",
-      "tipo": "licitacion",
-      "nombre": "ADQUISICIÓN DE JUGUETES BOLSAS Y EMPAQUE NAVIDAD 2026 SEGUNDO LLAMADO",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": null,
-      "rut_organismo": null,
-      "unidad_compra": null,
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": null,
-      "moneda": "CLP",
-      "fecha_publicacion": null,
-      "fecha_cierre": "2026-11-10 10:00:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [
-        "juguete"
-      ],
-      "total_ofertas": null,
-      "productos": [],
-      "adjuntos": [],
-      "descripcion": null,
-      "direccion_entrega": null,
-      "plazo_entrega_dias": null,
-      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2405-153-LP26",
-      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=2405-153-LP26",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 4,
-      "sin_evaluar": true
-    },
-    {
-      "codigo": "834259-53-LR26",
-      "tipo": "licitacion",
-      "nombre": "SOPORTE OPERACIONAL PARA INFRAESTRUCTURA Y SERV.",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": null,
-      "rut_organismo": null,
-      "unidad_compra": null,
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": null,
-      "moneda": "CLP",
-      "fecha_publicacion": null,
-      "fecha_cierre": "2026-11-12 15:05:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [],
-      "total_ofertas": null,
-      "productos": [],
-      "adjuntos": [],
-      "descripcion": null,
-      "direccion_entrega": null,
-      "plazo_entrega_dias": null,
-      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=834259-53-LR26",
-      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=834259-53-LR26",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 4,
-      "sin_evaluar": true
-    },
-    {
-      "codigo": "1895-38-LE26",
-      "tipo": "licitacion",
-      "nombre": "Sol 22 Adquisición de Repuestos de Desgaste y Soportes para Motoniveladora Caterpillar 140K - Vialidad Chiloé",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": null,
-      "rut_organismo": null,
-      "unidad_compra": null,
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": null,
-      "moneda": "CLP",
-      "fecha_publicacion": null,
-      "fecha_cierre": "2026-10-26 15:06:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [],
-      "total_ofertas": null,
-      "productos": [],
-      "adjuntos": [],
-      "descripcion": null,
-      "direccion_entrega": null,
-      "plazo_entrega_dias": null,
-      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1895-38-LE26",
-      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=1895-38-LE26",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 3,
-      "sin_evaluar": true
-    },
-    {
-      "codigo": "1048-83-LE26",
-      "tipo": "licitacion",
-      "nombre": "CONVENIO SUMINISTRO REPUESTOS DE VEHICULOS PESADOS",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": null,
-      "rut_organismo": null,
-      "unidad_compra": null,
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": null,
-      "moneda": "CLP",
-      "fecha_publicacion": null,
-      "fecha_cierre": "2026-10-26 15:00:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [],
-      "total_ofertas": null,
-      "productos": [],
-      "adjuntos": [],
-      "descripcion": null,
-      "direccion_entrega": null,
-      "plazo_entrega_dias": null,
-      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1048-83-LE26",
-      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=1048-83-LE26",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 0,
-      "sin_evaluar": true
-    },
-    {
-      "codigo": "1057417-15-LP26",
-      "tipo": "licitacion",
-      "nombre": "CONVENIO DE SERVICIOS DE MANTENCIÓN SOPORTE TÉCNICO E INSTALACIÓN Y PROVISIÓN DE EQUIPAMIENTO PARA SISTEMAS CCTV",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": null,
-      "rut_organismo": null,
-      "unidad_compra": null,
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": null,
-      "moneda": "CLP",
-      "fecha_publicacion": null,
-      "fecha_cierre": "2026-11-02 17:00:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [],
-      "total_ofertas": null,
-      "productos": [],
-      "adjuntos": [],
-      "descripcion": null,
-      "direccion_entrega": null,
-      "plazo_entrega_dias": null,
-      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1057417-15-LP26",
-      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=1057417-15-LP26",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 0,
-      "sin_evaluar": true
-    },
-    {
-      "codigo": "1057439-122-LE26",
-      "tipo": "licitacion",
-      "nombre": "ARRIENDO DE ESPACIOS PARA MAQUINAS DISPENSADORAS",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": null,
-      "rut_organismo": null,
-      "unidad_compra": null,
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": null,
-      "moneda": "CLP",
-      "fecha_publicacion": null,
-      "fecha_cierre": "2026-11-02 17:00:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [],
-      "total_ofertas": null,
-      "productos": [],
-      "adjuntos": [],
-      "descripcion": null,
-      "direccion_entrega": null,
-      "plazo_entrega_dias": null,
-      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1057439-122-LE26",
-      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=1057439-122-LE26",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 0,
-      "sin_evaluar": true
-    },
-    {
-      "codigo": "1057539-160-LE26",
-      "tipo": "licitacion",
-      "nombre": "CONVENIO SERVICIO DE SOPORTE Y MANTENCIÓN INTEGRAL DEL SISTEMA DE RADIOCOMUNICACION N° 2026-858",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": null,
-      "rut_organismo": null,
-      "unidad_compra": null,
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": null,
-      "moneda": "CLP",
-      "fecha_publicacion": null,
-      "fecha_cierre": "2026-10-26 15:00:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [],
-      "total_ofertas": null,
-      "productos": [],
-      "adjuntos": [],
-      "descripcion": null,
-      "direccion_entrega": null,
-      "plazo_entrega_dias": null,
-      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1057539-160-LE26",
-      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=1057539-160-LE26",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 0,
-      "sin_evaluar": true
-    },
-    {
-      "codigo": "1057547-438-LE26",
-      "tipo": "licitacion",
-      "nombre": "CONVENIO DE SOPORTE Y MANTENIMIENTO PARA LA PLATAF",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": null,
-      "rut_organismo": null,
-      "unidad_compra": null,
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": null,
-      "moneda": "CLP",
-      "fecha_publicacion": null,
-      "fecha_cierre": "2026-10-23 19:00:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [],
-      "total_ofertas": null,
-      "productos": [],
-      "adjuntos": [],
-      "descripcion": null,
-      "direccion_entrega": null,
-      "plazo_entrega_dias": null,
-      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1057547-438-LE26",
-      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=1057547-438-LE26",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 0,
-      "sin_evaluar": true
-    },
-    {
-      "codigo": "1079580-33-LE26",
-      "tipo": "licitacion",
-      "nombre": "ADQ. DE  REPUESTOS PARA LA MANTENCIÓN DE VEHICULOS",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": null,
-      "rut_organismo": null,
-      "unidad_compra": null,
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": null,
-      "moneda": "CLP",
-      "fecha_publicacion": null,
-      "fecha_cierre": "2026-10-26 19:09:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [],
-      "total_ofertas": null,
-      "productos": [],
-      "adjuntos": [],
-      "descripcion": null,
-      "direccion_entrega": null,
-      "plazo_entrega_dias": null,
-      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1079580-33-LE26",
-      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=1079580-33-LE26",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 0,
-      "sin_evaluar": true
-    },
-    {
-      "codigo": "1110404-233-LE26",
-      "tipo": "licitacion",
-      "nombre": "ADQUISICIÓN DE REPUESTOS E INSUMOS PARA FLOTA VEHICULAR PERTENECIENTE AL SLEP DE CHINCHORRO",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": null,
-      "rut_organismo": null,
-      "unidad_compra": null,
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": null,
-      "moneda": "CLP",
-      "fecha_publicacion": null,
-      "fecha_cierre": "2026-10-27 12:00:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [],
-      "total_ofertas": null,
-      "productos": [],
-      "adjuntos": [],
-      "descripcion": null,
-      "direccion_entrega": null,
-      "plazo_entrega_dias": null,
-      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1110404-233-LE26",
-      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=1110404-233-LE26",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 0,
-      "sin_evaluar": true
-    },
-    {
-      "codigo": "1288419-10-LE26",
-      "tipo": "licitacion",
-      "nombre": "Adquisición de repuestos y accesorios para maquinarias San Pedro de Atacama",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": null,
-      "rut_organismo": null,
-      "unidad_compra": null,
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": null,
-      "moneda": "CLP",
-      "fecha_publicacion": null,
-      "fecha_cierre": "2026-10-30 10:00:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [],
-      "total_ofertas": null,
-      "productos": [],
-      "adjuntos": [],
-      "descripcion": null,
-      "direccion_entrega": null,
-      "plazo_entrega_dias": null,
-      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1288419-10-LE26",
-      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=1288419-10-LE26",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 0,
-      "sin_evaluar": true
-    },
-    {
-      "codigo": "1374899-50-LP26",
-      "tipo": "licitacion",
-      "nombre": "IMPLEMENTACIÓN DE UN SISTEMA DE GESTIÓN DE TURNOS CONTROL HORARIO Y CÁLCULO DE COMPENSACIONES CON ARRIENDO DE RELOJES CONTROL SOPORTE Y MANTENCIÓN",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": null,
-      "rut_organismo": null,
-      "unidad_compra": null,
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": null,
-      "moneda": "CLP",
-      "fecha_publicacion": null,
-      "fecha_cierre": "2026-10-26 16:00:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [],
-      "total_ofertas": null,
-      "productos": [],
-      "adjuntos": [],
-      "descripcion": null,
-      "direccion_entrega": null,
-      "plazo_entrega_dias": null,
-      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1374899-50-LP26",
-      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=1374899-50-LP26",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 0,
-      "sin_evaluar": true
-    },
-    {
-      "codigo": "1375735-15-LE26",
-      "tipo": "licitacion",
-      "nombre": "SERVICIO DE IMPLEMENTACIÓN MANTENCIÓN Y SOPORTE DE SISTEMA CCTV PARA NIVEL CENTRAL DEL SERVICIO LOCAL DE EDUCACIÓN PÚBLICA ANTOFAGASTA QUE INCLUYE EL SUMINISTRO INSTALACIÓN Y PUESTA EN MARCHA DE LOS EQUIPOS NECESARIOS",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": null,
-      "rut_organismo": null,
-      "unidad_compra": null,
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": null,
-      "moneda": "CLP",
-      "fecha_publicacion": null,
-      "fecha_cierre": "2026-10-26 15:01:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [],
-      "total_ofertas": null,
-      "productos": [],
-      "adjuntos": [],
-      "descripcion": null,
-      "direccion_entrega": null,
-      "plazo_entrega_dias": null,
-      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=1375735-15-LE26",
-      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=1375735-15-LE26",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 0,
-      "sin_evaluar": true
-    },
-    {
-      "codigo": "2408-237-LE26",
-      "tipo": "licitacion",
-      "nombre": "ADQUISICIÓN REPUESTOS Y ACCESORIOS PARA REPARACIÓN DE MAQUINARIAS",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": null,
-      "rut_organismo": null,
-      "unidad_compra": null,
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": null,
-      "moneda": "CLP",
-      "fecha_publicacion": null,
-      "fecha_cierre": "2026-11-03 09:00:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [],
-      "total_ofertas": null,
-      "productos": [],
-      "adjuntos": [],
-      "descripcion": null,
-      "direccion_entrega": null,
-      "plazo_entrega_dias": null,
-      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2408-237-LE26",
-      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=2408-237-LE26",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 0,
-      "sin_evaluar": true
-    },
-    {
-      "codigo": "2490-94-LR26",
-      "tipo": "licitacion",
-      "nombre": "SERVICIO INTEGRAL DE SOPORTE Y MANTENCIÓN DEL SISTEMA TELEVIGILANCIA COMUNAL PERIODO 2026-2030",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": null,
-      "rut_organismo": null,
-      "unidad_compra": null,
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": null,
-      "moneda": "CLP",
-      "fecha_publicacion": null,
-      "fecha_cierre": "2026-11-06 12:00:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [],
-      "total_ofertas": null,
-      "productos": [],
-      "adjuntos": [],
-      "descripcion": null,
-      "direccion_entrega": null,
-      "plazo_entrega_dias": null,
-      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2490-94-LR26",
-      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=2490-94-LR26",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 0,
-      "sin_evaluar": true
-    },
-    {
-      "codigo": "2667-71-LR26",
-      "tipo": "licitacion",
-      "nombre": "ARRIENDO SOPORTE Y MANTENCIÓN DE CENTRAL TELEFONICA IP TELEFONOS IP Y PLATAFORMA DE CONTACT CENTER",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": null,
-      "rut_organismo": null,
-      "unidad_compra": null,
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": null,
-      "moneda": "CLP",
-      "fecha_publicacion": null,
-      "fecha_cierre": "2026-10-27 15:00:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [],
-      "total_ofertas": null,
-      "productos": [],
-      "adjuntos": [],
-      "descripcion": null,
-      "direccion_entrega": null,
-      "plazo_entrega_dias": null,
-      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2667-71-LR26",
-      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=2667-71-LR26",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 0,
-      "sin_evaluar": true
-    },
-    {
-      "codigo": "2705-64-LE26",
-      "tipo": "licitacion",
-      "nombre": "ARRIENDO DE SOPORTE MÁS TELA PUBLICITARIA SC 4450",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": null,
-      "rut_organismo": null,
-      "unidad_compra": null,
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": null,
-      "moneda": "CLP",
-      "fecha_publicacion": null,
-      "fecha_cierre": "2026-10-28 20:00:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [],
-      "total_ofertas": null,
-      "productos": [],
-      "adjuntos": [],
-      "descripcion": null,
-      "direccion_entrega": null,
-      "plazo_entrega_dias": null,
-      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2705-64-LE26",
-      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=2705-64-LE26",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 0,
-      "sin_evaluar": true
-    },
-    {
-      "codigo": "2958-6-LP26",
-      "tipo": "licitacion",
-      "nombre": "ADQUISICIÓN DE REPUESTOS VEHÍCULOS MILITARES.",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": null,
-      "rut_organismo": null,
-      "unidad_compra": null,
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": null,
-      "moneda": "CLP",
-      "fecha_publicacion": null,
-      "fecha_cierre": "2026-10-26 15:30:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [],
-      "total_ofertas": null,
-      "productos": [],
-      "adjuntos": [],
-      "descripcion": null,
-      "direccion_entrega": null,
-      "plazo_entrega_dias": null,
-      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2958-6-LP26",
-      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=2958-6-LP26",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 0,
-      "sin_evaluar": true
-    },
-    {
-      "codigo": "2981-280-LP26",
-      "tipo": "licitacion",
-      "nombre": "CECAPRO - SIMULADOR DE CONDUCCIÓN DE VEHÍCULOS",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": null,
-      "rut_organismo": null,
-      "unidad_compra": null,
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": null,
-      "moneda": "CLP",
-      "fecha_publicacion": null,
-      "fecha_cierre": "2026-11-04 15:00:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [
-        "simulador"
-      ],
-      "total_ofertas": null,
-      "productos": [],
-      "adjuntos": [],
-      "descripcion": null,
-      "direccion_entrega": null,
-      "plazo_entrega_dias": null,
-      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2981-280-LP26",
-      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=2981-280-LP26",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 0,
-      "sin_evaluar": true
-    },
-    {
-      "codigo": "2981-299-LR26",
-      "tipo": "licitacion",
-      "nombre": "BAPOL - SUMINISTRO REPUESTOS PIEZAS PARTES Y ACCESORIOS PARA HELICOPTEROS PDI 2027-2028",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": null,
-      "rut_organismo": null,
-      "unidad_compra": null,
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": null,
-      "moneda": "CLP",
-      "fecha_publicacion": null,
-      "fecha_cierre": "2026-11-18 16:07:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [],
-      "total_ofertas": null,
-      "productos": [],
-      "adjuntos": [],
-      "descripcion": null,
-      "direccion_entrega": null,
-      "plazo_entrega_dias": null,
-      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=2981-299-LR26",
-      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=2981-299-LR26",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 0,
-      "sin_evaluar": true
-    },
-    {
-      "codigo": "3092-26-L126",
-      "tipo": "licitacion",
-      "nombre": "Servicios de reparación y mantención correctiva de Campo visual Modelo HFA 850 Marca Zeiss Meditec PCB Microcontrolador y lámpara de proyección perteneciente a la Unidad Atención Primaria Oftalmológica de la Dirección de Salud I. Municipal,",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": null,
-      "rut_organismo": null,
-      "unidad_compra": null,
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": null,
-      "moneda": "CLP",
-      "fecha_publicacion": null,
-      "fecha_cierre": "2026-10-22 15:00:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [],
-      "total_ofertas": null,
-      "productos": [],
-      "adjuntos": [],
-      "descripcion": null,
-      "direccion_entrega": null,
-      "plazo_entrega_dias": null,
-      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3092-26-L126",
-      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=3092-26-L126",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 0,
-      "sin_evaluar": true
-    },
-    {
-      "codigo": "3540-74-LE26",
-      "tipo": "licitacion",
-      "nombre": "Repuestos y filtros para camiones y bus",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": null,
-      "rut_organismo": null,
-      "unidad_compra": null,
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": null,
-      "moneda": "CLP",
-      "fecha_publicacion": null,
-      "fecha_cierre": "2026-10-26 15:00:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [],
-      "total_ofertas": null,
-      "productos": [],
-      "adjuntos": [],
-      "descripcion": null,
-      "direccion_entrega": null,
-      "plazo_entrega_dias": null,
-      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3540-74-LE26",
-      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=3540-74-LE26",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 0,
-      "sin_evaluar": true
-    },
-    {
-      "codigo": "3890-221-L126",
-      "tipo": "licitacion",
-      "nombre": "ADQUISICION REPUESTO CAMIONETA NISSAN NP300",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": null,
-      "rut_organismo": null,
-      "unidad_compra": null,
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": null,
-      "moneda": "CLP",
-      "fecha_publicacion": null,
-      "fecha_cierre": "2026-10-27 15:30:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [],
-      "total_ofertas": null,
-      "productos": [],
-      "adjuntos": [],
-      "descripcion": null,
-      "direccion_entrega": null,
-      "plazo_entrega_dias": null,
-      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=3890-221-L126",
-      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=3890-221-L126",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 0,
-      "sin_evaluar": true
-    },
-    {
-      "codigo": "4037-69-LE26",
-      "tipo": "licitacion",
-      "nombre": "CONTRATACION DEL SERVICIO DE SERVIDOR VIRTUAL HOSTING munifresia.cl  SOPORTE Y MANTENCION DE LA PAGINA WEB SEGUN  BASES ADMINISTRATIVAS Y TECNICAS ADJUNTAS",
-      "estado": "publicada",
-      "estado_glosa": "Publicada",
-      "organismo": null,
-      "rut_organismo": null,
-      "unidad_compra": null,
-      "region": null,
-      "region_nombre": null,
-      "monto_clp": null,
-      "moneda": "CLP",
-      "fecha_publicacion": null,
-      "fecha_cierre": "2026-10-30 10:00:00",
-      "fecha_ultimo_cambio": null,
-      "palabras_clave_match": [],
-      "total_ofertas": null,
-      "productos": [],
-      "adjuntos": [],
-      "descripcion": null,
-      "direccion_entrega": null,
-      "plazo_entrega_dias": null,
-      "ficha_publica": "https://www.mercadopublico.cl/Procurement/Modules/RFB/DetailsAcquisition.aspx?idlicitacion=4037-69-LE26",
-      "url_detalle_api": "https://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=4037-69-LE26",
-      "prefiltro": {
-        "pasa": true,
-        "razon": ""
-      },
-      "score_heuristico": 0,
       "sin_evaluar": true
     }
   ]
