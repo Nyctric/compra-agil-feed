@@ -32,7 +32,7 @@
   ],
   "buscar_todo": true,
   "monto_min_clp": 100000,
-  "horas_min_cierre": 24,
+  "horas_min_cierre": 0,
   "max_detalle": 300,
   "max_eval_ia": 200,
   "max_items_feed": 800,
