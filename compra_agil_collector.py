@@ -139,6 +139,9 @@ FETCH_DETALLE = True
 OUTPUT_FILE = os.environ.get("OUTPUT_FILE", "oportunidades.json")
 EVAL_CACHE_FILE = os.environ.get("EVAL_CACHE_FILE", "eval_ia.json")
 PAUSA_SEG = 0.35
+# Consultas simultáneas a la API del buscador (barrido y revisión por descripción). La API es lenta
+# (~15 s por página): con varias a la vez el tiempo baja mucho; si aumentan los 504, bajar el número. 1 = secuencial.
+PARALELO_MP = max(1, int(_CFG.get("consultas_paralelas_mp", 6)))
 MAX_REINTENTOS = 3
 MAX_PAGINAS = 20        # tope de seguridad por palabra clave
 MAX_PAGINAS_TODO = int(_CFG.get("max_paginas_todo", 650))  # tope en modo buscar_todo; _paginar corta antes si pageCount es menor
@@ -374,6 +377,16 @@ def _get_buscador(params=None, intento=0):
         return data.get("payload")
 
 
+def _traer_paralelo(fn, args):
+    """Aplica fn a cada elemento con hasta PARALELO_MP consultas a la vez; respeta el orden."""
+    args = list(args)
+    if PARALELO_MP <= 1 or len(args) <= 1:
+        return [fn(a) for a in args]
+    from concurrent.futures import ThreadPoolExecutor
+    with ThreadPoolExecutor(max_workers=PARALELO_MP) as ex:
+        return list(ex.map(fn, args))
+
+
 def _paginar(params_base, max_paginas):
     items, pagina = [], 1
     while pagina <= max_paginas:
@@ -458,39 +471,49 @@ _BARRIDO_ESTADO = {"paginas_fallidas": [], "cortado": False}
 def _paginar_hasta(params_base, max_paginas, desde):
     """Como _paginar, pero la lista viene de lo más nuevo a lo más viejo
     (order_by=recent = fecha de publicación descendente, verificado 29-09-2026):
-    se corta en la primera página cuyos procesos son TODOS anteriores a `desde`."""
+    se corta en la primera página cuyos procesos son TODOS anteriores a `desde`.
+    Pide PARALELO_MP páginas a la vez y las procesa en orden."""
     items, pagina, paginas = [], 1, 0
     fallos_seguidos = 0
+    total = None
+    fin = False
     _BARRIDO_ESTADO["paginas_fallidas"] = []
     _BARRIDO_ESTADO["cortado"] = False
-    while pagina <= max_paginas:
-        params = dict(params_base); params["page_number"] = pagina
-        payload = _get_buscador(params)
-        time.sleep(PAUSA_SEG)
-        if not payload:
-            # una página caída (502/504) ya no corta el barrido: se salta y se sigue;
-            # solo se abandona tras varias fallas seguidas (y queda marcado como cortado)
-            _BARRIDO_ESTADO["paginas_fallidas"].append(pagina)
-            fallos_seguidos += 1
-            if fallos_seguidos >= BARRIDO_MAX_FALLOS_SEGUIDOS:
-                _BARRIDO_ESTADO["cortado"] = True
-                print(f"  · barrido: {fallos_seguidos} páginas seguidas fallidas — se detiene en la {pagina}",
-                      file=sys.stderr)
-                break
-            time.sleep(10 * fallos_seguidos)
-            pagina += 1
-            continue
-        fallos_seguidos = 0
-        paginas += 1
-        res = payload.get("resultados") or []
-        items.extend(res)
-        if desde is not None and res:
-            fechas = [_parse_fecha(r.get("fecha_publicacion")) for r in res]
-            if all(f is not None and f < desde for f in fechas):
-                break
-        if pagina >= (payload.get("pageCount") or 1):
+    while pagina <= max_paginas and not fin:
+        tope = max_paginas if total is None else min(max_paginas, total)
+        lote = list(range(pagina, min(pagina + PARALELO_MP, tope + 1)))
+        if not lote:
             break
-        pagina += 1
+        payloads = _traer_paralelo(lambda pg: _get_buscador(dict(params_base, page_number=pg)), lote)
+        time.sleep(PAUSA_SEG)
+        for pg, payload in zip(lote, payloads):
+            if not payload:
+                # una página caída (502/504) ya no corta el barrido: se salta y se sigue;
+                # solo se abandona tras varias fallas seguidas (y queda marcado como cortado)
+                _BARRIDO_ESTADO["paginas_fallidas"].append(pg)
+                fallos_seguidos += 1
+                if fallos_seguidos >= BARRIDO_MAX_FALLOS_SEGUIDOS:
+                    _BARRIDO_ESTADO["cortado"] = True
+                    print(f"  · barrido: {fallos_seguidos} páginas seguidas fallidas — se detiene en la {pg}",
+                          file=sys.stderr)
+                    fin = True
+                    break
+                time.sleep(10 * fallos_seguidos)
+                continue
+            fallos_seguidos = 0
+            paginas += 1
+            res = payload.get("resultados") or []
+            items.extend(res)
+            total = payload.get("pageCount") or 1
+            if desde is not None and res:
+                fechas = [_parse_fecha(r.get("fecha_publicacion")) for r in res]
+                if all(f is not None and f < desde for f in fechas):
+                    fin = True
+                    break
+            if pg >= total:
+                fin = True
+                break
+        pagina = lote[-1] + 1
     return items, paginas
 
 
@@ -1710,22 +1733,27 @@ def revisar_descripciones(regs):
     print(f"Revisión por descripción: {len(regs)} procesos sin coincidencia en el título, "
           f"{len(lote)} fichas por revisar ({len(regs) - len(pend)} ya en caché)")
     t0, ahora = time.time(), int(time.time() * 1000)
-    for i, r in enumerate(lote, 1):
+    i = 0
+    paso = PARALELO_MP * 10
+    for ini in range(0, len(lote), paso):
         if time.time() - t0 > MAX_SEG_REVISION_DESC:
-            stats["pendientes"] += len(lote) - i + 1
+            stats["pendientes"] += len(lote) - ini
             print("  · revisión por descripción: tope de tiempo, el resto queda para la próxima corrida")
             break
-        det = traer_ficha(r["codigo"])
-        if not det:
-            stats["errores"] += 1      # no se cachea: se reintenta en la próxima corrida
-            continue
-        k = _coincidencia_desc(_texto_ficha(det))
-        cache[r["codigo"]] = {"v": 1 if k else 0, "k": k or "", "ts": ahora}
-        stats["revisadas"] += 1
-        if k:
-            stats["coinciden"] += 1
-        if i % 200 == 0:
-            print(f"  · {i}/{len(lote)} fichas revisadas ({stats['coinciden']} coinciden)")
+        grupo = lote[ini:ini + paso]
+        dets = _traer_paralelo(lambda reg: traer_ficha(reg["codigo"]), grupo)
+        for r, det in zip(grupo, dets):
+            i += 1
+            if not det:
+                stats["errores"] += 1      # no se cachea: se reintenta en la próxima corrida
+                continue
+            k = _coincidencia_desc(_texto_ficha(det))
+            cache[r["codigo"]] = {"v": 1 if k else 0, "k": k or "", "ts": ahora}
+            stats["revisadas"] += 1
+            if k:
+                stats["coinciden"] += 1
+            if i % 200 == 0:
+                print(f"  · {i}/{len(lote)} fichas revisadas ({stats['coinciden']} coinciden)")
     limite = ahora - 30 * 86400 * 1000
     cache = {c: e for c, e in cache.items() if e.get("ts", 0) >= limite}
     try:
