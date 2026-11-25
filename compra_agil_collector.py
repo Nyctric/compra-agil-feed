@@ -99,6 +99,8 @@ MAX_VIABLES_FEED = int(_CFG.get("max_viables_feed", 30))
 MAX_SIN_EVALUAR = int(_CFG.get("max_sin_evaluar", 60))
 # Casos dudosos (sin material, detalle en adjunto ilegible): se publican marcados "revisar" para que decida el usuario.
 MAX_REVISAR_FEED = int(_CFG.get("max_revisar_feed", 40))
+# Grupo "Láser R1": lo que no se imprime en 3D pero sí se haría con un láser CO2 (Bambu Lab R1).
+MAX_LASER_FEED = int(_CFG.get("max_laser_feed", 30))
 # Marcas del usuario desde la app ("la hago" / "no la hago"): mandan sobre la IA y le sirven de ejemplos.
 EJEMPLOS_USUARIO = [e for e in (_CFG.get("ejemplos_usuario") or []) if isinstance(e, dict) and e.get("c")]
 # Revisión por descripción: la búsqueda de Mercado Público solo mira el título; la ficha trae descripción y productos.
@@ -217,11 +219,11 @@ FUERTES = ["impresion 3d","impresora 3d","impreso en 3d","3d","maqueta","prototi
   "pin","pines","pins","insignia","senaletic","letrero","letras corporeas","letra corporea",
   "placa conmemorativa","placa recordatoria","escultura","busto","replica","diorama","braille",
   "podotactil","material didactico","didactic","souvenir","merchandising","exhibidor","figura",
-  "tipodonto","craneo","esqueleto","torso"]
+  "tipodonto","craneo","esqueleto","torso","grabado laser","corte laser","durolac"]
 DEBILES = ["repuesto","pieza","plastico","gabinete","carcasa","molde","resina","filamento","pla",
   "modelado","modelo","rotulo","placa","estuche","organizador","dispensador","atril","acrilico",
   "senalizacion","decoracion","juguete","rompecabezas","ajedrez","ortesis","ferula","maceta",
-  "reconocimiento","premiacion","premio","premiar","copa","logo","soporte"]
+  "reconocimiento","premiacion","premio","premiar","copa","logo","soporte","grabado","laser","mdf","terciado"]
 WHITELIST_EXTRA = FUERTES + DEBILES
 # Contexto que casi nunca termina en una pieza impresa. No descarta: resta
 # prioridad, salvo que el título también tenga un término FUERTE.
@@ -1425,8 +1427,18 @@ PROMPT_EVAL = ("Perfil de capacidades:\n" + PERFIL.replace("{", "(").replace("}"
     "hay dudas). r = razón de máx 10 palabras que cite el material o producto que decide. "
     "e = cita textual (máx 100 caracteres) copiada del texto (n, d, p o a) que te hizo decidir.\n"
     "{ejemplos}"
+    "8. CAMPO l (láser, independiente de v), SÉ PRECISO: la empresa evalúa comprar un láser CO2 Bambu Lab R1 de "
+    "55 W, área 600x300 mm, que CORTA y GRABA planchas de madera, MDF, terciado, durolac/hardboard, acrílico, "
+    "cuero y ecocuero. Marca l=true SOLO si la mayor parte del valor pedido son piezas planas de ESOS materiales "
+    "(o sin material indicado y que normalmente se hacen en madera o acrílico), cortadas o grabadas, solas o con "
+    "accesorios de compra (argollas, broches, bases): galvanos y placas de madera o acrílico, llaveros de "
+    "madera/durolac/acrílico/cuero, medallas de madera o acrílico, letreros y señalética de acrílico o madera, "
+    "souvenirs y cajas de madera. l=false si el producto es de VIDRIO o CRISTAL (galvanos, trofeos o placas de "
+    "cristal o vidrio: NO los trabaja aunque el láser grabe vidrio), de metal (placas de bronce, acero, aluminio, "
+    "medallas metálicas fundidas o acuñadas), de piedra, mármol, cerámica o resina fundida, o si son trofeos de "
+    "copa o figuras volumétricas de catálogo. Ante duda sobre el material, l=false y q=true. l no cambia v.\n"
     "Responde SOLO un arreglo JSON, una entrada por licitación ({n} en total):\n"
-    '[{{"c":"código","v":true,"q":false,"s":0,"r":"razón","e":"cita"}}]\n'
+    '[{{"c":"código","v":true,"q":false,"l":false,"s":0,"r":"razón","e":"cita"}}]\n'
     "Licitaciones:\n{datos}")
 
 
@@ -1510,6 +1522,11 @@ def evaluar_ia(candidatos, cache):
     _rx = re.compile(r"pvc|anat[oó]m|fantom|sin material|falta de detalle|ante duda|sin detalle|insumo|material no|no especifica|condon|condón|galvan", re.I)
     for _c in [c for c, e in cache.items() if not e.get("v") and e.get("pv") != EVAL_VERSION and _rx.search(e.get("r") or "")]:
         del cache[_c]
+    # Grupo láser R1: los "no viable" evaluados antes del campo l, cuyo motivo es un material que corta/graba
+    # el láser, se reevalúan para saber si irían en ese grupo.
+    _rxl = re.compile(r"madera|acr[ií]lic|cuero|mdf|terciad|grab|durolac|placa|plancha|l[aá]ser", re.I)
+    for _c in [c for c, e in cache.items() if not e.get("v") and "l" not in e and not e.get("u") and _rxl.search(e.get("r") or "")]:
+        del cache[_c]
     # Lo que el usuario marcó en la app manda: no se gasta IA en esos códigos.
     for e in EJEMPLOS_USUARIO:
         cache[e["c"]] = {"v": bool(e.get("v")), "q": False, "s": 70 if e.get("v") else 0,
@@ -1539,7 +1556,7 @@ def evaluar_ia(candidatos, cache):
                 cod = e.get("c") or e.get("codigo")
                 if not cod: continue
                 _v = bool(e.get("v", e.get("viable")))
-                cache[cod] = {"v": _v, "q": bool(e.get("q")) and not _v,
+                cache[cod] = {"v": _v, "q": bool(e.get("q")) and not _v, "l": bool(e.get("l")),
                               "s": max(0, min(100, int(e.get("s", e.get("score", 0)) or 0))),
                               "r": str(e.get("r", e.get("razon", "")))[:150],
                               "e": str(e.get("e") or "")[:160],
@@ -1571,8 +1588,11 @@ PROMPT_TRIAGE = (
     "piezas impresas en 3D por esta empresa. Sé inclusivo con modelos, maquetas, réplicas, simuladores y "
     "fantomas de entrenamiento, soportes, carcasas, organizadores, exhibidores, trofeos, galvanos, "
     "medallas, llaveros, placas y letreros, material didáctico, juguetes y juegos terapéuticos, timbres y "
-    "piezas plásticas a medida. Incluye un proceso solo si una parte importante de lo pedido son piezas que "
-    "se imprimen en 3D; si lo pedido es mayormente un producto industrial de catálogo, descártalo.\n"
+    "piezas plásticas a medida. Incluye también lo que se haría con un láser CO2 (corte y grabado de madera, "
+    "MDF, acrílico, cuero, durolac; no vidrio ni cristal): galvanos y placas de madera o acrílico, llaveros, "
+    "letreros, souvenirs, grabados. Incluye un proceso solo si una parte importante de lo pedido son piezas "
+    "que se imprimen en 3D o se cortan/graban con láser; si es mayormente un producto industrial de catálogo, "
+    "descártalo.\n"
     "Para cada uno indica en t la palabra o frase del título que lo delata, copiada tal como aparece.\n"
     'Responde SOLO un arreglo JSON: [{{"c":"código","t":"palabra"}}]. Si ninguno califica: [].\n'
     "Títulos (código|título):\n{datos}")
@@ -2081,7 +2101,8 @@ def main():
     # Lo que la IA ya evaluó como NO viable no se publica, aunque coincida con una palabra clave.
     # (El veredicto queda en la caché IA, así que no se vuelve a pagar por evaluarlo.)
     _antes = len(registros)
-    registros = [r for r in registros if not (r.get("ia") is not None and not r["ia"].get("v") and not r["ia"].get("q"))]
+    registros = [r for r in registros if not (r.get("ia") is not None and not r["ia"].get("v") and not r["ia"].get("q")
+                                              and not r["ia"].get("l"))]
     if _antes != len(registros):
         print(f"Feed: {_antes - len(registros)} oportunidades descartadas por la IA (no viables) no se publican")
     registros.sort(key=lambda r: (-(r.get("ia", {}).get("v") and 1 or 0),
@@ -2094,7 +2115,13 @@ def main():
             r.pop("sin_evaluar", None)
         _viables = [r for r in registros if (r.get("ia") or {}).get("v")][:MAX_VIABLES_FEED]
         # Dudosos: la IA no tuvo información suficiente — se publican para que decidas tú.
-        _rev = [r for r in registros if r.get("ia") and not r["ia"].get("v") and r["ia"].get("q")]
+        # Láser R1: no se imprime en 3D pero sí se corta/graba con el láser — grupo aparte.
+        _las = [r for r in registros if r.get("ia") and not r["ia"].get("v") and r["ia"].get("l")]
+        _las.sort(key=lambda r: -((r.get("ia") or {}).get("s") or 0))
+        _las = _las[:MAX_LASER_FEED]
+        for r in _las:
+            r["laser_r1"] = True
+        _rev = [r for r in registros if r.get("ia") and not r["ia"].get("v") and r["ia"].get("q") and not r["ia"].get("l")]
         _rev.sort(key=lambda r: -((r.get("ia") or {}).get("s") or 0))
         _rev = _rev[:MAX_REVISAR_FEED]
         for r in _rev:
@@ -2105,9 +2132,10 @@ def main():
         _sin = _sin[:MAX_SIN_EVALUAR]
         for r in _sin:
             r["sin_evaluar"] = True
-        registros = _viables + _rev + _sin
-        print(f"Feed curado: {len(_viables)} viables IA + {len(_rev)} a revisar + {len(_sin)} sin evaluar "
-              f"(de {_n0} candidatos; topes {MAX_VIABLES_FEED}/{MAX_REVISAR_FEED}/{MAX_SIN_EVALUAR})")
+        registros = _viables + _las + _rev + _sin
+        print(f"Feed curado: {len(_viables)} viables 3D + {len(_las)} láser R1 + {len(_rev)} a revisar + "
+              f"{len(_sin)} sin evaluar (de {_n0} candidatos; topes "
+              f"{MAX_VIABLES_FEED}/{MAX_LASER_FEED}/{MAX_REVISAR_FEED}/{MAX_SIN_EVALUAR})")
     if len(registros) > MAX_ITEMS_FEED:
         registros = registros[:MAX_ITEMS_FEED]
 
